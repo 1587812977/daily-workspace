@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-08-28 22:30",
+ "updatedAt": "2026-08-28 23:30",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,27 +12,27 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
-   "source": "智谱：研究（网页内嵌数据）",
-   "url": "https://aihot.virxact.com/items/cmtb6o47l0mmaroamhnqtifvv",
-   "time": "08-27 21:35",
-   "sourceCount": 13
-  },
-  {
-   "rank": 3,
    "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.virxact.com/items/cmtbq1hfq156croamzzo9gno2",
-   "time": "08-28 08:25",
-   "sourceCount": 7
+   "time": "08-28 22:28",
+   "sourceCount": 8
   },
   {
-   "rank": 4,
+   "rank": 3,
    "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.virxact.com/items/cmtacq8vz0aedroj24bcix9go",
    "time": "08-28 21:39",
    "sourceCount": 12
+  },
+  {
+   "rank": 4,
+   "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
+   "source": "智谱：研究（网页内嵌数据）",
+   "url": "https://aihot.virxact.com/items/cmtb6o47l0mmaroamhnqtifvv",
+   "time": "08-27 21:35",
+   "sourceCount": 7
   },
   {
    "rank": 5,
@@ -44,18 +44,18 @@ var WB_DATA = {
   },
   {
    "rank": 6,
-   "title": "Qwen3.8-Flash 开源，Qwen4 架构预览",
-   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-   "url": "https://aihot.virxact.com/items/cmta9ciqt07c1roj219h5liie",
-   "time": "08-27 09:03",
-   "sourceCount": 6
-  },
-  {
-   "rank": 7,
    "title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
    "source": "IT之家（RSS）",
    "url": "https://aihot.virxact.com/items/cmtaq20ih062wroamdrhb54b6",
    "time": "08-28 18:44",
+   "sourceCount": 5
+  },
+  {
+   "rank": 7,
+   "title": "Qwen3.8-Flash 开源，Qwen4 架构预览",
+   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+   "url": "https://aihot.virxact.com/items/cmta9ciqt07c1roj219h5liie",
+   "time": "08-27 09:03",
    "sourceCount": 5
   },
   {
@@ -84,6 +84,15 @@ var WB_DATA = {
   }
  ],
  "aihotItems": [
+  {
+   "title": "GLM-5.3 开源权重，智能体编码与网防最强",
+   "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
+   "reason": "开放权重让需要私有化部署的编码智能体与安全防御场景可以直接下载、运行和定制模型，不再受闭源 API 限制。",
+   "source": "X：智谱 Z.ai (@Zai_org)",
+   "url": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r",
+   "time": "08-28 23:04",
+   "category": "ai-models"
+  },
   {
    "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
    "summary": "Google 推出专用于语音转文字的 Gemini 3.5 Transcribe 模型，主打快速、准确且低成本的转录，原生支持说话人分离和词级毫秒时间戳。该模型支持 85+ 种语言自动识别与代码切换，可通过 custom_vocabulary 传入最多 1，000 个领域术语避免专有名词拼写错误，并提供 Smart Transcription 与 Verbatim 两种模式。",
@@ -182,15 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtbqq6pi15j3roamyuhn0uvk",
    "time": "08-28 00:19",
    "category": "tip"
-  },
-  {
-   "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
-   "summary": "Google 推出 Gemini Omni 1.1 Flash，为开发者提供更强的生成式视频控制能力。新模型支持场景扩展（可分析最多 10 秒先前上下文，以 10 秒为增量累计延长至 40 秒）、指定首尾帧生成平滑过渡，以及 4K 高清输出。",
-   "reason": "360p 预览的成本降到 720p 的三分之一并提速最多 60%，让视频生成的前期探索可以低成本多版本比较，改变的是创意工具迭代的节奏。",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtbq1hfq156croamzzo9gno2",
-   "time": "08-28 00:11",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -664,68 +664,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-08-28 22:31",
+   "updateTime": "2026-08-28 23:30",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "币圈富豪孙宇晨手撕景甜，索赔3千万彩礼，娱乐圈+金融圈惊天巨瓜！",
-     "url": "https://www.bilibili.com/video/BV1N1tF6SE2S",
-     "hot": 3248260
+     "title": "【2026LPL第三赛段】8月28日 TT vs IG",
+     "url": "https://www.bilibili.com/video/BV166tA6SECF",
+     "hot": 1040610
+    },
+    {
+     "title": "《洛克王国：世界》S4赛季「月涌狂想」PV首曝，新的冒险即将开启！",
+     "url": "https://www.bilibili.com/video/BV1notF6GE8F",
+     "hot": 572230
     },
     {
      "title": "蒙眼挑战之泥坑剪绳子恐惧版！",
      "url": "https://www.bilibili.com/video/BV1doh56EE1c",
-     "hot": 1614554
+     "hot": 1777167
     },
     {
-     "title": "贵州大美男系列山歌，一次看过瘾！",
-     "url": "https://www.bilibili.com/video/BV1sehc6oEQ4",
-     "hot": 1206535
-    },
-    {
-     "title": "这不是幻想",
-     "url": "https://www.bilibili.com/video/BV137tc6ZExx",
-     "hot": 440725
+     "title": "币圈富豪孙宇晨手撕景甜，索赔3千万彩礼，娱乐圈+金融圈惊天巨瓜！",
+     "url": "https://www.bilibili.com/video/BV1N1tF6SE2S",
+     "hot": 3510807
     },
     {
      "title": "炸了！3亿代孕费！片场互相睡！2026头号大瓜新鲜出炉！",
      "url": "https://www.bilibili.com/video/BV1XT4f6dED8",
-     "hot": 1545655
+     "hot": 1685310
     },
     {
      "title": "吃瓜必看！一个视频带你全面复盘景甜、孙宇晨炸裂大瓜！娱乐圈还是太乱了",
      "url": "https://www.bilibili.com/video/BV1JJtF6qEgn",
-     "hot": 1821164
-    },
-    {
-     "title": "三缺一，快@你的好友！",
-     "url": "https://www.bilibili.com/video/BV1M3hw6aEbQ",
-     "hot": 1226793
-    },
-    {
-     "title": "美术展里的假人模型，为何变成了真人尸体...？",
-     "url": "https://www.bilibili.com/video/BV1NC4Z6VEUQ",
-     "hot": 518028
-    },
-    {
-     "title": "Grand Theft Auto VI：分量十足的一瞥",
-     "url": "https://www.bilibili.com/video/BV1vm4f6bETN",
-     "hot": 783582
-    },
-    {
-     "title": "来财ASMR",
-     "url": "https://www.bilibili.com/video/BV118tc6UEFo",
-     "hot": 85117
+     "hot": 1953493
     },
     {
      "title": "看了10年网络热门生物，无穷小亮能看出AI吗？",
      "url": "https://www.bilibili.com/video/BV1eVtc6hEhn",
-     "hot": 496387
+     "hot": 565556
     },
     {
-     "title": "我们开始备孕了，但是Kat居然后悔了......",
-     "url": "https://www.bilibili.com/video/BV1knh36jEEE",
-     "hot": 1222939
+     "title": "贵州大美男系列山歌，一次看过瘾！",
+     "url": "https://www.bilibili.com/video/BV1sehc6oEQ4",
+     "hot": 1267907
+    },
+    {
+     "title": "美术展里的假人模型，为何变成了真人尸体...？",
+     "url": "https://www.bilibili.com/video/BV1NC4Z6VEUQ",
+     "hot": 573196
+    },
+    {
+     "title": "怪兽中 出了一个...不对！是一群奥特曼的卧底！【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1DNhw6iE1V",
+     "hot": 2458786
+    },
+    {
+     "title": "一场不按计划发生的旅行【出发吧少年1】",
+     "url": "https://www.bilibili.com/video/BV1Jktc6rERm",
+     "hot": 329196
+    },
+    {
+     "title": "三缺一，快@你的好友！",
+     "url": "https://www.bilibili.com/video/BV1M3hw6aEbQ",
+     "hot": 1290808
     }
    ]
   }
@@ -783,28 +783,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "鹰了又不够鹰：简单看懂沃什今天说了什么",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwxpi8954101.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "黄金价格下跌 市场认为美联储主席沃什的讲话偏鹰派",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfr9915676.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "全文|沃什杰克逊霍尔首秀：通胀2%目标坚定不移 首要关注点是物价",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfm9075689.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "短期美债收益率跃升 沃什表态缓解市场对其抗通胀决心的部分疑虑",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfm9066440.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "坚定鹰派哈玛克：加息！",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfm4390228.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "调查：经济学家期待沃什在杰克逊霍尔更多阐述经济观点",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfm9020916.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "美的集团2026年半年报:营收2610.5亿元，孵化超2万个智能体",
-   "url": "https://finance.sina.com.cn/tech/it/2026-08-28/doc-inipwtfm8997475.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "美图AI算力点消费半年翻倍，管理层称AI应用层迎关键窗口期",
-   "url": "https://finance.sina.com.cn/tech/it/2026-08-28/doc-inipwtfm8996872.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "网易捐赠1000万元驰援西藏吉隆泥石流灾区",
-   "url": "https://finance.sina.com.cn/jjxw/2026-08-28/doc-inipwtfp5761094.shtml",
    "source": "新浪科技"
   }
  ]
