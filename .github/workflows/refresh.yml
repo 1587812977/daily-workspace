@@ -1,0 +1,54 @@
+name: refresh-data
+
+on:
+  schedule:
+    - cron: "0 0 * * *"    # 北京时间 08:00
+    - cron: "30 4 * * *"   # 北京时间 12:30
+    - cron: "30 12 * * *"  # 北京时间 20:30
+  workflow_dispatch:        # 支持手动触发
+
+permissions:
+  contents: write   # 提交 data.js
+  pages: write      # 开启/维护 GitHub Pages
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 刷新数据（AIHOT / 热榜 / 科技 / Epic / B站）
+        run: python refresh.py
+
+      - name: 提交 data.js
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "data: refresh $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
+
+      - name: 确保 GitHub Pages 已开启
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          code=$(curl -s -o /tmp/pages.json -w "%{http_code}" -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages" \
+            -d '{"source":{"branch":"main","path":"/"}}')
+          echo "Pages 开启状态 HTTP $code（201=新建成功 409=已存在均属正常）"
+          cat /tmp/pages.json || true

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>个人工作台 · 每日信息中枢</title>
+<style>
+:root{
+  --side-bg:#0f172a;--side-bg2:#1e293b;--side-txt:#94a3b8;--side-active:#e2e8f0;
+  --bg:#f1f5f9;--card:#ffffff;--txt:#0f172a;--txt2:#475569;--txt3:#94a3b8;
+  --brand:#4f46e5;--brand-soft:#eef2ff;--line:#e2e8f0;
+  --red:#dc2626;--orange:#ea580c;--green:#059669;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--txt);font-size:15px;line-height:1.6}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{display:flex;min-height:100vh}
+
+/* ===== 左侧栏 ===== */
+.side{width:230px;background:linear-gradient(180deg,var(--side-bg),var(--side-bg2));color:var(--side-txt);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;flex-shrink:0}
+.brand{padding:22px 18px 16px;border-bottom:1px solid rgba(148,163,184,.15)}
+.brand h1{font-size:18px;color:#fff;font-weight:700;letter-spacing:.5px}
+.brand p{font-size:12px;margin-top:3px;color:var(--side-txt)}
+.nav{flex:1;padding:12px 10px;overflow-y:auto}
+.nav-item{display:flex;align-items:center;gap:11px;padding:11px 12px;border-radius:10px;cursor:pointer;color:var(--side-txt);font-size:14px;font-weight:500;margin-bottom:4px;transition:background .15s,color .15s;border:none;background:transparent;width:100%;text-align:left}
+.nav-item:hover{background:rgba(148,163,184,.12);color:var(--side-active)}
+.nav-item.on{background:var(--brand);color:#fff}
+.nav-item .ic{width:20px;height:20px;flex-shrink:0}
+.nav-item .cnt{margin-left:auto;font-size:11px;background:rgba(148,163,184,.2);border-radius:99px;padding:1px 8px}
+.nav-item.on .cnt{background:rgba(255,255,255,.25)}
+.side-foot{padding:14px 18px;border-top:1px solid rgba(148,163,184,.15);font-size:11px;line-height:1.7}
+
+/* ===== 主区 ===== */
+.main{flex:1;min-width:0;padding:22px 26px 60px;max-width:1060px}
+.crumb{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.crumb h2{font-size:22px;font-weight:700}
+.crumb .stamp{font-size:12px;color:var(--txt3)}
+.crumb .live{display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--green);background:#ecfdf5;border:1px solid #d1fae5;border-radius:99px;padding:2px 10px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.intro{font-size:13px;color:var(--txt2);margin-bottom:18px;background:var(--brand-soft);border:1px solid #e0e7ff;border-radius:10px;padding:10px 14px}
+
+.panel{display:none}
+.panel.on{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
+.card h3{font-size:15px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.card h3 .tag{font-size:11px;font-weight:600;color:var(--brand);background:var(--brand-soft);border-radius:6px;padding:1px 7px}
+
+/* 排行列表 */
+.rank-row{display:flex;align-items:center;gap:12px;padding:9px 6px;border-bottom:1px dashed var(--line)}
+.rank-row:last-child{border-bottom:none}
+.rank-no{width:26px;height:26px;border-radius:8px;background:#f1f5f9;color:var(--txt2);font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.rank-no.top1{background:#fee2e2;color:var(--red)}.rank-no.top2{background:#ffedd5;color:var(--orange)}.rank-no.top3{background:#fef9c3;color:#a16207}
+.rank-body{flex:1;min-width:0}
+.rank-title{font-size:14.5px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rank-title a{color:var(--txt)}
+.rank-meta{font-size:12px;color:var(--txt3);margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hotv{font-size:12px;color:var(--txt3);flex-shrink:0;font-variant-numeric:tabular-nums}
+
+/* 资讯条目 */
+.news{padding:13px 4px;border-bottom:1px solid var(--line)}
+.news:last-child{border-bottom:none}
+.news .t{font-size:15px;font-weight:600}
+.news .s{font-size:13px;color:var(--txt2);margin-top:4px}
+.news .m{font-size:12px;color:var(--txt3);margin-top:5px;display:flex;gap:10px;flex-wrap:wrap}
+.badge{font-size:11px;color:var(--brand);background:var(--brand-soft);border-radius:5px;padding:1px 6px}
+.why{font-size:12.5px;color:var(--green);background:#f0fdf4;border-left:3px solid #bbf7d0;border-radius:0 6px 6px 0;padding:6px 10px;margin-top:8px}
+
+/* 平台 Tab */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.tab{border:1px solid var(--line);background:#fff;color:var(--txt2);font-size:13px;font-weight:600;border-radius:99px;padding:6px 16px;cursor:pointer;transition:all .15s}
+.tab:hover{border-color:var(--brand);color:var(--brand)}
+.tab.on{background:var(--brand);border-color:var(--brand);color:#fff}
+.hot-panel{display:none}.hot-panel.on{display:block}
+
+/* 提示条 */
+.note{font-size:13px;color:#92400e;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:10px 14px;margin-bottom:14px}
+
+@media(max-width:820px){
+  .wrap{flex-direction:column}
+  .side{width:100%;height:auto;position:static}
+  .brand{padding:14px 16px 10px}
+  .nav{display:flex;overflow-x:auto;padding:6px 10px 10px;gap:2px}
+  .nav-item{white-space:nowrap;padding:8px 13px;margin-bottom:0}
+  .nav-item .cnt{display:none}
+  .side-foot{display:none}
+  .main{padding:14px 14px 50px}
+  .rank-title{white-space:normal}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <aside class="side">
+    <div class="brand">
+      <h1>个人工作台</h1>
+      <p>每日信息中枢 · 5 项长期工作</p>
+    </div>
+    <nav class="nav" id="nav">
+      <button class="nav-item on" data-p="aihot">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+        AIHOT 实时热点<span class="cnt" id="cntAihot">0</span>
+      </button>
+      <button class="nav-item" data-p="aidaily">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        AI 行业日报<span class="cnt" id="cntDaily">0</span>
+      </button>
+      <button class="nav-item" data-p="tech">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z"/></svg>
+        每日科技播报<span class="cnt" id="cntTech">0</span>
+      </button>
+      <button class="nav-item" data-p="hot">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 11a1 1 0 0 1 0 2H9l-2 2H3l2-3a5 5 0 0 1 .3-5.5A5 5 0 0 1 9 3h8a1 1 0 0 1 0 2 1 1 0 0 0 0 2 1 1 0 0 1 0 2 1 1 0 0 0 0 2z"/></svg>
+        全网热榜<span class="cnt" id="cntHot">0</span>
+      </button>
+      <button class="nav-item" data-p="douyin">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        抖音热榜<span class="cnt" id="cntDy">0</span>
+      </button>
+    </nav>
+    <div class="side-foot">
+      数据由 GitHub Actions 云端定时刷新<br>电脑关机也会照常更新
+    </div>
+  </aside>
+
+  <main class="main" id="main"></main>
+</div>
+
+<script>var WB_DATA = {};</script>
+<script src="data.js"></script>
+<script>
+(function(){
+  var D = window.WB_DATA || {};
+  var main = document.getElementById('main');
+  var esc = function(s){
+    return String(s==null?'':s).replace(/[&<>"']/g,function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  };
+  var fmtHot = function(v){
+    var n = parseInt(v,10);
+    if(!n && n!==0) return String(v||'');
+    if(n>=10000) return (n/10000).toFixed(1)+'万';
+    return String(n);
+  };
+
+  /* ---------- 各面板渲染 ---------- */
+
+  function pAihot(){
+    var h = '';
+    h += '<div class="crumb"><h2>AIHOT 实时热点</h2>'
+      + '<span class="live"><span class="dot"></span>实时</span>'
+      + '<span class="stamp">数据更新于 '+esc(D.updatedAt||'')+'（北京时间）</span></div>';
+    h += '<div class="intro">当前最热事件 + 过去 24 小时精选，数据来自 AIHOT 策展池，每条都是多信源交叉验证过的关键信息。</div>';
+
+    var hot = D.aihotHot||[], items = D.aihotItems||[];
+    h += '<div class="card"><h3>🔥 当前最热事件 <span class="tag">hot-topics</span></h3>';
+    hot.forEach(function(x,i){
+      h += '<div class="rank-row"><div class="rank-no'+(i<3?' top'+(i+1):'')+'">'+(i+1)+'</div>'
+        +'<div class="rank-body"><div class="rank-title"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a></div>'
+        +'<div class="rank-meta">'+esc(x.source||'')+(x.time?' · '+esc(x.time):'')+(x.sourceCount?' · '+x.sourceCount+' 个信源':'')+'</div></div></div>';
+    });
+    h += '</div>';
+
+    h += '<div class="card"><h3>⭐ 过去 24 小时精选 <span class="tag">24h</span></h3>';
+    items.forEach(function(x){
+      h += '<div class="news"><div class="t"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a></div>'
+        +'<div class="s">'+esc(x.summary)+'</div>'
+        +'<div class="m"><span class="badge">'+esc(x.category||'')+'</span><span>'+esc(x.source||'')+'</span>'+(x.time?'<span>'+esc(x.time)+'</span>':'')+'</div>'
+        +(x.reason?'<div class="why">'+esc(x.reason)+'</div>':'')
+        +'</div>';
+    });
+    h += '</div>';
+    return h;
+  }
+
+  function pAidaily(){
+    var r = D.aiDaily||{};
+    var h = '';
+    h += '<div class="crumb"><h2>AI 行业日报</h2><span class="stamp">'+esc(r.date||'')+' 期</span>'
+      +'<span class="stamp">数据更新于 '+esc(D.updatedAt||'')+'</span></div>';
+    h += '<div class="intro">每天一份的 AI 行业成品日报：模型、产品、行业、论文、观点五个板块。'+(r.url?'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">查看完整日报 →</a>':'')+'</div>';
+    (r.sections||[]).forEach(function(s){
+      h += '<div class="card"><h3>'+esc(s.label)+'</h3>';
+      (s.items||[]).forEach(function(x){
+        h += '<div class="news"><div class="t"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a></div>'
+          +'<div class="s">'+esc(x.summary)+'</div>'
+          +'<div class="m"><span>'+esc(x.source||'')+'</span></div></div>';
+      });
+      h += '</div>';
+    });
+    return h;
+  }
+
+  function pTech(){
+    var list = D.techNews||[];
+    var h = '';
+    h += '<div class="crumb"><h2>每日科技播报</h2><span class="stamp">数据更新于 '+esc(D.updatedAt||'')+'</span></div>';
+    h += '<div class="intro">来自新浪科技、IT之家等可抓取信息源的当日科技新闻标题简报，附 Epic 本周限免游戏提醒。</div>';
+    h += '<div class="card"><h3>📰 今日要闻</h3>';
+    list.forEach(function(x,i){
+      h += '<div class="rank-row"><div class="rank-no'+(i<3?' top'+(i+1):'')+'">'+(i+1)+'</div>'
+        +'<div class="rank-body"><div class="rank-title">'+esc(x.title)+'</div>'
+        +'<div class="rank-meta">'+esc(x.source||'')+'</div></div></div>';
+    });
+    h += '</div>';
+    var epic = D.epic||[];
+    if(epic.length){
+      h += '<div class="card"><h3>🎮 Epic 本周限免 <span class="tag">免费领取</span></h3>';
+      epic.forEach(function(x){
+        h += '<div class="news"><div class="t"><a href="'+esc(x.link)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a></div>'
+          +(x.description?'<div class="s">'+esc(x.description)+'</div>':'')
+          +'<div class="m">'+(x.original_price_desc?'<span class="badge">原价 '+esc(x.original_price_desc)+'</span>':'')
+          +(x.free_end?'<span>免费至 '+esc(x.free_end)+'</span>':'')+'</div></div>';
+      });
+      h += '</div>';
+    }
+    return h;
+  }
+
+  var hotKeys = [
+    ['weibo','微博'],['zhihu','知乎'],['bilibili','B站'],
+    ['baidu','百度'],['toutiao','头条']
+  ];
+
+  function pHot(){
+    var L = D.hotLists||{};
+    var h = '';
+    h += '<div class="crumb"><h2>全网热榜</h2><span class="stamp">数据更新于 '+esc(D.updatedAt||'')+'</span></div>';
+    h += '<div class="intro">微博 / 知乎 / B站 / 百度 / 头条，各平台实时热榜 TOP12。</div>';
+    h += '<div class="tabs" id="hotTabs">';
+    hotKeys.forEach(function(k,i){
+      h += '<button class="tab'+(i===0?' on':'')+'" data-h="'+k[0]+'">'+k[1]+'</button>';
+    });
+    h += '</div>';
+    hotKeys.forEach(function(k,i){
+      var d = L[k[0]];
+      h += '<div class="hot-panel'+(i===0?' on':'')+'" data-hp="'+k[0]+'">';
+      if(d){
+        h += '<div class="card"><h3>'+esc(d.name||k[1])+' <span class="tag">'+esc(d.updateTime||'')+'</span></h3>';
+        (d.data||[]).forEach(function(x,j){
+          h += '<div class="rank-row"><div class="rank-no'+(j<3?' top'+(j+1):'')+'">'+(j+1)+'</div>'
+            +'<div class="rank-body"><div class="rank-title"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a></div></div>'
+            +'<div class="hotv">'+esc(fmtHot(x.hot))+'</div></div>';
+        });
+        h += '</div>';
+      } else {
+        h += '<div class="note">该平台数据暂缺</div>';
+      }
+      h += '</div>';
+    });
+    return h;
+  }
+
+  function pDouyin(){
+    var L = D.hotLists||{};
+    var d = L.douyin;
+    var h = '';
+    h += '<div class="crumb"><h2>抖音热榜</h2><span class="stamp">数据更新于 '+esc(D.updatedAt||'')+'</span></div>';
+    h += '<div class="note">📌 「抖音每日最热作品榜」需要红狐 API Key（未配置）。当前展示的是抖音实时热点榜，配置 REDFOX_API_KEY 后可切换为点赞 TOP 作品榜。</div>';
+    if(d){
+      h += '<div class="card"><h3>'+esc(d.name||'抖音')+' <span class="tag">'+esc(d.updateTime||'')+'</span></h3>';
+      (d.data||[]).forEach(function(x,j){
+        h += '<div class="rank-row"><div class="rank-no'+(j<3?' top'+(j+1):'')+'">'+(j+1)+'</div>'
+          +'<div class="rank-body"><div class="rank-title"><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a></div></div>'
+          +'<div class="hotv">'+esc(fmtHot(x.hot))+'</div></div>';
+      });
+      h += '</div>';
+    } else {
+      h += '<div class="note">抖音数据暂缺</div>';
+    }
+    return h;
+  }
+
+  /* ---------- 路由 ---------- */
+
+  var panels = {
+    aihot:pAihot, aidaily:pAidaily, tech:pTech, hot:pHot, douyin:pDouyin
+  };
+
+  function show(key){
+    document.querySelectorAll('.nav-item').forEach(function(b){
+      b.classList.toggle('on', b.getAttribute('data-p')===key);
+    });
+    main.innerHTML = panels[key]();
+    main.scrollTop = 0;
+    window.scrollTo(0,0);
+    if(key==='hot'){
+      var tabs = document.getElementById('hotTabs');
+      if(tabs) tabs.addEventListener('click', function(ev){
+        var t = ev.target.closest('.tab');
+        if(!t) return;
+        var k = t.getAttribute('data-h');
+        tabs.querySelectorAll('.tab').forEach(function(x){x.classList.toggle('on', x===t);});
+        document.querySelectorAll('.hot-panel').forEach(function(p){
+          p.classList.toggle('on', p.getAttribute('data-hp')===k);
+        });
+      });
+    }
+  }
+
+  document.getElementById('nav').addEventListener('click', function(ev){
+    var b = ev.target.closest('.nav-item');
+    if(!b) return;
+    show(b.getAttribute('data-p'));
+  });
+
+  /* 计数徽标 */
+  function setCnt(id, n){ var el=document.getElementById(id); if(el) el.textContent = n; }
+  setCnt('cntAihot', ((D.aihotHot||[]).length + (D.aihotItems||[]).length));
+  setCnt('cntDaily', (D.aiDaily&&D.aiDaily.sections||[]).reduce(function(a,s){return a+(s.items||[]).length;},0));
+  setCnt('cntTech', (D.techNews||[]).length);
+  setCnt('cntHot', hotKeys.filter(function(k){return (D.hotLists||{})[k[0]];}).length + ' 平台');
+  setCnt('cntDy', ((D.hotLists||{}).douyin||{data:[]}).data.length);
+
+  if(!D.updatedAt){
+    main.innerHTML = '<div class="note">⏳ 数据尚未生成：请打开仓库 <a href="https://github.com/1587812977/daily-workspace/actions" target="_blank" rel="noopener">Actions 页面</a>，选择 refresh-data 工作流，点 <b>Run workflow</b> 手动运行一次（之后按计划自动运行）。</div>';
+  } else { show('aihot'); }
+})();
+</script>
+</body>
+</html>
