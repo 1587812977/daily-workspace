@@ -1268,6 +1268,7 @@ body.dark .nav-item .fold:hover{background:rgba(255,255,255,.08)}
 .nav-item.nav-sub.on{border-left-color:var(--cyan)}
 /* 折叠状态：隐藏该分组的子项 */
 body.nav-fold-news .nav-item[data-parent="news"]{display:none}
+body.nav-fold-github .nav-item[data-parent="github"]{display:none}
 @media (max-width:900px){
   .nav-item.nav-sub{margin-left:14px;min-height:44px;padding:11px 12px}
   .nav-item .fold{width:28px;height:28px}
@@ -1281,7 +1282,9 @@ body.nav-fold-news .nav-item[data-parent="news"]{display:none}
   padding:13px 14px;cursor:pointer;transition:.15s;color:var(--txt);font:inherit;
 }
 .news-sub:hover{background:rgba(0,0,0,.05);border-color:var(--cyan)}
-.news-sub .ns-ic{font-size:20px;flex:none;width:30px;text-align:center}
+.news-sub .ns-ic{font-size:20px;flex:none;width:30px;text-align:center;display:flex;align-items:center;justify-content:center}
+/* 索引卡里用内联 SVG 图标时（如 GitHub 榜单），统一描边风格 */
+.news-sub .ns-ic svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 .news-sub .ns-bd{display:flex;flex-direction:column;flex:1;min-width:0}
 .news-sub .ns-name{font-size:15px;font-weight:600}
 .news-sub .ns-desc{font-size:12.5px;color:var(--txt3);margin-top:2px}
@@ -1613,6 +1616,13 @@ body.theme-mono .nav-badge{background:var(--txt2);color:var(--card);box-shadow:n
       <button class="nav-item" draggable="true" data-sec="hot">
         <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2.5s4.5 4 4.5 8.2a4.5 4.5 0 0 1-9 0c0-1.7 1.1-2.9 1.1-2.9s.6 1.2 1.7 1.2c.9 0 1.7-1.5 1.7-6.5z"/><path d="M12 21.5a5.5 5.5 0 0 0 5.5-5.5c0-1.4-.4-2.6-1-3.6"/></svg></span>
         <span class="bd"><span class="lb">全网热榜</span></span>
+      </button>
+      <button class="nav-item nav-parent" draggable="false" data-sec="github">
+        <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.6 2 12.3c0 4.5 2.9 8.4 6.8 9.7.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.4-3.4-1.4-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.3 9.3 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5 3.9-1.3 6.8-5.2 6.8-9.7C22 6.6 17.5 2 12 2z"/></svg></span>
+        <span class="bd"><span class="lb">GitHub 榜单</span></span>
+        <span class="fold" data-fold="github" title="展开 / 收起">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </span>
       </button>
       <button class="nav-item" draggable="true" data-sec="settings">
         <span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4m0 14v4M4.22 4.22l2.83 2.83m9.9 9.9l2.83 2.83M1 12h4m14 0h4M4.22 19.78l2.83-2.83m9.9-9.9l2.83-2.83"/></svg></span>
@@ -3262,6 +3272,7 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     book:     {title:"记账",        fn:function(){ return pBook(); }},
     fav:      {title:"我的收藏夹",  fn:function(){ return pFav(); }},
     news:     {title:"今日热点资讯", fn:pNewsIndex},
+    github:   {title:"GitHub 榜单",   fn:pGithubIndex},
     aihot:    {title:"AIHOT 热点",  fn:function(){ return pAihot(); }},
     daily:    {title:"AI 行业日报", fn:function(){ return pDaily(); }},
     tech:     {title:"科技播报",    fn:function(){ return pTech(); }},
@@ -3292,6 +3303,10 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     {key:"steam", name:"Steam 游戏", desc:"Steam 折扣特惠与新品上线", cls:"card-acc-blue",
      ic:'<svg viewBox="0 0 24 24"><path d="M7 12h4M9 10v4M16 13h.01M18 11h.01"/><path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/></svg>'}
   ];
+  /* 导航分组：属于同一父项的子模块，注册时挂到父项下面（缩进 + data-parent）。
+     这些模块在「全部总览」里不再各自铺开，而是合并成一张索引卡，点子项才展开。 */
+  var GH_GROUP = { "github-ai":"github", "github-hot":"github" };
+  function addonGroup(key){ return GH_GROUP[key] || ""; }
   function addonMeta(key){ for(var i=0;i<ADDON_CATALOG.length;i++){ if(ADDON_CATALOG[i].key===key) return ADDON_CATALOG[i]; } return null; }
   function loadAddedMods(){
     try{
@@ -3311,7 +3326,17 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     return ADDED_DEF.slice();
   }
   function saveAddedMods(a){ try{ localStorage.setItem(ADDED_KEY, JSON.stringify(a)); }catch(e){} }
-  function addedAllHtml(){ var h=""; loadAddedMods().forEach(function(k){ if(MOD_FNS[k]) h+=MOD_FNS[k](); }); return h; }
+  /* 已添加模块在总览页的渲染：属于导航分组的（如 GitHub 两个榜单）不各自铺开，
+     统一合并为一张子板块索引卡，避免总览过长。 */
+  function addedAllHtml(){
+    var h = "";
+    loadAddedMods().forEach(function(k){
+      if(addonGroup(k)) return;
+      if(MOD_FNS[k]) h += MOD_FNS[k]();
+    });
+    h += pGithubIndex();
+    return h;
+  }
 
   var moduleTimers = [];
   var pomoIv = null, countIv = null;
@@ -3704,6 +3729,31 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     ghLangBind("WB_GITHUB_HOT", "ghHotList");
     ghEnsureCn("WB_GITHUB_HOT", "ghHotList");
   }
+  /* ---- GitHub 榜单：子板块索引（与「今日热点资讯」同款处理） ----
+     两个榜单各 20 条，全部铺在总览页太长。这里只给一张索引卡，
+     点子项才进入完整榜单；未添加的模块不出现在索引里。 */
+  function pGithubIndex(){
+    var added = loadAddedMods();
+    var subs = [
+      {sec:"github-ai",  name:"GitHub AI 趋势",  desc:"追踪本周最火的 AI 开源项目"},
+      {sec:"github-hot", name:"GitHub 热门项目", desc:"本周 GitHub 全站热门仓库"}
+    ];
+    var live = subs.filter(function(s){ return added.indexOf(s.sec) >= 0; });
+    if(!live.length) return "";
+    var h = '<div class="sec-title"><span class="b">▮</span>选择一个榜单查看，各榜单独立、互不混杂</div>';
+    h += '<div class="news-subs">';
+    live.forEach(function(s){
+      var n = ghData(s.sec === "github-ai" ? "WB_GITHUB_AI" : "WB_GITHUB_HOT").length;
+      h += '<button class="news-sub" data-sec="' + s.sec + '">'
+        + '<span class="ns-ic">' + GITHUB_IC + '</span>'
+        + '<span class="ns-bd"><span class="ns-name">' + s.name + '</span>'
+        + '<span class="ns-desc">' + s.desc + (n ? ' · ' + n + ' 条' : '') + '</span></span>'
+        + '<span class="ns-arrow">›</span>'
+        + '</button>';
+    });
+    h += '</div>';
+    return card("card-acc-green", GITHUB_IC, "GitHub 榜单 · 子板块", live.length + " 个", h);
+  }
   MOD_FNS["github-ai"] = pGithubAi; MOD_BIND["github-ai"] = bindGithubAi;
   MOD_FNS["github-hot"] = pGithubHot; MOD_BIND["github-hot"] = bindGithubHot;
 
@@ -3801,11 +3851,27 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     var m = addonMeta(key); if(!m) return;
     var nav = document.getElementById("nav");
     if(!nav || nav.querySelector('[data-sec="'+key+'"]')) return;
-    var ins = nav.querySelector ? nav.querySelector('[data-sec="settings"]') : null;
+    var grp = addonGroup(key);
     var b = document.createElement("button");
-    b.className = "nav-item"; b.setAttribute("draggable","true"); b.setAttribute("data-sec", key);
+    b.className = "nav-item" + (grp ? " nav-sub" : "");
+    b.setAttribute("draggable","true"); b.setAttribute("data-sec", key);
+    if(grp) b.setAttribute("data-parent", grp);
     b.innerHTML = '<span class="ic">' + m.ic + '</span><span class="bd"><span class="lb">' + esc(m.name) + '</span></span>';
-    if(ins) nav.insertBefore(b, ins); else nav.appendChild(b);
+    var placed = false;
+    if(grp){
+      /* 挂到父项下面：插到同组最后一个子项之后；还没有子项就紧跟父项 */
+      var subs = nav.querySelectorAll('[data-parent="'+grp+'"]');
+      var anchor = subs.length ? subs[subs.length-1] : nav.querySelector('[data-sec="'+grp+'"]');
+      if(anchor){
+        if(anchor.nextSibling) nav.insertBefore(b, anchor.nextSibling);
+        else nav.appendChild(b);
+        placed = true;
+      }
+    }
+    if(!placed){
+      var ins = nav.querySelector ? nav.querySelector('[data-sec="settings"]') : null;
+      if(ins) nav.insertBefore(b, ins); else nav.appendChild(b);
+    }
     saveNavOrder();
   }
   function mountAddedMods(){
@@ -3908,10 +3974,11 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     var title = document.getElementById("secTitle");
     if(title) title.textContent = s.title;
     grid.className = "grid" + (curSec === "all" ? "" : " solo");
-    /* 进入「今日热点资讯」时优先展开侧栏子选项；离开时恢复原折叠偏好 */
-    if(curSec === "news"){
-      document.body.classList.remove("nav-fold-news");
-      var _f = document.querySelector ? document.querySelector("[data-fold]") : null;
+    /* 进入「今日热点资讯」/「GitHub 榜单」时优先展开侧栏子选项；离开时恢复原折叠偏好 */
+    if(curSec === "news" || curSec === "github"){
+      try{ localStorage.setItem(foldKeyOf(curSec), "0"); }catch(e){}
+      if(document.body && document.body.classList) document.body.classList.remove("nav-fold-"+curSec);
+      var _f = document.querySelector ? document.querySelector('[data-fold="'+curSec+'"]') : null;
       if(_f) _f.classList.add("open");
     }else if(typeof applyFold === "function"){ applyFold(); }
     /* 本地板块（打卡 / 代办 / 收藏）不依赖云端资讯，无数据也照常渲染 */
@@ -3985,28 +4052,37 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     });
   }
 
-  /* ---- 导航分组折叠 ---- */
+  /* ---- 导航分组折叠（按分组独立持久化；news 沿用旧键以兼容老用户） ---- */
   var FOLD_KEY = "wb_nav_fold_v1";
-  function loadFold(){
-    try{ return localStorage.getItem(FOLD_KEY) === "1"; }catch(e){ return false; }
+  var GH_FOLD_KEY = "wb_nav_fold_github_v1";
+  function foldKeyOf(g){ return g === "github" ? GH_FOLD_KEY : FOLD_KEY; }
+  function loadFold(){ return loadFoldGen("news"); }
+  function saveFold(v){ saveFoldGen("news", v); }
+  function loadFoldGen(g){
+    try{ return localStorage.getItem(foldKeyOf(g)) === "1"; }catch(e){ return false; }
   }
-  function saveFold(v){ try{ localStorage.setItem(FOLD_KEY, v ? "1" : "0"); }catch(e){} }
+  function saveFoldGen(g, v){ try{ localStorage.setItem(foldKeyOf(g), v ? "1" : "0"); }catch(e){} }
   function applyFold(){
-    var folded = loadFold();
-    if(document.body && document.body.classList) document.body.classList.toggle("nav-fold-news", folded);
-    var f = document.querySelector ? document.querySelector("[data-fold]") : null;
-    if(f) f.classList.toggle("open", !folded);
+    var folds = document.querySelectorAll ? document.querySelectorAll("[data-fold]") : [];
+    for(var i=0;i<folds.length;i++){
+      var g = folds[i].getAttribute("data-fold") || "news";
+      var folded = loadFoldGen(g);
+      if(document.body && document.body.classList) document.body.classList.toggle("nav-fold-"+g, folded);
+      if(folds[i].classList) folds[i].classList.toggle("open", !folded);
+    }
   }
   applyFold();
-  var foldBtn = document.querySelector ? document.querySelector("[data-fold]") : null;
-  if(foldBtn){
-    foldBtn.addEventListener("click", function(ev){
-      if(ev.stopPropagation) ev.stopPropagation();
-      if(ev.preventDefault) ev.preventDefault();
-      var folded = !loadFold();
-      saveFold(folded);
-      applyFold();
-    });
+  var foldBtns = document.querySelectorAll ? document.querySelectorAll("[data-fold]") : [];
+  for(var _fi=0;_fi<foldBtns.length;_fi++){
+    (function(btn){
+      btn.addEventListener("click", function(ev){
+        if(ev.stopPropagation) ev.stopPropagation();
+        if(ev.preventDefault) ev.preventDefault();
+        var g = btn.getAttribute("data-fold") || "news";
+        saveFoldGen(g, !loadFoldGen(g));
+        applyFold();
+      });
+    })(foldBtns[_fi]);
   }
 
   /* Epic「标记已领」+ 收藏夹操作：事件委托在 grid 上，innerHTML 重建后依然有效 */
@@ -4136,6 +4212,24 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     items.forEach(function(el){ if(el.getAttribute("data-sec") === "all") all = el; });
     if(all && items.length && items[0] !== all) nav.insertBefore(all, items[0]);
   }
+  /* 老用户 localStorage 里的导航顺序不含后加的父项（如 GitHub 榜单），
+     按 order 重排后父项会与子项分离。这里保证每个父项紧跟在自己第一个子项前面。 */
+  function pinGroups(nav){
+    if(!nav || !nav.querySelectorAll) return;
+    var groups = {};
+    var folds = nav.querySelectorAll("[data-fold]");
+    for(var i=0;i<folds.length;i++){
+      var g = folds[i].getAttribute("data-fold");
+      var p = folds[i].parentNode;
+      while(p && p !== nav && !(p.classList && p.classList.contains("nav-item"))) p = p.parentNode;
+      if(p && p !== nav) groups[g] = p;
+    }
+    Object.keys(groups).forEach(function(g){
+      var p = groups[g];
+      var subs = nav.querySelectorAll('[data-parent="'+g+'"]');
+      if(subs.length && subs[0].previousSibling !== p) nav.insertBefore(p, subs[0]);
+    });
+  }
   function applyNavOrder(){
     var order = loadNavOrder();
     var nav = document.getElementById("nav");
@@ -4148,6 +4242,7 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
       if(items[sec]) nav.appendChild(items[sec]);
     });
     pinAllFirst(nav);                 /* 全部总览固定在第一排 */
+    pinGroups(nav);                   /* 父项贴回自己子项前面 */
   }
 function isTouchDevice(){
   try{
@@ -4162,12 +4257,12 @@ function bindNavDrag(){
   var touch = isTouchDevice();
   var dragEl = null;
     function isAll(x){ return x && x.getAttribute("data-sec") === "all"; }
-    function isSub(x){ return x && x.getAttribute("data-parent") === "news"; }
-    /* 子项只能在子项之间移动，普通项只能在普通项之间移动，
-       避免把「今日热点资讯」的 4 个子项拖散到其他位置 */
+    /* 取所属分组（"" 表示普通顶层项）。不同分组之间不能互拖，
+       避免把「今日热点资讯」「GitHub 榜单」的子项拖散到其他位置 */
+    function grpOf(x){ return (x && x.getAttribute("data-parent")) || ""; }
     function canDrop(from, to){
       if(!from || !to) return false;
-      if(isSub(from) !== isSub(to)) return false;
+      if(grpOf(from) !== grpOf(to)) return false;
       return true;
     }
   nav.querySelectorAll(".nav-item").forEach(function(el){
