@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.workbench.daily",
+      "sha256_cert_fingerprints": [
+        "41:E0:30:91:76:6E:73:43:8E:E9:8A:5C:AF:27:64:0E:55:79:93:6A:53:9E:24:07:1C:2D:97:D8:77:D6:5B:AE"
+      ]
+    }
+  }
+]
