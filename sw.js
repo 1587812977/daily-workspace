@@ -1,0 +1,84 @@
+/* 个人工作台 Service Worker
+ * 目的：让手机端（APK / 添加到主屏幕）在断网时也能打开工作台。
+ * 策略：
+ *   - 页面 HTML 与数据文件：网络优先（在线时总能拿到最新内容和最新数据），失败回落缓存
+ *   - 其他同源静态资源：缓存优先，后台顺带更新
+ *   - 跨域资源（Steam 封面图等）不拦截，交给浏览器
+ */
+var CACHE = 'wb-v2';
+var PRECACHE = [
+  './',
+  './index.html',
+  './manifest.webmanifest',
+  './icon-192.png',
+  './icon-512.png',
+  './data.js',
+  './习惯数据.js'
+];
+
+self.addEventListener('install', function (e) {
+  e.waitUntil(
+    caches.open(CACHE).then(function (c) {
+      // 逐个添加，单个失败不影响整体
+      return Promise.all(PRECACHE.map(function (u) {
+        return c.add(u).catch(function () {});
+      }));
+    }).then(function () { return self.skipWaiting(); })
+  );
+});
+
+self.addEventListener('activate', function (e) {
+  e.waitUntil(
+    caches.keys().then(function (keys) {
+      return Promise.all(keys.map(function (k) {
+        return k === CACHE ? null : caches.delete(k);
+      }));
+    }).then(function () { return self.clients.claim(); })
+  );
+});
+
+function isDataFile(pathname) {
+  return /(\/(data|习惯数据)\.js)$/.test(pathname);
+}
+
+self.addEventListener('fetch', function (e) {
+  var req = e.request;
+  if (req.method !== 'GET') return;
+
+  var url;
+  try { url = new URL(req.url); } catch (err) { return; }
+  // 只处理同源请求；跨域（Steam 图片、GitHub API 等）直接放行
+  if (url.origin !== self.location.origin) return;
+
+  // 页面导航 & 数据文件：网络优先，保证内容/数据最新；离线时回落缓存
+  if (req.mode === 'navigate' || isDataFile(url.pathname)) {
+    e.respondWith(
+      fetch(req).then(function (res) {
+        if (res && res.ok) {
+          var copy = res.clone();
+          caches.open(CACHE).then(function (c) { c.put(req, copy); });
+        }
+        return res;
+      }).catch(function () {
+        return caches.match(req).then(function (hit) {
+          return hit || (req.mode === 'navigate' ? caches.match('./index.html') : null);
+        });
+      })
+    );
+    return;
+  }
+
+  // 其他同源资源：缓存优先 + 后台更新
+  e.respondWith(
+    caches.match(req).then(function (hit) {
+      var net = fetch(req).then(function (res) {
+        if (res && res.ok) {
+          var copy = res.clone();
+          caches.open(CACHE).then(function (c) { c.put(req, copy); });
+        }
+        return res;
+      }).catch(function () { return hit; });
+      return hit || net;
+    })
+  );
+});

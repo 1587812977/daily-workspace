@@ -1511,6 +1511,14 @@ body.theme-mono .nav-badge{background:var(--txt2);color:var(--card);box-shadow:n
   .st-off{display:inline-flex;align-items:center;background:var(--green);color:#fff;font-weight:700;font-size:11px;line-height:1.6;border-radius:4px;padding:0 5px;font-variant-numeric:tabular-nums}
   .st-price{color:var(--green);font-weight:700}
   .st-orig{text-decoration:line-through;color:var(--txt3)}
+
+  /* ===== 云同步（设置与数据）===== */
+  .sync-form{display:flex;flex-direction:column;gap:6px;margin:8px 0 2px}
+  .sync-form input{width:100%;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg2);color:var(--txt);font-size:13px;font-family:inherit;line-height:1.5}
+  .sync-form input:focus{outline:none;border-color:var(--cyan)}
+  .sync-form input::placeholder{color:var(--txt3)}
+  .sync-msg{font-size:12px;color:var(--txt2);margin-top:6px;line-height:1.55;word-break:break-all}
+  .sync-msg.err{color:var(--red)}
 </style>
 </head>
 <body>
@@ -1789,6 +1797,19 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
   applyBg();
   /* 提前绑定左侧栏「打卡签到」：独立于 grid，避免后续初始化异常时按钮整体失效 */
   try { bindSidebarCheckin(); } catch(e){}
+  /* 注册 Service Worker：让手机端（APK / 添加到主屏幕）断网时也能打开工作台 */
+  try{
+    if('serviceWorker' in navigator){
+      var swProtoOK = location.protocol === 'https:' ||
+                      location.hostname === 'localhost' ||
+                      location.hostname === '127.0.0.1';
+      if(swProtoOK){
+        window.addEventListener('load', function(){
+          navigator.serviceWorker.register('sw.js').catch(function(){});
+        });
+      }
+    }
+  }catch(e){}
   document.addEventListener("DOMContentLoaded", function(){
     var btn = document.getElementById("themeToggle");
     if(btn) btn.addEventListener("click", function(){
@@ -2743,12 +2764,104 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     showToast("设置", 0, "本地数据已清空，页面即将刷新", "已清空");
     setTimeout(function(){ if(window.location && window.location.reload) window.location.reload(); }, 800);
   }
+  /* ---- 0.7 云同步（跨设备）：用 GitHub 私有 Gist 做中转 ----
+     安全要点：令牌与同步 ID 存在独立键（wb_sync_token_v1 / wb_sync_gist_v1），
+     这两个键不在 SET_KEYS 里，因此既不会被「导出」也不会被「上传」（同步内容只含工作台数据）。 */
+  var SYNC_TOKEN_KEY = "wb_sync_token_v1";
+  var SYNC_GIST_KEY  = "wb_sync_gist_v1";
+  var SYNC_FILE      = "workbench-data.json";
+  function syncToken(){ try{ return localStorage.getItem(SYNC_TOKEN_KEY) || ""; }catch(e){ return ""; } }
+  function syncGist(){ try{ return localStorage.getItem(SYNC_GIST_KEY) || ""; }catch(e){ return ""; } }
+  function syncMsg(text, isErr){
+    var el = document.getElementById("syncMsg");
+    if(el){ el.textContent = text; el.className = "sync-msg" + (isErr ? " err" : ""); }
+    try{ showToast("云同步", 0, text, isErr ? "失败" : "完成"); }catch(e){}
+  }
+  function syncReadInputs(){
+    /* 以输入框为准，兼顾用户刚输入但还没保存的情况 */
+    var el = document.getElementById("syncToken"), gi = document.getElementById("syncGist");
+    var t = el && el.value ? el.value.trim() : syncToken();
+    var g = gi && gi.value ? gi.value.trim() : syncGist();
+    return { token:t, gist:g };
+  }
+  function syncReq(url, token, method, body){
+    var opt = { method: method || "GET", headers: { "Authorization": "Bearer " + token, "Accept": "application/vnd.github+json" } };
+    if(body){
+      opt.headers["Content-Type"] = "application/json";
+      opt.body = JSON.stringify(body);
+    }
+    return fetch(url, opt).then(function(r){
+      if(!r.ok){
+        return r.json().catch(function(){ return {}; }).then(function(e){
+          throw new Error((e && e.message) || ("HTTP " + r.status));
+        });
+      }
+      return r.json();
+    });
+  }
+  function syncSaveIds(token, gist){
+    try{
+      if(token) localStorage.setItem(SYNC_TOKEN_KEY, token);
+      if(gist)  localStorage.setItem(SYNC_GIST_KEY, gist);
+    }catch(e){}
+  }
+  function syncUpload(){
+    var v = syncReadInputs();
+    if(!v.token){ syncMsg("请先填写 GitHub 令牌", true); return; }
+    syncSaveIds(v.token, v.gist);
+    syncMsg("正在上传…");
+    var payload = { description: "个人工作台数据同步", public:false, files:{} };
+    payload.files[SYNC_FILE] = { content: JSON.stringify(settingsData(), null, 2) };
+    var url = v.gist ? "https://api.github.com/gists/" + v.gist : "https://api.github.com/gists";
+    syncReq(url, v.token, v.gist ? "PATCH" : "POST", payload).then(function(j){
+      if(j && j.id){
+        syncSaveIds(v.token, j.id);
+        syncRenderForm();
+        syncMsg("上传成功。同步 ID：" + j.id + " —— 另一台设备填同样的令牌 + 这个 ID，点「下载」即可。");
+      } else { syncMsg("上传失败：返回数据异常", true); }
+    }).catch(function(e){ syncMsg("上传失败：" + (e.message || e), true); });
+  }
+  function syncDownload(){
+    var v = syncReadInputs();
+    if(!v.token || !v.gist){ syncMsg("请填写令牌和同步 ID", true); return; }
+    syncSaveIds(v.token, v.gist);
+    syncMsg("正在下载…");
+    syncReq("https://api.github.com/gists/" + v.gist, v.token, "GET").then(function(j){
+      var f = j && j.files && j.files[SYNC_FILE];
+      if(!f) throw new Error("云端没有找到数据文件");
+      var obj = JSON.parse(f.content);
+      if(!obj || !obj.data) throw new Error("云端数据格式不正确");
+      var keys = Object.keys(obj.data);
+      if(!keys.length) throw new Error("云端数据为空");
+      var msg = "将用云端 " + keys.length + " 项数据覆盖本机数据，且不可撤销。\n建议先点「导出」备份本机数据。\n确定继续？";
+      if(typeof window.confirm === "function" && !window.confirm(msg)){ syncMsg("已取消下载"); return; }
+      keys.forEach(function(k){
+        try{
+          if(obj.data[k] === undefined) localStorage.removeItem(k);
+          else localStorage.setItem(k, JSON.stringify(obj.data[k]));
+        }catch(e){}
+      });
+      syncMsg("下载成功，页面即将刷新");
+      setTimeout(function(){ if(window.location && window.location.reload) window.location.reload(); }, 900);
+    }).catch(function(e){ syncMsg("下载失败：" + (e.message || e), true); });
+  }
+  function syncClearToken(){
+    try{ localStorage.removeItem(SYNC_TOKEN_KEY); localStorage.removeItem(SYNC_GIST_KEY); }catch(e){}
+    syncRenderForm();
+    syncMsg("已清除本机保存的令牌与同步 ID");
+  }
+  function syncRenderForm(){
+    var el = document.getElementById("syncToken"), gi = document.getElementById("syncGist");
+    if(el) el.value = syncToken();
+    if(gi) gi.value = syncGist();
+  }
   function settingsBodyHtml(){
     var data = settingsData();
     var n = Object.keys(data.data).length;
     var size = JSON.stringify(data).length;
     var h = '<div class="set-note">'
-      + '<b>数据说明：</b>本工作台的所有个人数据（打卡、待办、收藏、记账等）均保存在当前浏览器的 localStorage 中，换设备或清空浏览器数据后会丢失。建议定期导出备份；换设备时在新浏览器导入 JSON 即可恢复。'
+      + '<b>数据说明：</b>本工作台的所有个人数据（打卡、待办、收藏、记账等）均保存在当前浏览器的 localStorage 中，换设备或清空浏览器数据后会丢失。'
+      + '<b>要让手机和电脑保持一致，请用下面的「云同步」</b>（用你自己的 GitHub 私有 Gist 中转）；不想用云端，也可以随时「导出 / 导入」手动搬家。建议定期导出备份。'
       + '</div>';
     h += '<div class="set-row">'
       + '<div class="info"><div class="t">导出全部数据</div><div class="d">下载 JSON 文件，可换设备导入。当前共 ' + n + ' 项，约 ' + size + ' 字节。</div></div>'
@@ -2761,6 +2874,21 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     h += '<div class="set-row">'
       + '<div class="info"><div class="t">清空全部数据</div><div class="d">删除浏览器里的所有工作台内容，不可恢复。请谨慎操作。</div></div>'
       + '<div class="btns"><button class="set-btn danger" id="setClear" type="button">清空</button></div>'
+      + '</div>';
+    var sTok = syncToken(), sGid = syncGist();
+    h += '<div class="set-row">'
+      + '<div class="info"><div class="t">云同步（手机 ↔ 电脑）</div>'
+      + '<div class="d">用 <b>你自己的 GitHub 私有 Gist</b> 做中转，数据只存在你账号下、别人看不到。两台设备填<b>同一个令牌 + 同一个同步 ID</b>，即可同步打卡、待办、记账、收藏等数据。</div>'
+      + '<div class="sync-form">'
+      + '<input id="syncToken" type="password" autocomplete="off" spellcheck="false" placeholder="GitHub 令牌（建议只开 gist 权限）" value="' + esc(sTok) + '">'
+      + '<input id="syncGist" type="text" autocomplete="off" spellcheck="false" placeholder="同步 ID（新设备首次留空，点「上传」自动生成）" value="' + esc(sGid) + '">'
+      + '</div>'
+      + '<div class="sync-msg" id="syncMsg">' + (sGid ? "当前同步 ID：" + esc(sGid) + " —— 另一台设备填入同一令牌和这个 ID，点「下载」即可。" : "尚未配置。先在本机填令牌点「上传」，再把生成的同步 ID 抄到另一台设备。") + '</div>'
+      + '<div class="d" style="margin-top:6px">令牌只存在这台设备的浏览器里，<b>不会</b>被导出、也<b>不会</b>被上传到云端（同步内容只含工作台数据）。</div>'
+      + '</div>'
+      + '<div class="btns"><button class="set-btn" id="syncUp" type="button">上传</button>'
+      + '<button class="set-btn" id="syncDown" type="button">下载</button>'
+      + '<button class="set-btn danger" id="syncClear" type="button">清除令牌</button></div>'
       + '</div>';
     h += '<div class="set-row">'
       + '<div class="info"><div class="t">添加功能</div><div class="d">把番茄钟、倒计时、便签、喝水打卡等可选模块加到工作台。全部加完后会提示「无功能添加」。</div></div>'
@@ -2794,6 +2922,9 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
         return;
       }
       if(t.id === "setClear"){ settingsClearAll(); return; }
+      if(t.id === "syncUp"){ syncUpload(); return; }
+      if(t.id === "syncDown"){ syncDownload(); return; }
+      if(t.id === "syncClear"){ syncClearToken(); return; }
       var rm = t.closest ? t.closest("[data-rmmod]") : null;
       if(rm){ removeModule(rm.getAttribute("data-rmmod")); return; }
     });
