@@ -1,9 +1,17 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-08-29 08:03",
+ "updatedAt": "2026-08-29 12:35",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmtdqc5oj03wzro2mgyc5a49x",
+   "time": "08-29 11:26",
+   "sourceCount": 7
+  },
+  {
+   "rank": 2,
    "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
    "source": "公众号：腾讯混元",
    "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
@@ -11,7 +19,7 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 2,
+   "rank": 3,
    "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.virxact.com/items/cmtbq1hfq156croamzzo9gno2",
@@ -19,7 +27,7 @@ var WB_DATA = {
    "sourceCount": 8
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
    "source": "Ars Technica：AI（RSS）",
    "url": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x",
@@ -27,7 +35,7 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "GLM-5.3 开源权重，智能体编码与网防最强",
    "source": "X：智谱 Z.ai (@Zai_org)",
    "url": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r",
@@ -35,7 +43,7 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34",
@@ -43,7 +51,7 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
    "source": "智谱：研究（网页内嵌数据）",
    "url": "https://aihot.virxact.com/items/cmtb6o47l0mmaroamhnqtifvv",
@@ -51,7 +59,7 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
    "source": "Google AI：DEV 作者专属（RSS）",
    "url": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183",
@@ -59,23 +67,33 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "OpenAI 失控智能体集体逃逸沙箱并攻击“幽灵”评分器事件调查公布",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.virxact.com/items/cmtbqq6pi15j3roamyuhn0uvk",
-   "time": "08-28 00:31",
+   "time": "08-29 07:54",
    "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "NVIDIA 季度营收指引达 1080 亿美元，首次突破单季千亿大关",
-   "source": "Tomer Tunguz 博客（VC 分析）",
-   "url": "https://aihot.virxact.com/items/cmtaxja5w0ckaroamws5is8wp",
-   "time": "08-27 14:25",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+   "summary": "OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型。OpenAI 表示将继续支持广泛的工具生态与开源计划。",
+   "reason": "终止合作把信任作为前提，依赖 Cursor 内嵌 OpenAI 模型的团队将需要在 11 月 12 日前重新确认编码工作流的模型访问路径。",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.virxact.com/items/cmtdqqeiu046gro2maw35y3c4",
+   "time": "08-29 09:47",
+   "category": "industry"
+  },
+  {
+   "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
+   "summary": "OpenAI 已通知 SpaceX，将终止向 Cursor 提供 OpenAI 模型的合同，拟定关停日期为 2026 年 11 月 12 日，并给予合同允许的最长通知期。OpenAI 称此举源于无法确信 SpaceX 会遵守服务条款，并援引马斯克旗下公司此前违反合同及 xAI 违反 OpenAI 服务条款的先例。OpenAI 表示将尽力支持受影响的开发者过渡。",
+   "reason": "OpenAI 把合同终止与收购后的控制权变更挂钩，11 月 12 日的关闭日期将直接改变 Cursor 开发者对模型替代和迁移窗口的规划。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmtdqc5oj03wzro2mgyc5a49x",
+   "time": "08-28 14:00",
+   "category": "industry"
+  },
   {
    "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
    "summary": "Voice Arena 与 Hugging Face 合作，为 Open ASR 排行榜引入 Monsoon en-IN 和 Monsoon hi-IN 两个评测集，覆盖印地语与印度英语，其中印地语是该排行榜多语言板块首个非欧洲语言。数据集含公开与私有分割，共 4，888 位说话人，并记录 12 项说话人属性，旨在暴露按地区、年龄、性别等维度分布不均的语音识别误差。",
@@ -156,15 +174,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
    "time": "08-28 14:03",
    "category": "ai-models"
-  },
-  {
-   "title": "Claude Console 新增个人密钥与服务账号密钥",
-   "summary": "Claude Console 现已支持创建个人密钥和服务账号密钥，它们以关联账户身份运行并继承相同权限，账户从组织移除后密钥即失效。组织管理员可借此更轻松追踪各账户用量并确保密钥使用合规。这些 API 密钥可限定到特定工作区，也可用于管理端点及账户可访问的任何工作区，工作区 API 密钥仍作为旧版选项保留支持。",
-   "reason": "个人密钥与服务账号密钥把权限和生命周期绑定到具体账号，组织管理员能按账号追踪用量并做工作区级隔离，比旧工作区密钥的粗粒度授权更易管理。",
-   "source": "Claude Platform：开发者版本说明（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtc7nham01clrodmgnklmfp8",
-   "time": "08-27 08:00",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -632,68 +641,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-08-29 08:04",
+   "updateTime": "2026-08-29 12:35",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "耗时一年，救赎相信光的小女孩，完整后续来了！",
      "url": "https://www.bilibili.com/video/BV1Jrtc6GEVU",
-     "hot": 992024
+     "hot": 1974128
     },
     {
-     "title": "美术展里的假人模型，为何变成了真人尸体...？",
-     "url": "https://www.bilibili.com/video/BV1NC4Z6VEUQ",
-     "hot": 870297
+     "title": "我在PVZ中添加了大果？？ 【bilibilionly同人扶持计划】",
+     "url": "https://www.bilibili.com/video/BV1zG4d6dEka",
+     "hot": 2185996
+    },
+    {
+     "title": "《古神: 风里希》科隆游戏展最新预告片 | 世界观前瞻",
+     "url": "https://www.bilibili.com/video/BV1xQtw6WELS",
+     "hot": 1061728
+    },
+    {
+     "title": "【独家】《凡人修仙传之慕兰之战》第13集【总第189集】",
+     "url": "https://www.bilibili.com/video/BV1AAtT6aE8m",
+     "hot": 1657836
+    },
+    {
+     "title": "全世界最爱开学之人",
+     "url": "https://www.bilibili.com/video/BV1Aqhg62ENW",
+     "hot": 170520
+    },
+    {
+     "title": "宣布定档的时候你很帅，但不测带来的后果又能否承担？",
+     "url": "https://www.bilibili.com/video/BV1Jq8R6hENN",
+     "hot": 776895
     },
     {
      "title": "【招笑版】新植物2:朝阳葵",
      "url": "https://www.bilibili.com/video/BV1P6496fExM",
-     "hot": 1166088
+     "hot": 1924427
+    },
+    {
+     "title": "不同战备给蜂医平事",
+     "url": "https://www.bilibili.com/video/BV1actP6KEbb",
+     "hot": 760989
+    },
+    {
+     "title": "搬空系列迎来了它最大一票",
+     "url": "https://www.bilibili.com/video/BV1iStA6CETt",
+     "hot": 758129
+    },
+    {
+     "title": "浪漫没天分，反应够迟钝",
+     "url": "https://www.bilibili.com/video/BV1zrtc63E7u",
+     "hot": 677412
     },
     {
      "title": "这不是幻想",
      "url": "https://www.bilibili.com/video/BV137tc6ZExx",
-     "hot": 803083
+     "hot": 1282032
     },
     {
-     "title": "寿星来切蛋糕啦！！「谁是杀手」？？！",
-     "url": "https://www.bilibili.com/video/BV1Go8f6PEHd",
-     "hot": 825828
-    },
-    {
-     "title": "怪兽中 出了一个...不对！是一群奥特曼的卧底！【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1DNhw6iE1V",
-     "hot": 2645242
-    },
-    {
-     "title": "币圈富豪孙宇晨手撕景甜，索赔3千万彩礼，娱乐圈+金融圈惊天巨瓜！",
-     "url": "https://www.bilibili.com/video/BV1N1tF6SE2S",
-     "hot": 4017369
-    },
-    {
-     "title": "Grand Theft Auto VI：分量十足的一瞥",
-     "url": "https://www.bilibili.com/video/BV1vm4f6bETN",
-     "hot": 980770
-    },
-    {
-     "title": "一场不按计划发生的旅行【出发吧少年 01】",
-     "url": "https://www.bilibili.com/video/BV1Jktc6rERm",
-     "hot": 460574
-    },
-    {
-     "title": "我被100名警察追捕，抓到我赢50万美金！",
-     "url": "https://www.bilibili.com/video/BV1bMhV6PEtE",
-     "hot": 3685271
-    },
-    {
-     "title": "炸了！3亿代孕费！片场互相睡！2026头号大瓜新鲜出炉！",
-     "url": "https://www.bilibili.com/video/BV1XT4f6dED8",
-     "hot": 2117929
-    },
-    {
-     "title": "【2026LPL第三赛段】8月28日 TT vs IG",
-     "url": "https://www.bilibili.com/video/BV166tA6SECF",
-     "hot": 1523551
+     "title": "二次元哪些兔娘比较出圈？他们你都认识吗？【出圈角色盘点#4】",
+     "url": "https://www.bilibili.com/video/BV1rW4R6bEf9",
+     "hot": 638672
     }
    ]
   }
@@ -751,28 +760,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "洋河股份深度变革：库存回归良性 品牌年轻化培育长期增长动能",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-08-29/doc-inipwhrr4491700.shtml",
+   "title": "美的集团2026年半年报:营收2610.5亿元，孵化超2万个智能体",
+   "url": "https://finance.sina.com.cn/tech/it/2026-08-28/doc-inipwtfm8997475.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "鹰了又不够鹰：简单看懂沃什今天说了什么",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwxpi8954101.shtml",
+   "title": "美图AI算力点消费半年翻倍，管理层称AI应用层迎关键窗口期",
+   "url": "https://finance.sina.com.cn/tech/it/2026-08-28/doc-inipwtfm8996872.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "黄金价格下跌 市场认为美联储主席沃什的讲话偏鹰派",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfr9915676.shtml",
+   "title": "小米汽车海外官网正式上线，全球化进一步提速",
+   "url": "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprums2397141.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "全文|沃什杰克逊霍尔首秀：通胀2%目标坚定不移 首要关注点是物价",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfm9075689.shtml",
+   "title": "万物云宋澜涛谈城市更新：既要做好硬件改造 也要建立运营和维护机制",
+   "url": "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprumt6100029.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "短期美债收益率跃升 沃什表态缓解市场对其抗通胀决心的部分疑虑",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfm9066440.shtml",
+   "title": "知乎：上半年经调整净利润690.6万元",
+   "url": "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprums2390218.shtml",
    "source": "新浪科技"
   }
  ]
