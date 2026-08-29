@@ -1,22 +1,22 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-08-29 12:35",
+ "updatedAt": "2026-08-29 20:38",
  "aihotHot": [
   {
    "rank": 1,
    "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.virxact.com/items/cmtdqc5oj03wzro2mgyc5a49x",
-   "time": "08-29 11:26",
-   "sourceCount": 7
+   "time": "08-29 17:44",
+   "sourceCount": 12
   },
   {
    "rank": 2,
    "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
    "source": "公众号：腾讯混元",
    "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
-   "time": "08-28 15:48",
-   "sourceCount": 5
+   "time": "08-29 10:28",
+   "sourceCount": 6
   },
   {
    "rank": 3,
@@ -52,30 +52,48 @@ var WB_DATA = {
   },
   {
    "rank": 7,
-   "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
-   "source": "智谱：研究（网页内嵌数据）",
-   "url": "https://aihot.virxact.com/items/cmtb6o47l0mmaroamhnqtifvv",
-   "time": "08-27 21:35",
-   "sourceCount": 4
-  },
-  {
-   "rank": 8,
-   "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
-   "source": "Google AI：DEV 作者专属（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183",
-   "time": "08-28 21:39",
-   "sourceCount": 4
-  },
-  {
-   "rank": 9,
    "title": "OpenAI 失控智能体集体逃逸沙箱并攻击“幽灵”评分器事件调查公布",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.virxact.com/items/cmtbqq6pi15j3roamyuhn0uvk",
    "time": "08-29 07:54",
    "sourceCount": 3
+  },
+  {
+   "rank": 8,
+   "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtdxtxi809gyro2m2zykqzli",
+   "time": "08-29 13:26",
+   "sourceCount": 1
+  },
+  {
+   "rank": 9,
+   "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
+   "source": "Google AI：DEV 作者专属（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183",
+   "time": "08-28 21:39",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+   "summary": "Qwen3.8 27B（27.3B 参数，混合注意力架构，262，144 token 上下文窗口，Apache 2.0 开源）在 Mac Studio M3 Ultra 上经 Ollama 以 Q4_K_M 量化（17GB）生成速度约 14 tokens/s。",
+   "reason": "Mac Studio 实测显示，Qwen3.8 生成速度约为前代一半，但答案 token 减少约三分之二，墙钟时间接近，而 1-bit 量化保住事实记忆却丧失决策能力，为量化档位选择提供依据。",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.virxact.com/items/cmte242e701jdrog2vz9p2cy4",
+   "time": "08-29 15:00",
+   "category": "tip"
+  },
+  {
+   "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+   "summary": "智谱宣布开源 GLM-5.3 模型权重，支持本地运行与个性化定制，擅长复杂编码、防御性网络安全及长程任务。该模型在 AA 综合智能指数中取得 60 分，与 Claude Fable 5、GPT-5.6 Sol 等闭源旗舰同级，并与 Kimi K3 并列开源模型第一。仅年营业额超 100 亿美元的机构将其作为外部模型服务提供时才需安全审查。",
+   "reason": "许可条款把强制安全审查限定在百亿美元级外部模型服务，自有部署和中小团队实际不受影响，开源可用性比表面限制更宽。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtdxtxi809gyro2m2zykqzli",
+   "time": "08-29 12:31",
+   "category": "ai-models"
+  },
   {
    "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
    "summary": "OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型。OpenAI 表示将继续支持广泛的工具生态与开源计划。",
@@ -147,33 +165,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183",
    "time": "08-28 21:34",
    "category": "tip"
-  },
-  {
-   "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
-   "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
-   "reason": "70 个专家任务里最强模型仅解决 30%，成本与 token 前沿还显示不同系统取舍，为选择科学智能体提供了比软件基准更接近真实研究的依据。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.virxact.com/items/cmtcxdp3f07l3roq5uk6om1aw",
-   "time": "08-28 20:04",
-   "category": "paper"
-  },
-  {
-   "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-   "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
-   "reason": "裸 API 写一遍 agent 循环和 RAG，比直接套 LangChain 更能理解框架在封装什么，对于 AI 工程师面试中讲清系统设计和取舍有直接帮助。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.virxact.com/items/cmtcpvj9e04cpro645lmugnew",
-   "time": "08-28 16:36",
-   "category": "tip"
-  },
-  {
-   "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-   "summary": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
-   "reason": "官方盲测中它与 GLM-5.3、Kimi K3 的分差不足 0.1，选型时 1M 上下文和开源部署成本可能比榜单排名更实际。",
-   "source": "公众号：腾讯混元",
-   "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
-   "time": "08-28 14:03",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -641,68 +632,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-08-29 12:35",
+   "updateTime": "2026-08-29 20:38",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "耗时一年，救赎相信光的小女孩，完整后续来了！",
-     "url": "https://www.bilibili.com/video/BV1Jrtc6GEVU",
-     "hot": 1974128
+     "title": "现在买入....一定爆赚！2026年10月新番导视！【泛式】",
+     "url": "https://www.bilibili.com/video/BV1so4C6MEoF",
+     "hot": 228924
     },
     {
-     "title": "我在PVZ中添加了大果？？ 【bilibilionly同人扶持计划】",
-     "url": "https://www.bilibili.com/video/BV1zG4d6dEka",
-     "hot": 2185996
+     "title": "《小杨有约29#》：陈泽",
+     "url": "https://www.bilibili.com/video/BV1s7tK6AECw",
+     "hot": 698607
     },
     {
      "title": "《古神: 风里希》科隆游戏展最新预告片 | 世界观前瞻",
      "url": "https://www.bilibili.com/video/BV1xQtw6WELS",
-     "hot": 1061728
+     "hot": 2943445
     },
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第13集【总第189集】",
      "url": "https://www.bilibili.com/video/BV1AAtT6aE8m",
-     "hot": 1657836
+     "hot": 4631739
+    },
+    {
+     "title": "【明日方舟×女神异闻录３ Reload】SideStory「月行水上」活动宣传PV",
+     "url": "https://www.bilibili.com/video/BV1zCtA6mEay",
+     "hot": 2847350
+    },
+    {
+     "title": "《下一个是谁》恐怖特辑——无限循环的寺庙",
+     "url": "https://www.bilibili.com/video/BV1GrtK62EfT",
+     "hot": 687041
+    },
+    {
+     "title": "老叟戏顽童 白俄戏欧盟",
+     "url": "https://www.bilibili.com/video/BV1VitP6GE9o",
+     "hot": 912154
+    },
+    {
+     "title": "耗时一年，救赎相信光的小女孩，完整后续来了！",
+     "url": "https://www.bilibili.com/video/BV1Jrtc6GEVU",
+     "hot": 2655011
     },
     {
      "title": "全世界最爱开学之人",
      "url": "https://www.bilibili.com/video/BV1Aqhg62ENW",
-     "hot": 170520
+     "hot": 1082322
     },
     {
-     "title": "宣布定档的时候你很帅，但不测带来的后果又能否承担？",
-     "url": "https://www.bilibili.com/video/BV1Jq8R6hENN",
-     "hot": 776895
+     "title": "我在PVZ中添加了大果？？ 【bilibilionly同人扶持计划】",
+     "url": "https://www.bilibili.com/video/BV1zG4d6dEka",
+     "hot": 3497095
     },
     {
-     "title": "【招笑版】新植物2:朝阳葵",
-     "url": "https://www.bilibili.com/video/BV1P6496fExM",
-     "hot": 1924427
+     "title": "猛男化身猎人，这次谁逃得掉？《Animals》🔥",
+     "url": "https://www.bilibili.com/video/BV1jH4Z6tEdG",
+     "hot": 1535761
     },
     {
-     "title": "不同战备给蜂医平事",
-     "url": "https://www.bilibili.com/video/BV1actP6KEbb",
-     "hot": 760989
-    },
-    {
-     "title": "搬空系列迎来了它最大一票",
-     "url": "https://www.bilibili.com/video/BV1iStA6CETt",
-     "hot": 758129
-    },
-    {
-     "title": "浪漫没天分，反应够迟钝",
-     "url": "https://www.bilibili.com/video/BV1zrtc63E7u",
-     "hot": 677412
-    },
-    {
-     "title": "这不是幻想",
-     "url": "https://www.bilibili.com/video/BV137tc6ZExx",
-     "hot": 1282032
-    },
-    {
-     "title": "二次元哪些兔娘比较出圈？他们你都认识吗？【出圈角色盘点#4】",
-     "url": "https://www.bilibili.com/video/BV1rW4R6bEf9",
-     "hot": 638672
+     "title": "《洛克王国：世界》S4赛季「月涌狂想」PV首曝，新的冒险即将开启！",
+     "url": "https://www.bilibili.com/video/BV1notF6GE8F",
+     "hot": 1821006
     }
    ]
   }
@@ -760,6 +751,21 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "索尼游戏，进退两难",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-07-28/doc-inikiewh8130279.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "OpenAI抢后台，马斯克抢前台",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-06-18/doc-inicuupz5613277.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "陌陌母公司挚文季报图解：营收24亿净利降19% 唐岩刚获派息超8000万",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-06-02/doc-inhzzivp1591951.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "美的集团2026年半年报:营收2610.5亿元，孵化超2万个智能体",
    "url": "https://finance.sina.com.cn/tech/it/2026-08-28/doc-inipwtfm8997475.shtml",
    "source": "新浪科技"
@@ -767,21 +773,6 @@ var WB_DATA = {
   {
    "title": "美图AI算力点消费半年翻倍，管理层称AI应用层迎关键窗口期",
    "url": "https://finance.sina.com.cn/tech/it/2026-08-28/doc-inipwtfm8996872.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "小米汽车海外官网正式上线，全球化进一步提速",
-   "url": "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprums2397141.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "万物云宋澜涛谈城市更新：既要做好硬件改造 也要建立运营和维护机制",
-   "url": "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprumt6100029.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "知乎：上半年经调整净利润690.6万元",
-   "url": "https://finance.sina.com.cn/tech/it/2026-08-26/doc-iniprums2390218.shtml",
    "source": "新浪科技"
   }
  ]
