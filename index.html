@@ -1838,7 +1838,15 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
                       location.hostname === '127.0.0.1';
       if(swProtoOK){
         window.addEventListener('load', function(){
-          navigator.serviceWorker.register('sw.js').catch(function(){});
+          navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).catch(function(){});
+        });
+        /* 新 SW 接管后自动重载一次：否则用户当前页面仍是旧 DOM，
+           要手动再刷一次才能看到刚发布的版本。用标记位避免刷新循环。 */
+        var swReloaded = false;
+        navigator.serviceWorker.addEventListener('controllerchange', function(){
+          if(swReloaded) return;
+          swReloaded = true;
+          try{ window.location.reload(); }catch(e){}
         });
       }
     }

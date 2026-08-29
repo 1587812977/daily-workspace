@@ -4,8 +4,13 @@
  *   - 页面 HTML 与数据文件：网络优先（在线时总能拿到最新内容和最新数据），失败回落缓存
  *   - 其他同源静态资源：缓存优先，后台顺带更新
  *   - 跨域资源（Steam 封面图等）不拦截，交给浏览器
+ *
+ * 重要：GitHub Pages 对静态资源统一返回 `Cache-Control: max-age=600`。
+ * 若直接 fetch(req)，会命中浏览器 HTTP 缓存，导致刚发布的版本最长 10 分钟拿不到
+ * （表现为「线上代码已更新，但手机上还是旧页面」）。
+ * 故导航与数据请求一律用 `cache:'reload'` 绕过 HTTP 缓存，只把缓存当离线兜底。
  */
-var CACHE = 'wb-v2';
+var CACHE = 'wb-v3';
 var PRECACHE = [
   './',
   './index.html',
@@ -51,9 +56,10 @@ self.addEventListener('fetch', function (e) {
   if (url.origin !== self.location.origin) return;
 
   // 页面导航 & 数据文件：网络优先，保证内容/数据最新；离线时回落缓存
+  // cache:'reload' 绕过浏览器 HTTP 缓存（Pages 的 max-age=600），否则新版本要等 10 分钟
   if (req.mode === 'navigate' || isDataFile(url.pathname)) {
     e.respondWith(
-      fetch(req).then(function (res) {
+      fetch(req, { cache: 'reload' }).then(function (res) {
         if (res && res.ok) {
           var copy = res.clone();
           caches.open(CACHE).then(function (c) { c.put(req, copy); });
