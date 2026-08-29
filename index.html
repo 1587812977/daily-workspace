@@ -1244,6 +1244,60 @@ body.dark .news-sub:hover{background:rgba(255,255,255,.06)}
   .news-sub .ns-ic{width:34px}
 }
 
+/* ===== 添加功能（模块市场） ===== */
+.side-addfeat{margin-top:8px;width:100%;border:1px dashed var(--cyan);background:transparent;color:var(--cyan);
+  border-radius:10px;padding:9px 10px;font:inherit;font-weight:600;cursor:pointer;transition:.15s}
+.side-addfeat:hover{background:rgba(34,211,238,.12)}
+body.dark .side-addfeat{background:rgba(34,211,238,.06)}
+.modal-mask{position:fixed;inset:0;background:rgba(15,23,42,.5);backdrop-filter:blur(3px);
+  display:none;align-items:center;justify-content:center;z-index:60;padding:18px}
+.modal-mask.show{display:flex}
+.modal{width:100%;max-width:460px;max-height:82vh;overflow:auto;background:var(--bg);border:1px solid var(--line);
+  border-radius:16px;padding:18px 16px 16px;box-shadow:0 18px 50px rgba(0,0,0,.3)}
+body.dark .modal{background:#0f172a}
+.modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.modal-title{font-size:17px;font-weight:700}
+.modal-close{border:0;background:rgba(0,0,0,.05);width:30px;height:30px;border-radius:50%;font-size:18px;line-height:1;cursor:pointer;color:var(--txt2)}
+body.dark .modal-close{background:rgba(255,255,255,.08);color:var(--txt)}
+.addfeat-grid{display:flex;flex-direction:column;gap:10px}
+.addfeat-card{display:flex;align-items:center;gap:12px;background:rgba(0,0,0,.025);border:1px solid var(--line);
+  border-radius:12px;padding:12px 13px}
+body.dark .addfeat-card{background:rgba(255,255,255,.04)}
+.addfeat-ic{width:34px;height:34px;flex:none;display:flex;align-items:center;justify-content:center;
+  border-radius:9px;background:rgba(34,211,238,.12);color:var(--cyan)}
+.addfeat-ic svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.addfeat-bd{flex:1;min-width:0}
+.addfeat-name{font-size:15px;font-weight:600}
+.addfeat-desc{font-size:12.5px;color:var(--txt3);margin-top:2px}
+.addfeat-add{border:0;background:var(--cyan);color:#04222b;font-weight:600;border-radius:9px;
+  padding:8px 14px;cursor:pointer;font:inherit;white-space:nowrap}
+.addfeat-add:hover{filter:brightness(.95)}
+.addfeat-empty{text-align:center;color:var(--txt3);padding:30px 10px;font-size:14px}
+/* 番茄钟 / 倒计时 / 便签 / 喝水打卡 */
+.pomo,.count,.notes,.water{display:flex;flex-direction:column;align-items:center;gap:12px;padding:6px 0}
+.pomo-mode{font-size:13px;color:var(--txt3);letter-spacing:1px}
+.pomo-time{font-size:52px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.pomo-ses{font-size:13px;color:var(--txt2)}
+.pomo-btns,.count-btns,.water-btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.pomo-btn{border:1px solid var(--cyan);background:var(--cyan);color:#04222b;font-weight:600;border-radius:10px;
+  padding:9px 18px;cursor:pointer;font:inherit;min-height:42px}
+.pomo-btn.ghost{background:transparent;color:var(--cyan)}
+.count-input{width:100%;max-width:280px;font:inherit;font-size:15px;padding:9px 10px;border:1px solid var(--line);
+  border-radius:10px;background:var(--bg);color:var(--txt)}
+body.dark .count-input{background:#0b1220}
+.count-time{font-size:38px;font-weight:700;font-variant-numeric:tabular-nums}
+.count-hint{font-size:13px;color:var(--txt3);text-align:center}
+.notes-area{width:100%;min-height:160px;resize:vertical;font:inherit;font-size:15px;line-height:1.6;
+  padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--txt)}
+body.dark .notes-area{background:#0b1220}
+.notes-foot{font-size:12px;color:var(--txt3);align-self:flex-end}
+.water-cups{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:320px}
+.cup{width:26px;height:26px;border-radius:50%;background:rgba(0,0,0,.06);border:1px solid var(--line);transition:.15s}
+.cup.on{background:var(--cyan);border-color:var(--cyan);box-shadow:0 0 10px rgba(34,211,238,.4)}
+body.dark .cup{background:rgba(255,255,255,.08)}
+.water-stat{font-size:14px;color:var(--txt2)}
+@media (max-width:600px){ .pomo-time{font-size:44px} .modal{max-width:100%} }
+
 /* ===== 我的收藏夹 ===== */
 .fav-add{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
 .fav-in{
@@ -1420,6 +1474,7 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
       <div class="cloud"><span class="dotr"></span>云端自动刷新</div>
       <div class="ft-line">更新于 <b id="ftTime">--</b></div>
       <div class="ft-line low">08:00 / 12:30 / 20:30</div>
+      <button id="openAddFeat" class="side-addfeat" type="button">＋ 添加功能</button>
     </div>
   </aside>
 
@@ -1456,6 +1511,17 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
 
 <div class="drawer-mask" id="drawerMask"></div>
 <div id="ciToast" hidden></div>
+
+<!-- ===== 添加功能 弹窗 ===== -->
+<div class="modal-mask" id="addFeatMask">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-head">
+      <div class="modal-title">添加功能</div>
+      <button class="modal-close" id="addFeatClose" data-close type="button" aria-label="关闭">×</button>
+    </div>
+    <div class="addfeat-grid" id="addFeatGrid"></div>
+  </div>
+</div>
 
 <script src="data.js"></script>
 <script src="习惯数据.js"></script>
@@ -2509,6 +2575,19 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
       + '<div class="info"><div class="t">清空全部数据</div><div class="d">删除浏览器里的所有工作台内容，不可恢复。请谨慎操作。</div></div>'
       + '<div class="btns"><button class="set-btn danger" id="setClear" type="button">清空</button></div>'
       + '</div>';
+    h += '<div class="set-row">'
+      + '<div class="info"><div class="t">添加功能</div><div class="d">把番茄钟、倒计时、便签、喝水打卡等可选模块加到工作台。全部加完后会提示「无功能添加」。</div></div>'
+      + '<div class="btns"><button class="set-btn" id="setAddFeat" type="button">添加功能</button></div>'
+      + '</div>';
+    var added = loadAddedMods();
+    if(added.length){
+      var names = added.map(function(k){ var m = addonMeta(k); return m ? esc(m.name) : k; }).join("、");
+      var rmbtns = added.map(function(k){ return '<button class="set-btn danger" data-rmmod="' + k + '" type="button">移除' + (addonMeta(k) ? esc(addonMeta(k).name) : k) + '</button>'; }).join(" ");
+      h += '<div class="set-row">'
+        + '<div class="info"><div class="t">已添加模块</div><div class="d">' + names + '</div></div>'
+        + '<div class="btns">' + rmbtns + '</div>'
+        + '</div>';
+    }
     return h;
   }
   function pSettings(){
@@ -2521,12 +2600,15 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
     body.addEventListener("click", function(ev){
       var t = ev.target;
       if(t.id === "setExport"){ settingsExport(); return; }
+      if(t.id === "setAddFeat"){ openAddFeatModal(); return; }
       if(t.id === "setImport"){
         var inp = document.getElementById("setImportFile");
         if(inp && inp.click) inp.click();
         return;
       }
       if(t.id === "setClear"){ settingsClearAll(); return; }
+      var rm = t.closest ? t.closest("[data-rmmod]") : null;
+      if(rm){ removeModule(rm.getAttribute("data-rmmod")); return; }
     });
     body.addEventListener("change", function(ev){
       var el = ev.target;
@@ -2828,7 +2910,7 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
   }
   /* ---- 板块切换（左侧栏导航） ---- */
   var SEC = {
-    all:      {title:"全部总览",    fn:function(){ return pCheckin() + pTodo() + pBook() + pFav() + pAihot() + pDaily() + pTech() + pEpic() + pHot() + pSettings(); }},
+    all:      {title:"全部总览",    fn:function(){ return pCheckin() + pTodo() + pBook() + pFav() + addedAllHtml() + pAihot() + pDaily() + pTech() + pEpic() + pHot() + pSettings(); }},
     checkin:  {title:"每日打卡",    fn:function(){ return pCheckin(); }},
     todo:     {title:"今日代办",    fn:function(){ return pTodo(); }},
     book:     {title:"记账",        fn:function(){ return pBook(); }},
@@ -2842,6 +2924,278 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
     settings: {title:"设置与数据",  fn:function(){ return pSettings(); }}
   };
   var curSec = "all";
+
+  /* ================= 添加功能（可选模块市场） ================= */
+  var ADDED_KEY = "wb_added_mods_v1";
+  var ADDON_CATALOG = [
+    {key:"pomodoro", name:"番茄钟", desc:"专注 25 / 休息 5，自动计轮次", cls:"card-acc-red",
+     ic:'<svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 13V9M9 2h6"/></svg>'},
+    {key:"countdown", name:"倒计时", desc:"设一个目标时间，实时显示剩余", cls:"card-acc-blue",
+     ic:'<svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 13V8M12 5v1"/></svg>'},
+    {key:"notes", name:"便签", desc:"随手记，自动保存到本地", cls:"card-acc-purple",
+     ic:'<svg viewBox="0 0 24 24"><path d="M4 4h16v12l-4 4H4z"/><path d="M16 20v-4h4"/></svg>'},
+    {key:"water", name:"喝水打卡", desc:"每日喝水计数，达成目标", cls:"card-acc-cyan",
+     ic:'<svg viewBox="0 0 24 24"><path d="M12 3c3 4 5 6.5 5 9a5 5 0 0 1-10 0c0-2.5 2-5 5-9z"/></svg>'}
+  ];
+  function addonMeta(key){ for(var i=0;i<ADDON_CATALOG.length;i++){ if(ADDON_CATALOG[i].key===key) return ADDON_CATALOG[i]; } return null; }
+  function loadAddedMods(){ try{ var a=JSON.parse(localStorage.getItem(ADDED_KEY)); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
+  function saveAddedMods(a){ try{ localStorage.setItem(ADDED_KEY, JSON.stringify(a)); }catch(e){} }
+  function addedAllHtml(){ var h=""; loadAddedMods().forEach(function(k){ if(MOD_FNS[k]) h+=MOD_FNS[k](); }); return h; }
+
+  var moduleTimers = [];
+  var pomoIv = null, countIv = null;
+  function clearModuleTimers(){
+    moduleTimers.forEach(function(t){ if(t) clearInterval(t); });
+    moduleTimers = []; pomoIv = null; countIv = null;
+  }
+
+  /* ---- 番茄钟 ---- */
+  var pomo = {mode:"work", left:25*60, running:false, sessions:0};
+  function pomoRender(){
+    var el = document.getElementById("pomoTime"); if(!el) return;
+    var m = Math.floor(pomo.left/60), s = pomo.left%60;
+    el.textContent = ("0"+m).slice(-2)+":"+("0"+s).slice(-2);
+    var lab = document.getElementById("pomoMode"); if(lab) lab.textContent = pomo.mode==="work" ? "专注中" : "休息中";
+    var ses = document.getElementById("pomoSessions"); if(ses) ses.textContent = pomo.sessions;
+    var btn = document.getElementById("pomoToggle"); if(btn) btn.textContent = pomo.running ? "暂停" : "开始";
+  }
+  function pPomodoro(){
+    return card("card-acc-red","⏱️","番茄钟","专注 · 休息 · 计轮次",
+      '<div class="pomo">'
+      + '<div class="pomo-mode" id="pomoMode">专注中</div>'
+      + '<div class="pomo-time" id="pomoTime">25:00</div>'
+      + '<div class="pomo-ses">今日完成 <b id="pomoSessions">0</b> 个番茄</div>'
+      + '<div class="pomo-btns">'
+      +   '<button class="pomo-btn" id="pomoToggle" type="button">开始</button>'
+      +   '<button class="pomo-btn ghost" id="pomoReset" type="button">重置</button>'
+      + '</div></div>');
+  }
+  function bindPomodoro(){
+    var t = document.getElementById("pomoToggle"), r = document.getElementById("pomoReset");
+    if(t && !t.__wbBound){ t.__wbBound = true; t.addEventListener("click", function(){
+      if(pomo.running){
+        pomo.running = false; if(pomoIv){ clearInterval(pomoIv); pomoIv=null; } pomoRender(); return;
+      }
+      pomo.running = true; pomoRender();
+      pomoIv = setInterval(function(){
+        if(!pomo.running){ if(pomoIv){ clearInterval(pomoIv); pomoIv=null; } return; }
+        pomo.left--;
+        if(pomo.left <= 0){
+          if(pomo.mode === "work"){ pomo.sessions++; pomo.mode="break"; pomo.left=5*60; }
+          else { pomo.mode="work"; pomo.left=25*60; }
+          pomo.running = false;
+          try{ showToast("⏱️ 番茄钟", 0, pomo.mode==="work"?"休息结束，开始专注":"专注结束，休息一下", pomo.mode==="work"?"该专注了":"休息一下"); }catch(e){}
+          if(pomoIv){ clearInterval(pomoIv); pomoIv=null; }
+          pomoRender(); return;
+        }
+        pomoRender();
+      }, 1000);
+      moduleTimers.push(pomoIv);
+    }); }
+    if(r && !r.__wbBound){ r.__wbBound = true; r.addEventListener("click", function(){
+      pomo.running = false; if(pomoIv){ clearInterval(pomoIv); pomoIv=null; }
+      pomo.mode="work"; pomo.left=25*60; pomoRender();
+    }); }
+    pomoRender();
+  }
+
+  /* ---- 倒计时 ---- */
+  var count = {target:0, running:false};
+  function countTick(){
+    var el = document.getElementById("countTime"); if(!el) return;
+    if(!count.target){ el.textContent="--:--:--"; return; }
+    var diff = count.target - Date.now();
+    if(diff <= 0){ el.textContent="00:00:00"; var h=document.getElementById("countHint"); if(h) h.textContent="时间到！"; count.running=false; if(countIv){ clearInterval(countIv); countIv=null; } return; }
+    var d = Math.floor(diff/86400000);
+    var hh = Math.floor(diff%86400000/3600000);
+    var mm = Math.floor(diff%3600000/60000);
+    var ss = Math.floor(diff%60000/1000);
+    el.textContent = (d>0? d+"天 " : "") + ("0"+hh).slice(-2)+":"+("0"+mm).slice(-2)+":"+("0"+ss).slice(-2);
+  }
+  function pCountdown(){
+    return card("card-acc-blue","⏳","倒计时","设目标时间 · 实时剩余",
+      '<div class="count">'
+      + '<input type="datetime-local" id="countInput" class="count-input">'
+      + '<div class="count-btns">'
+      +   '<button class="pomo-btn" id="countStart" type="button">开始</button>'
+      +   '<button class="pomo-btn ghost" id="countStop" type="button">停止</button>'
+      +   '<button class="pomo-btn ghost" id="countReset" type="button">重置</button>'
+      + '</div>'
+      + '<div class="count-time" id="countTime">--:--:--</div>'
+      + '<div class="count-hint" id="countHint">选择一个未来时间后点「开始」</div>'
+      + '</div>');
+  }
+  function bindCountdown(){
+    var inp = document.getElementById("countInput");
+    var s = document.getElementById("countStart"), st = document.getElementById("countStop"), r = document.getElementById("countReset");
+    if(s && !s.__wbBound){ s.__wbBound = true; s.addEventListener("click", function(){
+      if(!inp || !inp.value){ var hh=document.getElementById("countHint"); if(hh) hh.textContent="请先选择目标时间"; return; }
+      count.target = new Date(inp.value).getTime();
+      if(isNaN(count.target)){ return; }
+      count.running = true;
+      if(countIv) clearInterval(countIv);
+      countIv = setInterval(countTick, 1000); moduleTimers.push(countIv);
+      countTick();
+    }); }
+    if(st && !st.__wbBound){ st.__wbBound = true; st.addEventListener("click", function(){ count.running=false; if(countIv){ clearInterval(countIv); countIv=null; } }); }
+    if(r && !r.__wbBound){ r.__wbBound = true; r.addEventListener("click", function(){
+      count.running=false; if(countIv){ clearInterval(countIv); countIv=null; } count.target=0;
+      var el=document.getElementById("countTime"); if(el) el.textContent="--:--:--";
+      var h=document.getElementById("countHint"); if(h) h.textContent="选择一个未来时间后点「开始」";
+    }); }
+    countTick();
+  }
+
+  /* ---- 便签 ---- */
+  var NOTES_KEY = "wb_notes_v1";
+  function pNotes(){
+    var v = ""; try{ v = localStorage.getItem(NOTES_KEY) || ""; }catch(e){}
+    return card("card-acc-purple","📝","便签","随手记 · 自动保存",
+      '<div class="notes">'
+      + '<textarea id="notesArea" class="notes-area" placeholder="写点什么…（自动保存到本地）" maxlength="5000">' + esc(v) + '</textarea>'
+      + '<div class="notes-foot"><span id="notesCount">' + (v ? v.length : 0) + '</span> / 5000 字</div>'
+      + '</div>');
+  }
+  function bindNotes(){
+    var ta = document.getElementById("notesArea"); if(!ta || ta.__wbBound) return;
+    ta.__wbBound = true;
+    var ct = null;
+    ta.addEventListener("input", function(){
+      var c = document.getElementById("notesCount"); if(c) c.textContent = ta.value.length;
+      clearTimeout(ct);
+      ct = setTimeout(function(){ try{ localStorage.setItem(NOTES_KEY, ta.value); }catch(e){} }, 300);
+    });
+  }
+
+  /* ---- 喝水打卡 ---- */
+  var WATER_KEY = "wb_water_v1";
+  function todayStr(){ var d=new Date(); return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2); }
+  function waterLoad(){ try{ var o=JSON.parse(localStorage.getItem(WATER_KEY)); if(o && o.date===todayStr()) return o; }catch(e){} return {date:todayStr(), n:0, goal:8}; }
+  function waterSave(o){ try{ localStorage.setItem(WATER_KEY, JSON.stringify(o)); }catch(e){} }
+  function waterRender(){
+    var w = waterLoad();
+    var n = document.getElementById("waterN"); if(n) n.textContent = w.n;
+    var box = document.querySelector ? document.querySelector(".water-cups") : null;
+    if(box){ var cups=""; for(var i=0;i<Math.max(w.goal,w.n);i++){ cups += '<span class="cup'+(i<w.n?" on":"")+'"></span>'; } box.innerHTML = cups; }
+  }
+  function pWater(){
+    var w = waterLoad();
+    var cups = "";
+    for(var i=0;i<Math.max(w.goal, w.n);i++){ cups += '<span class="cup'+(i<w.n?" on":"")+'"></span>'; }
+    return card("card-acc-cyan","💧","喝水打卡","每日 " + w.goal + " 杯",
+      '<div class="water">'
+      + '<div class="water-cups">' + cups + '</div>'
+      + '<div class="water-stat">今天已喝 <b id="waterN">' + w.n + '</b> / ' + w.goal + ' 杯</div>'
+      + '<div class="water-btns">'
+      +   '<button class="pomo-btn ghost" id="waterMinus" type="button">－</button>'
+      +   '<button class="pomo-btn" id="waterPlus" type="button">＋ 一杯</button>'
+      + '</div></div>');
+  }
+  function bindWater(){
+    var p = document.getElementById("waterPlus"), m = document.getElementById("waterMinus");
+    if(p && !p.__wbBound){ p.__wbBound = true; p.addEventListener("click", function(){
+      var w = waterLoad(); w.n = Math.min(w.n+1, 99); waterSave(w); waterRender();
+      if(w.n >= w.goal) try{ showToast("💧 喝水打卡",0,"今日目标达成，棒！","已完成"); }catch(e){}
+    }); }
+    if(m && !m.__wbBound){ m.__wbBound = true; m.addEventListener("click", function(){
+      var w = waterLoad(); if(w.n>0) w.n--; waterSave(w); waterRender();
+    }); }
+    waterRender();
+  }
+
+  var MOD_FNS = {pomodoro:pPomodoro, countdown:pCountdown, notes:pNotes, water:pWater};
+  var MOD_BIND = {pomodoro:bindPomodoro, countdown:bindCountdown, notes:bindNotes, water:bindWater};
+
+  function registerAddonNav(key){
+    var m = addonMeta(key); if(!m) return;
+    var nav = document.getElementById("nav");
+    if(!nav || nav.querySelector('[data-sec="'+key+'"]')) return;
+    var ins = nav.querySelector ? nav.querySelector('[data-sec="settings"]') : null;
+    var b = document.createElement("button");
+    b.className = "nav-item"; b.setAttribute("draggable","true"); b.setAttribute("data-sec", key);
+    b.innerHTML = '<span class="ic">' + m.ic + '</span><span class="bd"><span class="lb">' + esc(m.name) + '</span></span>';
+    if(ins) nav.insertBefore(b, ins); else nav.appendChild(b);
+    saveNavOrder();
+  }
+  function mountAddedMods(){
+    loadAddedMods().forEach(function(key){
+      var m = addonMeta(key); if(!m) return;
+      if(!SEC[key]) SEC[key] = {title:m.name, fn:MOD_FNS[key]};
+      registerAddonNav(key);
+    });
+  }
+  function addModule(key){
+    var m = addonMeta(key); if(!m) return;
+    if(!SEC[key]) SEC[key] = {title:m.name, fn:MOD_FNS[key]};
+    registerAddonNav(key);
+    var added = loadAddedMods();
+    if(added.indexOf(key) < 0){ added.push(key); saveAddedMods(added); }
+    bindNavDrag();
+    if(curSec === key) renderSec(); else openAddFeatModal();
+    try{ showToast("✅ 已添加", 0, m.name + " 已加入工作台", "添加成功"); }catch(e){}
+  }
+  function removeModule(key){
+    if(!SEC[key]) return;
+    if(curSec === key){ clearModuleTimers(); curSec = "all"; }
+    delete SEC[key];
+    var nav = document.getElementById("nav");
+    var el = nav.querySelector ? nav.querySelector('[data-sec="'+key+'"]') : null;
+    if(el && el.parentNode) el.parentNode.removeChild(el);
+    saveNavOrder();
+    var added = loadAddedMods(), i = added.indexOf(key);
+    if(i >= 0){ added.splice(i,1); saveAddedMods(added); }
+    renderSec();
+    if(curSec === "settings"){ var sb = document.getElementById("settingsBody"); if(sb) sb.innerHTML = settingsBodyHtml(); }
+    try{ showToast("🗑️ 已移除", 0, key + " 模块已移除", "移除成功"); }catch(e){}
+  }
+
+  function openAddFeatModal(){
+    var mask = document.getElementById("addFeatMask");
+    var grid = document.getElementById("addFeatGrid");
+    if(grid){
+      var added = loadAddedMods();
+      var avail = ADDON_CATALOG.filter(function(c){ return added.indexOf(c.key) < 0; });
+      var h = "";
+      if(!avail.length){
+        h = '<div class="addfeat-empty">无功能添加</div>';
+      }else{
+        avail.forEach(function(c){
+          h += '<div class="addfeat-card">'
+            + '<span class="addfeat-ic">' + c.ic + '</span>'
+            + '<div class="addfeat-bd"><div class="addfeat-name">' + esc(c.name) + '</div>'
+            + '<div class="addfeat-desc">' + esc(c.desc) + '</div></div>'
+            + '<button class="addfeat-add" data-addfeat="' + c.key + '" type="button">添加</button>'
+            + '</div>';
+        });
+      }
+      grid.innerHTML = h;
+    }
+    if(mask) mask.classList.add("show");
+  }
+  function closeAddFeatModal(){ var mask = document.getElementById("addFeatMask"); if(mask) mask.classList.remove("show"); }
+  function bindAddFeat(){
+    var open = document.getElementById("openAddFeat");
+    if(open && !open.__wbBound){ open.__wbBound = true; open.addEventListener("click", openAddFeatModal); }
+    var mask = document.getElementById("addFeatMask");
+    if(mask){
+      mask.addEventListener("click", function(ev){
+        if(ev.target === mask || (ev.target.closest && ev.target.closest("[data-close]"))) closeAddFeatModal();
+      });
+      var grid = document.getElementById("addFeatGrid");
+      if(grid && !grid.__wbBound){ grid.__wbBound = true;
+        grid.addEventListener("click", function(ev){
+          var b = ev.target.closest ? ev.target.closest("[data-addfeat]") : null;
+          if(b) addModule(b.getAttribute("data-addfeat"));
+        });
+      }
+      var close = document.getElementById("addFeatClose");
+      if(close && !close.__wbBound){ close.__wbBound = true; close.addEventListener("click", closeAddFeatModal); }
+    }
+    document.addEventListener("keydown", function(ev){
+      if(ev.key === "Escape"){ var m = document.getElementById("addFeatMask"); if(m && m.classList.contains("show")) closeAddFeatModal(); }
+    });
+  }
+
 
   function bindHotTabs(){
     var tabs = document.getElementById("hotTabs");
@@ -2859,6 +3213,7 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
 
   function renderSec(){
     var s = SEC[curSec] || SEC.all;
+    clearModuleTimers();
     var title = document.getElementById("secTitle");
     if(title) title.textContent = s.title;
     grid.className = "grid" + (curSec === "all" ? "" : " solo");
@@ -2869,7 +3224,7 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
       if(_f) _f.classList.add("open");
     }else if(typeof applyFold === "function"){ applyFold(); }
     /* 本地板块（打卡 / 代办 / 收藏）不依赖云端资讯，无数据也照常渲染 */
-    var isLocal = (curSec === "checkin" || curSec === "fav" || curSec === "todo" || curSec === "book" || curSec === "settings");
+    var isLocal = (curSec === "checkin" || curSec === "fav" || curSec === "todo" || curSec === "book" || curSec === "settings" || loadAddedMods().indexOf(curSec) >= 0);
     if(!has && !isLocal){
       /* 无资讯数据时：本地板块照常，其余给引导 */
       grid.className = "grid";
@@ -2885,6 +3240,9 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
     bindBook();
     bindSettings();
     bindHotTabs();
+    /* 已添加的可选模块：总览页逐个绑定，单模块页按需绑定 */
+    if(curSec === "all"){ loadAddedMods().forEach(function(k){ if(MOD_BIND[k]) MOD_BIND[k](); }); }
+    else if(MOD_BIND[curSec]){ MOD_BIND[curSec](); }
     updateSideCheckin();
     var navs = document.querySelectorAll("[data-sec]");
     for(var i=0;i<navs.length;i++){
@@ -3122,6 +3480,8 @@ function bindNavDrag(){
       return true;
     }
   nav.querySelectorAll(".nav-item").forEach(function(el){
+    if(el.__dragBound) return;          /* 添加模块后重绑时不重复挂监听 */
+    el.__dragBound = true;
     if(touch){
       el.draggable = false;
       el.removeAttribute("draggable");
@@ -3168,8 +3528,10 @@ function bindNavDrag(){
   }
 
   try{
+    mountAddedMods();          /* 恢复已添加的可选模块（SEC + 侧栏） */
     applyNavOrder();
     bindNavDrag();
+    bindAddFeat();
     renderSec();
     startTodoTimer();
     todoUpdateBadge();
