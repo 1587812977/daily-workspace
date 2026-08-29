@@ -47,6 +47,24 @@ body.dark{
   --blue:#60a5fa;
   --green:#34d399;
 }
+/* 黑白极简风：灰阶变量覆盖（基于浅色，无彩色） */
+body.theme-mono{
+  --bg:#f3f3f3;
+  --bg2:#ffffff;
+  --card:#ffffff;
+  --card2:#ededed;
+  --line:rgba(0,0,0,.12);
+  --line2:rgba(0,0,0,.07);
+  --txt:#141414;
+  --txt2:#4d4d4d;
+  --txt3:#8a8a8a;
+  --cyan:#2f2f2f;
+  --purple:#555555;
+  --pink:#666666;
+  --orange:#666666;
+  --blue:#444444;
+  --green:#2f2f2f;
+}
 *{margin:0;padding:0;box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{
@@ -622,6 +640,32 @@ body.dark .bg-toggle:hover,body.dark .bg-clear:hover{background:rgba(34,211,238,
 .bg-clear:hover{border-color:#ef4444;color:#ef4444;background:rgba(239,68,68,.08)}
 body.has-bg .bg-clear{display:flex}
 
+/* 更多主题按钮 */
+.theme-more{
+  width:36px;height:36px;border-radius:10px;
+  border:1px solid var(--line);background:transparent;
+  color:var(--txt2);cursor:pointer;display:flex;align-items:center;justify-content:center;
+  transition:all .15s;
+}
+.theme-more:hover{border-color:var(--txt);color:var(--txt);background:rgba(0,0,0,.05)}
+body.dark .theme-more:hover{background:rgba(255,255,255,.08)}
+
+/* 主题选择弹窗 */
+.theme-grid{display:flex;flex-direction:column;gap:10px;padding:2px 0}
+.theme-card{
+  display:flex;align-items:center;gap:12px;width:100%;text-align:left;
+  border:1px solid var(--line);background:transparent;color:var(--txt);
+  border-radius:12px;padding:12px;cursor:pointer;transition:all .15s;
+}
+.theme-card:hover{background:rgba(0,0,0,.03)}
+.theme-card.on{border-color:var(--txt);box-shadow:0 0 0 1px var(--txt)}
+body.dark .theme-card:hover{background:rgba(255,255,255,.05)}
+.theme-swatch{width:38px;height:38px;flex:none;border-radius:9px;border:1px solid var(--line)}
+.theme-meta{display:flex;flex-direction:column;flex:1;min-width:0}
+.theme-name{font-size:15px;font-weight:600}
+.theme-desc{font-size:12.5px;color:var(--txt3);margin-top:1px}
+.theme-ok{color:var(--txt);font-weight:700;font-size:16px}
+
 /* 自定义背景图 */
 body.has-bg{
   background-image:
@@ -1158,7 +1202,7 @@ body.dark .epic-game:hover{background:rgba(255,255,255,.06)}
   .grid{grid-template-columns:1fr;gap:16px}
 
   /* --- 触控目标 ≥44px --- */
-  .theme-toggle,.bg-toggle,.bg-clear{width:42px;height:42px;margin-left:0}
+  .theme-toggle,.bg-toggle,.bg-clear,.theme-more{width:42px;height:42px;margin-left:0}
   .theme-toggle{margin-left:auto}
   .tab{min-height:38px;padding:8px 15px;font-size:14px}
   .epic-claim,.epic-got{min-height:38px;padding:9px 15px;font-size:13.5px}
@@ -1393,6 +1437,52 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
   .fav-del{width:34px;height:34px}
   .fav-mini{min-height:34px;padding:7px 14px}
 }
+
+/* ===== 黑白极简风：中性化所有硬彩（覆盖 body:not(.dark) 的彩色规则 + 新增模块选择器） ===== */
+body.theme-mono .live{color:var(--txt2);border-color:var(--line);background:rgba(0,0,0,.04)}
+body.theme-mono .live i{background:var(--txt2);box-shadow:none}
+body.theme-mono h1{background:none;-webkit-text-fill-color:var(--txt);color:var(--txt)}
+body.theme-mono .brand .mk{box-shadow:none}
+body.theme-mono .nav-item.on{background:rgba(0,0,0,.06);color:var(--txt)}
+body.theme-mono .nav-item.on::before{background:var(--txt);box-shadow:none}
+body.theme-mono .nav-item.on .ic{color:var(--txt);background:rgba(0,0,0,.05);border-color:var(--line);box-shadow:none}
+body.theme-mono .side-foot b{color:var(--txt)}
+body.theme-mono .epic{background:rgba(0,0,0,.03);border:1px solid var(--line)}
+body.theme-mono .ci-prog .ci-count b{color:var(--txt)}
+body.theme-mono .ci-item.done .ci-check{background:var(--txt);border-color:var(--txt);color:#fff;box-shadow:none}
+body.theme-mono .ci-cal-nav:hover{background:rgba(0,0,0,.05);color:var(--txt);border-color:var(--line)}
+body.theme-mono .ci-cal-cell:hover{border-color:var(--line)}
+body.theme-mono .ci-cal-cell.today{border-color:var(--txt);box-shadow:inset 0 0 0 1px rgba(0,0,0,.10)}
+body.theme-mono .ci-cal-cell.l1{background:rgba(0,0,0,.10)}
+body.theme-mono .ci-cal-cell.l2{background:rgba(0,0,0,.18)}
+body.theme-mono .ci-cal-cell.l3{background:rgba(0,0,0,.28)}
+body.theme-mono .ci-cal-cell.l4{background:var(--txt)}
+body.theme-mono .ci-cal-cell.l4 span{color:#fff}
+body.theme-mono .ci-cal-cell.l4 i{color:#fff}
+body.theme-mono .ci-legend em.l1{background:rgba(0,0,0,.10)}
+body.theme-mono .ci-legend em.l2{background:rgba(0,0,0,.18)}
+body.theme-mono .ci-legend em.l3{background:rgba(0,0,0,.28)}
+body.theme-mono .ci-legend em.l4{background:var(--txt)}
+body.theme-mono .ci-item.pin{background:rgba(0,0,0,.03);border:1px solid var(--line)}
+body.theme-mono .ci-bin-item:hover{background:rgba(0,0,0,.05);color:var(--txt);border-color:var(--line)}
+body.theme-mono .ci-add input:focus{border-color:var(--line)}
+body.theme-mono .ci-add button{background:rgba(0,0,0,.05);border:1px solid var(--line);color:var(--txt)}
+body.theme-mono .ci-add button:hover{background:rgba(0,0,0,.10);box-shadow:none}
+body.theme-mono .ci-mute:hover{border-color:var(--line);background:rgba(0,0,0,.04)}
+body.theme-mono .ts-card{background:#fff;border:1px solid var(--line);box-shadow:0 10px 30px rgba(0,0,0,.08)}
+body.theme-mono .ts-ms{border-top:1px dashed var(--line);color:var(--txt2)}
+body.theme-mono footer a:hover{color:var(--txt)}
+/* 新增模块选择器中性化 */
+body.theme-mono .side-addfeat{border-color:var(--line);color:var(--txt)}
+body.theme-mono .side-addfeat:hover{background:rgba(0,0,0,.04)}
+body.theme-mono .addfeat-add{background:var(--txt);color:#fff}
+body.theme-mono .addfeat-add:hover{filter:brightness(.92)}
+body.theme-mono .pomo-btn{border-color:var(--txt);background:var(--txt);color:#fff}
+body.theme-mono .pomo-btn.ghost{background:transparent;color:var(--txt)}
+body.theme-mono .cup.on{background:var(--txt);border-color:var(--txt);box-shadow:none}
+body.theme-mono .theme-more:hover{border-color:var(--txt);color:var(--txt);background:rgba(0,0,0,.05)}
+body.theme-mono .theme-card.on{border-color:var(--txt);box-shadow:0 0 0 1px var(--txt)}
+body.theme-mono .theme-ok{color:var(--txt)}
 </style>
 </head>
 <body>
@@ -1490,6 +1580,9 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
       <button class="theme-toggle" id="themeToggle" title="切换深色/浅色主题" aria-label="切换主题">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
       </button>
+      <button class="theme-more" id="themeMore" title="更多主题" aria-label="更多主题">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="13" r="2.5"/><circle cx="8.5" cy="7.5" r="2.5"/><circle cx="6.5" cy="13" r="2.5"/><circle cx="12" cy="17.5" r="2.5"/></svg>
+      </button>
       <button class="bg-toggle" id="bgToggle" title="自定义背景图" aria-label="自定义背景">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
       </button>
@@ -1523,6 +1616,17 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
   </div>
 </div>
 
+<!-- ===== 更多主题 弹窗 ===== -->
+<div class="modal-mask" id="themeMask">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-head">
+      <div class="modal-title">更多主题</div>
+      <button class="modal-close" id="themeClose" data-close type="button" aria-label="关闭">×</button>
+    </div>
+    <div class="theme-grid" id="themeGrid"></div>
+  </div>
+</div>
+
 <script src="data.js"></script>
 <script src="习惯数据.js"></script>
 <script>
@@ -1539,20 +1643,65 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
     100:"连续 100 天，respect。这不再是坚持，是日常 💎"
   };
   var SIGN_KEY = "wb_signin_v1";            /* 左侧栏签到存储键（提前定义，早期 return 后仍可用） */
-  /* ---- 主题切换 ---- */
+  /* ---- 主题切换（三态：light / dark / mono） ---- */
   var THEME_KEY = "wb_theme_v1";
-  function applyTheme(dark){
-    if(document.body && document.body.classList) document.body.classList.toggle("dark", dark);
-    var btn = document.getElementById("themeToggle");
-    if(btn){
-      btn.innerHTML = dark
+  var THEMES = [
+    {key:"light", name:"浅色",     desc:"明亮清爽", sw:"background:linear-gradient(135deg,#ffffff,#eaeaea)"},
+    {key:"dark",  name:"深色",     desc:"夜间护眼", sw:"background:linear-gradient(135deg,#0b1120,#27313f)"},
+    {key:"mono",  name:"黑白极简", desc:"灰阶无彩", sw:"background:linear-gradient(135deg,#f3f3f3,#9a9a9a)"}
+  ];
+  function applyThemeMode(mode){
+    var body = document.body;
+    if(!body || !body.classList) return;
+    body.classList.toggle("dark", mode === "dark");
+    body.classList.toggle("theme-mono", mode === "mono");
+    var tbtn = document.getElementById("themeToggle");
+    if(tbtn){
+      tbtn.innerHTML = (mode === "dark")
         ? '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'
         : '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>';
     }
   }
-  function loadTheme(){ try{ return localStorage.getItem(THEME_KEY) === "dark"; }catch(e){ return false; } }
-  function saveTheme(dark){ try{ localStorage.setItem(THEME_KEY, dark ? "dark" : "light"); }catch(e){} }
-  applyTheme(loadTheme());
+  function loadTheme(){ try{ return localStorage.getItem(THEME_KEY) || "light"; }catch(e){ return "light"; } }
+  function saveTheme(mode){ try{ localStorage.setItem(THEME_KEY, mode); }catch(e){} }
+  function setTheme(mode){ applyThemeMode(mode); saveTheme(mode); }
+  applyThemeMode(loadTheme());
+
+  /* 主题选择弹窗 */
+  function openThemePicker(){
+    var grid = document.getElementById("themeGrid");
+    var cur = loadTheme();
+    if(grid){
+      grid.innerHTML = THEMES.map(function(t){
+        var on = t.key === cur ? " on" : "";
+        var ok = t.key === cur ? '<span class="theme-ok">✓</span>' : '';
+        return '<button class="theme-card'+on+'" type="button" data-theme="'+t.key+'">'+
+          '<span class="theme-swatch" style="'+t.sw+'"></span>'+
+          '<span class="theme-meta"><span class="theme-name">'+t.name+'</span>'+
+          '<span class="theme-desc">'+t.desc+'</span></span>'+ok+'</button>';
+      }).join("");
+    }
+    var mask = document.getElementById("themeMask");
+    if(mask) mask.classList.add("show");
+  }
+  function closeThemePicker(){
+    var mask = document.getElementById("themeMask");
+    if(mask) mask.classList.remove("show");
+  }
+  function bindThemePicker(){
+    var mask = document.getElementById("themeMask");
+    if(!mask) return;
+    if(mask.__themeBound) return;          /* 防重复绑定 */
+    mask.__themeBound = true;
+    mask.addEventListener("click", function(e){
+      var cl = e.target.getAttribute ? e.target.getAttribute("data-close") : null;
+      if(e.target === mask || cl){ closeThemePicker(); return; }
+      var card = e.target.closest ? e.target.closest("[data-theme]") : null;
+      if(card){ setTheme(card.getAttribute("data-theme")); closeThemePicker(); }
+    });
+    var more = document.getElementById("themeMore");
+    if(more) more.addEventListener("click", openThemePicker);
+  }
 
   /* ---- 自定义背景图 ---- */
   var BG_KEY = "wb_bg_img_v1";
@@ -1606,9 +1755,10 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
   document.addEventListener("DOMContentLoaded", function(){
     var btn = document.getElementById("themeToggle");
     if(btn) btn.addEventListener("click", function(){
-      var dark = !document.body.classList.contains("dark");
-      applyTheme(dark); saveTheme(dark);
+      var cur = loadTheme();
+      setTheme(cur === "dark" ? "light" : "dark");   /* 浅色/深色 快速互切，并清除 mono */
     });
+    bindThemePicker();
 
     var bgBtn = document.getElementById("bgToggle");
     var bgFile = document.getElementById("bgFile");
