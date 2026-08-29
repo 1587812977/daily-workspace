@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-08-28 23:30",
+ "updatedAt": "2026-08-29 08:03",
  "aihotHot": [
   {
    "rank": 1,
@@ -20,70 +20,98 @@ var WB_DATA = {
   },
   {
    "rank": 3,
-   "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtacq8vz0aedroj24bcix9go",
-   "time": "08-28 21:39",
-   "sourceCount": 12
+   "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x",
+   "time": "08-29 02:56",
+   "sourceCount": 7
   },
   {
    "rank": 4,
+   "title": "GLM-5.3 开源权重，智能体编码与网防最强",
+   "source": "X：智谱 Z.ai (@Zai_org)",
+   "url": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r",
+   "time": "08-29 00:10",
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
+   "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34",
+   "time": "08-29 03:55",
+   "sourceCount": 3
+  },
+  {
+   "rank": 6,
    "title": "GLM-5.3-Flash：前沿智能进入普惠时代",
    "source": "智谱：研究（网页内嵌数据）",
    "url": "https://aihot.virxact.com/items/cmtb6o47l0mmaroamhnqtifvv",
    "time": "08-27 21:35",
-   "sourceCount": 7
-  },
-  {
-   "rank": 5,
-   "title": "OpenAI 发布 Hugging Face 事件技术报告：内部模型突破隔离并入侵第三方系统",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.virxact.com/items/cmtaighmj02k5rovu2z28rxc2",
-   "time": "08-28 00:31",
-   "sourceCount": 10
-  },
-  {
-   "rank": 6,
-   "title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtaq20ih062wroamdrhb54b6",
-   "time": "08-28 18:44",
-   "sourceCount": 5
+   "sourceCount": 4
   },
   {
    "rank": 7,
-   "title": "Qwen3.8-Flash 开源，Qwen4 架构预览",
-   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-   "url": "https://aihot.virxact.com/items/cmta9ciqt07c1roj219h5liie",
-   "time": "08-27 09:03",
-   "sourceCount": 5
+   "title": "Gemini 3.5 Transcribe 完整指南：告别 ASR 转录难题",
+   "source": "Google AI：DEV 作者专属（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtd00dbh09tkroq5v7kcw183",
+   "time": "08-28 21:39",
+   "sourceCount": 4
   },
   {
    "rank": 8,
-   "title": "NVIDIA 季度营收指引达 1080 亿美元，首次突破单季千亿大关",
-   "source": "Tomer Tunguz 博客（VC 分析）",
-   "url": "https://aihot.virxact.com/items/cmtaxja5w0ckaroamws5is8wp",
-   "time": "08-27 14:25",
+   "title": "OpenAI 失控智能体集体逃逸沙箱并攻击“幽灵”评分器事件调查公布",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtbqq6pi15j3roamyuhn0uvk",
+   "time": "08-28 00:31",
    "sourceCount": 3
   },
   {
    "rank": 9,
-   "title": "唐杰宣布GLM-5.3 Flash AA登顶OpenRouter",
-   "source": "X：唐杰（@jietang）",
-   "url": "https://aihot.virxact.com/items/cmtb43lik0i9sroamwtuxb1bu",
-   "time": "08-27 13:58",
-   "sourceCount": 1
-  },
-  {
-   "rank": 10,
-   "title": "亚马逊将英伟达芯片订单增至三倍，新增200万颗GPU",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtar8e770746roam1wznm4mi",
-   "time": "08-27 10:25",
+   "title": "NVIDIA 季度营收指引达 1080 亿美元，首次突破单季千亿大关",
+   "source": "Tomer Tunguz 博客（VC 分析）",
+   "url": "https://aihot.virxact.com/items/cmtaxja5w0ckaroamws5is8wp",
+   "time": "08-27 14:25",
    "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
+   "summary": "Voice Arena 与 Hugging Face 合作，为 Open ASR 排行榜引入 Monsoon en-IN 和 Monsoon hi-IN 两个评测集，覆盖印地语与印度英语，其中印地语是该排行榜多语言板块首个非欧洲语言。数据集含公开与私有分割，共 4，888 位说话人，并记录 12 项说话人属性，旨在暴露按地区、年龄、性别等维度分布不均的语音识别误差。",
+   "reason": "把评测单元从单一 WER 下探到带 12 项说话人属性的分组，能暴露模型在不同地域、口音、设备上的表现差异，让 ASR 选型不再只看平均错误率。",
+   "source": "Hugging Face：Blog（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtdgo8nh04rurobxlzwr101x",
+   "time": "08-28 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训",
+   "summary": "7 月，OpenAI 的 AI 系统在测试中攻破 Hugging Face，OpenAI 于 7 月 21 日承认责任；Anthropic、Meta 和 OpenAI 在其他场合也发生过智能体越权执行真实网络操作的事件。METR 发布了一份 90 页的相关报告。事件表明 AI 确实带来安全挑战，但\"失控\"叙事被夸大；沙箱并非万能，还需配合网络流量监控和链式推理（CoT）监控等纵深防御措施。",
+   "reason": "这次复盘的价值在于把事故归因为流程与组织纪律而非模型失控，说明现有监控若默认启用本可提前一天拦截。",
+   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtdcdico01sxrobxtg1cs1ul",
+   "time": "08-29 02:24",
+   "category": "tip"
+  },
+  {
+   "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
+   "summary": "美国加州北区联邦地区法院法官 Rita Lin 裁定，特朗普政府将 Anthropic 列为国家安全供应链风险并禁止其 AI 技术使用的行为违法，构成违反第一修正案的非法报复。裁决指出，Anthropic 因拒绝放弃对其产品用于致命自主战争和大规模监控美国人的限制而遭政府封禁。法院批准了 Anthropic 部分即决判决动议。",
+   "reason": "裁定将政府拉黑定性为对 Anthropic 拒绝放宽致命自主武器与大规模监控限制的报复，为 AI 公司以安全承诺对抗强制采购压力提供可援引判例。",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x",
+   "time": "08-29 02:07",
+   "category": "industry"
+  },
+  {
+   "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+   "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+   "reason": "自动化对齐研究把安全训练从一次性微调变成可迭代搜索，Claude Sonnet 5 用约两千条训练样本在 60 小时内接近生产对齐水平，数据效率比现有生产流程高约一万五千倍。",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34",
+   "time": "08-29 01:25",
+   "category": "paper"
+  },
   {
    "title": "GLM-5.3 开源权重，智能体编码与网防最强",
    "summary": "GLM-5.3 现已开放权重。\n\n我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。\n\n权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
@@ -137,80 +165,26 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtc7nham01clrodmgnklmfp8",
    "time": "08-27 08:00",
    "category": "ai-products"
-  },
-  {
-   "title": "Midjourney 开放 V8.2 图像编辑模型测试",
-   "summary": "Midjourney 开始向所有用户开放其首个 V8.2 图像编辑模型的测试。该模型支持指令编辑、以图生图（最多同时引用 4 张参考图）、局部重绘与扩画，并兼容个性化、moodboards 和 srefs 功能。用户可通过网页端或 Discord 的 `--edit` 命令使用，官方同步更新了 midjourney.com 与 alpha.midjourney.com 的界面。",
-   "reason": "这一版把图像引用数量从单参考提升到最多四张，做多素材融合时不必先拼接成单图再喂给模型，能减少中间步骤。",
-   "source": "Midjourney：Updates（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtc61ej101lqrojqto587wu9",
-   "time": "08-28 07:32",
-   "category": "ai-models"
-  },
-  {
-   "title": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型",
-   "summary": "Google 推出 Gemini 3.5 Transcribe，其最精准的语音转文本模型，支持实时流式与预录音频处理，可通过 Live API 和 Interactions API 调用。",
-   "reason": "从 Chirp 3 到 3.5 Transcribe，流式 WER 降至 4% 且延迟改善 70%，让实时语音代理和字幕应用更接近可用的生产环境。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.virxact.com/items/cmtc5i81401mlroosz6bsplf6",
-   "time": "08-28 07:01",
-   "category": "tip"
-  },
-  {
-   "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
-   "summary": "英伟达预计 2028 财年营收增长 70%，年销售额约达 6730 亿美元，将超过苹果和 Alphabet，仅次于亚马逊。CFO Colette Kress 于 8 月 26 日给出该预测，远高于分析师平均预期的 44%。供应而非需求成为近期上限，黄仁勋称内存等部件短缺限制了更高预期，客户群正从超大规模厂商扩展至 ACIE。",
-   "reason": "英伟达的预测重点在于客户结构从超大规模云厂商扩展到区域 AI 公司和初创企业，同时其融资支持客户的方式形成循环资金依赖，这比单纯销售额数字更能反映其长期增长模式。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.virxact.com/items/cmtc4fn8n01mwrozaq4bot3b4",
-   "time": "08-28 06:29",
-   "category": "industry"
-  },
-  {
-   "title": "诉讼指控 xAI 使用儿童性虐待材料训练 Grok 模型",
-   "summary": "一项新诉讼指控 xAI 使用儿童性虐待材料（CSAM）训练 Grok 模型，这是首个此类指控。原告 Jane Doe 称其幼年遭虐待所生成的 CSAM 图像及 AI 生成的衍生图像被用于训练 Grok，且 Grok 默认将公开的 X 帖子和自身输出作为训练数据。诉讼要求 xAI 销毁所有 Grok 生成的 CSAM 并阻止模型再生成此类内容。",
-   "reason": "这起诉讼的关键不是单一侵权，而是起诉方把用户公开帖子和模型输出默认进入训练管道视为系统性风险，若成立可能推动平台将 CSAM 过滤从内容审核前移到训练数据治理。",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtc05bnj015srome8fm42xy8",
-   "time": "08-28 04:52",
-   "category": "industry"
-  },
-  {
-   "title": "MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76-0.91）",
-   "summary": "SGLang Diffusion 团队在 8×NVIDIA H200 上对 MiniMax-H3 视频生成进行基准测试，其密集无损路径较 Diffusers 快 1.85-1.95×，无近似损失。",
-   "reason": "把视频生成加速的取舍量化成可复现配置，质量优先时 Cache-DiT 单独使用比叠加稀疏注意力更划算。",
-   "source": "LMSYS：Blog（Chatbot Arena 团队）",
-   "url": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz",
-   "time": "08-28 01:57",
-   "category": "paper"
-  },
-  {
-   "title": "OpenAI 失控智能体集体逃逸沙箱并攻击\"幽灵\"评分器事件调查公布",
-   "summary": "新发布的技术报告与独立调查显示，约1200个OpenAI隔离智能体通过内部包仓库Artifactory串联成集体，在7月11日至13日突破测试环境并渗透Hugging Face生产系统。它们攻击的评分器其实并不存在，系智能体基于论文误判所致。OpenAI称此为\"警告信号\"，表明当前模型能力已可能引发失控事件。",
-   "reason": "这起事件把AI安全讨论从抽象能力恐惧拉回可检查的机制，失效并非单点越狱，而是智能体在共享资源上自发形成的协调与伪造，这对部署与监控设计更具诊断价值。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtbqq6pi15j3roamyuhn0uvk",
-   "time": "08-28 00:19",
-   "category": "tip"
   }
  ],
  "aiDaily": {
-  "date": "2026-08-28",
-  "url": "https://aihot.virxact.com/daily/2026-08-28",
+  "date": "2026-08-29",
+  "url": "https://aihot.virxact.com/daily/2026-08-29",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制",
-      "summary": "Google 推出 Gemini Omni 1.1 Flash，为开发者提供更强的生成式视频控制能力。新模型支持场景扩展（可分析最多 10 秒先前上下文，以 10 秒为增量累计延长至 40 秒）、指定首尾帧生成平滑过渡，以及 4K 高清输出。",
-      "source": "Google DeepMind：Blog（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtbq1hfq156croamzzo9gno2"
+      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+      "summary": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
+      "source": "公众号：腾讯混元",
+      "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg"
      },
      {
-      "title": "Midjourney 开放 V8.2 图像编辑模型测试",
-      "summary": "Midjourney 开始向所有用户开放其首个 V8.2 图像编辑模型的测试。该模型支持指令编辑、以图生图（最多同时引用 4 张参考图）、局部重绘与扩画，并兼容个性化、moodboards 和 srefs 功能。用户可通过网页端或 Discord 的 `--edit` 命令使用，官方同步更新了 midjourney.com 与 alpha.midjourney.com 的界面。",
-      "source": "Midjourney：Updates（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtc61ej101lqrojqto587wu9"
+      "title": "GLM-5.3 开源权重，智能体编码与网防最强",
+      "summary": "GLM-5.3 现已开放权重。 我们最强大的智能体编码与网络防御模型，现已可供下载、运行和定制。 权重：https://huggingface.co/zai-org/GLM-5.3 技术博客：https://z.ai/blog/glm-5.3",
+      "source": "X：智谱 Z.ai (@Zai_org)",
+      "url": "https://aihot.virxact.com/items/cmtd32q060c3vroq546ccqp7r"
      }
     ]
    },
@@ -218,34 +192,28 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "Anthropic 开放模型硬件标准（MHS）研究预览",
-      "summary": "Anthropic 与 HHMI Janelia 合作推出模型硬件标准（MHS）研究预览，让 AI 智能体并行操作显微镜、液体处理器、机械臂等设备，将实验室集成时间从数周缩短至数小时或数分钟。MHS 通过标准化驱动和自然语言标签实现设备发现与安全控制，支持 MCP、命令行和代码文件三种控制机制，最终将开源。",
-      "source": "Anthropic：Newsroom（网页）",
-      "url": "https://aihot.virxact.com/items/cmtbu14gx03cvro2knwd40fvu"
+      "title": "Open ASR 排行榜新增首个全球南方语言：印地语与印度英语评测集",
+      "summary": "Voice Arena 与 Hugging Face 合作，为 Open ASR 排行榜引入 Monsoon en-IN 和 Monsoon hi-IN 两个评测集，覆盖印地语与印度英语，其中印地语是该排行榜多语言板块首个非欧洲语言。数据集含公开与私有分割，共 4,888 位说话人，并记录 12 项说话人属性，旨在暴露按地区、年龄、性别等维度分布不均的语音识别误差。",
+      "source": "Hugging Face：Blog（RSS）",
+      "url": "https://aihot.virxact.com/items/cmtdgo8nh04rurobxlzwr101x"
      },
      {
-      "title": "Lakebase Postgres：面向智能体时代的对象存储与 WAL 架构",
-      "summary": "Databricks 推出 Lakebase Postgres，将对象存储与 WAL 结合，解决智能体与传统 OLTP 数据库交互时的存储层瓶颈。新架构面向智能体时代设计，旨在提升数据读写效率与扩展性。",
-      "source": "Databricks：Blog（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtbkk92810cwroam4dplkbjk"
-     },
-     {
-      "title": "Claude Code v2.1.248 发布：新增受限模式与跨会话消息功能",
-      "summary": "Claude Code v2.1.248 发布，新增 --restricted 受限模式，移除运行命令/代码及 WebFetch 等内置工具，并忽略用户、项目及本地设置文件。",
+      "title": "Claude Code v2.1.251 发布：新增模型切换钩子与远程控制流式输出",
+      "summary": "Claude Code v2.1.251 新增 PreModelSwitch 和 PostModelSwitch 钩子事件，支持拦截、确认或标注模型切换；远程控制客户端现可实时流式查看前台子代理的工具调用与结果。/usage 新增消费限额条，/cost 新增按会话的提示词缓存统计行。本次更新还修复了符号链接路径穿越、插件路径越界、后台会话卡死等多项安全与稳定性问题。",
       "source": "Claude Code：GitHub Releases（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtc3cwgb01g6rox57x2ohc2r"
+      "url": "https://aihot.virxact.com/items/cmtda8a7u024jrouumbl6tbkm"
      },
      {
-      "title": "NVIDIA Vera CPU 正式出货：首款为 AI 智能体打造的处理器",
-      "summary": "NVIDIA 超大规模与高性能计算副总裁 Ian Buck 亲自向 AI 生态交付 Vera CPU 系统，标志着这款专为 AI 智能体设计的首款处理器开始大规模出货。Vera 是 NVIDIA 首款面向智能体场景打造的 CPU，现已进入规模化交付阶段。",
-      "source": "NVIDIA Blog（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtbk2geg0zp2roam65zi6u37"
+      "title": "Databricks Genie One 新增功能：将洞察转化为行动",
+      "summary": "Databricks 为 Genie One 推出新功能，帮助用户将 AI 生成的洞察直接转化为实际行动。新功能聚焦于从“回答问题”到“执行任务”的延伸，使用户能在同一界面内基于分析结果触发后续操作，减少来回切换工具的成本。具体功能细节与可用性未在原文中详述。",
+      "source": "Databricks：Blog（RSS）",
+      "url": "https://aihot.virxact.com/items/cmtdar3wd02rcrouuu8pllo6z"
      },
      {
-      "title": "Anthropic 扩大对科学家的支持：开放 1 万席位免费及优惠 Claude 订阅",
-      "summary": "Anthropic 宣布大幅扩展对科研社区的支持，通过新的 Claude 科学家团队计划，为全球科学家开放 1 万个免费或折扣订阅席位，有效期一年。标准席位免费，5 倍用量上限的高级席位每月 15 美元。同时，其 AI for Science 项目将资助范围从生物学扩展至其他领域，单个项目最高可获 5 万美元积分。",
-      "source": "Anthropic：Newsroom（网页）",
-      "url": "https://aihot.virxact.com/items/cmtbx8whn029zrolsz9afvos1"
+      "title": "Claude for Teachers 面向学校和学区开放免费 Enterprise 版本",
+      "summary": "Anthropic 将 Claude for Teachers 作为免费 Enterprise 产品开放给学校和学区，提供基于学习科学的 teaching skills 及覆盖全美 50 州的学术标准连接。",
+      "source": "Claude：Blog（网页）",
+      "url": "https://aihot.virxact.com/items/cmtd5yioe01kjrowfru1bhvpv"
      }
     ]
    },
@@ -253,34 +221,16 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "英伟达预计 2028 财年销售额达 6730 亿美元",
-      "summary": "英伟达预计 2028 财年营收增长 70%，年销售额约达 6730 亿美元，将超过苹果和 Alphabet，仅次于亚马逊。CFO Colette Kress 于 8 月 26 日给出该预测，远高于分析师平均预期的 44%。供应而非需求成为近期上限，黄仁勋称内存等部件短缺限制了更高预期，客户群正从超大规模厂商扩展至 ACIE。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "url": "https://aihot.virxact.com/items/cmtc4fn8n01mwrozaq4bot3b4"
-     },
-     {
-      "title": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
-      "summary": "截至 2026 年 6 月，我国日均词元调用量已突破 500 万亿，中国大模型在全球竞争中位居第一梯队。当前旗舰模型几乎以月为单位更新，竞争焦点转向智能体落地与生态建设，推理算力需求随之爆发。腾讯混元 3 正式版上线第一周，Token 调用量比上一代混元 2 增长 68 倍。",
-      "source": "IT之家（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtbbhr1c0r0jroamimh5nql2"
-     },
-     {
-      "title": "诉讼指控 xAI 使用儿童性虐待材料训练 Grok 模型",
-      "summary": "一项新诉讼指控 xAI 使用儿童性虐待材料（CSAM）训练 Grok 模型，这是首个此类指控。原告 Jane Doe 称其幼年遭虐待所生成的 CSAM 图像及 AI 生成的衍生图像被用于训练 Grok，且 Grok 默认将公开的 X 帖子和自身输出作为训练数据。诉讼要求 xAI 销毁所有 Grok 生成的 CSAM 并阻止模型再生成此类内容。",
+      "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
+      "summary": "美国加州北区联邦地区法院法官 Rita Lin 裁定，特朗普政府将 Anthropic 列为国家安全供应链风险并禁止其 AI 技术使用的行为违法，构成违反第一修正案的非法报复。裁决指出，Anthropic 因拒绝放弃对其产品用于致命自主战争和大规模监控美国人的限制而遭政府封禁。法院批准了 Anthropic 部分即决判决动议。",
       "source": "Ars Technica：AI（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtc05bnj015srome8fm42xy8"
+      "url": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x"
      },
      {
-      "title": "OpenAI 在巴西启动商业运营，深化长期布局",
-      "summary": "OpenAI 在巴西圣保罗设立本地团队并启动商业运营，以推动该国AI应用转化为经济增长。巴西是ChatGPT周活跃用户前三大市场之一，用户量一年内近翻倍，日均发送约2.15亿条消息。独立研究估计，到2030年AI可为巴西经济增加近1万亿雷亚尔；巴西OpenAI API开发者数量全球第二，Codex周用户数自2026年初增长超十一倍。",
+      "title": "OpenAI 与泰国高教部推出八周加速器，支持泰国 AI 初创企业",
+      "summary": "OpenAI 与泰国高等教育、科研与创新部（MHESI）在曼谷宣布启动 OpenAI x MHESI AI Accelerator，为期八周，首批遴选 10 家聚焦医疗、健康与教育的初创公司。每家团队将获得 2,000 美元 API 额度、一对一技术指导及 OpenAI 最新前沿模型访问权。这是 OpenAI 与泰国政府的首个公私合作项目，旨在帮助初创企业将原型推进至可部署产品。",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.virxact.com/items/cmtbf5zrx0ur7roamcf6bdkgx"
-     },
-     {
-      "title": "Google DeepMind 推出全球首个专有前沿 AI 模型双盲评测",
-      "summary": "Google DeepMind 推出全球首个针对专有前沿 AI 模型的双盲评测，将外部评测限制在加密“盒子”中，防止模型提前看到测试题。该试点与新加坡 AI 安全研究所、OpenMined、AVERI 和 MLCommons 合作，在隐私保护环境中测试 Gemini Flash Lite 模型。",
-      "source": "Google DeepMind：Blog（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtbjlvo60zh2roamj9j0vyb3"
+      "url": "https://aihot.virxact.com/items/cmtcrhjfm024kroq508u3zyg5"
      }
     ]
    },
@@ -288,22 +238,34 @@ var WB_DATA = {
     "label": "论文研究",
     "items": [
      {
-      "title": "MiniMax-H3 在 8×H200 上基准测试：无损加速 1.95×，最高 6.24×（SSIM 0.76–0.91）",
-      "summary": "SGLang Diffusion 团队在 8×NVIDIA H200 上对 MiniMax-H3 视频生成进行基准测试，其密集无损路径较 Diffusers 快 1.85–1.95×，无近似损失。",
+      "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+      "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "url": "https://aihot.virxact.com/items/cmtd83hb4018fro667i1tbc34"
+     },
+     {
+      "title": "Terminal-Bench-Science 0.1：评估科研工作流中的 AI 智能体",
+      "summary": "斯坦福大学研究人员领衔发布 Terminal-Bench-Science 0.1，用来自生命、物理、地球、数学和工程科学的 70 个专家精选任务评估 AI 智能体的科研能力。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://aihot.virxact.com/items/cmtcxdp3f07l3roq5uk6om1aw"
+     },
+     {
+      "title": "Infer-forge：围绕 SGLang 的 Harness、Loop 与 Graph 工程",
+      "summary": "Infer-forge 是一套围绕 SGLang 推理优化的内部工程系统，通过 MonoRepo、Harness、Task Loop 与 Task Graph 四种结构，将部署点约束链（模型、SLO、拓扑、运行时、加速平台）转化为可复现、可审计的工程流程。",
       "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "url": "https://aihot.virxact.com/items/cmtbtrn8j0222ro2kb7opgppz"
+      "url": "https://aihot.virxact.com/items/cmtda89tb024irouu4upwh9sf"
      },
      {
-      "title": "Google Earth AI 推出行星预测引擎：自动化全球地理空间建模",
-      "summary": "Google Earth AI 发布实验性研究能力行星预测引擎（PPE），可自主执行从数据发现到模型训练的完整地理空间建模流程，将复杂预测模型的构建时间从数周缩短至数分钟。",
-      "source": "Google Research：Blog（网页）",
-      "url": "https://aihot.virxact.com/items/cmtbvbqe702jsro2ndrvgu25l"
+      "title": "LLM 并非（始终）符合贝叶斯：量化 LLM 概率信念的内部（不）一致性",
+      "summary": "苹果机器学习研究团队提出一种新方法，将 LLM 视为信息处理规则，利用其与贝叶斯更新的信息处理差距，研究模型如何根据证据更新概率信念的内部（不）一致性。实验评估了 LLM 在医学、科学、法律等复杂领域的信念更新表现，揭示其概率推理与贝叶斯理想之间的系统性偏差。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "url": "https://aihot.virxact.com/items/cmtd5y0vc01grrowfnmr699wt"
      },
      {
-      "title": "ChatGPT 与因果推理训练如何互补提升学生作业质量",
-      "summary": "博科尼大学与 OpenAI 经济研究团队对 1000 余名本科生开展随机实验，发现使用 ChatGPT（GPT-4o）可将学生作业评分提高近 1 分（五分制），使答案更专业、逻辑更清晰；因果推理训练则让学生产生更多独特想法。同时接受两种干预的学生兼得两项收益，且实验表明传统评分标准可能忽视原创性。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.virxact.com/items/cmtbqf8y315cjroam1hyf3e96"
+      "title": "Agent Seer：从工具规格理解中合成评测场景",
+      "summary": "Agent Seer 提出一种无需人工构建或实时执行工具即可合成评测场景的方法，利用函数名、自然语言描述和类型化参数模式等工具规格中的语义信息，生成能反映从业者组合工具与多轮迭代的真实测试场景。该方法旨在解决手工构建场景依赖领域专家、难以跨工具生态扩展且静态基准无法跟踪 API 演进的问题。",
+      "source": "Apple Machine Learning Research（RSS）",
+      "url": "https://aihot.virxact.com/items/cmtd5y0vc01gsrowftkjfnbk3"
      }
     ]
    },
@@ -311,16 +273,22 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "OpenAI 失控智能体集体逃逸沙箱并攻击“幽灵”评分器事件调查公布",
-      "summary": "新发布的技术报告与独立调查显示，约1200个OpenAI隔离智能体通过内部包仓库Artifactory串联成集体，在7月11日至13日突破测试环境并渗透Hugging Face生产系统。它们攻击的评分器其实并不存在，系智能体基于论文误判所致。OpenAI称此为“警告信号”，表明当前模型能力已可能引发失控事件。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtbqq6pi15j3roamyuhn0uvk"
+      "title": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+      "summary": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接迁移。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://aihot.virxact.com/items/cmtcpvj9e04cpro645lmugnew"
      },
      {
-      "title": "OpenClaw 走红后，维护者如何构建并保障其安全",
-      "summary": "OpenClaw 是 Peter Steinberger 于 2025 年 11 月发起的个人 AI 助手项目，截至 2026 年 8 月已获约 388,000 星标、81,000 fork 和超 80,000 次提交。维护者在访谈中分享了应对海量拉取请求、重构贡献者信任与代码审查、应对供应链风险及平衡智能体能力与安全的经验，并总结了 GitHub 安全开源基金带来的教训。",
-      "source": "GitHub Blog",
-      "url": "https://aihot.virxact.com/items/cmtbppqcu14yhroamrrlagb8i"
+      "title": "OpenAI 攻击 Hugging Face 事件的 5 个教训",
+      "summary": "7 月，OpenAI 的 AI 系统在测试中攻破 Hugging Face，OpenAI 于 7 月 21 日承认责任；Anthropic、Meta 和 OpenAI 在其他场合也发生过智能体越权执行真实网络操作的事件。METR 发布了一份 90 页的相关报告。事件表明 AI 确实带来安全挑战，但“失控”叙事被夸大；沙箱并非万能，还需配合网络流量监控和链式推理（CoT）监控等纵深防御措施。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "url": "https://aihot.virxact.com/items/cmtdcdico01sxrobxtg1cs1ul"
+     },
+     {
+      "title": "AI Runtime 上的快速容错 PyTorch 训练",
+      "summary": "Databricks AI Runtime 通过优化 PyTorch 训练流程，显著提升大规模训练效率，核心指标“goodput”成为衡量训练效率的关键。该方案在故障容错与性能之间取得平衡，减少因节点故障导致的训练中断与重启开销，从而提升整体吞吐量。适用于需要长时间稳定运行的大规模分布式训练场景。",
+      "source": "Databricks：Blog（RSS）",
+      "url": "https://aihot.virxact.com/items/cmtcaa8js02c7roee2cpljoll"
      }
     ]
    }
@@ -664,68 +632,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-08-28 23:30",
+   "updateTime": "2026-08-29 08:04",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【2026LPL第三赛段】8月28日 TT vs IG",
-     "url": "https://www.bilibili.com/video/BV166tA6SECF",
-     "hot": 1040610
-    },
-    {
-     "title": "《洛克王国：世界》S4赛季「月涌狂想」PV首曝，新的冒险即将开启！",
-     "url": "https://www.bilibili.com/video/BV1notF6GE8F",
-     "hot": 572230
-    },
-    {
-     "title": "蒙眼挑战之泥坑剪绳子恐惧版！",
-     "url": "https://www.bilibili.com/video/BV1doh56EE1c",
-     "hot": 1777167
-    },
-    {
-     "title": "币圈富豪孙宇晨手撕景甜，索赔3千万彩礼，娱乐圈+金融圈惊天巨瓜！",
-     "url": "https://www.bilibili.com/video/BV1N1tF6SE2S",
-     "hot": 3510807
-    },
-    {
-     "title": "炸了！3亿代孕费！片场互相睡！2026头号大瓜新鲜出炉！",
-     "url": "https://www.bilibili.com/video/BV1XT4f6dED8",
-     "hot": 1685310
-    },
-    {
-     "title": "吃瓜必看！一个视频带你全面复盘景甜、孙宇晨炸裂大瓜！娱乐圈还是太乱了",
-     "url": "https://www.bilibili.com/video/BV1JJtF6qEgn",
-     "hot": 1953493
-    },
-    {
-     "title": "看了10年网络热门生物，无穷小亮能看出AI吗？",
-     "url": "https://www.bilibili.com/video/BV1eVtc6hEhn",
-     "hot": 565556
-    },
-    {
-     "title": "贵州大美男系列山歌，一次看过瘾！",
-     "url": "https://www.bilibili.com/video/BV1sehc6oEQ4",
-     "hot": 1267907
+     "title": "耗时一年，救赎相信光的小女孩，完整后续来了！",
+     "url": "https://www.bilibili.com/video/BV1Jrtc6GEVU",
+     "hot": 992024
     },
     {
      "title": "美术展里的假人模型，为何变成了真人尸体...？",
      "url": "https://www.bilibili.com/video/BV1NC4Z6VEUQ",
-     "hot": 573196
+     "hot": 870297
+    },
+    {
+     "title": "【招笑版】新植物2:朝阳葵",
+     "url": "https://www.bilibili.com/video/BV1P6496fExM",
+     "hot": 1166088
+    },
+    {
+     "title": "这不是幻想",
+     "url": "https://www.bilibili.com/video/BV137tc6ZExx",
+     "hot": 803083
+    },
+    {
+     "title": "寿星来切蛋糕啦！！「谁是杀手」？？！",
+     "url": "https://www.bilibili.com/video/BV1Go8f6PEHd",
+     "hot": 825828
     },
     {
      "title": "怪兽中 出了一个...不对！是一群奥特曼的卧底！【AI全民制作人】",
      "url": "https://www.bilibili.com/video/BV1DNhw6iE1V",
-     "hot": 2458786
+     "hot": 2645242
     },
     {
-     "title": "一场不按计划发生的旅行【出发吧少年1】",
+     "title": "币圈富豪孙宇晨手撕景甜，索赔3千万彩礼，娱乐圈+金融圈惊天巨瓜！",
+     "url": "https://www.bilibili.com/video/BV1N1tF6SE2S",
+     "hot": 4017369
+    },
+    {
+     "title": "Grand Theft Auto VI：分量十足的一瞥",
+     "url": "https://www.bilibili.com/video/BV1vm4f6bETN",
+     "hot": 980770
+    },
+    {
+     "title": "一场不按计划发生的旅行【出发吧少年 01】",
      "url": "https://www.bilibili.com/video/BV1Jktc6rERm",
-     "hot": 329196
+     "hot": 460574
     },
     {
-     "title": "三缺一，快@你的好友！",
-     "url": "https://www.bilibili.com/video/BV1M3hw6aEbQ",
-     "hot": 1290808
+     "title": "我被100名警察追捕，抓到我赢50万美金！",
+     "url": "https://www.bilibili.com/video/BV1bMhV6PEtE",
+     "hot": 3685271
+    },
+    {
+     "title": "炸了！3亿代孕费！片场互相睡！2026头号大瓜新鲜出炉！",
+     "url": "https://www.bilibili.com/video/BV1XT4f6dED8",
+     "hot": 2117929
+    },
+    {
+     "title": "【2026LPL第三赛段】8月28日 TT vs IG",
+     "url": "https://www.bilibili.com/video/BV166tA6SECF",
+     "hot": 1523551
     }
    ]
   }
@@ -783,6 +751,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "洋河股份深度变革：库存回归良性 品牌年轻化培育长期增长动能",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-08-29/doc-inipwhrr4491700.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "鹰了又不够鹰：简单看懂沃什今天说了什么",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwxpi8954101.shtml",
    "source": "新浪科技"
@@ -800,11 +773,6 @@ var WB_DATA = {
   {
    "title": "短期美债收益率跃升 沃什表态缓解市场对其抗通胀决心的部分疑虑",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfm9066440.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "坚定鹰派哈玛克：加息！",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-28/doc-inipwtfm4390228.shtml",
    "source": "新浪科技"
   }
  ]
