@@ -1134,7 +1134,13 @@ body.dark .epic-game:hover{background:rgba(255,255,255,.06)}
   padding:8px 16px;font-size:13px;font-family:inherit;cursor:pointer;transition:.15s;
 }
 .set-btn:hover{border-color:var(--cyan);color:var(--cyan);background:rgba(34,211,238,.07)}
+.set-btn.danger{color:#ef4444;border-color:rgba(239,68,68,.35);background:rgba(239,68,68,.06)}
 .set-btn.danger:hover{color:#ef4444;border-color:#ef4444;background:rgba(239,68,68,.07)}
+@media (max-width:640px){
+  .set-row{flex-direction:column;align-items:stretch;gap:10px}
+  .set-row .btns{width:100%;display:flex;flex-wrap:wrap}
+  .set-row .btns .set-btn{flex:1;min-width:72px;padding:10px 8px;font-size:14px}
+}
 .set-note{
   background:var(--card2);border:1px dashed var(--line);border-radius:12px;padding:12px 14px;
   font-size:12.5px;color:var(--txt3);line-height:1.7;margin-bottom:14px;
@@ -1513,12 +1519,13 @@ body.theme-mono .nav-badge{background:var(--txt2);color:var(--card);box-shadow:n
   .st-orig{text-decoration:line-through;color:var(--txt3)}
 
   /* ===== 云同步（设置与数据）===== */
-  .sync-form{display:flex;flex-direction:column;gap:6px;margin:8px 0 2px}
-  .sync-form input{width:100%;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg2);color:var(--txt);font-size:13px;font-family:inherit;line-height:1.5}
+  .sync-form{display:flex;flex-direction:column;gap:2px;margin:8px 0 2px}
+  .sync-label{font-size:12px;color:var(--txt2);margin-top:4px}
+  .sync-form input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg2);color:var(--txt);font-size:14px;font-family:inherit;line-height:1.5}
   .sync-form input:focus{outline:none;border-color:var(--cyan)}
   .sync-form input::placeholder{color:var(--txt3)}
-  .sync-msg{font-size:12px;color:var(--txt2);margin-top:6px;line-height:1.55;word-break:break-all}
-  .sync-msg.err{color:var(--red)}
+  .sync-msg{font-size:12.5px;color:var(--txt2);margin-top:6px;line-height:1.55;word-break:break-all}
+  .sync-msg.err{color:#ef4444}
 </style>
 </head>
 <body>
@@ -2883,8 +2890,10 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
       + '<a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens</a>'
       + ' 新建一个，<b>只勾选「Gists」读写权限</b>即可（权限给得越小越安全）。注意：用于推送代码的令牌通常不含 gist 权限，需单独开。</div>'
       + '<div class="sync-form">'
-      + '<input id="syncToken" type="password" autocomplete="off" spellcheck="false" placeholder="GitHub 令牌（建议只开 gist 权限）" value="' + esc(sTok) + '">'
-      + '<input id="syncGist" type="text" autocomplete="off" spellcheck="false" placeholder="同步 ID（新设备首次留空，点「上传」自动生成）" value="' + esc(sGid) + '">'
+      + '<label class="sync-label" for="syncToken">GitHub 令牌</label>'
+      + '<input id="syncToken" type="password" autocomplete="off" spellcheck="false" placeholder="建议只开 gist 权限" value="' + esc(sTok) + '">'
+      + '<label class="sync-label" for="syncGist">同步 ID</label>'
+      + '<input id="syncGist" type="text" autocomplete="off" spellcheck="false" placeholder="新设备首次留空，点「上传」自动生成" value="' + esc(sGid) + '">'
       + '</div>'
       + '<div class="sync-msg" id="syncMsg">' + (sGid ? "当前同步 ID：" + esc(sGid) + " —— 另一台设备填入同一令牌和这个 ID，点「下载」即可。" : "尚未配置。先在本机填令牌点「上传」，再把生成的同步 ID 抄到另一台设备。") + '</div>'
       + '<div class="d" style="margin-top:6px">令牌只存在这台设备的浏览器里，<b>不会</b>被导出、也<b>不会</b>被上传到云端（同步内容只含工作台数据）。</div>'
