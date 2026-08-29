@@ -4,6 +4,8 @@
 
 **在线访问**：`https://1587812977.github.io/daily-workspace/`
 
+**更新日志**：详见 [`CHANGELOG.md`](./CHANGELOG.md)（含「未发布」本地提交与历史版本）。
+
 ## 它如何自动更新（电脑关机也照常）
 
 - GitHub Actions 定时任务每天 **08:00 / 12:30 / 20:30**（北京时间）自动运行 `refresh.py`

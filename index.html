@@ -1483,6 +1483,24 @@ body.theme-mono .cup.on{background:var(--txt);border-color:var(--txt);box-shadow
 body.theme-mono .theme-more:hover{border-color:var(--txt);color:var(--txt);background:rgba(0,0,0,.05)}
 body.theme-mono .theme-card.on{border-color:var(--txt);box-shadow:0 0 0 1px var(--txt)}
 body.theme-mono .theme-ok{color:var(--txt)}
+body.theme-mono .nav-badge{background:var(--txt2);color:var(--card);box-shadow:none}
+
+  /* ================= GitHub 趋势榜单（addon） ================= */
+  .gh{font-size:13px}
+  .gh-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
+  .gh-sub{font-size:12px;color:var(--txt2)}
+  .gh-list{list-style:none;margin:0;padding:0;max-height:360px;overflow:auto;-webkit-overflow-scrolling:touch}
+  .gh-item{display:grid;grid-template-columns:24px 1fr auto;gap:2px 8px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line)}
+  .gh-item:last-child{border-bottom:0}
+  .gh-rank{font-weight:700;color:var(--cyan);text-align:right;font-variant-numeric:tabular-nums}
+  .gh-name{color:var(--txt);font-weight:600;text-decoration:none;word-break:break-all;line-height:1.3}
+  .gh-name:hover{text-decoration:underline}
+  .gh-stars{grid-row:1;color:var(--orange);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .gh-meta{grid-column:2;display:flex;flex-wrap:wrap;gap:10px;font-size:12px;color:var(--txt2);margin-top:2px}
+  .gh-lang{display:inline-flex;align-items:center;gap:4px}
+  .gh-lang::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--cyan);opacity:.8}
+  .gh-desc{grid-column:2;font-size:12px;color:var(--txt2);margin-top:3px;line-height:1.45}
+  .gh-empty{color:var(--txt2);text-align:center;padding:18px 0}
 </style>
 </head>
 <body>
@@ -1629,6 +1647,12 @@ body.theme-mono .theme-ok{color:var(--txt)}
 
 <script src="data.js"></script>
 <script src="习惯数据.js"></script>
+<script>
+var WB_GITHUB_AI = [{"rank":1,"name":"openclaw/openclaw","url":"https://github.com/openclaw/openclaw","stars":387953,"forks":81465,"language":"TypeScript","description":"Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "},{"rank":2,"name":"n8n-io/n8n","url":"https://github.com/n8n-io/n8n","stars":202759,"forks":60449,"language":"TypeScript","description":"Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."},{"rank":3,"name":"deepseek-ai/deepseek-harness","url":"https://github.com/deepseek-ai/deepseek-harness","stars":202714,"forks":23333,"language":"TypeScript","description":"DeepSeek Harness: Everything is a Plugin."},{"rank":4,"name":"Significant-Gravitas/AutoGPT","url":"https://github.com/Significant-Gravitas/AutoGPT","stars":186969,"forks":46050,"language":"Python","description":"AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."},{"rank":5,"name":"f/prompts.chat","url":"https://github.com/f/prompts.chat","stars":168145,"forks":21685,"language":"HTML","description":"f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."},{"rank":6,"name":"Snailclimb/JavaGuide","url":"https://github.com/Snailclimb/JavaGuide","stars":158108,"forks":46165,"language":"JavaScript","description":"Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发"},{"rank":7,"name":"langflow-ai/langflow","url":"https://github.com/langflow-ai/langflow","stars":153838,"forks":9958,"language":"Python","description":"Langflow is a powerful tool for building and deploying AI-powered agents and workflows."},{"rank":8,"name":"langgenius/dify","url":"https://github.com/langgenius/dify","stars":153801,"forks":24309,"language":"TypeScript","description":"Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."},{"rank":9,"name":"open-webui/open-webui","url":"https://github.com/open-webui/open-webui","stars":150288,"forks":21939,"language":"Python","description":"User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"},{"rank":10,"name":"msitarzewski/agency-agents","url":"https://github.com/msitarzewski/agency-agents","stars":148716,"forks":23983,"language":"Shell","description":"A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables."},{"rank":11,"name":"langchain-ai/langchain","url":"https://github.com/langchain-ai/langchain","stars":145230,"forks":24236,"language":"Python","description":"The agent engineering platform."},{"rank":12,"name":"Shubhamsaboo/awesome-llm-apps","url":"https://github.com/Shubhamsaboo/awesome-llm-apps","stars":135060,"forks":19842,"language":"Python","description":"100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."},{"rank":13,"name":"ggml-org/llama.cpp","url":"https://github.com/ggml-org/llama.cpp","stars":126176,"forks":22387,"language":"C++","description":"LLM inference in C/C++"},{"rank":14,"name":"nextlevelbuilder/ui-ux-pro-max-skill","url":"https://github.com/nextlevelbuilder/ui-ux-pro-max-skill","stars":122721,"forks":13146,"language":"Python","description":"An AI skill that provides design intelligence for building professional UI/UX across multiple platforms."},{"rank":15,"name":"microsoft/generative-ai-for-beginners","url":"https://github.com/microsoft/generative-ai-for-beginners","stars":118729,"forks":62602,"language":"Jupyter Notebook","description":"21 Lessons, Get Started Building with Generative AI "},{"rank":16,"name":"harry0703/MoneyPrinterTurbo","url":"https://github.com/harry0703/MoneyPrinterTurbo","stars":118312,"forks":18035,"language":"Python","description":"利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."},{"rank":17,"name":"browser-use/browser-use","url":"https://github.com/browser-use/browser-use","stars":111614,"forks":12250,"language":"Python","description":"🌐 Make websites accessible for AI agents. Automate tasks online with ease."},{"rank":18,"name":"supabase/supabase","url":"https://github.com/supabase/supabase","stars":108558,"forks":13662,"language":"TypeScript","description":"The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."},{"rank":19,"name":"google-gemini/gemini-cli","url":"https://github.com/google-gemini/gemini-cli","stars":106738,"forks":14498,"language":"TypeScript","description":"An open-source AI agent that brings the power of Gemini directly into your terminal."},{"rank":20,"name":"rasbt/LLMs-from-scratch","url":"https://github.com/rasbt/LLMs-from-scratch","stars":103977,"forks":15910,"language":"Jupyter Notebook","description":"Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"}];
+var WB_GITHUB_HOT = [{"rank":1,"name":"public-apis/public-apis","url":"https://github.com/public-apis/public-apis","description":"A collective list of free APIs","stars":472564,"forks":52151,"language":"Python","topics":["api","apis","dataset","development","free","list","lists","open-source","public","public-api","public-apis","resources","software"]},{"rank":2,"name":"freeCodeCamp/freeCodeCamp","url":"https://github.com/freeCodeCamp/freeCodeCamp","description":"freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.","stars":454769,"forks":46073,"language":"TypeScript","topics":["careers","certification","community","curriculum","d3","education","freecodecamp","javascript","learn-to-code","math","nodejs","nonprofits","programming","react","teachers"]},{"rank":3,"name":"openclaw/openclaw","url":"https://github.com/openclaw/openclaw","description":"Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ","stars":387953,"forks":81465,"language":"TypeScript","topics":["ai","assistant","crustacean","molty","openclaw","own-your-data","personal"]},{"rank":4,"name":"vinta/awesome-python","url":"https://github.com/vinta/awesome-python","description":"The definitive list that answers \"I want to do X in Python, which tool should I use?\"","stars":316874,"forks":28603,"language":"Python","topics":["awesome","awesome-list","python","python-frameworks","python-libraries","python-tools"]},{"rank":5,"name":"awesome-selfhosted/awesome-selfhosted","url":"https://github.com/awesome-selfhosted/awesome-selfhosted","description":"A list of Free Software network services and web applications which can be hosted on your own servers","stars":315873,"forks":14844,"language":null,"topics":["awesome","awesome-list","cloud","free-software","hosting","privacy","self-hosted","selfhosted"]},{"rank":6,"name":"practical-tutorials/project-based-learning","url":"https://github.com/practical-tutorials/project-based-learning","description":"Curated list of project-based tutorials","stars":281225,"forks":36062,"language":"Python","topics":["beginner-project","cpp","golang","javascript","project","python","tutorial","webdevelopment"]},{"rank":7,"name":"obra/superpowers","url":"https://github.com/obra/superpowers","description":"An agentic skills framework & software development methodology that works.","stars":279198,"forks":25004,"language":"Shell","topics":["ai","brainstorming","coding","obra","sdlc","skills","subagent-driven-development","superpowers"]},{"rank":8,"name":"react/react","url":"https://github.com/react/react","description":"The library for web and native user interfaces.","stars":248021,"forks":51260,"language":"JavaScript","topics":["declarative","frontend","javascript","library","react","ui"]},{"rank":9,"name":"torvalds/linux","url":"https://github.com/torvalds/linux","description":"Linux kernel source tree","stars":244900,"forks":64176,"language":"C","topics":[]},{"rank":10,"name":"affaan-m/ECC","url":"https://github.com/affaan-m/ECC","description":"The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.","stars":244054,"forks":36913,"language":"JavaScript","topics":["ai-agents","anthropic","claude","claude-code","developer-tools","llm","mcp","productivity"]},{"rank":11,"name":"mattpocock/skills","url":"https://github.com/mattpocock/skills","description":"Skills for Real Engineers. Straight from my .agents directory.","stars":240564,"forks":20452,"language":"Shell","topics":[]},{"rank":12,"name":"NousResearch/hermes-agent","url":"https://github.com/NousResearch/hermes-agent","description":"The agent that grows with you","stars":237904,"forks":48348,"language":"Python","topics":["ai","ai-agent","ai-agents","anthropic","chatgpt","claude","claude-code","codex","hermes","hermes-agent","llm","nous-research","openai"]},{"rank":13,"name":"TheAlgorithms/Python","url":"https://github.com/TheAlgorithms/Python","description":"All Algorithms implemented in Python","stars":224090,"forks":50998,"language":"Python","topics":["algorithm","algorithm-competitions","algorithms-implemented","algos","community-driven","education","hacktoberfest","interview","learn","practice","python","searches","sorting-algorithms","sorts"]},{"rank":14,"name":"n8n-io/n8n","url":"https://github.com/n8n-io/n8n","description":"Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.","stars":202759,"forks":60449,"language":"TypeScript","topics":["ai","apis","automation","cli","data-flow","development","integration-framework","integrations","ipaas","low-code","low-code-platform","mcp","mcp-client","mcp-server","n8n","no-code","self-hosted","typescript","workflow","workflow-automation"]},{"rank":15,"name":"deepseek-ai/deepseek-harness","url":"https://github.com/deepseek-ai/deepseek-harness","description":"DeepSeek Harness: Everything is a Plugin.","stars":202715,"forks":23333,"language":"TypeScript","topics":["ai-agents","cordis","dsh","dsh-plugin"]},{"rank":16,"name":"anomalyco/opencode","url":"https://github.com/anomalyco/opencode","description":"The open source coding agent.","stars":202282,"forks":26266,"language":"TypeScript","topics":[]},{"rank":17,"name":"tensorflow/tensorflow","url":"https://github.com/tensorflow/tensorflow","description":"An Open Source Machine Learning Framework for Everyone","stars":197766,"forks":76178,"language":"C++","topics":["deep-learning","deep-neural-networks","distributed","machine-learning","ml","neural-network","python","tensorflow"]},{"rank":18,"name":"microsoft/vscode","url":"https://github.com/microsoft/vscode","description":"Visual Studio Code","stars":189763,"forks":41883,"language":"TypeScript","topics":["editor","electron","microsoft","typescript","visual-studio-code"]},{"rank":19,"name":"ohmyzsh/ohmyzsh","url":"https://github.com/ohmyzsh/ohmyzsh","description":"🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.","stars":189435,"forks":26581,"language":"Shell","topics":["cli","cli-app","oh-my-zsh","oh-my-zsh-plugin","oh-my-zsh-theme","ohmyzsh","plugin-framework","plugins","productivity","shell","terminal","theme","themes","zsh","zsh-configuration"]},{"rank":20,"name":"yt-dlp/yt-dlp","url":"https://github.com/yt-dlp/yt-dlp","description":"A feature-rich command-line audio/video downloader","stars":187659,"forks":16226,"language":"Python","topics":["cli","downloader","python","sponsorblock","youtube-dl","youtube-downloader","yt-dlp"]}];
+var WB_GITHUB_UPDATED = "2026-08-29 18:46";
+</script>
+
 <script>
 (function(){
   /* ---- 打卡里程碑文案（提前定义，避免早期 return 后 afterSign 取不到） ---- */
@@ -3084,11 +3108,15 @@ body.theme-mono .theme-ok{color:var(--txt)}
      ic:'<svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 13V8M12 5v1"/></svg>'},
     {key:"notes", name:"便签", desc:"随手记，自动保存到本地", cls:"card-acc-purple",
      ic:'<svg viewBox="0 0 24 24"><path d="M4 4h16v12l-4 4H4z"/><path d="M16 20v-4h4"/></svg>'},
-    {key:"water", name:"喝水打卡", desc:"每日喝水计数，达成目标", cls:"card-acc-cyan",
-     ic:'<svg viewBox="0 0 24 24"><path d="M12 3c3 4 5 6.5 5 9a5 5 0 0 1-10 0c0-2.5 2-5 5-9z"/></svg>'}
+    {key:"water", name:"喝水打卡", desc:"每日喝水计数，记录连续达标", cls:"card-acc-cyan",
+     ic:'<svg viewBox="0 0 24 24"><path d="M12 3c3 4 5 6.5 5 9a5 5 0 0 1-10 0c0-2.5 2-5 5-9z"/></svg>'},
+    {key:"github-ai", name:"GitHub AI 趋势", desc:"追踪本周最火的 AI 开源项目", cls:"card-acc-green",
+     ic:'<svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.6 2 12.3c0 4.5 2.9 8.4 6.8 9.7.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.4-3.4-1.4-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.3 9.3 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5 3.9-1.3 6.8-5.2 6.8-9.7C22 6.6 17.5 2 12 2z"/></svg>'},
+    {key:"github-hot", name:"GitHub 热门项目", desc:"本周 GitHub 全站热门仓库", cls:"card-acc-cyan",
+     ic:'<svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.6 2 12.3c0 4.5 2.9 8.4 6.8 9.7.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.4-3.4-1.4-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.3 9.3 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5 3.9-1.3 6.8-5.2 6.8-9.7C22 6.6 17.5 2 12 2z"/></svg>'}
   ];
   function addonMeta(key){ for(var i=0;i<ADDON_CATALOG.length;i++){ if(ADDON_CATALOG[i].key===key) return ADDON_CATALOG[i]; } return null; }
-  function loadAddedMods(){ try{ var a=JSON.parse(localStorage.getItem(ADDED_KEY)); return Array.isArray(a)?a:[]; }catch(e){ return []; } }
+  function loadAddedMods(){ try{ var a=JSON.parse(localStorage.getItem(ADDED_KEY)); if(Array.isArray(a)) return a; }catch(e){} return ["water","github-ai","github-hot"]; }
   function saveAddedMods(a){ try{ localStorage.setItem(ADDED_KEY, JSON.stringify(a)); }catch(e){} }
   function addedAllHtml(){ var h=""; loadAddedMods().forEach(function(k){ if(MOD_FNS[k]) h+=MOD_FNS[k](); }); return h; }
 
@@ -3219,12 +3247,29 @@ body.theme-mono .theme-ok{color:var(--txt)}
 
   /* ---- 喝水打卡 ---- */
   var WATER_KEY = "wb_water_v1";
-  function todayStr(){ var d=new Date(); return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2); }
-  function waterLoad(){ try{ var o=JSON.parse(localStorage.getItem(WATER_KEY)); if(o && o.date===todayStr()) return o; }catch(e){} return {date:todayStr(), n:0, goal:8}; }
+  var WATER_IC = '<svg viewBox="0 0 24 24"><path d="M12 3c3 4 5 6.5 5 9a5 5 0 0 1-10 0c0-2.5 2-5 5-9z"/></svg>';
+  function fmtDate(d){ return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2); }
+  function todayStr(){ return fmtDate(new Date()); }
+  function waterLoad(){
+    try{
+      var o = JSON.parse(localStorage.getItem(WATER_KEY));
+      if(o && o.date === todayStr()){ if(!o.hist) o.hist = {}; return o; }
+    }catch(e){}
+    return {date:todayStr(), n:0, goal:8, hist:{}};
+  }
   function waterSave(o){ try{ localStorage.setItem(WATER_KEY, JSON.stringify(o)); }catch(e){} }
+  function waterStreak(){
+    var o = waterLoad(), hist = o.hist || {};
+    var streak = 0, off = hist[todayStr()] ? 0 : 1;   /* 今天达标从今天算，否则从昨天算 */
+    var d = new Date();
+    while(hist[fmtDate(d)]){ streak++; d.setDate(d.getDate()-1); }
+    return streak;
+  }
   function waterRender(){
     var w = waterLoad();
     var n = document.getElementById("waterN"); if(n) n.textContent = w.n;
+    var g = document.getElementById("waterGoal"); if(g) g.textContent = w.goal;
+    var s = document.getElementById("waterStreak"); if(s) s.textContent = waterStreak();
     var box = document.querySelector ? document.querySelector(".water-cups") : null;
     if(box){ var cups=""; for(var i=0;i<Math.max(w.goal,w.n);i++){ cups += '<span class="cup'+(i<w.n?" on":"")+'"></span>'; } box.innerHTML = cups; }
   }
@@ -3232,29 +3277,118 @@ body.theme-mono .theme-ok{color:var(--txt)}
     var w = waterLoad();
     var cups = "";
     for(var i=0;i<Math.max(w.goal, w.n);i++){ cups += '<span class="cup'+(i<w.n?" on":"")+'"></span>'; }
-    return card("card-acc-cyan","💧","喝水打卡","每日 " + w.goal + " 杯",
+    return card("card-acc-cyan", WATER_IC, "喝水打卡", "每日 " + w.goal + " 杯",
       '<div class="water">'
       + '<div class="water-cups">' + cups + '</div>'
-      + '<div class="water-stat">今天已喝 <b id="waterN">' + w.n + '</b> / ' + w.goal + ' 杯</div>'
+      + '<div class="water-stat">今天已喝 <b id="waterN">' + w.n + '</b> / <span id="waterGoal">' + w.goal + '</span> 杯 · 连续达标 <b id="waterStreak">' + waterStreak() + '</b> 天</div>'
       + '<div class="water-btns">'
       +   '<button class="pomo-btn ghost" id="waterMinus" type="button">－</button>'
       +   '<button class="pomo-btn" id="waterPlus" type="button">＋ 一杯</button>'
+      +   '<button class="pomo-btn ghost" id="waterGoalMinus" type="button">目标－</button>'
+      +   '<button class="pomo-btn ghost" id="waterGoalPlus" type="button">目标＋</button>'
       + '</div></div>');
   }
   function bindWater(){
     var p = document.getElementById("waterPlus"), m = document.getElementById("waterMinus");
+    var gp = document.getElementById("waterGoalPlus"), gm = document.getElementById("waterGoalMinus");
     if(p && !p.__wbBound){ p.__wbBound = true; p.addEventListener("click", function(){
-      var w = waterLoad(); w.n = Math.min(w.n+1, 99); waterSave(w); waterRender();
-      if(w.n >= w.goal) try{ showToast("💧 喝水打卡",0,"今日目标达成，棒！","已完成"); }catch(e){}
+      var w = waterLoad(); w.n = Math.min(w.n+1, 99);
+      if(w.n >= w.goal){ (w.hist = w.hist||{})[todayStr()] = true; }
+      waterSave(w); waterRender();
+      if(w.n >= w.goal) try{ showToast("喝水打卡",0,"今日目标达成，棒！","已完成"); }catch(e){}
     }); }
     if(m && !m.__wbBound){ m.__wbBound = true; m.addEventListener("click", function(){
       var w = waterLoad(); if(w.n>0) w.n--; waterSave(w); waterRender();
+    }); }
+    if(gp && !gp.__wbBound){ gp.__wbBound = true; gp.addEventListener("click", function(){
+      var w = waterLoad(); w.goal = Math.min(Math.max(w.goal+1,1),30); waterSave(w); waterRender();
+    }); }
+    if(gm && !gm.__wbBound){ gm.__wbBound = true; gm.addEventListener("click", function(){
+      var w = waterLoad(); w.goal = Math.max(w.goal-1,1); waterSave(w); waterRender();
     }); }
     waterRender();
   }
 
   var MOD_FNS = {pomodoro:pPomodoro, countdown:pCountdown, notes:pNotes, water:pWater};
   var MOD_BIND = {pomodoro:bindPomodoro, countdown:bindCountdown, notes:bindNotes, water:bindWater};
+
+  /* ---- GitHub 趋势（AI / 热门） ---- */
+  var GITHUB_IC = '<svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.6 2 12.3c0 4.5 2.9 8.4 6.8 9.7.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.4-3.4-1.4-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.3 9.3 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5 3.9-1.3 6.8-5.2 6.8-9.7C22 6.6 17.5 2 12 2z"/></svg>';
+  function ghSince(days){ var d=new Date(); d.setDate(d.getDate()-days); return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2); }
+  function fmtNum(n){ n=Number(n)||0; return n>=1000 ? (n/1000).toFixed(1)+"k" : String(n); }
+  function ghMap(items){
+    return (items||[]).map(function(r,i){ return {
+      rank:i+1, name:r.full_name, url:r.html_url,
+      stars:r.stargazers_count||0, forks:r.forks_count||0,
+      language:r.language||"", description:r.description||""
+    }; });
+  }
+  function ghLive(q, cb){
+    if(typeof fetch !== "function"){ cb(null); return; }
+    fetch("https://api.github.com/search/repositories?q="+encodeURIComponent(q)+"&sort=stars&order=desc&per_page=20",
+      {headers:{"Accept":"application/vnd.github+json"}})
+      .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); })
+      .then(function(d){ cb(d.items||[]); })
+      .catch(function(){ cb(null); });
+  }
+  function ghItemHtml(r){
+    var lang = r.language ? '<span class="gh-lang">'+esc(r.language)+'</span>' : '';
+    var desc = r.description ? '<div class="gh-desc">'+esc(r.description)+'</div>' : '';
+    return '<li class="gh-item">'
+      + '<span class="gh-rank">'+r.rank+'</span>'
+      + '<a class="gh-name" href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.name)+'</a>'
+      + '<span class="gh-stars">★ '+fmtNum(r.stars)+'</span>'
+      + '<div class="gh-meta">'+lang+'<span class="gh-fork">Fork '+fmtNum(r.forks)+'</span></div>'
+      + desc
+      + '</li>';
+  }
+  function ghData(key){ var a = window[key]; return (a && a.length) ? a : []; }
+  function ghListHtml(key){ var d = ghData(key); return d.length ? d.map(ghItemHtml).join("") : '<li class="gh-item gh-empty">暂无数据，点「刷新」拉取</li>'; }
+
+  function pGithubAi(){
+    var sub = "本周 · 更新于 " + (window.WB_GITHUB_UPDATED || "—");
+    return card("card-acc-green", GITHUB_IC, "GitHub AI 趋势", sub,
+      '<div class="gh">'
+      + '<div class="gh-head"><span class="gh-sub">追踪本周最火的 AI 开源项目</span>'
+      + '<button class="pomo-btn ghost" id="ghAiRefresh" type="button">刷新</button></div>'
+      + '<ol class="gh-list" id="ghAiList">' + ghListHtml("WB_GITHUB_AI") + '</ol>'
+      + '</div>');
+  }
+  function pGithubHot(){
+    var sub = "本周 · 更新于 " + (window.WB_GITHUB_UPDATED || "—");
+    return card("card-acc-cyan", GITHUB_IC, "GitHub 热门项目", sub,
+      '<div class="gh">'
+      + '<div class="gh-head"><span class="gh-sub">本周 GitHub 全站热门仓库</span>'
+      + '<button class="pomo-btn ghost" id="ghHotRefresh" type="button">刷新</button></div>'
+      + '<ol class="gh-list" id="ghHotList">' + ghListHtml("WB_GITHUB_HOT") + '</ol>'
+      + '</div>');
+  }
+  function ghRefreshBind(btnId, q, dataKey, listId){
+    var btn = document.getElementById(btnId);
+    if(!btn || btn.__wbBound) return;
+    btn.__wbBound = true;
+    btn.addEventListener("click", function(){
+      ghLive(q, function(items){
+        if(items && items.length){
+          window[dataKey] = ghMap(items);
+          window.WB_GITHUB_UPDATED = "实时";
+          var list = document.getElementById(listId);
+          if(list) list.innerHTML = ghListHtml(dataKey);
+          try{ showToast("GitHub 趋势", 0, "已刷新为实时数据", "已更新"); }catch(e){}
+        } else {
+          try{ showToast("GitHub 趋势", 0, "刷新失败，仍显示缓存数据（可能受网络/限流限制）", "网络受限"); }catch(e){}
+        }
+      });
+    });
+  }
+  function bindGithubAi(){
+    ghRefreshBind("ghAiRefresh", "topic:llm OR topic:ai-agent OR topic:generative-ai OR topic:artificial-intelligence pushed:>="+ghSince(7)+" stars:>=10", "WB_GITHUB_AI", "ghAiList");
+  }
+  function bindGithubHot(){
+    ghRefreshBind("ghHotRefresh", "pushed:>="+ghSince(7)+" stars:>=10", "WB_GITHUB_HOT", "ghHotList");
+  }
+  MOD_FNS["github-ai"] = pGithubAi; MOD_BIND["github-ai"] = bindGithubAi;
+  MOD_FNS["github-hot"] = pGithubHot; MOD_BIND["github-hot"] = bindGithubHot;
 
   function registerAddonNav(key){
     var m = addonMeta(key); if(!m) return;
