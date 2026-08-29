@@ -1223,6 +1223,27 @@ body.nav-fold-news .nav-item[data-parent="news"]{display:none}
   .nav-item .fold{width:28px;height:28px}
 }
 
+/* ===== 今日热点资讯：子板块索引（点击父项优先展开子选项） ===== */
+.news-subs{display:flex;flex-direction:column;gap:10px;margin-top:4px}
+.news-sub{
+  display:flex;align-items:center;gap:12px;width:100%;text-align:left;
+  background:rgba(0,0,0,.02);border:1px solid var(--line);border-radius:12px;
+  padding:13px 14px;cursor:pointer;transition:.15s;color:var(--txt);font:inherit;
+}
+.news-sub:hover{background:rgba(0,0,0,.05);border-color:var(--cyan)}
+.news-sub .ns-ic{font-size:20px;flex:none;width:30px;text-align:center}
+.news-sub .ns-bd{display:flex;flex-direction:column;flex:1;min-width:0}
+.news-sub .ns-name{font-size:15px;font-weight:600}
+.news-sub .ns-desc{font-size:12.5px;color:var(--txt3);margin-top:2px}
+.news-sub .ns-arrow{color:var(--txt3);font-size:20px;flex:none}
+body.dark .news-sub{background:rgba(255,255,255,.03)}
+body.dark .news-sub:hover{background:rgba(255,255,255,.06)}
+@media (max-width:900px){
+  .news-sub{min-height:54px;padding:14px 15px}
+  .news-sub .ns-name{font-size:16px}
+  .news-sub .ns-ic{width:34px}
+}
+
 /* ===== 我的收藏夹 ===== */
 .fav-add{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
 .fav-in{
@@ -2772,6 +2793,30 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
     p.innerHTML = h;
   }
 
+  /* ---- 4.5 今日热点资讯：子板块索引（点击父项优先展开子选项，不汇总） ---- */
+  function pNewsIndex(){
+    var plats = Object.keys(D.hotLists || {}).length;
+    var subs = [
+      {sec:"aihot", ic:"⚡", name:"AIHOT 热点",  desc:"AI 圈实时 TOP + 24h 精选",         cls:"card-acc-cyan"},
+      {sec:"daily", ic:"📰", name:"AI 行业日报", desc:"每日 AI 行业简报（多板块）",       cls:"card-acc-purple"},
+      {sec:"tech",  ic:"🔭", name:"科技播报",    desc:"今日科技要闻",                   cls:"card-acc-blue"},
+      {sec:"epic",  ic:"🎮", name:"Epic 限免",   desc:"本周免费游戏 + 领取标记",          cls:"card-acc-green"},
+      {sec:"hot",   ic:"🔥", name:"全网热榜",    desc:(plats ? plats + " 个平台同步（微博/知乎/B站/抖音…）" : "各平台热点（微博/知乎/B站/抖音…）"), cls:"card-acc-orange"}
+    ];
+    var h = '<div class="sec-title"><span class="b">▮</span>选择一个子板块查看，各平台独立、互不混杂</div>';
+    h += '<div class="news-subs">';
+    subs.forEach(function(s){
+      h += '<button class="news-sub" data-sec="' + s.sec + '">'
+        + '<span class="ns-ic">' + s.ic + '</span>'
+        + '<span class="ns-bd"><span class="ns-name">' + s.name + '</span>'
+        + '<span class="ns-desc">' + s.desc + '</span></span>'
+        + '<span class="ns-arrow">›</span>'
+        + '</button>';
+    });
+    h += '</div>';
+    return card("card-acc-orange","🗂️","今日热点资讯 · 子板块", subs.length + " 个", h);
+  }
+
   var has = D.updatedAt || D.aihotHot || D.techNews;
   ciLocal = ciLoadLocal();
   MUTE = loadMute();
@@ -2788,7 +2833,7 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
     todo:     {title:"今日代办",    fn:function(){ return pTodo(); }},
     book:     {title:"记账",        fn:function(){ return pBook(); }},
     fav:      {title:"我的收藏夹",  fn:function(){ return pFav(); }},
-    news:     {title:"今日热点资讯", fn:function(){ return pAihot() + pDaily() + pTech() + pEpic(); }},
+    news:     {title:"今日热点资讯", fn:pNewsIndex},
     aihot:    {title:"AIHOT 热点",  fn:function(){ return pAihot(); }},
     daily:    {title:"AI 行业日报", fn:function(){ return pDaily(); }},
     tech:     {title:"科技播报",    fn:function(){ return pTech(); }},
@@ -2817,6 +2862,12 @@ body.dark .fav-item:hover{background:rgba(255,255,255,.06)}
     var title = document.getElementById("secTitle");
     if(title) title.textContent = s.title;
     grid.className = "grid" + (curSec === "all" ? "" : " solo");
+    /* 进入「今日热点资讯」时优先展开侧栏子选项；离开时恢复原折叠偏好 */
+    if(curSec === "news"){
+      document.body.classList.remove("nav-fold-news");
+      var _f = document.querySelector ? document.querySelector("[data-fold]") : null;
+      if(_f) _f.classList.add("open");
+    }else if(typeof applyFold === "function"){ applyFold(); }
     /* 本地板块（打卡 / 代办 / 收藏）不依赖云端资讯，无数据也照常渲染 */
     var isLocal = (curSec === "checkin" || curSec === "fav" || curSec === "todo" || curSec === "book" || curSec === "settings");
     if(!has && !isLocal){
