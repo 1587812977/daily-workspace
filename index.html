@@ -773,6 +773,12 @@ body.nav-fold-tools  .nav-item[data-parent="tools"]{display:none}
   .modal{max-width:100%}
 }
 
+/* ============================ 主题：只保留黑白极简 ============================
+   用户要求只留「黑白极简」，移除浅色 / 深色。
+   外观由 body.theme-mono 的灰阶变量决定（常量生效，见 JS 中 THEME_ONLY = "mono"）。
+   主题切换按钮与「更多主题」按钮已无意义，直接隐藏（放在文件末尾以确保覆盖响应式里的尺寸规则）。 */
+.theme-toggle,.theme-more{display:none !important}
+
 </style>
 </head>
 <body>
@@ -963,28 +969,23 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     100:"连续 100 天，respect。这不再是坚持，是日常 💎"
   };
   var SIGN_KEY = "wb_signin_v1";            /* 左侧栏签到存储键（提前定义，早期 return 后仍可用） */
-  /* ---- 主题切换（三态：light / dark / mono） ---- */
+  /* ---- 主题：只保留「黑白极简」（light / dark 已按用户要求移除） ----
+     外观固定为灰阶无彩。历史用户若存过 light/dark，此处自动迁移到 mono。
+     主题切换按钮与「更多主题」按钮已由 CSS 隐藏（见 .theme-toggle,.theme-more）。 */
   var THEME_KEY = "wb_theme_v1";
+  var THEME_ONLY = "mono";
   var THEMES = [
-    {key:"light", name:"浅色",     desc:"明亮清爽", sw:"background:linear-gradient(135deg,#ffffff,#eaeaea)"},
-    {key:"dark",  name:"深色",     desc:"夜间护眼", sw:"background:linear-gradient(135deg,#0b1120,#27313f)"},
-    {key:"mono",  name:"黑白极简", desc:"灰阶无彩", sw:"background:linear-gradient(135deg,#f3f3f3,#9a9a9a)"}
+    {key:"mono", name:"黑白极简", desc:"灰阶无彩", sw:"background:linear-gradient(135deg,#f3f3f3,#9a9a9a)"}
   ];
   function applyThemeMode(mode){
     var body = document.body;
     if(!body || !body.classList) return;
-    body.classList.toggle("dark", mode === "dark");
-    body.classList.toggle("theme-mono", mode === "mono");
-    var tbtn = document.getElementById("themeToggle");
-    if(tbtn){
-      tbtn.innerHTML = (mode === "dark")
-        ? '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'
-        : '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>';
-    }
+    body.classList.remove("dark");            /* 不再提供深色 */
+    body.classList.add("theme-mono");         /* 始终是黑白极简 */
   }
-  function loadTheme(){ try{ return localStorage.getItem(THEME_KEY) || "light"; }catch(e){ return "light"; } }
-  function saveTheme(mode){ try{ localStorage.setItem(THEME_KEY, mode); }catch(e){} }
-  function setTheme(mode){ applyThemeMode(mode); saveTheme(mode); }
+  function loadTheme(){ return THEME_ONLY; }
+  function saveTheme(mode){ try{ localStorage.setItem(THEME_KEY, THEME_ONLY); }catch(e){} }
+  function setTheme(mode){ applyThemeMode(THEME_ONLY); saveTheme(THEME_ONLY); }
   applyThemeMode(loadTheme());
 
   /* 主题选择弹窗 */
@@ -1094,11 +1095,7 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     }
   }catch(e){}
   document.addEventListener("DOMContentLoaded", function(){
-    var btn = document.getElementById("themeToggle");
-    if(btn) btn.addEventListener("click", function(){
-      var cur = loadTheme();
-      setTheme(cur === "dark" ? "light" : "dark");   /* 浅色/深色 快速互切，并清除 mono */
-    });
+    /* 主题切换按钮已隐藏：只保留黑白极简，无需互切逻辑 */
     bindThemePicker();
 
     var bgBtn = document.getElementById("bgToggle");
