@@ -680,59 +680,74 @@ body.nav-fold-tools  .nav-item[data-parent="tools"]{display:none}
 /* 移动端「今日概览」卡：桌面端不显示，手机端由 JS 注入到内容顶部 */
 .m-today{display:none}
 
-/* ============================ 移动端重设计（手机） ============================
-   设计原则：拇指可达 / 信息聚焦 / 绝不横向滚动 / 关键数据首屏可见
-   布局结构：精简标题栏 → 今日概览卡 → 内容单列 → 固定底部 Tab（等分）
+/* ============================ 移动端（手机） ============================
+   导航：左侧抽屉（汉堡菜单触发），纵向完整导航，子项可直入，不挤压内容
+   布局：精简标题栏 → 今日概览卡 → 内容单列
    ========================================================================== */
 @media (max-width:900px){
   .app{display:block}
 
-  /* ---------- 底部 Tab 栏：顶层项等分，任何窄屏都不溢出、不横滚 ---------- */
+  /* ---------- 左侧抽屉 ---------- */
   .side{
-    position:fixed;left:0;right:0;bottom:0;top:auto;z-index:50;
-    width:auto;height:auto;flex-direction:row;align-items:stretch;
-    padding:6px 6px calc(6px + env(safe-area-inset-bottom));
-    border-right:0;border-top:1px solid var(--line);
-    background:color-mix(in srgb,var(--card) 94%, transparent);
+    position:fixed;left:0;top:0;bottom:0;z-index:70;
+    width:min(80vw, 280px);height:100%;
+    flex-direction:column;align-items:stretch;
+    transform:translateX(-100%);
+    transition:transform .26s cubic-bezier(.4,0,.2,1);
+    padding:0 0 env(safe-area-inset-bottom);
+    border-right:1px solid var(--line);border-top:0;
+    background:color-mix(in srgb,var(--card) 93%, transparent);
     backdrop-filter:blur(20px) saturate(1.15);-webkit-backdrop-filter:blur(20px) saturate(1.15);
-    box-shadow:0 -6px 24px rgba(34,33,28,.12);
+    box-shadow:6px 0 30px rgba(34,33,28,.20);
+    overflow-y:auto;overscroll-behavior:contain;
   }
-  .brand,.side-checkin,.side-foot,.nav-item .ds,.fold{display:none}
-  .nav{display:flex;flex-direction:row;gap:2px;padding:0;flex:1;overflow:visible}
+  body.drawer-open .side{transform:translateX(0)}
+  body.drawer-open{overflow:hidden}
+  .drawer-mask{
+    display:block;position:fixed;inset:0;z-index:65;
+    background:rgba(20,18,14,.45);
+    opacity:0;pointer-events:none;transition:opacity .26s;
+  }
+  body.drawer-open .drawer-mask{opacity:1;pointer-events:auto}
+  .menu-btn{display:flex}
+
+  /* 抽屉内：恢复品牌 / 打卡环 / 子项 / 底部信息（纵向完整导航） */
+  .brand{display:block;padding:16px 16px 14px;border-bottom:1px solid var(--line)}
+  .brand-text{display:flex}
+  .side-checkin{display:block;padding:16px;border-bottom:1px solid var(--line)}
+  .side-foot{display:block;padding:14px 16px 18px;border-top:1px solid var(--line)}
+  .nav{display:block;padding:12px 10px;overflow:visible;max-height:none;flex:none}
   .nav-item{
-    flex:1 1 0;min-width:0;width:auto;margin-bottom:0;
-    flex-direction:column;gap:3px;justify-content:center;align-items:center;
-    padding:7px 2px;border-radius:12px;
+    width:100%;flex-direction:row;justify-content:flex-start;align-items:center;
+    gap:12px;padding:12px;border-radius:10px;margin-bottom:4px;
+    border:0;background:transparent;min-height:46px;
   }
-  .nav-item .ic{width:24px;height:24px;background:transparent}
-  .nav-item .ic svg{width:22px;height:22px}
-  .nav-item .lb{
-    font-size:10.5px;font-weight:520;text-align:center;line-height:1.25;
-    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;
-  }
-  .nav-item.nav-sub{display:none}              /* 子项收进分组索引卡 */
+  .nav-item .ic{width:22px;height:22px;background:transparent}
+  .nav-item .ic svg{width:19px;height:19px}
+  .nav-item .lb{font-size:14.5px;text-align:left;white-space:normal;max-width:none;overflow:visible}
+  .nav-item .ds{display:none}
+  .nav-item.nav-sub{display:flex;margin:2px 0 2px 14px;padding:10px 12px;min-height:44px}
+  .nav-item .fold{display:flex;width:28px;height:28px}
   .nav-item.on{background:color-mix(in srgb,var(--cyan) 16%, transparent)}
-  .nav-item.on .ic{background:transparent}
   .nav-move{display:none !important}
-  .menu-btn{display:none}
-  .drawer-mask{display:none}
 
-  /* ---------- 主区：底部留白 = Tab 高度 + 安全区，内容永不被遮挡 ---------- */
-  .main{padding:14px 12px calc(80px + env(safe-area-inset-bottom))}
+  /* 主区：无需为底部 Tab 留白 */
+  .main{padding:14px 12px 24px}
 
-  /* ---------- 顶部标题栏：隐藏低价值徽章，改为两行结构 ---------- */
+  /* ---------- 顶部：汉堡菜单 + 标题 + 更新时间 ---------- */
   header{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:16px}
-  .live{display:none}                          /* REALTIME 徽章信息价值低，手机上让位给标题 */
-  h1{order:1;flex:1 1 auto;font-size:21px;min-width:0;line-height:1.3}
-  .bg-toggle{order:2;width:34px;height:34px;margin-left:0}
-  .bg-clear{order:3;width:34px;height:34px;margin-left:0}
-  .updated{order:4;flex:1 1 100%;font-size:11.5px;color:var(--txt3)}
-  .bg-dim{order:5;flex:1 1 100%;max-width:200px;margin-top:2px}
+  .live{display:none}
+  .menu-btn{order:1;width:38px;height:38px;margin:0;flex:none}
+  h1{order:2;flex:1 1 auto;font-size:20px;min-width:0;line-height:1.3}
+  .bg-toggle{order:3;width:34px;height:34px;margin-left:0}
+  .bg-clear{order:4;width:34px;height:34px;margin-left:0}
+  .updated{order:5;flex:1 1 100%;font-size:11.5px;color:var(--txt3);padding-left:48px}
+  .bg-dim{order:6;flex:1 1 100%;max-width:200px;margin-top:2px}
 
   /* ---------- 内容单列 ---------- */
   .grid{grid-template-columns:1fr;gap:14px}
 
-  /* ---------- 今日概览卡（JS 注入到内容顶部，仅手机端可见） ---------- */
+  /* ---------- 今日概览卡（不用开抽屉就能看到今日进度） ---------- */
   .m-today{display:block;padding:16px}
   .m-today-in{display:flex;align-items:center;gap:14px}
   .m-today .today-ring{width:62px;height:62px;margin:0;flex:none}
@@ -757,7 +772,7 @@ body.nav-fold-tools  .nav-item[data-parent="tools"]{display:none}
   .ci-day-top{flex-wrap:wrap;gap:10px}
   .card-body{max-height:none;overflow-y:visible}
 
-  /* ---------- 触控目标：手机端统一放大（勾选 ≥26px 达 WCAG AA，其余 ≥32px） ---------- */
+  /* ---------- 触控目标（勾选 ≥26px 达 WCAG AA，其余 ≥32px） ---------- */
   .todo-check{width:26px;height:26px}
   .todo-del{width:36px;height:36px;font-size:16px}
   .todo-clear{min-height:36px;padding:8px 14px}
@@ -786,7 +801,7 @@ body.nav-fold-tools  .nav-item[data-parent="tools"]{display:none}
   .news-sub{min-height:54px;padding:14px 15px}
   .news-sub .ns-name{font-size:16px}
 
-  /* ---------- 表单与设置：手机上纵向堆叠更好点 ---------- */
+  /* ---------- 表单与设置 ---------- */
   .set-row{flex-direction:column;align-items:stretch;gap:10px}
   .set-row .btns{width:100%;display:flex;flex-wrap:wrap}
   .set-row .btns .set-btn{flex:1;min-width:72px;padding:10px 8px;font-size:14px}
@@ -796,15 +811,14 @@ body.nav-fold-tools  .nav-item[data-parent="tools"]{display:none}
   .fav-del{width:34px;height:34px}
 }
 @media (max-width:520px){
-  .main{padding:12px 10px calc(78px + env(safe-area-inset-bottom))}
+  .main{padding:12px 10px 22px}
   .grid{gap:12px}
-  h1{font-size:19px}
+  h1{font-size:18px}
   .ci-date-big{font-size:30px}
   .card-head{padding:15px 16px 12px}
   .card-body{padding:14px 16px 16px}
   .pomo-time{font-size:44px}
   .modal{max-width:100%}
-  .nav-item .lb{font-size:10px}
 }
 
 /* ============================ 主题：只保留黑白极简 ============================
@@ -3787,12 +3801,12 @@ function isTouchDevice(){
 })();
 </script>
 
-<!-- 移动端增强：今日概览环 + 顶部今日概览卡 + 底部 Tab 短标签（只读增强，不影响任何既有功能） -->
+<!-- 移动端增强：今日概览环 + 顶部今日概览卡（只读增强，不影响任何既有功能） -->
 <script>
 (function(){
   var RING_DEFAULT = 66;
 
-  /* 进度环：同时更新侧栏环与手机端顶部卡里的环 */
+  /* 进度环：同时更新侧栏（抽屉内）环与内容顶部「今日概览」卡里的环 */
   function allRings(){
     var p = RING_DEFAULT;
     try{
@@ -3809,7 +3823,7 @@ function isTouchDevice(){
     for(var i = 0; i < rings.length; i++) rings[i].style.setProperty('--p', p);
   }
 
-  /* 侧栏打卡卡里插入进度环（桌面端可见） */
+  /* 侧栏（手机端为左侧抽屉）打卡卡里插入进度环 */
   function injectSideRing(){
     var sc = document.querySelector('.side-checkin');
     if(!sc || sc.querySelector('.today-ring')) return;
@@ -3820,34 +3834,7 @@ function isTouchDevice(){
     sc.insertBefore(el, sc.firstChild);
   }
 
-  /* ---------- 手机端 ---------- */
-  /* 底部 Tab 空间有限，「今日热点资讯」这类长标签会撑破布局，手机上改用短名 */
-  var NAV_SHORT = {all:"总览", life:"日常", news:"热点", github:"GitHub", tools:"工具", settings:"设置"};
-  function isMobile(){
-    try{ return !!(window.matchMedia && window.matchMedia('(max-width:900px)').matches); }
-    catch(e){ return false; }
-  }
-  var origLabels = null;
-  function syncLabels(){
-    var items = document.querySelectorAll('#nav .nav-item');
-    if(!origLabels){
-      origLabels = {};
-      for(var i = 0; i < items.length; i++){
-        var lb0 = items[i].querySelector('.lb');
-        if(lb0) origLabels[items[i].getAttribute('data-sec')] = lb0.textContent;
-      }
-    }
-    var m = isMobile();
-    for(var k = 0; k < items.length; k++){
-      var lb = items[k].querySelector('.lb');
-      if(!lb) continue;
-      var key = items[k].getAttribute('data-sec');
-      var orig = origLabels[key] || lb.textContent;
-      lb.textContent = (m && NAV_SHORT[key]) ? NAV_SHORT[key] : orig;
-    }
-  }
-
-  /* 手机端顶部「今日概览」卡：侧栏打卡卡在手机上被隐藏，关键数据改由这里呈现 */
+  /* 内容顶部「今日概览」卡：不用打开抽屉就能看到今日进度 */
   function buildMobileToday(){
     if(document.getElementById('mToday')) return;
     var grid = document.getElementById('grid');
@@ -3883,14 +3870,13 @@ function isTouchDevice(){
     }catch(e){}
   }
 
-  function refresh(){ allRings(); syncLabels(); syncMobileToday(); }
+  function refresh(){ allRings(); syncMobileToday(); }
   function boot(){ injectSideRing(); buildMobileToday(); refresh(); }
 
   if(document.readyState !== 'loading') boot();
   else document.addEventListener('DOMContentLoaded', boot);
-  /* 点击后「同步刷新一次 + 延时兜底」：
-     主 JS 的 click 监听先注册先执行，renderSec 是同步的，所以这里立即刷新已能拿到新 DOM；
-     保留延时兜底是为了应对个别渲染走异步的情况。 */
+  /* 点击后「同步刷新一次 + 延时兜底」：主 JS 的 click 监听先注册先执行、renderSec 同步完成，
+     同步刷新已能拿到新 DOM；延时用于兜底个别异步渲染。 */
   document.addEventListener('click', function(){ refresh(); setTimeout(refresh, 150); });
   window.addEventListener('load', function(){ refresh(); setTimeout(refresh, 400); });
   var rt = null;
@@ -3900,6 +3886,7 @@ function isTouchDevice(){
   });
 })();
 </script>
+
 
 
 
