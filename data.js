@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-08-30 12:35",
+ "updatedAt": "2026-08-30 20:38",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,11 +12,11 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-   "source": "公众号：腾讯混元",
-   "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
-   "time": "08-30 08:28",
-   "sourceCount": 8
+   "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1",
+   "time": "08-30 16:59",
+   "sourceCount": 5
   },
   {
    "rank": 3,
@@ -44,14 +44,6 @@ var WB_DATA = {
   },
   {
    "rank": 6,
-   "title": "联邦法官裁定特朗普政府将 Anthropic 列入黑名单违法",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtdbbfo6018arobxq8t77h9x",
-   "time": "08-29 02:56",
-   "sourceCount": 5
-  },
-  {
-   "rank": 7,
    "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
    "source": "IT之家（RSS）",
    "url": "https://aihot.virxact.com/items/cmtdxtxi809gyro2m2zykqzli",
@@ -60,6 +52,15 @@ var WB_DATA = {
   }
  ],
  "aihotItems": [
+  {
+   "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
+   "summary": "索尼音乐、华纳音乐等唱片公司起诉Anthropic及其CEO Dario Amodei和联合创始人Benjamin Mann，指控其未经许可使用数万首受版权保护的音乐作品（主要是歌词）训练Claude模型。原告称Amodei明确指示并促成侵权行为，每件侵权作品索赔最高15万美元。此前Anthropic已于2025年9月就盗版书籍训练达成15亿美元和解。",
+   "reason": "诉讼把焦点放在盗版下载这一独立侵权点上，并涉及合成数据是否构成训练漏洞，读者可借此理解版权争议的新走向。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1",
+   "time": "08-30 16:50",
+   "category": "industry"
+  },
   {
    "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
    "summary": "Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%。",
@@ -77,24 +78,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv",
    "time": "08-30 06:47",
    "category": "tip"
-  },
-  {
-   "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
-   "summary": "Qwen3.8 27B（27.3B 参数，混合注意力架构，262，144 token 上下文窗口，Apache 2.0 开源）在 Mac Studio M3 Ultra 上经 Ollama 以 Q4_K_M 量化（17GB）生成速度约 14 tokens/s。",
-   "reason": "Mac Studio 实测显示，Qwen3.8 生成速度约为前代一半，但答案 token 减少约三分之二，墙钟时间接近，而 1-bit 量化保住事实记忆却丧失决策能力，为量化档位选择提供依据。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.virxact.com/items/cmte242e701jdrog2vz9p2cy4",
-   "time": "08-29 15:00",
-   "category": "tip"
-  },
-  {
-   "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
-   "summary": "智谱宣布开源 GLM-5.3 模型权重，支持本地运行与个性化定制，擅长复杂编码、防御性网络安全及长程任务。该模型在 AA 综合智能指数中取得 60 分，与 Claude Fable 5、GPT-5.6 Sol 等闭源旗舰同级，并与 Kimi K3 并列开源模型第一。仅年营业额超 100 亿美元的机构将其作为外部模型服务提供时才需安全审查。",
-   "reason": "许可条款把强制安全审查限定在百亿美元级外部模型服务，自有部署和中小团队实际不受影响，开源可用性比表面限制更宽。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtdxtxi809gyro2m2zykqzli",
-   "time": "08-29 12:31",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -497,68 +480,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-08-30 12:35",
+   "updateTime": "2026-08-30 20:38",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "华强见宋老虎 但是唱跳RAP 【多梦综合征】【AI音乐宇宙】",
-     "url": "https://www.bilibili.com/video/BV1Hy4k64Erk",
-     "hot": 899335
+     "title": "【第四十五赛季·精华1】故事视频公开：——“如坠梦中的幸福时光，万物焕然……”",
+     "url": "https://www.bilibili.com/video/BV1S64D6wEdq",
+     "hot": 665290
     },
     {
-     "title": "去了一趟西班牙2.0（荒岛四兄弟篇）",
-     "url": "https://www.bilibili.com/video/BV1Na4Q64Eos",
-     "hot": 175014
+     "title": "欲买桂花同载酒，终不似，少年游。",
+     "url": "https://www.bilibili.com/video/BV11x4f6CESm",
+     "hot": 2178482
     },
     {
-     "title": "当你的资产缩水到A0层级，挑选优质桥洞的六大方案！",
-     "url": "https://www.bilibili.com/video/BV1ZNtA6CExY",
-     "hot": 1766947
+     "title": "⚡ 舞 立 方 . m p 4 ⚡",
+     "url": "https://www.bilibili.com/video/BV1td4o6LEFr",
+     "hot": 1223507
     },
     {
      "title": "【独家】牧神记 第98集 杀新皇",
      "url": "https://www.bilibili.com/video/BV1bt4k6MEPF",
-     "hot": 594585
+     "hot": 2226980
     },
     {
-     "title": "您叫的骑手正忙 请稍后再拨",
-     "url": "https://www.bilibili.com/video/BV13k4C6mEDv",
-     "hot": 1175223
+     "title": "【大学生就业指导】麦当当薯条N重奏！200块买两斤土豆？不能够了！",
+     "url": "https://www.bilibili.com/video/BV16g4y6tEzY",
+     "hot": 1040983
     },
     {
-     "title": "吃自助餐的九大神队友！你属于哪一种？",
-     "url": "https://www.bilibili.com/video/BV17TtA6VEuH",
-     "hot": 1338706
+     "title": "《古神: 风里希》科隆游戏展最新预告片 | 世界观前瞻",
+     "url": "https://www.bilibili.com/video/BV1xQtw6WELS",
+     "hot": 5601843
+    },
+    {
+     "title": "FALSITY…（完整版电影 / 官方正版)",
+     "url": "https://www.bilibili.com/video/BV1qH4U6iEEy",
+     "hot": 521285
     },
     {
      "title": "一个人，耗时18个月，2万元成本，手搓94分钟以刘慈欣小说《山》为故事原型的AI仿真人科幻电影",
      "url": "https://www.bilibili.com/video/BV1o74y6XEcM",
-     "hot": 222896
+     "hot": 626462
     },
     {
-     "title": "立志成为恶兽第一集",
-     "url": "https://www.bilibili.com/video/BV1iRtA6gEuc",
-     "hot": 1308781
+     "title": "在美国最彪悍的州，骑最野的牛、啃最香的肉！",
+     "url": "https://www.bilibili.com/video/BV1HP4y6YEyQ",
+     "hot": 946044
+    },
+    {
+     "title": "【独家/完结】《记忆管理局》第7集 记忆这样脆弱的东西【8月国创】",
+     "url": "https://www.bilibili.com/video/BV1dTtc6eEno",
+     "hot": 819405
     },
     {
      "title": "立瓶子挑战，相亲相爱~",
      "url": "https://www.bilibili.com/video/BV1PN4266Eys",
-     "hot": 498971
-    },
-    {
-     "title": "火柴人 VS 我的世界 第四十集 苦力怕部族（Creeper Clan）",
-     "url": "https://www.bilibili.com/video/BV163426vE3s",
-     "hot": 690775
+     "hot": 1368662
     },
     {
      "title": "世界破破烂烂，总有人缝缝补补",
      "url": "https://www.bilibili.com/video/BV1wZtw6JERc",
-     "hot": 1274945
-    },
-    {
-     "title": "谁能想到这种事情现实真的存在",
-     "url": "https://www.bilibili.com/video/BV1sYtA6xEjX",
-     "hot": 484877
+     "hot": 2808307
     }
    ]
   }
@@ -616,28 +599,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "SpaceX筹建涡轮叶片工厂，意在破解数据中心“电荒”难题",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-30/doc-iniqauvp2741032.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "“终于有希望提速了！” 电动自行车限速拟提至20km/h，九号、雅迪、小牛等回应",
+   "url": "https://finance.sina.com.cn/tob/2026-08-30/doc-iniqauvr4982907.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "月薪1万到手仅5千？ 浪潮云强制推行“五五开”绩效，“利润差”凭什么让打工人买单？",
+   "url": "https://finance.sina.com.cn/tob/2026-08-30/doc-iniqauvp8206951.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "苹果葛越：对贵安数据中心追加投入达数十亿美元，已实现100%由可再生能源驱动",
    "url": "https://finance.sina.com.cn/tech/it/2026-08-30/doc-iniqakfv5025608.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "李斌去年曾对话星宇股份董事长，网友涌入节目评论区喊话“抵制星宇”",
-   "url": "https://finance.sina.com.cn/roll/2026-08-30/doc-iniqacxv2987117.shtml",
-   "source": "新浪科技"
-  },
-  {
    "title": "AI创作“狂飙”，如何解决安全“后顾之忧”？这场沙龙为文化内容创作注入“合规动能”",
    "url": "https://finance.sina.com.cn/wm/2026-08-30/doc-inipzxsc8571290.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "Anthropic考虑允许股东在IPO中出售股份，摒弃SpaceX模式",
-   "url": "https://finance.sina.com.cn/7x24/2026-08-30/doc-inipzhuf8535131.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "程一笑：平等普惠是快手创立的初衷，也是始终不变的社区信仰",
-   "url": "https://finance.sina.com.cn/roll/2026-08-29/doc-inipzanm5351738.shtml",
    "source": "新浪科技"
   }
  ]
