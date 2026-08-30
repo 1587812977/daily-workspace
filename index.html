@@ -2245,7 +2245,7 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
       + '<div class="bs-row"><span>云同步</span><b>' + (sGid ? "已配置" : "未配置") + '</b></div>'
       + '</div>'
       + '<button class="brief-enter" data-sec="settings" type="button">查看完整设置 ›</button>';
-    return card("card-acc-purple","⚙️","设置与数据","导出 / 导入 / 清空", h);
+    return card("card-acc-purple",'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M2 12h4M18 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>',"设置与数据","导出 / 导入 / 清空", h);
   }
   function bindSettings(){
     var body = document.getElementById("settingsBody");
