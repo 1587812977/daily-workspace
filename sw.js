@@ -10,7 +10,7 @@
  * （表现为「线上代码已更新，但手机上还是旧页面」）。
  * 故导航与数据请求一律用 `cache:'reload'` 绕过 HTTP 缓存，只把缓存当离线兜底。
  */
-var CACHE = 'wb-v7';   /* 界面清晰度与灰阶系统升级：升版清除旧缓存，确保直接看到新版 */
+var CACHE = 'wb-v8';   /* 手机端与桌面端风格统一 + color-scheme:only light 风格恒定：升版清除旧缓存 */
 var PRECACHE = [
   './',
   './index.html',

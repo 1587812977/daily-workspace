@@ -3,13 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="only light">
 <title>个人工作台 · 每日信息中枢</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="工作台">
-<meta name="theme-color" content="#0ea5e9">
+<meta name="theme-color" content="#F7F7F7">
 <meta name="mobile-web-app-capable" content="yes">
 <style>
 /* ============================================================================
@@ -17,6 +18,20 @@
    设计方向：暖色纸感浅色 + 沉稳深色 + 黑白极简；便于操作、留白克制、移动端底部 Tab。
    仅重写设计系统，DOM / JS 逻辑全部保留（类名一一对应）。
    ========================================================================== */
+/* ---- 风格恒定（不随手机浏览器/系统风格改变） ----
+   1) color-scheme:only light —— 声明本页只有浅色方案：
+      Chrome(Android) 的 Auto Dark Theme、Safari 暗色模式都不会再自动
+      反转/加深页面颜色，表单控件与滚动条也保持浅色原生样式；
+   2) forced-color-adjust:none —— 抵制 Windows/Android 高对比度/强制配色
+      对指定颜色的替换，灰阶层次不会被系统配色方案覆盖；
+   3) 在 prefers-color-scheme:dark 查询内重复声明一次，双保险
+      （部分浏览器要求在媒体查询内显式覆盖才彻底生效）。 */
+html{color-scheme:only light}
+body,body.theme-mono{color-scheme:only light}
+body,body *{forced-color-adjust:none;-webkit-forced-color-adjust:none}
+@media (prefers-color-scheme:dark){
+  html,body{color-scheme:only light}
+}
 :root{
   /* 浅色（默认）：暖纸 */
   --bg:#F4F2ED;
@@ -750,7 +765,23 @@ h1{font-size:var(--fs-2xl);font-weight:var(--fw-sb);letter-spacing:-.2px;line-he
 .epic-tip,.set-row .d,.side-foot{font-size:var(--fs-xs);line-height:var(--lh-snug)}
 
 /* 移动端「今日概览」卡：桌面端不显示，手机端由 JS 注入到内容顶部 */
-.m-today{display:none}
+/* 今日概览卡：电脑端与手机端一致，均由 JS 注入到内容顶部（避开 renderSec 清空）
+   进度环显示今日打卡完成度，中间为当日日期 */
+.m-today{padding:var(--sp-5)}
+.m-today-in{display:flex;align-items:center;gap:var(--sp-5)}
+.m-today .today-ring{width:68px;height:68px;margin:0;flex:none}
+.m-today .today-ring::before{inset:7px}
+.m-today .tr-num{font-size:22px}
+.m-today .tr-cap{bottom:12px;font-size:9px}
+.m-today-bd{flex:1;min-width:0}
+.m-today-t{font-size:var(--fs-md);font-weight:var(--fw-sb);margin-bottom:2px}
+.m-today-s{font-size:var(--fs-sm);color:var(--txt2);line-height:var(--lh-snug)}
+.m-today-go{
+  flex:none;border:1px solid var(--line);background:var(--card2);color:var(--cyan);
+  border-radius:var(--r-md);padding:9px 14px;font-size:var(--fs-sm);font-weight:var(--fw-m);
+  cursor:pointer;font-family:inherit;min-height:40px;white-space:nowrap;transition:.15s;
+}
+.m-today-go:hover{border-color:var(--txt);color:var(--txt)}
 
 /* ============================ 移动端（手机） ============================
    导航：左侧抽屉（汉堡菜单触发），纵向完整导航，子项可直入，不挤压内容
@@ -806,34 +837,17 @@ h1{font-size:var(--fs-2xl);font-weight:var(--fw-sb);letter-spacing:-.2px;line-he
   /* 主区：无需为底部 Tab 留白 */
   .main{padding:14px 12px 24px}
 
-  /* ---------- 顶部：汉堡菜单 + 标题 + 更新时间 ---------- */
-  header{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:16px}
-  .live{display:none}
-  .menu-btn{order:1;width:38px;height:38px;margin:0;flex:none}
-  h1{order:2;flex:1 1 auto;font-size:20px;min-width:0;line-height:1.3}
-  .bg-toggle{order:3;width:34px;height:34px;margin-left:0}
-  .bg-clear{order:4;width:34px;height:34px;margin-left:0}
-  .updated{order:5;flex:1 1 100%;font-size:11.5px;color:var(--txt3);padding-left:48px}
-  .bg-dim{order:6;flex:1 1 100%;max-width:200px;margin-top:2px}
+  /* ---------- 顶部：结构与顺序完全同电脑端（flex-wrap 自然换行），仅缩小尺寸 ---------- */
+  header{gap:8px 12px;margin-bottom:20px}
+  .menu-btn{width:38px;height:38px}
+  h1{font-size:20px;min-width:0}
+  .bg-toggle,.bg-clear{width:34px;height:34px;margin-left:0}
+  .updated{font-size:11.5px}
 
   /* ---------- 内容单列 ---------- */
   .grid{grid-template-columns:1fr;gap:14px}
 
   /* ---------- 今日概览卡（不用开抽屉就能看到今日进度） ---------- */
-  .m-today{display:block;padding:16px}
-  .m-today-in{display:flex;align-items:center;gap:14px}
-  .m-today .today-ring{width:62px;height:62px;margin:0;flex:none}
-  .m-today .today-ring::before{inset:6px}
-  .m-today .tr-num{font-size:21px}
-  .m-today .tr-cap{bottom:10px;font-size:8.5px}
-  .m-today-bd{flex:1;min-width:0}
-  .m-today-t{font-size:15px;font-weight:660;margin-bottom:2px}
-  .m-today-s{font-size:12.5px;color:var(--txt2);line-height:1.5}
-  .m-today-go{
-    flex:none;border:1px solid var(--line);background:var(--card2);color:var(--cyan);
-    border-radius:10px;padding:9px 13px;font-size:13px;font-weight:600;cursor:pointer;
-    font-family:inherit;min-height:40px;white-space:nowrap;
-  }
 
   /* ---------- 打卡模块适配 ---------- */
   .ci-layout{flex-direction:column;gap:16px}
@@ -3895,18 +3909,9 @@ function isTouchDevice(){
     for(var i = 0; i < rings.length; i++) rings[i].style.setProperty('--p', p);
   }
 
-  /* 侧栏（手机端为左侧抽屉）打卡卡里插入进度环 */
-  function injectSideRing(){
-    var sc = document.querySelector('.side-checkin');
-    if(!sc || sc.querySelector('.today-ring')) return;
-    var d = new Date();
-    var el = document.createElement('div');
-    el.className = 'today-ring';
-    el.innerHTML = '<div class="tr-num">' + d.getDate() + '</div><div class="tr-cap">今日</div>';
-    sc.insertBefore(el, sc.firstChild);
-  }
-
-  /* 内容顶部「今日概览」卡：不用打开抽屉就能看到今日进度 */
+  /* 内容顶部「今日概览」卡（电脑端与手机端一致，均显示在内容区最上方）。
+     进度环只保留这一处，侧栏打卡卡维持「日期 + 签到 + 连续天数」的简洁形态，
+     避免同一页面出现两个环。 */
   function buildMobileToday(){
     if(document.getElementById('mToday')) return;
     var grid = document.getElementById('grid');
@@ -3943,7 +3948,7 @@ function isTouchDevice(){
   }
 
   function refresh(){ allRings(); syncMobileToday(); }
-  function boot(){ injectSideRing(); buildMobileToday(); refresh(); }
+  function boot(){ buildMobileToday(); refresh(); }
 
   if(document.readyState !== 'loading') boot();
   else document.addEventListener('DOMContentLoaded', boot);
@@ -3958,6 +3963,7 @@ function isTouchDevice(){
   });
 })();
 </script>
+
 
 
 
