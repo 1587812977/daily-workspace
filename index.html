@@ -1262,6 +1262,18 @@ body.dark .nav-item .fold:hover{background:rgba(255,255,255,.08)}
   border-left:2px solid var(--line);
   border-radius:0 10px 10px 0;
 }
+/* 上移 / 下移：拖拽之外的可靠排序方式（拖拽在触摸设备或带触摸屏的 Windows 上不可用） */
+.nav-move{display:none;flex:none;align-items:center;gap:2px}
+.nav-item:hover .nav-move,
+.nav-item.on .nav-move{display:flex}
+.nav-item:not(.nav-parent) .nav-move{margin-left:auto}
+.nav-move .mv{
+  width:19px;height:19px;border-radius:5px;
+  font-size:11px;line-height:19px;text-align:center;font-family:var(--mono);
+  color:var(--txt3);cursor:pointer;
+  -webkit-user-select:none;user-select:none;transition:.15s;
+}
+.nav-move .mv:hover{background:rgba(148,163,184,.22);color:var(--txt)}
 .nav-item.nav-sub .lb{font-size:13.5px;font-weight:500}
 .nav-item.nav-sub .ic{width:18px;height:18px}
 .nav-item.nav-sub .ic svg{width:16px;height:16px}
@@ -1274,6 +1286,8 @@ body.nav-fold-tools  .nav-item[data-parent="tools"]{display:none}
 @media (max-width:900px){
   .nav-item.nav-sub{margin-left:14px;min-height:44px;padding:11px 12px}
   .nav-item .fold{width:28px;height:28px}
+  /* 窄屏导航是横向胶囊，空间有限，隐藏上下移按钮避免挤爆 */
+  .nav-move{display:none !important}
 }
 
 /* ===== 今日热点资讯：子板块索引（点击父项优先展开子选项） ===== */
@@ -4142,8 +4156,13 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
 
   /* ---- 导航分组折叠（按分组独立持久化；news 沿用旧键以兼容老用户） ---- */
   var FOLD_KEY = "wb_nav_fold_v1";
-  var GH_FOLD_KEY = "wb_nav_fold_github_v1";
-  function foldKeyOf(g){ return g === "github" ? GH_FOLD_KEY : FOLD_KEY; }
+  /* 每个分组一把独立的钥匙。
+     ⚠️ 曾经写成 g === "github" ? GH_FOLD_KEY : FOLD_KEY —— 结果 life / news / tools
+     三组共用同一个键，展开任意一个其余全部跟着展开。务必保持按分组名派生。
+     news 沿用旧键 FOLD_KEY，以免老用户已保存的折叠偏好丢失。 */
+  function foldKeyOf(g){
+    return (g === "news" || !g) ? FOLD_KEY : ("wb_nav_fold_" + g + "_v1");
+  }
   function loadFold(){ return loadFoldGen("news"); }
   function saveFold(v){ saveFoldGen("news", v); }
   function loadFoldGen(g){
@@ -4334,20 +4353,64 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
   }
 function isTouchDevice(){
   try{
-    if(window.matchMedia && window.matchMedia("(pointer: coarse)").matches) return true;
-    if('ontouchstart' in window || (navigator && navigator.maxTouchPoints > 0)) return true;
+    /* 以 (pointer: coarse) 为准：它表示「主指针是手指」。
+       ⚠️ 千万不能只看 'ontouchstart' in window —— 带触摸屏的 Windows 笔记本/一体机
+       在桌面浏览器上该判断同样为真，会被误判成触摸设备，进而禁用导航拖拽排序
+       （表现为「子板块位置怎么都拖不动」）。真机上踩过。 */
+    if(window.matchMedia) return !!window.matchMedia("(pointer: coarse)").matches;
+    /* 老浏览器兜底：没有 matchMedia 时才退回到 maxTouchPoints */
+    if(navigator && typeof navigator.maxTouchPoints === "number" && navigator.maxTouchPoints > 0) return true;
   }catch(e){}
   return false;
 }
-function bindNavDrag(){
+  /* 子项在本组内上移 / 下移一位（±1）。
+     HTML5 拖拽在部分环境不可用（触摸设备、带触摸屏的 Windows 笔记本会被误判），
+     这两个按钮是任何设备都可靠的排序方式。到组内边界即停，绝不跨组。 */
+  function moveNavSub(el, dir){
+    var nav = document.getElementById("nav");
+    if(!nav || !el) return false;
+    var g = el.getAttribute("data-parent");
+    if(!g) return false;                                   /* 只排子项 */
+    var subs = Array.from(nav.querySelectorAll('[data-parent="' + g + '"]'));
+    var i = subs.indexOf(el), j = i + dir;
+    if(i < 0 || j < 0 || j >= subs.length) return false;
+    if(dir < 0) nav.insertBefore(el, subs[j]);
+    else nav.insertBefore(subs[j], el);
+    pinGroups(nav);
+    saveNavOrder();
+    return true;
+  }
+  function bindNavDrag(){
   var nav = document.getElementById("nav");
   if(!nav || !nav.querySelectorAll) return;
+  /* 上移 / 下移按钮的点击委托：挂在 nav 上，只绑一次 */
+  if(!nav.__mvBound){
+    nav.__mvBound = true;
+    nav.addEventListener("click", function(ev){
+      var t = ev.target;
+      var b = t && t.closest ? t.closest("[data-mv]") : null;
+      if(!b) return;
+      if(ev.preventDefault) ev.preventDefault();
+      if(ev.stopPropagation) ev.stopPropagation();   /* 别触发导航切换 */
+      var item = b.closest ? b.closest(".nav-item") : null;
+      if(item) moveNavSub(item, b.getAttribute("data-mv") === "up" ? -1 : 1);
+    });
+  }
   var touch = isTouchDevice();
   var dragEl = null;
     function isAll(x){ return x && x.getAttribute("data-sec") === "all"; }
-    /* 取所属分组（"" 表示普通顶层项）。不同分组之间不能互拖，
-       避免把「今日热点资讯」「GitHub 榜单」的子项拖散到其他位置 */
-    function grpOf(x){ return (x && x.getAttribute("data-parent")) || ""; }
+    function isGroupParent(x){
+      var s = x && x.getAttribute("data-sec");
+      return !!(s && GROUP_DEF[s]);          /* 父项：data-sec 同时就是组 id */
+    }
+    /* 取所属分组（"" 表示普通顶层项）。父项归属于自己那个组，
+       这样子项才能拖到父项上（= 移到本组第一位）；不同分组之间仍不能互拖。 */
+    function grpOf(x){
+      if(!x) return "";
+      var p = x.getAttribute("data-parent");
+      if(p) return p;
+      return isGroupParent(x) ? x.getAttribute("data-sec") : "";
+    }
     function canDrop(from, to){
       if(!from || !to) return false;
       if(grpOf(from) !== grpOf(to)) return false;
@@ -4356,6 +4419,14 @@ function bindNavDrag(){
   nav.querySelectorAll(".nav-item").forEach(function(el){
     if(el.__dragBound) return;          /* 添加模块后重绑时不重复挂监听 */
     el.__dragBound = true;
+    /* 注入上移/下移按钮（除「全部总览」） */
+    if(!isAll(el) && !el.querySelector(".nav-move")){
+      var mv = document.createElement("span");
+      mv.className = "nav-move";
+      mv.innerHTML = '<span class="mv" data-mv="up" title="上移">↑</span>'
+                   + '<span class="mv" data-mv="down" title="下移">↓</span>';
+      el.appendChild(mv);
+    }
     if(touch){
       el.draggable = false;
       el.removeAttribute("draggable");
@@ -4392,9 +4463,14 @@ function bindNavDrag(){
         var from = items.indexOf(dragEl);
         var to = items.indexOf(el);
         if(from < 0 || to < 0) return;
-        if(from < to) nav.insertBefore(dragEl, el.nextSibling);
+        if(isGroupParent(el)){
+          /* 拖到父项上 = 移到本组第一位（插在父项之后）。
+             若走下面的通用分支，会插到父项前面，把父顶出组外。 */
+          nav.insertBefore(dragEl, el.nextSibling);
+        }else if(from < to) nav.insertBefore(dragEl, el.nextSibling);
         else nav.insertBefore(dragEl, el);
         pinAllFirst(nav);                              /* 始终固定第一位 */
+        pinGroups(nav);                                /* 父项贴回自己子项前面 */
         saveNavOrder();
         dragEl = null;
       });
