@@ -677,62 +677,87 @@ body.nav-fold-github .nav-item[data-parent="github"]{display:none}
 body.nav-fold-life   .nav-item[data-parent="life"]{display:none}
 body.nav-fold-tools  .nav-item[data-parent="tools"]{display:none}
 
-/* ============================ 响应式 ============================ */
+/* 移动端「今日概览」卡：桌面端不显示，手机端由 JS 注入到内容顶部 */
+.m-today{display:none}
+
+/* ============================ 移动端重设计（手机） ============================
+   设计原则：拇指可达 / 信息聚焦 / 绝不横向滚动 / 关键数据首屏可见
+   布局结构：精简标题栏 → 今日概览卡 → 内容单列 → 固定底部 Tab（等分）
+   ========================================================================== */
 @media (max-width:900px){
-  /* 手机端：侧栏变为固定底部 Tab 栏，拇指友好 */
   .app{display:block}
+
+  /* ---------- 底部 Tab 栏：顶层项等分，任何窄屏都不溢出、不横滚 ---------- */
   .side{
-    position:fixed;left:0;right:0;bottom:0;top:auto;z-index:50;width:auto;height:auto;
-    flex-direction:row;align-items:stretch;
-    padding:6px 8px calc(6px + env(safe-area-inset-bottom));
+    position:fixed;left:0;right:0;bottom:0;top:auto;z-index:50;
+    width:auto;height:auto;flex-direction:row;align-items:stretch;
+    padding:6px 6px calc(6px + env(safe-area-inset-bottom));
     border-right:0;border-top:1px solid var(--line);
-    background:color-mix(in srgb,var(--card) 92%, transparent);
-    backdrop-filter:blur(18px) saturate(1.15);-webkit-backdrop-filter:blur(18px) saturate(1.15);
+    background:color-mix(in srgb,var(--card) 94%, transparent);
+    backdrop-filter:blur(20px) saturate(1.15);-webkit-backdrop-filter:blur(20px) saturate(1.15);
     box-shadow:0 -6px 24px rgba(34,33,28,.12);
   }
   .brand,.side-checkin,.side-foot,.nav-item .ds,.fold{display:none}
-  .nav{display:flex;flex-direction:row;gap:4px;overflow-x:auto;padding:0;scrollbar-width:none;flex:1}
-  .nav::-webkit-scrollbar{display:none}
+  .nav{display:flex;flex-direction:row;gap:2px;padding:0;flex:1;overflow:visible}
   .nav-item{
-    width:auto;flex:none;margin-bottom:0;flex-direction:column;gap:3px;justify-content:center;
-    padding:8px 4px;border-radius:12px;min-width:54px;
+    flex:1 1 0;min-width:0;width:auto;margin-bottom:0;
+    flex-direction:column;gap:3px;justify-content:center;align-items:center;
+    padding:7px 2px;border-radius:12px;
   }
-  .nav-item .ic{width:22px;height:22px;background:transparent}
-  .nav-item .ic svg{width:20px;height:20px}
-  .nav-item .lb{font-size:11px;font-weight:520;text-align:center}
-  .nav-item.nav-sub{display:none}              /* 子项收进分组索引卡，底部只留顶层 */
+  .nav-item .ic{width:24px;height:24px;background:transparent}
+  .nav-item .ic svg{width:22px;height:22px}
+  .nav-item .lb{
+    font-size:10.5px;font-weight:520;text-align:center;line-height:1.25;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;
+  }
+  .nav-item.nav-sub{display:none}              /* 子项收进分组索引卡 */
   .nav-item.on{background:color-mix(in srgb,var(--cyan) 16%, transparent)}
   .nav-item.on .ic{background:transparent}
   .nav-move{display:none !important}
-  .main{padding:18px 15px 92px}                /* 底部留白给 Tab 栏 */
   .menu-btn{display:none}
   .drawer-mask{display:none}
-  header{gap:10px 12px;margin-bottom:22px;align-items:center}
-  h1{font-size:20px}
-  .grid{grid-template-columns:1fr;gap:16px}
-  .updated{font-size:12px}
+
+  /* ---------- 主区：底部留白 = Tab 高度 + 安全区，内容永不被遮挡 ---------- */
+  .main{padding:14px 12px calc(80px + env(safe-area-inset-bottom))}
+
+  /* ---------- 顶部标题栏：隐藏低价值徽章，改为两行结构 ---------- */
+  header{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:16px}
+  .live{display:none}                          /* REALTIME 徽章信息价值低，手机上让位给标题 */
+  h1{order:1;flex:1 1 auto;font-size:21px;min-width:0;line-height:1.3}
+  .bg-toggle{order:2;width:34px;height:34px;margin-left:0}
+  .bg-clear{order:3;width:34px;height:34px;margin-left:0}
+  .updated{order:4;flex:1 1 100%;font-size:11.5px;color:var(--txt3)}
+  .bg-dim{order:5;flex:1 1 100%;max-width:200px;margin-top:2px}
+
+  /* ---------- 内容单列 ---------- */
+  .grid{grid-template-columns:1fr;gap:14px}
+
+  /* ---------- 今日概览卡（JS 注入到内容顶部，仅手机端可见） ---------- */
+  .m-today{display:block;padding:16px}
+  .m-today-in{display:flex;align-items:center;gap:14px}
+  .m-today .today-ring{width:62px;height:62px;margin:0;flex:none}
+  .m-today .today-ring::before{inset:6px}
+  .m-today .tr-num{font-size:21px}
+  .m-today .tr-cap{bottom:10px;font-size:8.5px}
+  .m-today-bd{flex:1;min-width:0}
+  .m-today-t{font-size:15px;font-weight:660;margin-bottom:2px}
+  .m-today-s{font-size:12.5px;color:var(--txt2);line-height:1.5}
+  .m-today-go{
+    flex:none;border:1px solid var(--line);background:var(--card2);color:var(--cyan);
+    border-radius:10px;padding:9px 13px;font-size:13px;font-weight:600;cursor:pointer;
+    font-family:inherit;min-height:40px;white-space:nowrap;
+  }
+
+  /* ---------- 打卡模块适配 ---------- */
   .ci-layout{flex-direction:column;gap:16px}
   .ci-left{width:100%;padding:20px 18px}
   .ci-date-big{font-size:36px}
   .ci-day-section{padding:18px 14px 14px}
   .ci-day-date{font-size:23px}
   .ci-day-top{flex-wrap:wrap;gap:10px}
-  .ci-act-btn{min-height:34px;padding:7px 14px}
   .card-body{max-height:none;overflow-y:visible}
-  .theme-toggle,.theme-more,.bg-toggle,.bg-clear{width:42px;height:42px}
-  .tab{min-height:38px;padding:8px 15px;font-size:14px}
-  .epic-claim,.epic-got{min-height:38px;padding:9px 15px;font-size:13.5px}
-  .ci-cal-nav{width:36px;height:36px}
-  .ci-cal-today{min-height:36px;padding:8px 13px}
-  .ci-cal-cell{min-height:40px}
-  .ci-cal-cell span{font-size:13.5px}
-  .ci-check{width:26px;height:26px;font-size:13px}
-  .ci-del{width:34px;height:34px}
-  .ci-item{padding:13px 10px;min-height:48px}
-  .ci-bin-item{min-height:36px;padding:7px 13px}
-  .ci-add input{font-size:16px;min-height:46px;padding:10px 13px}
-  .ci-add button{min-width:50px;min-height:46px}
-  /* 触控目标优化：手机端手指点击，次要/删除类小按钮统一放大（勾选框 ≥26px 达 WCAG AA，其余 ≥32px） */
+
+  /* ---------- 触控目标：手机端统一放大（勾选 ≥26px 达 WCAG AA，其余 ≥32px） ---------- */
   .todo-check{width:26px;height:26px}
   .todo-del{width:36px;height:36px;font-size:16px}
   .todo-clear{min-height:36px;padding:8px 14px}
@@ -741,36 +766,45 @@ body.nav-fold-tools  .nav-item[data-parent="tools"]{display:none}
   .ci-del{width:36px;height:36px}
   .ci-mute{width:34px;height:34px}
   .ci-cf-ok,.ci-cf-no{min-height:36px;padding:7px 14px}
-  .ci-bin-item{min-height:38px}
+  .ci-bin-item{min-height:38px;padding:7px 13px}
   .ci-act-btn{min-height:36px;padding:8px 14px}
+  .ci-cal-nav{width:36px;height:36px}
+  .ci-cal-today{min-height:36px;padding:8px 13px}
+  .ci-cal-cell{min-height:40px}
+  .ci-cal-cell span{font-size:13.5px}
+  .ci-item{padding:13px 10px;min-height:48px}
+  .ci-add input{font-size:16px;min-height:46px;padding:10px 13px}
+  .ci-add button{min-width:50px;min-height:46px}
   .modal-close{width:36px;height:36px;font-size:20px}
   .gh-langbtn{min-height:32px;padding:6px 12px}
   .cup{width:32px;height:32px}
-  .fav-chip,.fav-mini{min-height:36px}
-  .tab{min-height:40px}
+  .fav-chip,.fav-mini{min-height:36px;padding:7px 14px}
+  .tab{min-height:40px;padding:8px 15px;font-size:14px}
+  .epic-claim,.epic-got{min-height:38px;padding:9px 15px;font-size:13.5px}
+  .pomo-btn{min-height:42px}
   .brief-enter{min-height:44px}
+  .news-sub{min-height:54px;padding:14px 15px}
+  .news-sub .ns-name{font-size:16px}
+
+  /* ---------- 表单与设置：手机上纵向堆叠更好点 ---------- */
   .set-row{flex-direction:column;align-items:stretch;gap:10px}
   .set-row .btns{width:100%;display:flex;flex-wrap:wrap}
   .set-row .btns .set-btn{flex:1;min-width:72px;padding:10px 8px;font-size:14px}
   .fav-in{font-size:16px;min-height:46px;padding:11px 13px}
   .fav-btn-main{min-height:46px;padding:11px 22px}
-  .fav-chip{min-height:34px;padding:7px 14px}
   .fav-search{min-height:40px;font-size:16px}
   .fav-del{width:34px;height:34px}
-  .fav-mini{min-height:34px;padding:7px 14px}
-  .news-sub{min-height:54px;padding:14px 15px}
-  .news-sub .ns-name{font-size:16px}
 }
 @media (max-width:520px){
-  .main{padding:14px 11px 90px}
-  .grid{gap:13px}
-  h1{font-size:18px}
-  .live{font-size:11px;padding:2px 10px}
+  .main{padding:12px 10px calc(78px + env(safe-area-inset-bottom))}
+  .grid{gap:12px}
+  h1{font-size:19px}
   .ci-date-big{font-size:30px}
   .card-head{padding:15px 16px 12px}
   .card-body{padding:14px 16px 16px}
   .pomo-time{font-size:44px}
   .modal{max-width:100%}
+  .nav-item .lb{font-size:10px}
 }
 
 /* ============================ 主题：只保留黑白极简 ============================
@@ -3753,33 +3787,121 @@ function isTouchDevice(){
 })();
 </script>
 
-<!-- 今日概览环：把侧栏打卡卡变成一个数据驱动的进度环（只读增强，不影响任何功能） -->
+<!-- 移动端增强：今日概览环 + 顶部今日概览卡 + 底部 Tab 短标签（只读增强，不影响任何既有功能） -->
 <script>
 (function(){
-  function setRing(){
-    var ring=document.querySelector('.today-ring'); if(!ring) return;
-    var p=66;
+  var RING_DEFAULT = 66;
+
+  /* 进度环：同时更新侧栏环与手机端顶部卡里的环 */
+  function allRings(){
+    var p = RING_DEFAULT;
     try{
-      var first=document.querySelector('#grid .card .brief-stat');
-      if(first){ var b=first.querySelector('.bs-row b');
-        if(b){ var mm=/(\d+)\s*\/\s*(\d+)/.exec(b.textContent); if(mm&&+mm[2]) p=Math.round(+mm[1]/+mm[2]*100); } }
+      var first = document.querySelector('#grid .card .brief-stat');
+      if(first){
+        var b = first.querySelector('.bs-row b');
+        if(b){
+          var mm = /(\d+)\s*\/\s*(\d+)/.exec(b.textContent);
+          if(mm && +mm[2]) p = Math.round(+mm[1] / +mm[2] * 100);
+        }
+      }
     }catch(e){}
-    ring.style.setProperty('--p', p);
+    var rings = document.querySelectorAll('.today-ring');
+    for(var i = 0; i < rings.length; i++) rings[i].style.setProperty('--p', p);
   }
-  function inject(){
-    var sc=document.querySelector('.side-checkin'); if(!sc||sc.querySelector('.today-ring')) return;
-    var d=new Date();
-    var el=document.createElement('div'); el.className='today-ring';
-    el.innerHTML='<div class="tr-num">'+d.getDate()+'</div><div class="tr-cap">今日</div>';
+
+  /* 侧栏打卡卡里插入进度环（桌面端可见） */
+  function injectSideRing(){
+    var sc = document.querySelector('.side-checkin');
+    if(!sc || sc.querySelector('.today-ring')) return;
+    var d = new Date();
+    var el = document.createElement('div');
+    el.className = 'today-ring';
+    el.innerHTML = '<div class="tr-num">' + d.getDate() + '</div><div class="tr-cap">今日</div>';
     sc.insertBefore(el, sc.firstChild);
-    setRing();
   }
-  if(document.readyState!=='loading'){ inject(); }
-  else document.addEventListener('DOMContentLoaded', inject);
-  document.addEventListener('click', function(){ setTimeout(setRing,150); });
-  window.addEventListener('load', function(){ setTimeout(setRing,400); });
+
+  /* ---------- 手机端 ---------- */
+  /* 底部 Tab 空间有限，「今日热点资讯」这类长标签会撑破布局，手机上改用短名 */
+  var NAV_SHORT = {all:"总览", life:"日常", news:"热点", github:"GitHub", tools:"工具", settings:"设置"};
+  function isMobile(){
+    try{ return !!(window.matchMedia && window.matchMedia('(max-width:900px)').matches); }
+    catch(e){ return false; }
+  }
+  var origLabels = null;
+  function syncLabels(){
+    var items = document.querySelectorAll('#nav .nav-item');
+    if(!origLabels){
+      origLabels = {};
+      for(var i = 0; i < items.length; i++){
+        var lb0 = items[i].querySelector('.lb');
+        if(lb0) origLabels[items[i].getAttribute('data-sec')] = lb0.textContent;
+      }
+    }
+    var m = isMobile();
+    for(var k = 0; k < items.length; k++){
+      var lb = items[k].querySelector('.lb');
+      if(!lb) continue;
+      var key = items[k].getAttribute('data-sec');
+      var orig = origLabels[key] || lb.textContent;
+      lb.textContent = (m && NAV_SHORT[key]) ? NAV_SHORT[key] : orig;
+    }
+  }
+
+  /* 手机端顶部「今日概览」卡：侧栏打卡卡在手机上被隐藏，关键数据改由这里呈现 */
+  function buildMobileToday(){
+    if(document.getElementById('mToday')) return;
+    var grid = document.getElementById('grid');
+    if(!grid || !grid.parentNode) return;
+    var d = new Date();
+    var sec = document.createElement('section');
+    sec.className = 'card card-acc-green m-today';
+    sec.id = 'mToday';
+    sec.innerHTML = '<div class="m-today-in">'
+      + '<div class="today-ring"><div class="tr-num">' + d.getDate() + '</div><div class="tr-cap">今日</div></div>'
+      + '<div class="m-today-bd"><div class="m-today-t">今日概览</div>'
+      + '<div class="m-today-s" id="mTodaySum">—</div></div>'
+      + '<button class="m-today-go" type="button" data-sec="checkin">查看 ›</button>'
+      + '</div>';
+    /* 插在 grid 之前：renderSec 只重写 grid 内部，此卡不会被清掉 */
+    grid.parentNode.insertBefore(sec, grid);
+  }
+  function syncMobileToday(){
+    var card = document.getElementById('mToday');
+    if(!card) return;
+    var on = document.querySelector('.nav-item.on');
+    var isAll = !!(on && on.getAttribute('data-sec') === 'all');
+    card.style.display = isAll ? '' : 'none';
+    if(!isAll) return;
+    var sum = document.getElementById('mTodaySum');
+    if(!sum) return;
+    try{
+      var cards = document.querySelectorAll('#grid .card');
+      var s1 = cards[0] ? cards[0].querySelector('.card-head .sub') : null;
+      var s2 = cards[1] ? cards[1].querySelector('.card-head .sub') : null;
+      var txt = ((s1 ? s1.textContent : '') + ' · ' + (s2 ? s2.textContent : '')).replace(/(^ · | · $)/g, '');
+      if(txt) sum.textContent = txt;
+    }catch(e){}
+  }
+
+  function refresh(){ allRings(); syncLabels(); syncMobileToday(); }
+  function boot(){ injectSideRing(); buildMobileToday(); refresh(); }
+
+  if(document.readyState !== 'loading') boot();
+  else document.addEventListener('DOMContentLoaded', boot);
+  /* 点击后「同步刷新一次 + 延时兜底」：
+     主 JS 的 click 监听先注册先执行，renderSec 是同步的，所以这里立即刷新已能拿到新 DOM；
+     保留延时兜底是为了应对个别渲染走异步的情况。 */
+  document.addEventListener('click', function(){ refresh(); setTimeout(refresh, 150); });
+  window.addEventListener('load', function(){ refresh(); setTimeout(refresh, 400); });
+  var rt = null;
+  window.addEventListener('resize', function(){
+    if(rt) clearTimeout(rt);
+    rt = setTimeout(refresh, 200);
+  });
 })();
 </script>
+
+
 
 </body>
 </html>
