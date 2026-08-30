@@ -208,6 +208,17 @@ h1 .dot{color:var(--cyan);-webkit-text-fill-color:var(--cyan)}
 .card-body::-webkit-scrollbar-thumb{background:#2a3a55;border-radius:3px}
 .card-acc-cyan{--accent:var(--cyan)}
 .card-acc-purple{--accent:var(--purple)}
+  /* 总览简略卡：只显示统计，不铺开完整内容 */
+  .brief-stat{display:flex;flex-direction:column;gap:6px;margin:2px 0 10px}
+  .bs-row{display:flex;align-items:center;justify-content:space-between;font-size:13px;color:var(--muted)}
+  .bs-row b{color:var(--txt);font-size:15px;font-weight:600}
+  .brief-enter{width:100%;margin-top:4px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card2);color:var(--accent);font-size:13px;font-weight:600;cursor:pointer;transition:.15s}
+  .brief-enter:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .brief-todo{list-style:none;margin:8px 0 2px;padding:0;display:flex;flex-direction:column;gap:5px}
+  .brief-todo li{font-size:13px;color:var(--txt);padding:6px 10px;background:var(--card2);border-radius:8px;border-left:3px solid var(--accent);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .brief-todo .bt-time{color:var(--muted);font-size:11px;margin-left:4px}
+  .brief-todo .brief-more{color:var(--muted);background:transparent;border-left:none;text-align:center;font-size:12px}
+  .brief-done-all{margin-top:8px;font-size:13px;color:#3fb950;text-align:center}
 .card-acc-blue{--accent:var(--blue)}
 .card-acc-orange{--accent:var(--orange)}
 .card-acc-pink{--accent:var(--pink)}
@@ -2173,6 +2184,20 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
     var sub = (HB && HB.habits) ? ("对话 + 本地 " + HB.habits.length + " 项") : "本地保存";
     return card("card-acc-green","🎯","每日打卡", sub, '<div id="ciBody">' + ciBodyHtml() + '</div>');
   }
+  /* 总览专用简略版：只显示统计，不铺开月历 / 列表 / 回收站。点「查看完整打卡」经全局 data-sec 委托进入 checkin 板块 */
+  function pCheckinBrief(){
+    var items = ciItems();
+    var total = items.length;
+    var tk = ciKey();
+    var done = items.filter(function(it){ return ciDone(it.id, tk); }).length;
+    var streak = signStreak();
+    var h = '<div class="brief-stat">'
+      + '<div class="bs-row"><span>今日打卡</span><b>' + done + ' / ' + total + '</b></div>'
+      + '<div class="bs-row"><span>连续签到</span><b>' + streak + ' 天</b></div>'
+      + '</div>'
+      + '<button class="brief-enter" data-sec="checkin" type="button">查看完整打卡 ›</button>';
+    return card("card-acc-green","🎯","每日打卡","今日 " + done + " / " + total + " · 连续 " + streak + " 天", h);
+  }
   function ciAdd(){
     var inp = document.getElementById("ciNewName");
     if(!inp) return;
@@ -2471,6 +2496,31 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
   }
   function pTodo(){
     return card("card-acc-blue", "✅", "今日代办", "本地保存 · 可设提醒", '<div id="todoBody">' + todoBodyHtml() + '</div>');
+  }
+  /* 总览专用简略版：统计 + 前 3 条未完成的待办，不铺开输入框 / 完整列表 */
+  function pTodoBrief(){
+    var a = todoList();
+    var total = a.length, done = 0;
+    a.forEach(function(x){ if(x.done) done++; });
+    var remain = total - done;
+    var h = '<div class="brief-stat">'
+      + '<div class="bs-row"><span>待办总数</span><b>' + total + '</b></div>'
+      + '<div class="bs-row"><span>已完成</span><b>' + done + '</b></div>'
+      + '<div class="bs-row"><span>剩余</span><b>' + remain + '</b></div>'
+      + '</div>';
+    var top = a.filter(function(x){ return !x.done; }).slice(0, 3);
+    if(top.length){
+      h += '<ul class="brief-todo">';
+      top.forEach(function(x){
+        h += '<li>' + esc(x.text) + (x.time ? ' <span class="bt-time">⏰ ' + esc(x.time) + '</span>' : '') + '</li>';
+      });
+      if(remain > 3) h += '<li class="brief-more">…还有 ' + (remain - 3) + ' 条待办</li>';
+      h += '</ul>';
+    }else if(total){
+      h += '<div class="brief-done-all">🎉 今日待办已全部完成</div>';
+    }
+    h += '<button class="brief-enter" data-sec="todo" type="button">查看全部待办 ›</button>';
+    return card("card-acc-blue","✅","今日代办","剩余 " + remain + " 项", h);
   }
   function todoAdd(){
     var inp = document.getElementById("todoNew");
@@ -2984,6 +3034,18 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
   function pSettings(){
     return card("card-acc-purple", "⚙️", "设置与数据", "数据管理 · 使用说明", '<div id="settingsBody">' + settingsBodyHtml() + '</div>');
   }
+  /* 总览专用简略版：只显示数据项数与云同步状态，不铺开令牌输入框 / 说明大段 */
+  function pSettingsBrief(){
+    var data = settingsData();
+    var n = Object.keys(data.data).length;
+    var sGid = syncGist();
+    var h = '<div class="brief-stat">'
+      + '<div class="bs-row"><span>本地数据</span><b>' + n + ' 项</b></div>'
+      + '<div class="bs-row"><span>云同步</span><b>' + (sGid ? "已配置" : "未配置") + '</b></div>'
+      + '</div>'
+      + '<button class="brief-enter" data-sec="settings" type="button">查看完整设置 ›</button>';
+    return card("card-acc-purple","⚙️","设置与数据","导出 / 导入 / 清空", h);
+  }
   function bindSettings(){
     var body = document.getElementById("settingsBody");
     if(!body || body.__wbBound) return;
@@ -3290,10 +3352,10 @@ var WB_STEAM_UPDATED = "2026-08-29 23:59";
             + 四个分组的索引卡（其余内容都收进子板块）
             + 设置与数据（导出 / 导入 / 清空，保留可见） */
     all:      {title:"全部总览", fn:function(){
-                 return pCheckin() + pTodo()
+                 return pCheckinBrief() + pTodoBrief()
                    + pGroupIndex("life") + pGroupIndex("news")
                    + pGroupIndex("github") + pGroupIndex("tools")
-                   + pSettings();
+                   + pSettingsBrief();
                }},
     life:     {title:"我的日常",       fn:pLifeIndex},
     checkin:  {title:"每日打卡",    fn:function(){ return pCheckin(); }},
