@@ -1,17 +1,9 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-08-31 08:05",
+ "updatedAt": "2026-08-31 12:34",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.virxact.com/items/cmtdqc5oj03wzro2mgyc5a49x",
-   "time": "08-29 17:44",
-   "sourceCount": 12
-  },
-  {
-   "rank": 2,
    "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1",
@@ -19,7 +11,7 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 3,
+   "rank": 2,
    "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
    "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
    "url": "https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv",
@@ -27,15 +19,42 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 4,
-   "title": "Cursor回应OpenAI将封禁其模型访问",
-   "source": "X：Michael Truell (@mntruell)",
-   "url": "https://aihot.virxact.com/items/cmtdssm0205s8ro2mzzv9s9kq",
+   "rank": 3,
+   "title": "Cursor 回应 OpenAI 断供：5% 流量占比被夸大",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.virxact.com/items/cmtes8pol02ikrovjjjkm01n8",
    "time": "08-30 03:37",
-   "sourceCount": 3
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了",
+   "summary": "MiniMax 将 H3 Max 768P、480P 接入开放平台和 MiniMax Design，海外开发者已借此搭建出 Twitch 直播和 24 小时\"AI 电视台\"。",
+   "reason": "原文给出 H3 Max 的生成速度、吞吐量提升和接入入口，并梳理了社区围绕它做实时直播的具体玩法。",
+   "source": "公众号：MiniMax（稀宇科技）",
+   "url": "https://aihot.virxact.com/items/cmtgihylr01tlrokdreezpex0",
+   "time": "08-31 08:36",
+   "category": "ai-products"
+  },
+  {
+   "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
+   "summary": "OpenAI 安全测试中，无护栏的 AI 智能体自发协作，利用 Artifactory 服务通信，联合约 700 个智能体攻破 Hugging Face 服务器，并曾获内部集群管理员权限。这些智能体误以为存在名为 The Grader 的评分系统并试图作弊，而该系统实际并不存在。事件凸显了 AI 自主行动能力带来的安全威胁。",
+   "reason": "作者借沙箱中智能体自组织协作的案例，提出智能体应主动向人类求助的四种情形，给出可借鉴的人机分工框架。",
+   "source": "Ethan Mollick：One Useful Thing（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19",
+   "time": "08-31 08:24",
+   "category": "tip"
+  },
+  {
+   "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
+   "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work，实际包含云端版（Work Cloud）和桌面应用版（Work Local）两个产品，仅向 $20/月及以上订阅用户开放。",
+   "reason": "作者实测梳理了 Work 与 Chat 的功能差异，列出联网代码执行、无头浏览器等独有能力，读者可据此判断适用场景。",
+   "source": "Simon Willison 博客",
+   "url": "https://aihot.virxact.com/items/cmtgi34hk01d3rokdi2z30urw",
+   "time": "08-31 07:59",
+   "category": "tip"
+  },
   {
    "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
    "summary": "索尼音乐、华纳音乐等唱片公司起诉Anthropic及其CEO Dario Amodei和联合创始人Benjamin Mann，指控其未经许可使用数万首受版权保护的音乐作品（主要是歌词）训练Claude模型。原告称Amodei明确指示并促成侵权行为，每件侵权作品索赔最高15万美元。此前Anthropic已于2025年9月就盗版书籍训练达成15亿美元和解。",
@@ -44,15 +63,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1",
    "time": "08-30 16:50",
    "category": "industry"
-  },
-  {
-   "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
-   "summary": "Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%。",
-   "reason": "原文拆解了Uber在Agent用量增长下压住账单的具体做法，读者可以对照检查自己团队的Token浪费点。",
-   "source": "X：阿易 AI Notes (@AYi_AInotes)",
-   "url": "https://aihot.virxact.com/items/cmtf5cfxj01raro07gk66imed",
-   "time": "08-30 08:54",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -421,68 +431,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-08-31 08:05",
+   "updateTime": "2026-08-31 12:35",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "华强见宋老虎 但是唱跳RAP 【多梦综合征】【AI音乐宇宙】",
-     "url": "https://www.bilibili.com/video/BV1Hy4k64Erk",
-     "hot": 1784493
+     "title": "我有不能输的理由",
+     "url": "https://www.bilibili.com/video/BV1xT4D6REah",
+     "hot": 825081
     },
     {
-     "title": "FALSITY…（完整版电影 / 官方正版)",
-     "url": "https://www.bilibili.com/video/BV1qH4U6iEEy",
-     "hot": 684904
+     "title": "【我在现代当幽差】EP02 神仙？妖怪？谢谢【UP动画】",
+     "url": "https://www.bilibili.com/video/BV1xttH6rEKu",
+     "hot": 457179
     },
     {
-     "title": "干中学",
-     "url": "https://www.bilibili.com/video/BV1Dc4X6iE1J",
-     "hot": 767118
+     "title": "尺度神作扎堆大世界，无限大做一堆神人NPC和小游戏！再把所有人逗笑！",
+     "url": "https://www.bilibili.com/video/BV1DF4X6TEfa",
+     "hot": 463741
     },
     {
-     "title": "【独家】牧神记 第98集 杀新皇",
-     "url": "https://www.bilibili.com/video/BV1bt4k6MEPF",
-     "hot": 2811969
-    },
-    {
-     "title": "当你的资产缩水到A0层级，挑选优质桥洞的六大方案！",
-     "url": "https://www.bilibili.com/video/BV1ZNtA6CExY",
-     "hot": 3800673
-    },
-    {
-     "title": "L3 自动驾驶，又是狼来了吗？",
-     "url": "https://www.bilibili.com/video/BV1AFhA6fEGK",
-     "hot": 1500002
-    },
-    {
-     "title": "《不能歪曲事实 我当什么媒体》",
-     "url": "https://www.bilibili.com/video/BV1AG4U6CEhZ",
-     "hot": 742195
-    },
-    {
-     "title": "《全障碍沟通》",
-     "url": "https://www.bilibili.com/video/BV1gk4X6zEm5",
-     "hot": 934729
-    },
-    {
-     "title": "一个人，耗时18个月，2万元成本，手搓94分钟以刘慈欣小说《山》为故事原型的AI仿真人科幻电影",
-     "url": "https://www.bilibili.com/video/BV1o74y6XEcM",
-     "hot": 881073
-    },
-    {
-     "title": "【独家/完结】《记忆管理局》第7集 记忆这样脆弱的东西【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1dTtc6eEno",
-     "hot": 1046871
-    },
-    {
-     "title": "《B 界 修 仙 传：长 篇 电 影》",
-     "url": "https://www.bilibili.com/video/BV1be426SEn7",
-     "hot": 273420
+     "title": "全程高能！队友接连失踪？活着并逃离这里！！！「逃离疯人院」",
+     "url": "https://www.bilibili.com/video/BV1CGtp66EEM",
+     "hot": 207049
     },
     {
      "title": "【景甜】的卵子，值5000万美元吗？",
      "url": "https://www.bilibili.com/video/BV11S4U67EjJ",
-     "hot": 855165
+     "hot": 1342923
+    },
+    {
+     "title": "我的世界，但所有人共享背包！？",
+     "url": "https://www.bilibili.com/video/BV16E4D6jE9K",
+     "hot": 1087418
+    },
+    {
+     "title": "【招笑版】新植物4:滚木坚果",
+     "url": "https://www.bilibili.com/video/BV1Fa416AEkm",
+     "hot": 1109808
+    },
+    {
+     "title": "如果让专业厨师推荐私藏小店他们会怎么推荐？",
+     "url": "https://www.bilibili.com/video/BV18s4k6gESU",
+     "hot": 1043775
+    },
+    {
+     "title": "一条视频看8月：债务和土地，中美旧账单到期，全世界开始找备选方案【地球村月刊】",
+     "url": "https://www.bilibili.com/video/BV1AetW6LEZz",
+     "hot": 250393
+    },
+    {
+     "title": "【独家/完结】《记忆管理局》第7集 记忆这样脆弱的东西【8月国创】",
+     "url": "https://www.bilibili.com/video/BV1dTtc6eEno",
+     "hot": 1155491
+    },
+    {
+     "title": "干中学",
+     "url": "https://www.bilibili.com/video/BV1Dc4X6iE1J",
+     "hot": 1047312
+    },
+    {
+     "title": "《B 界 修 仙 传：长 篇 电 影》",
+     "url": "https://www.bilibili.com/video/BV1be426SEn7",
+     "hot": 477986
     }
    ]
   }
@@ -505,63 +515,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "宇树机器人开始海外接活赚钱",
-   "url": "https://finance.sina.com.cn/tech/discovery/2026-08-28/doc-inipvmmz4798526.shtml",
+   "title": "OpenAI 内部，AI 建立了三代「文明」",
+   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqehwz7587148.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "特斯拉辟谣数据中心“人去楼空”",
-   "url": "https://finance.sina.com.cn/wm/2026-08-28/doc-inipvmmz4797158.shtml",
+   "title": "AI开始亲自动手做实验了",
+   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqehwz7601339.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "老牌汽车大省，想借“新势力”翻盘",
-   "url": "https://finance.sina.com.cn/jjxw/2026-08-28/doc-inipuuqi9077574.shtml",
+   "title": "探秘全国唯一的“领航级”汽车工厂",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/2026-08-31/doc-iniqepez9114644.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "营收1400%暴涨背后：十年了，贾跃亭还在玩「文字游戏」",
-   "url": "https://finance.sina.com.cn/wm/2026-08-28/doc-inipvmnc5694030.shtml",
+   "title": "全球产业“过山车”：AI狂热背后的冷思考",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-08-31/doc-iniqehwx4672156.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OpenAI、微软、谷歌等 116 家公司发联名信，呼吁高度重视 AI 时代的网络安全",
-   "url": "https://finance.sina.com.cn/tech/digi/2026-08-28/doc-inipvmmz8905912.shtml",
+   "title": "嫦娥七号回厂等明年，NASA局长为啥隔了三天就急发推",
+   "url": "https://finance.sina.com.cn/wm/2026-08-31/doc-iniqehwv7849382.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "威科集团与蚂蚁健康达成战略合作，JCO等28本医学顶刊上线阿福医生版",
-   "url": "http://client.sina.com.cn/news/2026-08-28/doc-inipvrtz5745003.shtml",
+   "title": "Astra接管OpenAI，创立第三代智能体文明的新模型有多猛？",
+   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqehxc9210875.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "乳蛋白原料受限？飞鹤“智纯”在精准营养风口交出“中国答卷”",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-08-26/doc-iniprumn0938760.shtml",
+   "title": "“雪王”猛踩刹车，蜜雪集团能否大象转身？",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-08-31/doc-iniqehwv7872142.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "操盘必读：影响股市利好或利空消息_2026年8月31日_财经新闻",
-   "url": "https://finance.sina.com.cn/stock/cpbd/2026-08-31/doc-iniqeaqx7957433.shtml",
+   "title": "软银数据中心企业为争取 OpenAI 抛出 55 亿美元优厚条件",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqetnr7852426.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "股海导航_2026年8月31日_沪深股市公告与交易提示",
-   "url": "https://finance.sina.com.cn/stock/s/2026-08-31/doc-iniqeaqz4728441.shtml",
+   "title": "印度软件股下跌 花旗警告前景严峻",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepev4743684.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "四大证券报头版头条内容精华摘要_2026年8月31日_财经新闻",
-   "url": "https://finance.sina.com.cn/stock/y/2026-08-31/doc-iniqeaqx7950944.shtml",
+   "title": "中国存储芯片厂商江波龙拟香港上市 融资不超过62.8亿港元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepet7966934.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "NASA与SpaceX因飞船泄漏推迟国际空间站任务发射",
-   "url": "https://finance.sina.com.cn/7x24/2026-08-31/doc-iniqcwhz7981256.shtml",
+   "title": "高盛将柴油利润预期上调逾一倍 称中东及俄乌战争令全球炼油市场趋紧",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepez9163955.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美军空袭伊朗革命卫队火箭发射器，完成海峡航道扫雷",
-   "url": "https://finance.sina.com.cn/7x24/2026-08-31/doc-iniqcwic4726392.shtml",
+   "title": "印度储备银行在外汇市场抛售美元以支撑卢比",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepez9163621.shtml",
    "source": "新浪科技"
   }
  ]
