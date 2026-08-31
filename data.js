@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-08-31 12:34",
+ "updatedAt": "2026-08-31 20:38",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,22 +12,31 @@ var WB_DATA = {
   },
   {
    "rank": 2,
+   "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
+   "source": "Ethan Mollick：One Useful Thing（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19",
+   "time": "08-31 13:18",
+   "sourceCount": 2
+  },
+  {
+   "rank": 3,
    "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
    "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
    "url": "https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv",
    "time": "08-30 07:54",
    "sourceCount": 2
-  },
-  {
-   "rank": 3,
-   "title": "Cursor 回应 OpenAI 断供：5% 流量占比被夸大",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.virxact.com/items/cmtes8pol02ikrovjjjkm01n8",
-   "time": "08-30 03:37",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
+   "summary": "DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License，公开模型文件、Tokenizer、Prompt Encoding 参考实现及最小化 PyTorch 推理实现。",
+   "reason": "原文梳理了模型开源内容与能力定位，读者可据此评估其在多模态 Agent 场景中的可用性。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.virxact.com/items/cmth7tmq2067orodmh6g0sxie",
+   "time": "08-31 19:35",
+   "category": "ai-models"
+  },
   {
    "title": "基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了",
    "summary": "MiniMax 将 H3 Max 768P、480P 接入开放平台和 MiniMax Design，海外开发者已借此搭建出 Twitch 直播和 24 小时\"AI 电视台\"。",
@@ -54,15 +63,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtgi34hk01d3rokdi2z30urw",
    "time": "08-31 07:59",
    "category": "tip"
-  },
-  {
-   "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
-   "summary": "索尼音乐、华纳音乐等唱片公司起诉Anthropic及其CEO Dario Amodei和联合创始人Benjamin Mann，指控其未经许可使用数万首受版权保护的音乐作品（主要是歌词）训练Claude模型。原告称Amodei明确指示并促成侵权行为，每件侵权作品索赔最高15万美元。此前Anthropic已于2025年9月就盗版书籍训练达成15亿美元和解。",
-   "reason": "诉讼把焦点放在盗版下载这一独立侵权点上，并涉及合成数据是否构成训练漏洞，读者可借此理解版权争议的新走向。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1",
-   "time": "08-30 16:50",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -431,68 +431,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-08-31 12:35",
+   "updateTime": "2026-08-31 20:38",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "我有不能输的理由",
-     "url": "https://www.bilibili.com/video/BV1xT4D6REah",
-     "hot": 825081
+     "title": "吃饭一定要去端菜，自己爱吃的菜全放跟前！",
+     "url": "https://www.bilibili.com/video/BV1h5tH6nEmS",
+     "hot": 1574678
+    },
+    {
+     "title": "当你穿进老钱班34",
+     "url": "https://www.bilibili.com/video/BV1e6tb61ETL",
+     "hot": 412099
+    },
+    {
+     "title": "穿越原始社会必备技能之制作——石臼",
+     "url": "https://www.bilibili.com/video/BV1Hj4D6UEw4",
+     "hot": 1005336
+    },
+    {
+     "title": "手表≠缩小手机！实测 3 款鸿蒙穿戴应用，拆解语音记录、抬腕跟练背后的开发逻辑",
+     "url": "https://www.bilibili.com/video/BV1oUtA65E6e",
+     "hot": 467987
+    },
+    {
+     "title": "“佯作畏生惧死，身担太行脊梁”【赤伶DJ-变速】【少年脊梁の小曲】",
+     "url": "https://www.bilibili.com/video/BV1mK4X6AE1A",
+     "hot": 859107
+    },
+    {
+     "title": "老妈以为的1500元生活费",
+     "url": "https://www.bilibili.com/video/BV1i84X62Eqv",
+     "hot": 983525
     },
     {
      "title": "【我在现代当幽差】EP02 神仙？妖怪？谢谢【UP动画】",
      "url": "https://www.bilibili.com/video/BV1xttH6rEKu",
-     "hot": 457179
+     "hot": 1107934
     },
     {
-     "title": "尺度神作扎堆大世界，无限大做一堆神人NPC和小游戏！再把所有人逗笑！",
-     "url": "https://www.bilibili.com/video/BV1DF4X6TEfa",
-     "hot": 463741
+     "title": "纽北老炮，让我重新理解了操控",
+     "url": "https://www.bilibili.com/video/BV1Untc6RETm",
+     "hot": 686504
+    },
+    {
+     "title": "罢黜百官",
+     "url": "https://www.bilibili.com/video/BV1mit86ME4z",
+     "hot": 183347
+    },
+    {
+     "title": "大家好这是我第一条吃播视频 不好意思有点寒酸",
+     "url": "https://www.bilibili.com/video/BV1K74R6eEG5",
+     "hot": 1626533
+    },
+    {
+     "title": "猫狗超燃大乱斗！",
+     "url": "https://www.bilibili.com/video/BV1it4D6gED7",
+     "hot": 710516
     },
     {
      "title": "全程高能！队友接连失踪？活着并逃离这里！！！「逃离疯人院」",
      "url": "https://www.bilibili.com/video/BV1CGtp66EEM",
-     "hot": 207049
-    },
-    {
-     "title": "【景甜】的卵子，值5000万美元吗？",
-     "url": "https://www.bilibili.com/video/BV11S4U67EjJ",
-     "hot": 1342923
-    },
-    {
-     "title": "我的世界，但所有人共享背包！？",
-     "url": "https://www.bilibili.com/video/BV16E4D6jE9K",
-     "hot": 1087418
-    },
-    {
-     "title": "【招笑版】新植物4:滚木坚果",
-     "url": "https://www.bilibili.com/video/BV1Fa416AEkm",
-     "hot": 1109808
-    },
-    {
-     "title": "如果让专业厨师推荐私藏小店他们会怎么推荐？",
-     "url": "https://www.bilibili.com/video/BV18s4k6gESU",
-     "hot": 1043775
-    },
-    {
-     "title": "一条视频看8月：债务和土地，中美旧账单到期，全世界开始找备选方案【地球村月刊】",
-     "url": "https://www.bilibili.com/video/BV1AetW6LEZz",
-     "hot": 250393
-    },
-    {
-     "title": "【独家/完结】《记忆管理局》第7集 记忆这样脆弱的东西【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1dTtc6eEno",
-     "hot": 1155491
-    },
-    {
-     "title": "干中学",
-     "url": "https://www.bilibili.com/video/BV1Dc4X6iE1J",
-     "hot": 1047312
-    },
-    {
-     "title": "《B 界 修 仙 传：长 篇 电 影》",
-     "url": "https://www.bilibili.com/video/BV1be426SEn7",
-     "hot": 477986
+     "hot": 544824
     }
    ]
   }
@@ -550,28 +550,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "软银数据中心企业为争取 OpenAI 抛出 55 亿美元优厚条件",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqetnr7852426.shtml",
+   "title": "戴尔科技刘志洪：企业需要在数据集和应用间建立一条“流水线”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqfkkr8839292.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "印度软件股下跌 花旗警告前景严峻",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepev4743684.shtml",
+   "title": "智谱：2026年上半年收入超去年全年，API收入激增2736%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqfkki7822855.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "中国存储芯片厂商江波龙拟香港上市 融资不超过62.8亿港元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepet7966934.shtml",
+   "title": "Momenta上半年营收16亿，同比增长76%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqfkki7822066.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "高盛将柴油利润预期上调逾一倍 称中东及俄乌战争令全球炼油市场趋紧",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepez9163955.shtml",
+   "title": "探迹拓客Agent升级：B2B销售全链条整合至单一智能体",
+   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqfkkr8807923.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "印度储备银行在外汇市场抛售美元以支撑卢比",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-31/doc-iniqepez9163621.shtml",
+   "title": "于东来谈明星扎堆带货：好的影视作品谁做，各行各业都被金钱迷惑了",
+   "url": "https://finance.sina.com.cn/tech/it/2026-08-31/doc-iniqfeam7892968.shtml",
    "source": "新浪科技"
   }
  ]
