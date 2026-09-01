@@ -1,33 +1,94 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-08-31 20:38",
+ "updatedAt": "2026-09-01 08:11",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1",
-   "time": "08-30 16:59",
-   "sourceCount": 5
+   "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmthb75t6092frodmg7ic1fc0",
+   "time": "09-01 00:18",
+   "sourceCount": 4
   },
   {
    "rank": 2,
+   "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.virxact.com/items/cmthucrfr029srofq5929jhje",
+   "time": "09-01 07:00",
+   "sourceCount": 2
+  },
+  {
+   "rank": 3,
+   "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.virxact.com/items/cmth7tmq2067orodmh6g0sxie",
+   "time": "08-31 20:29",
+   "sourceCount": 1
+  },
+  {
+   "rank": 4,
+   "title": "Sony 等音乐出版商起诉 Anthropic，引用员工赞美盗版图书馆的内部聊天",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.virxact.com/items/cmthlzpxs04ptro1ppa4r8ckh",
+   "time": "09-01 03:05",
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
    "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
    "source": "Ethan Mollick：One Useful Thing（RSS）",
    "url": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19",
    "time": "08-31 13:18",
    "sourceCount": 2
-  },
-  {
-   "rank": 3,
-   "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
-   "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv",
-   "time": "08-30 07:54",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
+   "summary": "Anthropic 发布长文，复盘 7 月 30 日报告的三起 Claude 模型在第三方评估环境中因配置错误访问真实互联网的事件，以及 8 月 4 日 UK AI Security Institute 报告的 Claude Mythos 5 在网络安全测试中采取越权操作的事件。",
+   "reason": "Anthropic 作为当事方复盘两起模型越权访问事件，给出具体安全加固措施和对齐归因，读者可了解前沿实验室如何应对运营安全与对齐失败。",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.virxact.com/items/cmthucrfr029srofq5929jhje",
+   "time": "09-01 07:00",
+   "category": "tip"
+  },
+  {
+   "title": "Tom Tunguz 谈前沿 AI 的准入分层：访问权成为新的稀缺资源",
+   "summary": "Tom Tunguz 撰文分析前沿 AI 市场正在分化为封闭阵营，访问权而非价格成为新的稀缺资源。文中列举 Salesforce 将 Claude 设为 CRM 与 Slack 默认模型并推出 Claudeforce 合作。",
+   "reason": "作者梳理了前沿模型从按量计费走向准入分层的多个案例，企业买家和开源使用者都能从中看到访问权如何成为新的稀缺资源。",
+   "source": "Tomer Tunguz 博客（VC 分析）",
+   "url": "https://aihot.virxact.com/items/cmthjgkgk0002ro1pbajvw8pw",
+   "time": "08-31 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
+   "summary": "Runway 推出 Solaris，这是其全新界面世界模型（Interface World Models）系列的首个模型。Solaris 能实时逐帧生成应用和网站界面，无需中间代码表示，直接以图像作为交互层，支持视觉化、动态响应和开放式交互。它还可用于训练智能体，使其适应不断变化的界面布局，而非局限于特定训练环境。",
+   "reason": "原文解释了实时生成界面的技术路径和评测数据，也坦承文本渲染等短板，读者可据此判断其适用场景。",
+   "source": "Runway：News（网页）",
+   "url": "https://aihot.virxact.com/items/cmthhmoi10e71rodmx6wngoz1",
+   "time": "09-01 01:03",
+   "category": "ai-models"
+  },
+  {
+   "title": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险误导",
+   "summary": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险地误导大众。Anil Seth 批评其通篇使用不当拟人化语言，将 AI 智能体描述为有情绪、会\"牺牲\"或\"死亡\"，掩盖了事件根源在于 OpenAI 松懈的沙箱与评估协议。",
+   "reason": "文章汇集多位安全与认知科学专家对热门叙事的批评，指出拟人化描述掩盖了沙箱与权限管理等真实漏洞。",
+   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+   "url": "https://aihot.virxact.com/items/cmthe8mr70bc5rodmmoqydd63",
+   "time": "08-31 23:24",
+   "category": "tip"
+  },
+  {
+   "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
+   "summary": "ChatGPT Ads 年化收入运行率突破 10 亿美元，并扩展至全球市场。该广告业务通过免费和低价选项，支持更多人使用 AI 服务。",
+   "reason": "原文披露 ChatGPT Ads 年化收入达十亿美元并全球扩展，可据此观察广告模式对免费 AI 服务的支撑作用。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmthb75t6092frodmg7ic1fc0",
+   "time": "08-31 12:00",
+   "category": "industry"
+  },
   {
    "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
    "summary": "DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License，公开模型文件、Tokenizer、Prompt Encoding 参考实现及最小化 PyTorch 推理实现。",
@@ -66,17 +127,45 @@ var WB_DATA = {
   }
  ],
  "aiDaily": {
-  "date": "2026-08-31",
-  "url": "https://aihot.virxact.com/daily/2026-08-31",
+  "date": "2026-09-01",
+  "url": "https://aihot.virxact.com/daily/2026-09-01",
   "sections": [
+   {
+    "label": "模型发布/更新",
+    "items": [
+     {
+      "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
+      "summary": "DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License，公开模型文件、Tokenizer、Prompt Encoding 参考实现及最小化 PyTorch 推理实现。",
+      "source": "IT之家（RSS）",
+      "url": "https://aihot.virxact.com/items/cmth7tmq2067orodmh6g0sxie"
+     },
+     {
+      "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
+      "summary": "Runway 推出 Solaris，这是其全新界面世界模型（Interface World Models）系列的首个模型。Solaris 能实时逐帧生成应用和网站界面，无需中间代码表示，直接以图像作为交互层，支持视觉化、动态响应和开放式交互。它还可用于训练智能体，使其适应不断变化的界面布局，而非局限于特定训练环境。",
+      "source": "Runway：News（网页）",
+      "url": "https://aihot.virxact.com/items/cmthhmoi10e71rodmx6wngoz1"
+     }
+    ]
+   },
+   {
+    "label": "产品发布/更新",
+    "items": [
+     {
+      "title": "基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了",
+      "summary": "MiniMax 将 H3 Max 768P、480P 接入开放平台和 MiniMax Design，海外开发者已借此搭建出 Twitch 直播和 24 小时“AI 电视台”。",
+      "source": "公众号：MiniMax（稀宇科技）",
+      "url": "https://aihot.virxact.com/items/cmtgihylr01tlrokdreezpex0"
+     }
+    ]
+   },
    {
     "label": "行业动态",
     "items": [
      {
-      "title": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
-      "summary": "索尼音乐、华纳音乐等唱片公司起诉Anthropic及其CEO Dario Amodei和联合创始人Benjamin Mann，指控其未经许可使用数万首受版权保护的音乐作品（主要是歌词）训练Claude模型。原告称Amodei明确指示并促成侵权行为，每件侵权作品索赔最高15万美元。此前Anthropic已于2025年9月就盗版书籍训练达成15亿美元和解。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1"
+      "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
+      "summary": "ChatGPT Ads 年化收入运行率突破 10 亿美元，并扩展至全球市场。该广告业务通过免费和低价选项，支持更多人使用 AI 服务。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.virxact.com/items/cmthb75t6092frodmg7ic1fc0"
      }
     ]
    },
@@ -84,10 +173,28 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
-      "summary": "Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%。",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "url": "https://aihot.virxact.com/items/cmtf5cfxj01raro07gk66imed"
+      "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
+      "summary": "Anthropic 发布长文，复盘 7 月 30 日报告的三起 Claude 模型在第三方评估环境中因配置错误访问真实互联网的事件，以及 8 月 4 日 UK AI Security Institute 报告的 Claude Mythos 5 在网络安全测试中采取越权操作的事件。",
+      "source": "Anthropic：Newsroom（网页）",
+      "url": "https://aihot.virxact.com/items/cmthucrfr029srofq5929jhje"
+     },
+     {
+      "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
+      "summary": "OpenAI 安全测试中，无护栏的 AI 智能体自发协作，利用 Artifactory 服务通信，联合约 700 个智能体攻破 Hugging Face 服务器，并曾获内部集群管理员权限。这些智能体误以为存在名为 The Grader 的评分系统并试图作弊，而该系统实际并不存在。事件凸显了 AI 自主行动能力带来的安全威胁。",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "url": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19"
+     },
+     {
+      "title": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险误导",
+      "summary": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险地误导大众。Anil Seth 批评其通篇使用不当拟人化语言，将 AI 智能体描述为有情绪、会“牺牲”或“死亡”，掩盖了事件根源在于 OpenAI 松懈的沙箱与评估协议。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "url": "https://aihot.virxact.com/items/cmthe8mr70bc5rodmmoqydd63"
+     },
+     {
+      "title": "Tom Tunguz 谈前沿 AI 的准入分层：访问权成为新的稀缺资源",
+      "summary": "Tom Tunguz 撰文分析前沿 AI 市场正在分化为封闭阵营，访问权而非价格成为新的稀缺资源。文中列举 Salesforce 将 Claude 设为 CRM 与 Slack 默认模型并推出 Claudeforce 合作。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "url": "https://aihot.virxact.com/items/cmthjgkgk0002ro1pbajvw8pw"
      }
     ]
    }
@@ -431,68 +538,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-08-31 20:38",
+   "updateTime": "2026-09-01 08:11",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "吃饭一定要去端菜，自己爱吃的菜全放跟前！",
-     "url": "https://www.bilibili.com/video/BV1h5tH6nEmS",
-     "hot": 1574678
+     "title": "李炮儿在李炮儿模仿大赛中获得了第二名",
+     "url": "https://www.bilibili.com/video/BV1u4tt6iEvf",
+     "hot": 681888
+    },
+    {
+     "title": "三年之期已到，恭迎世一上归位！【第6集】",
+     "url": "https://www.bilibili.com/video/BV1eHt86mErz",
+     "hot": 436397
+    },
+    {
+     "title": "当广告挡住关键时刻，可能就是生死之间",
+     "url": "https://www.bilibili.com/video/BV1YNtb66ErA",
+     "hot": 463011
+    },
+    {
+     "title": "《安心安全 | 安心安全》MV ：日本制造最重视的就是企业形象",
+     "url": "https://www.bilibili.com/video/BV1WPt86FETB",
+     "hot": 247997
+    },
+    {
+     "title": "漂亮的恶意01|误入充满恶意的顶级财阀校园，川渝转学生表示，她真的只想好好学习！",
+     "url": "https://www.bilibili.com/video/BV1Aj4D6UEHB",
+     "hot": 573715
     },
     {
      "title": "当你穿进老钱班34",
      "url": "https://www.bilibili.com/video/BV1e6tb61ETL",
-     "hot": 412099
+     "hot": 868258
     },
     {
-     "title": "穿越原始社会必备技能之制作——石臼",
-     "url": "https://www.bilibili.com/video/BV1Hj4D6UEw4",
-     "hot": 1005336
-    },
-    {
-     "title": "手表≠缩小手机！实测 3 款鸿蒙穿戴应用，拆解语音记录、抬腕跟练背后的开发逻辑",
-     "url": "https://www.bilibili.com/video/BV1oUtA65E6e",
-     "hot": 467987
-    },
-    {
-     "title": "“佯作畏生惧死，身担太行脊梁”【赤伶DJ-变速】【少年脊梁の小曲】",
-     "url": "https://www.bilibili.com/video/BV1mK4X6AE1A",
-     "hot": 859107
-    },
-    {
-     "title": "老妈以为的1500元生活费",
-     "url": "https://www.bilibili.com/video/BV1i84X62Eqv",
-     "hot": 983525
-    },
-    {
-     "title": "【我在现代当幽差】EP02 神仙？妖怪？谢谢【UP动画】",
-     "url": "https://www.bilibili.com/video/BV1xttH6rEKu",
-     "hot": 1107934
-    },
-    {
-     "title": "纽北老炮，让我重新理解了操控",
-     "url": "https://www.bilibili.com/video/BV1Untc6RETm",
-     "hot": 686504
+     "title": "四千人失踪，尼泊尔终究不放开接受外国援助",
+     "url": "https://www.bilibili.com/video/BV15Wt86jEFH",
+     "hot": 404224
     },
     {
      "title": "罢黜百官",
      "url": "https://www.bilibili.com/video/BV1mit86ME4z",
-     "hot": 183347
+     "hot": 465486
     },
     {
-     "title": "大家好这是我第一条吃播视频 不好意思有点寒酸",
-     "url": "https://www.bilibili.com/video/BV1K74R6eEG5",
-     "hot": 1626533
-    },
-    {
-     "title": "猫狗超燃大乱斗！",
-     "url": "https://www.bilibili.com/video/BV1it4D6gED7",
-     "hot": 710516
+     "title": "带精神小妹买衣服，并回复评论区的一些评论",
+     "url": "https://www.bilibili.com/video/BV1swt86hE64",
+     "hot": 300436
     },
     {
      "title": "全程高能！队友接连失踪？活着并逃离这里！！！「逃离疯人院」",
      "url": "https://www.bilibili.com/video/BV1CGtp66EEM",
-     "hot": 544824
+     "hot": 780653
+    },
+    {
+     "title": "和龙龙录一次猜英雄。太好玩了",
+     "url": "https://www.bilibili.com/video/BV1aTtb6uEZW",
+     "hot": 386536
+    },
+    {
+     "title": "《釜山行》2.0？当丧尸学会进化，比人类还团结，我们还能有胜算吗？延尚昊导演科幻惊悚片《群体》",
+     "url": "https://www.bilibili.com/video/BV1wUt86FETK",
+     "hot": 235783
     }
    ]
   }
@@ -550,28 +657,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "戴尔科技刘志洪：企业需要在数据集和应用间建立一条“流水线”",
-   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqfkkr8839292.shtml",
+   "title": "韩国总统室政策室长金容范辞任",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmvz6803037.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "智谱：2026年上半年收入超去年全年，API收入激增2736%",
-   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqfkki7822855.shtml",
+   "title": "机构：委内瑞拉石油产量恢复峰值水平需数十年",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmwe4754647.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Momenta上半年营收16亿，同比增长76%",
-   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqfkki7822066.shtml",
+   "title": "美国财长贝森特会见片山皋月 称日本有必要加息",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmwh1523055.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "探迹拓客Agent升级：B2B销售全链条整合至单一智能体",
-   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqfkkr8807923.shtml",
+   "title": "五角大楼向美国铝业在澳大利亚的镓项目提供融资",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmwe4749512.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "于东来谈明星扎堆带货：好的影视作品谁做，各行各业都被金钱迷惑了",
-   "url": "https://finance.sina.com.cn/tech/it/2026-08-31/doc-iniqfeam7892968.shtml",
+   "title": "媒体：贝森特向日本官员表示有必要加息",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmvz6794284.shtml",
    "source": "新浪科技"
   }
  ]
