@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-01 12:39",
+ "updatedAt": "2026-09-01 20:46",
  "aihotHot": [
   {
    "rank": 1,
@@ -20,14 +20,6 @@ var WB_DATA = {
   },
   {
    "rank": 3,
-   "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
-   "source": "X：Anthropic (@AnthropicAI)",
-   "url": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
-   "time": "09-01 09:48",
-   "sourceCount": 2
-  },
-  {
-   "rank": 4,
    "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
    "source": "Runway：News（网页）",
    "url": "https://aihot.virxact.com/items/cmthhmoi10e71rodmx6wngoz1",
@@ -35,7 +27,31 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
+   "rank": 4,
+   "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+   "source": "X：Anthropic (@AnthropicAI)",
+   "url": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
+   "time": "09-01 09:48",
+   "sourceCount": 2
+  },
+  {
    "rank": 5,
+   "title": "腾讯混元 Hy4 preview 发布：770B 参数、1M 上下文，可自主发现推理瓶颈并将端到端吞吐提升 31.8%",
+   "source": "X：腾讯混元 (@TencentHunyuan)",
+   "url": "https://aihot.virxact.com/items/cmtiiy1vz05g2ropbv4b500lu",
+   "time": "09-01 18:28",
+   "sourceCount": 1
+  },
+  {
+   "rank": 6,
+   "title": "Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险误导",
+   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+   "url": "https://aihot.virxact.com/items/cmthe8mr70bc5rodmmoqydd63",
+   "time": "08-31 23:28",
+   "sourceCount": 1
+  },
+  {
+   "rank": 7,
    "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
    "source": "Ethan Mollick：One Useful Thing（RSS）",
    "url": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19",
@@ -43,7 +59,7 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 6,
+   "rank": 8,
    "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
    "source": "IT之家（RSS）",
    "url": "https://aihot.virxact.com/items/cmth7tmq2067orodmh6g0sxie",
@@ -51,12 +67,12 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 7,
+   "rank": 9,
    "title": "Sony 等音乐出版商起诉 Anthropic，引用员工赞美盗版图书馆的内部聊天",
    "source": "Ars Technica：AI（RSS）",
    "url": "https://aihot.virxact.com/items/cmthlzpxs04ptro1ppa4r8ckh",
    "time": "09-01 03:05",
-   "sourceCount": 2
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
@@ -113,15 +129,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmthb75t6092frodmg7ic1fc0",
    "time": "08-31 12:00",
    "category": "industry"
-  },
-  {
-   "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-   "summary": "DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License，公开模型文件、Tokenizer、Prompt Encoding 参考实现及最小化 PyTorch 推理实现。",
-   "reason": "原文梳理了模型开源内容与能力定位，读者可据此评估其在多模态 Agent 场景中的可用性。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmth7tmq2067orodmh6g0sxie",
-   "time": "08-31 19:35",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -536,68 +543,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-01 12:39",
+   "updateTime": "2026-09-01 20:47",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "L3 自动驾驶，又是狼来了吗？",
-     "url": "https://www.bilibili.com/video/BV1AFhA6fEGK",
-     "hot": 3825494
+     "title": "西西弗斯推的石头，居然是孙悟空......【AI全民制作人】#SpecialForAAIFF",
+     "url": "https://www.bilibili.com/video/BV1a3th65EQb",
+     "hot": 937764
     },
     {
-     "title": "【9月耳夹式耳机推荐】2026年9月开放式耳机选购指南！自费无恰饭！内含音质和漏音测试！全部实拍实测推荐！挂耳式/耳夹式开放蓝牙耳机！",
-     "url": "https://www.bilibili.com/video/BV1DutM6jEYs",
-     "hot": 1018573
+     "title": "为了测试这台7座车，我们找来了最难伺候的6种人！",
+     "url": "https://www.bilibili.com/video/BV17Jta6oEyE",
+     "hot": 691451
     },
     {
-     "title": "【9月蓝牙耳机推荐】蓝牙耳机开学季推荐指南！内含入耳式/半入耳式/开放式！全价位手机厂/HiFi厂对比！看完不再上当！",
-     "url": "https://www.bilibili.com/video/BV18gtM61EXr",
-     "hot": 1009357
+     "title": "《明日方舟：终末地》干员叙事 [提弗洛斯：萨米维格的孩子]",
+     "url": "https://www.bilibili.com/video/BV1uht86rEDA",
+     "hot": 931790
     },
     {
-     "title": "第一期（上）：败走华容道 关羽义释曹操【时差五小时3】",
-     "url": "https://www.bilibili.com/video/BV19o4k6EEXD",
-     "hot": 1116406
+     "title": "1.6万人同唱，龚琳娜现场全开麦！《剑网3》十七周年庆典全程回顾上线",
+     "url": "https://www.bilibili.com/video/BV1FXt864EDe",
+     "hot": 474551
+    },
+    {
+     "title": "【铁豆钢蛋】你好 斌斌！",
+     "url": "https://www.bilibili.com/video/BV1KxtY6kEwY",
+     "hot": 461250
+    },
+    {
+     "title": "【何同学】库克时代",
+     "url": "https://www.bilibili.com/video/BV1G7tG6tEwL",
+     "hot": 200165
     },
     {
      "title": "这也能装？给车内塞一套工作站！小米澎程N90 Max用车体验！",
      "url": "https://www.bilibili.com/video/BV1k2t86hEuD",
-     "hot": 1147478
+     "hot": 1736443
     },
     {
-     "title": "【2026年9月电脑椅推荐】不云评，全实拍实测！开学季看这一期就够，人体工学椅推荐，电竞椅推荐人体工学椅还是电竞椅怎么选 清闲/黑白调/歌德利/京造/西昊/傲风",
-     "url": "https://www.bilibili.com/video/BV1328X62EKu",
-     "hot": 1029357
+     "title": "三年之期已到，恭迎世一上归位！【第6集】",
+     "url": "https://www.bilibili.com/video/BV1eHt86mErz",
+     "hot": 1472637
     },
     {
-     "title": "这是我今年最不后悔买的车！",
-     "url": "https://www.bilibili.com/video/BV1Kvtt6cEFY",
-     "hot": 432774
+     "title": "还是穿不了“大人”的衣服",
+     "url": "https://www.bilibili.com/video/BV1Ugtb6KEXU",
+     "hot": 513822
     },
     {
-     "title": "不同年代用什么游戏测试电脑性能？",
-     "url": "https://www.bilibili.com/video/BV11nth6TEUk",
-     "hot": 708528
+     "title": "从零开始，黑龙江发现废弃石头屋改造寒冬避难所，首场暴风雪来之前要做好准备，提前存储物资",
+     "url": "https://www.bilibili.com/video/BV1BLt86QECJ",
+     "hot": 358640
     },
     {
-     "title": "时隔47年的恐怖顶流？《异形》做成联机究竟有多疯狂！",
-     "url": "https://www.bilibili.com/video/BV1Pkt86PEfe",
-     "hot": 296120
+     "title": "《安心安全 | 安心安全》MV ：日本制造最重视的就是企业形象",
+     "url": "https://www.bilibili.com/video/BV1WPt86FETB",
+     "hot": 996498
     },
     {
-     "title": "尺度神作扎堆大世界，无限大做一堆神人NPC和小游戏！再把所有人逗笑！",
-     "url": "https://www.bilibili.com/video/BV1DF4X6TEfa",
-     "hot": 965064
-    },
-    {
-     "title": "【2026年9月音箱推荐】开学季哪些桌面音箱怎么选？桌面音箱选购攻略，分体式/长条音箱，涵盖众多品牌：BOSE/OXS傲希/漫步者/七彩虹/漫步者花再/哈曼卡顿",
-     "url": "https://www.bilibili.com/video/BV1Sv8d6DEhc",
-     "hot": 1038348
-    },
-    {
-     "title": "“冲 徒 逆 师”",
-     "url": "https://www.bilibili.com/video/BV1b84y6yENg",
-     "hot": 281619
+     "title": "我们在日本皇宫寻找中国文物",
+     "url": "https://www.bilibili.com/video/BV1Wutu6KEny",
+     "hot": 118091
     }
    ]
   }
@@ -650,33 +657,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "当当网发布开学季六大主题书单",
-   "url": "https://finance.sina.com.cn/tob/2026-09-01/doc-iniqhwmv6666483.shtml",
+   "title": "美国股指期货温和走低 标普500指数面临季节性压力",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitrs1526777.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "猫眼研究院暑期档报告：总票房124.98亿收官 平均票价连续两年下降",
-   "url": "https://finance.sina.com.cn/tob/2026-09-01/doc-iniqhwmv6665982.shtml",
+   "title": "万达工业工商业储能项目上线，部署华为工商业源网荷储一体化解决方案",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-01/doc-iniqitru8308714.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "诺华：出现死亡病例 暂停自身免疫细胞疗法相关研究",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhwmx8268866.shtml",
+   "title": "合见工软发布EDA智能体套件，推出三维芯片物理设计工具",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-01/doc-iniqitrs1508041.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "WPP年底前将再裁员至多1000人",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhwmx8265885.shtml",
+   "title": "日本财务大臣片山皋月：将继续与市场沟通",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitru3472729.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "再也不用担心手机屏被偷窥了？余承东剧透",
-   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-09-01/doc-iniqhwmv6659314.shtml",
+   "title": "白宫亮出对委霸王条款：“赠送”35%股份，成本价买两成油，还有一票否决权",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitrs1507938.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "交易员：印度央行在外汇市场抛售美元以支撑卢比",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhwmv6658803.shtml",
+   "title": "伊朗称其在镐山没有任何核活动",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqitrq4732819.shtml",
    "source": "新浪科技"
   }
  ]
