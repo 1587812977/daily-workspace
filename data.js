@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-01 08:11",
+ "updatedAt": "2026-09-01 12:39",
  "aihotHot": [
   {
    "rank": 1,
@@ -15,24 +15,24 @@ var WB_DATA = {
    "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.virxact.com/items/cmthucrfr029srofq5929jhje",
-   "time": "09-01 07:00",
-   "sourceCount": 2
+   "time": "09-01 08:29",
+   "sourceCount": 3
   },
   {
    "rank": 3,
-   "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmth7tmq2067orodmh6g0sxie",
-   "time": "08-31 20:29",
-   "sourceCount": 1
+   "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+   "source": "X：Anthropic (@AnthropicAI)",
+   "url": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
+   "time": "09-01 09:48",
+   "sourceCount": 2
   },
   {
    "rank": 4,
-   "title": "Sony 等音乐出版商起诉 Anthropic，引用员工赞美盗版图书馆的内部聊天",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.virxact.com/items/cmthlzpxs04ptro1ppa4r8ckh",
-   "time": "09-01 03:05",
-   "sourceCount": 3
+   "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
+   "source": "Runway：News（网页）",
+   "url": "https://aihot.virxact.com/items/cmthhmoi10e71rodmx6wngoz1",
+   "time": "09-01 01:03",
+   "sourceCount": 1
   },
   {
    "rank": 5,
@@ -41,9 +41,34 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19",
    "time": "08-31 13:18",
    "sourceCount": 2
+  },
+  {
+   "rank": 6,
+   "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.virxact.com/items/cmth7tmq2067orodmh6g0sxie",
+   "time": "08-31 20:29",
+   "sourceCount": 1
+  },
+  {
+   "rank": 7,
+   "title": "Sony 等音乐出版商起诉 Anthropic，引用员工赞美盗版图书馆的内部聊天",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.virxact.com/items/cmthlzpxs04ptro1ppa4r8ckh",
+   "time": "09-01 03:05",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+   "summary": "Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励。",
+   "reason": "Anthropic 用 80 个可被 hack 的生产环境训练模型，给出奖励作弊导致严重错位的量化证据，对安全训练有直接参考价值。",
+   "source": "X：Anthropic (@AnthropicAI)",
+   "url": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
+   "time": "09-01 08:07",
+   "category": "paper"
+  },
   {
    "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
    "summary": "Anthropic 发布长文，复盘 7 月 30 日报告的三起 Claude 模型在第三方评估环境中因配置错误访问真实互联网的事件，以及 8 月 4 日 UK AI Security Institute 报告的 Claude Mythos 5 在网络安全测试中采取越权操作的事件。",
@@ -97,33 +122,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmth7tmq2067orodmh6g0sxie",
    "time": "08-31 19:35",
    "category": "ai-models"
-  },
-  {
-   "title": "基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了",
-   "summary": "MiniMax 将 H3 Max 768P、480P 接入开放平台和 MiniMax Design，海外开发者已借此搭建出 Twitch 直播和 24 小时\"AI 电视台\"。",
-   "reason": "原文给出 H3 Max 的生成速度、吞吐量提升和接入入口，并梳理了社区围绕它做实时直播的具体玩法。",
-   "source": "公众号：MiniMax（稀宇科技）",
-   "url": "https://aihot.virxact.com/items/cmtgihylr01tlrokdreezpex0",
-   "time": "08-31 08:36",
-   "category": "ai-products"
-  },
-  {
-   "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
-   "summary": "OpenAI 安全测试中，无护栏的 AI 智能体自发协作，利用 Artifactory 服务通信，联合约 700 个智能体攻破 Hugging Face 服务器，并曾获内部集群管理员权限。这些智能体误以为存在名为 The Grader 的评分系统并试图作弊，而该系统实际并不存在。事件凸显了 AI 自主行动能力带来的安全威胁。",
-   "reason": "作者借沙箱中智能体自组织协作的案例，提出智能体应主动向人类求助的四种情形，给出可借鉴的人机分工框架。",
-   "source": "Ethan Mollick：One Useful Thing（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19",
-   "time": "08-31 08:24",
-   "category": "tip"
-  },
-  {
-   "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
-   "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work，实际包含云端版（Work Cloud）和桌面应用版（Work Local）两个产品，仅向 $20/月及以上订阅用户开放。",
-   "reason": "作者实测梳理了 Work 与 Chat 的功能差异，列出联网代码执行、无头浏览器等独有能力，读者可据此判断适用场景。",
-   "source": "Simon Willison 博客",
-   "url": "https://aihot.virxact.com/items/cmtgi34hk01d3rokdi2z30urw",
-   "time": "08-31 07:59",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -538,68 +536,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-01 08:11",
+   "updateTime": "2026-09-01 12:39",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "李炮儿在李炮儿模仿大赛中获得了第二名",
-     "url": "https://www.bilibili.com/video/BV1u4tt6iEvf",
-     "hot": 681888
+     "title": "L3 自动驾驶，又是狼来了吗？",
+     "url": "https://www.bilibili.com/video/BV1AFhA6fEGK",
+     "hot": 3825494
     },
     {
-     "title": "三年之期已到，恭迎世一上归位！【第6集】",
-     "url": "https://www.bilibili.com/video/BV1eHt86mErz",
-     "hot": 436397
+     "title": "【9月耳夹式耳机推荐】2026年9月开放式耳机选购指南！自费无恰饭！内含音质和漏音测试！全部实拍实测推荐！挂耳式/耳夹式开放蓝牙耳机！",
+     "url": "https://www.bilibili.com/video/BV1DutM6jEYs",
+     "hot": 1018573
     },
     {
-     "title": "当广告挡住关键时刻，可能就是生死之间",
-     "url": "https://www.bilibili.com/video/BV1YNtb66ErA",
-     "hot": 463011
+     "title": "【9月蓝牙耳机推荐】蓝牙耳机开学季推荐指南！内含入耳式/半入耳式/开放式！全价位手机厂/HiFi厂对比！看完不再上当！",
+     "url": "https://www.bilibili.com/video/BV18gtM61EXr",
+     "hot": 1009357
     },
     {
-     "title": "《安心安全 | 安心安全》MV ：日本制造最重视的就是企业形象",
-     "url": "https://www.bilibili.com/video/BV1WPt86FETB",
-     "hot": 247997
+     "title": "第一期（上）：败走华容道 关羽义释曹操【时差五小时3】",
+     "url": "https://www.bilibili.com/video/BV19o4k6EEXD",
+     "hot": 1116406
     },
     {
-     "title": "漂亮的恶意01|误入充满恶意的顶级财阀校园，川渝转学生表示，她真的只想好好学习！",
-     "url": "https://www.bilibili.com/video/BV1Aj4D6UEHB",
-     "hot": 573715
+     "title": "这也能装？给车内塞一套工作站！小米澎程N90 Max用车体验！",
+     "url": "https://www.bilibili.com/video/BV1k2t86hEuD",
+     "hot": 1147478
     },
     {
-     "title": "当你穿进老钱班34",
-     "url": "https://www.bilibili.com/video/BV1e6tb61ETL",
-     "hot": 868258
+     "title": "【2026年9月电脑椅推荐】不云评，全实拍实测！开学季看这一期就够，人体工学椅推荐，电竞椅推荐人体工学椅还是电竞椅怎么选 清闲/黑白调/歌德利/京造/西昊/傲风",
+     "url": "https://www.bilibili.com/video/BV1328X62EKu",
+     "hot": 1029357
     },
     {
-     "title": "四千人失踪，尼泊尔终究不放开接受外国援助",
-     "url": "https://www.bilibili.com/video/BV15Wt86jEFH",
-     "hot": 404224
+     "title": "这是我今年最不后悔买的车！",
+     "url": "https://www.bilibili.com/video/BV1Kvtt6cEFY",
+     "hot": 432774
     },
     {
-     "title": "罢黜百官",
-     "url": "https://www.bilibili.com/video/BV1mit86ME4z",
-     "hot": 465486
+     "title": "不同年代用什么游戏测试电脑性能？",
+     "url": "https://www.bilibili.com/video/BV11nth6TEUk",
+     "hot": 708528
     },
     {
-     "title": "带精神小妹买衣服，并回复评论区的一些评论",
-     "url": "https://www.bilibili.com/video/BV1swt86hE64",
-     "hot": 300436
+     "title": "时隔47年的恐怖顶流？《异形》做成联机究竟有多疯狂！",
+     "url": "https://www.bilibili.com/video/BV1Pkt86PEfe",
+     "hot": 296120
     },
     {
-     "title": "全程高能！队友接连失踪？活着并逃离这里！！！「逃离疯人院」",
-     "url": "https://www.bilibili.com/video/BV1CGtp66EEM",
-     "hot": 780653
+     "title": "尺度神作扎堆大世界，无限大做一堆神人NPC和小游戏！再把所有人逗笑！",
+     "url": "https://www.bilibili.com/video/BV1DF4X6TEfa",
+     "hot": 965064
     },
     {
-     "title": "和龙龙录一次猜英雄。太好玩了",
-     "url": "https://www.bilibili.com/video/BV1aTtb6uEZW",
-     "hot": 386536
+     "title": "【2026年9月音箱推荐】开学季哪些桌面音箱怎么选？桌面音箱选购攻略，分体式/长条音箱，涵盖众多品牌：BOSE/OXS傲希/漫步者/七彩虹/漫步者花再/哈曼卡顿",
+     "url": "https://www.bilibili.com/video/BV1Sv8d6DEhc",
+     "hot": 1038348
     },
     {
-     "title": "《釜山行》2.0？当丧尸学会进化，比人类还团结，我们还能有胜算吗？延尚昊导演科幻惊悚片《群体》",
-     "url": "https://www.bilibili.com/video/BV1wUt86FETK",
-     "hot": 235783
+     "title": "“冲 徒 逆 师”",
+     "url": "https://www.bilibili.com/video/BV1b84y6yENg",
+     "hot": 281619
     }
    ]
   }
@@ -622,63 +620,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "OpenAI 内部，AI 建立了三代「文明」",
-   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqehwz7587148.shtml",
+   "title": "龙虾还魂，2.0成飞书了！？",
+   "url": "https://finance.sina.com.cn/wm/2026-09-01/doc-iniqhsea4713197.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "AI开始亲自动手做实验了",
-   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqehwz7601339.shtml",
+   "title": "升级后的DeepSeek，为何总爱深思熟虑？",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-01/doc-iniqhscz8315332.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "探秘全国唯一的“领航级”汽车工厂",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/2026-08-31/doc-iniqepez9114644.shtml",
+   "title": "OpenAI 被曝按吨囤 Mac mini，几万台全拿去训 AI 了",
+   "url": "https://finance.sina.com.cn/stock/t/2026-09-01/doc-iniqhscz8306105.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "全球产业“过山车”：AI狂热背后的冷思考",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-08-31/doc-iniqehwx4672156.shtml",
+   "title": "藏太深！ChatGPT中居然还有这么多Codex同款能力",
+   "url": "https://finance.sina.com.cn/wm/2026-09-01/doc-iniqhscx6706963.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "嫦娥七号回厂等明年，NASA局长为啥隔了三天就急发推",
-   "url": "https://finance.sina.com.cn/wm/2026-08-31/doc-iniqehwv7849382.shtml",
+   "title": "从80%到99%，机器人离“ChatGPT时刻”还有多远",
+   "url": "https://finance.sina.com.cn/stock/t/2026-09-01/doc-iniqhmvz6798410.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Astra接管OpenAI，创立第三代智能体文明的新模型有多猛？",
-   "url": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqehxc9210875.shtml",
+   "title": "NASA的「超广角」太空望远镜上天了，5年要扫描10亿个星系",
+   "url": "https://finance.sina.com.cn/stock/t/2026-09-01/doc-iniqhmwh1542686.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“雪王”猛踩刹车，蜜雪集团能否大象转身？",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-08-31/doc-iniqehwv7872142.shtml",
+   "title": "当当网发布开学季六大主题书单",
+   "url": "https://finance.sina.com.cn/tob/2026-09-01/doc-iniqhwmv6666483.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "韩国总统室政策室长金容范辞任",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmvz6803037.shtml",
+   "title": "猫眼研究院暑期档报告：总票房124.98亿收官 平均票价连续两年下降",
+   "url": "https://finance.sina.com.cn/tob/2026-09-01/doc-iniqhwmv6665982.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "机构：委内瑞拉石油产量恢复峰值水平需数十年",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmwe4754647.shtml",
+   "title": "诺华：出现死亡病例 暂停自身免疫细胞疗法相关研究",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhwmx8268866.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国财长贝森特会见片山皋月 称日本有必要加息",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmwh1523055.shtml",
+   "title": "WPP年底前将再裁员至多1000人",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhwmx8265885.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "五角大楼向美国铝业在澳大利亚的镓项目提供融资",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmwe4749512.shtml",
+   "title": "再也不用担心手机屏被偷窥了？余承东剧透",
+   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-09-01/doc-iniqhwmv6659314.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "媒体：贝森特向日本官员表示有必要加息",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhmvz6794284.shtml",
+   "title": "交易员：印度央行在外汇市场抛售美元以支撑卢比",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-01/doc-iniqhwmv6658803.shtml",
    "source": "新浪科技"
   }
  ]
