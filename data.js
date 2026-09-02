@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-02 12:39",
+ "updatedAt": "2026-09-02 20:47",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,14 +12,22 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.virxact.com/items/cmtj42kz5057qroh9yw6fjh9h",
-   "time": "09-02 11:30",
-   "sourceCount": 3
+   "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
+   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+   "url": "https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje",
+   "time": "09-02 16:08",
+   "sourceCount": 5
   },
   {
    "rank": 3,
+   "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmtj42kz5057qroh9yw6fjh9h",
+   "time": "09-02 08:29",
+   "sourceCount": 3
+  },
+  {
+   "rank": 4,
    "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.virxact.com/items/cmthb75t6092frodmg7ic1fc0",
@@ -27,19 +35,11 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.virxact.com/items/cmtivvilg06f0ro9yk5dt7mrc",
    "time": "09-02 02:00",
-   "sourceCount": 3
-  },
-  {
-   "rank": 5,
-   "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
-   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-   "url": "https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje",
-   "time": "09-02 11:29",
    "sourceCount": 3
   },
   {
@@ -166,21 +166,12 @@ var WB_DATA = {
    "category": "ai-models"
   },
   {
-   "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-   "summary": "Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者。",
-   "reason": "官方版本说明给出定价、缓存和 API 兼容性变化，开发者可据此评估迁移成本与新特性用法。",
-   "source": "Claude Platform：开发者版本说明（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtj04igz04xproel00pt2oju",
-   "time": "09-01 08:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "Claude Fable 5.1 上线 OpenRouter",
-   "summary": "Anthropic 的 Claude Fable 5.1 已上线 OpenRouter，官方称其为 Fable 5 工作负载的直接升级版本，提升最大的方向包括 agentic coding、长时间运行的工作流、视觉代码生成、金融和分析。使用入口：https://openrouter.ai/anthropic/claude-fable-5.1",
-   "reason": "原文给出 Claude Fable 5.1 相对 Fable 5 的主要提升方向和 OpenRouter 使用入口，方便开发者评估是否迁移现有工作负载。",
-   "source": "X：OpenRouter (@OpenRouter)",
-   "url": "https://aihot.virxact.com/items/cmtj0fqfq001nroh9x8mg1s3z",
-   "time": "09-02 02:29",
+   "title": "Claude Fable 5.1 上线 Claude Code 与 Claude Platform，缓存读取降价 75%",
+   "summary": "Claude Fable 5.1 现已上线 Claude Code 和 Claude Platform，定价与 Fable 5 相同，API 缓存读取便宜 75%。模型在长任务中能更久自主推进、更善于提示用户它已卡住，写作风格也更自然。Anthropic 同时发布了 Claude Fable 5.1 和 Claude Mythos 5.1，称其为编码与知识工作领域最先进的模型。",
+   "reason": "原文给出 Fable 5.1 的定价变化与长任务、卡点提示、写作风格上的改进，读者可对照现有工作流评估是否切换。",
+   "source": "X：Claude Devs (@ClaudeDevs)",
+   "url": "https://aihot.virxact.com/items/cmtj0fqet001lroh9hyk6rqu0",
+   "time": "09-02 02:13",
    "category": "ai-models"
   },
   {
@@ -190,6 +181,15 @@ var WB_DATA = {
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.virxact.com/items/cmtiy0v6k01dproel63pg10os",
    "time": "09-02 01:08",
+   "category": "ai-products"
+  },
+  {
+   "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+   "summary": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
+   "reason": "官方发布详解 Pics 的编辑控制与 Workspace 集成节奏，读者可据此判断它如何嵌入现有文档和幻灯片工作流。",
+   "source": "Google Blog：AI（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtivvilg06f0ro9yk5dt7mrc",
+   "time": "09-02 00:00",
    "category": "ai-products"
   }
  ],
@@ -611,68 +611,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-02 12:39",
+   "updateTime": "2026-09-02 20:47",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《明日方舟》干员「结城理」技能展示PV",
-     "url": "https://www.bilibili.com/video/BV1RhtV6iEt3",
-     "hot": 571538
-    },
-    {
-     "title": "《明日方舟：终末地》提弗洛斯EP - Fragmented Dreams",
-     "url": "https://www.bilibili.com/video/BV1Vot56BEHd",
-     "hot": 219701
+     "title": "08年美国讽刺金曲《朋友的酒》（英语填词cover）“空城计の小曲”",
+     "url": "https://www.bilibili.com/video/BV1Este6wExx",
+     "hot": 1067479
     },
     {
      "title": "《异环》灵可角色PV丨宇宙的频段",
      "url": "https://www.bilibili.com/video/BV1jVtt6LEjP",
-     "hot": 453836
+     "hot": 1650585
     },
     {
-     "title": "巴塞罗那的小偷把我带到了欧洲，让我在纽北被围了起来",
-     "url": "https://www.bilibili.com/video/BV1ej4Q6qEb8",
-     "hot": 988986
+     "title": "极限挑战——时光大桥",
+     "url": "https://www.bilibili.com/video/BV1BjtE6HExq",
+     "hot": 314784
     },
     {
-     "title": "华强买瓜，但郝哥能控制AI",
-     "url": "https://www.bilibili.com/video/BV1reth6tEFm",
-     "hot": 392626
+     "title": "“用最温柔的方式，体面的告别了这个世界”｜听歌/小曲",
+     "url": "https://www.bilibili.com/video/BV1P4th6PE81",
+     "hot": 664379
     },
     {
-     "title": "西西弗斯推的石头，居然是孙悟空......【AI全民制作人】#SpecialForAAIFF",
-     "url": "https://www.bilibili.com/video/BV1a3th65EQb",
-     "hot": 2587167
+     "title": "特种兵，你的情书被华晨宇念出来了！",
+     "url": "https://www.bilibili.com/video/BV1pUtE68E7C",
+     "hot": 611256
     },
     {
-     "title": "1.6万人同唱，龚琳娜现场全开麦！《剑网3》十七周年庆典全程回顾上线",
-     "url": "https://www.bilibili.com/video/BV1FXt864EDe",
-     "hot": 953367
+     "title": "“什么叫程心的威慑度是100%？”",
+     "url": "https://www.bilibili.com/video/BV1p5t366EuM",
+     "hot": 667347
     },
     {
-     "title": "这制作水平，当C忍是不是太屈才了",
-     "url": "https://www.bilibili.com/video/BV19Utg6tEJm",
-     "hot": 384070
+     "title": "炊哥生日加更一期爆蛋炒饭",
+     "url": "https://www.bilibili.com/video/BV11XtV6HEHc",
+     "hot": 788161
     },
     {
-     "title": "【蕾米埃尔】：入木三分，原来是字面意思？",
-     "url": "https://www.bilibili.com/video/BV1bLth6rE1T",
-     "hot": 1012203
+     "title": "《明日方舟》干员「结城理」技能展示PV",
+     "url": "https://www.bilibili.com/video/BV1RhtV6iEt3",
+     "hot": 1336946
     },
     {
-     "title": "曾经最成功的游戏类型，为什么没人做了？",
-     "url": "https://www.bilibili.com/video/BV1Zpt36PE2n",
-     "hot": 726060
+     "title": "【暗区突围手游版本PV】硝烟无声，S19赛季现已上线！",
+     "url": "https://www.bilibili.com/video/BV1batE63ECg",
+     "hot": 720624
     },
     {
-     "title": "绝活",
-     "url": "https://www.bilibili.com/video/BV1GStg6oEQe",
-     "hot": 1047868
+     "title": "美国银行32岁副总裁在时代广场被随机捅死",
+     "url": "https://www.bilibili.com/video/BV1jHtn6oEKJ",
+     "hot": 384494
     },
     {
-     "title": "有市无价再创记录！世界最大顶级黄油蟹与巨型松茸的完美邂逅！鱼子酱只配当咸菜？！",
-     "url": "https://www.bilibili.com/video/BV1ZJtu6tEyd",
-     "hot": 437931
+     "title": "把公司当成主题乐园",
+     "url": "https://www.bilibili.com/video/BV1n1tA67EsT",
+     "hot": 1249137
+    },
+    {
+     "title": "连英语人都发不明白uygur这个词的音",
+     "url": "https://www.bilibili.com/video/BV1Datu6JEEi",
+     "hot": 819821
     }
    ]
   }
@@ -725,33 +725,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "BMI因霍尔木兹海峡封锁上调2026‑2027年亚洲液化天然气价格预期",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsw4553324.shtml",
+   "title": "贝森特称美国核心通胀“得到很好控制”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqs1365453.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "野村国际财富管理北亚CIO：从期限溢价角度看 美债近期下跌合乎逻辑",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsw4543125.shtml",
+   "title": "Uber将裁减约3300个岗位 寻求精简管理层级",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqq4588242.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧洲央行管委马赫卢夫：欧洲央行必须做好加息准备",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsy1311824.shtml",
+   "title": "网络空间安全论坛开幕，周鸿祎呼吁网安行业尽快形成AI漏洞发现、自动化防御和智能体安全体系",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-02/doc-iniqmwqs1349870.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "腾讯音乐娱乐据悉考虑发行美元债券 融资不超过10亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsy1304300.shtml",
+   "title": "福瑞泰克获头部车企定点，感知协同方案助推行泊体验升级",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-02/doc-iniqmwqu7600396.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Minimax成为内地投资者新宠 港股通买入规模超越阿里巴巴和腾讯",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkzme3061738.shtml",
+   "title": "卢特尼克称债券市场将趋稳并推动收益率下降",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqs1316278.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "星宇股份业绩会回应两大焦点：舆情事件致歉整改，回购股份将择机实施",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-02/doc-iniqkzky4646877.shtml",
+   "title": "伯克希尔CEO阿贝尔：日本债券收益率目前并未对日本商社构成压力",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmwqu7579893.shtml",
    "source": "新浪科技"
   }
  ]
