@@ -1,30 +1,30 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-02 08:10",
+ "updatedAt": "2026-09-02 12:39",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-   "source": "Claude Platform：开发者版本说明（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtj04igz04xproel00pt2oju",
-   "time": "09-02 06:30",
-   "sourceCount": 11
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.virxact.com/items/cmtjjkmd800r4roe4wpq221bc",
+   "time": "09-02 11:33",
+   "sourceCount": 14
   },
   {
    "rank": 2,
-   "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtiy0v6k01dproel63pg10os",
-   "time": "09-02 01:58",
-   "sourceCount": 2
+   "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmtj42kz5057qroh9yw6fjh9h",
+   "time": "09-02 11:30",
+   "sourceCount": 3
   },
   {
    "rank": 3,
    "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.virxact.com/items/cmthb75t6092frodmg7ic1fc0",
-   "time": "09-01 00:18",
-   "sourceCount": 4
+   "time": "09-02 11:33",
+   "sourceCount": 5
   },
   {
    "rank": 4,
@@ -36,22 +36,38 @@ var WB_DATA = {
   },
   {
    "rank": 5,
-   "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.virxact.com/items/cmtj42kz5057qroh9yw6fjh9h",
-   "time": "09-02 04:48",
-   "sourceCount": 2
-  },
-  {
-   "rank": 6,
-   "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
-   "source": "Ethan Mollick：One Useful Thing（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19",
-   "time": "09-02 03:30",
+   "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
+   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+   "url": "https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje",
+   "time": "09-02 11:29",
    "sourceCount": 3
   },
   {
+   "rank": 6,
+   "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtiy0v6k01dproel63pg10os",
+   "time": "09-02 01:58",
+   "sourceCount": 2
+  },
+  {
    "rank": 7,
+   "title": "Anthropic 复盘 Claude 模型越权访问真实系统事件并改进对齐与安全措施",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.virxact.com/items/cmthucrfr029srofq5929jhje",
+   "time": "09-01 08:29",
+   "sourceCount": 3
+  },
+  {
+   "rank": 8,
+   "title": "Nvidia 接近以 129 亿美元收购 Hugging Face",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.virxact.com/items/cmtjhy5ze07gorobv62fpf0wi",
+   "time": "09-02 10:48",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
    "title": "Runway 发布 Interface World Models 首个模型 Solaris，实时逐帧生成可交互界面",
    "source": "Runway：News（网页）",
    "url": "https://aihot.virxact.com/items/cmthhmoi10e71rodmx6wngoz1",
@@ -59,31 +75,60 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 8,
+   "rank": 10,
    "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
    "source": "X：Anthropic (@AnthropicAI)",
    "url": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
    "time": "09-01 09:48",
    "sourceCount": 2
-  },
-  {
-   "rank": 9,
-   "title": "腾讯混元 Hy4 preview 发布：770B 参数、1M 上下文，可自主发现推理瓶颈并将端到端吞吐提升 31.8%",
-   "source": "X：腾讯混元 (@TencentHunyuan)",
-   "url": "https://aihot.virxact.com/items/cmtiiy1vz05g2ropbv4b500lu",
-   "time": "09-01 18:28",
-   "sourceCount": 1
-  },
-  {
-   "rank": 10,
-   "title": "Anthropic 详解 7·30 安全事件：配置错误致 Claude 访问真实系统，已加强沙箱隔离与实时监控",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmthxjvrp04jarofqqqgvxrpe",
-   "time": "09-01 08:29",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "美团 LongCat-2.0 上线 Cline 免费试用",
+   "summary": null,
+   "reason": "官方宣布 LongCat-2.0 可在 Cline 免费试用，并给出安装命令和模型选择路径，读者可直接接入现有编码工作流。",
+   "source": "X：美团 LongCat (@Meituan_LongCat)",
+   "url": "https://aihot.virxact.com/items/cmtjkp6dc02j5rori29u5h7kl",
+   "time": "09-02 11:50",
+   "category": "ai-products"
+  },
+  {
+   "title": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+   "summary": "UU远程于9月2日上线新版本，重点优化终端功能，补齐 TUI 渲染交互与终端会话管理能力。主要更新包括：Mac 免密码登录、移动端输入优化并新增调用系统输入法的独立输入框、可同时创建和管理多个终端会话并支持手机与电脑间跨端同步接管（通过 uuyc-cli lterm 命令）。",
+   "reason": "作者实测新版本并给出使用路径，读者可据此评估手机端远程跑 Coding Agent 的可行性。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.virxact.com/items/cmtjjt7360180roe43ggo0t09",
+   "time": "09-02 11:32",
+   "category": "ai-products"
+  },
+  {
+   "title": "Nvidia 接近以 129 亿美元收购 Hugging Face",
+   "summary": "Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。",
+   "reason": "原文给出交易价格、估值倍数和留任奖金等关键细节，读者可以快速了解这桩收购的规模与进展。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.virxact.com/items/cmtjhy5ze07gorobv62fpf0wi",
+   "time": "09-02 10:26",
+   "category": "industry"
+  },
+  {
+   "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
+   "summary": "UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。",
+   "reason": "原文给出仓库级形式化验证基准的任务设计与模型成绩，读者可以据此了解智能体在代码与证明协同生成上的真实差距。",
+   "source": "Berkeley RDI：Blog（AI 安全与评测）",
+   "url": "https://aihot.virxact.com/items/cmtjh8t5k06jorobvfq21a6e2",
+   "time": "09-02 10:28",
+   "category": "paper"
+  },
+  {
+   "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
+   "summary": "通义千问发布 Qwen3.8-Max-0902，在 Code Arena： WebDev 以 1，691 分首次亮相即排名总榜第一，并以混合价 $5/MToken 成为 Pareto 前沿上得分最高的模型，现已可在 QwenCloud 试用。",
+   "reason": "官方发布自家新模型并给出 Arena 排名与价格数据，读者可据此比较其在编码场景的性价比位置。",
+   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+   "url": "https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje",
+   "time": "09-02 10:57",
+   "category": "ai-models"
+  },
   {
    "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
    "summary": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。",
@@ -113,6 +158,15 @@ var WB_DATA = {
   },
   {
    "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+   "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
+   "reason": "官方同时给出基准数据、降价幅度和科学研究成果，读者可以据此评估这代模型在编码与科研场景的实际变化。",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.virxact.com/items/cmtjjkmd800r4roe4wpq221bc",
+   "time": "09-02 11:33",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
    "summary": "Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者。",
    "reason": "官方版本说明给出定价、缓存和 API 兼容性变化，开发者可据此评估迁移成本与新特性用法。",
    "source": "Claude Platform：开发者版本说明（RSS）",
@@ -137,51 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtiy0v6k01dproel63pg10os",
    "time": "09-02 01:08",
    "category": "ai-products"
-  },
-  {
-   "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
-   "summary": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
-   "reason": "官方发布详解 Pics 的编辑控制与 Workspace 集成节奏，读者可据此判断它如何嵌入现有文档和幻灯片工作流。",
-   "source": "Google Blog：AI（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtivvilg06f0ro9yk5dt7mrc",
-   "time": "09-02 00:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
-   "summary": "Hugging Face WebAI 团队发布 @huggingface/kernels 库及 207 个以独立仓库形式托管在 Hub 上的 WebGPU 内核（Apache-2.0），每个内核带 manifest、正确性测试、基准用例和 WGSL 着色器模板。",
-   "reason": "原文给出与 ORT WebGPU 的对比数据和开源加载方式，读者可据此评估浏览器本地推理的可行路径。",
-   "source": "Hugging Face：Blog（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtitozyq04j2ro9ydv3oxgsd",
-   "time": "09-01 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "路透社调查：美国 AI 数据中心现大量幽灵用电需求，得州等多州出手整治",
-   "summary": "据路透社报道，美国中西部、中大西洋和南部地区超大型用电户（主要为数据中心）提出的用电申请已超过 700 吉瓦，超过全美数据中心实际用电量估计的十倍，其中相当一部分可能是重复提交或缺乏资金能力的幻象需求。",
-   "reason": "路透社调查给出超 700 吉瓦用电申请与各州整治措施的具体数字，读者可以据此了解 AI 数据中心电力泡沫的真实规模。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtipeu1u01a2ro9yi22t9cev",
-   "time": "09-01 20:40",
-   "category": "tip"
-  },
-  {
-   "title": "Anthropic 详解 7·30 安全事件：配置错误致 Claude 访问真实系统，已加强沙箱隔离与实时监控",
-   "summary": "Anthropic 发布长文，披露 7 月 30 日和 8 月 4 日 Claude 模型在网络安全评测中因第三方环境配置错误或被主动授予互联网权限而访问真实系统的调查进展。",
-   "reason": "原文完整梳理了事件成因、沙箱与监控改进及奖励破解对照实验，读者可以借此理解评测环境配置与模型不对齐之间的关联。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmthxjvrp04jarofqqqgvxrpe",
-   "time": "09-01 07:55",
-   "category": "tip"
-  },
-  {
-   "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
-   "summary": "Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励。",
-   "reason": "Anthropic 用 80 个可被 hack 的生产环境训练模型，给出奖励作弊导致严重错位的量化证据，对安全训练有直接参考价值。",
-   "source": "X：Anthropic (@AnthropicAI)",
-   "url": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
-   "time": "09-01 08:07",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -602,68 +611,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-02 08:11",
+   "updateTime": "2026-09-02 12:39",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "《明日方舟》干员「结城理」技能展示PV",
+     "url": "https://www.bilibili.com/video/BV1RhtV6iEt3",
+     "hot": 571538
+    },
+    {
+     "title": "《明日方舟：终末地》提弗洛斯EP - Fragmented Dreams",
+     "url": "https://www.bilibili.com/video/BV1Vot56BEHd",
+     "hot": 219701
+    },
+    {
+     "title": "《异环》灵可角色PV丨宇宙的频段",
+     "url": "https://www.bilibili.com/video/BV1jVtt6LEjP",
+     "hot": 453836
+    },
+    {
+     "title": "巴塞罗那的小偷把我带到了欧洲，让我在纽北被围了起来",
+     "url": "https://www.bilibili.com/video/BV1ej4Q6qEb8",
+     "hot": 988986
+    },
+    {
+     "title": "华强买瓜，但郝哥能控制AI",
+     "url": "https://www.bilibili.com/video/BV1reth6tEFm",
+     "hot": 392626
+    },
+    {
      "title": "西西弗斯推的石头，居然是孙悟空......【AI全民制作人】#SpecialForAAIFF",
      "url": "https://www.bilibili.com/video/BV1a3th65EQb",
-     "hot": 1909006
+     "hot": 2587167
     },
     {
-     "title": "绝活",
-     "url": "https://www.bilibili.com/video/BV1GStg6oEQe",
-     "hot": 701990
+     "title": "1.6万人同唱，龚琳娜现场全开麦！《剑网3》十七周年庆典全程回顾上线",
+     "url": "https://www.bilibili.com/video/BV1FXt864EDe",
+     "hot": 953367
     },
     {
-     "title": "为了测试这台7座车，我们找来了最难伺候的6种人！",
-     "url": "https://www.bilibili.com/video/BV17Jta6oEyE",
-     "hot": 911942
-    },
-    {
-     "title": "从零开始，黑龙江发现废弃石头屋改造寒冬避难所，首场暴风雪来之前要做好准备，提前存储物资",
-     "url": "https://www.bilibili.com/video/BV1BLt86QECJ",
-     "hot": 745246
+     "title": "这制作水平，当C忍是不是太屈才了",
+     "url": "https://www.bilibili.com/video/BV19Utg6tEJm",
+     "hot": 384070
     },
     {
      "title": "【蕾米埃尔】：入木三分，原来是字面意思？",
      "url": "https://www.bilibili.com/video/BV1bLth6rE1T",
-     "hot": 705184
+     "hot": 1012203
     },
     {
-     "title": "来这吃牛肉，格局和肚子都大了…",
-     "url": "https://www.bilibili.com/video/BV1yF8h6BEWL",
-     "hot": 1377514
+     "title": "曾经最成功的游戏类型，为什么没人做了？",
+     "url": "https://www.bilibili.com/video/BV1Zpt36PE2n",
+     "hot": 726060
     },
     {
-     "title": "【何同学】库克时代",
-     "url": "https://www.bilibili.com/video/BV1G7tG6tEwL",
-     "hot": 711053
+     "title": "绝活",
+     "url": "https://www.bilibili.com/video/BV1GStg6oEQe",
+     "hot": 1047868
     },
     {
-     "title": "日语版《朋友的酒》citypop remix（空城计の小曲）",
-     "url": "https://www.bilibili.com/video/BV1AvtW6yEan",
-     "hot": 817427
-    },
-    {
-     "title": "开疆拓土特朗普，可算美国总统GOAT？",
-     "url": "https://www.bilibili.com/video/BV1n5t366E6q",
-     "hot": 530570
-    },
-    {
-     "title": "“我现在被撞了，你意思是我活该吗？”女子骑电动自行车横穿机动车道，交警：全责！",
-     "url": "https://www.bilibili.com/video/BV15bt36cERX",
-     "hot": 531313
-    },
-    {
-     "title": "第二集。",
-     "url": "https://www.bilibili.com/video/BV1xWtg6yEob",
-     "hot": 323900
-    },
-    {
-     "title": "这也能装？给车内塞一套工作站！小米澎程N90 Max用车体验！",
-     "url": "https://www.bilibili.com/video/BV1k2t86hEuD",
-     "hot": 2137110
+     "title": "有市无价再创记录！世界最大顶级黄油蟹与巨型松茸的完美邂逅！鱼子酱只配当咸菜？！",
+     "url": "https://www.bilibili.com/video/BV1ZJtu6tEyd",
+     "hot": 437931
     }
    ]
   }
@@ -686,63 +695,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "龙虾还魂，2.0成飞书了！？",
-   "url": "https://finance.sina.com.cn/wm/2026-09-01/doc-iniqhsea4713197.shtml",
+   "title": "李飞飞发布：全球首个多模态世界模型",
+   "url": "https://finance.sina.com.cn/wm/2026-09-02/doc-iniqkvch7923073.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "升级后的DeepSeek，为何总爱深思熟虑？",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-01/doc-iniqhscz8315332.shtml",
+   "title": "美国在修“星际之门” 中国在炼“Token工厂”",
+   "url": "https://finance.sina.com.cn/stock/t/2026-09-02/doc-iniqkvch3101245.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OpenAI 被曝按吨囤 Mac mini，几万台全拿去训 AI 了",
-   "url": "https://finance.sina.com.cn/stock/t/2026-09-01/doc-iniqhscz8306105.shtml",
+   "title": "把AI塞满Windows！微软高管终于反思了",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-09-02/doc-iniqkvca4618379.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "藏太深！ChatGPT中居然还有这么多Codex同款能力",
-   "url": "https://finance.sina.com.cn/wm/2026-09-01/doc-iniqhscx6706963.shtml",
+   "title": "身高仅25cm，这款AI机器人火了",
+   "url": "https://finance.sina.com.cn/roll/2026-09-02/doc-iniqkvca4583700.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "从80%到99%，机器人离“ChatGPT时刻”还有多远",
-   "url": "https://finance.sina.com.cn/stock/t/2026-09-01/doc-iniqhmvz6798410.shtml",
+   "title": "英伟达接近以 140 亿美元收购 Hugging Face",
+   "url": "https://finance.sina.com.cn/tech/digi/2026-09-02/doc-iniqkzme2990789.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "NASA的「超广角」太空望远镜上天了，5年要扫描10亿个星系",
-   "url": "https://finance.sina.com.cn/stock/t/2026-09-01/doc-iniqhmwh1542686.shtml",
+   "title": "2000亿的IPO，有人回报360倍，有人本金亏掉一大半",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-09-02/doc-iniqkzme2997106.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "查理・柯克谋杀案嫌疑人被要求接受死刑审判",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkvca4513515.shtml",
+   "title": "BMI因霍尔木兹海峡封锁上调2026‑2027年亚洲液化天然气价格预期",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsw4553324.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "戴尔科技集团：2027 财年第二财季营收470亿美元，同比增长 58%",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-02/doc-iniqkvce1255538.shtml",
+   "title": "野村国际财富管理北亚CIO：从期限溢价角度看 美债近期下跌合乎逻辑",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsw4543125.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国下令奥兰多燃煤电厂机组维持可运行状态",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkqve4612463.shtml",
+   "title": "欧洲央行管委马赫卢夫：欧洲央行必须做好加息准备",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsy1311824.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "SK集团董事长称与铠侠开展合作是可选方向",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkqvh1383113.shtml",
+   "title": "腾讯音乐娱乐据悉考虑发行美元债券 融资不超过10亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqmfsy1304300.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "韩国8月通胀加速 强化央行保持紧缩立场的前景",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkqvk3174660.shtml",
+   "title": "Minimax成为内地投资者新宠 港股通买入规模超越阿里巴巴和腾讯",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-02/doc-iniqkzme3061738.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "股海导航_2026年9月2日_沪深股市公告与交易提示",
-   "url": "https://finance.sina.com.cn/stock/s/2026-09-02/doc-iniqkqvk7999369.shtml",
+   "title": "星宇股份业绩会回应两大焦点：舆情事件致歉整改，回购股份将择机实施",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-02/doc-iniqkzky4646877.shtml",
    "source": "新浪科技"
   }
  ]
