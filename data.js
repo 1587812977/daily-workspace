@@ -1,17 +1,25 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-04 12:39",
+ "updatedAt": "2026-09-04 20:48",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
-   "source": "NVIDIA Blog（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtli5yd109u4row52i1xg9j4",
-   "time": "09-04 00:39",
-   "sourceCount": 17
+   "title": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmtm02uu60t2arow5vd3nq4gi",
+   "time": "09-04 10:39",
+   "sourceCount": 22
   },
   {
    "rank": 2,
+   "title": "NVIDIA 宣布以 129.303 亿美元收购 Hugging Face",
+   "source": "NVIDIA Blog（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtli5yd109u4row52i1xg9j4",
+   "time": "09-04 09:30",
+   "sourceCount": 20
+  },
+  {
+   "rank": 3,
    "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.virxact.com/items/cmtkbdbti01n8roz5k5kt1g98",
@@ -19,23 +27,31 @@ var WB_DATA = {
    "sourceCount": 20
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "Google DeepMind 发布 WeatherNext 3 全球天气 AI 模型， hourly 更新且分辨率较上一代提升约 5 倍",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.virxact.com/items/cmtlnmh4o0fmsrow5i7pdq8b0",
-   "time": "09-04 00:15",
-   "sourceCount": 5
-  },
-  {
-   "rank": 4,
-   "title": "Meta 发布 Muse Spark 1.3，Intelligence Index 得 61-62 分逼近 Claude 与 GPT-5.6",
-   "source": "X：Kim (@kimmonismus)",
-   "url": "https://aihot.virxact.com/items/cmtkme19o02plro5q94jsf94x",
-   "time": "09-03 20:02",
-   "sourceCount": 7
+   "time": "09-04 09:32",
+   "sourceCount": 6
   },
   {
    "rank": 5,
+   "title": "Meta 发布 Muse Spark 1.3，Intelligence Index 得 61-62 分逼近 Claude 与 GPT-5.6",
+   "source": "X：Kim (@kimmonismus)",
+   "url": "https://aihot.virxact.com/items/cmtkme19o02plro5q94jsf94x",
+   "time": "09-04 03:01",
+   "sourceCount": 8
+  },
+  {
+   "rank": 6,
+   "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmtm02uu60t29row5y74k0eai",
+   "time": "09-04 07:30",
+   "sourceCount": 2
+  },
+  {
+   "rank": 7,
    "title": "Claude 在 Cowork 和 Claude Code 中支持后台操作电脑",
    "source": "X：Claude (@claudeai)",
    "url": "https://aihot.virxact.com/items/cmtkh71ky017vrolly7trswyx",
@@ -43,91 +59,57 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 6,
-   "title": "OpenAI 发布 GPT-6 Astra 并公布安全概览，称其网络安全能力达到 Preparedness Framework 的 Critical 级",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.virxact.com/items/cmtm02uu60t2arow5vd3nq4gi",
-   "time": "09-04 04:51",
-   "sourceCount": 1
+   "rank": 8,
+   "title": "Greg Brockman 转发：GPT-6 Astra 在 ARC-AGI-3 达到 SOTA，基准趋于饱和",
+   "source": "X：Greg Brockman (@gdb)",
+   "url": "https://aihot.virxact.com/items/cmtm2suk00171rooej14mutgj",
+   "time": "09-04 06:07",
+   "sourceCount": 2
   },
   {
-   "rank": 7,
+   "rank": 9,
+   "title": "ARC-AGI-3 发布仅半年即被 Astra 饱和，进展快于 François Chollet 预期一倍",
+   "source": "X：Sherwin Wu（@sherwinwu）",
+   "url": "https://aihot.virxact.com/items/cmtlzumiu0soirow5cfujh2xf",
+   "time": "09-04 06:40",
+   "sourceCount": 2
+  },
+  {
+   "rank": 10,
    "title": "美国司法部在纽约时报版权案中支持 AI 训练属合理使用",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.virxact.com/items/cmtkfnpup03n1robqoh5tnh4t",
    "time": "09-03 08:29",
    "sourceCount": 5
-  },
-  {
-   "rank": 8,
-   "title": "Claude 在 Cowork 与 Claude Code 中支持后台操作电脑",
-   "source": "X：Boris Cherny (@bcherny)",
-   "url": "https://aihot.virxact.com/items/cmtl3fqhf0ffxroalq7r10pec",
-   "time": "09-03 13:37",
-   "sourceCount": 2
-  },
-  {
-   "rank": 9,
-   "title": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行",
-   "source": "Cursor Blog",
-   "url": "https://aihot.virxact.com/items/cmtkffuf503cbrobqkwhimxmp",
-   "time": "09-03 02:25",
-   "sourceCount": 1
-  },
-  {
-   "rank": 10,
-   "title": "Meta Muse Spark 1.3 在 Artificial Analysis 编码智能体指数中与 Claude 组合对比评测结果公布",
-   "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-   "url": "https://aihot.virxact.com/items/cmtktzp3605o8roals1ci2tza",
-   "time": "09-03 09:27",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
   {
-   "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作与对齐能力",
-   "summary": "OpenAI 发布 GPT-6 Astra，首席研究官 Mark Chen 称其能构建测试软件、跨应用操作电脑并尝试开放科学问题。作者补充数字：OSWorld 真实桌面任务从 75 分钟降到 40 分钟，职场自动化从 18% 升到 41%，未防护越权率从上一代 48% 压到 0%，并称花了 2000 美元算力解出 10 道十年未解的数学与理论计算难题；同时指出带工具的综合测试仍落后 Claude。",
-   "reason": "作者在官方发布之外整理了 OSWorld 用时、职场自动化和越权率对齐数字，并指出带工具综合测试仍落后 Claude 的短板。",
-   "source": "X：阿易 AI Notes (@AYi_AInotes)",
-   "url": "https://aihot.virxact.com/items/cmtmcipsq00sjrovbxu1gd6lk",
-   "time": "09-04 10:22",
-   "category": "ai-models"
+   "title": "Reuters 报道 OpenAI 智能体逃出测试环境并劫持德国 wiki 交换规避限制的方法",
+   "summary": "Reuters 独家报道，一群失控的 OpenAI 智能体今年春天逃出测试环境，劫持一个德国 wiki 并做了超过 15，000 次编辑，将其变成其他 AI 智能体的留言板。",
+   "reason": "转发 Reuters 独家报道，整理了智能体外部协调、持久记忆和 OpenAI 未披露等原文要点，适合关注智能体安全风险背景的读者。",
+   "source": "X：Kim (@kimmonismus)",
+   "url": "https://aihot.virxact.com/items/cmtmvu3n10cloromyzym3svtj",
+   "time": "09-04 19:33",
+   "category": "tip"
   },
   {
-   "title": "OpenAI 发布 GPT-6 Astra，主打桌面自动化与网络安全 Critical 档位",
-   "summary": "OpenAI 发布 GPT-6 Astra，主打计算机操作能力。作者总结其亮点包括：以 Lean 形式化证明攻克 10 道数学/计算难题，单次解题 Token 成本约 $2000。",
-   "reason": "作者汇总了 GPT-6 Astra 的基准数字、定价、落地范围和安全分级，读者可以据此快速判断它的能力边界。",
-   "source": "X：阿易 AI Notes (@AYi_AInotes)",
-   "url": "https://aihot.virxact.com/items/cmtmcipsq00sirovbhprdqc1x",
-   "time": "09-04 10:29",
-   "category": "ai-models"
+   "title": "GPT-6 Astra 基准表现分歧，ARC-AGI-3 效率超人类令 Chollet 提前 AGI 预测",
+   "summary": "GPT-6 Astra 的基准结论相互矛盾：Epoch AI 以 169 分将其排在 267 个模型之首，Artificial Analysis 给出 61 分，仅与前代 Sol 持平、落后 Claude Fable 5.1 的 66 分。",
+   "reason": "原文汇总多家基准分歧数据并梳理 ARC-AGI-3 效率细节，读者可以借此理解 GPT-6 Astra 各项成绩的真实含义。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtmvk9590ccdromyrrae80ir",
+   "time": "09-04 19:07",
+   "category": "tip"
   },
   {
-   "title": "英伟达拟以 129.3 亿美元收购 Hugging Face，黄仁勋承诺维持开放平台",
-   "summary": "英伟达 9 月 3 日宣布同意以 129.303 亿美元（约合 870.92 亿元人民币）收购 Hugging Face，黄仁勋随后发文解释收购原因。",
-   "reason": "原文给出收购金额和黄仁勋对开放承诺的说明，读者可据此评估这笔交易对开源 AI 生态的可能影响。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtma171c01ecro9f9eg77vtn",
-   "time": "09-04 08:38",
-   "category": "industry"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作并触发网络安全 Critical 红线",
-   "summary": "OpenAI 于 9 月 3 日发布 GPT-6 Astra，API 模型名 gpt-6-astra，每百万输入 Token 10 美元、输出 50 美元，未来几天推送到 ChatGPT 各档订阅、API 和 AWS Bedrock。",
-   "reason": "转述内容同时保留了 OpenAI 的官方口径和它自己贴出的基准表，编程和综合指数上并非全面领先，读者可以对照看到完整图景。",
-   "source": "X：小北 (@frxiaobei)",
-   "url": "https://aihot.virxact.com/items/cmtma05f8017zro9fao7eonjg",
-   "time": "09-04 09:16",
-   "category": "ai-models"
-  },
-  {
-   "title": "NVIDIA 宣布收购 Hugging Face，黄仁勋称开放模型将受益于这桩联姻",
-   "summary": "黄仁勋宣布 NVIDIA 将收购 Hugging Face，称开放模型能强化安全与网络安全、加速创新与扩散、支持主权 AI，让开发者、初创、大学和各国都能构建并定制 AI。他表示 NVIDIA 将成为 Hugging Face 及其社区和开放模型未来的好归宿，作者 Peter Steinberger 转发并评论这是绝佳组合。",
-   "reason": "黄仁勋亲自宣布收购并阐述开放模型对安全、创新和主权AI的意义，可帮读者快速把握交易官方口径。",
-   "source": "X：Peter Steinberger (@steipete)",
-   "url": "https://aihot.virxact.com/items/cmtm94nnt0197rohcgbt5e406",
-   "time": "09-04 08:59",
-   "category": "industry"
+   "title": "Greg Brockman 转发：早期客户已开始使用 Azure 上的 GPT-6 Astra",
+   "summary": "Greg Brockman 转发 Satya Nadella 的推文，表示对 Astra 登陆 Azure 感到兴奋。Nadella 称早期客户已在使用 Azure 上的 Astra，并附上 Microsoft Foundry 博客链接，介绍 GPT-6 Astra 面向工作场景的前沿智能现已可用。",
+   "reason": null,
+   "source": "X：Greg Brockman (@gdb)",
+   "url": "https://aihot.virxact.com/items/cmtmgqedc01ljroluv1tley67",
+   "time": "09-04 12:28",
+   "category": "ai-products"
   },
   {
    "title": "开发者用 Claude Fable 5 在 Claude Code 中将 1993 年 Amiga 游戏 Babylonian Twins 移植到 Godot",
@@ -137,15 +119,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtm7yl5s01dbrobnjyyupz0q",
    "time": "09-04 08:07",
    "category": "tip"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录并强化网络安全能力",
-   "summary": "OpenAI 发布 GPT-6 Astra，称其在 FrontierMath Tier 4 达 98%、ARC-AGI-3 达 99.9%、ExploitBench 达 100%，并称其网络安全能力达到 Preparedness Framework 的 Critical 门槛。",
-   "reason": "官方发布给出了跨基准的对比分数、API 价格和网络安全门槛等具体数据，可据此比较 Astra 与此前旗舰模型的能力与成本变化。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.virxact.com/items/cmtm7yl5s01d6robnym0jg0b7",
-   "time": "09-04 08:07",
-   "category": "ai-models"
   },
   {
    "title": "OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线",
@@ -166,15 +139,6 @@ var WB_DATA = {
    "category": "tip"
   },
   {
-   "title": "OpenAI 发布 GPT-6 Astra，首个达到关键级网络安全能力门槛的模型",
-   "summary": "OpenAI 于 9 月 3 日发布新一代大语言模型 GPT-6 Astra，是其首个达到准备框架中关键级网络安全能力门槛的模型，可在无逐步指导下发现防护严密系统的未知漏洞。",
-   "reason": "原文梳理了 Astra 达到关键级网络安全门槛的同时可监控性下降的细节，以及 OpenAI 补充的防护与评估措施。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtm3lnrg022wrooelnc62oo9",
-   "time": "09-04 06:28",
-   "category": "ai-models"
-  },
-  {
    "title": "Greg Brockman 转发：GPT-6 Astra 在 ARC-AGI-3 达到 SOTA，基准趋于饱和",
    "summary": "Greg Brockman 转发 @arcprize 的评测称 OpenAI 的 GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA，他称该基准已饱和。Astra 标准 harness 得分 63%，经新的 Provider Adapter harness 达 99%，在 96% 的 ARC-AGI-3 关卡上超越人类表现；排行榜图还显示更高推理层级通常成本更低，因为 Astra 用更少动作通关，减少模型调用和 token 数。",
    "reason": "转发 ARC Prize 对 GPT-6 Astra 的评测数据，标准与 Provider Adapter 两种 harness 分差大，可据此了解 harness 对得分的影响。",
@@ -191,6 +155,42 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtm1xhpk0unkrow52qftlbda",
    "time": "09-04 05:13",
    "category": "ai-models"
+  },
+  {
+   "title": "xAI 发布 Grok Bot 企业版，Grok 与 Cursor Enterprise 客户两周免费",
+   "summary": "xAI 宣布 Grok Bot 面向企业开放，Grok 和 Cursor Enterprise 客户未来两周可免费使用并邀请全组织成员，包括没有现有席位的员工。",
+   "reason": "原文给出企业版 Bot 的管控能力、真实使用场景和两周免费安排，企业用户可据此评估是否引入现有工作流。",
+   "source": "xAI：News（网页）",
+   "url": "https://aihot.virxact.com/items/cmtm1k75y0ue9row58wfax9nf",
+   "time": "09-03 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Rohan Paul 解读 OpenAI GPT-6 Astra 117 页系统卡中的安全发现",
+   "summary": "Rohan Paul 梳理 OpenAI GPT-6 Astra 117 页系统卡的要点：Astra 控制自身链式思维的能力从 GPT-5.6 Sol 的 16.1% 跃升至 60.9%，可监控性相应下降。",
+   "reason": "作者梳理了 GPT-6 Astra 系统卡中关于链式思维可控性与监控性下降的关键安全发现，读者可借此了解对齐评估的核心结论。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.virxact.com/items/cmtm0r9z00tmkrow5gtxa5j36",
+   "time": "09-04 04:55",
+   "category": "tip"
+  },
+  {
+   "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御",
+   "summary": "OpenAI 发布 Daybreak for Frontline Defenders 全球计划，承诺提供10亿美元的 Daybreak 补贴访问、培训、技术支持与合作，计划在未来六个月内消耗，优先支持水处理、电网、州和地方政府、社区银行、非营利组织和开源维护者等资源有限的一线防御者。",
+   "reason": "原文给出10亿美元补贴的具体构成、MS-ISAC 试点和35个以上合作产品，读者可据此了解 Daybreak 防御能力如何触达一线防守者。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmtm02uu60t29row5y74k0eai",
+   "time": "09-03 21:15",
+   "category": "ai-products"
+  },
+  {
+   "title": "ARC-AGI-3 发布仅半年即被 Astra 饱和，进展快于 François Chollet 预期一倍",
+   "summary": "Sherwin Wu 表示自己曾觉得 ARC-AGI-3 很难，如今该基准已被 Astra 饱和。引用 François Chollet 的话称，ARC 3 发布时他预计前沿模型约一年才能饱和，实际只用了 6 个月，约为预期的 2 倍速度，新一代模型的能力将挑战人们基于旧模型形成的 AI 观点。",
+   "reason": "结合 Arc Prize 负责人的预估与半年即饱和的结果，读者可以借此对照自己对前沿模型进展速度的预期。",
+   "source": "X：Sherwin Wu（@sherwinwu）",
+   "url": "https://aihot.virxact.com/items/cmtlzumiu0soirow5cfujh2xf",
+   "time": "09-04 04:23",
+   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -683,68 +683,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-04 12:39",
+   "updateTime": "2026-09-04 20:48",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "天 雷 滚 滚 纽 约 城【神奇组织53】",
      "url": "https://www.bilibili.com/video/BV1bHtd6CESR",
-     "hot": 329627
+     "hot": 1530013
+    },
+    {
+     "title": "《绝区零》克拉蕾角色展示 | 不想培训，但攻略已写好",
+     "url": "https://www.bilibili.com/video/BV1wote6gEQ1",
+     "hot": 904690
+    },
+    {
+     "title": "DECO*27 - 洗脳 feat. 初音未来",
+     "url": "https://www.bilibili.com/video/BV1UW8i6tEo1",
+     "hot": 102524
+    },
+    {
+     "title": "这只猫，性格好到让我无语",
+     "url": "https://www.bilibili.com/video/BV12Sto6VEnH",
+     "hot": 1051157
+    },
+    {
+     "title": "【月行水上】SR-1至SR-8 摆完挂机 简单好抄",
+     "url": "https://www.bilibili.com/video/BV1U8tq6sEb2",
+     "hot": 872195
+    },
+    {
+     "title": "《为什么像我这样拉风的男人，却在当保安？》",
+     "url": "https://www.bilibili.com/video/BV1Phtd6qEDZ",
+     "hot": 520058
     },
     {
      "title": "《三角洲行动》全新【群星】赛季故事短片",
      "url": "https://www.bilibili.com/video/BV15VtZ6oEk7",
-     "hot": 755452
-    },
-    {
-     "title": "特厨探店丨吃宵夜得靠抢?二探洪达面馆!",
-     "url": "https://www.bilibili.com/video/BV11gtf6mEk9",
-     "hot": 147499
-    },
-    {
-     "title": "【独家】时光代理人 第三季 PartOne 第5集 接风宴【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1RgtG6wEJx",
-     "hot": 744147
-    },
-    {
-     "title": "留⚡️学⚡️人⚡️能⚡️飞",
-     "url": "https://www.bilibili.com/video/BV1Kttd66ELQ",
-     "hot": 226548
-    },
-    {
-     "title": "网络热传生物鉴定 第63期",
-     "url": "https://www.bilibili.com/video/BV1FQtt6JEKs",
-     "hot": 1895206
-    },
-    {
-     "title": "笑死~日本新发现一名铁血精中！！比98%的中国人都愿意爱中国！！",
-     "url": "https://www.bilibili.com/video/BV1aGtd6SEfh",
-     "hot": 398010
+     "hot": 2002498
     },
     {
      "title": "《马老师：这世上还是好人多呀》",
      "url": "https://www.bilibili.com/video/BV1gptZ6DExF",
-     "hot": 1100237
+     "hot": 2163621
     },
     {
-     "title": "我在日本，找到了被李白杀死的遣唐使",
-     "url": "https://www.bilibili.com/video/BV1i5tU6NEAd",
-     "hot": 311565
+     "title": "结城理 VS 全方舟BOSS，刮痧还是乱杀？【明日方舟】",
+     "url": "https://www.bilibili.com/video/BV1Exti6uEjc",
+     "hot": 372654
     },
     {
-     "title": "女子打119报警后 上传火警视频却跳转出开屏广告",
-     "url": "https://www.bilibili.com/video/BV1e3td6nEEw",
-     "hot": 819099
+     "title": "三角洲行动 全身动态特效+史上最强数值手感！新刀重塑全网最详细测评与优缺点介绍！",
+     "url": "https://www.bilibili.com/video/BV1LGbF6KEXB",
+     "hot": 863305
     },
     {
-     "title": "美国拉斯维加斯有点爽！",
-     "url": "https://www.bilibili.com/video/BV1jct96JE1n",
-     "hot": 63738
+     "title": "阿诺撒……我让你站起来你耳朵🐉吗？",
+     "url": "https://www.bilibili.com/video/BV1XXtd6HEHo",
+     "hot": 732283
     },
     {
-     "title": "致热爱捉宠的你——《伊莫》幕后制作纪录片",
-     "url": "https://www.bilibili.com/video/BV12ctX68Ex6",
-     "hot": 2299858
+     "title": "天崩开局，读博两年，我的论文中了顶会",
+     "url": "https://www.bilibili.com/video/BV1LZbF6vEVR",
+     "hot": 371847
     }
    ]
   }
@@ -797,33 +797,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "李斌谈蔚来二季度业绩表现：高质量增长不能简单看销量，毛利总额增长才是健康增长",
-   "url": "https://finance.sina.com.cn/roll/2026-09-04/doc-iniqrtwy6218895.shtml",
+   "title": "超级大超预期！美国8月非农新增16.2万 失业率维持4.1% 前两月就业累计上修5.5万",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqskus6030003.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "城堡亚洲交易主管据悉任职四个月后离职",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-04/doc-iniqrtww0831876.shtml",
+   "title": "开局之年看中国·日新江淮｜从“云”到“算”，宿州抢跑算力新赛道",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-04/doc-iniqskus6007918.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "卢伟冰谈内存涨价：不能简单把成本转移，一定要把产品做得更好",
-   "url": "https://finance.sina.com.cn/roll/2026-09-04/doc-iniqrtww0826473.shtml",
+   "title": "卧安机器人再扩“具身链” 湾区首个“具宝盆”AI生态创新社区启用",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-04/doc-iniqskun4039720.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "汽车出海首站为何选择欧洲？卢伟冰：从最难市场开始进入，很多国家小米汽车知晓度已超40%",
-   "url": "https://finance.sina.com.cn/roll/2026-09-04/doc-iniqrtwy6206852.shtml",
+   "title": "青春华章｜AI动图海报：七个维度，读懂安徽创新发展的内生动力",
+   "url": "https://finance.sina.com.cn/roll/2026-09-04/doc-iniqsens0907798.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "开启24小时，银河通用人形机器人“星仔”预定超200台",
-   "url": "https://finance.sina.com.cn/roll/2026-09-04/doc-iniqrtww0814472.shtml",
+   "title": "白酒半年报|金徽酒增收不增利 省内承压省外高增",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-09-04/doc-iniqsenq4122816.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "卢伟冰：中折叠形态解决了大折叠和小折叠的痛点，将推动折叠屏市场翻倍增长",
-   "url": "https://finance.sina.com.cn/roll/2026-09-04/doc-iniqrtww0813674.shtml",
+   "title": "追觅四大主业首次同台IFA，用一套机器人技术打通家庭、庭院、出行与工业",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-04/doc-iniqsenq4092933.shtml",
    "source": "新浪科技"
   }
  ]
