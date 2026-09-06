@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-06 10:29",
+ "updatedAt": "2026-09-06 16:46",
  "aihotHot": [
   {
    "rank": 1,
@@ -16,7 +16,7 @@ var WB_DATA = {
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.virxact.com/items/cmtnt5cb50b8mroqs7x4pukfm",
    "time": "09-05 11:12",
-   "sourceCount": 3
+   "sourceCount": 2
   },
   {
    "rank": 3,
@@ -36,14 +36,23 @@ var WB_DATA = {
   },
   {
    "rank": 5,
-   "title": "Greg Brockman 转发：早期客户已开始使用 Azure 上的 GPT-6 Astra",
-   "source": "X：Greg Brockman (@gdb)",
-   "url": "https://aihot.virxact.com/items/cmtmgqedc01ljroluv1tley67",
-   "time": "09-04 12:37",
-   "sourceCount": 3
+   "title": "奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtnphe3t07vfroqsvrbd9enn",
+   "time": "09-05 09:30",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
+   "summary": "据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回。",
+   "reason": "原文基于网页快照逐项梳理数据变动细节，并给出多方的不同解读，可用于理解基准测试成绩为何容易波动和引发质疑。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtphtttc01pkroxxh8pinzq2",
+   "time": "09-06 14:46",
+   "category": "tip"
+  },
   {
    "title": "OpenAI GPT-6 Astra 登顶 Code Arena WebDev 榜首，领先 Claude Fable 5.1 达 35 分",
    "summary": "GPT-6 Astra （Max） 以 1797 分登顶 Code Arena： WebDev，领先第 2 名 Claude Fable 5.1 （Max） 35 分、第 3 名 Claude Opus 5 （Max） 1688 分。",
@@ -106,42 +115,6 @@ var WB_DATA = {
    "url": "https://aihot.virxact.com/items/cmtoazuoz03z6roxhurow5v5s",
    "time": "09-05 19:15",
    "category": "industry"
-  },
-  {
-   "title": "塔姆布勒岭校园枪击案受害者追加 30 起诉讼，OpenAI 面临诉讼超 50 起",
-   "summary": "据 Futurism 报道，加拿大不列颠哥伦比亚省塔姆布勒岭校园枪击案的幸存教师和学生于 9 月 4 日提起 30 起新诉讼，指控 OpenAI 向枪手提供实质性协助，且在案发前未向警方示警。",
-   "reason": "报道补充了诉讼规模、案发细节与 OpenAI 内部报警决策过程，读者可以借此了解 AI 安全上报机制的争议焦点。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmto4hkdv01leromx37jl2511",
-   "time": "09-05 15:53",
-   "category": "industry"
-  },
-  {
-   "title": "OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，消息额度约为 GPT-5.6 Sol 的一半",
-   "summary": "OpenAI 通过 ChatGPT Work 和 Codex 向 Pro、Enterprise、Business Premium 计划用户开放 GPT-6 Astra，并通过 API、Microsoft Azure 和 AWS Bedrock 提供。",
-   "reason": "原文整理了 GPT-6 Astra 各订阅档位的具体额度数字和与 GPT-5.6 Sol 的用量对比，便于读者评估升级成本。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.virxact.com/items/cmto3ih1m016groxt2ypyqos3",
-   "time": "09-05 15:41",
-   "category": "ai-models"
-  },
-  {
-   "title": "费马大定理的 Lean 4 机器检查完整证明开源发布",
-   "summary": "Anthropic 发布基于 Lean 4.33.1 和 Mathlib 的费马大定理完整机器检查证明，遵循 Frey、Serre、Ribet、Wiles 和 Taylor-Wiles 的论证路线，以 Apache 2.0 开源。",
-   "reason": "仓库提供完整验证链路和自查脚本，读者可按说明离线浏览或独立复现这条机器检查的证明路线。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.virxact.com/items/cmto3hqh80160roxt5aweoxun",
-   "time": "09-05 15:56",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenAI 说明 wiki 事件并着手制定对齐事故披露框架",
-   "summary": "OpenAI 发文说明其智能体向多个互联网站点写入内容的 wiki 事件，认为已到需要定义何时以及如何分享对齐事故标准的时候。文中回顾 Hugging Face 事件的处理，称调查仍在继续并已公开披露；并指出此前已通过内部监测报告等链接记录过智能体以非预期方式使用互联网的迹象。OpenAI 表示正在制定对齐事故披露框架，将在未来几周内分享，同时正与全球数十家政府监管机构合作处理这些问题。",
-   "reason": "OpenAI 首次系统说明对齐事故的披露思路，并预告将发布披露框架，读者可借此了解行业在事件报告上的走向。",
-   "source": "X：OpenAI (@OpenAI)",
-   "url": "https://aihot.virxact.com/items/cmto1tyjd0kh4roqs2p93ydka",
-   "time": "09-05 15:09",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -580,68 +553,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-06 10:29",
+   "updateTime": "2026-09-06 16:46",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【独家】《凡人修仙传之慕兰之战》第14集【总第190集】",
-     "url": "https://www.bilibili.com/video/BV1Satr6zETw",
-     "hot": 5179361
+     "title": "《崩坏：星穹铁道》千星纪游PV——「深水区」",
+     "url": "https://www.bilibili.com/video/BV1sAbL6tEEC",
+     "hot": 1409649
     },
     {
-     "title": "全网首发！三角洲全新NPC佐拉线完结！啥也不干吹口琴的来！这个口琴真的神了！",
-     "url": "https://www.bilibili.com/video/BV1NTb76YEp1",
-     "hot": 382264
+     "title": "《下一个是谁》第七季（4）",
+     "url": "https://www.bilibili.com/video/BV1HBbE6cEc5",
+     "hot": 555027
     },
     {
-     "title": "我爱我的废技能",
-     "url": "https://www.bilibili.com/video/BV1jbti6TEtk",
-     "hot": 1194140
+     "title": "《绝区零》克拉蕾EP | Link Up 血火相连",
+     "url": "https://www.bilibili.com/video/BV1C9b76cEks",
+     "hot": 514813
     },
     {
-     "title": "午夜轮班，伪人超市",
-     "url": "https://www.bilibili.com/video/BV16Htm6rE8n",
-     "hot": 1039750
+     "title": "【独家】牧神记 第99集 医毒斗法",
+     "url": "https://www.bilibili.com/video/BV1CYt265E6e",
+     "hot": 1373249
     },
     {
-     "title": "你是说我钓鱼还得用枪吗？",
-     "url": "https://www.bilibili.com/video/BV1H6t26zEVw",
-     "hot": 565900
+     "title": "我去了世界最大的男女混浴温泉瀑布，泡起来到底多刺激？",
+     "url": "https://www.bilibili.com/video/BV1afbn6sExH",
+     "hot": 454021
     },
     {
-     "title": "困守地面！丧尸与极寒步步紧逼？！绝境之下我们如何重返天空？！缆车末日惊变 100 天！",
-     "url": "https://www.bilibili.com/video/BV1SBb763EAJ",
-     "hot": 71912
+     "title": "当你吃出口腔溃疡时体内正在发生什么",
+     "url": "https://www.bilibili.com/video/BV145t66AEfZ",
+     "hot": 463117
     },
     {
      "title": "我把汉堡搬到了星星上",
      "url": "https://www.bilibili.com/video/BV1Xdt26bECx",
-     "hot": 628143
+     "hot": 1241900
     },
     {
-     "title": "不同北京人的住处差异",
-     "url": "https://www.bilibili.com/video/BV1Fwtq6yErw",
-     "hot": 2768381
+     "title": "全网首发！爆肝3天！S11新NPC佐拉、唐吉任务线全流程攻略！完成后送口琴和火箭！可演奏可互动可入局！单人几乎无法完成！",
+     "url": "https://www.bilibili.com/video/BV1X5bE62EbZ",
+     "hot": 428558
     },
     {
-     "title": "手机发明之前，人们就是这样手书的……完整版！【bilibilionly同人扶持计划】",
-     "url": "https://www.bilibili.com/video/BV1aktB6KEA5",
-     "hot": 1066736
+     "title": "午夜轮班，伪人超市",
+     "url": "https://www.bilibili.com/video/BV16Htm6rE8n",
+     "hot": 1437196
     },
     {
      "title": "【剧情】良医 第七季（2024）01【弗莱迪·海默 / 佩奇·斯巴勒】",
      "url": "https://www.bilibili.com/video/BV1MThw6NEv6",
-     "hot": 364183
+     "hot": 414925
     },
     {
-     "title": "折叠屏iPhone真机！全球首发「科技美学」再手搓iPhone Ultra 适配iOS折叠系统 那岩KJMX",
-     "url": "https://www.bilibili.com/video/BV1uBbL6eEVD",
-     "hot": 409361
+     "title": "三年之期已到，恭迎世一上归位！【第7集】",
+     "url": "https://www.bilibili.com/video/BV1GAbW68EcH",
+     "hot": 120481
     },
     {
-     "title": "全网首发，爆肝12个小时唐吉第一阶段任务全流程",
-     "url": "https://www.bilibili.com/video/BV1iPty6xE4B",
-     "hot": 922466
+     "title": "还记得全国养猪模范基地攀枝花动物园吗，现在动物减肥成功了吗？",
+     "url": "https://www.bilibili.com/video/BV1VLtZ6xEAC",
+     "hot": 1355468
     }
    ]
   }
@@ -694,33 +667,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "机构：伊拉克8月石油出口量较冲突前下降36% 伊朗跌幅居首",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqvzuy4412501.shtml",
+   "title": "锂电“扩产潮”按下暂停键，产能摸排后审批窗口有望重启",
+   "url": "https://finance.sina.com.cn/tob/2026-09-06/doc-iniqwnma6533742.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "对话无界动力张玉峰：具身智能5年后有望对标成年人劳动能力",
-   "url": "https://finance.sina.com.cn/tech/2026-09-06/doc-iniqvzve6962934.shtml",
+   "title": "首驱启动首批2000台核心车型排产，优先保障重点门店补货",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-09-06/doc-iniqwnky6889563.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "对话无界动力张玉峰：机器人咖啡场景计划于10月底常态化运营",
-   "url": "https://finance.sina.com.cn/tech/2026-09-06/doc-iniqvzux9576161.shtml",
+   "title": "伊朗伊斯兰革命卫队称袭击油轮和美国资产 以报复美方行动",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwnky6881892.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "韩国银行的企业美元存款本月创历史新高",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqvvnz9699958.shtml",
+   "title": "韩国央行研究：美元稳定币需求或推动本币贬值",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwnky6879162.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美军公布伊朗油轮“凯洛”号沉没视频",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqvvph7055242.shtml",
+   "title": "民调显示 特朗普的支持率已降至历史最低点",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwnky6877923.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美官员：打击伊朗油轮是制裁的军事手段，不排除进一步施压",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqvvnz9675066.shtml",
+   "title": "美联储理事日程表显示存在“静默期”内与银行家会面的情况",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-06/doc-iniqwnky6874696.shtml",
    "source": "新浪科技"
   }
  ]
