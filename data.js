@@ -1,16 +1,7 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-07 10:27",
- "aihotHot": [
-  {
-   "rank": 1,
-   "title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录， cybersecurity 能力达 Critical 阈值",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.virxact.com/items/cmtnt5cb50b8mroqs7x4pukfm",
-   "time": "09-05 11:12",
-   "sourceCount": 1
-  }
- ],
+ "updatedAt": "2026-09-07 17:33",
+ "aihotHot": [],
  "aihotItems": [
   {
    "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
@@ -46,15 +37,6 @@ var WB_DATA = {
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v",
    "time": "09-06 16:00",
-   "category": "tip"
-  },
-  {
-   "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
-   "summary": "据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回。",
-   "reason": "原文基于网页快照逐项梳理数据变动细节，并给出多方的不同解读，可用于理解基准测试成绩为何容易波动和引发质疑。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtphtttc01pkroxxh8pinzq2",
-   "time": "09-06 14:46",
    "category": "tip"
   }
  ],
@@ -425,68 +407,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-07 10:27",
+   "updateTime": "2026-09-07 17:33",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "当你吃出口腔溃疡时体内正在发生什么",
-     "url": "https://www.bilibili.com/video/BV145t66AEfZ",
-     "hot": 1942847
+     "title": "乌克兰的军统和中统内斗",
+     "url": "https://www.bilibili.com/video/BV1Akbw6WECj",
+     "hot": 535660
     },
     {
-     "title": "【招笑版】新僵尸1:健忘撑杆跳",
-     "url": "https://www.bilibili.com/video/BV1Ygbj6rEQP",
-     "hot": 851337
-    },
-    {
-     "title": "华强买瓜，但死神来了",
-     "url": "https://www.bilibili.com/video/BV1UBbL6YEtN",
-     "hot": 1340060
-    },
-    {
-     "title": "【独家】牧神记 第99集 医毒斗法",
-     "url": "https://www.bilibili.com/video/BV1CYt265E6e",
-     "hot": 2335275
-    },
-    {
-     "title": "怎么有网友让我走到西藏啊…",
-     "url": "https://www.bilibili.com/video/BV1eBbH6ZEL9",
-     "hot": 624565
-    },
-    {
-     "title": "天灾降临！前方道路被龙卷风全部摧毁！我们该如何应对！！「缆车惊变100天#2」",
-     "url": "https://www.bilibili.com/video/BV1TJbx64Ejk",
-     "hot": 51878
-    },
-    {
-     "title": "三年之期已到，恭迎世一上归位！【第7集】",
-     "url": "https://www.bilibili.com/video/BV1GAbW68EcH",
-     "hot": 848416
-    },
-    {
-     "title": "《绝区零》克拉蕾EP | Link Up 血火相连",
-     "url": "https://www.bilibili.com/video/BV1C9b76cEks",
-     "hot": 1225241
-    },
-    {
-     "title": "用手还原badapple-终于还是走到了这一步",
-     "url": "https://www.bilibili.com/video/BV1tHbj6PEmH",
-     "hot": 930621
-    },
-    {
-     "title": "《下一个是谁》第七季（4）",
-     "url": "https://www.bilibili.com/video/BV1HBbE6cEc5",
-     "hot": 1493751
-    },
-    {
-     "title": "紧急公关！！！（加更）",
-     "url": "https://www.bilibili.com/video/BV1dkbx66EYs",
-     "hot": 219478
+     "title": "江苏 | 南京麦乐鸡块碎尸案",
+     "url": "https://www.bilibili.com/video/BV1E1t26KEwz",
+     "hot": 1466179
     },
     {
      "title": "香槟射马云、舞女十八蹲！许家印从首富到白毛萝莉的一生【网络狠人114】",
      "url": "https://www.bilibili.com/video/BV11dbH6LEm2",
-     "hot": 356975
+     "hot": 788311
+    },
+    {
+     "title": "月捐数年“无人问” 停捐一月遭“催捐”？四川单亲妈妈自曝“寒心”经历 多名网友评论区晒同款经历",
+     "url": "https://www.bilibili.com/video/BV1xrbs6pEjp",
+     "hot": 1192984
+    },
+    {
+     "title": "2021年度最令人讨厌歌曲TOP10！",
+     "url": "https://www.bilibili.com/video/BV18StB6hEPV",
+     "hot": 618346
+    },
+    {
+     "title": "《鸣潮》共鸣者战斗演示 | 景燃",
+     "url": "https://www.bilibili.com/video/BV1PTbL6REMT",
+     "hot": 1178587
+    },
+    {
+     "title": "【终末地1.5】全网最强基建！划时代创新科技！颠覆你对基建深度的认知！",
+     "url": "https://www.bilibili.com/video/BV1tgbW6RE6W",
+     "hot": 182949
+    },
+    {
+     "title": "华强买瓜，但死神来了",
+     "url": "https://www.bilibili.com/video/BV1UBbL6YEtN",
+     "hot": 1858872
+    },
+    {
+     "title": "海豹08能当20万轿车的守门员吗？",
+     "url": "https://www.bilibili.com/video/BV1oqbA61EGt",
+     "hot": 42711
+    },
+    {
+     "title": "什么！“紫色的蜂蜜？如果给蜜蜂喂火龙果里的天然色素，会不会吧蜂巢里的“蜂蜜”也染色？今天就来做一下实验！看看会不会酿造出“紫色的蜂蜜”！",
+     "url": "https://www.bilibili.com/video/BV1p8bj6ZEZm",
+     "hot": 1049134
+    },
+    {
+     "title": "当你吃出口腔溃疡时体内正在发生什么",
+     "url": "https://www.bilibili.com/video/BV145t66AEfZ",
+     "hot": 2567731
+    },
+    {
+     "title": "【自制动画】聊斋志异之《李伯言》",
+     "url": "https://www.bilibili.com/video/BV1gAtm69EBH",
+     "hot": 430479
     }
    ]
   }
@@ -524,38 +506,8 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "AI融资热潮下的投资人：“不迅速决策，机会就没有了”",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-07/doc-iniqyeua9575498.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "古尔曼爆料：库克将不再出镜苹果秋季发布会 特努斯担任发布会主角",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-07/doc-iniqxyne9659593.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "今晚小米澎程新车上市 发布会还没开五十多家企业祝福先到了：雷军发声",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-07/doc-iniqxynh6432155.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "闻泰科技回应“被冻结21亿资产”：财产保全措施不是对实体争议的裁判",
-   "url": "https://finance.sina.com.cn/stock/relnews/2026-09-07/doc-iniqyeua9686481.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "芯片需求拉动韩国对印度出口增幅超30%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyeue6457871.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "闻泰科技辟谣“创始人跑路海外”：系不实消息，已对抹黑行为提起诉讼",
-   "url": "https://finance.sina.com.cn/tech/2026-09-07/doc-iniqyeuh5784657.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "千问宣布接入十余家金融类智能体，覆盖理财、保险、期货等领域",
-   "url": "https://finance.sina.com.cn/tech/2026-09-07/doc-iniqyeuh5784482.shtml",
+   "title": "折叠iPhone只是开始，苹果史上最大新品潮来了",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-06/doc-iniqymaa6431733.shtml",
    "source": "新浪科技"
   },
   {
@@ -564,8 +516,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "韩元升至两年高点 外资已连日流入韩国股市",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqyeuh5778256.shtml",
+   "title": "OpenAI同日发布两份文件：AI加速时代，安全正在掉队",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-07/doc-iniqykzy9566279.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "华为FreeBuds 7 悦彰耳机发布：半入耳舒适降噪新标杆",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-07/doc-iniqyvry5558368.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "高端手表新选择：华为WATCH Ultimate 2非凡探索雪域白、迪桑特联名款正式发布",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-07/doc-iniqyvrz0388408.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "百度文心快码并入百度搭子，“BAT”AI办公竞争提速",
+   "url": "https://finance.sina.com.cn/tech/2026-09-07/doc-iniqyvrz0383318.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "比亚迪海狮08上市：云辇-A、后轮转向、天神之眼5.0全系标配，售价22.99万元起",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-07/doc-iniqyvrz0381866.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "余承东：鸿蒙终端设备数超8500万 预计四季度破亿",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-07/doc-iniqyvrw6402694.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "首款阔直板手机！华为Pura X View发布 起售价5999元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-07/doc-iniqyvrz0378258.shtml",
    "source": "新浪科技"
   }
  ]
