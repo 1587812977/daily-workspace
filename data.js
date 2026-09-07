@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-07 17:33",
+ "updatedAt": "2026-09-08 01:52",
  "aihotHot": [],
  "aihotItems": [
   {
@@ -19,24 +19,6 @@ var WB_DATA = {
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.virxact.com/items/cmtq5pxc10275roiufscxyie4",
    "time": "09-07 02:23",
-   "category": "tip"
-  },
-  {
-   "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
-   "summary": "OpenAI 发布长文《An Alien Mind》，回溯 2023 年 RLSlow 项目中确认推理模型可扩展训练的起点，并系统阐述目标对齐与价值对齐的区分。文章指出链式思维监控的效果正随着模型能力提升而逐步减弱，GPT-6 Astra 在对齐上显著优于 GPT-5.6 Sol；作者预期进展可能持续走向机器递归自我改进（RSI），呼吁自愿放缓扩展、建立第三方安全门槛并加强国际协调。",
-   "reason": "作者以内部视角回溯推理模型的起源，并给出对齐监测、CoT 监控弱化和 RSI 风险的一手判断。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.virxact.com/items/cmtq23v6k01aorotwh8xip8r1",
-   "time": "09-06 17:00",
-   "category": "tip"
-  },
-  {
-   "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
-   "summary": "OpenAI 发文披露自动化研究进展，宣布已达成去年秋天设定的今年 9 月拥有自动化研究实习生（可在人类指导下完成耗时数天的明确研究任务）的目标，并计划在 2028 年 3 月前造出自动化 AI 研究员。",
-   "reason": "OpenAI 以内部数据披露 coding agent 对研究工作的实际影响和 RSI 进展，读者可以据此了解前沿实验室的自动化研究现状。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v",
-   "time": "09-06 16:00",
    "category": "tip"
   }
  ],
@@ -407,68 +389,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-07 17:33",
+   "updateTime": "2026-09-08 01:52",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "乌克兰的军统和中统内斗",
-     "url": "https://www.bilibili.com/video/BV1Akbw6WECj",
-     "hot": 535660
+     "title": "立志成为恶兽第三集【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1HXbP6sEBq",
+     "hot": 449765
     },
     {
-     "title": "江苏 | 南京麦乐鸡块碎尸案",
-     "url": "https://www.bilibili.com/video/BV1E1t26KEwz",
-     "hot": 1466179
+     "title": "孤岛小夫 第三集",
+     "url": "https://www.bilibili.com/video/BV1wKbs67Emc",
+     "hot": 459068
     },
     {
-     "title": "香槟射马云、舞女十八蹲！许家印从首富到白毛萝莉的一生【网络狠人114】",
-     "url": "https://www.bilibili.com/video/BV11dbH6LEm2",
-     "hot": 788311
+     "title": "地表42度，美国飞行员开战斗机冲上万米高空，竟是为了做冰淇淋？【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1Mabw6cEzV",
+     "hot": 703754
     },
     {
-     "title": "月捐数年“无人问” 停捐一月遭“催捐”？四川单亲妈妈自曝“寒心”经历 多名网友评论区晒同款经历",
-     "url": "https://www.bilibili.com/video/BV1xrbs6pEjp",
-     "hot": 1192984
+     "title": "第2期（上）：“神秘技师”惊现按摩店？！【时差五小时3】",
+     "url": "https://www.bilibili.com/video/BV1Cibn6gEC2",
+     "hot": 390744
     },
     {
-     "title": "2021年度最令人讨厌歌曲TOP10！",
-     "url": "https://www.bilibili.com/video/BV18StB6hEPV",
-     "hot": 618346
+     "title": "全网首发！周年庆解密我们搞出来啦！居然是双模式！全服活动！这下知道为什么S11叫群星了，快来投稿！",
+     "url": "https://www.bilibili.com/video/BV1JEbK6xEeK",
+     "hot": 439530
     },
     {
-     "title": "《鸣潮》共鸣者战斗演示 | 景燃",
-     "url": "https://www.bilibili.com/video/BV1PTbL6REMT",
-     "hot": 1178587
+     "title": "总裁，在上海20平的“姐”景房别墅您喜欢吗？",
+     "url": "https://www.bilibili.com/video/BV1NPbL6oE8d",
+     "hot": 818868
     },
     {
      "title": "【终末地1.5】全网最强基建！划时代创新科技！颠覆你对基建深度的认知！",
      "url": "https://www.bilibili.com/video/BV1tgbW6RE6W",
-     "hot": 182949
+     "hot": 451100
     },
     {
-     "title": "华强买瓜，但死神来了",
-     "url": "https://www.bilibili.com/video/BV1UBbL6YEtN",
-     "hot": 1858872
+     "title": "武警版“恶魔引体5×10”来了，一起来挑战！",
+     "url": "https://www.bilibili.com/video/BV17Vbw6VE84",
+     "hot": 940869
     },
     {
-     "title": "海豹08能当20万轿车的守门员吗？",
-     "url": "https://www.bilibili.com/video/BV1oqbA61EGt",
-     "hot": 42711
+     "title": "神兽厨房：给终南山来的神秘骑虎客人做饭",
+     "url": "https://www.bilibili.com/video/BV1kAbp66ELr",
+     "hot": 500286
     },
     {
-     "title": "什么！“紫色的蜂蜜？如果给蜜蜂喂火龙果里的天然色素，会不会吧蜂巢里的“蜂蜜”也染色？今天就来做一下实验！看看会不会酿造出“紫色的蜂蜜”！",
-     "url": "https://www.bilibili.com/video/BV1p8bj6ZEZm",
-     "hot": 1049134
-    },
-    {
-     "title": "当你吃出口腔溃疡时体内正在发生什么",
-     "url": "https://www.bilibili.com/video/BV145t66AEfZ",
-     "hot": 2567731
+     "title": "野外遇到这种水，我到底能不能喝！ #野外 #水 #涨知识 #科普",
+     "url": "https://www.bilibili.com/video/BV1W7tB6pEAb",
+     "hot": 1405322
     },
     {
      "title": "【自制动画】聊斋志异之《李伯言》",
      "url": "https://www.bilibili.com/video/BV1gAtm69EBH",
-     "hot": 430479
+     "hot": 728243
+    },
+    {
+     "title": "4年前我设计的车，如今给小米量产了？！",
+     "url": "https://www.bilibili.com/video/BV1aabK62EyJ",
+     "hot": 162036
     }
    ]
   }
@@ -521,33 +503,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "华为FreeBuds 7 悦彰耳机发布：半入耳舒适降噪新标杆",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-07/doc-iniqyvry5558368.shtml",
+   "title": "面对特朗普觊觎格陵兰 欧盟拟投资2亿欧元加强联系",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvr0019620.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "高端手表新选择：华为WATCH Ultimate 2非凡探索雪域白、迪桑特联名款正式发布",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-07/doc-iniqyvrz0388408.shtml",
+   "title": "欧洲股市表现平淡 油价上涨与诺华下跌形成拖累",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvk9429552.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "百度文心快码并入百度搭子，“BAT”AI办公竞争提速",
-   "url": "https://finance.sina.com.cn/tech/2026-09-07/doc-iniqyvrz0383318.shtml",
+   "title": "欧洲债市：德债五连跌 各期限英债收益率走高约4个基点",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvk9428773.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "比亚迪海狮08上市：云辇-A、后轮转向、天神之眼5.0全系标配，售价22.99万元起",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-07/doc-iniqyvrz0381866.shtml",
+   "title": "卡塔尔LNG运输船罕见尝试驶出霍尔木兹海峡 出口恢复信号增强",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvq5178631.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "余承东：鸿蒙终端设备数超8500万 预计四季度破亿",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-07/doc-iniqyvrw6402694.shtml",
+   "title": "知情人士称沙特阿美位于吉赞的石油设施再次遭到袭击",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9545467.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "首款阔直板手机！华为Pura X View发布 起售价5999元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-07/doc-iniqyvrz0378258.shtml",
+   "title": "关税揣测搅动市场 伦敦期铜创出新高",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpt0131213.shtml",
    "source": "新浪科技"
   }
  ]
