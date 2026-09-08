@@ -1,51 +1,59 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-08 01:52",
+ "updatedAt": "2026-09-08 10:40",
  "aihotHot": [],
  "aihotItems": [
   {
-   "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
-   "summary": "GPT-6 Astra上线后，大量用户用它自主操控Blender、Houdini、Unity、Aseprite等专业软件，做出游戏Demo、3D复刻旧金山艺术宫等作品，其中旧金山艺术宫案例里Astra自己搜索几百张参考图、翻到美国国会图书馆的老扫描文件找柱子尺寸，多数工作在夜间自主完成。",
-   "reason": "作者从大量GPT-6 Astra操控专业软件的案例出发，讨论执行能力贬值与判断力从何而来的矛盾，视角具体。",
+   "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
+   "summary": "作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法。Computer Use花约4小时搭出天坛祈年殿，但耗掉200美刀Pro会员近半额度；MCP更快，可完成摩托车建模与组装动画，但复杂任务会单次运行超时，可拆分步骤或用CLI执行Python脚本解决。",
+   "reason": "作者实测了Computer Use、官方MCP和CLI三种方式并给出各自的速度、成本与适用边界，方法可直接照做。",
    "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.virxact.com/items/cmtqhifvf04pwrohqvdfqmfxp",
-   "time": "09-07 08:08",
+   "url": "https://aihot.virxact.com/items/cmtrxbv5n02etroftlb6u96xt",
+   "time": "09-08 08:17",
    "category": "tip"
   },
   {
-   "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
-   "summary": "OpenAI 发布内部数据称已达到自动化研究实习生里程碑，即可在人类监督下完成熟练研究员需数天的明确任务。截至 8 月中旬，其研究组织每投入 1 个人工工作日，就使用 3.1 个 agent 工作日的运行时长，该比值衡量的是运行时间而非等效生产力；原文作者援引 OpenAI 员工观点称递归自我改进或成为未来几年 AI 能力的关键，并呼吁其他 AI 公司同样公开数据。",
-   "reason": "原文给出 OpenAI 自称达到自动化研究实习生里程碑和 3.1:1 的 agent 与人力的运行时长比，可据此了解智能体在其内部研究中的渗透程度。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.virxact.com/items/cmtq5pxc10275roiufscxyie4",
-   "time": "09-07 02:23",
-   "category": "tip"
+   "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+   "summary": "据 The Information 报道，Anthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，自 2025 年 10 月以来锁定至少 14.8 GW 算力，并计划自建数据中心。",
+   "reason": "两家公司在算力扩张上的表态与实际动作形成对照，读者可以借此审视巨额算力承诺与收入规模之间的差距。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2",
+   "time": "09-08 02:12",
+   "category": "industry"
+  },
+  {
+   "title": "最高法发布涉人工智能纠纷案件审理意见，明确 AI 换脸拟声等裁判规则",
+   "summary": "最高人民法院发布《关于依法审理涉人工智能纠纷案件的意见》，共 5 部分 24 条，明确 AI 换脸拟声、AI 复活逝者、大数据杀熟、仿冒名人带货、网络开盒及自动驾驶事故等情形的裁判规则。文件规定未经同意生成可识别的虚拟数字形象或合成人声构成侵害人格和声音权益，仿冒名人带货构成欺诈的消费者可主张惩罚性赔偿，车辆缺陷与驾驶人过错结合致损时可同时请求驾驶人及生产者、销售者担责。",
+   "reason": "原文梳理了意见覆盖的侵权、知识产权、自动驾驶等裁判规则要点，读者可以据此了解涉 AI 纠纷的责任认定走向。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.virxact.com/items/cmtqy60930445ro7r5nodgoig",
+   "time": "09-07 15:46",
+   "category": "industry"
   }
  ],
  "aiDaily": {
-  "date": "2026-09-07",
-  "url": "https://aihot.virxact.com/daily/2026-09-07",
+  "date": "2026-09-08",
+  "url": "https://aihot.virxact.com/daily/2026-09-08",
   "sections": [
+   {
+    "label": "行业动态",
+    "items": [
+     {
+      "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+      "summary": "据 The Information 报道，Anthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，自 2025 年 10 月以来锁定至少 14.8 GW 算力，并计划自建数据中心。",
+      "source": "The Decoder：AI News（RSS）",
+      "url": "https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2"
+     }
+    ]
+   },
    {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
-      "summary": "OpenAI 发文披露自动化研究进展，宣布已达成去年秋天设定的今年 9 月拥有自动化研究实习生（可在人类指导下完成耗时数天的明确研究任务）的目标，并计划在 2028 年 3 月前造出自动化 AI 研究员。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v"
-     },
-     {
-      "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
-      "summary": "据 Fortune 报道，OpenAI 自 9 月 3 日发布 GPT-6 Astra 公告以来多次修改评测基准数据：Astra 幻觉率曾从 4.2% 降至 2% 后又改回。",
-      "source": "IT之家（RSS）",
-      "url": "https://aihot.virxact.com/items/cmtphtttc01pkroxxh8pinzq2"
-     },
-     {
-      "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
-      "summary": "OpenAI 发布长文《An Alien Mind》，回溯 2023 年 RLSlow 项目中确认推理模型可扩展训练的起点，并系统阐述目标对齐与价值对齐的区分。文章指出链式思维监控的效果正随着模型能力提升而逐步减弱，GPT‑6 Astra 在对齐上显著优于 GPT‑5.6 Sol；作者预期进展可能持续走向机器递归自我改进（RSI），呼吁自愿放缓扩展、建立第三方安全门槛并加强国际协调。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.virxact.com/items/cmtq23v6k01aorotwh8xip8r1"
+      "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
+      "summary": "GPT-6 Astra上线后，大量用户用它自主操控Blender、Houdini、Unity、Aseprite等专业软件，做出游戏Demo、3D复刻旧金山艺术宫等作品，其中旧金山艺术宫案例里Astra自己搜索几百张参考图、翻到美国国会图书馆的老扫描文件找柱子尺寸，多数工作在夜间自主完成。",
+      "source": "公众号：数字生命卡兹克",
+      "url": "https://aihot.virxact.com/items/cmtqhifvf04pwrohqvdfqmfxp"
      }
     ]
    }
@@ -389,68 +397,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-08 01:52",
+   "updateTime": "2026-09-08 10:40",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "假如你生活在十万人的宿舍",
+     "url": "https://www.bilibili.com/video/BV138bP6gEvx",
+     "hot": 502287
+    },
+    {
      "title": "立志成为恶兽第三集【AI全民制作人】",
      "url": "https://www.bilibili.com/video/BV1HXbP6sEBq",
-     "hot": 449765
+     "hot": 963307
     },
     {
-     "title": "孤岛小夫 第三集",
-     "url": "https://www.bilibili.com/video/BV1wKbs67Emc",
-     "hot": 459068
-    },
-    {
-     "title": "地表42度，美国飞行员开战斗机冲上万米高空，竟是为了做冰淇淋？【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1Mabw6cEzV",
-     "hot": 703754
+     "title": "《真千金她真没有背景通天》1-31",
+     "url": "https://www.bilibili.com/video/BV14zbs69EGL",
+     "hot": 280961
     },
     {
      "title": "第2期（上）：“神秘技师”惊现按摩店？！【时差五小时3】",
      "url": "https://www.bilibili.com/video/BV1Cibn6gEC2",
-     "hot": 390744
-    },
-    {
-     "title": "全网首发！周年庆解密我们搞出来啦！居然是双模式！全服活动！这下知道为什么S11叫群星了，快来投稿！",
-     "url": "https://www.bilibili.com/video/BV1JEbK6xEeK",
-     "hot": 439530
-    },
-    {
-     "title": "总裁，在上海20平的“姐”景房别墅您喜欢吗？",
-     "url": "https://www.bilibili.com/video/BV1NPbL6oE8d",
-     "hot": 818868
-    },
-    {
-     "title": "【终末地1.5】全网最强基建！划时代创新科技！颠覆你对基建深度的认知！",
-     "url": "https://www.bilibili.com/video/BV1tgbW6RE6W",
-     "hot": 451100
-    },
-    {
-     "title": "武警版“恶魔引体5×10”来了，一起来挑战！",
-     "url": "https://www.bilibili.com/video/BV17Vbw6VE84",
-     "hot": 940869
+     "hot": 415275
     },
     {
      "title": "神兽厨房：给终南山来的神秘骑虎客人做饭",
      "url": "https://www.bilibili.com/video/BV1kAbp66ELr",
-     "hot": 500286
+     "hot": 660034
     },
     {
-     "title": "野外遇到这种水，我到底能不能喝！ #野外 #水 #涨知识 #科普",
-     "url": "https://www.bilibili.com/video/BV1W7tB6pEAb",
-     "hot": 1405322
+     "title": "「中国女主播连续跳舞4到6小时，几乎不停歇」的视频在外网引发热议。网友辣评：这看起来简直像《黑镜》里的情节。",
+     "url": "https://www.bilibili.com/video/BV1d4tR6nEDb",
+     "hot": 815780
+    },
+    {
+     "title": "孤岛小夫 第三集",
+     "url": "https://www.bilibili.com/video/BV1wKbs67Emc",
+     "hot": 768282
+    },
+    {
+     "title": "刚刚：德国选择党历史性狂胜 选举结果显示什么？",
+     "url": "https://www.bilibili.com/video/BV1EqbN6sEkU",
+     "hot": 537083
+    },
+    {
+     "title": "地表42度，美国飞行员开战斗机冲上万米高空，竟是为了做冰淇淋？【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1Mabw6cEzV",
+     "hot": 913380
     },
     {
      "title": "【自制动画】聊斋志异之《李伯言》",
      "url": "https://www.bilibili.com/video/BV1gAtm69EBH",
-     "hot": 728243
+     "hot": 843140
     },
     {
-     "title": "4年前我设计的车，如今给小米量产了？！",
-     "url": "https://www.bilibili.com/video/BV1aabK62EyJ",
-     "hot": 162036
+     "title": "《解 救 姜 哥》",
+     "url": "https://www.bilibili.com/video/BV1ChbT6KE62",
+     "hot": 273792
+    },
+    {
+     "title": "和偷外卖的较量一番",
+     "url": "https://www.bilibili.com/video/BV1f4bH6NEu6",
+     "hot": 1067412
     }
    ]
   }
@@ -473,63 +481,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "百度纳入港股通，9月7日起内地投资者可直投",
-   "url": "https://finance.sina.com.cn/stock/relnews/2026-09-07/doc-iniqyeui0568442.shtml",
+   "title": "DeepSeek一口气扩招150人！0个AI研究岗",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-09-08/doc-iniraite6059201.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "销量暴涨371%！中国车企却在欧洲被经销商追欠款半年",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-07/doc-iniqxyne9648200.shtml",
+   "title": "补贴退坡 新能源汽车凭实力“霸榜”",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-09-08/doc-iniraita9279642.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "影石与大疆苦战一年：从千亿市值，到利润归零",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-09-07/doc-iniqyeue6330088.shtml",
+   "title": "用竹子做的无人机出现了：整机仅重7kg、平飞时速可达百公里！",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-09-08/doc-iniraite6079991.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "折叠iPhone只是开始，苹果史上最大新品潮来了",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-06/doc-iniqymaa6431733.shtml",
+   "title": "6G 手机加速：我国计划 2030 年全面建成性能领先的新一代通信网",
+   "url": "https://finance.sina.com.cn/tech/digi/2026-09-08/doc-iniraita9249136.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "摩尔线程回应20cm跌停：2500万股解禁，请理性看待",
-   "url": "https://finance.sina.com.cn/stock/2026-09-07/doc-iniqyeua9679507.shtml",
+   "title": "传张一鸣复出督战字节“世界模型”：与Pico头显打通实时生成视频画面",
+   "url": "https://finance.sina.com.cn/tech/internet/2026-09-08/doc-inirapza5998808.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OpenAI同日发布两份文件：AI加速时代，安全正在掉队",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-07/doc-iniqykzy9566279.shtml",
+   "title": "对冲基金行业迈入新的巨头时代 Millennium资产规模逼近1000亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniraite6066163.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "面对特朗普觊觎格陵兰 欧盟拟投资2亿欧元加强联系",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvr0019620.shtml",
+   "title": "抖音被指播出假冒军人视频 客服回应：平台会根据举报重新审核",
+   "url": "https://finance.sina.com.cn/tech/2026-09-08/doc-inirapze9673771.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧洲股市表现平淡 油价上涨与诺华下跌形成拖累",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvk9429552.shtml",
+   "title": "Waymo无人车随手体验：没司机挺奇妙，不用给小费更是巨大优势",
+   "url": "https://finance.sina.com.cn/tech/2026-09-08/doc-inirapze9673383.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧洲债市：德债五连跌 各期限英债收益率走高约4个基点",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvk9428773.shtml",
+   "title": "新一代理想MEGA发布：搭载最新理想马赫智驾平台，售价50.98万元",
+   "url": "https://finance.sina.com.cn/tech/2026-09-08/doc-inirapyy9279964.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "卡塔尔LNG运输船罕见尝试驶出霍尔木兹海峡 出口恢复信号增强",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniqzsvq5178631.shtml",
+   "title": "Xiaomi 18 Fold 上手：“中折叠” 好在哪？",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-09-08/doc-iniqzhfs6377327.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "知情人士称沙特阿美位于吉赞的石油设施再次遭到袭击",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpn9545467.shtml",
+   "title": "传张一鸣复出督战字节“世界模型”：与Pico头显打通实时生成视频画面，亲自调兵遣将",
+   "url": "https://finance.sina.com.cn/tech/internet/2026-09-08/doc-inirapza5998808.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "关税揣测搅动市场 伦敦期铜创出新高",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-07/doc-iniqznpt0131213.shtml",
+   "title": "德意志银行：挪威主权财富基金拟调整配置策略 料大举增持日本国债",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirapza5968074.shtml",
    "source": "新浪科技"
   }
  ]
