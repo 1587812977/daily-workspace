@@ -1,8 +1,51 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-08 10:40",
- "aihotHot": [],
+ "updatedAt": "2026-09-08 16:58",
+ "aihotHot": [
+  {
+   "rank": 1,
+   "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
+   "source": "Mistral AI：News（网页）",
+   "url": "https://aihot.virxact.com/items/cmts9dr2m029hrobq86wrny37",
+   "time": "09-08 16:13",
+   "sourceCount": 7
+  },
+  {
+   "rank": 2,
+   "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmtpzyon6019iroemu68v4s2v",
+   "time": "09-07 21:25",
+   "sourceCount": 7
+  },
+  {
+   "rank": 3,
+   "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.virxact.com/items/cmtq23v6k01aorotwh8xip8r1",
+   "time": "09-07 19:39",
+   "sourceCount": 4
+  }
+ ],
  "aihotItems": [
+  {
+   "title": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
+   "summary": "特里斯坦·巴克马斯特（Tristan Buckmaster）与 Levent Alpöge 公开三项有限时间 blowup 结果，涵盖带光滑强迫的不可压缩多孔介质方程。",
+   "reason": "作者亲历描述用 LLM 完成偏微分方程 blowup 证明的过程，并公开与 OpenAI 沟通的时间线，为评估 AI 参与前沿数学研究提供了第一手材料。",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.virxact.com/items/cmtscjydz01garow6gi54pft9",
+   "time": "09-08 15:20",
+   "category": "tip"
+  },
+  {
+   "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
+   "summary": "Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。",
+   "reason": "融资公告由公司官方发布，给出了金额、估值、领投方和资金用途，读者可以据此了解欧洲主权 AI 阵营的资本动向。",
+   "source": "Mistral AI：News（网页）",
+   "url": "https://aihot.virxact.com/items/cmts9dr2m029hrobq86wrny37",
+   "time": "09-08 13:58",
+   "category": "industry"
+  },
   {
    "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
    "summary": "作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法。Computer Use花约4小时搭出天坛祈年殿，但耗掉200美刀Pro会员近半额度；MCP更快，可完成摩托车建模与组装动画，但复杂任务会单次运行超时，可拆分步骤或用CLI执行Python脚本解决。",
@@ -19,15 +62,6 @@ var WB_DATA = {
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.virxact.com/items/cmtrkorpo07jdrotnozlrlyx2",
    "time": "09-08 02:12",
-   "category": "industry"
-  },
-  {
-   "title": "最高法发布涉人工智能纠纷案件审理意见，明确 AI 换脸拟声等裁判规则",
-   "summary": "最高人民法院发布《关于依法审理涉人工智能纠纷案件的意见》，共 5 部分 24 条，明确 AI 换脸拟声、AI 复活逝者、大数据杀熟、仿冒名人带货、网络开盒及自动驾驶事故等情形的裁判规则。文件规定未经同意生成可识别的虚拟数字形象或合成人声构成侵害人格和声音权益，仿冒名人带货构成欺诈的消费者可主张惩罚性赔偿，车辆缺陷与驾驶人过错结合致损时可同时请求驾驶人及生产者、销售者担责。",
-   "reason": "原文梳理了意见覆盖的侵权、知识产权、自动驾驶等裁判规则要点，读者可以据此了解涉 AI 纠纷的责任认定走向。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.virxact.com/items/cmtqy60930445ro7r5nodgoig",
-   "time": "09-07 15:46",
    "category": "industry"
   }
  ],
@@ -397,68 +431,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-08 10:40",
+   "updateTime": "2026-09-08 16:58",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "假如你生活在十万人的宿舍",
-     "url": "https://www.bilibili.com/video/BV138bP6gEvx",
-     "hot": 502287
+     "title": "《鸣潮》共鸣者「景燃」PV | “问神”",
+     "url": "https://www.bilibili.com/video/BV1uMbg6SEnL",
+     "hot": 495396
     },
     {
-     "title": "立志成为恶兽第三集【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1HXbP6sEBq",
-     "hot": 963307
+     "title": "新学期刚到学校，发现学校倒闭了",
+     "url": "https://www.bilibili.com/video/BV1uQbc6bEYp",
+     "hot": 745029
     },
     {
-     "title": "《真千金她真没有背景通天》1-31",
-     "url": "https://www.bilibili.com/video/BV14zbs69EGL",
-     "hot": 280961
+     "title": "实验！被洋辣子蜇到后，用它的体液涂抹能止疼吗？",
+     "url": "https://www.bilibili.com/video/BV1cobK68EoG",
+     "hot": 296444
     },
     {
      "title": "第2期（上）：“神秘技师”惊现按摩店？！【时差五小时3】",
      "url": "https://www.bilibili.com/video/BV1Cibn6gEC2",
-     "hot": 415275
+     "hot": 468026
     },
     {
-     "title": "神兽厨房：给终南山来的神秘骑虎客人做饭",
-     "url": "https://www.bilibili.com/video/BV1kAbp66ELr",
-     "hot": 660034
+     "title": "《阴阳师》石长姬CG丨拾光永恒（CV：小清水亚美）",
+     "url": "https://www.bilibili.com/video/BV1W3bK6cE37",
+     "hot": 661471
     },
     {
-     "title": "「中国女主播连续跳舞4到6小时，几乎不停歇」的视频在外网引发热议。网友辣评：这看起来简直像《黑镜》里的情节。",
-     "url": "https://www.bilibili.com/video/BV1d4tR6nEDb",
-     "hot": 815780
+     "title": "真《晚安，敖鲁古雅》真睡升顶帐篷小米澎程。澎程N90 Max探索版穿越大兴安岭睡觉全体验。晚安敖鲁古雅。",
+     "url": "https://www.bilibili.com/video/BV1LtbK6JE5V",
+     "hot": 404611
+    },
+    {
+     "title": "开学舍友把宿舍改造成了海洋馆",
+     "url": "https://www.bilibili.com/video/BV13abK62ECA",
+     "hot": 337297
+    },
+    {
+     "title": "假如你生活在十万人的宿舍",
+     "url": "https://www.bilibili.com/video/BV138bP6gEvx",
+     "hot": 1139210
+    },
+    {
+     "title": "《最会做菜の一集》",
+     "url": "https://www.bilibili.com/video/BV1qUbu6aEuo",
+     "hot": 354588
+    },
+    {
+     "title": "真实事件改编，史上最离谱的劫机案！韩国政府这波极限忽悠我给满分《凶降喜讯》",
+     "url": "https://www.bilibili.com/video/BV1Wqbn6zEbn",
+     "hot": 1220889
+    },
+    {
+     "title": "《真千金她真没有背景通天》1-31",
+     "url": "https://www.bilibili.com/video/BV14zbs69EGL",
+     "hot": 543545
     },
     {
      "title": "孤岛小夫 第三集",
      "url": "https://www.bilibili.com/video/BV1wKbs67Emc",
-     "hot": 768282
-    },
-    {
-     "title": "刚刚：德国选择党历史性狂胜 选举结果显示什么？",
-     "url": "https://www.bilibili.com/video/BV1EqbN6sEkU",
-     "hot": 537083
-    },
-    {
-     "title": "地表42度，美国飞行员开战斗机冲上万米高空，竟是为了做冰淇淋？【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1Mabw6cEzV",
-     "hot": 913380
-    },
-    {
-     "title": "【自制动画】聊斋志异之《李伯言》",
-     "url": "https://www.bilibili.com/video/BV1gAtm69EBH",
-     "hot": 843140
-    },
-    {
-     "title": "《解 救 姜 哥》",
-     "url": "https://www.bilibili.com/video/BV1ChbT6KE62",
-     "hot": 273792
-    },
-    {
-     "title": "和偷外卖的较量一番",
-     "url": "https://www.bilibili.com/video/BV1f4bH6NEu6",
-     "hot": 1067412
+     "hot": 1192627
     }
    ]
   }
@@ -496,48 +530,48 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "6G 手机加速：我国计划 2030 年全面建成性能领先的新一代通信网",
-   "url": "https://finance.sina.com.cn/tech/digi/2026-09-08/doc-iniraita9249136.shtml",
-   "source": "新浪科技"
-  },
-  {
    "title": "传张一鸣复出督战字节“世界模型”：与Pico头显打通实时生成视频画面",
    "url": "https://finance.sina.com.cn/tech/internet/2026-09-08/doc-inirapza5998808.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "对冲基金行业迈入新的巨头时代 Millennium资产规模逼近1000亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-iniraite6066163.shtml",
+   "title": "应届生举报引发ESG危机，星宇股份还能在港交所上市吗？",
+   "url": "https://finance.sina.com.cn/stock/relnews/2026-09-08/doc-inirayqw5987992.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "抖音被指播出假冒军人视频 客服回应：平台会根据举报重新审核",
-   "url": "https://finance.sina.com.cn/tech/2026-09-08/doc-inirapze9673771.shtml",
+   "title": "抖音用户使用时长首超微信！红果日活用户超越四大视频平台总和",
+   "url": "https://finance.sina.com.cn/stock/2026-09-08/doc-inirayqw6001298.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Waymo无人车随手体验：没司机挺奇妙，不用给小费更是巨大优势",
-   "url": "https://finance.sina.com.cn/tech/2026-09-08/doc-inirapze9673383.shtml",
+   "title": "系统级Agent Harness架构商用落地MagicOS 11，荣耀Magic9系列将首发搭载",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-08/doc-inirceww4606038.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "新一代理想MEGA发布：搭载最新理想马赫智驾平台，售价50.98万元",
-   "url": "https://finance.sina.com.cn/tech/2026-09-08/doc-inirapyy9279964.shtml",
+   "title": "日元走强叠加债券收益率上行 比特币及风险资产承压下挫",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4604942.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Xiaomi 18 Fold 上手：“中折叠” 好在哪？",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-09-08/doc-iniqzhfs6377327.shtml",
+   "title": "能源价格上涨 德国10年期国债收益率升至15年高点",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirceww4603033.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "传张一鸣复出督战字节“世界模型”：与Pico头显打通实时生成视频画面，亲自调兵遣将",
-   "url": "https://finance.sina.com.cn/tech/internet/2026-09-08/doc-inirapza5998808.shtml",
+   "title": "微信回应“视频号崩了”：服务器出现抖动，导致部分功能出现异常",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-08/doc-inirceww9434055.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "德意志银行：挪威主权财富基金拟调整配置策略 料大举增持日本国债",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inirapza5968074.shtml",
+   "title": "Marathon资管：只要通胀得到良好控制 美联储应允许经济“稍热一些”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircews9229238.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "日元兑美元走强至100关口虽属极端情景 但并非绝无可能",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircews9212452.shtml",
    "source": "新浪科技"
   }
  ]
