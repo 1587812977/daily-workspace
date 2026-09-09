@@ -1,9 +1,25 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-09 00:48",
+ "updatedAt": "2026-09-09 10:40",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
+   "time": "09-09 10:09",
+   "sourceCount": 20
+  },
+  {
+   "rank": 2,
+   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
+   "time": "09-09 08:07",
+   "sourceCount": 11
+  },
+  {
+   "rank": 3,
    "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
    "source": "Mistral AI：News（网页）",
    "url": "https://aihot.news/items/cmts9dr2m029hrobq86wrny37",
@@ -11,81 +27,227 @@ var WB_DATA = {
    "sourceCount": 11
   },
   {
-   "rank": 2,
-   "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmtq5pxc10275roiufscxyie4",
-   "time": "09-07 21:25",
-   "sourceCount": 5
+   "rank": 4,
+   "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
+   "source": "Runway：News（网页）",
+   "url": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w",
+   "time": "09-09 05:58",
+   "sourceCount": 2
   },
   {
-   "rank": 3,
-   "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtq23v6k01aorotwh8xip8r1",
-   "time": "09-07 19:39",
+   "rank": 5,
+   "title": "Anthropic 发布 Claude Platform 降本指南：提示词缓存、清理反模式与校准 effort",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/cmtsz50zn02mtro5w6ywm1xml",
+   "time": "09-09 01:59",
+   "sourceCount": 2
+  },
+  {
+   "rank": 6,
+   "title": "Meta 智能体产品 Muse 开放体验，官方回应用户好评",
+   "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+   "url": "https://aihot.news/items/cmttchnc104jvrofp05adlcv6",
+   "time": "09-09 08:13",
+   "sourceCount": 2
+  },
+  {
+   "rank": 7,
+   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型及 GPT‑Image‑2.5 Flare、Sunburst 两款 API 模型",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/cmtt2a52z01m6rowakt1hp686",
+   "time": "09-09 06:37",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
+   "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix",
+   "time": "09-09 01:57",
    "sourceCount": 3
+  },
+  {
+   "rank": 9,
+   "title": "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑",
+   "source": "X：Emad Mostaque (@EMostaque)",
+   "url": "https://aihot.news/items/cmtsyfj5p01qgro5wfoz5h410",
+   "time": "09-09 01:57",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
   {
-   "title": "Berkeley RDI 发布开源平台 CUA-Lite，面向计算机使用智能体",
-   "summary": "Berkeley RDI 推出开源平台 CUA-Lite，为计算机使用智能体提供三个标准化抽象。其环境接口下运行 15+ 个覆盖桌面、浏览器和移动端的基准，并提供含 30k+ 可验证任务的免 VM 桌面沙箱；统一监督数据格式已转换 10+ 个公开 CUA 数据集；每模型一个 harness 在评测、SFT 和 RL 间共享，支持 14 个模型族。",
-   "reason": "原文说明了平台的三项标准化抽象及覆盖规模，读者可以据此评估它在整合分散的计算机使用智能体资源上的可用性。",
-   "source": "Berkeley RDI：Blog（AI 安全与评测）",
-   "url": "https://aihot.news/items/cmtsqn93g024jrokaxle3za5f",
-   "time": "09-07 00:00",
+   "title": "GPT-6 Astra推理等级怎么选才最省Token",
+   "summary": "卡兹克发文讲解GPT-6 Astra的推理强度等级（Reasoning Effort）含义，指出各档位是同一模型的不同思考预算，Ultra则类似拉起多个智能体协作的专项工作组。",
+   "reason": "作者基于烧完两个200刀会员的第一手使用体感，给出推理等级的通俗解释和分档位省Token的具体用法。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/cmttcqkx404pprofp0jwc34zu",
+   "time": "09-09 08:09",
+   "category": "tip"
+  },
+  {
+   "title": "Meta 智能体产品 Muse 开放体验，官方回应用户好评",
+   "summary": "Meta 的 Muse 智能体产品开放更多用户试用，入口为 https://muse.ai/join，Meta 首席 AI 官 Alexandr Wang 称团队为产品倾注心血并感谢用户反响。引用的评价称其设计、速度和浏览器等智能体流程表现出色，具备 Instagram 等 Meta 产品原生集成优势，但也指出 soul.md 等命名对普通用户不直观、feed 内容相关性不足等问题。",
+   "reason": "Meta 官方回应 Muse 上线后的用户反馈，并给出体验入口，附引用评价列出了产品亮点与不足。",
+   "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+   "url": "https://aihot.news/items/cmttchnc104jvrofp05adlcv6",
+   "time": "09-09 07:48",
    "category": "ai-products"
   },
   {
-   "title": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
-   "summary": "特里斯坦·巴克马斯特（Tristan Buckmaster）与 Levent Alpöge 公开三项有限时间 blowup 结果，涵盖带光滑强迫的不可压缩多孔介质方程。",
-   "reason": "作者亲历描述用 LLM 完成偏微分方程 blowup 证明的过程，并公开与 OpenAI 沟通的时间线，为评估 AI 参与前沿数学研究提供了第一手材料。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/cmtscjydz01garow6gi54pft9",
-   "time": "09-08 15:20",
+   "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
+   "summary": "OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 token。",
+   "reason": "作者对比双方陈述并追问数据使用边界，提出了未发表数学解是否会被后续模型抢先的尖锐问题。",
+   "source": "Simon Willison 博客",
+   "url": "https://aihot.news/items/cmttbyra803k5rofpxjajvkez",
+   "time": "09-09 07:55",
    "category": "tip"
   },
   {
-   "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-   "summary": "Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。",
-   "reason": "融资公告由公司官方发布，给出了金额、估值、领投方和资金用途，读者可以据此了解欧洲主权 AI 阵营的资本动向。",
-   "source": "Mistral AI：News（网页）",
-   "url": "https://aihot.news/items/cmts9dr2m029hrobq86wrny37",
-   "time": "09-08 13:58",
-   "category": "industry"
+   "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
+   "summary": "Runway 发布 Runway Plugins，新面板可直接嵌入 Premiere Pro 和 After Effects，在时间线内生成图像和视频、重绘片段并放置结果。Edit Studio 可基于已有片段用 Aleph 2 按原始时长重新渲染，插件免费下载（macOS 和 Windows），生成功能面向所有付费计划并消耗现有额度。",
+   "reason": "官方说明插件如何把生成、重绘和增强接入现有时间线工作流，可帮助剪辑用户评估是否省去导出再导入的往返。",
+   "source": "Runway：News（网页）",
+   "url": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w",
+   "time": "09-09 05:58",
+   "category": "ai-products"
   },
   {
-   "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
-   "summary": "作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法。Computer Use花约4小时搭出天坛祈年殿，但耗掉200美刀Pro会员近半额度；MCP更快，可完成摩托车建模与组装动画，但复杂任务会单次运行超时，可拆分步骤或用CLI执行Python脚本解决。",
-   "reason": "作者实测了Computer Use、官方MCP和CLI三种方式并给出各自的速度、成本与适用边界，方法可直接照做。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/cmtrxbv5n02etroftlb6u96xt",
-   "time": "09-08 08:17",
+   "title": "OpenAI 向 Plus、Pro、Business 和 Enterprise 用户全面推送 Astra",
+   "summary": "OpenAI 宣布 Astra 已全面推送给 Codex 和 ChatGPT Work 中的 Plus、Pro、Business 和 Enterprise 用户。用户可以直接使用，并可通过 openai.com/gpt-tv/ 观看 Astra 的实机演示。",
+   "reason": "原文给出了 Astra 的正式开放范围和覆盖产品，读者可以确认自己的订阅计划是否已可用。",
+   "source": "X：OpenAI (@OpenAI)",
+   "url": "https://aihot.news/items/cmtt65r1002f0rocpzpypdjgt",
+   "time": "09-09 05:06",
+   "category": "ai-products"
+  },
+  {
+   "title": "Tom Tunguz 分析 OpenAI 的 3x AI 生产力增益是否只是机器不睡觉",
+   "summary": "Tom Tunguz 引用 OpenAI 内部数据，分析其 3x 研究生产力增益的来源：每名研究员 8 小时班次对应 3.14 个 agent 工作日，通常并行运行 4 个 agent。",
+   "reason": "文章用 OpenAI 自己披露的数据拆解 3x 生产力说法，指出其中一半工作仍需人工干预且推理成本激增 40 倍。",
+   "source": "Tomer Tunguz 博客（VC 分析）",
+   "url": "https://aihot.news/items/cmtt3hrxg02xarowa0a6iz1dc",
+   "time": "09-08 08:00",
    "category": "tip"
   },
   {
-   "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
-   "summary": "据 The Information 报道，Anthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，自 2025 年 10 月以来锁定至少 14.8 GW 算力，并计划自建数据中心。",
-   "reason": "两家公司在算力扩张上的表态与实际动作形成对照，读者可以借此审视巨额算力承诺与收入规模之间的差距。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmtrkorpo07jdrotnozlrlyx2",
-   "time": "09-08 02:12",
+   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
+   "summary": "OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升。",
+   "reason": "官方原文给出与 Images 2.0 的具体对比数据、新功能入口和 API 双模型分工，读者可以据此评估是否迁移现有图像工作流。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
+   "time": "09-08 19:30",
+   "category": "ai-models"
+  },
+  {
+   "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
+   "summary": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
+   "reason": "Sam Altman 一方就 Navier-Stokes 证明争议公开己方叙述，读者可以对照双方说法理解这场跨公司协调纠纷。",
+   "source": "X：Sam Altman (@sama)",
+   "url": "https://aihot.news/items/cmtszfjuo04a7ro5wxi2n02va",
+   "time": "09-09 02:02",
+   "category": "tip"
+  },
+  {
+   "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+   "summary": "NYU 数学教授 Tristan Buckmaster 与 Anthropic 数学家 Levent Alpöge 公布针对 Navier-Stokes 存在与光滑性这一千禧年难题的三项证明初步结果，并称其研究进展信息被泄露给 OpenAI，对方随后用大量算力沿其独特路线追赶证明。",
+   "reason": "原文记录了数学家与 OpenAI 就千年难题证明优先权展开的争议细节，以及双方各自的公开回应，可帮读者了解 AI 参与数学研究引发的信任问题。",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix",
+   "time": "09-09 01:32",
    "category": "industry"
+  },
+  {
+   "title": "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑",
+   "summary": "Emad Mostaque 转发 OpenAI 的公告并评论称这是迈向 ASI 的里程碑事件。OpenAI 宣布由一组智能体使用显著强于 GPT-6 Astra 的下一代模型，给出了 Navier-Stokes 千禧年大奖难题的一个 blow up 解，该问题涉及三维光滑流体运动的描述是否会崩溃，约 90 年未解。",
+   "reason": "作者以当事人视角转发 OpenAI 用智能体群体证明 Navier-Stokes 千禧年难题的消息，并补充了自己的解读。",
+   "source": "X：Emad Mostaque (@EMostaque)",
+   "url": "https://aihot.news/items/cmtsyfj5p01qgro5wfoz5h410",
+   "time": "09-09 01:35",
+   "category": "tip"
+  },
+  {
+   "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
+   "summary": "OpenAI 宣布其内部 AI 系统给出 Navier-Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。",
+   "reason": "OpenAI 自述用内部模型与上万智能体给出 Navier–Stokes 奇点证明和 Lean 形式化，还交代了欧拉方程副产物与协作细节。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
+   "time": "09-08 18:00",
+   "category": "paper"
+  },
+  {
+   "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
+   "summary": "OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年。",
+   "reason": "原文补充了数据隔离说明，并指出其 Euler 情形证明结果与 Alpöge 和 Buckmaster 的工作不同，读者可据此比较两条独立证明路径。",
+   "source": "X：OpenAI (@OpenAI)",
+   "url": "https://aihot.news/items/cmtsynojw01xqro5wb8n7ysor",
+   "time": "09-09 01:23",
+   "category": "paper"
   }
  ],
  "aiDaily": {
-  "date": "2026-09-08",
-  "url": "https://aihot.news/daily/2026-09-08",
+  "date": "2026-09-09",
+  "url": "https://aihot.news/daily/2026-09-09",
   "sections": [
+   {
+    "label": "模型发布/更新",
+    "items": [
+     {
+      "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
+      "summary": "OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092"
+     }
+    ]
+   },
+   {
+    "label": "产品发布/更新",
+    "items": [
+     {
+      "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
+      "summary": "Runway 发布 Runway Plugins，新面板可直接嵌入 Premiere Pro 和 After Effects，在时间线内生成图像和视频、重绘片段并放置结果。Edit Studio 可基于已有片段用 Aleph 2 按原始时长重新渲染，插件免费下载（macOS 和 Windows），生成功能面向所有付费计划并消耗现有额度。",
+      "source": "Runway：News（网页）",
+      "url": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w"
+     },
+     {
+      "title": "OpenAI 向 Plus、Pro、Business 和 Enterprise 用户全面推送 Astra",
+      "summary": "OpenAI 宣布 Astra 已全面推送给 Codex 和 ChatGPT Work 中的 Plus、Pro、Business 和 Enterprise 用户。用户可以直接使用，并可通过 openai.com/gpt-tv/ 观看 Astra 的实机演示。",
+      "source": "X：OpenAI (@OpenAI)",
+      "url": "https://aihot.news/items/cmtt65r1002f0rocpzpypdjgt"
+     }
+    ]
+   },
    {
     "label": "行业动态",
     "items": [
      {
-      "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
-      "summary": "据 The Information 报道，Anthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，自 2025 年 10 月以来锁定至少 14.8 GW 算力，并计划自建数据中心。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/cmtrkorpo07jdrotnozlrlyx2"
+      "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+      "summary": "NYU 数学教授 Tristan Buckmaster 与 Anthropic 数学家 Levent Alpöge 公布针对 Navier-Stokes 存在与光滑性这一千禧年难题的三项证明初步结果，并称其研究进展信息被泄露给 OpenAI，对方随后用大量算力沿其独特路线追赶证明。",
+      "source": "TechCrunch：AI（RSS）",
+      "url": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix"
+     },
+     {
+      "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
+      "summary": "Mistral 宣布完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，公司称这是欧洲科技公司有史以来最大的股权融资，距其成立三年。",
+      "source": "Mistral AI：News（网页）",
+      "url": "https://aihot.news/items/cmts9dr2m029hrobq86wrny37"
+     }
+    ]
+   },
+   {
+    "label": "论文研究",
+    "items": [
+     {
+      "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
+      "summary": "OpenAI 宣布其内部 AI 系统给出 Navier–Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6"
+     },
+     {
+      "title": "Dwarkesh Patel 研究：预训练进步主要来自数据改进",
+      "summary": "Dwarkesh Patel 发布实验分析，在最高 1e19 FLOPs 的算力预算下训练 2019 至 2025 年各年度代表性模型配方与数据语料，发现数据改进带来 12.0x 算力效率提升，模型改进为 3.7x，数据贡献约为模型的 3.24 倍。",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "url": "https://aihot.news/items/cmtsx0wm4041jrob5liwjypsq"
      }
     ]
    },
@@ -93,10 +255,40 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
-      "summary": "GPT-6 Astra上线后，大量用户用它自主操控Blender、Houdini、Unity、Aseprite等专业软件，做出游戏Demo、3D复刻旧金山艺术宫等作品，其中旧金山艺术宫案例里Astra自己搜索几百张参考图、翻到美国国会图书馆的老扫描文件找柱子尺寸，多数工作在夜间自主完成。",
+      "title": "数学家巴克马斯特宣布多项方程 blowup 结果并公开与 OpenAI 沟通经过",
+      "summary": "特里斯坦·巴克马斯特（Tristan Buckmaster）与 Levent Alpöge 公开三项有限时间 blowup 结果，涵盖带光滑强迫的不可压缩多孔介质方程。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://aihot.news/items/cmtscjydz01garow6gi54pft9"
+     },
+     {
+      "title": "Noam Brown 评 OpenAI 用智能体求解 Navier-Stokes 千禧年难题：成本会快速下降",
+      "summary": "Noam Brown 就 OpenAI 宣布以智能体组合求解 Navier-Stokes 千禧年大奖难题发表看法，承认这次证明花费数百万美元，但认为成本会快速下降。",
+      "source": "X：Noam Brown (@polynoamial)",
+      "url": "https://aihot.news/items/cmtsy52b401faro5wv9smnfmk"
+     },
+     {
+      "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
+      "summary": "作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法。Computer Use花约4小时搭出天坛祈年殿，但耗掉200美刀Pro会员近半额度；MCP更快，可完成摩托车建模与组装动画，但复杂任务会单次运行超时，可拆分步骤或用CLI执行Python脚本解决。",
       "source": "公众号：数字生命卡兹克",
-      "url": "https://aihot.news/items/cmtqhifvf04pwrohqvdfqmfxp"
+      "url": "https://aihot.news/items/cmtrxbv5n02etroftlb6u96xt"
+     },
+     {
+      "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
+      "summary": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
+      "source": "X：Sam Altman (@sama)",
+      "url": "https://aihot.news/items/cmtszfjuo04a7ro5wxi2n02va"
+     },
+     {
+      "title": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法",
+      "summary": "Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本。",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "url": "https://aihot.news/items/cmtsxacbf04jkrob5fu5sp5ti"
+     },
+     {
+      "title": "Tom Tunguz 分析 OpenAI 的 3x AI 生产力增益是否只是机器不睡觉",
+      "summary": "Tom Tunguz 引用 OpenAI 内部数据，分析其 3x 研究生产力增益的来源：每名研究员 8 小时班次对应 3.14 个 agent 工作日，通常并行运行 4 个 agent。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "url": "https://aihot.news/items/cmtt3hrxg02xarowa0a6iz1dc"
      }
     ]
    }
@@ -440,68 +632,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-09 00:48",
+   "updateTime": "2026-09-09 10:40",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【2026LPL第三赛段】9月8日 LGD vs IG",
-     "url": "https://www.bilibili.com/video/BV1sHb56xEhC",
-     "hot": 1723470
-    },
-    {
-     "title": "实验！被洋辣子蜇到后，用它的体液涂抹能止疼吗？",
-     "url": "https://www.bilibili.com/video/BV1cobK68EoG",
-     "hot": 965608
-    },
-    {
-     "title": "《阴阳师》石长姬CG丨拾光永恒（CV：小清水亚美）",
-     "url": "https://www.bilibili.com/video/BV1W3bK6cE37",
-     "hot": 2182684
-    },
-    {
-     "title": "【揭秘日】外星爷说了啥？",
-     "url": "https://www.bilibili.com/video/BV1dxt36wEXf",
-     "hot": 332647
-    },
-    {
-     "title": "商业鬼才",
-     "url": "https://www.bilibili.com/video/BV1wybV6QEaN",
-     "hot": 440375
-    },
-    {
-     "title": "【短的发布会】安克化身国货之光亮相IFA ！品牌归一帮你搞定全屋智能",
-     "url": "https://www.bilibili.com/video/BV19KbN6yEH9",
-     "hot": 599193
+     "title": "【千年村庄】隔壁村的村民过的太惨了，泥土都拿出来卖了",
+     "url": "https://www.bilibili.com/video/BV1jNYn6KEBH",
+     "hot": 86773
     },
     {
      "title": "《我是自愿开学的》复旦大学随机采访！",
      "url": "https://www.bilibili.com/video/BV1zQb36MEGZ",
-     "hot": 315390
+     "hot": 407796
     },
     {
-     "title": "RTX 5060首发：人人“骂” 现在：大学生⚡️概念神⚡️",
-     "url": "https://www.bilibili.com/video/BV1G6bg6oEWC",
-     "hot": 358993
+     "title": "OpenAI官宣攻克千禧年七大难题的NS方程问题",
+     "url": "https://www.bilibili.com/video/BV1SdYn6cEoq",
+     "hot": 263970
+    },
+    {
+     "title": "昭和金曲《友の酒》《朋友的酒》日语男声完整版（空城计の小曲）",
+     "url": "https://www.bilibili.com/video/BV1Nibn63EPm",
+     "hot": 877410
     },
     {
      "title": "<“世界顶级杀手”正在带妹>第一集",
      "url": "https://www.bilibili.com/video/BV1PMb469EAs",
-     "hot": 394712
+     "hot": 619809
     },
     {
-     "title": "【独家】《百日成王》第23集 龙傲【7月国创】",
-     "url": "https://www.bilibili.com/video/BV1jVtt6LE7R",
-     "hot": 564822
+     "title": "《你往里面加了什么》",
+     "url": "https://www.bilibili.com/video/BV1qUbu6aEuo",
+     "hot": 1284846
+    },
+    {
+     "title": "【IGN】《塞尔达传说 时之笛》发售日预告 | 任天堂直面会",
+     "url": "https://www.bilibili.com/video/BV1SeYJ64Eii",
+     "hot": 392841
+    },
+    {
+     "title": "RTX 5060首发：人人“骂” 现在：大学生⚡️概念神⚡️",
+     "url": "https://www.bilibili.com/video/BV1G6bg6oEWC",
+     "hot": 674852
     },
     {
      "title": "25万开的饭店，今天正式倒闭了，总结出了三条失败原因！",
      "url": "https://www.bilibili.com/video/BV1aDb56iEvu",
-     "hot": 509100
+     "hot": 751733
     },
     {
-     "title": "《真千金她真没有背景通天》1-31",
-     "url": "https://www.bilibili.com/video/BV14zbs69EGL",
-     "hot": 931089
+     "title": "【独家】《百日成王》第23集 龙傲【7月国创】",
+     "url": "https://www.bilibili.com/video/BV1jVtt6LE7R",
+     "hot": 585239
+    },
+    {
+     "title": "芭提雅放松现场照，暴露美军内部多少门道？",
+     "url": "https://www.bilibili.com/video/BV1XDb56iEw6",
+     "hot": 428516
+    },
+    {
+     "title": "《鸣潮》共鸣者「景燃」PV | “问神”",
+     "url": "https://www.bilibili.com/video/BV1uMbg6SEnL",
+     "hot": 997104
     }
    ]
   }
@@ -524,63 +716,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "DeepSeek一口气扩招150人！0个AI研究岗",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-09-08/doc-iniraite6059201.shtml",
+   "title": "光刻机巨头阿斯麦，重大宣布！",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-09/doc-inirensh8921934.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "补贴退坡 新能源汽车凭实力“霸榜”",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-08/doc-iniraita9279642.shtml",
+   "title": "事关国产算力，重磅部署",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirensh4070558.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "用竹子做的无人机出现了：整机仅重7kg、平飞时速可达百公里！",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-08/doc-iniraite6079991.shtml",
+   "title": "Meta推出其首款个人智能体Muse",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirensh8918960.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "传张一鸣复出督战字节“世界模型”：与Pico头显打通实时生成视频画面",
-   "url": "https://finance.sina.com.cn/tech/internet/2026-09-08/doc-inirapza5998808.shtml",
+   "title": "小米回应澎程试驾事故：客户路口为前车让道，因紧张将油门当刹车误踩",
+   "url": "https://finance.sina.com.cn/stock/auto/2026-09-09/doc-iniresya5708363.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "应届生举报引发ESG危机，星宇股份还能在港交所上市吗？",
-   "url": "https://finance.sina.com.cn/stock/relnews/2026-09-08/doc-inirayqw5987992.shtml",
+   "title": "前OpenAI研究员田永龙成为混元多模态负责人，向姚顺雨汇报",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-iniresya5724817.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "抖音用户使用时长首超微信！红果日活用户超越四大视频平台总和",
-   "url": "https://finance.sina.com.cn/stock/2026-09-08/doc-inirayqw6001298.shtml",
+   "title": "明天凌晨苹果新CEO迎来首秀，首款折叠iPhone有哪些悬念？",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirensh4075380.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "胡塞武装袭击沙特多处能源设施 布伦特原油价格触及98美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircrnq6025338.shtml",
+   "title": "京东启动“京东物理AI加速计划”，打造全球最大物理世界运营中心",
+   "url": "https://finance.sina.com.cn/tech/internet/2026-09-09/doc-inirexfw8904553.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "高通宣布与亚马逊网络服务（AWS） 建立数据中心基础设施合作伙伴关系",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-08/doc-inircrnn9250436.shtml",
+   "title": "曹操出行携手豆包推出AI打车，北京杭州苏州首批上线服务",
+   "url": "https://finance.sina.com.cn/tech/2026-09-09/doc-iniresya5773803.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "沃尔沃汽车人事调整：原大中华区销售公司总裁柯鑫离职，何阔接任",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-08/doc-inircrnq5971904.shtml",
+   "title": "小米澎程冲上绿化带？官方紧急回应：用户试驾因紧张将油门当刹车误踩，没有人员受伤",
+   "url": "https://finance.sina.com.cn/tech/2026-09-09/doc-iniresye4017072.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "巨人网络股东腾澎投资减持计划实施完成，减持资金用于归还银行贷款",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-08/doc-inircrnn9193173.shtml",
+   "title": "印度国家证券交易所下调IPO价格区间，无缘印度最大上市交易",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresya5716066.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "栖息地发布“盖亚架构”，提出智能住宅“四大演进”阶段",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-08/doc-inircrnn9192963.shtml",
+   "title": "墨西哥新预算：对墨西哥国家石油公司援助削减70%至48亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresxy8935128.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "传阿里电商业务战略调整，1688与阿里国际站由张阔统管，官方暂无回应",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-08/doc-inircmeu4540383.shtml",
+   "title": "美国总统特使威特科夫披露 从持有加密货币权益的实体获逾1亿美元收入",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresye3993093.shtml",
    "source": "新浪科技"
   }
  ]
