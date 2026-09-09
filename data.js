@@ -1,22 +1,22 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-09 10:40",
+ "updatedAt": "2026-09-09 17:04",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
+   "time": "09-09 12:00",
+   "sourceCount": 12
+  },
+  {
+   "rank": 2,
    "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
    "time": "09-09 10:09",
    "sourceCount": 20
-  },
-  {
-   "rank": 2,
-   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
-   "time": "09-09 08:07",
-   "sourceCount": 11
   },
   {
    "rank": 3,
@@ -28,6 +28,14 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
+   "time": "09-09 14:59",
+   "sourceCount": 2
+  },
+  {
+   "rank": 5,
    "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
    "source": "Runway：News（网页）",
    "url": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w",
@@ -35,7 +43,7 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "Anthropic 发布 Claude Platform 降本指南：提示词缓存、清理反模式与校准 effort",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/cmtsz50zn02mtro5w6ywm1xml",
@@ -43,7 +51,15 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 6,
+   "rank": 7,
+   "title": "OpenAI 上线 GPT Image 2.5，作者实测新版与 image2 的生图差异",
+   "source": "公众号：卡尔的AI沃茨",
+   "url": "https://aihot.news/items/cmttklkuj0chfrofpzacvz20x",
+   "time": "09-09 12:00",
+   "sourceCount": 3
+  },
+  {
+   "rank": 8,
    "title": "Meta 智能体产品 Muse 开放体验，官方回应用户好评",
    "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
    "url": "https://aihot.news/items/cmttchnc104jvrofp05adlcv6",
@@ -51,31 +67,59 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 7,
-   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型及 GPT‑Image‑2.5 Flare、Sunburst 两款 API 模型",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/cmtt2a52z01m6rowakt1hp686",
-   "time": "09-09 06:37",
-   "sourceCount": 2
+   "rank": 9,
+   "title": "GPT-6 Astra推理等级怎么选才最省Token",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/cmttcqkx404pprofp0jwc34zu",
+   "time": "09-09 08:20",
+   "sourceCount": 1
   },
   {
-   "rank": 8,
+   "rank": 10,
    "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix",
    "time": "09-09 01:57",
    "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑",
-   "source": "X：Emad Mostaque (@EMostaque)",
-   "url": "https://aihot.news/items/cmtsyfj5p01qgro5wfoz5h410",
-   "time": "09-09 01:57",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+   "summary": "《The Intercept》通过 FOIA 诉讼获得的文件显示，美国国防部曾在 P00003 合同中要求 OpenAI 提供对军事指令具有最低拒绝率的特别版模型，双方对此均否认，称该文件只是草案。五角大楼律师一度确认其为正式版本后多次改口，OpenAI 已于 2 月 27 日签署允许部署到美军机密网络的最新版协议。",
+   "reason": "文章梳理了FOIA文件、双方矛盾说法与Anthropic争端背景，帮助读者了解军方AI合同中安全护栏争议的全貌。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmttva2tg0oezrofpagfj7986",
+   "time": "09-09 16:00",
+   "category": "industry"
+  },
+  {
+   "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+   "summary": "NSA、CISA 和 FBI 发布联合公告 AA26-251A，指控 DeepSeek、月之暗面、阿里、MiniMax、阶跃星辰和 Z .AI 自 2024 年底起对美国前沿模型进行工业规模蒸馏。",
+   "reason": "原文梳理了联合公告的指控手法与缓解建议，并指出检测指标可能误伤普通企业 Agent 流量。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmttulwa90npwrofpsde4lc0k",
+   "time": "09-09 16:37",
+   "category": "industry"
+  },
+  {
+   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+   "summary": "路透社报道称，DeepSeek 已聘请中信证券筹备科创板上市，目标今年递交 IPO 申请、明年挂牌，募资将用于算力基建、模型研发、芯片自研与人才激励。公司正推进新一轮融资，目标估值约 5000 亿元人民币，此前 6 月完成约 74 亿美元首轮外部融资，投后估值超 500 亿美元；2026 年前 7 个月营收约 4.75 亿元。",
+   "reason": "综合路透与金融时报报道，梳理了 DeepSeek 的 IPO 筹备、融资结构与场外份额乱象，可帮助读者了解其资本化进程的全貌。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
+   "time": "09-09 14:41",
+   "category": "industry"
+  },
+  {
+   "title": "OpenAI 上线 GPT Image 2.5，作者实测新版与 image2 的生图差异",
+   "summary": "OpenAI 上线 GPT Image 2.5，主打更快生成、更高清、多轮编辑一致性和区域标注精修，并新增涂鸦绘图与 15 个图片模版功能。API 同步发布 GPT-Image-2.5 Flare（速度提升 50%）和 GPT-Image-2.5 Sunburst（更高精度）。",
+   "reason": "作者实测了 Image2.5 与 image2 在清晰度、一致性、多比例控制上的差异，还整理出判断版本和启用模版的具体入口。",
+   "source": "公众号：卡尔的AI沃茨",
+   "url": "https://aihot.news/items/cmttklkuj0chfrofpzacvz20x",
+   "time": "09-09 08:27",
+   "category": "ai-products"
+  },
   {
    "title": "GPT-6 Astra推理等级怎么选才最省Token",
    "summary": "卡兹克发文讲解GPT-6 Astra的推理强度等级（Reasoning Effort）含义，指出各档位是同一模型的不同思考预算，Ultra则类似拉起多个智能体协作的专项工作组。",
@@ -95,12 +139,12 @@ var WB_DATA = {
    "category": "ai-products"
   },
   {
-   "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
-   "summary": "OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 token。",
-   "reason": "作者对比双方陈述并追问数据使用边界，提出了未发表数学解是否会被后续模型抢先的尖锐问题。",
-   "source": "Simon Willison 博客",
-   "url": "https://aihot.news/items/cmttbyra803k5rofpxjajvkez",
-   "time": "09-09 07:55",
+   "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
+   "summary": "Simon Willison 评论 OpenAI 用未发布模型在约 88 小时内求解纳维-斯托克斯存在性与光滑性问题，并经 GPT-6 Astra 完成 17 小时 Lean 形式化验证。",
+   "reason": "作者复盘 OpenAI 与数学家团队围绕纳维-斯托克斯问题的撞车争议，引出 AI 训练数据用途的追问。",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/cmtts0bi50l1frofpe39el7a1",
+   "time": "09-09 15:10",
    "category": "tip"
   },
   {
@@ -147,42 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmtszfjuo04a7ro5wxi2n02va",
    "time": "09-09 02:02",
    "category": "tip"
-  },
-  {
-   "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
-   "summary": "NYU 数学教授 Tristan Buckmaster 与 Anthropic 数学家 Levent Alpöge 公布针对 Navier-Stokes 存在与光滑性这一千禧年难题的三项证明初步结果，并称其研究进展信息被泄露给 OpenAI，对方随后用大量算力沿其独特路线追赶证明。",
-   "reason": "原文记录了数学家与 OpenAI 就千年难题证明优先权展开的争议细节，以及双方各自的公开回应，可帮读者了解 AI 参与数学研究引发的信任问题。",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix",
-   "time": "09-09 01:32",
-   "category": "industry"
-  },
-  {
-   "title": "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑",
-   "summary": "Emad Mostaque 转发 OpenAI 的公告并评论称这是迈向 ASI 的里程碑事件。OpenAI 宣布由一组智能体使用显著强于 GPT-6 Astra 的下一代模型，给出了 Navier-Stokes 千禧年大奖难题的一个 blow up 解，该问题涉及三维光滑流体运动的描述是否会崩溃，约 90 年未解。",
-   "reason": "作者以当事人视角转发 OpenAI 用智能体群体证明 Navier-Stokes 千禧年难题的消息，并补充了自己的解读。",
-   "source": "X：Emad Mostaque (@EMostaque)",
-   "url": "https://aihot.news/items/cmtsyfj5p01qgro5wfoz5h410",
-   "time": "09-09 01:35",
-   "category": "tip"
-  },
-  {
-   "title": "OpenAI 宣布以内部 AI 系统给出 Navier-Stokes 千禧年问题解答",
-   "summary": "OpenAI 宣布其内部 AI 系统给出 Navier-Stokes 存在与光滑性问题的解答，证明初始光滑的流体可在有限时间内形成奇点，并附证明文稿与 Lean 形式化验证。",
-   "reason": "OpenAI 自述用内部模型与上万智能体给出 Navier–Stokes 奇点证明和 Lean 形式化，还交代了欧拉方程副产物与协作细节。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
-   "time": "09-08 18:00",
-   "category": "paper"
-  },
-  {
-   "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
-   "summary": "OpenAI 宣布由一组智能体使用一个能力显著超过 GPT-6 Astra 的下一代模型给出 Navier-Stokes 千禧年大奖难题的解，该问题关注三维光滑流体运动的描述是否会失效，已悬置约 90 年。",
-   "reason": "原文补充了数据隔离说明，并指出其 Euler 情形证明结果与 Alpöge 和 Buckmaster 的工作不同，读者可据此比较两条独立证明路径。",
-   "source": "X：OpenAI (@OpenAI)",
-   "url": "https://aihot.news/items/cmtsynojw01xqro5wb8n7ysor",
-   "time": "09-09 01:23",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -632,68 +640,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-09 10:40",
+   "updateTime": "2026-09-09 17:04",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【千年村庄】隔壁村的村民过的太惨了，泥土都拿出来卖了",
-     "url": "https://www.bilibili.com/video/BV1jNYn6KEBH",
-     "hot": 86773
+     "title": "《未眠野》首曝PV | 万物都在回应，世界没有答案",
+     "url": "https://www.bilibili.com/video/BV18gtJ6LECq",
+     "hot": 3530301
     },
     {
-     "title": "《我是自愿开学的》复旦大学随机采访！",
-     "url": "https://www.bilibili.com/video/BV1zQb36MEGZ",
-     "hot": 407796
+     "title": "花200000买个金丝楠树瘤，放家里藏了10年，锯开一看震惊全场",
+     "url": "https://www.bilibili.com/video/BV152b56uEgF",
+     "hot": 563480
     },
     {
-     "title": "OpenAI官宣攻克千禧年七大难题的NS方程问题",
-     "url": "https://www.bilibili.com/video/BV1SdYn6cEoq",
-     "hot": 263970
+     "title": "【招笑版】新植物8:嘴巴很大花",
+     "url": "https://www.bilibili.com/video/BV16Pbn6wEGf",
+     "hot": 1404414
     },
     {
-     "title": "昭和金曲《友の酒》《朋友的酒》日语男声完整版（空城计の小曲）",
-     "url": "https://www.bilibili.com/video/BV1Nibn63EPm",
-     "hot": 877410
+     "title": "老大！这么犯规的打法，我们真的能打赢吗！！？",
+     "url": "https://www.bilibili.com/video/BV1z1b36GEdQ",
+     "hot": 239932
     },
     {
-     "title": "<“世界顶级杀手”正在带妹>第一集",
-     "url": "https://www.bilibili.com/video/BV1PMb469EAs",
-     "hot": 619809
+     "title": "挑战0元城市生存（1.2）",
+     "url": "https://www.bilibili.com/video/BV1TvbV6ZEZF",
+     "hot": 609661
     },
     {
-     "title": "《你往里面加了什么》",
-     "url": "https://www.bilibili.com/video/BV1qUbu6aEuo",
-     "hot": 1284846
+     "title": "不是哥们儿，咱宿舍还有正常人嘛？",
+     "url": "https://www.bilibili.com/video/BV1z7YJ6MEA9",
+     "hot": 239545
     },
     {
-     "title": "【IGN】《塞尔达传说 时之笛》发售日预告 | 任天堂直面会",
-     "url": "https://www.bilibili.com/video/BV1SeYJ64Eii",
-     "hot": 392841
+     "title": "⚡《初音大战奥特曼》传统戏曲⚡【bilibilionly同人扶持计划】",
+     "url": "https://www.bilibili.com/video/BV1QUbx6iE6h",
+     "hot": 826617
     },
     {
-     "title": "RTX 5060首发：人人“骂” 现在：大学生⚡️概念神⚡️",
-     "url": "https://www.bilibili.com/video/BV1G6bg6oEWC",
-     "hot": 674852
+     "title": "这个全球最大的游戏展上，国产游戏已经彻底疯狂了！",
+     "url": "https://www.bilibili.com/video/BV1BebG6zEBW",
+     "hot": 498322
     },
     {
-     "title": "25万开的饭店，今天正式倒闭了，总结出了三条失败原因！",
-     "url": "https://www.bilibili.com/video/BV1aDb56iEvu",
-     "hot": 751733
+     "title": "想让车连续弹射，你得先冷下来。。。【X.PIN】",
+     "url": "https://www.bilibili.com/video/BV1m8tq6sEF1",
+     "hot": 452917
     },
     {
      "title": "【独家】《百日成王》第23集 龙傲【7月国创】",
      "url": "https://www.bilibili.com/video/BV1jVtt6LE7R",
-     "hot": 585239
+     "hot": 608275
     },
     {
-     "title": "芭提雅放松现场照，暴露美军内部多少门道？",
-     "url": "https://www.bilibili.com/video/BV1XDb56iEw6",
-     "hot": 428516
+     "title": "资本弃子包贝尔，彻底塌房",
+     "url": "https://www.bilibili.com/video/BV16mbV6UE1p",
+     "hot": 313270
     },
     {
-     "title": "《鸣潮》共鸣者「景燃」PV | “问神”",
-     "url": "https://www.bilibili.com/video/BV1uMbg6SEnL",
-     "hot": 997104
+     "title": "OpenAI官宣攻克千禧年七大难题的NS方程问题",
+     "url": "https://www.bilibili.com/video/BV1SdYn6cEoq",
+     "hot": 612374
     }
    ]
   }
@@ -716,13 +724,13 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "光刻机巨头阿斯麦，重大宣布！",
-   "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-09/doc-inirensh8921934.shtml",
+   "title": "京东外卖陷“一单拆多单”质疑",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirfivu5699443.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "事关国产算力，重磅部署",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirensh4070558.shtml",
+   "title": "光刻机巨头阿斯麦，重大宣布！",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-09/doc-inirensh8921934.shtml",
    "source": "新浪科技"
   },
   {
@@ -731,13 +739,8 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "小米回应澎程试驾事故：客户路口为前车让道，因紧张将油门当刹车误踩",
-   "url": "https://finance.sina.com.cn/stock/auto/2026-09-09/doc-iniresya5708363.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "前OpenAI研究员田永龙成为混元多模态负责人，向姚顺雨汇报",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-iniresya5724817.shtml",
+   "title": "消息称DeepSeek拟登陆科创板，聘请中信证券筹备IPO",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-09/doc-inirfcpw5737131.shtml",
    "source": "新浪科技"
   },
   {
@@ -746,33 +749,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "京东启动“京东物理AI加速计划”，打造全球最大物理世界运营中心",
-   "url": "https://finance.sina.com.cn/tech/internet/2026-09-09/doc-inirexfw8904553.shtml",
+   "title": "蚂蚁CEO韩歆毅：AI毫无疑问是当前经济社会最重要的变量之一",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirfivw3802423.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "曹操出行携手豆包推出AI打车，北京杭州苏州首批上线服务",
-   "url": "https://finance.sina.com.cn/tech/2026-09-09/doc-iniresya5773803.shtml",
+   "title": "车企公关误发“小米澎程攻防需求”，媒体群被紧急解散",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirfivw8634171.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "小米澎程冲上绿化带？官方紧急回应：用户试驾因紧张将油门当刹车误踩，没有人员受伤",
-   "url": "https://finance.sina.com.cn/tech/2026-09-09/doc-iniresye4017072.shtml",
+   "title": "蔚来李斌：到2030年，新车销量里90%是新能源，新能源里90%是纯电",
+   "url": "https://finance.sina.com.cn/nextauto/hydt/2026-09-09/doc-inirfivw8610415.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "印度国家证券交易所下调IPO价格区间，无缘印度最大上市交易",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresya5716066.shtml",
+   "title": "跌破1美元红线，2000亿灰飞烟灭，爱奇艺到底怎么了？",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-09-09/doc-inirfivu5664946.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "墨西哥新预算：对墨西哥国家石油公司援助削减70%至48亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresxy8935128.shtml",
+   "title": "汇丰与花旗先后看向标普500年末8100点，盈利预测与估值假设各有侧重",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfivw3750135.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国总统特使威特科夫披露 从持有加密货币权益的实体获逾1亿美元收入",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-iniresye3993093.shtml",
+   "title": "7—8月教育行业融资报告：融资总金额6300万，资本继续押注AI与产业服务",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-09-09/doc-inirfivs8890344.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "APEC亚太媒体团扫货影石，现场下单Luna Ultra",
+   "url": "https://finance.sina.com.cn/tech/2026-09-09/doc-inirfivs8847299.shtml",
    "source": "新浪科技"
   }
  ]
