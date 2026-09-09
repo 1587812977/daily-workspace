@@ -1,22 +1,22 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-09 17:04",
+ "updatedAt": "2026-09-10 00:50",
  "aihotHot": [
   {
    "rank": 1,
    "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
-   "time": "09-09 12:00",
-   "sourceCount": 12
+   "time": "09-09 20:27",
+   "sourceCount": 13
   },
   {
    "rank": 2,
    "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
-   "time": "09-09 10:09",
-   "sourceCount": 20
+   "time": "09-09 20:59",
+   "sourceCount": 21
   },
   {
    "rank": 3,
@@ -36,34 +36,34 @@ var WB_DATA = {
   },
   {
    "rank": 5,
-   "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
-   "source": "Runway：News（网页）",
-   "url": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w",
-   "time": "09-09 05:58",
+   "title": "OpenRouter 推出美国区域路由，与去年上线的 EU 路由配套保障数据驻留",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/cmtu70vhj11u4rofpg46vvloh",
+   "time": "09-09 23:07",
    "sourceCount": 2
   },
   {
    "rank": 6,
-   "title": "Anthropic 发布 Claude Platform 降本指南：提示词缓存、清理反模式与校准 effort",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/cmtsz50zn02mtro5w6ywm1xml",
-   "time": "09-09 01:59",
+   "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
+   "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+   "url": "https://aihot.news/items/cmtu4vcfo0zj1rofpcmeg65vo",
+   "time": "09-10 00:27",
    "sourceCount": 2
   },
   {
    "rank": 7,
-   "title": "OpenAI 上线 GPT Image 2.5，作者实测新版与 image2 的生图差异",
-   "source": "公众号：卡尔的AI沃茨",
-   "url": "https://aihot.news/items/cmttklkuj0chfrofpzacvz20x",
-   "time": "09-09 12:00",
-   "sourceCount": 3
-  },
-  {
-   "rank": 8,
    "title": "Meta 智能体产品 Muse 开放体验，官方回应用户好评",
    "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
    "url": "https://aihot.news/items/cmttchnc104jvrofp05adlcv6",
    "time": "09-09 08:13",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
+   "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
+   "source": "X：X.PIN (@thexpin)",
+   "url": "https://aihot.news/items/cmttwa2j30pktrofpw67b9pby",
+   "time": "09-09 17:27",
    "sourceCount": 2
   },
   {
@@ -76,14 +76,59 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix",
-   "time": "09-09 01:57",
-   "sourceCount": 3
+   "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmttva2tg0oezrofpagfj7986",
+   "time": "09-09 16:59",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenRouter 推出 shell 沙箱工具与 Files API，任何模型可在托管 Linux 容器中执行命令",
+   "summary": "OpenRouter 发布 openrouter：shell 服务端工具和 Files API，OpenRouter 上任何支持工具调用的模型都可在托管 Linux 容器中运行命令，两者现已在 beta 阶段开放。",
+   "reason": "原文给出定价、容器网络策略和文件生命周期等落地细节，读者可以据此评估在自己的 Agent 工作流中怎么用这套沙箱。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/cmtu95yrj13zjrofpyi8l8y89",
+   "time": "09-08 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenRouter 推出美国区域路由，与去年上线的 EU 路由配套保障数据驻留",
+   "summary": "OpenRouter 推出 US In-Region Routing，请求经 us.openrouter.ai 在美国境内解密并只路由到美国 provider 端点，eu.openrouter.ai 同理服务欧盟。",
+   "reason": "原文区分了端到端与仅推理的区域路由，并给出具体接入方式，读者可以据此评估各家网关的数据驻留承诺。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/cmtu70vhj11u4rofpg46vvloh",
+   "time": "09-09 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
+   "summary": "Anthropic 经济团队基于技术报告《Economic Scenarios for Transformative AI》发布交互式经济情景探索工具，把经济表示为任务束，推演 AI 到 2030 年对美国经济的影响。",
+   "reason": "原文给出模型化的三种经济情景和关键数字，读者可以据此理解AI对不同职业工资和就业的可能影响。",
+   "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+   "url": "https://aihot.news/items/cmtu4vcfo0zj1rofpcmeg65vo",
+   "time": "09-09 21:27",
+   "category": "tip"
+  },
+  {
+   "title": "OpenAI 纳维-斯托克斯方程证明争议：Buckmaster 指控不当行为，各方回应引出开放科学之问",
+   "summary": "数学家 Tristan Buckmaster 指控 OpenAI 施压、拒绝其合作者 Levent Alpöge（任职于 Anthropic）署名，且可能用两人上传到 Codex 的草稿训练模型，称其为绝对学术不端。",
+   "reason": "原文梳理各方公开回应与 Terence Tao 的警告，读者可据此思考 AI 实验室与学术界的信任问题。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmttzipvw0sqlrofp63a8px22",
+   "time": "09-09 18:27",
+   "category": "tip"
+  },
+  {
+   "title": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
+   "summary": "Hugging Face 联创 Thomas Wolf 回应 OpenAI 用下一代模型（强于 GPT-6 Astra）的 agent 群组证明 Navier-Stokes 千禧年问题猜想为假的结果，称其令人印象深刻。",
+   "reason": "作者回应 OpenAI 的 Navier-Stokes 结果，提出当前 AI 数学突破偏重反例搜索，缺乏优雅性与数学品味，为判断该领域进展提供了另一角度。",
+   "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+   "url": "https://aihot.news/items/cmttwq6oy0pybrofphae4ykhb",
+   "time": "09-09 17:17",
+   "category": "tip"
+  },
   {
    "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI",
    "summary": "《The Intercept》通过 FOIA 诉讼获得的文件显示，美国国防部曾在 P00003 合同中要求 OpenAI 提供对军事指令具有最低拒绝率的特别版模型，双方对此均否认，称该文件只是草案。五角大楼律师一度确认其为正式版本后多次改口，OpenAI 已于 2 月 27 日签署允许部署到美军机密网络的最新版协议。",
@@ -91,6 +136,15 @@ var WB_DATA = {
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmttva2tg0oezrofpagfj7986",
    "time": "09-09 16:00",
+   "category": "industry"
+  },
+  {
+   "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
+   "summary": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面（Moonshot AI）、阿里巴巴、MiniMax、阶跃星辰（StepFun）和 Z.ai 至少自 2024 年起以产业规模从美国模型中提取知识。机构称其通过多渠道路由请求以绕过规则并提升数学与编码能力；蒸馏在获授权时合法，争议核心在于访问与同意。美国开发商被敦促立即行动并共享情报，相关公司暂未回应。",
+   "reason": "报道点名六家中国 AI 公司被美国三部门指控，并说明争议核心在访问与授权，有助于理解知识蒸馏的法律边界。",
+   "source": "X：X.PIN (@thexpin)",
+   "url": "https://aihot.news/items/cmttwa2j30pktrofpw67b9pby",
+   "time": "09-09 17:20",
    "category": "industry"
   },
   {
@@ -137,60 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmttchnc104jvrofp05adlcv6",
    "time": "09-09 07:48",
    "category": "ai-products"
-  },
-  {
-   "title": "Simon Willison 评纳维-斯托克斯千禧年问题求解背后的 OpenAI 与 Anthropic 争议",
-   "summary": "Simon Willison 评论 OpenAI 用未发布模型在约 88 小时内求解纳维-斯托克斯存在性与光滑性问题，并经 GPT-6 Astra 完成 17 小时 Lean 形式化验证。",
-   "reason": "作者复盘 OpenAI 与数学家团队围绕纳维-斯托克斯问题的撞车争议，引出 AI 训练数据用途的追问。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/cmtts0bi50l1frofpe39el7a1",
-   "time": "09-09 15:10",
-   "category": "tip"
-  },
-  {
-   "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
-   "summary": "Runway 发布 Runway Plugins，新面板可直接嵌入 Premiere Pro 和 After Effects，在时间线内生成图像和视频、重绘片段并放置结果。Edit Studio 可基于已有片段用 Aleph 2 按原始时长重新渲染，插件免费下载（macOS 和 Windows），生成功能面向所有付费计划并消耗现有额度。",
-   "reason": "官方说明插件如何把生成、重绘和增强接入现有时间线工作流，可帮助剪辑用户评估是否省去导出再导入的往返。",
-   "source": "Runway：News（网页）",
-   "url": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w",
-   "time": "09-09 05:58",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenAI 向 Plus、Pro、Business 和 Enterprise 用户全面推送 Astra",
-   "summary": "OpenAI 宣布 Astra 已全面推送给 Codex 和 ChatGPT Work 中的 Plus、Pro、Business 和 Enterprise 用户。用户可以直接使用，并可通过 openai.com/gpt-tv/ 观看 Astra 的实机演示。",
-   "reason": "原文给出了 Astra 的正式开放范围和覆盖产品，读者可以确认自己的订阅计划是否已可用。",
-   "source": "X：OpenAI (@OpenAI)",
-   "url": "https://aihot.news/items/cmtt65r1002f0rocpzpypdjgt",
-   "time": "09-09 05:06",
-   "category": "ai-products"
-  },
-  {
-   "title": "Tom Tunguz 分析 OpenAI 的 3x AI 生产力增益是否只是机器不睡觉",
-   "summary": "Tom Tunguz 引用 OpenAI 内部数据，分析其 3x 研究生产力增益的来源：每名研究员 8 小时班次对应 3.14 个 agent 工作日，通常并行运行 4 个 agent。",
-   "reason": "文章用 OpenAI 自己披露的数据拆解 3x 生产力说法，指出其中一半工作仍需人工干预且推理成本激增 40 倍。",
-   "source": "Tomer Tunguz 博客（VC 分析）",
-   "url": "https://aihot.news/items/cmtt3hrxg02xarowa0a6iz1dc",
-   "time": "09-08 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
-   "summary": "OpenAI 发布 ChatGPT Images 2.5 图像模型，生成延迟比 Images 2.0 降低最多 50%，细节、编辑精度、参考照片保真度和多轮编辑一致性均有提升。",
-   "reason": "官方原文给出与 Images 2.0 的具体对比数据、新功能入口和 API 双模型分工，读者可以据此评估是否迁移现有图像工作流。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
-   "time": "09-08 19:30",
-   "category": "ai-models"
-  },
-  {
-   "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
-   "summary": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
-   "reason": "Sam Altman 一方就 Navier-Stokes 证明争议公开己方叙述，读者可以对照双方说法理解这场跨公司协调纠纷。",
-   "source": "X：Sam Altman (@sama)",
-   "url": "https://aihot.news/items/cmtszfjuo04a7ro5wxi2n02va",
-   "time": "09-09 02:02",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -640,68 +640,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-09 17:04",
+   "updateTime": "2026-09-10 00:50",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "《未眠野》首曝PV | 万物都在回应，世界没有答案",
      "url": "https://www.bilibili.com/video/BV18gtJ6LECq",
-     "hot": 3530301
+     "hot": 8304979
+    },
+    {
+     "title": "我 来 同 你 玩  丨 二洲年快乐",
+     "url": "https://www.bilibili.com/video/BV1eqYx6UE9V",
+     "hot": 2991695
+    },
+    {
+     "title": "⚡️ 嘉 豪 の 小 曲 ⚡️",
+     "url": "https://www.bilibili.com/video/BV1KeY466Ekf",
+     "hot": 390097
     },
     {
      "title": "花200000买个金丝楠树瘤，放家里藏了10年，锯开一看震惊全场",
      "url": "https://www.bilibili.com/video/BV152b56uEgF",
-     "hot": 563480
+     "hot": 1479699
     },
     {
-     "title": "【招笑版】新植物8:嘴巴很大花",
-     "url": "https://www.bilibili.com/video/BV16Pbn6wEGf",
-     "hot": 1404414
+     "title": "请停留三秒，为毛主席献花，今天9月9日是主席毛泽东逝世50周年的日子，他是中国共产党、中国人民解放军、中华人民共和国的主要缔造者",
+     "url": "https://www.bilibili.com/video/BV1VabK62Ea5",
+     "hot": 1511476
     },
     {
-     "title": "老大！这么犯规的打法，我们真的能打赢吗！！？",
-     "url": "https://www.bilibili.com/video/BV1z1b36GEdQ",
-     "hot": 239932
+     "title": "第三集上线！《新数码宝贝·全面战争》【15分钟管饱！】",
+     "url": "https://www.bilibili.com/video/BV19eYH6NEsC",
+     "hot": 627924
     },
     {
-     "title": "挑战0元城市生存（1.2）",
-     "url": "https://www.bilibili.com/video/BV1TvbV6ZEZF",
-     "hot": 609661
+     "title": "也算是太岁头上动了把土！",
+     "url": "https://www.bilibili.com/video/BV1LCb563EUG",
+     "hot": 934803
     },
     {
-     "title": "不是哥们儿，咱宿舍还有正常人嘛？",
-     "url": "https://www.bilibili.com/video/BV1z7YJ6MEA9",
-     "hot": 239545
+     "title": "除了“阔”，还有什么？华为 Pura X View 深度体验",
+     "url": "https://www.bilibili.com/video/BV1zYYt6FE9F",
+     "hot": 95414
     },
     {
-     "title": "⚡《初音大战奥特曼》传统戏曲⚡【bilibilionly同人扶持计划】",
-     "url": "https://www.bilibili.com/video/BV1QUbx6iE6h",
-     "hot": 826617
+     "title": "⚡️区区心魔 敢乱我道心⚡️【bilibilionly同人扶持计划】",
+     "url": "https://www.bilibili.com/video/BV149bG6dE5r",
+     "hot": 664316
     },
     {
-     "title": "这个全球最大的游戏展上，国产游戏已经彻底疯狂了！",
-     "url": "https://www.bilibili.com/video/BV1BebG6zEBW",
-     "hot": 498322
+     "title": "谁说手机里没有病毒？“快应用”能让你生不如死…",
+     "url": "https://www.bilibili.com/video/BV1uPYx6GEdM",
+     "hot": 157022
     },
     {
-     "title": "想让车连续弹射，你得先冷下来。。。【X.PIN】",
-     "url": "https://www.bilibili.com/video/BV1m8tq6sEF1",
-     "hot": 452917
+     "title": "「突围吧·少年」 —— 这一次，“突围”不是带出物资",
+     "url": "https://www.bilibili.com/video/BV1iTYp6kEwG",
+     "hot": 533389
     },
     {
-     "title": "【独家】《百日成王》第23集 龙傲【7月国创】",
-     "url": "https://www.bilibili.com/video/BV1jVtt6LE7R",
-     "hot": 608275
-    },
-    {
-     "title": "资本弃子包贝尔，彻底塌房",
-     "url": "https://www.bilibili.com/video/BV16mbV6UE1p",
-     "hot": 313270
-    },
-    {
-     "title": "OpenAI官宣攻克千禧年七大难题的NS方程问题",
-     "url": "https://www.bilibili.com/video/BV1SdYn6cEoq",
-     "hot": 612374
+     "title": "【教师节TV】可恶……这么燃的考前动员？！",
+     "url": "https://www.bilibili.com/video/BV1AcY46PEYE",
+     "hot": 309554
     }
    ]
   }
@@ -749,38 +749,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "蚂蚁CEO韩歆毅：AI毫无疑问是当前经济社会最重要的变量之一",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirfivw3802423.shtml",
+   "title": "伊朗高官称德黑兰做好激战准备 无意向美方压力低头",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirhezn3436492.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "车企公关误发“小米澎程攻防需求”，媒体群被紧急解散",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirfivw8634171.shtml",
+   "title": "美国官员：最新回购安排显示财政部继续优化该计划",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirhezh8766500.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "蔚来李斌：到2030年，新车销量里90%是新能源，新能源里90%是纯电",
-   "url": "https://finance.sina.com.cn/nextauto/hydt/2026-09-09/doc-inirfivw8610415.shtml",
+   "title": "欧洲债市：德国国债大跌 欧洲央行加息押注升温",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfytk8891330.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "跌破1美元红线，2000亿灰飞烟灭，爱奇艺到底怎么了？",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-09-09/doc-inirfivu5664946.shtml",
+   "title": "美国财政部宣布长债回购上限60亿美元 失望情绪笼罩市场",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfytq8384346.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "汇丰与花旗先后看向标普500年末8100点，盈利预测与估值假设各有侧重",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfivw3750135.shtml",
+   "title": "美伊冲突升级殃及油轮 布伦特原油突破每桶101美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfytn5663510.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "7—8月教育行业融资报告：融资总金额6300万，资本继续押注AI与产业服务",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-09-09/doc-inirfivs8890344.shtml",
+   "title": "摩根大通市值逼近万亿美元大关 美银看好其“稀缺性溢价”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfytk8881931.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "APEC亚太媒体团扫货影石，现场下单Luna Ultra",
-   "url": "https://finance.sina.com.cn/tech/2026-09-09/doc-inirfivs8847299.shtml",
+   "title": "美国财政部周四拟回购至多60亿美元长期国债",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-09/doc-inirfytk8880830.shtml",
    "source": "新浪科技"
   }
  ]
