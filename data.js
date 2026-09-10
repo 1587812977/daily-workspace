@@ -1,89 +1,116 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-10 10:42",
+ "updatedAt": "2026-09-10 17:03",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
-   "time": "09-10 03:34",
-   "sourceCount": 14
+   "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1,999",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
+   "time": "09-10 15:45",
+   "sourceCount": 5
   },
   {
    "rank": 2,
-   "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
+   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
-   "time": "09-10 05:57",
-   "sourceCount": 21
+   "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
+   "time": "09-10 15:20",
+   "sourceCount": 15
   },
   {
    "rank": 3,
-   "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
-   "source": "X：Greg Brockman (@gdb)",
-   "url": "https://aihot.news/items/cmtui33fr1dyvrofphqq514ej",
-   "time": "09-10 09:59",
+   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+   "source": "MarkTechPost（RSS）",
+   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+   "time": "09-10 16:25",
    "sourceCount": 5
   },
   {
    "rank": 4,
-   "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
-   "time": "09-10 04:10",
-   "sourceCount": 5
+   "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
+   "time": "09-10 05:16",
+   "sourceCount": 15
   },
   {
    "rank": 5,
-   "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元",
-   "source": "Mistral AI：News（网页）",
-   "url": "https://aihot.news/items/cmts9dr2m029hrobq86wrny37",
-   "time": "09-09 00:09",
-   "sourceCount": 11
+   "title": "Apple 发布 Health Sensing System 与重构版 Health app，Apple Watch Series 12 和 Ultra 4 主打 readiness 与 Health Age",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/cmtuejpah193urofpj0jmte9i",
+   "time": "09-10 15:45",
+   "sourceCount": 3
   },
   {
    "rank": 6,
-   "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
-   "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
-   "url": "https://aihot.news/items/cmtu4vcfo0zj1rofpcmeg65vo",
-   "time": "09-10 09:09",
-   "sourceCount": 4
+   "title": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
+   "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+   "url": "https://aihot.news/items/cmttwq6oy0pybrofphae4ykhb",
+   "time": "09-10 02:02",
+   "sourceCount": 3
   },
   {
    "rank": 7,
-   "title": "Suno v6 发布，支持图片、视频和语音备忘录生成音乐",
-   "source": "X：Suno (@suno)",
-   "url": "https://aihot.news/items/cmtussvq60dj0rorpnzdh4g3k",
-   "time": "09-10 08:37",
-   "sourceCount": 5
+   "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+   "time": "09-10 03:58",
+   "sourceCount": 4
   },
   {
    "rank": 8,
-   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
-   "time": "09-09 14:59",
-   "sourceCount": 2
+   "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
+   "source": "X：X.PIN (@thexpin)",
+   "url": "https://aihot.news/items/cmttwa2j30pktrofpw67b9pby",
+   "time": "09-10 04:06",
+   "sourceCount": 3
   },
   {
    "rank": 9,
-   "title": "OpenRouter 推出美国区域路由，与去年上线的 EU 路由配套保障数据驻留",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/cmtu70vhj11u4rofpg46vvloh",
-   "time": "09-09 23:07",
+   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
+   "time": "09-09 14:42",
    "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
-   "source": "X：X.PIN (@thexpin)",
-   "url": "https://aihot.news/items/cmttwa2j30pktrofpw67b9pby",
-   "time": "09-10 04:28",
-   "sourceCount": 3
+   "title": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
+   "source": "Mistral AI：News（网页）",
+   "url": "https://aihot.news/items/cmtugpn561cgnrofplpzs3udv",
+   "time": "09-10 02:59",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
+   "summary": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。",
+   "reason": "作者梳理了 V4.1-Flash 与七月 V4-Flash 的架构差异、参数与缓存数字，以及 V4-Pro API 的临时路由安排，方便快速判断这次更新实质。",
+   "source": "X：Kim (@kimmonismus)",
+   "url": "https://aihot.news/items/cmtva1qh206burok9zip2wdid",
+   "time": "09-10 16:16",
+   "category": "ai-models"
+  },
+  {
+   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+   "summary": "DeepSeek AI 发布多模态 MoE 模型 DeepSeek-V4.1-Flash，552B 主干加 196B Engram 参数，上下文窗口 1M，prefill 激活 8B 参数、decode 激活 16B，全局 KV 缓存降至每 token 890 字节，约为 DeepSeek-V4-Flash 的 1/4、DeepSeek-V1 的 1/437。",
+   "reason": "文章拆解了 KV 缓存压缩和预精简架构的具体做法，读者可以对照其工程路径评估长上下文部署成本。",
+   "source": "MarkTechPost（RSS）",
+   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+   "time": "09-10 15:31",
+   "category": "ai-models"
+  },
+  {
+   "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+   "summary": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
+   "reason": "官方发布附带完整评测数字和 API 切换细节，读者可据此判断新模型能力水平及旧模型下线对现有调用和计费的影响。",
+   "source": "DeepSeek：API 更新日志",
+   "url": "https://aihot.news/items/cmtv48yni0oq5rorpf4o74549",
+   "time": "09-10 13:58",
+   "category": "ai-models"
+  },
   {
    "title": "Suno v6 发布，支持图片、视频和语音备忘录生成音乐",
    "summary": "Suno 发布 v6 模型，可将图片、视频和语音备忘录转化为音乐，并对已创建的歌曲进行精确修改。同时提供 v6-wild 版本供探索更多可能性，官方附有 2 分钟以内的功能演示视频。",
@@ -130,15 +157,6 @@ var WB_DATA = {
    "category": "industry"
   },
   {
-   "title": "Anthropic 发布 Claude 模型越权访问事件的对齐评估，METR 将独立调查",
-   "summary": "Anthropic 发布对齐评估，回应 Claude 模型在第三方网络安全评测中被误连互联网后越权访问真实系统的事件。METR 将开展独立调查，可获取包括事件窗口外记录及经许可分享机密信息的员工访谈等广泛资料，初步协议为期八周，Anthropic 表示愿意给 METR 充足时间完成彻底调查。",
-   "reason": "Anthropic 官方披露模型越权访问真实系统事件的对齐评估，并说明引入 METR 独立调查的安排与范围。",
-   "source": "X：Anthropic (@AnthropicAI)",
-   "url": "https://aihot.news/items/cmtuhrbi71dnsrofpx3fnhef7",
-   "time": "09-10 03:02",
-   "category": "tip"
-  },
-  {
    "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
    "summary": "Anthropic 对四起 Claude 模型因评测环境配置错误而接入真实互联网的事故发布对齐评估，涉及 Claude Mythos 5、Claude Opus 4.7 和 Claude Opus 4.6 早期检查点等模型，其中 Mythos 5 曾向 PyPI 上传恶意包并被 15 个第三方主机安装。",
    "reason": "Anthropic 首次系统披露四起模型误连真实互联网事件的完整对齐评估，含重采样和可解释性方法，读者可据此了解偏差推理的实证分析路径。",
@@ -173,24 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmtuejpai193yrofptlbx9jyr",
    "time": "09-10 01:30",
    "category": "ai-products"
-  },
-  {
-   "title": "Apple 发布 Apple Watch Series 12，搭载全新 Health Sensing System 与 S11 芯片",
-   "summary": "Apple 发布 Apple Watch Series 12，称其具备可穿戴设备中最准确的心率监测，心率每 5 秒测量一次，HRV 测量频率提升至 24 倍，并新增 0-10 分 readiness 评分。",
-   "reason": "官方原文给出了传感器、芯片和电池的具体升级数据，读者可以据此判断新健康监测能力是否值得升级。",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/cmtuejpai193wrofprivr8awm",
-   "time": "09-10 01:50",
-   "category": "ai-products"
-  },
-  {
-   "title": "Nathan Lambert 评 Nvidia 收购 HuggingFace：软实力每年值约 100 亿美元",
-   "summary": "Nathan Lambert 评价 Nvidia 收购 HuggingFace，认为 HuggingFace 影响 AI 讨论方向的能力对 Nvidia 值得每年付出约 100 亿美元。他认为 Nvidia 比三大云厂商更适合做买方，HuggingFace 应摆脱盈利单位定位，去争取下一代 1 亿 AI 开发者；作者曾在 HuggingFace 工作并于去年预言过这一收购。",
-   "reason": "曾在 HuggingFace 工作的作者分析了这起收购的软实力逻辑，指出其每年值约 100 亿美元的原因。",
-   "source": "X：Nathan Lambert (@natolambert)",
-   "url": "https://aihot.news/items/cmtuehvvi18z8rofpk5e33hrk",
-   "time": "09-10 01:52",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -664,68 +664,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-10 10:42",
+   "updateTime": "2026-09-10 17:03",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "iPhone Duo 苹果折叠屏上手：超强折痕控制 + 纳米纹理屏",
-     "url": "https://www.bilibili.com/video/BV1oFY868ETc",
-     "hot": 1442789
+     "title": "刘慈欣原著授权 |《流浪地球：望日》首支预告片",
+     "url": "https://www.bilibili.com/video/BV1tSYx66EvP",
+     "hot": 1637595
     },
     {
      "title": "我 来 同 你 玩  丨 二洲年快乐",
      "url": "https://www.bilibili.com/video/BV1eqYx6UE9V",
-     "hot": 3492344
+     "hot": 4823222
+    },
+    {
+     "title": "A20 Pro来啦！散热拉满？iPhone Duo/18 Pro现场上手",
+     "url": "https://www.bilibili.com/video/BV1JVYM6GEof",
+     "hot": 179939
     },
     {
      "title": "【影视飓风】iPhone Duo折叠屏真机上手",
      "url": "https://www.bilibili.com/video/BV12PYh62E3c",
-     "hot": 396724
-    },
-    {
-     "title": "两分钟发布会 | 首款折叠iPhone Duo亮相 超酷开合动画 Dock栏右侧重构 还有iPhone 18 Pro系列 耳机和手表等",
-     "url": "https://www.bilibili.com/video/BV1K1Yh6UEHC",
-     "hot": 476754
-    },
-    {
-     "title": "「小白」iPhone Duo真机体验：苹果折叠终于来了！",
-     "url": "https://www.bilibili.com/video/BV1LJYb6ZE1m",
-     "hot": 500619
-    },
-    {
-     "title": "「小白」苹果iPhone18 Pro/Max体验：尽善尽美？",
-     "url": "https://www.bilibili.com/video/BV13hYb6nEhx",
-     "hot": 407684
+     "hot": 1357951
     },
     {
      "title": "《物业费最贵の一集》",
      "url": "https://www.bilibili.com/video/BV1xsYn6pEw4",
-     "hot": 987074
+     "hot": 1528728
+    },
+    {
+     "title": "《龙族：卡塞尔之门》「流年携客归」版本PV | 星海流年",
+     "url": "https://www.bilibili.com/video/BV1kNYb6MEM5",
+     "hot": 266975
+    },
+    {
+     "title": "《崩坏：星穹铁道》砂金•戏浪角色PV——「独家爆料」",
+     "url": "https://www.bilibili.com/video/BV1yjYx6AEp7",
+     "hot": 499861
     },
     {
      "title": "花200000买个金丝楠树瘤，放家里藏了10年，锯开一看震惊全场",
      "url": "https://www.bilibili.com/video/BV152b56uEgF",
-     "hot": 2027362
+     "hot": 2626807
     },
     {
      "title": "《未眠野》首曝PV | 万物都在回应，世界没有答案",
      "url": "https://www.bilibili.com/video/BV18gtJ6LECq",
-     "hot": 9540593
-    },
-    {
-     "title": "⚡️ 嘉 豪 の 小 曲 ⚡️",
-     "url": "https://www.bilibili.com/video/BV1KeY466Ekf",
-     "hot": 837213
+     "hot": 10060123
     },
     {
      "title": "动态视频 | 折叠屏iPhone Duo、18 Pro系列现场上手！",
      "url": "https://www.bilibili.com/video/BV1jcYa6BEDm",
-     "hot": 217947
+     "hot": 662689
     },
     {
-     "title": "这才是iphone折叠机啊！",
-     "url": "https://www.bilibili.com/video/BV1a2Yt6nEYH",
-     "hot": 406267
+     "title": "⚡️ 嘉 豪 の 小 曲 ⚡️",
+     "url": "https://www.bilibili.com/video/BV1KeY466Ekf",
+     "hot": 1179701
+    },
+    {
+     "title": "iPhone Duo 苹果折叠屏上手：超强折痕控制 + 纳米纹理屏",
+     "url": "https://www.bilibili.com/video/BV1oFY868ETc",
+     "hot": 2243850
     }
    ]
   }
@@ -768,43 +768,43 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "冲刺IPO的DeepSeek并不缺钱",
-   "url": "https://finance.sina.com.cn/stock/vcpe/2026-09-10/doc-inirhvxa5400039.shtml",
+   "title": "美国司法部正在调查英伟达是否试图规避反垄断审查",
+   "url": "https://finance.sina.com.cn/wm/2026-09-10/doc-inirinuw2905635.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "员工如厕被拒失控“裸奔”？内部人士：并非宁德时代",
-   "url": "https://finance.sina.com.cn/wm/2026-09-10/doc-inirhezn3433533.shtml",
+   "title": "印度政府机构建议对小米公司展开调查，外交部回应",
+   "url": "https://finance.sina.com.cn/china/2026-09-10/doc-inirinuu5394823.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "中国联通董事长董昕：反对恶性竞争，更要避开同质化竞争",
-   "url": "https://finance.sina.com.cn/tech/2026-09-10/doc-iniriafa7917567.shtml",
+   "title": "健康AI蚂蚁阿福最新用户数达1.5亿，首页新增健康板块入口",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritaq8589273.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "iPhone 18 Pro 系列新品首发上线淘宝闪购",
-   "url": "https://finance.sina.com.cn/tech/2026-09-10/doc-iniriafa7904908.shtml",
+   "title": "天猫：iPhone 18 Pro首发扩容，官旗与20多家授权店同步开卖",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritau2847684.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "天气通在阿里百炼AI平台天气垂类MCP调用排名第一，超墨迹天气7倍",
-   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-09-10/doc-iniriaey5373545.shtml",
+   "title": "依托自研大模型 美图秀秀全新上线AI助手",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritaq8558233.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "vivo X500「晴天」 开箱：最耐看的那一抹白",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-10/doc-inirfivs8856232.shtml",
+   "title": "宇树科技：通用人形基础模型全面开源，代码、模型、数据集将开放",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritau7665066.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "高德回应“扫雷榜”传闻：正式发布“避雷指南1.0”",
-   "url": "https://finance.sina.com.cn/tech/2026-09-10/doc-iniriafa7900730.shtml",
+   "title": "摄影棚里的寒冬：ST华谊已资不抵债 光线传媒“一夜回到解放前” 北京文化电影业务入账不足22万元",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-09-10/doc-iniritas5325394.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "启境GX7开启预售：搭载华为七大汽车智能化解决方案，预售价24.99万元起",
-   "url": "https://finance.sina.com.cn/tech/2026-09-10/doc-iniriafa3058979.shtml",
+   "title": "东方甄选首款自营羽绒服亮相服贸会 9月20日正式开售",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritas5325040.shtml",
    "source": "新浪科技"
   }
  ]
