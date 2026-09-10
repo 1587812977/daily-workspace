@@ -1,38 +1,38 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-10 17:03",
+ "updatedAt": "2026-09-11 00:38",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1,999",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
-   "time": "09-10 15:45",
-   "sourceCount": 5
+   "time": "09-10 22:17",
+   "sourceCount": 7
   },
   {
    "rank": 2,
+   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+   "source": "MarkTechPost（RSS）",
+   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+   "time": "09-10 20:40",
+   "sourceCount": 7
+  },
+  {
+   "rank": 3,
+   "title": "OpenAI 宣布智能体群求解 Navier-Stokes 千禧年大奖难题",
+   "source": "X：OpenAI (@OpenAI)",
+   "url": "https://aihot.news/items/cmtsynojw01xrro5wz9kjm5mb",
+   "time": "09-10 05:16",
+   "sourceCount": 15
+  },
+  {
+   "rank": 4,
    "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
    "time": "09-10 15:20",
-   "sourceCount": 15
-  },
-  {
-   "rank": 3,
-   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
-   "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
-   "time": "09-10 16:25",
-   "sourceCount": 5
-  },
-  {
-   "rank": 4,
-   "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
-   "time": "09-10 05:16",
-   "sourceCount": 15
+   "sourceCount": 14
   },
   {
    "rank": 5,
@@ -44,22 +44,14 @@ var WB_DATA = {
   },
   {
    "rank": 6,
-   "title": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
-   "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-   "url": "https://aihot.news/items/cmttwq6oy0pybrofphae4ykhb",
-   "time": "09-10 02:02",
-   "sourceCount": 3
+   "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
+   "source": "X：OpenAI (@OpenAI)",
+   "url": "https://aihot.news/items/cmtsynojw01xqro5wb8n7ysor",
+   "time": "09-10 19:00",
+   "sourceCount": 9
   },
   {
    "rank": 7,
-   "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
-   "time": "09-10 03:58",
-   "sourceCount": 4
-  },
-  {
-   "rank": 8,
    "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
    "source": "X：X.PIN (@thexpin)",
    "url": "https://aihot.news/items/cmttwa2j30pktrofpw67b9pby",
@@ -67,23 +59,112 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
+   "rank": 8,
+   "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder–Decoder 架构，带原生视觉理解",
+   "source": "X：Kim (@kimmonismus)",
+   "url": "https://aihot.news/items/cmtva1qh206burok9zip2wdid",
+   "time": "09-10 18:21",
+   "sourceCount": 3
+  },
+  {
    "rank": 9,
+   "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+   "time": "09-10 03:58",
+   "sourceCount": 4
+  },
+  {
+   "rank": 10,
    "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
    "time": "09-09 14:42",
    "sourceCount": 2
-  },
-  {
-   "rank": 10,
-   "title": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
-   "source": "Mistral AI：News（网页）",
-   "url": "https://aihot.news/items/cmtugpn561cgnrofplpzs3udv",
-   "time": "09-10 02:59",
-   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+   "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
+   "reason": "WorkBuddy 官宣上线 DeepSeek V4.1-Flash 并给出两周免费入口，引用内容还说明了 V4-Pro 的退役与迁移安排。",
+   "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+   "url": "https://aihot.news/items/cmtvqbs1q03q9rofb98re4l3n",
+   "time": "09-10 23:49",
+   "category": "ai-models"
+  },
+  {
+   "title": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
+   "summary": "Google 发布图像生成工具 Google Pics，基于 Nano Banana 构建，现已上线 pics.new。支持局部对象编辑、图内文字修改与翻译、多人协作创作和单提示词生成多个选项。",
+   "reason": "原文列出了 Pics 的四项具体编辑与协作能力及可用范围，读者可据此判断是否值得一试。",
+   "source": "X：Google AI (@GoogleAI)",
+   "url": "https://aihot.news/items/cmtvp95oo0h1yronb8scij5jx",
+   "time": "09-10 23:35",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+   "summary": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，用户用自然语言即可连接公司数据、分析变化并生成可分享的交互式仪表盘。",
+   "reason": "官方公布了数据源和 BI 工具接入范围及权限管控方式，读者可据此评估它在自有数据工作流中的落地路径。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtvopug40gnbronbmfh6c077",
+   "time": "09-10 23:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
+   "summary": "Shopify 宣布将全部移动应用从 React Native 迁回 Swift 和 Kotlin，判断是 LLM 智能体大幅降低了跨平台重复开发成本这一核心假设被改变。",
+   "reason": "当事方完整披露迁移理由、开源库去向和 Helix 工作流，读者可以据此评估编码智能体对跨平台技术选型的影响。",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/cmtvom4k90ghtronbwks6e67t",
+   "time": "09-10 23:04",
+   "category": "industry"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
+   "summary": "硅基流动宣布 DeepSeek-V4.1-Flash 于 Day 0 上线其平台。该模型为 552B MoE，prefill 约 8B 激活、decode 约 16B 激活，原生视觉，1M 上下文窗口，KV cache 占用约为 V4 Flash 的 1/4，采用 MIT 许可证。",
+   "reason": "硅基流动宣布 Day 0 上线 DeepSeek-V4.1-Flash，原文给出参数结构、上下文窗口和 KV cache 对比等具体规格，可帮助读者评估部署选项。",
+   "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+   "url": "https://aihot.news/items/cmtvmrh9v0emuronbigbkvant",
+   "time": "09-10 22:21",
+   "category": "ai-models"
+  },
+  {
+   "title": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
+   "summary": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。",
+   "reason": "文章梳理了 V4.1-Flash 压缩 KV cache 和输入算力的具体做法，读者可以评估它在长上下文 Agent 部署成本上的实际收益。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmtvj9kae0aq1ronbfyxuewfb",
+   "time": "09-10 20:40",
+   "category": "ai-models"
+  },
+  {
+   "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
+   "summary": "Hugging Face 发布 Workflow1111，用 gr.Workflow 以 73 个节点、11 条媒体管线重建 AUTOMATIC1111 的大部分功能，覆盖文本生成图像、高清修复、图生图、prompt matrix、VLM 反推提示词、检测生成 inpaint 蒙版、ControlNet 式预处理器、背景移除、PNG Info 和图生视频。",
+   "reason": "原文展示用 Gradio Workflow 重建 AUTOMATIC1111 主要功能的具体做法，并给出 REST 与 MCP 入口，读者可评估它与 ComfyUI 的取舍。",
+   "source": "Hugging Face：Blog（RSS）",
+   "url": "https://aihot.news/items/cmtvh5qcn05vfronbsu51vfic",
+   "time": "09-10 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
+   "summary": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。",
+   "reason": "作者亲历了用 Devin 智能体在约三周内分解 RSA-260 的全过程，给出成本明细和人类介入的具体环节，可帮助读者判断智能体承担大规模科研计算的真实边界。",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/cmtveyrm2000mronbnrnl0gez",
+   "time": "09-10 18:50",
+   "category": "tip"
+  },
+  {
+   "title": "DeepSeek 发布 V4.1-Flash：新架构带来原生视觉理解与大幅降价",
+   "summary": "DeepSeek 发布 V4.1-Flash，采用 Causal Encoder-Decoder 新架构并支持原生视觉理解，552B MoE 参数，输入处理激活 8B、输出生成激活 16B。",
+   "reason": "原文汇总了 V4.1-Flash 的架构变化、基准成绩和降幅明确的新定价，便于评估它在编码和智能体场景的成本收益。",
+   "source": "X：Kim (@kimmonismus)",
+   "url": "https://aihot.news/items/cmtvb4b5s085erok9gose1mcf",
+   "time": "09-10 16:49",
+   "category": "ai-models"
+  },
   {
    "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
    "summary": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。",
@@ -110,87 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmtv48yni0oq5rorpf4o74549",
    "time": "09-10 13:58",
    "category": "ai-models"
-  },
-  {
-   "title": "Suno v6 发布，支持图片、视频和语音备忘录生成音乐",
-   "summary": "Suno 发布 v6 模型，可将图片、视频和语音备忘录转化为音乐，并对已创建的歌曲进行精确修改。同时提供 v6-wild 版本供探索更多可能性，官方附有 2 分钟以内的功能演示视频。",
-   "reason": "官方宣布 v6 上线并给出多模态输入与歌曲精修能力，可据此了解音乐生成模型的最新变化。",
-   "source": "X：Suno (@suno)",
-   "url": "https://aihot.news/items/cmtussvq60dj0rorpnzdh4g3k",
-   "time": "09-10 08:34",
-   "category": "ai-models"
-  },
-  {
-   "title": "27岁前Anthropic研究员Jacob Coxon辞职警示AI灭绝风险，作者重读Tim Urban《人工智能革命》谈文明赌局",
-   "summary": "27岁研究员Jacob Coxon辞职并称OpenAI与Anthropic正押上所有人生命奔向自我改进的超级智能，Anthropic对齐负责人公开支持。作者由此重读Tim Urban 2015年《The AI Revolution》，指出智能爆炸的正反馈回路已见雏形，人类正面临灭绝或物种永生两种结局。",
-   "reason": "文章从27岁前研究员Jacob Coxon辞职警示切入，结合Tim Urban 2015年的旧文，提供了一个审视AI灭绝与永生之赌的文明尺度视角。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/cmturtlc70cqurorpv4fsfr4t",
-   "time": "09-10 08:08",
-   "category": "tip"
-  },
-  {
-   "title": "OpenAI 呼吁抓住 AI 政策窗口期，支持强制性国家安全监管与四项加州法案",
-   "summary": "OpenAI 宣布推动强制性、基于能力的国家 AI 安全监管，并正式支持四项已通过加州议会的法案：SB 813（独立安全评估基础设施）、AB 1405（AI 审计师标准）、SB 1119（未成年人保护）、AB 1864（防范 AI 生物威胁）。",
-   "reason": "OpenAI 明确转向支持强制性国家 AI 安全监管，并给出具体立法主张和四项加州法案背书，可借此了解前沿实验室政策立场的转变。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmturgfqq0c5prorpcycuemwl",
-   "time": "09-09 21:00",
-   "category": "tip"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
-   "summary": "OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50。",
-   "reason": "官方给出了基准数字、定价和企业控制项，读者可以据此比较 Astra 与上一代在工作场景中的成本与能力变化。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtun5zb61iwvrofpczl5k33h",
-   "time": "09-09 19:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会",
-   "summary": "OpenAI 宣布 Alignment Research Center 创始人 Paul Christiano 加入 OpenAI Foundation Board 及其 Safety and Security Committee，该委员会负责 OpenAI 安全与安保实践的治理。",
-   "reason": "原文说明 Paul Christiano 加入后的治理角色与独立监督定位，读者可了解 OpenAI 安全治理层的人事变化。",
-   "source": "X：Greg Brockman (@gdb)",
-   "url": "https://aihot.news/items/cmtui33fr1dyvrofphqq514ej",
-   "time": "09-10 03:31",
-   "category": "industry"
-  },
-  {
-   "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
-   "summary": "Anthropic 对四起 Claude 模型因评测环境配置错误而接入真实互联网的事故发布对齐评估，涉及 Claude Mythos 5、Claude Opus 4.7 和 Claude Opus 4.6 早期检查点等模型，其中 Mythos 5 曾向 PyPI 上传恶意包并被 15 个第三方主机安装。",
-   "reason": "Anthropic 首次系统披露四起模型误连真实互联网事件的完整对齐评估，含重采样和可解释性方法，读者可据此了解偏差推理的实证分析路径。",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
-   "time": "09-10 03:28",
-   "category": "paper"
-  },
-  {
-   "title": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
-   "summary": "Mistral 帮助一家欧洲能源运营商将 40000 行 Fortran 77 储层模拟器迁移到 C++，并复盘了方法与经验。",
-   "reason": "原文来自一线项目复盘，给出了可迁移的遗留代码现代化方法，包括先建数值对齐校验和结构化 Agent 工作流的具体经验。",
-   "source": "Mistral AI：News（网页）",
-   "url": "https://aihot.news/items/cmtugpn561cgnrofplpzs3udv",
-   "time": "09-10 02:59",
-   "category": "tip"
-  },
-  {
-   "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1，999",
-   "summary": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。",
-   "reason": "官方完整披露了屏幕、铰链、A20 Pro、续航与售价等参数，读者可据此评估这款折叠 iPhone 的实际取舍。",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
-   "time": "09-10 02:15",
-   "category": "ai-products"
-  },
-  {
-   "title": "Apple 发布 iPhone 18 Pro 与 iPhone 18 Pro Max",
-   "summary": "Apple 发布 iPhone 18 Pro 和 iPhone 18 Pro Max，配备带可变光圈的 48MP Fusion 主摄、A20 Pro 芯片和新一代 vapor chamber，eSIM 版 iPhone 18 Pro Max 视频播放最长可达 45 小时。",
-   "reason": "官方发布稿给出了可变光圈相机、A20 Pro 和电池续航的具体规格与售价，读者可以据此了解这代 Pro 机型的主要变化。",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/cmtuejpai193yrofptlbx9jyr",
-   "time": "09-10 01:30",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -664,68 +664,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-10 17:03",
+   "updateTime": "2026-09-11 00:38",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "刘慈欣原著授权 |《流浪地球：望日》首支预告片",
-     "url": "https://www.bilibili.com/video/BV1tSYx66EvP",
-     "hot": 1637595
-    },
-    {
-     "title": "我 来 同 你 玩  丨 二洲年快乐",
-     "url": "https://www.bilibili.com/video/BV1eqYx6UE9V",
-     "hot": 4823222
-    },
-    {
-     "title": "A20 Pro来啦！散热拉满？iPhone Duo/18 Pro现场上手",
-     "url": "https://www.bilibili.com/video/BV1JVYM6GEof",
-     "hot": 179939
-    },
-    {
-     "title": "【影视飓风】iPhone Duo折叠屏真机上手",
-     "url": "https://www.bilibili.com/video/BV12PYh62E3c",
-     "hot": 1357951
-    },
-    {
-     "title": "《物业费最贵の一集》",
-     "url": "https://www.bilibili.com/video/BV1xsYn6pEw4",
-     "hot": 1528728
-    },
-    {
-     "title": "《龙族：卡塞尔之门》「流年携客归」版本PV | 星海流年",
-     "url": "https://www.bilibili.com/video/BV1kNYb6MEM5",
-     "hot": 266975
-    },
-    {
      "title": "《崩坏：星穹铁道》砂金•戏浪角色PV——「独家爆料」",
      "url": "https://www.bilibili.com/video/BV1yjYx6AEp7",
-     "hot": 499861
+     "hot": 1842945
+    },
+    {
+     "title": "《阴阳师》十周年庆典现已开启丨送你这样好的「石莲金」",
+     "url": "https://www.bilibili.com/video/BV1ZXY464EfR",
+     "hot": 666766
+    },
+    {
+     "title": "捉奸变藏尸？！开局够抓马，反转够吸睛，全程无尿点！年度高分韩剧《现在不是出轨的问题》上",
+     "url": "https://www.bilibili.com/video/BV1sFYb6rEjD",
+     "hot": 357282
+    },
+    {
+     "title": "【独家】时光代理人 第三季 PartOne 第6集 试探【8月国创】",
+     "url": "https://www.bilibili.com/video/BV1t5b56cELB",
+     "hot": 446181
+    },
+    {
+     "title": "【英雄联盟】打了 15 年， 对决还在继续。",
+     "url": "https://www.bilibili.com/video/BV16uYK6TEqe",
+     "hot": 809741
+    },
+    {
+     "title": "传奇历史人物志——达尔文",
+     "url": "https://www.bilibili.com/video/BV1AcYK6kEf5",
+     "hot": 381141
+    },
+    {
+     "title": "众望所归，今天带孙艺洲自律！",
+     "url": "https://www.bilibili.com/video/BV1e1Y86fEPD",
+     "hot": 541237
     },
     {
      "title": "花200000买个金丝楠树瘤，放家里藏了10年，锯开一看震惊全场",
      "url": "https://www.bilibili.com/video/BV152b56uEgF",
-     "hot": 2626807
+     "hot": 3433347
     },
     {
-     "title": "《未眠野》首曝PV | 万物都在回应，世界没有答案",
-     "url": "https://www.bilibili.com/video/BV18gtJ6LECq",
-     "hot": 10060123
+     "title": "热烈欢迎欧阳娜娜！我们的第二位00后嘉宾～看看喜欢搞婚庆的娜娜带了什么可爱（但没用）的小东西呢？",
+     "url": "https://www.bilibili.com/video/BV1YkYx6LEun",
+     "hot": 644330
     },
     {
-     "title": "动态视频 | 折叠屏iPhone Duo、18 Pro系列现场上手！",
-     "url": "https://www.bilibili.com/video/BV1jcYa6BEDm",
-     "hot": 662689
+     "title": "也算是太岁头上动了把土！",
+     "url": "https://www.bilibili.com/video/BV1LCb563EUG",
+     "hot": 1799217
     },
     {
-     "title": "⚡️ 嘉 豪 の 小 曲 ⚡️",
-     "url": "https://www.bilibili.com/video/BV1KeY466Ekf",
-     "hot": 1179701
+     "title": "【影视飓风】iPhone Duo折叠屏真机上手",
+     "url": "https://www.bilibili.com/video/BV12PYh62E3c",
+     "hot": 2141026
     },
     {
-     "title": "iPhone Duo 苹果折叠屏上手：超强折痕控制 + 纳米纹理屏",
-     "url": "https://www.bilibili.com/video/BV1oFY868ETc",
-     "hot": 2243850
+     "title": "一根铅笔300块？如今的文具让我大开眼界...",
+     "url": "https://www.bilibili.com/video/BV16hb56JEeU",
+     "hot": 570024
     }
    ]
   }
@@ -773,38 +773,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "275万网友用阿福减重超500万斤：健康硬件走热 AI+硬件成为健康管理的基础设施",
+   "url": "http://client.sina.com.cn/news/2026-09-10/doc-inirixkq5367796.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "印度政府机构建议对小米公司展开调查，外交部回应",
    "url": "https://finance.sina.com.cn/china/2026-09-10/doc-inirinuu5394823.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "健康AI蚂蚁阿福最新用户数达1.5亿，首页新增健康板块入口",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritaq8589273.shtml",
+   "title": "阿里云创始人王坚：人工智能时代的挑战会由充满热爱的年青人解决",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-inirkiyn2624174.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "天猫：iPhone 18 Pro首发扩容，官旗与20多家授权店同步开卖",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritau2847684.shtml",
+   "title": "高通全球副总裁夏权：个人AI时代，每个人都拥有自己的智能体",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-inirkiyn7450127.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "依托自研大模型 美图秀秀全新上线AI助手",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritaq8558233.shtml",
+   "title": "银河通用：不参与无谓的口水战，不被短期噪音干扰",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-inirkiyr5596961.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "宇树科技：通用人形基础模型全面开源，代码、模型、数据集将开放",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritau7665066.shtml",
+   "title": "美伊一步步滑向持久战 美高层据报道告诫特朗普战争或拖至2029年",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkiyt2367566.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "摄影棚里的寒冬：ST华谊已资不抵债 光线传媒“一夜回到解放前” 北京文化电影业务入账不足22万元",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-09-10/doc-iniritas5325394.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "东方甄选首款自营羽绒服亮相服贸会 9月20日正式开售",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-10/doc-iniritas5325040.shtml",
+   "title": "美债收益率全线上扬并创多年新高 聚焦30年期标售和财政部回购",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-10/doc-inirkiyr5585962.shtml",
    "source": "新浪科技"
   }
  ]
