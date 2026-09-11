@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-11 17:01",
+ "updatedAt": "2026-09-12 00:41",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,7 +8,7 @@ var WB_DATA = {
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
    "time": "09-10 22:17",
-   "sourceCount": 7
+   "sourceCount": 6
   },
   {
    "rank": 2,
@@ -28,22 +28,14 @@ var WB_DATA = {
   },
   {
    "rank": 4,
-   "title": "纽约大学教授质疑OpenAI借助其研究抢先发布纳维-斯托克斯问题证明",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmttxf8n90qovrofp2tiv0g2g",
+   "title": "OpenAI 发布纳维-斯托克斯方程证明并附 Lean 4 形式化验证",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/cmtw5rln304sjrolkepoca0qv",
    "time": "09-11 14:17",
-   "sourceCount": 5
+   "sourceCount": 4
   },
   {
    "rank": 5,
-   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
-   "time": "09-10 15:20",
-   "sourceCount": 3
-  },
-  {
-   "rank": 6,
    "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder–Decoder 架构，带原生视觉理解",
    "source": "X：Kim (@kimmonismus)",
    "url": "https://aihot.news/items/cmtva1qh206burok9zip2wdid",
@@ -51,39 +43,74 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
+   "rank": 6,
+   "title": "OpenAI 发布 Agents API 公测版",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv",
+   "time": "09-11 16:52",
+   "sourceCount": 7
+  },
+  {
    "rank": 7,
-   "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识",
-   "source": "X：X.PIN (@thexpin)",
-   "url": "https://aihot.news/items/cmttwa2j30pktrofpw67b9pby",
-   "time": "09-10 04:06",
-   "sourceCount": 2
-  },
-  {
-   "rank": 8,
-   "title": "OpenAI 纳维-斯托克斯方程证明争议：Buckmaster 指控不当行为，各方回应引出开放科学之问",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmttzipvw0sqlrofp63a8px22",
-   "time": "09-11 14:17",
-   "sourceCount": 4
-  },
-  {
-   "rank": 9,
    "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtvsgyqs05vkrofbgg06yzsa",
-   "time": "09-11 10:44",
+   "time": "09-11 16:52",
    "sourceCount": 8
   },
   {
+   "rank": 8,
+   "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
+   "time": "09-10 15:20",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
+   "title": "OpenAI 智能体团队宣布求解 Navier-Stokes 千禧年大奖难题并向独立证明者致贺",
+   "source": "X：OpenAI (@OpenAI)",
+   "url": "https://aihot.news/items/cmtsynojw01xqro5wb8n7ysor",
+   "time": "09-11 14:17",
+   "sourceCount": 3
+  },
+  {
    "rank": 10,
-   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
-   "time": "09-09 14:41",
-   "sourceCount": 0
+   "title": "NSA、CISA 与 FBI 指控 DeepSeek 等六家中国 AI 公司大规模蒸馏美国前沿模型",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/cmtujwqj41fx1rofpgspjur6i",
+   "time": "09-10 04:06",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenRouter 发布 Fusion 复合模型，让多个模型辩论后合成最终答案",
+   "summary": "OpenRouter 发布 Fusion 复合推理系统，将一个提示词并行发给 1 到 8 个面板模型，由 judge 比较共识与分歧后由调用模型写出最终答案。默认三模型面板成本约为单次完成的四到五倍、延迟两到三倍，在 DRACO 深度研究基准上预算面板得 64.7%、前沿面板得 69.0%。",
+   "reason": "官方详解 Fusion 的多模型辩论机制、四到五倍成本与两到三倍延迟，并给出适用与不适用的具体场景。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/cmtx301no054wroedi0krzdye",
+   "time": "09-10 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+   "summary": "Anthropic 发布威胁情报报告，记录 2025 年 12 月至 2026 年 8 月间 Claude 被滥用的七类行为。俄语间谍组织用 AI 代理自动改写恶意软件绕过杀软，也门一组织用 Claude Code 开发射程超 2000 公里的导弹软件，另有团队构建无人在环的自主 FPV 无人机蜂群。",
+   "reason": "这份报告把八个月的滥用案例按领域拆开呈现，读者可以了解当前模型安全防线在哪些场景下暴露了边界。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw",
+   "time": "09-11 21:50",
+   "category": "paper"
+  },
+  {
+   "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+   "summary": "作者实测 DeepSeek V4.1 Flash，缓存命中输入降价 7 倍多、输出砍三分之二，9 月 14 日中午 12 点起所有发往 v4-pro 的请求将被强制路由到 4.1 Flash 并按其低价计费。",
+   "reason": "作者实测 DeepSeek V4.1 Flash 的价格、架构参数和多个生成任务，并给出与 GLM 5.3 Flash 的对比结果和暴露的缺陷。",
+   "source": "公众号：卡尔的AI沃茨",
+   "url": "https://aihot.news/items/cmtwsc5gt09uarow7n2r2jrz3",
+   "time": "09-11 12:24",
+   "category": "tip"
+  },
   {
    "title": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点",
    "summary": "Elon Musk 转发 Grok Bot 对 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 演讲的摘要。",
@@ -121,12 +148,12 @@ var WB_DATA = {
    "category": "ai-products"
   },
   {
-   "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
-   "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。",
-   "reason": "原文给出多组模拟评测数据和具体分数，读者可以据此比较各模型在情报定位与武器开发类任务上的差距。",
+   "title": "Anthropic 红队评测 AI 模型的战术情报定位与常规武器开发能力",
+   "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账号关联、照片与文本地理定位）和常规武器开发（无人机末制导、投放、GPS 拒止导航）上的能力，发现模型在模拟任务上持续进步，部分任务接近或超过人类专家基线。",
+   "reason": "Anthropic 用自建评测量化了模型在情报定位与常规武器开发上的能力轨迹，并给出实测数字与开放权重模型的对比结果。",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/cmtvsxbrc068orofbs09dpez3",
-   "time": "09-11 01:28",
+   "time": "09-10 00:00",
    "category": "paper"
   },
   {
@@ -146,51 +173,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmtvru9kd04x5rofbggyhsxae",
    "time": "09-11 00:33",
    "category": "tip"
-  },
-  {
-   "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
-   "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
-   "reason": "WorkBuddy 官宣上线 DeepSeek V4.1-Flash 并给出两周免费入口，引用内容还说明了 V4-Pro 的退役与迁移安排。",
-   "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-   "url": "https://aihot.news/items/cmtvqbs1q03q9rofb98re4l3n",
-   "time": "09-10 23:49",
-   "category": "ai-models"
-  },
-  {
-   "title": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
-   "summary": "Google 发布图像生成工具 Google Pics，基于 Nano Banana 构建，现已上线 pics.new。支持局部对象编辑、图内文字修改与翻译、多人协作创作和单提示词生成多个选项。",
-   "reason": "原文列出了 Pics 的四项具体编辑与协作能力及可用范围，读者可据此判断是否值得一试。",
-   "source": "X：Google AI (@GoogleAI)",
-   "url": "https://aihot.news/items/cmtvp95oo0h1yronb8scij5jx",
-   "time": "09-10 23:35",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
-   "summary": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，用户用自然语言即可连接公司数据、分析变化并生成可分享的交互式仪表盘。",
-   "reason": "官方公布了数据源和 BI 工具接入范围及权限管控方式，读者可据此评估它在自有数据工作流中的落地路径。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtvopug40gnbronbmfh6c077",
-   "time": "09-10 23:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
-   "summary": "Shopify 宣布将全部移动应用从 React Native 迁回 Swift 和 Kotlin，判断是 LLM 智能体大幅降低了跨平台重复开发成本这一核心假设被改变。",
-   "reason": "当事方完整披露迁移理由、开源库去向和 Helix 工作流，读者可以据此评估编码智能体对跨平台技术选型的影响。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/cmtvom4k90ghtronbwks6e67t",
-   "time": "09-10 23:04",
-   "category": "industry"
-  },
-  {
-   "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
-   "summary": "硅基流动宣布 DeepSeek-V4.1-Flash 于 Day 0 上线其平台。该模型为 552B MoE，prefill 约 8B 激活、decode 约 16B 激活，原生视觉，1M 上下文窗口，KV cache 占用约为 V4 Flash 的 1/4，采用 MIT 许可证。",
-   "reason": "硅基流动宣布 Day 0 上线 DeepSeek-V4.1-Flash，原文给出参数结构、上下文窗口和 KV cache 对比等具体规格，可帮助读者评估部署选项。",
-   "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-   "url": "https://aihot.news/items/cmtvmrh9v0emuronbigbkvant",
-   "time": "09-10 22:21",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -658,68 +640,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-11 17:01",
+   "updateTime": "2026-09-12 00:42",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "行业top3厂二代，出生就在罗马，毕业后却还是得每天上班，压力山大",
-     "url": "https://www.bilibili.com/video/BV1jBYT6KEWQ",
-     "hot": 653097
-    },
-    {
-     "title": "换一种心跳，感受世界的奇妙——《伊莫》联结玩法实机",
-     "url": "https://www.bilibili.com/video/BV1kMYb6KEQ9",
-     "hot": 894235
-    },
-    {
      "title": "《对三骗王炸》",
      "url": "https://www.bilibili.com/video/BV1bxYV6BEwS",
-     "hot": 440700
+     "hot": 1903525
     },
     {
-     "title": "【独家】时光代理人 第三季 PartOne 第6集 试探【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1t5b56cELB",
-     "hot": 762122
+     "title": "【月行水上】SR-EX-1至SR-EX-8突袭 摆完挂机 简单好抄",
+     "url": "https://www.bilibili.com/video/BV18bYL65E54",
+     "hot": 957558
     },
     {
-     "title": "当我把“大地”穿在身上｜结合自然元素还原绝美大地女神",
-     "url": "https://www.bilibili.com/video/BV1uFYg6fETn",
-     "hot": 864621
+     "title": "【warma/怒九】出国！去逛全球最大的游戏展吧！",
+     "url": "https://www.bilibili.com/video/BV1fsYG6JErA",
+     "hot": 465209
     },
     {
      "title": "【糖果】人类就要冲出太阳系了！然后被宇宙嫌弃了",
      "url": "https://www.bilibili.com/video/BV1WuYh6VEaS",
-     "hot": 1023323
+     "hot": 1598319
     },
     {
-     "title": "假如你是一个雪饼",
-     "url": "https://www.bilibili.com/video/BV1ciYp6XEpW",
-     "hot": 1034306
+     "title": "要打针还是亲亲？",
+     "url": "https://www.bilibili.com/video/BV1fYYj68EiU",
+     "hot": 207183
     },
     {
-     "title": "【招笑版】新植物9:力竭豌豆【bilibilionly同人扶持计划】",
-     "url": "https://www.bilibili.com/video/BV1sbbj6bEut",
-     "hot": 1813244
+     "title": "你会翻过山，看到万丈青天",
+     "url": "https://www.bilibili.com/video/BV19JYL6nE34",
+     "hot": 289827
     },
     {
-     "title": "三年之期已到，恭迎世一上归位！【第8集】",
-     "url": "https://www.bilibili.com/video/BV1CDYg69EGL",
-     "hot": 1022336
+     "title": "校长来啦",
+     "url": "https://www.bilibili.com/video/BV1odY76aEio",
+     "hot": 353098
     },
     {
-     "title": "刘慈欣原著授权 |《流浪地球：望日》首支预告片",
-     "url": "https://www.bilibili.com/video/BV1tSYx66EvP",
-     "hot": 6264475
+     "title": "差一天就能看到糖花の“监狱vlog”了",
+     "url": "https://www.bilibili.com/video/BV12HYu6REYk",
+     "hot": 1661600
     },
     {
-     "title": "【IGN】Switch 2版《艾尔登法环 褪色者版》 59分钟实机演示02",
-     "url": "https://www.bilibili.com/video/BV1cgYM65EQw",
-     "hot": 392161
+     "title": "【西西里 | 官方MV 】周杰伦 MV从画面、运镜到剧情铺陈，都以电影规格打造，宛如一部浓缩版的动作电影。",
+     "url": "https://www.bilibili.com/video/BV17mYV6WEe5",
+     "hot": 385740
     },
     {
-     "title": "众望所归，今天带孙艺洲自律！",
-     "url": "https://www.bilibili.com/video/BV1e1Y86fEPD",
-     "hot": 1106817
+     "title": "《逆战：未来》S4朔望赛季实机 | 人类联盟征兵广告",
+     "url": "https://www.bilibili.com/video/BV1Q8YM68EL5",
+     "hot": 906901
+    },
+    {
+     "title": "简单做个毛血旺！麻辣下饭好过瘾！配上红烧茄子和炒西瓜皮，根本满足啊",
+     "url": "https://www.bilibili.com/video/BV1jrYT6NERW",
+     "hot": 319294
+    },
+    {
+     "title": "【赛尔号】灵渊的回响主线版本PV「风暴之中，雷神降临」",
+     "url": "https://www.bilibili.com/video/BV149Yt61ErM",
+     "hot": 615750
     }
    ]
   }
@@ -777,28 +759,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "简单看懂今晚美国CPI数据：这一次，可能直接决定美联储是否加息",
-   "url": "https://finance.sina.com.cn/world/2026-09-11/doc-inirmvzx5377791.shtml",
+   "title": "美国第二季度家庭净资产创纪录环比增加12.803万亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirntfu5604336.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "微信零钱通将不能用于消费支付？腾讯辟谣：相关功能不受影响",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-11/doc-inirmvzz2347056.shtml",
+   "title": "欧洲股市周五反弹 仍创下7月份以来最差单周表现",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirntfu5603515.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "支付宝“碰一下”推出无界经营",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-11/doc-inirmvzz2116371.shtml",
+   "title": "美联储下周加息几成定局 手机资费大涨或是关键推手",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirntfu5602935.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "剧集中报：长剧市场持续收缩、含“AI”量成业绩分水岭 大晟文化资不抵债、欢瑞世纪毛利转负",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-09-11/doc-inirmvzz2093782.shtml",
+   "title": "欧洲债市：欧洲地区加息押注降温 短期政府债券上涨",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirntfu5594710.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "VOSS再度亮相服贸会，出圈主宾国挪威国家馆",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-11/doc-inirmrtw6953471.shtml",
+   "title": "知名策略师认为美国中期选举前汽油价格达到5美元的风险“极高”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirntfs8814359.shtml",
    "source": "新浪科技"
   }
  ]
