@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-11 10:35",
+ "updatedAt": "2026-09-11 17:01",
  "aihotHot": [
   {
    "rank": 1,
@@ -28,19 +28,19 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "纽约大学教授质疑OpenAI借助其研究抢先发布纳维-斯托克斯问题证明",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmttxf8n90qovrofp2tiv0g2g",
+   "time": "09-11 14:17",
+   "sourceCount": 5
+  },
+  {
+   "rank": 5,
    "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtt0pw2p018pro9owlhpi092",
    "time": "09-10 15:20",
-   "sourceCount": 4
-  },
-  {
-   "rank": 5,
-   "title": "纽约大学教授质疑OpenAI借助其研究抢先发布纳维-斯托克斯问题证明",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmttxf8n90qovrofp2tiv0g2g",
-   "time": "09-11 07:01",
-   "sourceCount": 6
+   "sourceCount": 3
   },
   {
    "rank": 6,
@@ -56,31 +56,31 @@ var WB_DATA = {
    "source": "X：X.PIN (@thexpin)",
    "url": "https://aihot.news/items/cmttwa2j30pktrofpw67b9pby",
    "time": "09-10 04:06",
-   "sourceCount": 3
+   "sourceCount": 2
   },
   {
    "rank": 8,
    "title": "OpenAI 纳维-斯托克斯方程证明争议：Buckmaster 指控不当行为，各方回应引出开放科学之问",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmttzipvw0sqlrofp63a8px22",
-   "time": "09-10 19:00",
-   "sourceCount": 5
+   "time": "09-11 14:17",
+   "sourceCount": 4
   },
   {
    "rank": 9,
-   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
-   "time": "09-09 14:42",
-   "sourceCount": 2
-  },
-  {
-   "rank": 10,
    "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtvsgyqs05vkrofbgg06yzsa",
-   "time": "09-11 08:28",
-   "sourceCount": 7
+   "time": "09-11 10:44",
+   "sourceCount": 8
+  },
+  {
+   "rank": 10,
+   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
+   "time": "09-09 14:41",
+   "sourceCount": 0
   }
  ],
  "aihotItems": [
@@ -658,68 +658,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-11 10:35",
+   "updateTime": "2026-09-11 17:01",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【招笑版】新植物9:力竭豌豆【bilibilionly同人扶持计划】",
-     "url": "https://www.bilibili.com/video/BV1sbbj6bEut",
-     "hot": 1094976
+     "title": "行业top3厂二代，出生就在罗马，毕业后却还是得每天上班，压力山大",
+     "url": "https://www.bilibili.com/video/BV1jBYT6KEWQ",
+     "hot": 653097
     },
     {
-     "title": "【糖果】人类就要冲出太阳系了！然后被宇宙嫌弃了",
-     "url": "https://www.bilibili.com/video/BV1WuYh6VEaS",
-     "hot": 445254
+     "title": "换一种心跳，感受世界的奇妙——《伊莫》联结玩法实机",
+     "url": "https://www.bilibili.com/video/BV1kMYb6KEQ9",
+     "hot": 894235
     },
     {
-     "title": "三年之期已到，恭迎世一上归位！【第8集】",
-     "url": "https://www.bilibili.com/video/BV1CDYg69EGL",
-     "hot": 443579
+     "title": "《对三骗王炸》",
+     "url": "https://www.bilibili.com/video/BV1bxYV6BEwS",
+     "hot": 440700
     },
     {
      "title": "【独家】时光代理人 第三季 PartOne 第6集 试探【8月国创】",
      "url": "https://www.bilibili.com/video/BV1t5b56cELB",
-     "hot": 542612
-    },
-    {
-     "title": "一根铅笔300块？如今的文具让我大开眼界...",
-     "url": "https://www.bilibili.com/video/BV16hb56JEeU",
-     "hot": 878794
-    },
-    {
-     "title": "有一个史蒂夫前来做好事【千年村庄】",
-     "url": "https://www.bilibili.com/video/BV1aVYu6cEdG",
-     "hot": 78342
-    },
-    {
-     "title": "刘慈欣原著授权 |《流浪地球：望日》首支预告片",
-     "url": "https://www.bilibili.com/video/BV1tSYx66EvP",
-     "hot": 5389797
+     "hot": 762122
     },
     {
      "title": "当我把“大地”穿在身上｜结合自然元素还原绝美大地女神",
      "url": "https://www.bilibili.com/video/BV1uFYg6fETn",
-     "hot": 286825
+     "hot": 864621
     },
     {
-     "title": "只不过是学会了化妆，对象非说我整容了……",
-     "url": "https://www.bilibili.com/video/BV14NYg6xEdH",
-     "hot": 521778
+     "title": "【糖果】人类就要冲出太阳系了！然后被宇宙嫌弃了",
+     "url": "https://www.bilibili.com/video/BV1WuYh6VEaS",
+     "hot": 1023323
+    },
+    {
+     "title": "假如你是一个雪饼",
+     "url": "https://www.bilibili.com/video/BV1ciYp6XEpW",
+     "hot": 1034306
+    },
+    {
+     "title": "【招笑版】新植物9:力竭豌豆【bilibilionly同人扶持计划】",
+     "url": "https://www.bilibili.com/video/BV1sbbj6bEut",
+     "hot": 1813244
+    },
+    {
+     "title": "三年之期已到，恭迎世一上归位！【第8集】",
+     "url": "https://www.bilibili.com/video/BV1CDYg69EGL",
+     "hot": 1022336
+    },
+    {
+     "title": "刘慈欣原著授权 |《流浪地球：望日》首支预告片",
+     "url": "https://www.bilibili.com/video/BV1tSYx66EvP",
+     "hot": 6264475
+    },
+    {
+     "title": "【IGN】Switch 2版《艾尔登法环 褪色者版》 59分钟实机演示02",
+     "url": "https://www.bilibili.com/video/BV1cgYM65EQw",
+     "hot": 392161
     },
     {
      "title": "众望所归，今天带孙艺洲自律！",
      "url": "https://www.bilibili.com/video/BV1e1Y86fEPD",
-     "hot": 766730
-    },
-    {
-     "title": "《崩坏：星穹铁道》砂金•戏浪角色PV——「独家爆料」",
-     "url": "https://www.bilibili.com/video/BV1yjYx6AEp7",
-     "hot": 2040868
-    },
-    {
-     "title": "大美王朝2026：党争、测谎，挪用军饷，美国真有大明那味了！",
-     "url": "https://www.bilibili.com/video/BV1bwYg6tExB",
-     "hot": 421705
+     "hot": 1106817
     }
    ]
   }
@@ -742,18 +742,28 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "苹果折叠机iPhone Duo不支持实体SIM卡 海外版本带回国内没法使用",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-11/doc-inirkywi5437450.shtml",
+   "title": "除了腾讯，还有谁愿意为燧原科技买单？",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-09-11/doc-inirmvzz2202992.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "DeepSeek V4.1 Flash 硬刚智谱「牛来」，谁才是国模 Flash 之王？",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-11/doc-inirkywi5394525.shtml",
+   "title": "分众传媒78亿合并是否符合反垄断要求？",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-09-11/doc-inirmvzu6858561.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "澎程N90 Max七车叠罗汉为何悬架没塌 小米汽车详解：底部塞钢梁了",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-11/doc-inirkiyn2641819.shtml",
+   "title": "闭店潮下的零售药店",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-09-11/doc-inirmvzx5382046.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "燧原科技上市敲钟，创始人现身，“国产GPU四小龙”全部完成资本化",
+   "url": "https://finance.sina.com.cn/wm/2026-09-11/doc-inirmmmy7020418.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "宇树科技总市值跌破2000亿元，股价跌破490元",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-09-11/doc-inirmfef5452410.shtml",
    "source": "新浪科技"
   },
   {
@@ -762,43 +772,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "办公协作平台 Slack 升级 Slackbot AI 助手，可快速创建交互式报告 / 网站等内容",
-   "url": "https://finance.sina.com.cn/tech/digi/2026-09-11/doc-inirkywe2349848.shtml",
+   "title": "科技赋能保障 人保AI福安康百万医疗险全新上市",
+   "url": "http://client.sina.com.cn/news/2026-09-11/doc-inirmmmy2187642.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OpenAI 扩大实时语音模型能力：GPT-Live-1 上线 API，支持打断处理、工具调用和电话语音智能体",
-   "url": "https://finance.sina.com.cn/tech/digi/2026-09-11/doc-inirmfei2133201.shtml",
+   "title": "简单看懂今晚美国CPI数据：这一次，可能直接决定美联储是否加息",
+   "url": "https://finance.sina.com.cn/world/2026-09-11/doc-inirmvzx5377791.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "奥特曼：OpenAI对放慢顶尖AI的研发速度持开放态度",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfef5367253.shtml",
+   "title": "微信零钱通将不能用于消费支付？腾讯辟谣：相关功能不受影响",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-11/doc-inirmvzz2347056.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "AirPods 5上手：两个版本 三项提升",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-11/doc-inirmfea2268657.shtml",
+   "title": "支付宝“碰一下”推出无界经营",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-11/doc-inirmvzz2116371.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "吹哨人警告不断之际 OpenAI讨论放缓前沿AI研发并呼吁同行减速",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfei2163299.shtml",
+   "title": "剧集中报：长剧市场持续收缩、含“AI”量成业绩分水岭 大晟文化资不抵债、欢瑞世纪毛利转负",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-09-11/doc-inirmvzz2093782.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "澳联邦银行：美国CPI走软和美联储加息或为债券抛售潮仅有的熔断器",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfei2159422.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "日本国债收益率全线上扬 跟随美债走势",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-11/doc-inirmfea2247745.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "特斯拉中国上线全新Model Y全轮驱动高性能版：百公里加速3.5秒，售价36.9万元起",
-   "url": "https://finance.sina.com.cn/tech/2026-09-11/doc-inirmfei2146416.shtml",
+   "title": "VOSS再度亮相服贸会，出圈主宾国挪威国家馆",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-11/doc-inirmrtw6953471.shtml",
    "source": "新浪科技"
   }
  ]
