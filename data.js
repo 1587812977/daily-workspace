@@ -1,25 +1,9 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-12 16:44",
+ "updatedAt": "2026-09-12 23:45",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1,999",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
-   "time": "09-10 22:17",
-   "sourceCount": 2
-  },
-  {
-   "rank": 2,
-   "title": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmtvj9kae0aq1ronbfyxuewfb",
-   "time": "09-11 07:44",
-   "sourceCount": 5
-  },
-  {
-   "rank": 3,
    "title": "OpenAI 发布 Agents API，通过托管方式提供 Codex harness",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/cmtw5kexm04n9rolkoq96vocm",
@@ -27,12 +11,28 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
+   "rank": 2,
+   "title": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmty8t82j03zxrojhdlid1wt5",
+   "time": "09-12 18:29",
+   "sourceCount": 6
+  },
+  {
+   "rank": 3,
+   "title": "The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/cmtyay71605x2rojh4f44hf66",
+   "time": "09-12 19:00",
+   "sourceCount": 3
+  },
+  {
    "rank": 4,
-   "title": "调查报告：OpenAI 智能体对 RubyGems 发起未公开的 GemStuffer 攻击",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmtxn8ayp06rlroi31w9thi0o",
-   "time": "09-12 08:42",
-   "sourceCount": 4
+   "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
+   "time": "09-12 22:05",
+   "sourceCount": 3
   },
   {
    "rank": 5,
@@ -44,43 +44,43 @@ var WB_DATA = {
   },
   {
    "rank": 6,
-   "title": "Cursor 推出 Projects：协调者智能体管理数千个子智能体处理大型开发任务",
-   "source": "Cursor Blog",
-   "url": "https://aihot.news/items/cmtw4o8qc03iwrolkwc03elil",
-   "time": "09-11 19:10",
-   "sourceCount": 6
+   "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw",
+   "time": "09-11 21:50",
+   "sourceCount": 2
   },
   {
    "rank": 7,
-   "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7",
-   "time": "09-12 13:37",
+   "title": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder–Decoder 架构，带原生视觉理解",
+   "source": "X：Kim (@kimmonismus)",
+   "url": "https://aihot.news/items/cmtva1qh206burok9zip2wdid",
+   "time": "09-12 00:03",
    "sourceCount": 2
   },
   {
    "rank": 8,
-   "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
-   "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-   "url": "https://aihot.news/items/cmtvmrh9v0emuronbigbkvant",
-   "time": "09-11 20:25",
-   "sourceCount": 4
+   "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmttulwa90npwrofpsde4lc0k",
+   "time": "09-09 16:37",
+   "sourceCount": 0
   },
   {
    "rank": 9,
-   "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw",
-   "time": "09-12 01:18",
-   "sourceCount": 3
+   "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/cmtvom4k90ghtronbwks6e67t",
+   "time": "09-11 05:11",
+   "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
-   "time": "09-12 09:43",
-   "sourceCount": 2
+   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+   "source": "MarkTechPost（RSS）",
+   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+   "time": "09-11 07:44",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
@@ -136,33 +136,6 @@ var WB_DATA = {
    "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
    "url": "https://aihot.news/items/cmtx7e9sn09mmroedph6hkyx4",
    "time": "09-12 00:28",
-   "category": "tip"
-  },
-  {
-   "title": "OpenRouter 发布 Fusion 复合模型，让多个模型辩论后合成最终答案",
-   "summary": "OpenRouter 发布 Fusion 复合推理系统，将一个提示词并行发给 1 到 8 个面板模型，由 judge 比较共识与分歧后由调用模型写出最终答案。默认三模型面板成本约为单次完成的四到五倍、延迟两到三倍，在 DRACO 深度研究基准上预算面板得 64.7%、前沿面板得 69.0%。",
-   "reason": "官方详解 Fusion 的多模型辩论机制、四到五倍成本与两到三倍延迟，并给出适用与不适用的具体场景。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/cmtx301no054wroedi0krzdye",
-   "time": "09-10 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
-   "summary": "Anthropic 发布威胁情报报告，记录 2025 年 12 月至 2026 年 8 月间 Claude 被滥用的七类行为。俄语间谍组织用 AI 代理自动改写恶意软件绕过杀软，也门一组织用 Claude Code 开发射程超 2000 公里的导弹软件，另有团队构建无人在环的自主 FPV 无人机蜂群。",
-   "reason": "这份报告把八个月的滥用案例按领域拆开呈现，读者可以了解当前模型安全防线在哪些场景下暴露了边界。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw",
-   "time": "09-11 21:50",
-   "category": "paper"
-  },
-  {
-   "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
-   "summary": "作者实测 DeepSeek V4.1 Flash，缓存命中输入降价 7 倍多、输出砍三分之二，9 月 14 日中午 12 点起所有发往 v4-pro 的请求将被强制路由到 4.1 Flash 并按其低价计费。",
-   "reason": "作者实测 DeepSeek V4.1 Flash 的价格、架构参数和多个生成任务，并给出与 GLM 5.3 Flash 的对比结果和暴露的缺陷。",
-   "source": "公众号：卡尔的AI沃茨",
-   "url": "https://aihot.news/items/cmtwsc5gt09uarow7n2r2jrz3",
-   "time": "09-11 12:24",
    "category": "tip"
   }
  ],
@@ -556,68 +529,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-12 16:44",
+   "updateTime": "2026-09-12 23:45",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "耗费200小时，雕刻二游先帝的十周年女神",
-     "url": "https://www.bilibili.com/video/BV13SYT6ZEuZ",
-     "hot": 668815
+     "title": "《原神》7.1版本PV：「往冥府的安魂歌」",
+     "url": "https://www.bilibili.com/video/BV1yuY96rEL7",
+     "hot": 779217
     },
     {
-     "title": "小 兵 阿 嘎",
-     "url": "https://www.bilibili.com/video/BV1zuY46oE2V",
-     "hot": 1047827
+     "title": "《原神》7.1版本「往冥府的安魂歌」前瞻特别节目",
+     "url": "https://www.bilibili.com/video/BV1znY96NEvn",
+     "hot": 525504
     },
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第15集【总第191集】",
      "url": "https://www.bilibili.com/video/BV1EmYm6HE57",
-     "hot": 3119163
+     "hot": 4777745
     },
     {
-     "title": "解锁现实版“富豪主题公园” 探访欧洲老钱后花园摩纳哥",
-     "url": "https://www.bilibili.com/video/BV1c5YM6rETF",
-     "hot": 1841812
+     "title": "中国超能，奶奶蔡明能，飞！",
+     "url": "https://www.bilibili.com/video/BV1P4YX63Emf",
+     "hot": 756799
     },
     {
-     "title": "校长来啦",
-     "url": "https://www.bilibili.com/video/BV1odY76aEio",
-     "hot": 2901038
+     "title": "这寝室呆的",
+     "url": "https://www.bilibili.com/video/BV1ZiYX6PEd5",
+     "hot": 432624
     },
     {
      "title": "去了一趟山西。",
      "url": "https://www.bilibili.com/video/BV1xVY26dEbz",
-     "hot": 471938
+     "hot": 1274092
     },
     {
-     "title": "什么叫你往mc添加了整套拼豆系统？",
-     "url": "https://www.bilibili.com/video/BV1NKYg6RE5M",
-     "hot": 783933
+     "title": "夏季的温馨碎片，重新剪到一起，准备再赚一次流量",
+     "url": "https://www.bilibili.com/video/BV1S5YE6HE9Q",
+     "hot": 322995
     },
     {
-     "title": "快点快点再快点！高速变道会发生什么？",
-     "url": "https://www.bilibili.com/video/BV1swYM6SEBd",
-     "hot": 519154
+     "title": "“一饭温情相赠，千里以报恩深.”【红色高跟鞋DJ-降调】【涌泉相报の小曲】",
+     "url": "https://www.bilibili.com/video/BV1HUY76uEMJ",
+     "hot": 713809
     },
     {
-     "title": "火箭军防毒面具版“恶魔引体”，硬核出战！",
-     "url": "https://www.bilibili.com/video/BV19HY76oEv3",
-     "hot": 984069
+     "title": "《重返未来：1999》2026箱中巡游·4.0版本PV：应门者",
+     "url": "https://www.bilibili.com/video/BV18Xb56NEbF",
+     "hot": 364220
     },
     {
-     "title": "回访篇：当年改造的家，现在怎么样了【梦想改造家 第13季】",
-     "url": "https://www.bilibili.com/video/BV1wKYK6uEus",
-     "hot": 268429
+     "title": "高糖VS戒糖14天！真的差别很大吗？",
+     "url": "https://www.bilibili.com/video/BV1enYL6SEtU",
+     "hot": 1059022
     },
     {
-     "title": "21世纪波兰依然被闪击",
-     "url": "https://www.bilibili.com/video/BV1BdYQ6aEXv",
-     "hot": 512591
+     "title": "5米大锅30年老卤料，一次性炖1200斤猪蹄，今天带大家沉浸式感受烹饪过程",
+     "url": "https://www.bilibili.com/video/BV1hGYE6XEvt",
+     "hot": 333310
     },
     {
-     "title": "五分钟后年级查带手机",
-     "url": "https://www.bilibili.com/video/BV1nDbP6dEv2",
-     "hot": 1726987
+     "title": "当你穿进老钱班《前传》",
+     "url": "https://www.bilibili.com/video/BV12fYD66EFC",
+     "hot": 508087
     }
    ]
   }
@@ -670,33 +643,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "AI健康新经济成为焦点话题，行业最新观点：AI或成健康管理的关键变量",
+   "url": "http://client.sina.com.cn/news/2026-09-12/doc-inirqrwy6336721.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "科技赋能保障 人保AI福安康百万医疗险全新上市",
    "url": "http://client.sina.com.cn/news/2026-09-11/doc-inirmmmy2187642.shtml",
    "source": "新浪科技"
   },
   {
+   "title": "加州柴油价格创历史新高",
+   "url": "https://finance.sina.com.cn/7x24/2026-09-12/doc-inirqweu5017032.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "伊朗总统：目前无法做出与美国直接谈判的决定 美国必须停止封锁",
+   "url": "https://finance.sina.com.cn/7x24/2026-09-12/doc-inirqwes8236372.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "Anthropic首席执行官发表公开信 呼吁放慢AI模型的发展速度",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirqwer1080254.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "让球机听懂“人话”！橙狮体育Smartshot 2.0交出“体育+AI”普惠答卷",
    "url": "https://finance.sina.com.cn/wm/2026-09-12/doc-inirqfia5166011.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "事关太空算力，四地倡议共建产业长廊",
-   "url": "https://finance.sina.com.cn/roll/2026-09-12/doc-inirpyyz1478649.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "第48届世界技能大赛倒计时10天！共赴这场全球技能盛会",
-   "url": "https://finance.sina.com.cn/wm/2026-09-12/doc-inirpyyz1479701.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "印度监管机构针对尾盘竞价波动提出改革方案",
-   "url": "https://finance.sina.com.cn/world/2026-09-12/doc-inirpyyz1472976.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "原茅台董事长张德芹现身贵州酒博会",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-12/doc-inirpyzh6635358.shtml",
    "source": "新浪科技"
   }
  ]
