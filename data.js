@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-12 10:44",
+ "updatedAt": "2026-09-12 16:44",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,15 +8,15 @@ var WB_DATA = {
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
    "time": "09-10 22:17",
-   "sourceCount": 3
+   "sourceCount": 2
   },
   {
    "rank": 2,
-   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
-   "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+   "title": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmtvj9kae0aq1ronbfyxuewfb",
    "time": "09-11 07:44",
-   "sourceCount": 8
+   "sourceCount": 5
   },
   {
    "rank": 3,
@@ -28,6 +28,14 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "调查报告：OpenAI 智能体对 RubyGems 发起未公开的 GemStuffer 攻击",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmtxn8ayp06rlroi31w9thi0o",
+   "time": "09-12 08:42",
+   "sourceCount": 4
+  },
+  {
+   "rank": 5,
    "title": "OpenAI 在 API 中开放 GPT-Live-1 语音模型",
    "source": "X：OpenAI Developers (@OpenAIDevs)",
    "url": "https://aihot.news/items/cmtvtjeep06nhrofbwht82606",
@@ -35,7 +43,7 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "Cursor 推出 Projects：协调者智能体管理数千个子智能体处理大型开发任务",
    "source": "Cursor Blog",
    "url": "https://aihot.news/items/cmtw4o8qc03iwrolkwc03elil",
@@ -43,15 +51,15 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 6,
-   "title": "调查报告：OpenAI 智能体对 RubyGems 发起未公开的 GemStuffer 攻击",
+   "rank": 7,
+   "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
    "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmtxn8ayp06rlroi31w9thi0o",
-   "time": "09-12 08:42",
-   "sourceCount": 3
+   "url": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7",
+   "time": "09-12 13:37",
+   "sourceCount": 2
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
    "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
    "url": "https://aihot.news/items/cmtvmrh9v0emuronbigbkvant",
@@ -59,7 +67,7 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw",
@@ -67,23 +75,24 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 9,
+   "rank": 10,
    "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
    "time": "09-12 09:43",
    "sourceCount": 2
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI 发布纳维-斯托克斯方程证明并附 Lean 4 形式化验证",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/cmtw5rln304sjrolkepoca0qv",
-   "time": "09-11 14:17",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+   "summary": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
+   "reason": "Minitap 团队以代码比对和提交历史为据，指认 Google Artemis 移除了其 mobile-use 的作者署名，还给出 Apache 2.0 条款和排行榜争议细节。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7",
+   "time": "09-12 10:39",
+   "category": "industry"
+  },
   {
    "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
    "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2，000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
@@ -547,68 +556,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-12 10:44",
+   "updateTime": "2026-09-12 16:44",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "解锁现实版“富豪主题公园” 探访欧洲老钱后花园摩纳哥",
-     "url": "https://www.bilibili.com/video/BV1c5YM6rETF",
-     "hot": 954011
-    },
-    {
-     "title": "校长来啦",
-     "url": "https://www.bilibili.com/video/BV1odY76aEio",
-     "hot": 1512356
-    },
-    {
-     "title": "我真有那么像外国人吗…!?",
-     "url": "https://www.bilibili.com/video/BV1aTYT64EQH",
-     "hot": 706417
+     "title": "耗费200小时，雕刻二游先帝的十周年女神",
+     "url": "https://www.bilibili.com/video/BV13SYT6ZEuZ",
+     "hot": 668815
     },
     {
      "title": "小 兵 阿 嘎",
      "url": "https://www.bilibili.com/video/BV1zuY46oE2V",
-     "hot": 465365
+     "hot": 1047827
     },
     {
-     "title": "要打针还是亲亲？",
-     "url": "https://www.bilibili.com/video/BV1fYYj68EiU",
-     "hot": 575820
+     "title": "【独家】《凡人修仙传之慕兰之战》第15集【总第191集】",
+     "url": "https://www.bilibili.com/video/BV1EmYm6HE57",
+     "hot": 3119163
     },
     {
-     "title": "开 学 送 礼 现 状：",
-     "url": "https://www.bilibili.com/video/BV1T7YE6nE38",
-     "hot": 478962
+     "title": "解锁现实版“富豪主题公园” 探访欧洲老钱后花园摩纳哥",
+     "url": "https://www.bilibili.com/video/BV1c5YM6rETF",
+     "hot": 1841812
     },
     {
-     "title": "你会翻过山，看到万丈青天",
-     "url": "https://www.bilibili.com/video/BV19JYL6nE34",
-     "hot": 626995
+     "title": "校长来啦",
+     "url": "https://www.bilibili.com/video/BV1odY76aEio",
+     "hot": 2901038
     },
     {
-     "title": "「小白」鸿蒙7正式版来了：好用不只是一点点？",
-     "url": "https://www.bilibili.com/video/BV1A2bV6nESZ",
-     "hot": 694525
+     "title": "去了一趟山西。",
+     "url": "https://www.bilibili.com/video/BV1xVY26dEbz",
+     "hot": 471938
     },
     {
-     "title": "经典镜头竟是演员下意识反应！有的是意外，有的也是导演真缺德！",
-     "url": "https://www.bilibili.com/video/BV1NjYj6GEix",
-     "hot": 841448
+     "title": "什么叫你往mc添加了整套拼豆系统？",
+     "url": "https://www.bilibili.com/video/BV1NKYg6RE5M",
+     "hot": 783933
     },
     {
-     "title": "《对三骗王炸》",
-     "url": "https://www.bilibili.com/video/BV1bxYV6BEwS",
-     "hot": 2573942
+     "title": "快点快点再快点！高速变道会发生什么？",
+     "url": "https://www.bilibili.com/video/BV1swYM6SEBd",
+     "hot": 519154
     },
     {
-     "title": "澳洲科学家给蟑螂装上针筒，去废墟里救人了",
-     "url": "https://www.bilibili.com/video/BV1QBYW6gERH",
-     "hot": 1669333
+     "title": "火箭军防毒面具版“恶魔引体”，硬核出战！",
+     "url": "https://www.bilibili.com/video/BV19HY76oEv3",
+     "hot": 984069
     },
     {
-     "title": "武汉没订奶学生“站后排喝水”：“刚好”不能成万能解释，一句“刚好” 堵不住所有追问",
-     "url": "https://www.bilibili.com/video/BV1TnYE67ELN",
-     "hot": 459928
+     "title": "回访篇：当年改造的家，现在怎么样了【梦想改造家 第13季】",
+     "url": "https://www.bilibili.com/video/BV1wKYK6uEus",
+     "hot": 268429
+    },
+    {
+     "title": "21世纪波兰依然被闪击",
+     "url": "https://www.bilibili.com/video/BV1BdYQ6aEXv",
+     "hot": 512591
+    },
+    {
+     "title": "五分钟后年级查带手机",
+     "url": "https://www.bilibili.com/video/BV1nDbP6dEv2",
+     "hot": 1726987
     }
    ]
   }
@@ -666,28 +675,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "特朗普提名的“美国首席医生”，持仓烟草、快餐及碳酸饮料股",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpqmk5352497.shtml",
+   "title": "让球机听懂“人话”！橙狮体育Smartshot 2.0交出“体育+AI”普惠答卷",
+   "url": "https://finance.sina.com.cn/wm/2026-09-12/doc-inirqfia5166011.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "俞敏洪：人工智能可能加剧社会贫富悬殊",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-12/doc-inirpqmk5350679.shtml",
+   "title": "事关太空算力，四地倡议共建产业长廊",
+   "url": "https://finance.sina.com.cn/roll/2026-09-12/doc-inirpyyz1478649.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "俞敏洪：要把孩子教成“比AI更像人”，而不是“更像AI”",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-12/doc-inirpqmk5335069.shtml",
+   "title": "第48届世界技能大赛倒计时10天！共赴这场全球技能盛会",
+   "url": "https://finance.sina.com.cn/wm/2026-09-12/doc-inirpyyz1479701.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "VinFast创始人交棒其子 推进业务扩张",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpqmk5330886.shtml",
+   "title": "印度监管机构针对尾盘竞价波动提出改革方案",
+   "url": "https://finance.sina.com.cn/world/2026-09-12/doc-inirpyyz1472976.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "波音向工程师工会提交最终提案 包含10%加薪",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-12/doc-inirpqmn6795677.shtml",
+   "title": "原茅台董事长张德芹现身贵州酒博会",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-12/doc-inirpyzh6635358.shtml",
    "source": "新浪科技"
   }
  ]
