@@ -1,22 +1,22 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-13 17:39",
+ "updatedAt": "2026-09-14 00:34",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
    "source": "X：Sam Altman (@sama)",
    "url": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb",
-   "time": "09-13 16:53",
+   "time": "09-13 17:20",
    "sourceCount": 16
   },
   {
    "rank": 2,
-   "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
-   "time": "09-12 22:05",
-   "sourceCount": 3
+   "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
+   "time": "09-13 19:58",
+   "sourceCount": 2
   },
   {
    "rank": 3,
@@ -36,30 +36,22 @@ var WB_DATA = {
   },
   {
    "rank": 5,
-   "title": "OpenAI 评测模型越狱入侵 Hugging Face 事件复盘与开源模型防御之争",
-   "source": "PromptArmor：Threat Intelligence",
-   "url": "https://aihot.news/items/cmtym6tgn0008roo5xupf65fm",
-   "time": "09-13 08:49",
-   "sourceCount": 2
+   "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
+   "time": "09-12 22:05",
+   "sourceCount": 3
   },
   {
    "rank": 6,
-   "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
-   "time": "09-12 19:00",
+   "title": "Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+   "time": "09-13 08:49",
    "sourceCount": 1
   },
   {
    "rank": 7,
-   "title": "OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmtu2qhzo0xb2rofp6eaokqdd",
-   "time": "09-12 23:57",
-   "sourceCount": 3
-  },
-  {
-   "rank": 8,
    "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
    "source": "MarkTechPost（RSS）",
    "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
@@ -67,19 +59,27 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
+   "rank": 8,
+   "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmttulwa90npwrofpsde4lc0k",
+   "time": "09-09 16:37",
+   "sourceCount": 0
+  },
+  {
    "rank": 9,
-   "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+   "title": "OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑",
    "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmtx0v3dg030mroedwvkdfyvw",
-   "time": "09-11 21:50",
-   "sourceCount": 1
+   "url": "https://aihot.news/items/cmtu2qhzo0xb2rofp6eaokqdd",
+   "time": "09-12 23:57",
+   "sourceCount": 3
   },
   {
    "rank": 10,
-   "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
-   "source": "Baseten 工程博客（网页）",
-   "url": "https://aihot.news/items/cmtym24xb0002rob419mlyhlb",
-   "time": "09-12 06:01",
+   "title": "The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/cmtyay71605x2rojh4f44hf66",
+   "time": "09-13 09:11",
    "sourceCount": 3
   }
  ],
@@ -92,15 +92,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v",
    "time": "09-13 13:56",
    "category": "tip"
-  },
-  {
-   "title": "OpenAI 将 GPT-Live-1 语音模型开放至 API",
-   "summary": "OpenAI 宣布 GPT-Live-1 正式登陆 API，即 1-800-ChatGPT 背后的语音能力。开发者可把它接入应用，获得边说边听的自然对话语音智能体，并搭配自选的模型与 harness 使用。",
-   "reason": "官方宣布语音模型进入 API，允许搭配自选模型与 harness，开发者可据此评估接入语音智能体的方式。",
-   "source": "X：OpenAI Developers (@OpenAIDevs)",
-   "url": "https://aihot.news/items/cmtz1a2f10pr2roupq2k1944c",
-   "time": "09-13 07:16",
-   "category": "ai-models"
   },
   {
    "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -562,68 +553,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-13 17:39",
+   "updateTime": "2026-09-14 00:34",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "麒麟9050 Pro能效实测！华为Mate XT2性能有多强？",
-     "url": "https://www.bilibili.com/video/BV1HEYv6XETo",
-     "hot": 256918
-    },
-    {
-     "title": "思路打开，用擦丝器解锁旋风薯塔！懒人不开火实现烤肉自由，今天的烤猪蹄简直夯爆了！",
-     "url": "https://www.bilibili.com/video/BV1TEYX62EMp",
-     "hot": 4354190
-    },
-    {
-     "title": "【假装讲电影】笑死！黑帮集体跳槽干物业！结果发现物业更黑啊！！！",
-     "url": "https://www.bilibili.com/video/BV1vnYQ6xEMr",
-     "hot": 1098944
-    },
-    {
-     "title": "【独家】牧神记 第100集 鬼上身",
-     "url": "https://www.bilibili.com/video/BV1nTYS6tEjG",
-     "hot": 1488754
-    },
-    {
-     "title": "逆天小游戏2391",
-     "url": "https://www.bilibili.com/video/BV1uLYX6UEfR",
-     "hot": 702467
-    },
-    {
-     "title": "假如你是一个雪饼",
-     "url": "https://www.bilibili.com/video/BV1ciYp6XEpW",
-     "hot": 4256505
+     "title": "【英雄联盟公益纪录片】逆风局的623326个英雄时刻",
+     "url": "https://www.bilibili.com/video/BV1DJYe6AEgP",
+     "hot": 627959
     },
     {
      "title": "《魔兽世界》：“无限”宣传动画 《崭新的天地》",
      "url": "https://www.bilibili.com/video/BV1WQYd6DEgs",
-     "hot": 1320884
+     "hot": 3275580
     },
     {
-     "title": "加糖制作的红茶，能喝出来吗？",
-     "url": "https://www.bilibili.com/video/BV1BCY16jEom",
-     "hot": 1398842
+     "title": "【假装讲电影】笑死！黑帮集体跳槽干物业！结果发现物业更黑啊！！！",
+     "url": "https://www.bilibili.com/video/BV1vnYQ6xEMr",
+     "hot": 1843473
+    },
+    {
+     "title": "【独家】牧神记 第100集 鬼上身",
+     "url": "https://www.bilibili.com/video/BV1nTYS6tEjG",
+     "hot": 2170714
+    },
+    {
+     "title": "麒麟9050 Pro能效实测！华为Mate XT2性能有多强？",
+     "url": "https://www.bilibili.com/video/BV1HEYv6XETo",
+     "hot": 967562
+    },
+    {
+     "title": "端倪",
+     "url": "https://www.bilibili.com/video/BV19mYX6dEQ6",
+     "hot": 896144
+    },
+    {
+     "title": "思路打开，用擦丝器解锁旋风薯塔！懒人不开火实现烤肉自由，今天的烤猪蹄简直夯爆了！",
+     "url": "https://www.bilibili.com/video/BV1TEYX62EMp",
+     "hot": 5859496
+    },
+    {
+     "title": "假如你是一个雪饼",
+     "url": "https://www.bilibili.com/video/BV1ciYp6XEpW",
+     "hot": 5098427
     },
     {
      "title": "夏季的温馨碎片，重新剪到一起，准备再赚一次流量",
      "url": "https://www.bilibili.com/video/BV1S5YE6HE9Q",
-     "hot": 1451312
+     "hot": 1920335
     },
     {
-     "title": "“一饭温情相赠，千里以报恩深.”【红色高跟鞋DJ-降调】【涌泉相报の小曲】",
-     "url": "https://www.bilibili.com/video/BV1HUY76uEMJ",
-     "hot": 2220569
+     "title": "《听见你的心声》05我能听见我的初恋在想什么。老师……你拉链真的开了。本故事纯属虚构，请相信科学。",
+     "url": "https://www.bilibili.com/video/BV1u7YX67ETK",
+     "hot": 940764
     },
     {
-     "title": "中国人能飞",
-     "url": "https://www.bilibili.com/video/BV1URYD6VETC",
-     "hot": 2116048
+     "title": "【1818黄金眼】女会员的健身照 店长发朋友圈引流？",
+     "url": "https://www.bilibili.com/video/BV1L8YY6qEM3",
+     "hot": 302321
     },
     {
-     "title": "探访野生狗奶原产地，味道居然还不错",
-     "url": "https://www.bilibili.com/video/BV1cgYQ6PE8c",
-     "hot": 1172576
+     "title": "《淘汰回放》",
+     "url": "https://www.bilibili.com/video/BV1g9YX6XEi1",
+     "hot": 635712
     }
    ]
   }
@@ -646,18 +637,18 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "估值冲上400亿，智元老板猛招应届生",
-   "url": "https://finance.sina.com.cn/roll/2026-09-13/doc-inirrtkh7949806.shtml",
+   "title": "突传利空！刚刚，集体下跌！事关AI",
+   "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-13/doc-inirskha4605016.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "除了腾讯，还有谁愿意为燧原科技买单？",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-09-11/doc-inirmvzz2202992.shtml",
+   "title": "图灵量子发布第三代光量子计算机",
+   "url": "https://finance.sina.com.cn/tech/2026-09-13/doc-inirscya7880220.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "闭店潮下的零售药店",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-09-11/doc-inirmvzx5382046.shtml",
+   "title": "全网震撼！菲奖得主未解难题，竟被两名高中生用AI攻破了",
+   "url": "https://finance.sina.com.cn/tech/internet/2026-09-13/doc-inirscxz0518932.shtml",
    "source": "新浪科技"
   },
   {
@@ -681,28 +672,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "卫龙162吨魔芋粉被拦截！涉二氧化硫超标，紧急回应“与在售无关”，消费者怒怼“那之前的呢？”",
-   "url": "https://finance.sina.com.cn/tob/2026-09-13/doc-inirskfy7822560.shtml",
+   "title": "伊朗据称周一公布霍尔木兹海峡临时航道协议 特朗普表示不在乎",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirtfmq7529373.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "儒意电影：“拼好片”模式已跑通五大内容品类",
-   "url": "https://finance.sina.com.cn/tech/internet/2026-09-13/doc-inirskhe5584315.shtml",
+   "title": "特朗普敦促美联储降息 表示美国利率应该全球最低",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirszcw5322364.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "iPhone 18 Pro首发火爆 淘宝闪购：预售首小时销售额较上代翻倍",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-13/doc-inirscxz0538476.shtml",
+   "title": "CVF-V20政要团服贸会期间试乘萝卜快跑 中国无人驾驶成绿色交通实践样本",
+   "url": "https://finance.sina.com.cn/tech/2026-09-13/doc-inirszcr0151188.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "万米深海“原声”、火场“逆行坐标”、芯片“芯中之心”……这场科普演出太硬核了！",
-   "url": "https://finance.sina.com.cn/wm/2026-09-13/doc-inirscya7898374.shtml",
+   "title": "智谱约50亿美元融资落定，加码下一代GLM基础模型、完全自训练及算力基建",
+   "url": "https://finance.sina.com.cn/tob/2026-09-13/doc-inirsqpv0352335.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "图灵量子发布第三代光量子计算机",
-   "url": "https://finance.sina.com.cn/tech/2026-09-13/doc-inirscya7880220.shtml",
+   "title": "光耀新生｜华硕灵耀x Intel首登北京时装周T台，大“秀”时尚精品美学",
+   "url": "https://finance.sina.com.cn/tech/notebook/new/2026-09-13/doc-inirsqpv0347038.shtml",
    "source": "新浪科技"
   }
  ]
