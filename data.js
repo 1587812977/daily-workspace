@@ -1,17 +1,33 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-14 00:34",
+ "updatedAt": "2026-09-14 10:57",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
-   "source": "X：Sam Altman (@sama)",
-   "url": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb",
-   "time": "09-13 17:20",
-   "sourceCount": 16
+   "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+   "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
+   "time": "09-14 09:44",
+   "sourceCount": 17
   },
   {
    "rank": 2,
+   "title": "Nvidia 拟向 Anthropic IPO 投资至多 100 亿美元",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmtyhdyje0egorojhjwrlt3i5",
+   "time": "09-14 06:41",
+   "sourceCount": 2
+  },
+  {
+   "rank": 3,
+   "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援",
+   "source": "MarkTechPost（RSS）",
+   "url": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
+   "time": "09-14 09:44",
+   "sourceCount": 6
+  },
+  {
+   "rank": 4,
    "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
@@ -19,47 +35,23 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 3,
+   "rank": 5,
    "title": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmty8t82j03zxrojhdlid1wt5",
    "time": "09-13 05:41",
-   "sourceCount": 7
-  },
-  {
-   "rank": 4,
-   "title": "OpenAI 发布 Agents API 公测版",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv",
-   "time": "09-13 08:49",
-   "sourceCount": 2
-  },
-  {
-   "rank": 5,
-   "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
-   "time": "09-12 22:05",
    "sourceCount": 3
   },
   {
    "rank": 6,
-   "title": "Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+   "title": "OpenAI 发布 Agents API 公测版",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv",
    "time": "09-13 08:49",
    "sourceCount": 1
   },
   {
    "rank": 7,
-   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
-   "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
-   "time": "09-13 09:22",
-   "sourceCount": 2
-  },
-  {
-   "rank": 8,
    "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/cmttulwa90npwrofpsde4lc0k",
@@ -67,23 +59,49 @@ var WB_DATA = {
    "sourceCount": 0
   },
   {
+   "rank": 8,
+   "title": "Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
+   "time": "09-13 08:49",
+   "sourceCount": 1
+  },
+  {
    "rank": 9,
-   "title": "OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmtu2qhzo0xb2rofp6eaokqdd",
-   "time": "09-12 23:57",
-   "sourceCount": 3
+   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+   "source": "MarkTechPost（RSS）",
+   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+   "time": "09-13 09:22",
+   "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/cmtyay71605x2rojh4f44hf66",
-   "time": "09-13 09:11",
-   "sourceCount": 3
+   "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmtvsgyqs05vkrofbgg06yzsa",
+   "time": "09-14 08:20",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+   "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
+   "reason": "作者肯定 Dario 提议中放慢节奏与透明度的部分，同时汇总多方对监管俘获、评估方独立性和对华姿态的质疑，并补充追责与召回两条政策思路。",
+   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+   "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
+   "time": "09-14 02:34",
+   "category": "tip"
+  },
+  {
+   "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+   "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
+   "reason": "原文梳理了 Anthropic 威胁报告中也门组织用 Claude Code 并行推进导弹研发的完整链条，可帮助读者理解 AI 滥用如何绕过安全防护。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmu01iavi08reroymepsxnar2",
+   "time": "09-13 22:15",
+   "category": "industry"
+  },
   {
    "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
    "summary": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。",
@@ -92,107 +110,20 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v",
    "time": "09-13 13:56",
    "category": "tip"
-  },
-  {
-   "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
-   "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。",
-   "reason": "Anthropic 首席经济学家转发 Dario 新文，原文给出了行业减速的三步计划及 Anthropic 已承诺的第一步。",
-   "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
-   "url": "https://aihot.news/items/cmtyuqztw0bk6roupjaey0f6w",
-   "time": "09-13 04:18",
-   "category": "tip"
-  },
-  {
-   "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
-   "summary": "Anthropic 的 Thariq 转发并支持 Dario Amodei 的新文章《We Must Pace the Frontier》，后者提出 AI 行业应放缓的三部分计划，并承诺向第三方评估者提供永久的员工级系统访问权限。",
-   "reason": "Thariq 以一线工程师视角支持放缓前沿 AI，谈行业加速带来的疲惫和社会需要时间消化，并强调自己对末日概率看法较低。",
-   "source": "X：Thariq (@trq212)",
-   "url": "https://aihot.news/items/cmtyth87f098broupl3k186iw",
-   "time": "09-13 03:46",
-   "category": "tip"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
-   "summary": "OpenAI 开发者账号宣布发布 GPT-6 Astra，并汇总社区开发者基于它做出的构建案例，包括 2234 个建模解剖部件的 3D 展示、Unreal Engine 曼哈顿复刻。",
-   "reason": "OpenAI 官方汇总了 GPT-6 Astra 发布后社区的实际构建案例，可据这些 3D、游戏与硬件项目判断其应用方向。",
-   "source": "X：OpenAI Developers (@OpenAIDevs)",
-   "url": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu",
-   "time": "09-13 01:33",
-   "category": "ai-products"
-  },
-  {
-   "title": "英伟达是人工智能领域的\"中央银行\"",
-   "summary": "英伟达通过为客户提供巨额融资支持来拉动芯片需求，过去三年承诺向初创企业投资超 700 亿美元、向客户提供 3000 亿美元财务支持，因此被称为\"AI 的中央银行\"。今年 8 月它同意为俄亥俄州一座大型数据中心提供最高 1050 亿美元的兜底，并与六家华尔街机构合作撬动超 5000 亿美元 AI 基础设施投资。批评者将其类比 1990 年代末思科和朗讯向电信客户放贷的互联网泡沫风险。",
-   "reason": "原文系统梳理了英伟达通过担保、入股和收益兜底深度介入客户融资的规模与风险，有助于理解其增长背后的金融结构。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/cmtyn3ymd0015ro7fmrjlcr8p",
-   "time": "09-13 00:37",
-   "category": "tip"
-  },
-  {
-   "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
-   "summary": "Sam Altman 回应 Dario Amodei 的《We Must Pace the Frontier》一文，同意需要为前沿 AI 发展设定节奏，称这是 OpenAI 近几周内部讨论的重要话题。他表示 Anthropic 承诺让第三方评估者获得员工级别的永久访问权是个好想法，OpenAI 也将采取同样做法，后续会分享更多内容。",
-   "reason": "OpenAI 对 Anthropic 放缓前沿计划的公开回应，读者可以据此了解两大实验室在独立评估上的立场变化。",
-   "source": "X：Sam Altman (@sama)",
-   "url": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb",
-   "time": "09-13 00:30",
-   "category": "tip"
-  },
-  {
-   "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
-   "summary": "Suno 发布新一代音乐模型 v6，与 Warner Music Group、BMG、Believe 等行业伙伴合作开发，后续将全面替换旧模型。v6 分为三个版本：旗舰 v6 和探索向的 v6-wild 面向 Pro 与 Premier 订阅用户，更快的 v6-mini 向所有人开放。",
-   "reason": "官方发布新一代音乐模型，给出三个版本的定位差异和编辑、混音、采样等具体新能力，可帮助创作者判断如何选择和使用。",
-   "source": "Suno：Blog（网页）",
-   "url": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8",
-   "time": "09-13 00:39",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
-  "date": "2026-09-13",
-  "url": "https://aihot.news/daily/2026-09-13",
+  "date": "2026-09-14",
+  "url": "https://aihot.news/daily/2026-09-14",
   "sections": [
-   {
-    "label": "模型发布/更新",
-    "items": [
-     {
-      "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
-      "summary": "Suno 发布新一代音乐模型 v6，与 Warner Music Group、BMG、Believe 等行业伙伴合作开发，后续将全面替换旧模型。v6 分为三个版本：旗舰 v6 和探索向的 v6-wild 面向 Pro 与 Premier 订阅用户，更快的 v6-mini 向所有人开放。",
-      "source": "Suno：Blog（网页）",
-      "url": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8"
-     }
-    ]
-   },
-   {
-    "label": "产品发布/更新",
-    "items": [
-     {
-      "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
-      "summary": "OpenAI 开发者账号宣布发布 GPT-6 Astra，并汇总社区开发者基于它做出的构建案例，包括 2234 个建模解剖部件的 3D 展示、Unreal Engine 曼哈顿复刻。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "url": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu"
-     }
-    ]
-   },
    {
     "label": "行业动态",
     "items": [
      {
-      "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
-      "summary": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
+      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+      "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2,000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
       "source": "Hacker News：AI 热帖",
-      "url": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7"
-     }
-    ]
-   },
-   {
-    "label": "论文研究",
-    "items": [
-     {
-      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
-      "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2,000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "url": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6"
+      "url": "https://aihot.news/items/cmu01iavi08reroymepsxnar2"
      }
     ]
    },
@@ -200,16 +131,16 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
-      "summary": "Sam Altman 回应 Dario Amodei 的《We Must Pace the Frontier》一文，同意需要为前沿 AI 发展设定节奏，称这是 OpenAI 近几周内部讨论的重要话题。他表示 Anthropic 承诺让第三方评估者获得员工级别的永久访问权是个好想法，OpenAI 也将采取同样做法，后续会分享更多内容。",
-      "source": "X：Sam Altman (@sama)",
-      "url": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb"
+      "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+      "summary": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。",
+      "source": "MarkTechPost（RSS）",
+      "url": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v"
      },
      {
-      "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
-      "summary": "Anthropic 的 Thariq 转发并支持 Dario Amodei 的新文章《We Must Pace the Frontier》，后者提出 AI 行业应放缓的三部分计划，并承诺向第三方评估者提供永久的员工级系统访问权限。",
-      "source": "X：Thariq (@trq212)",
-      "url": "https://aihot.news/items/cmtyth87f098broupl3k186iw"
+      "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+      "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1"
      }
     ]
    }
@@ -553,68 +484,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-14 00:34",
+   "updateTime": "2026-09-14 10:58",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【英雄联盟公益纪录片】逆风局的623326个英雄时刻",
-     "url": "https://www.bilibili.com/video/BV1DJYe6AEgP",
-     "hot": 627959
+     "title": "重返渴望现场｜百事可乐音乐盛典完整回放正式上线！",
+     "url": "https://www.bilibili.com/video/BV1uKY26hETJ",
+     "hot": 2114120
     },
     {
-     "title": "《魔兽世界》：“无限”宣传动画 《崭新的天地》",
-     "url": "https://www.bilibili.com/video/BV1WQYd6DEgs",
-     "hot": 3275580
+     "title": "吃一把拇指西瓜以为香甜爆汁，结果……【主播说三农】",
+     "url": "https://www.bilibili.com/video/BV1wZYY6EE6m",
+     "hot": 1030010
     },
     {
-     "title": "【假装讲电影】笑死！黑帮集体跳槽干物业！结果发现物业更黑啊！！！",
-     "url": "https://www.bilibili.com/video/BV1vnYQ6xEMr",
-     "hot": 1843473
+     "title": "Re：从零开始的异世界学园生活·序",
+     "url": "https://www.bilibili.com/video/BV1PeYe69EWk",
+     "hot": 223154
     },
     {
      "title": "【独家】牧神记 第100集 鬼上身",
      "url": "https://www.bilibili.com/video/BV1nTYS6tEjG",
-     "hot": 2170714
+     "hot": 2345926
     },
     {
-     "title": "麒麟9050 Pro能效实测！华为Mate XT2性能有多强？",
-     "url": "https://www.bilibili.com/video/BV1HEYv6XETo",
-     "hot": 967562
+     "title": "【2026LPL第三赛段】9月13日 BLG vs AL",
+     "url": "https://www.bilibili.com/video/BV1GjYe6KEGt",
+     "hot": 1532958
     },
     {
      "title": "端倪",
      "url": "https://www.bilibili.com/video/BV19mYX6dEQ6",
-     "hot": 896144
-    },
-    {
-     "title": "思路打开，用擦丝器解锁旋风薯塔！懒人不开火实现烤肉自由，今天的烤猪蹄简直夯爆了！",
-     "url": "https://www.bilibili.com/video/BV1TEYX62EMp",
-     "hot": 5859496
-    },
-    {
-     "title": "假如你是一个雪饼",
-     "url": "https://www.bilibili.com/video/BV1ciYp6XEpW",
-     "hot": 5098427
-    },
-    {
-     "title": "夏季的温馨碎片，重新剪到一起，准备再赚一次流量",
-     "url": "https://www.bilibili.com/video/BV1S5YE6HE9Q",
-     "hot": 1920335
-    },
-    {
-     "title": "《听见你的心声》05我能听见我的初恋在想什么。老师……你拉链真的开了。本故事纯属虚构，请相信科学。",
-     "url": "https://www.bilibili.com/video/BV1u7YX67ETK",
-     "hot": 940764
+     "hot": 1496451
     },
     {
      "title": "【1818黄金眼】女会员的健身照 店长发朋友圈引流？",
      "url": "https://www.bilibili.com/video/BV1L8YY6qEM3",
-     "hot": 302321
+     "hot": 520908
+    },
+    {
+     "title": "【假装讲电影】笑死！黑帮集体跳槽干物业！结果发现物业更黑啊！！！",
+     "url": "https://www.bilibili.com/video/BV1vnYQ6xEMr",
+     "hot": 2161293
+    },
+    {
+     "title": "还原我吃完菌子做的噩梦",
+     "url": "https://www.bilibili.com/video/BV1JJYd6rEwA",
+     "hot": 511850
     },
     {
      "title": "《淘汰回放》",
      "url": "https://www.bilibili.com/video/BV1g9YX6XEi1",
-     "hot": 635712
+     "hot": 816021
+    },
+    {
+     "title": "锐评AL战胜BLG获得2026LPL总冠军：经典老味道...",
+     "url": "https://www.bilibili.com/video/BV1H2YB6wE2u",
+     "hot": 438521
+    },
+    {
+     "title": "迟到的生日快乐",
+     "url": "https://www.bilibili.com/video/BV1aNYq6gEc1",
+     "hot": 186383
     }
    ]
   }
@@ -637,63 +568,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "突传利空！刚刚，集体下跌！事关AI",
-   "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-13/doc-inirskha4605016.shtml",
+   "title": "Astra写的代码，人类已经看不懂了",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirtwih7346463.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "图灵量子发布第三代光量子计算机",
-   "url": "https://finance.sina.com.cn/tech/2026-09-13/doc-inirscya7880220.shtml",
+   "title": "MIT最新研究显示：AI文明可能根本不需要语言",
+   "url": "https://finance.sina.com.cn/roll/2026-09-14/doc-inirtfmp0042762.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "全网震撼！菲奖得主未解难题，竟被两名高中生用AI攻破了",
-   "url": "https://finance.sina.com.cn/tech/internet/2026-09-13/doc-inirscxz0518932.shtml",
+   "title": "上汽以后只卖AUDI？奥迪的豪门内战终于消停了！",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-inirtwin4897554.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OpenAI首席执行官：今年不会上市 不能冒哪怕10%杀死所有人的风险",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirrpai0779205.shtml",
+   "title": "Anthropic呼吁让AI发展放缓 马斯克、OpenAI力挺",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-inirtwie9752662.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "让宁德时代躺枪的裸奔事件，是4000亿“青山系”的劳资纠纷",
-   "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-13/doc-inirrtkn5866596.shtml",
+   "title": "当GPT-6能让机器人拿起筷子，留给具身模型的窗口期还剩多久？",
+   "url": "https://finance.sina.com.cn/stock/t/2026-09-14/doc-inirtwin4909545.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "小米人事调整：唐力担任国际业务部副总裁兼南亚地区部总经理，向曾学忠汇报",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-13/doc-inirrxse7878191.shtml",
+   "title": "所有人都看错了AI：根本没有泡沫，只是你看不懂新周期",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-inirtfmu5201829.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "AI健康新经济成为焦点话题，行业最新观点：AI或成健康管理的关键变量",
-   "url": "http://client.sina.com.cn/news/2026-09-12/doc-inirqrwy6336721.shtml",
+   "title": "海正药业出席 BIOHK2026：转型生物制造，布局大健康",
+   "url": "https://finance.sina.com.cn/tob/2026-09-14/doc-iniruhxh4729507.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "伊朗据称周一公布霍尔木兹海峡临时航道协议 特朗普表示不在乎",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirtfmq7529373.shtml",
+   "title": "日元要进一步上涨需要日本央行立场更加鹰派",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruhxe4025111.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "特朗普敦促美联储降息 表示美国利率应该全球最低",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-13/doc-inirszcw5322364.shtml",
+   "title": "PEC 2026 AI创新者大会暨第三届提示工程峰会召开",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-14/doc-iniruarh4149211.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "CVF-V20政要团服贸会期间试乘萝卜快跑 中国无人驾驶成绿色交通实践样本",
-   "url": "https://finance.sina.com.cn/tech/2026-09-13/doc-inirszcr0151188.shtml",
+   "title": "广汽今日紧急停牌，此前传一汽拟入股推进联营，相关人士：具体信息见收市后公告",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-14/doc-iniruarh4140263.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "智谱约50亿美元融资落定，加码下一代GLM基础模型、完全自训练及算力基建",
-   "url": "https://finance.sina.com.cn/tob/2026-09-13/doc-inirsqpv0352335.shtml",
+   "title": "Bernstein预计长期供应不足将推动油价触及每桶120-150美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruarh4137204.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "光耀新生｜华硕灵耀x Intel首登北京时装周T台，大“秀”时尚精品美学",
-   "url": "https://finance.sina.com.cn/tech/notebook/new/2026-09-13/doc-inirsqpv0347038.shtml",
+   "title": "豆包手机助手发布消费者版本 首款新机将于9月16日正式开售",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-14/doc-iniruare7360577.shtml",
    "source": "新浪科技"
   }
  ]
