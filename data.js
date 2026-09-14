@@ -1,22 +1,22 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-14 10:57",
+ "updatedAt": "2026-09-14 18:02",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
    "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
-   "time": "09-14 09:44",
-   "sourceCount": 17
+   "time": "09-14 15:50",
+   "sourceCount": 18
   },
   {
    "rank": 2,
    "title": "Nvidia 拟向 Anthropic IPO 投资至多 100 亿美元",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmtyhdyje0egorojhjwrlt3i5",
-   "time": "09-14 06:41",
-   "sourceCount": 2
+   "time": "09-14 08:03",
+   "sourceCount": 3
   },
   {
    "rank": 3,
@@ -28,6 +28,14 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+   "source": "MarkTechPost（RSS）",
+   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
+   "time": "09-14 15:18",
+   "sourceCount": 2
+  },
+  {
+   "rank": 5,
    "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
@@ -35,7 +43,7 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmty8t82j03zxrojhdlid1wt5",
@@ -43,23 +51,7 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 6,
-   "title": "OpenAI 发布 Agents API 公测版",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtvywm6902omrojit3fo7bjv",
-   "time": "09-13 08:49",
-   "sourceCount": 1
-  },
-  {
    "rank": 7,
-   "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmttulwa90npwrofpsde4lc0k",
-   "time": "09-09 16:37",
-   "sourceCount": 0
-  },
-  {
-   "rank": 8,
    "title": "Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
@@ -67,23 +59,40 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
+   "rank": 8,
+   "title": "OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmtu2qhzo0xb2rofp6eaokqdd",
+   "time": "09-14 12:32",
+   "sourceCount": 3
+  },
+  {
    "rank": 9,
-   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
-   "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
-   "time": "09-13 09:22",
-   "sourceCount": 2
+   "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
+   "source": "Baseten 工程博客（网页）",
+   "url": "https://aihot.news/items/cmtym24xb0002rob419mlyhlb",
+   "time": "09-12 06:01",
+   "sourceCount": 0
   },
   {
    "rank": 10,
-   "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtvsgyqs05vkrofbgg06yzsa",
-   "time": "09-14 08:20",
-   "sourceCount": 1
+   "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmtsz2a0q02ciro5w7oz3a0ix",
+   "time": "09-13 09:11",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+   "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+   "reason": "原文给出了数据构造、SFT-RL 训练和统一评测的完整思路，读者可以据此理解 Search Agent 的训练难点与可迁移方法。",
+   "source": "公众号：小红书技术（dots.llm）",
+   "url": "https://aihot.news/items/cmu12ocst0b6nro2nypi25zyq",
+   "time": "09-14 17:59",
+   "category": "ai-models"
+  },
   {
    "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
    "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
@@ -101,15 +110,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmu01iavi08reroymepsxnar2",
    "time": "09-13 22:15",
    "category": "industry"
-  },
-  {
-   "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
-   "summary": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。",
-   "reason": "文章把解决长任务中上下文溢出与目标丢失的机制拆成四类，并对照多款主流 Agent 产品的具体实现和阈值，便于读者迁移到自己的系统。",
-   "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v",
-   "time": "09-13 13:56",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -484,68 +484,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-14 10:58",
+   "updateTime": "2026-09-14 18:02",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "重返渴望现场｜百事可乐音乐盛典完整回放正式上线！",
-     "url": "https://www.bilibili.com/video/BV1uKY26hETJ",
-     "hot": 2114120
+     "title": "“死亡不是终点，遗忘才是。” | 《老秦》原创AI短片【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1PYYo6XEW9",
+     "hot": 511256
     },
     {
-     "title": "吃一把拇指西瓜以为香甜爆汁，结果……【主播说三农】",
-     "url": "https://www.bilibili.com/video/BV1wZYY6EE6m",
-     "hot": 1030010
+     "title": "燕云十六声×麦当劳丨金拱门中秋开，喜欢您就来！",
+     "url": "https://www.bilibili.com/video/BV1qSYe6kEgd",
+     "hot": 681051
     },
     {
      "title": "Re：从零开始的异世界学园生活·序",
      "url": "https://www.bilibili.com/video/BV1PeYe69EWk",
-     "hot": 223154
+     "hot": 605369
     },
     {
-     "title": "【独家】牧神记 第100集 鬼上身",
-     "url": "https://www.bilibili.com/video/BV1nTYS6tEjG",
-     "hot": 2345926
+     "title": "台风天我开“布加迪”跑山，结果…",
+     "url": "https://www.bilibili.com/video/BV1TqY46zEjB",
+     "hot": 737527
+    },
+    {
+     "title": "这差点没把我魂勾走😋",
+     "url": "https://www.bilibili.com/video/BV1NEbG6DEpD",
+     "hot": 427618
+    },
+    {
+     "title": "这个世界为什么需要一辆理想i9？",
+     "url": "https://www.bilibili.com/video/BV11nYr61EZe",
+     "hot": 120158
+    },
+    {
+     "title": "那些年为了听歌做过的事？你中了几个？也许那首歌才能带我们回到过去。。。",
+     "url": "https://www.bilibili.com/video/BV1rvYa65E1Z",
+     "hot": 666827
     },
     {
      "title": "【2026LPL第三赛段】9月13日 BLG vs AL",
      "url": "https://www.bilibili.com/video/BV1GjYe6KEGt",
-     "hot": 1532958
-    },
-    {
-     "title": "端倪",
-     "url": "https://www.bilibili.com/video/BV19mYX6dEQ6",
-     "hot": 1496451
-    },
-    {
-     "title": "【1818黄金眼】女会员的健身照 店长发朋友圈引流？",
-     "url": "https://www.bilibili.com/video/BV1L8YY6qEM3",
-     "hot": 520908
+     "hot": 1820817
     },
     {
      "title": "【假装讲电影】笑死！黑帮集体跳槽干物业！结果发现物业更黑啊！！！",
      "url": "https://www.bilibili.com/video/BV1vnYQ6xEMr",
-     "hot": 2161293
+     "hot": 2527069
     },
     {
-     "title": "还原我吃完菌子做的噩梦",
-     "url": "https://www.bilibili.com/video/BV1JJYd6rEwA",
-     "hot": 511850
+     "title": "《地狱之家》改编自粉丝真实经历",
+     "url": "https://www.bilibili.com/video/BV1MUYv6AEJS",
+     "hot": 677013
     },
     {
-     "title": "《淘汰回放》",
-     "url": "https://www.bilibili.com/video/BV1g9YX6XEi1",
-     "hot": 816021
+     "title": "当你的朋友染了赌，，，",
+     "url": "https://www.bilibili.com/video/BV1L8YY6qEq6",
+     "hot": 766583
     },
     {
-     "title": "锐评AL战胜BLG获得2026LPL总冠军：经典老味道...",
-     "url": "https://www.bilibili.com/video/BV1H2YB6wE2u",
-     "hot": 438521
-    },
-    {
-     "title": "迟到的生日快乐",
-     "url": "https://www.bilibili.com/video/BV1aNYq6gEc1",
-     "hot": 186383
+     "title": "西格玛·坤",
+     "url": "https://www.bilibili.com/video/BV1MSY26wEjS",
+     "hot": 2168320
     }
    ]
   }
@@ -598,33 +598,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "海正药业出席 BIOHK2026：转型生物制造，布局大健康",
-   "url": "https://finance.sina.com.cn/tob/2026-09-14/doc-iniruhxh4729507.shtml",
+   "title": "欧洲人工智能相关股票因呼吁放缓研发节奏而下跌",
+   "url": "https://finance.sina.com.cn/world/2026-09-14/doc-inirutnu9470593.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "日元要进一步上涨需要日本央行立场更加鹰派",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruhxe4025111.shtml",
+   "title": "瑞浦兰钧“员工裸奔”背后：毛利率长期偏低关联交易或致成本仍被低估 负债率新高大幅削减研发力度",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-09-14/doc-inirutny4101945.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "PEC 2026 AI创新者大会暨第三届提示工程峰会召开",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-14/doc-iniruarh4149211.shtml",
+   "title": "雷军上海行：老字号吃早餐，到访B站总部",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-inirutpa4635450.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "广汽今日紧急停牌，此前传一汽拟入股推进联营，相关人士：具体信息见收市后公告",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-14/doc-iniruarh4140263.shtml",
+   "title": "比亚迪执行副总裁李柯：随着闪充技术的普及，燃油车已经没有未来",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirutnw7302225.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Bernstein预计长期供应不足将推动油价触及每桶120-150美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-iniruarh4137204.shtml",
+   "title": "名创优品原创IP YOYO全球销售额单月突破2亿元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirutpa4616855.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "豆包手机助手发布消费者版本 首款新机将于9月16日正式开售",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-14/doc-iniruare7360577.shtml",
+   "title": "宇树G1+全面升级，售价9.5万元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirutny4032617.shtml",
    "source": "新浪科技"
   }
  ]
