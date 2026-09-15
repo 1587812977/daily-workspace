@@ -1,33 +1,41 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-15 11:00",
+ "updatedAt": "2026-09-15 17:31",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
-   "source": "Tomer Tunguz 博客（VC 分析）",
-   "url": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c",
-   "time": "09-15 10:17",
-   "sourceCount": 15
-  },
-  {
-   "rank": 2,
    "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
    "source": "Ars Technica：AI（RSS）",
    "url": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
-   "time": "09-15 05:21",
+   "time": "09-15 17:04",
    "sourceCount": 10
   },
   {
+   "rank": 2,
+   "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
+   "source": "Tomer Tunguz 博客（VC 分析）",
+   "url": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c",
+   "time": "09-15 06:59",
+   "sourceCount": 14
+  },
+  {
    "rank": 3,
-   "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence",
+   "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
    "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/cmu1ju3b00pmfrocnhd0s8k0a",
+   "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e",
    "time": "09-15 03:28",
    "sourceCount": 5
   },
   {
    "rank": 4,
+   "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
+   "time": "09-15 17:04",
+   "sourceCount": 4
+  },
+  {
+   "rank": 5,
    "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援",
    "source": "MarkTechPost（RSS）",
    "url": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
@@ -35,7 +43,7 @@ var WB_DATA = {
    "sourceCount": 9
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
@@ -43,47 +51,66 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
    "source": "Fireworks AI（网页）",
    "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
-   "time": "09-15 08:36",
-   "sourceCount": 3
+   "time": "09-15 15:57",
+   "sourceCount": 5
   },
   {
-   "rank": 7,
+   "rank": 8,
+   "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/cmu1ju3b00pmfrocnhd0s8k0a",
+   "time": "09-15 03:28",
+   "sourceCount": 4
+  },
+  {
+   "rank": 9,
+   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
+   "time": "09-15 14:51",
+   "sourceCount": 2
+  },
+  {
+   "rank": 10,
    "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn",
    "time": "09-15 06:59",
    "sourceCount": 3
-  },
-  {
-   "rank": 8,
-   "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1,999",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
-   "time": "09-10 02:15",
-   "sourceCount": 0
-  },
-  {
-   "rank": 9,
-   "title": "恶意 AI 智能体攻击 RubyGems.org：YARD 执行任意代码与 Fastly 缓存密钥利用分析",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmu1amg9d06bbro7zn6v1kszh",
-   "time": "09-15 00:02",
-   "sourceCount": 2
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
-   "time": "09-14 21:01",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+   "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
+   "reason": "文章汇总了各方对头部 AI 实验室提议放缓前沿模型开发的批评与政治反应，呈现了安全叙事之外的竞争与监管分歧。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
+   "time": "09-15 17:04",
+   "category": "tip"
+  },
+  {
+   "title": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一",
+   "summary": "阶跃星辰发布 StepAudio 3 系列，包含 Realtime、ASR、TTS、Gen 和 Music 五款模型，已在阶跃星辰开放平台上线。",
+   "reason": "官方完整介绍了五款模型的能力与榜单成绩，可帮助读者了解语音模型在实时交互、理解和创作上的进展。",
+   "source": "公众号：阶跃星辰（Step）",
+   "url": "https://aihot.news/items/cmu2d4jj405xcro25xm50v262",
+   "time": "09-15 15:29",
+   "category": "ai-models"
+  },
+  {
+   "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
+   "summary": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；Sol 后端配置得 80.1 排第三。",
+   "reason": "原文给出语音到语音模型的完整分数、速度和成本对比，读者可据此在不同后端配置间做选型判断。",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/cmu23uewb08bfrow2t7lv6cxc",
+   "time": "09-15 11:14",
+   "category": "tip"
+  },
   {
    "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
    "summary": "Fireworks 发布 DeepSeek-V4.1-Flash 并公布完整基准结果：在 DeepSWE 上以 max 档取得 74.34% pass@1，与 GPT-6 Astra 同一水平，但每任务成本 $0.43，约为 Astra 的 1/15。",
@@ -589,68 +616,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-15 11:00",
+   "updateTime": "2026-09-15 17:31",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "985本硕毕业后，30岁小伙重读本科，成功入住宿舍，跟大家介绍我的新家",
-     "url": "https://www.bilibili.com/video/BV1dTYC6AEYQ",
-     "hot": 744929
+     "title": "童年的捕虫网，依然在我们的手里——《伊莫》PC端预下载现已开启！",
+     "url": "https://www.bilibili.com/video/BV1Dve565ENK",
+     "hot": 1396992
     },
     {
-     "title": "我终于当上真正的村庄村长了！【千年村庄】",
-     "url": "https://www.bilibili.com/video/BV1naeV6tEht",
-     "hot": 97318
+     "title": "全新【求生者】“神童”故事视频爆料：——“我们是奇迹的共谋……抑或共犯？”",
+     "url": "https://www.bilibili.com/video/BV1woeE62E4h",
+     "hot": 354283
     },
     {
-     "title": "亲证",
-     "url": "https://www.bilibili.com/video/BV1zoY66wE6J",
-     "hot": 785425
+     "title": "《崩坏：星穹铁道》阿哈时刻：「星神★阿哈」",
+     "url": "https://www.bilibili.com/video/BV1cVej6MEiC",
+     "hot": 1607766
     },
     {
-     "title": "你说你要一锅端？",
-     "url": "https://www.bilibili.com/video/BV1F9Y66NEVP",
-     "hot": 964239
+     "title": "赛博修仙！我们给古代攻城车上了亿点点科技！",
+     "url": "https://www.bilibili.com/video/BV1j4YY6zE8i",
+     "hot": 530753
     },
     {
-     "title": "全网首发！二周年彩蛋解密完成！每个鸟窝都是入口！难度大大降低！这些东西速买！要爆！",
-     "url": "https://www.bilibili.com/video/BV1wge56aEhC",
-     "hot": 581541
+     "title": "《上吊比赛》",
+     "url": "https://www.bilibili.com/video/BV1Sae56jE15",
+     "hot": 421052
     },
     {
-     "title": "花了 4.61 亿 token，我把整个 N 网汉化了",
-     "url": "https://www.bilibili.com/video/BV1LcYr68EpR",
-     "hot": 276098
+     "title": "《Monster Hunter Wilds: Ascendance》武器介绍：太刀",
+     "url": "https://www.bilibili.com/video/BV1Uebw6fEDu",
+     "hot": 405897
     },
     {
      "title": "驯化西瓜：一颗苦涩有毒的野瓜，如何成为世界顶流",
      "url": "https://www.bilibili.com/video/BV11CYk6UEB4",
-     "hot": 695516
+     "hot": 1082055
     },
     {
-     "title": "重返渴望现场｜百事可乐音乐盛典完整回放正式上线！",
-     "url": "https://www.bilibili.com/video/BV1uKY26hETJ",
-     "hot": 3123080
+     "title": "既然多巴胺使人快乐，那我开发多巴胺口服液，岂不是发财了？",
+     "url": "https://www.bilibili.com/video/BV1dMY16gEro",
+     "hot": 426096
     },
     {
-     "title": "锵锵锵",
-     "url": "https://www.bilibili.com/video/BV1tsY16bEwp",
-     "hot": 773718
+     "title": "985本硕毕业后，30岁小伙重读本科，成功入住宿舍，跟大家介绍我的新家",
+     "url": "https://www.bilibili.com/video/BV1dTYC6AEYQ",
+     "hot": 1213920
+    },
+    {
+     "title": "【独家/完结】《百日成王》第25集 现在我要夺回失去的一切！【7月国创】",
+     "url": "https://www.bilibili.com/video/BV1iFth6QEyV",
+     "hot": 390156
     },
     {
      "title": "《你以为的支教只教课时，但实际上...》",
      "url": "https://www.bilibili.com/video/BV1z7Y96KEU4",
-     "hot": 1023239
+     "hot": 1270872
     },
     {
      "title": "我来接受中国朋友们的挑战啦！",
      "url": "https://www.bilibili.com/video/BV1qdY76eE46",
-     "hot": 462352
-    },
-    {
-     "title": "全网首发！感谢大家参与！二周年彩蛋我们解出来啦！大战场篇完事！三角洲真的太阴了！",
-     "url": "https://www.bilibili.com/video/BV1NuYy6DEtZ",
-     "hot": 548733
+     "hot": 720650
     }
    ]
   }
@@ -703,33 +730,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "苹果接受三星明年一季度存储报价",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwmvy8765685.shtml",
+   "title": "鸿蒙智行：问界将由赛力斯主导，华为终端参与赋能，用户既有权益及后续服务不受影响",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirxatw3699877.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "iPhone 18 Pro直降900，苹果连续三年新品破发",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwmwe3723808.shtml",
+   "title": "阶跃全新发布 StepAudio 3：语音大模型进入“听说想做”阶段",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-15/doc-inirxats8546869.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "HYROX失禁事件爆发退票风波，参赛者质疑：对卫生和安全保障失去信心",
-   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirwmwh3904574.shtml",
+   "title": "智象宣布获C+轮融资，同步发布“HD-V1”全模态视频生成模型",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwwmw7011109.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "云知声发布 U2-Flash：后训练×RSI 驱动，面向真实任务的新一代高性能模型正式登场",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-15/doc-inirwfqa8857677.shtml",
+   "title": "独家|特斯拉Model YL后轮塌陷后续：官方修改车主手册多项车辆参数，整体缩减3-4毫米",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwwmu8651998.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Airbnb爱彼迎宣布孔直秋出任亚洲业务负责人",
-   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirwfqh3764262.shtml",
+   "title": "日本内阁批准将食品销售税暂时下调至1%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwwmy3770683.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "埃森哲将支付2500万美元 以了结美国政府DEI指控",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwfqh3733494.shtml",
+   "title": "日本称与一架“全球鹰”无人侦察机失去联系",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwwna3811304.shtml",
    "source": "新浪科技"
   }
  ]
