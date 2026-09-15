@@ -1,89 +1,161 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-15 02:09",
+ "updatedAt": "2026-09-15 11:00",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
-   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-   "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
-   "time": "09-14 20:20",
-   "sourceCount": 14
+   "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
+   "source": "Tomer Tunguz 博客（VC 分析）",
+   "url": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c",
+   "time": "09-15 10:17",
+   "sourceCount": 15
   },
   {
    "rank": 2,
-   "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmtxmd06905q5roi3ds616hwo",
-   "time": "09-14 20:13",
-   "sourceCount": 3
+   "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
+   "time": "09-15 05:21",
+   "sourceCount": 10
   },
   {
    "rank": 3,
-   "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援",
-   "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
-   "time": "09-14 21:00",
-   "sourceCount": 7
+   "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/cmu1ju3b00pmfrocnhd0s8k0a",
+   "time": "09-15 03:28",
+   "sourceCount": 5
   },
   {
    "rank": 4,
-   "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用",
+   "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援",
    "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/cmtv7kmzk02vdrok9y0y8njiv",
-   "time": "09-14 15:18",
-   "sourceCount": 2
+   "url": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
+   "time": "09-15 03:06",
+   "sourceCount": 9
   },
   {
    "rank": 5,
+   "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
+   "time": "09-15 00:48",
+   "sourceCount": 4
+  },
+  {
+   "rank": 6,
+   "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
+   "source": "Fireworks AI（网页）",
+   "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
+   "time": "09-15 08:36",
+   "sourceCount": 3
+  },
+  {
+   "rank": 7,
+   "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn",
+   "time": "09-15 06:59",
+   "sourceCount": 3
+  },
+  {
+   "rank": 8,
+   "title": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1,999",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/cmtugou9e1cddrofptz3jwh4j",
+   "time": "09-10 02:15",
+   "sourceCount": 0
+  },
+  {
+   "rank": 9,
+   "title": "恶意 AI 智能体攻击 RubyGems.org：YARD 执行任意代码与 Fastly 缓存密钥利用分析",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmu1amg9d06bbro7zn6v1kszh",
+   "time": "09-15 00:02",
+   "sourceCount": 2
+  },
+  {
+   "rank": 10,
    "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmtszna9e04isro5woti0ixg6",
    "time": "09-14 21:01",
    "sourceCount": 2
-  },
-  {
-   "rank": 6,
-   "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6",
-   "time": "09-13 05:41",
-   "sourceCount": 1
-  },
-  {
-   "rank": 7,
-   "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
-   "source": "Baseten 工程博客（网页）",
-   "url": "https://aihot.news/items/cmtym24xb0002rob419mlyhlb",
-   "time": "09-12 06:01",
-   "sourceCount": 0
-  },
-  {
-   "rank": 8,
-   "title": "Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/cmtuhr1gr1dmxrofp90rc4c6u",
-   "time": "09-14 17:58",
-   "sourceCount": 2
-  },
-  {
-   "rank": 9,
-   "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmttulwa90npwrofpsde4lc0k",
-   "time": "09-09 16:37",
-   "sourceCount": 0
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI 发布 ChatGPT Images 2.5 双图像模型，主打更快生成与局部编辑",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmtu2qhzo0xb2rofp6eaokqdd",
-   "time": "09-14 12:32",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
+   "summary": "Fireworks 发布 DeepSeek-V4.1-Flash 并公布完整基准结果：在 DeepSWE 上以 max 档取得 74.34% pass@1，与 GPT-6 Astra 同一水平，但每任务成本 $0.43，约为 Astra 的 1/15。",
+   "reason": "官方实测给出 DeepSWE、Terminal-Bench 和 HLE 三组数据，可帮助读者判断该模型在编码智能体成本上的真实位置。",
+   "source": "Fireworks AI（网页）",
+   "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
+   "time": "09-15 08:36",
+   "category": "ai-models"
+  },
+  {
+   "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
+   "summary": "Sam Altman、Dario Amodei、Demis Hassabis 和 Elon Musk 周末粗略同意放慢 AI 开发，提出引入第三方审计、监管国内实验室并达成全球放缓协议，批评者则称其为压制竞争者和开源运动的\"卡特尔\"。",
+   "reason": "文章汇集安全研究者、监管团体与前官员的多方观点，既讨论放慢协议的价值，也剖析安全洗白与监管真空的可能走向。",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn",
+   "time": "09-15 06:59",
+   "category": "tip"
+  },
+  {
+   "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
+   "summary": "Entelligence 在 50 个公开基准 PR 上用相同提示词对比 GPT-5.6 Luna 和 GPT-6 Astra 的代码评审能力，Luna 找到 69 个经验证 bug（Astra 92 个），总成本 $0.20 对 $5.66，精度 74% 对 96%。",
+   "reason": "原文用公开基准和可复现脚本对比两档模型在代码评审上的召回、精度与成本，并给出按仓库和 bug 类别分层的可迁移测法。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmu1rrthc04ffrovwf4kpknmm",
+   "time": "09-15 03:56",
+   "category": "tip"
+  },
+  {
+   "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
+   "summary": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
+   "reason": "作者以一手复盘展示了 agent 加速编码后 CI 承压的真实路径，给出的可扩展架构经验可直接迁移到类似团队。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/cmu1miqz1154mrocnhtw6icqw",
+   "time": "09-15 03:15",
+   "category": "tip"
+  },
+  {
+   "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
+   "summary": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
+   "reason": "官方公告完整列出 Siri AI 的能力清单、设备与语言范围，以及欧盟和中国市场暂不可用等限制，读者可据此评估适用性。",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e",
+   "time": "09-15 01:09",
+   "category": "ai-products"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
+   "summary": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
+   "reason": "原文给出开源模型成本与成绩的完整对比，读者可以据此评估 DeepSeek-V4.1-Flash 在性价比上的位置。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/cmu1jhejj0njbrocn5llfnktp",
+   "time": "09-15 01:21",
+   "category": "paper"
+  },
+  {
+   "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
+   "summary": "硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台。该模型总参数 770B、每 token 激活 49B、支持 1M 上下文，采用 Apache 2.0 协议，面向编码、分析、研究和复杂实际工作。用户可将其接入 Claude Code、Codex、Cursor 等已有工具；图片显示定价为每 1M tokens 输入 $0.834、输出 $2.501、缓存 $0.042。",
+   "reason": "原文给出了参数规模、上下文长度、开源协议和定价，读者可据此评估它能否接入现有编码与 Agent 工具链。",
+   "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+   "url": "https://aihot.news/items/cmu1gt8gn097trocnxxvdhxli",
+   "time": "09-15 00:32",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+   "summary": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
+   "reason": "报道梳理了 Anthropic 盈利口径与 Nasdaq 上市计划的细节，并指出调整后指标与分成成本的口径差异，有助于读者评估 IPO 叙事。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
+   "time": "09-14 23:46",
+   "category": "industry"
+  },
   {
    "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
    "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
@@ -92,29 +164,59 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmu12ocst0b6nro2nypi25zyq",
    "time": "09-14 17:59",
    "category": "ai-models"
-  },
-  {
-   "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
-   "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
-   "reason": "作者肯定 Dario 提议中放慢节奏与透明度的部分，同时汇总多方对监管俘获、评估方独立性和对华姿态的质疑，并补充追责与召回两条政策思路。",
-   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-   "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1",
-   "time": "09-14 02:34",
-   "category": "tip"
   }
  ],
  "aiDaily": {
-  "date": "2026-09-14",
-  "url": "https://aihot.news/daily/2026-09-14",
+  "date": "2026-09-15",
+  "url": "https://aihot.news/daily/2026-09-15",
   "sections": [
+   {
+    "label": "模型发布/更新",
+    "items": [
+     {
+      "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+      "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+      "source": "公众号：小红书技术（dots.llm）",
+      "url": "https://aihot.news/items/cmu12ocst0b6nro2nypi25zyq"
+     },
+     {
+      "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
+      "summary": "硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台。该模型总参数 770B、每 token 激活 49B、支持 1M 上下文，采用 Apache 2.0 协议，面向编码、分析、研究和复杂实际工作。用户可将其接入 Claude Code、Codex、Cursor 等已有工具；图片显示定价为每 1M tokens 输入 $0.834、输出 $2.501、缓存 $0.042。",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "url": "https://aihot.news/items/cmu1gt8gn097trocnxxvdhxli"
+     }
+    ]
+   },
+   {
+    "label": "产品发布/更新",
+    "items": [
+     {
+      "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
+      "summary": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
+      "source": "Apple：Newsroom（RSS）",
+      "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e"
+     }
+    ]
+   },
    {
     "label": "行业动态",
     "items": [
      {
-      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
-      "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2,000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
-      "source": "Hacker News：AI 热帖",
-      "url": "https://aihot.news/items/cmu01iavi08reroymepsxnar2"
+      "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+      "summary": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
+      "source": "The Decoder：AI News（RSS）",
+      "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29"
+     }
+    ]
+   },
+   {
+    "label": "论文研究",
+    "items": [
+     {
+      "title": "DeepSeek-V4.1-Flash (Max) 进入 Agent Arena 开源模型第 3 名",
+      "summary": "DeepSeek-V4.1-Flash (Max) 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
+      "source": "X：Arena (@arena)",
+      "url": "https://aihot.news/items/cmu1jhejj0njbrocn5llfnktp"
      }
     ]
    },
@@ -122,16 +224,28 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
-      "summary": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。",
-      "source": "MarkTechPost（RSS）",
-      "url": "https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v"
+      "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
+      "summary": "Sam Altman、Dario Amodei、Demis Hassabis 和 Elon Musk 周末粗略同意放慢 AI 开发，提出引入第三方审计、监管国内实验室并达成全球放缓协议，批评者则称其为压制竞争者和开源运动的“卡特尔”。",
+      "source": "The Verge：AI（RSS）",
+      "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn"
      },
      {
-      "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
-      "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "url": "https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1"
+      "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
+      "summary": "Entelligence 在 50 个公开基准 PR 上用相同提示词对比 GPT-5.6 Luna 和 GPT-6 Astra 的代码评审能力，Luna 找到 69 个经验证 bug（Astra 92 个），总成本 $0.20 对 $5.66，精度 74% 对 96%。",
+      "source": "Hacker News：AI 热帖",
+      "url": "https://aihot.news/items/cmu1rrthc04ffrovwf4kpknmm"
+     },
+     {
+      "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
+      "summary": "Tomer Tunguz 分析 Dario Amodei 提出的放缓前沿 AI 发展号召，梳理出可解释性、劳工、经济、地缘政治和监管俘获五派立场，并指出没有任何一派给出具体速度。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "url": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c"
+     },
+     {
+      "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
+      "summary": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
+      "source": "Claude：Blog（网页）",
+      "url": "https://aihot.news/items/cmu1miqz1154mrocnhtw6icqw"
      }
     ]
    }
@@ -475,68 +589,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-15 02:09",
+   "updateTime": "2026-09-15 11:00",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "全网首发！感谢大家参与！二周年彩蛋我们解出来啦！大战场篇完事！三角洲真的太阴了！",
-     "url": "https://www.bilibili.com/video/BV1NuYy6DEtZ",
-     "hot": 313038
+     "title": "985本硕毕业后，30岁小伙重读本科，成功入住宿舍，跟大家介绍我的新家",
+     "url": "https://www.bilibili.com/video/BV1dTYC6AEYQ",
+     "hot": 744929
     },
     {
-     "title": "全网首发！二周年彩蛋解密完成！每个鸟窝都是入口！难度大大降低！这些东西速买！要爆！",
-     "url": "https://www.bilibili.com/video/BV1wge56aEhC",
-     "hot": 261592
-    },
-    {
-     "title": "你说你要一锅端？",
-     "url": "https://www.bilibili.com/video/BV1F9Y66NEVP",
-     "hot": 595199
-    },
-    {
-     "title": "猫师傅进城第一天，没钱住店却遇见了一群好人",
-     "url": "https://www.bilibili.com/video/BV1rPYS6bEhY",
-     "hot": 460645
-    },
-    {
-     "title": "Re：从零开始的异世界学园生活·序",
-     "url": "https://www.bilibili.com/video/BV1PeYe69EWk",
-     "hot": 1148211
+     "title": "我终于当上真正的村庄村长了！【千年村庄】",
+     "url": "https://www.bilibili.com/video/BV1naeV6tEht",
+     "hot": 97318
     },
     {
      "title": "亲证",
      "url": "https://www.bilibili.com/video/BV1zoY66wE6J",
-     "hot": 402495
+     "hot": 785425
+    },
+    {
+     "title": "你说你要一锅端？",
+     "url": "https://www.bilibili.com/video/BV1F9Y66NEVP",
+     "hot": 964239
+    },
+    {
+     "title": "全网首发！二周年彩蛋解密完成！每个鸟窝都是入口！难度大大降低！这些东西速买！要爆！",
+     "url": "https://www.bilibili.com/video/BV1wge56aEhC",
+     "hot": 581541
     },
     {
      "title": "花了 4.61 亿 token，我把整个 N 网汉化了",
      "url": "https://www.bilibili.com/video/BV1LcYr68EpR",
-     "hot": 124761
-    },
-    {
-     "title": "我来接受中国朋友们的挑战啦！",
-     "url": "https://www.bilibili.com/video/BV1qdY76eE46",
-     "hot": 338244
-    },
-    {
-     "title": "“死亡不是终点，遗忘才是。” | 《老秦》原创AI短片【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1PYYo6XEW9",
-     "hot": 1111705
-    },
-    {
-     "title": "锵锵锵",
-     "url": "https://www.bilibili.com/video/BV1tsY16bEwp",
-     "hot": 562750
+     "hot": 276098
     },
     {
      "title": "驯化西瓜：一颗苦涩有毒的野瓜，如何成为世界顶流",
      "url": "https://www.bilibili.com/video/BV11CYk6UEB4",
-     "hot": 498205
+     "hot": 695516
     },
     {
-     "title": "985本硕毕业后，30岁小伙重读本科，成功入住宿舍，跟大家介绍我的新家",
-     "url": "https://www.bilibili.com/video/BV1dTYC6AEYQ",
-     "hot": 250576
+     "title": "重返渴望现场｜百事可乐音乐盛典完整回放正式上线！",
+     "url": "https://www.bilibili.com/video/BV1uKY26hETJ",
+     "hot": 3123080
+    },
+    {
+     "title": "锵锵锵",
+     "url": "https://www.bilibili.com/video/BV1tsY16bEwp",
+     "hot": 773718
+    },
+    {
+     "title": "《你以为的支教只教课时，但实际上...》",
+     "url": "https://www.bilibili.com/video/BV1z7Y96KEU4",
+     "hot": 1023239
+    },
+    {
+     "title": "我来接受中国朋友们的挑战啦！",
+     "url": "https://www.bilibili.com/video/BV1qdY76eE46",
+     "hot": 462352
+    },
+    {
+     "title": "全网首发！感谢大家参与！二周年彩蛋我们解出来啦！大战场篇完事！三角洲真的太阴了！",
+     "url": "https://www.bilibili.com/video/BV1NuYy6DEtZ",
+     "hot": 548733
     }
    ]
   }
@@ -559,63 +673,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "Astra写的代码，人类已经看不懂了",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirtwih7346463.shtml",
+   "title": "“黑箱危机”开始蔓延 “三大厂”齐呼AI减速",
+   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirvzhe8934817.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "MIT最新研究显示：AI文明可能根本不需要语言",
-   "url": "https://finance.sina.com.cn/roll/2026-09-14/doc-inirtfmp0042762.shtml",
+   "title": "Token经济的一个根本疑问：计量等于价值吗",
+   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirwfqe6902722.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "上汽以后只卖AUDI？奥迪的豪门内战终于消停了！",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-inirtwin4897554.shtml",
+   "title": "iPhone 18 Pro上市即破发！苹果客服：警惕风险",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-15/doc-inirwfqe6902674.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Anthropic呼吁让AI发展放缓 马斯克、OpenAI力挺",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-inirtwie9752662.shtml",
+   "title": "折叠屏集体“上桌” 华为秒罄、苹果入局，高端市场战火重燃",
+   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirvzhe8934869.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "当GPT-6能让机器人拿起筷子，留给具身模型的窗口期还剩多久？",
-   "url": "https://finance.sina.com.cn/stock/t/2026-09-14/doc-inirtwin4909545.shtml",
+   "title": "一家机器人公司赛道选择的三重启示",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvuyn3797794.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "所有人都看错了AI：根本没有泡沫，只是你看不懂新周期",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-14/doc-inirtfmu5201829.shtml",
+   "title": "甲骨文因AI投资扩大开启新一轮裁员，此前已裁减2.1万人",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwfqk3978274.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "雷军今晚到访宇树科技！ 王兴兴全程陪同，雷军现场“踢踹”机器人",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirvkkq7188008.shtml",
+   "title": "苹果接受三星明年一季度存储报价",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwmvy8765685.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Cohere CEO：AI模型正成为有史以来“最强大的网络武器”",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkkq7161712.shtml",
+   "title": "iPhone 18 Pro直降900，苹果连续三年新品破发",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwmwe3723808.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "特朗普称无需更多AI监管，抨击Anthropic CEO达里奥·阿莫代伊",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4353491.shtml",
+   "title": "HYROX失禁事件爆发退票风波，参赛者质疑：对卫生和安全保障失去信心",
+   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirwmwh3904574.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "微软为未来AI模型设定限制，美国行业放缓前沿开发",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-14/doc-inirvkku4352941.shtml",
+   "title": "云知声发布 U2-Flash：后训练×RSI 驱动，面向真实任务的新一代高性能模型正式登场",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-15/doc-inirwfqa8857677.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "东风汽车发布三大计划，推出“东风有信”用户服务品牌",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirveaw4477665.shtml",
+   "title": "Airbnb爱彼迎宣布孔直秋出任亚洲业务负责人",
+   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirwfqh3764262.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "广汽集团：与一汽股份签署《意向协议》，计划购买其持有的某整车合资公司部分股权",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-14/doc-inirveaq9314286.shtml",
+   "title": "埃森哲将支付2500万美元 以了结美国政府DEI指控",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwfqh3733494.shtml",
    "source": "新浪科技"
   }
  ]
