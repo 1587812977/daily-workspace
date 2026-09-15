@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-15 17:31",
+ "updatedAt": "2026-09-16 01:13",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,14 +8,14 @@ var WB_DATA = {
    "source": "Ars Technica：AI（RSS）",
    "url": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
    "time": "09-15 17:04",
-   "sourceCount": 10
+   "sourceCount": 8
   },
   {
    "rank": 2,
    "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
    "source": "Tomer Tunguz 博客（VC 分析）",
    "url": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c",
-   "time": "09-15 06:59",
+   "time": "09-15 20:47",
    "sourceCount": 14
   },
   {
@@ -28,14 +28,6 @@ var WB_DATA = {
   },
   {
    "rank": 4,
-   "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
-   "time": "09-15 17:04",
-   "sourceCount": 4
-  },
-  {
-   "rank": 5,
    "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援",
    "source": "MarkTechPost（RSS）",
    "url": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
@@ -43,20 +35,28 @@ var WB_DATA = {
    "sourceCount": 9
   },
   {
+   "rank": 5,
+   "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
+   "time": "09-15 17:04",
+   "sourceCount": 4
+  },
+  {
    "rank": 6,
    "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
    "time": "09-15 00:48",
-   "sourceCount": 4
+   "sourceCount": 2
   },
   {
    "rank": 7,
-   "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
+   "title": "Fireworks 上线 DeepSeek-V4.1-Flash，DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
    "source": "Fireworks AI（网页）",
    "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
    "time": "09-15 15:57",
-   "sourceCount": 5
+   "sourceCount": 3
   },
   {
    "rank": 8,
@@ -85,6 +85,51 @@ var WB_DATA = {
  ],
  "aihotItems": [
   {
+   "title": "Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言",
+   "summary": "Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）。",
+   "reason": "原文来自 Google 对其语言技术的系统性梳理，读者可以借此了解其多语言 AI 的技术路线和数据合作方式。",
+   "source": "Google Blog：AI（RSS）",
+   "url": "https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s",
+   "time": "09-16 00:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
+   "summary": "Gergely Orosz 实地探访 OpenAI 总部并访谈七位工程师与工程负责人，发现自约一月起 Codex 和 ChatGPT Work 已成为公司几乎所有工作的基础。",
+   "reason": "作者亲访 OpenAI 并访谈七位工程负责人，给出 Codex 全面接管内部研发的第一手流程细节和工程实践变化。",
+   "source": "Pragmatic Engineer（RSS）",
+   "url": "https://aihot.news/items/cmu2utske02sjrowk2zs2agim",
+   "time": "09-15 23:41",
+   "category": "tip"
+  },
+  {
+   "title": "生数科技发布 Vidu S2：含 Avatar 与 Editing 双模型，探索空间视频",
+   "summary": "生数科技正式发布 Vidu S2，包含面向数字角色实时交互的 Vidu S2-Avatar 和面向视频流实时编辑的 Vidu S2-Editing，并探索面向 VR 头显的实时空间视频生成与编辑。",
+   "reason": "官方发布 Vidu S2 双模型，给出实时交互、编辑与空间视频的技术路线和评测数字，读者可对照判断其流式生成思路。",
+   "source": "公众号：生数科技（Vidu·视频）",
+   "url": "https://aihot.news/items/cmu2t7e9005xhro3xi5oq27e7",
+   "time": "09-15 22:30",
+   "category": "ai-models"
+  },
+  {
+   "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
+   "summary": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
+   "reason": "报道披露了人工审核流程的运作细节和隐私边界，读者可以据此了解模型优化背后的人力环节与数据风险。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmu2n8sq10chlrovqbe47wj5t",
+   "time": "09-15 19:48",
+   "category": "tip"
+  },
+  {
+   "title": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
+   "summary": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
+   "reason": "原文针对1Password基准的26%头条数字给出逐项方法学批评，并补充自身人类修复失败率与开源合并数据作对照。",
+   "source": "Trail of Bits：AI安全研究",
+   "url": "https://aihot.news/items/cmu2lqodj08k0rovqocv9r3z3",
+   "time": "09-15 19:00",
+   "category": "tip"
+  },
+  {
    "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
    "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
    "reason": "文章汇总了各方对头部 AI 实验室提议放缓前沿模型开发的批评与政治反应，呈现了安全叙事之外的竞争与监管分歧。",
@@ -112,15 +157,6 @@ var WB_DATA = {
    "category": "tip"
   },
   {
-   "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
-   "summary": "Fireworks 发布 DeepSeek-V4.1-Flash 并公布完整基准结果：在 DeepSWE 上以 max 档取得 74.34% pass@1，与 GPT-6 Astra 同一水平，但每任务成本 $0.43，约为 Astra 的 1/15。",
-   "reason": "官方实测给出 DeepSWE、Terminal-Bench 和 HLE 三组数据，可帮助读者判断该模型在编码智能体成本上的真实位置。",
-   "source": "Fireworks AI（网页）",
-   "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
-   "time": "09-15 08:36",
-   "category": "ai-models"
-  },
-  {
    "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
    "summary": "Sam Altman、Dario Amodei、Demis Hassabis 和 Elon Musk 周末粗略同意放慢 AI 开发，提出引入第三方审计、监管国内实验室并达成全球放缓协议，批评者则称其为压制竞争者和开源运动的\"卡特尔\"。",
    "reason": "文章汇集安全研究者、监管团体与前官员的多方观点，既讨论放慢协议的价值，也剖析安全洗白与监管真空的可能走向。",
@@ -139,12 +175,12 @@ var WB_DATA = {
    "category": "tip"
   },
   {
-   "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
-   "summary": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
-   "reason": "作者以一手复盘展示了 agent 加速编码后 CI 承压的真实路径，给出的可扩展架构经验可直接迁移到类似团队。",
+   "title": "Anthropic 工程师复盘：智能体编程压力下如何扩展测试影响分析服务",
+   "summary": "Anthropic 工程师撰文分享如何在智能体编程压力下扩展测试影响分析服务。Claude 编写约 80% 的代码，测试数量增长 10x，六个月内 CI 任务增加 25x。文章复盘了三个临时补丁（扩容、按包分片、每日重启）分别只维持 70 天、29 天和不到一天，最终用三周重设计为无状态、内存存储加 journal 的可水平扩展架构，并建议团队按两季度内 25x 负载做容量规划。",
+   "reason": "作者复盘了智能体编程把 CI 推向 25x 负载的完整演进，给出可迁移的架构与容量规划经验。",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/cmu1miqz1154mrocnhtw6icqw",
-   "time": "09-15 03:15",
+   "time": "09-14 00:00",
    "category": "tip"
   },
   {
@@ -155,42 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e",
    "time": "09-15 01:09",
    "category": "ai-products"
-  },
-  {
-   "title": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
-   "summary": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
-   "reason": "原文给出开源模型成本与成绩的完整对比，读者可以据此评估 DeepSeek-V4.1-Flash 在性价比上的位置。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/cmu1jhejj0njbrocn5llfnktp",
-   "time": "09-15 01:21",
-   "category": "paper"
-  },
-  {
-   "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
-   "summary": "硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台。该模型总参数 770B、每 token 激活 49B、支持 1M 上下文，采用 Apache 2.0 协议，面向编码、分析、研究和复杂实际工作。用户可将其接入 Claude Code、Codex、Cursor 等已有工具；图片显示定价为每 1M tokens 输入 $0.834、输出 $2.501、缓存 $0.042。",
-   "reason": "原文给出了参数规模、上下文长度、开源协议和定价，读者可据此评估它能否接入现有编码与 Agent 工具链。",
-   "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-   "url": "https://aihot.news/items/cmu1gt8gn097trocnxxvdhxli",
-   "time": "09-15 00:32",
-   "category": "ai-models"
-  },
-  {
-   "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
-   "summary": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
-   "reason": "报道梳理了 Anthropic 盈利口径与 Nasdaq 上市计划的细节，并指出调整后指标与分成成本的口径差异，有助于读者评估 IPO 叙事。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
-   "time": "09-14 23:46",
-   "category": "industry"
-  },
-  {
-   "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
-   "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
-   "reason": "原文给出了数据构造、SFT-RL 训练和统一评测的完整思路，读者可以据此理解 Search Agent 的训练难点与可迁移方法。",
-   "source": "公众号：小红书技术（dots.llm）",
-   "url": "https://aihot.news/items/cmu12ocst0b6nro2nypi25zyq",
-   "time": "09-14 17:59",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -616,68 +616,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-15 17:31",
+   "updateTime": "2026-09-16 01:13",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "童年的捕虫网，依然在我们的手里——《伊莫》PC端预下载现已开启！",
-     "url": "https://www.bilibili.com/video/BV1Dve565ENK",
-     "hot": 1396992
-    },
-    {
      "title": "全新【求生者】“神童”故事视频爆料：——“我们是奇迹的共谋……抑或共犯？”",
      "url": "https://www.bilibili.com/video/BV1woeE62E4h",
-     "hot": 354283
+     "hot": 1355292
     },
     {
-     "title": "《崩坏：星穹铁道》阿哈时刻：「星神★阿哈」",
-     "url": "https://www.bilibili.com/video/BV1cVej6MEiC",
-     "hot": 1607766
-    },
-    {
-     "title": "赛博修仙！我们给古代攻城车上了亿点点科技！",
-     "url": "https://www.bilibili.com/video/BV1j4YY6zE8i",
-     "hot": 530753
+     "title": "当你和一百万人一起吃火锅【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1CSej6kETr",
+     "hot": 436329
     },
     {
      "title": "《上吊比赛》",
      "url": "https://www.bilibili.com/video/BV1Sae56jE15",
-     "hot": 421052
+     "hot": 1623922
     },
     {
-     "title": "《Monster Hunter Wilds: Ascendance》武器介绍：太刀",
-     "url": "https://www.bilibili.com/video/BV1Uebw6fEDu",
-     "hot": 405897
+     "title": "小伙手机余额超过￥1000000时，手机会自动…… 荣耀MagicOS11深度体验",
+     "url": "https://www.bilibili.com/video/BV1fxen6yEKd",
+     "hot": 246854
     },
     {
-     "title": "驯化西瓜：一颗苦涩有毒的野瓜，如何成为世界顶流",
-     "url": "https://www.bilibili.com/video/BV11CYk6UEB4",
-     "hot": 1082055
+     "title": "童年的捕虫网，依然在我们的手里——《伊莫》PC端预下载现已开启！",
+     "url": "https://www.bilibili.com/video/BV1Dve565ENK",
+     "hot": 3806873
     },
     {
-     "title": "既然多巴胺使人快乐，那我开发多巴胺口服液，岂不是发财了？",
-     "url": "https://www.bilibili.com/video/BV1dMY16gEro",
-     "hot": 426096
+     "title": "OPPO Find X10 Pro Max性能续航实测：2nm天玑9600 Pro量产机是什么水平？",
+     "url": "https://www.bilibili.com/video/BV1QCen6AEPR",
+     "hot": 175669
     },
     {
-     "title": "985本硕毕业后，30岁小伙重读本科，成功入住宿舍，跟大家介绍我的新家",
-     "url": "https://www.bilibili.com/video/BV1dTYC6AEYQ",
-     "hot": 1213920
+     "title": "耳朵上的丹拿音响，可能是最关心你的耳机！OPPO Enco X4 体验",
+     "url": "https://www.bilibili.com/video/BV17BeV6WEiC",
+     "hot": 328334
+    },
+    {
+     "title": "第一次坐公交坐崩溃了，忍不住哭了",
+     "url": "https://www.bilibili.com/video/BV1wpen6mELG",
+     "hot": 313560
+    },
+    {
+     "title": "赛博修仙！我们给古代攻城车上了亿点点科技！",
+     "url": "https://www.bilibili.com/video/BV1j4YY6zE8i",
+     "hot": 1126934
     },
     {
      "title": "【独家/完结】《百日成王》第25集 现在我要夺回失去的一切！【7月国创】",
      "url": "https://www.bilibili.com/video/BV1iFth6QEyV",
-     "hot": 390156
+     "hot": 1121279
     },
     {
-     "title": "《你以为的支教只教课时，但实际上...》",
-     "url": "https://www.bilibili.com/video/BV1z7Y96KEU4",
-     "hot": 1270872
+     "title": "天玑9600 Pro前瞻上手：2nm旗舰手机能效如何？",
+     "url": "https://www.bilibili.com/video/BV1aoeJ6vEoz",
+     "hot": 429516
     },
     {
-     "title": "我来接受中国朋友们的挑战啦！",
-     "url": "https://www.bilibili.com/video/BV1qdY76eE46",
-     "hot": 720650
+     "title": "同事一起旅游，但是互相都在算计",
+     "url": "https://www.bilibili.com/video/BV1Umen68ELj",
+     "hot": 337630
     }
    ]
   }
@@ -710,8 +710,8 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "iPhone 18 Pro上市即破发！苹果客服：警惕风险",
-   "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-15/doc-inirwfqe6902674.shtml",
+   "title": "天玑 9600 Pro 初体验：2nm 看天玑？旗舰玩法大进化",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-09-15/doc-inirwwmu8600266.shtml",
    "source": "新浪科技"
   },
   {
@@ -730,33 +730,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "鸿蒙智行：问界将由赛力斯主导，华为终端参与赋能，用户既有权益及后续服务不受影响",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirxatw3699877.shtml",
+   "title": "“要么行动 要么闭嘴” DoubleLine称美联储需加息以稳定债市",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrk8325724.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "阶跃全新发布 StepAudio 3：语音大模型进入“听说想做”阶段",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-15/doc-inirxats8546869.shtml",
+   "title": "欧洲债市：德国国债下跌 英国30年期国债收益率逼近6%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrs3487298.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "智象宣布获C+轮融资，同步发布“HD-V1”全模态视频生成模型",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwwmw7011109.shtml",
+   "title": "贝森特支持向美国人发放5000美元支票的提议 称可以不影响财政赤字",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrq3597936.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "独家|特斯拉Model YL后轮塌陷后续：官方修改车主手册多项车辆参数，整体缩减3-4毫米",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwwmu8651998.shtml",
+   "title": "输油管道遇袭后 沙特阿美据悉推迟向部分欧洲客户供应石油",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrk8314791.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "日本内阁批准将食品销售税暂时下调至1%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwwmy3770683.shtml",
+   "title": "OpenAI称正与Anthropic和谷歌合作应对AI安全问题",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxtrn6798027.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "日本称与一架“全球鹰”无人侦察机失去联系",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirwwna3811304.shtml",
+   "title": "华为监事会主席郭平：虚心向苹果学习供应链，在ICT及计算领域的目标是成为英伟达",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirxtrn6794863.shtml",
    "source": "新浪科技"
   }
  ]
