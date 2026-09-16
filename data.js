@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-16 10:56",
+ "updatedAt": "2026-09-16 17:24",
  "aihotHot": [
   {
    "rank": 1,
@@ -15,8 +15,8 @@ var WB_DATA = {
    "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援",
    "source": "MarkTechPost（RSS）",
    "url": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
-   "time": "09-16 10:18",
-   "sourceCount": 11
+   "time": "09-16 16:33",
+   "sourceCount": 9
   },
   {
    "rank": 3,
@@ -24,14 +24,14 @@ var WB_DATA = {
    "source": "Ars Technica：AI（RSS）",
    "url": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
    "time": "09-16 08:25",
-   "sourceCount": 6
+   "sourceCount": 5
   },
   {
    "rank": 4,
    "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
-   "time": "09-16 08:25",
+   "time": "09-16 16:32",
    "sourceCount": 14
   },
   {
@@ -44,14 +44,6 @@ var WB_DATA = {
   },
   {
    "rank": 6,
-   "title": "Fireworks 上线 DeepSeek-V4.1-Flash，DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
-   "source": "Fireworks AI（网页）",
-   "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
-   "time": "09-15 15:57",
-   "sourceCount": 3
-  },
-  {
-   "rank": 7,
    "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/cmu1ju3b00pmfrocnhd0s8k0a",
@@ -59,15 +51,7 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 8,
-   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
-   "time": "09-15 14:51",
-   "sourceCount": 2
-  },
-  {
-   "rank": 9,
+   "rank": 7,
    "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn",
@@ -75,11 +59,27 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
+   "rank": 8,
+   "title": "Fireworks 上线 DeepSeek-V4.1-Flash，DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
+   "source": "Fireworks AI（网页）",
+   "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
+   "time": "09-15 15:57",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
+   "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
+   "time": "09-15 14:51",
+   "sourceCount": 2
+  },
+  {
    "rank": 10,
-   "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
-   "time": "09-15 00:48",
+   "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元",
+   "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+   "url": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c",
+   "time": "09-16 04:23",
    "sourceCount": 2
   }
  ],
@@ -173,24 +173,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmu2lqodj08k0rovqocv9r3z3",
    "time": "09-15 19:00",
    "category": "tip"
-  },
-  {
-   "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
-   "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
-   "reason": "文章汇总了各方对头部 AI 实验室提议放缓前沿模型开发的批评与政治反应，呈现了安全叙事之外的竞争与监管分歧。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
-   "time": "09-15 17:04",
-   "category": "tip"
-  },
-  {
-   "title": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一",
-   "summary": "阶跃星辰发布 StepAudio 3 系列，包含 Realtime、ASR、TTS、Gen 和 Music 五款模型，已在阶跃星辰开放平台上线。",
-   "reason": "官方完整介绍了五款模型的能力与榜单成绩，可帮助读者了解语音模型在实时交互、理解和创作上的进展。",
-   "source": "公众号：阶跃星辰（Step）",
-   "url": "https://aihot.news/items/cmu2d4jj405xcro25xm50v262",
-   "time": "09-15 15:29",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -635,68 +617,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-16 10:56",
+   "updateTime": "2026-09-16 17:24",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "当你和一百万人一起吃火锅【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1CSej6kETr",
-     "hot": 1727288
+     "title": "《鸣潮》动画短片 | 寻心",
+     "url": "https://www.bilibili.com/video/BV1WAec6fE5N",
+     "hot": 1356164
     },
     {
-     "title": "童年的捕虫网，依然在我们的手里——《伊莫》PC端预下载现已开启！",
-     "url": "https://www.bilibili.com/video/BV1Dve565ENK",
-     "hot": 4073007
+     "title": "《原神》薇斯纳角色PV——「『风』行迷踪」",
+     "url": "https://www.bilibili.com/video/BV1sjen6QEQ7",
+     "hot": 935462
     },
     {
-     "title": "“我的人生被那道数学题毁了”",
-     "url": "https://www.bilibili.com/video/BV1NLen6pEmF",
-     "hot": 245753
+     "title": "S1赛季「逐风启程」——《伊莫》PC端今日上线",
+     "url": "https://www.bilibili.com/video/BV1mxY16ZE2K",
+     "hot": 914063
     },
     {
-     "title": "《上吊比赛》",
-     "url": "https://www.bilibili.com/video/BV1Sae56jE15",
-     "hot": 2034174
-    },
-    {
-     "title": "与印度人聊聊种姓制、恒河水、挂火车、仿制药、补习班、IT外包、彩礼嫁妆、干净又卫生……网络刻板印象是真是假？| 地球观察局EP01 【视频播客】",
-     "url": "https://www.bilibili.com/video/BV1XMYE6xEkM",
-     "hot": 586413
-    },
-    {
-     "title": "得来全部费功夫",
-     "url": "https://www.bilibili.com/video/BV1opej6cECD",
-     "hot": 486888
-    },
-    {
-     "title": "重播率百分百",
-     "url": "https://www.bilibili.com/video/BV15keV6DEjM",
-     "hot": 872363
-    },
-    {
-     "title": "《复联5》剧情全泄露！太真了！谨慎观看！",
-     "url": "https://www.bilibili.com/video/BV1uAeE6XEgH",
-     "hot": 551904
-    },
-    {
-     "title": "迎接崭新的融合超级机枪豌豆！【bilibilionly同人扶持计划】",
-     "url": "https://www.bilibili.com/video/BV1VXe768Emt",
-     "hot": 513119
-    },
-    {
-     "title": "【独家/完结】《百日成王》第25集 现在我要夺回失去的一切！【7月国创】",
-     "url": "https://www.bilibili.com/video/BV1iFth6QEyV",
-     "hot": 1147884
+     "title": "烂烂烂烂烂烂活",
+     "url": "https://www.bilibili.com/video/BV1t6ex66EKs",
+     "hot": 257014
     },
     {
      "title": "《女生VS男生》",
      "url": "https://www.bilibili.com/video/BV18weE6WEpG",
-     "hot": 329127
+     "hot": 556894
     },
     {
-     "title": "【雷军】B站的朋友们大家好 来学习一下提升UP主技能",
-     "url": "https://www.bilibili.com/video/BV13Fen6eEoB",
-     "hot": 281426
+     "title": "时速最少160以上飞过去了",
+     "url": "https://www.bilibili.com/video/BV1DzYy6FEqy",
+     "hot": 2442065
+    },
+    {
+     "title": "大禹看了沉默，愚公看了流泪",
+     "url": "https://www.bilibili.com/video/BV1fYes6xEmq",
+     "hot": 238595
+    },
+    {
+     "title": "我疯了！挑战1比1还原海绵宝宝浴室，打造专属菠萝屋",
+     "url": "https://www.bilibili.com/video/BV1j2e76eEPb",
+     "hot": 414401
+    },
+    {
+     "title": "得来全部费功夫（95）",
+     "url": "https://www.bilibili.com/video/BV1opej6cECD",
+     "hot": 847241
+    },
+    {
+     "title": "《上吊比赛》",
+     "url": "https://www.bilibili.com/video/BV1Sae56jE15",
+     "hot": 2591422
+    },
+    {
+     "title": "当你和一百万人一起吃火锅【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1CSej6kETr",
+     "hot": 2426308
+    },
+    {
+     "title": "与印度人聊聊种姓制、恒河水、挂火车、仿制药、补习班、IT外包、彩礼嫁妆、干净又卫生……网络刻板印象是真是假？| 地球观察局EP01 【视频播客】",
+     "url": "https://www.bilibili.com/video/BV1XMYE6xEkM",
+     "hot": 827934
     }
    ]
   }
@@ -734,48 +716,48 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "上半年净利润暴跌近100%！携程发财报：坚决落实在线酒店预订行业合规要求",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-16/doc-inirykpk3184831.shtml",
+   "title": "黄仁勋再驳“AI末日论”：人类不会因AI在2030年灭亡，AI不需要新的法律和监管",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-iniryvca3393561.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "大模型、智能体全链条渗透 智驾产业增长空间打开",
-   "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirxxxq3375591.shtml",
+   "title": "字节跳动的张一鸣成为亚洲首富 超过了传统行业出身的阿达尼",
+   "url": "https://finance.sina.com.cn/tech/internet/2026-09-16/doc-iniryzma3005672.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "AI担忧加剧，特朗普政府顾问与Anthropic高管举行会谈",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirykpk3193721.shtml",
+   "title": "杜华谈《贾想世界· 无限玩家》：黄明昊深度参与，他希望跟粉丝有更好互动性",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirzfsz4887574.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "NikeSKIMS品牌登陆中国，首家线下体验空间9月29日正式启幕",
-   "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-iniryqve3411145.shtml",
+   "title": "对话乐华娱乐创始人杜华：“所有的前沿我都是第一个冲出去”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirzfsw3486280.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "携程上架定价510万太空旅行产品，销量从681份变2份，携程回应：681是全球订单，2份是平台自营",
-   "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-iniryqve3372680.shtml",
+   "title": "美国海岸警卫队和FBI调查油轮疑遭网络攻击事件",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirzfsu6708986.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "携程2026Q2净亏损24亿元，入境游增量惠及11.8万家酒店",
-   "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-iniryqvh3098211.shtml",
+   "title": "脉脉林凡：明年科技公司基本只招AI人才，不会用AI就像不会用电脑",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirzfsu6705844.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "胡塞武装袭击与输油管道关闭将沙特阿拉伯推向危机时刻",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-iniryqvh3095493.shtml",
+   "title": "网传百度遭遇美国投资人集体诉讼",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirzfsz4881214.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "A社“AI末日”资本黑手被揪出，炒作焦虑为IPO圈钱！难怪仇视DeepSeek开源",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-09-16/doc-iniryqva6548790.shtml",
+   "title": "天通股份11亿募资款还没用又拟赴港上市 核心项目两度延期 实控人亲属精准高位减持6.5亿",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-09-16/doc-inirzfsy2925277.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "印尼金融服务监管局拟于9月17日成立大宗商品交易所Icomex",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-iniryquy7923590.shtml",
+   "title": "高德地图2026正式发布：导航Live上线，高德AI对话能力升级",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirzfsz4866519.shtml",
    "source": "新浪科技"
   }
  ]
