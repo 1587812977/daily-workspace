@@ -1,57 +1,49 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-16 01:13",
+ "updatedAt": "2026-09-16 10:56",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
-   "time": "09-15 17:04",
-   "sourceCount": 8
-  },
-  {
-   "rank": 2,
-   "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
-   "source": "Tomer Tunguz 博客（VC 分析）",
-   "url": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c",
-   "time": "09-15 20:47",
-   "sourceCount": 14
-  },
-  {
-   "rank": 3,
    "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e",
-   "time": "09-15 03:28",
+   "time": "09-16 08:06",
    "sourceCount": 5
   },
   {
-   "rank": 4,
+   "rank": 2,
    "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援",
    "source": "MarkTechPost（RSS）",
    "url": "https://aihot.news/items/cmu0kxqno0swyrory88jvk2pn",
-   "time": "09-15 03:06",
-   "sourceCount": 9
+   "time": "09-16 10:18",
+   "sourceCount": 11
+  },
+  {
+   "rank": 3,
+   "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/cmu1n7bh7041hroxj150kzuwy",
+   "time": "09-16 08:25",
+   "sourceCount": 6
+  },
+  {
+   "rank": 4,
+   "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
+   "time": "09-16 08:25",
+   "sourceCount": 14
   },
   {
    "rank": 5,
    "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
-   "time": "09-15 17:04",
+   "time": "09-16 08:25",
    "sourceCount": 4
   },
   {
    "rank": 6,
-   "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
-   "time": "09-15 00:48",
-   "sourceCount": 2
-  },
-  {
-   "rank": 7,
    "title": "Fireworks 上线 DeepSeek-V4.1-Flash，DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
    "source": "Fireworks AI（网页）",
    "url": "https://aihot.news/items/cmu1xyw1004hvromg5m4jf131",
@@ -59,15 +51,15 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 8,
+   "rank": 7,
    "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/cmu1ju3b00pmfrocnhd0s8k0a",
    "time": "09-15 03:28",
-   "sourceCount": 4
+   "sourceCount": 3
   },
   {
-   "rank": 9,
+   "rank": 8,
    "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmttqzqw30jwkrofpxrj00ngg",
@@ -75,15 +67,68 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 10,
+   "rank": 9,
    "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn",
    "time": "09-15 06:59",
    "sourceCount": 3
+  },
+  {
+   "rank": 10,
+   "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29",
+   "time": "09-15 00:48",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Vercel 将 inbound 销售团队从 10 人压缩至 1.25 人，AI 销售开发智能体年成本仅数千美元",
+   "summary": "Vercel COO Jeanne DeWitt Grosser 在 The Information 访谈中表示，公司 inbound 销售开发已实现 90% 自动化，团队从 10 人压缩至 1.25 人。",
+   "reason": "Vercel COO 给出自家 inbound 销售自动化的人员压缩、年度基础设施成本和 32x ROI 数字，是可直接参考的一手落地案例。",
+   "source": "Tomer Tunguz 博客（VC 分析）",
+   "url": "https://aihot.news/items/cmu3a2rht0goyrosayo2gs0nh",
+   "time": "09-15 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Arena 更新 Image-to-WebDev 榜单：GPT-6 Astra 以 1733 分登顶",
+   "summary": "Arena 更新 Image-to-WebDev 排行榜，纳入四个新评测模型。GPT-6 Astra （Max） 以 1733 分居第一，领先 GPT-5.6 Sol （xHigh） 129 分；Claude Fable 5.1 （Max） 以 1710 分排第二，Muse Spark 1.3 （Max） 1645 分第四，GLM-5.3-Flash 1588 分第十。",
+   "reason": "榜单给出四款新模型在图像生成网站任务上的排名和每百万 token 价格，可据此比较性能与成本差异。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/cmu36fa060aaqrosaqk9opwh9",
+   "time": "09-16 05:20",
+   "category": "tip"
+  },
+  {
+   "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元",
+   "summary": "Perplexity CEO Aravind Srinivas 宣布自研键值数据库 CobbleDB，替代 AWS DynamoDB 用于快速网页内容抓取，迁移后每年最多可节省一亿美元。该项目由两名工程师和数百个持续运行的 Computer 智能体在两个月内完成核心基础设施，官方研究称热存储批次读取延迟较 DynamoDB 全分布下降约 5 倍（P50 从 31.4ms 降至 5.60ms）。",
+   "reason": "原文给出成本节省数字和构建方式，图片补充了批次读取延迟的具体对比数据。",
+   "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+   "url": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c",
+   "time": "09-16 04:23",
+   "category": "industry"
+  },
+  {
+   "title": "Claude for Small Business 新增 43 个工作流和 27 个集成，并推出免费培训计划",
+   "summary": "Anthropic 为 Claude for Small Business 新增 43 个工作流和 27 个集成，覆盖 Shopify、Salesforce、Stripe、Gusto 等，该产品自 5 月上线以来安装量超过 90 万次。工作流默认处于审批模式，所有发送、发布或付款需用户确认；今秋将在 10 个美国城市举办免费工作坊，14 个集成伙伴从 9 月底到 11 月各举办一场免费网络研讨会。",
+   "reason": "原文给出 Claude for Small Business 的 43 个工作流、27 个新集成和具体客户数字，读者可以据此评估它在小店运营场景的可用性。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y",
+   "time": "09-16 01:21",
+   "category": "ai-products"
+  },
+  {
+   "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+   "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
+   "reason": "原文给出两个语音对话模型的定位分工和多项基准数字，读者可以据此评估其推理、成本与工具调用能力。",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
+   "time": "09-16 01:05",
+   "category": "ai-models"
+  },
   {
    "title": "Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言",
    "summary": "Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）。",
@@ -146,71 +191,32 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmu2d4jj405xcro25xm50v262",
    "time": "09-15 15:29",
    "category": "ai-models"
-  },
-  {
-   "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
-   "summary": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；Sol 后端配置得 80.1 排第三。",
-   "reason": "原文给出语音到语音模型的完整分数、速度和成本对比，读者可据此在不同后端配置间做选型判断。",
-   "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/cmu23uewb08bfrow2t7lv6cxc",
-   "time": "09-15 11:14",
-   "category": "tip"
-  },
-  {
-   "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
-   "summary": "Sam Altman、Dario Amodei、Demis Hassabis 和 Elon Musk 周末粗略同意放慢 AI 开发，提出引入第三方审计、监管国内实验室并达成全球放缓协议，批评者则称其为压制竞争者和开源运动的\"卡特尔\"。",
-   "reason": "文章汇集安全研究者、监管团体与前官员的多方观点，既讨论放慢协议的价值，也剖析安全洗白与监管真空的可能走向。",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn",
-   "time": "09-15 06:59",
-   "category": "tip"
-  },
-  {
-   "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
-   "summary": "Entelligence 在 50 个公开基准 PR 上用相同提示词对比 GPT-5.6 Luna 和 GPT-6 Astra 的代码评审能力，Luna 找到 69 个经验证 bug（Astra 92 个），总成本 $0.20 对 $5.66，精度 74% 对 96%。",
-   "reason": "原文用公开基准和可复现脚本对比两档模型在代码评审上的召回、精度与成本，并给出按仓库和 bug 类别分层的可迁移测法。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmu1rrthc04ffrovwf4kpknmm",
-   "time": "09-15 03:56",
-   "category": "tip"
-  },
-  {
-   "title": "Anthropic 工程师复盘：智能体编程压力下如何扩展测试影响分析服务",
-   "summary": "Anthropic 工程师撰文分享如何在智能体编程压力下扩展测试影响分析服务。Claude 编写约 80% 的代码，测试数量增长 10x，六个月内 CI 任务增加 25x。文章复盘了三个临时补丁（扩容、按包分片、每日重启）分别只维持 70 天、29 天和不到一天，最终用三周重设计为无状态、内存存储加 journal 的可水平扩展架构，并建议团队按两季度内 25x 负载做容量规划。",
-   "reason": "作者复盘了智能体编程把 CI 推向 25x 负载的完整演进，给出可迁移的架构与容量规划经验。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/cmu1miqz1154mrocnhtw6icqw",
-   "time": "09-14 00:00",
-   "category": "tip"
-  },
-  {
-   "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
-   "summary": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
-   "reason": "官方公告完整列出 Siri AI 的能力清单、设备与语言范围，以及欧盟和中国市场暂不可用等限制，读者可据此评估适用性。",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e",
-   "time": "09-15 01:09",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
-  "date": "2026-09-15",
-  "url": "https://aihot.news/daily/2026-09-15",
+  "date": "2026-09-16",
+  "url": "https://aihot.news/daily/2026-09-16",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
-      "summary": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
-      "source": "公众号：小红书技术（dots.llm）",
-      "url": "https://aihot.news/items/cmu12ocst0b6nro2nypi25zyq"
+      "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "url": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm"
      },
      {
-      "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
-      "summary": "硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台。该模型总参数 770B、每 token 激活 49B、支持 1M 上下文，采用 Apache 2.0 协议，面向编码、分析、研究和复杂实际工作。用户可将其接入 Claude Code、Codex、Cursor 等已有工具；图片显示定价为每 1M tokens 输入 $0.834、输出 $2.501、缓存 $0.042。",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "url": "https://aihot.news/items/cmu1gt8gn097trocnxxvdhxli"
+      "title": "生数科技发布 Vidu S2：含 Avatar 与 Editing 双模型，探索空间视频",
+      "summary": "生数科技正式发布 Vidu S2，包含面向数字角色实时交互的 Vidu S2-Avatar 和面向视频流实时编辑的 Vidu S2-Editing，并探索面向 VR 头显的实时空间视频生成与编辑。",
+      "source": "公众号：生数科技（Vidu·视频）",
+      "url": "https://aihot.news/items/cmu2t7e9005xhro3xi5oq27e7"
+     },
+     {
+      "title": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一",
+      "summary": "阶跃星辰发布 StepAudio 3 系列，包含 Realtime、ASR、TTS、Gen 和 Music 五款模型，已在阶跃星辰开放平台上线。",
+      "source": "公众号：阶跃星辰（Step）",
+      "url": "https://aihot.news/items/cmu2d4jj405xcro25xm50v262"
      }
     ]
    },
@@ -218,10 +224,16 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
-      "summary": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
-      "source": "Apple：Newsroom（RSS）",
-      "url": "https://aihot.news/items/cmu1ju3b00pmgrocnrgwe6e9e"
+      "title": "Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言",
+      "summary": "Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）。",
+      "source": "Google Blog：AI（RSS）",
+      "url": "https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s"
+     },
+     {
+      "title": "Claude for Small Business 新增 43 个工作流和 27 个集成，并推出免费培训计划",
+      "summary": "Anthropic 为 Claude for Small Business 新增 43 个工作流和 27 个集成，覆盖 Shopify、Salesforce、Stripe、Gusto 等，该产品自 5 月上线以来安装量超过 90 万次。工作流默认处于审批模式，所有发送、发布或付款需用户确认；今秋将在 10 个美国城市举办免费工作坊，14 个集成伙伴从 9 月底到 11 月各举办一场免费网络研讨会。",
+      "source": "Claude：Blog（网页）",
+      "url": "https://aihot.news/items/cmu2xv8tm0365roc1a401zg9y"
      }
     ]
    },
@@ -229,21 +241,10 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
-      "summary": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/cmu1g31xf07frrocnmjfagq29"
-     }
-    ]
-   },
-   {
-    "label": "论文研究",
-    "items": [
-     {
-      "title": "DeepSeek-V4.1-Flash (Max) 进入 Agent Arena 开源模型第 3 名",
-      "summary": "DeepSeek-V4.1-Flash (Max) 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
-      "source": "X：Arena (@arena)",
-      "url": "https://aihot.news/items/cmu1jhejj0njbrocn5llfnktp"
+      "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元",
+      "summary": "Perplexity CEO Aravind Srinivas 宣布自研键值数据库 CobbleDB，替代 AWS DynamoDB 用于快速网页内容抓取，迁移后每年最多可节省一亿美元。该项目由两名工程师和数百个持续运行的 Computer 智能体在两个月内完成核心基础设施，官方研究称热存储批次读取延迟较 DynamoDB 全分布下降约 5 倍（P50 从 31.4ms 降至 5.60ms）。",
+      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "url": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c"
      }
     ]
    },
@@ -251,28 +252,46 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
-      "summary": "Sam Altman、Dario Amodei、Demis Hassabis 和 Elon Musk 周末粗略同意放慢 AI 开发，提出引入第三方审计、监管国内实验室并达成全球放缓协议，批评者则称其为压制竞争者和开源运动的“卡特尔”。",
-      "source": "The Verge：AI（RSS）",
-      "url": "https://aihot.news/items/cmu1w7993037vrorbhyp0mwmn"
+      "title": "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
+      "summary": "Gergely Orosz 实地探访 OpenAI 总部并访谈七位工程师与工程负责人，发现自约一月起 Codex 和 ChatGPT Work 已成为公司几乎所有工作的基础。",
+      "source": "Pragmatic Engineer（RSS）",
+      "url": "https://aihot.news/items/cmu2utske02sjrowk2zs2agim"
      },
      {
-      "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
-      "summary": "Entelligence 在 50 个公开基准 PR 上用相同提示词对比 GPT-5.6 Luna 和 GPT-6 Astra 的代码评审能力，Luna 找到 69 个经验证 bug（Astra 92 个），总成本 $0.20 对 $5.66，精度 74% 对 96%。",
-      "source": "Hacker News：AI 热帖",
-      "url": "https://aihot.news/items/cmu1rrthc04ffrovwf4kpknmm"
+      "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+      "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
+      "source": "The Decoder：AI News（RSS）",
+      "url": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9"
      },
      {
-      "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题",
-      "summary": "Tomer Tunguz 分析 Dario Amodei 提出的放缓前沿 AI 发展号召，梳理出可解释性、劳工、经济、地缘政治和监管俘获五派立场，并指出没有任何一派给出具体速度。",
+      "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
+      "summary": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
+      "source": "IT之家（RSS）",
+      "url": "https://aihot.news/items/cmu2n8sq10chlrovqbe47wj5t"
+     },
+     {
+      "title": "Arena 更新 Image-to-WebDev 榜单：GPT-6 Astra 以 1733 分登顶",
+      "summary": "Arena 更新 Image-to-WebDev 排行榜，纳入四个新评测模型。GPT-6 Astra (Max) 以 1733 分居第一，领先 GPT-5.6 Sol (xHigh) 129 分；Claude Fable 5.1 (Max) 以 1710 分排第二，Muse Spark 1.3 (Max) 1645 分第四，GLM-5.3-Flash 1588 分第十。",
+      "source": "X：Arena (@arena)",
+      "url": "https://aihot.news/items/cmu36fa060aaqrosaqk9opwh9"
+     },
+     {
+      "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
+      "summary": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；Sol 后端配置得 80.1 排第三。",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "url": "https://aihot.news/items/cmu23uewb08bfrow2t7lv6cxc"
+     },
+     {
+      "title": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
+      "summary": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
+      "source": "Trail of Bits：AI安全研究",
+      "url": "https://aihot.news/items/cmu2lqodj08k0rovqocv9r3z3"
+     },
+     {
+      "title": "Vercel 将 inbound 销售团队从 10 人压缩至 1.25 人，AI 销售开发智能体年成本仅数千美元",
+      "summary": "Vercel COO Jeanne DeWitt Grosser 在 The Information 访谈中表示，公司 inbound 销售开发已实现 90% 自动化，团队从 10 人压缩至 1.25 人。",
       "source": "Tomer Tunguz 博客（VC 分析）",
-      "url": "https://aihot.news/items/cmu1hrr070dycrocndfax0y0c"
-     },
-     {
-      "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
-      "summary": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
-      "source": "Claude：Blog（网页）",
-      "url": "https://aihot.news/items/cmu1miqz1154mrocnhtw6icqw"
+      "url": "https://aihot.news/items/cmu3a2rht0goyrosayo2gs0nh"
      }
     ]
    }
@@ -616,68 +635,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-16 01:13",
+   "updateTime": "2026-09-16 10:56",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "全新【求生者】“神童”故事视频爆料：——“我们是奇迹的共谋……抑或共犯？”",
-     "url": "https://www.bilibili.com/video/BV1woeE62E4h",
-     "hot": 1355292
-    },
-    {
      "title": "当你和一百万人一起吃火锅【AI全民制作人】",
      "url": "https://www.bilibili.com/video/BV1CSej6kETr",
-     "hot": 436329
-    },
-    {
-     "title": "《上吊比赛》",
-     "url": "https://www.bilibili.com/video/BV1Sae56jE15",
-     "hot": 1623922
-    },
-    {
-     "title": "小伙手机余额超过￥1000000时，手机会自动…… 荣耀MagicOS11深度体验",
-     "url": "https://www.bilibili.com/video/BV1fxen6yEKd",
-     "hot": 246854
+     "hot": 1727288
     },
     {
      "title": "童年的捕虫网，依然在我们的手里——《伊莫》PC端预下载现已开启！",
      "url": "https://www.bilibili.com/video/BV1Dve565ENK",
-     "hot": 3806873
+     "hot": 4073007
     },
     {
-     "title": "OPPO Find X10 Pro Max性能续航实测：2nm天玑9600 Pro量产机是什么水平？",
-     "url": "https://www.bilibili.com/video/BV1QCen6AEPR",
-     "hot": 175669
+     "title": "“我的人生被那道数学题毁了”",
+     "url": "https://www.bilibili.com/video/BV1NLen6pEmF",
+     "hot": 245753
     },
     {
-     "title": "耳朵上的丹拿音响，可能是最关心你的耳机！OPPO Enco X4 体验",
-     "url": "https://www.bilibili.com/video/BV17BeV6WEiC",
-     "hot": 328334
+     "title": "《上吊比赛》",
+     "url": "https://www.bilibili.com/video/BV1Sae56jE15",
+     "hot": 2034174
     },
     {
-     "title": "第一次坐公交坐崩溃了，忍不住哭了",
-     "url": "https://www.bilibili.com/video/BV1wpen6mELG",
-     "hot": 313560
+     "title": "与印度人聊聊种姓制、恒河水、挂火车、仿制药、补习班、IT外包、彩礼嫁妆、干净又卫生……网络刻板印象是真是假？| 地球观察局EP01 【视频播客】",
+     "url": "https://www.bilibili.com/video/BV1XMYE6xEkM",
+     "hot": 586413
     },
     {
-     "title": "赛博修仙！我们给古代攻城车上了亿点点科技！",
-     "url": "https://www.bilibili.com/video/BV1j4YY6zE8i",
-     "hot": 1126934
+     "title": "得来全部费功夫",
+     "url": "https://www.bilibili.com/video/BV1opej6cECD",
+     "hot": 486888
+    },
+    {
+     "title": "重播率百分百",
+     "url": "https://www.bilibili.com/video/BV15keV6DEjM",
+     "hot": 872363
+    },
+    {
+     "title": "《复联5》剧情全泄露！太真了！谨慎观看！",
+     "url": "https://www.bilibili.com/video/BV1uAeE6XEgH",
+     "hot": 551904
+    },
+    {
+     "title": "迎接崭新的融合超级机枪豌豆！【bilibilionly同人扶持计划】",
+     "url": "https://www.bilibili.com/video/BV1VXe768Emt",
+     "hot": 513119
     },
     {
      "title": "【独家/完结】《百日成王》第25集 现在我要夺回失去的一切！【7月国创】",
      "url": "https://www.bilibili.com/video/BV1iFth6QEyV",
-     "hot": 1121279
+     "hot": 1147884
     },
     {
-     "title": "天玑9600 Pro前瞻上手：2nm旗舰手机能效如何？",
-     "url": "https://www.bilibili.com/video/BV1aoeJ6vEoz",
-     "hot": 429516
+     "title": "《女生VS男生》",
+     "url": "https://www.bilibili.com/video/BV18weE6WEpG",
+     "hot": 329127
     },
     {
-     "title": "同事一起旅游，但是互相都在算计",
-     "url": "https://www.bilibili.com/video/BV1Umen68ELj",
-     "hot": 337630
+     "title": "【雷军】B站的朋友们大家好 来学习一下提升UP主技能",
+     "url": "https://www.bilibili.com/video/BV13Fen6eEoB",
+     "hot": 281426
     }
    ]
   }
@@ -700,63 +719,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "“黑箱危机”开始蔓延 “三大厂”齐呼AI减速",
-   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirvzhe8934817.shtml",
+   "title": "Anthropic冲刺IPO 瞄准七项全球资本市场纪录",
+   "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirykph3361685.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Token经济的一个根本疑问：计量等于价值吗",
-   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirwfqe6902722.shtml",
+   "title": "Meta将推出无摄像头AI眼镜",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-16/doc-inirykpa8032253.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "天玑 9600 Pro 初体验：2nm 看天玑？旗舰玩法大进化",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-09-15/doc-inirwwmu8600266.shtml",
+   "title": "全球首次！海上发射成功",
+   "url": "https://finance.sina.com.cn/wm/2026-09-16/doc-inirykpa8025427.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "折叠屏集体“上桌” 华为秒罄、苹果入局，高端市场战火重燃",
-   "url": "https://finance.sina.com.cn/roll/2026-09-15/doc-inirvzhe8934869.shtml",
+   "title": "上半年净利润暴跌近100%！携程发财报：坚决落实在线酒店预订行业合规要求",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-09-16/doc-inirykpk3184831.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "一家机器人公司赛道选择的三重启示",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirvuyn3797794.shtml",
+   "title": "大模型、智能体全链条渗透 智驾产业增长空间打开",
+   "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-inirxxxq3375591.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "甲骨文因AI投资扩大开启新一轮裁员，此前已裁减2.1万人",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirwfqk3978274.shtml",
+   "title": "AI担忧加剧，特朗普政府顾问与Anthropic高管举行会谈",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirykpk3193721.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“要么行动 要么闭嘴” DoubleLine称美联储需加息以稳定债市",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrk8325724.shtml",
+   "title": "NikeSKIMS品牌登陆中国，首家线下体验空间9月29日正式启幕",
+   "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-iniryqve3411145.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧洲债市：德国国债下跌 英国30年期国债收益率逼近6%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrs3487298.shtml",
+   "title": "携程上架定价510万太空旅行产品，销量从681份变2份，携程回应：681是全球订单，2份是平台自营",
+   "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-iniryqve3372680.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "贝森特支持向美国人发放5000美元支票的提议 称可以不影响财政赤字",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrq3597936.shtml",
+   "title": "携程2026Q2净亏损24亿元，入境游增量惠及11.8万家酒店",
+   "url": "https://finance.sina.com.cn/roll/2026-09-16/doc-iniryqvh3098211.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "输油管道遇袭后 沙特阿美据悉推迟向部分欧洲客户供应石油",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-inirxtrk8314791.shtml",
+   "title": "胡塞武装袭击与输油管道关闭将沙特阿拉伯推向危机时刻",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-iniryqvh3095493.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OpenAI称正与Anthropic和谷歌合作应对AI安全问题",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-15/doc-inirxtrn6798027.shtml",
+   "title": "A社“AI末日”资本黑手被揪出，炒作焦虑为IPO圈钱！难怪仇视DeepSeek开源",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-09-16/doc-iniryqva6548790.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "华为监事会主席郭平：虚心向苹果学习供应链，在ICT及计算领域的目标是成为英伟达",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-15/doc-inirxtrn6794863.shtml",
+   "title": "印尼金融服务监管局拟于9月17日成立大宗商品交易所Icomex",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-16/doc-iniryquy7923590.shtml",
    "source": "新浪科技"
   }
  ]
