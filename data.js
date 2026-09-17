@@ -1,9 +1,25 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-17 10:59",
+ "updatedAt": "2026-09-17 17:34",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
+   "time": "09-17 16:35",
+   "sourceCount": 8
+  },
+  {
+   "rank": 2,
+   "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
+   "time": "09-17 13:49",
+   "sourceCount": 8
+  },
+  {
+   "rank": 3,
    "title": "微软 AI CEO 警告“模型福利”论调",
    "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
    "url": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
@@ -11,7 +27,7 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 2,
+   "rank": 4,
    "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
@@ -19,39 +35,7 @@ var WB_DATA = {
    "sourceCount": 15
   },
   {
-   "rank": 3,
-   "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
-   "time": "09-17 03:12",
-   "sourceCount": 8
-  },
-  {
-   "rank": 4,
-   "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
-   "time": "09-17 09:46",
-   "sourceCount": 6
-  },
-  {
    "rank": 5,
-   "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu2gnngu032brovqo7pvrfx9",
-   "time": "09-17 07:30",
-   "sourceCount": 5
-  },
-  {
-   "rank": 6,
-   "title": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一",
-   "source": "公众号：阶跃星辰（Step）",
-   "url": "https://aihot.news/items/cmu2d4jj405xcro25xm50v262",
-   "time": "09-17 08:43",
-   "sourceCount": 4
-  },
-  {
-   "rank": 7,
    "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l",
@@ -59,23 +43,7 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 8,
-   "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
-   "source": "公众号：卡尔的AI沃茨",
-   "url": "https://aihot.news/items/cmtwsc5gt09uarow7n2r2jrz3",
-   "time": "09-17 00:53",
-   "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/cmu1ju3b00pmfrocnhd0s8k0a",
-   "time": "09-16 21:46",
-   "sourceCount": 2
-  },
-  {
-   "rank": 10,
+   "rank": 6,
    "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元",
    "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
    "url": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c",
@@ -561,68 +529,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-17 11:00",
+   "updateTime": "2026-09-17 17:34",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "折叠还是直板？iPhone 18 Pro&Duo深度视频",
      "url": "https://www.bilibili.com/video/BV1cSec6tEux",
-     "hot": 2270134
+     "hot": 3378276
     },
     {
-     "title": "天津漫展手机事件",
-     "url": "https://www.bilibili.com/video/BV1YaeN6xEWR",
-     "hot": 759130
+     "title": "【全球首发】2026全球冠军赛 // 全实机演示",
+     "url": "https://www.bilibili.com/video/BV1Ywe36gEbJ",
+     "hot": 183623
     },
     {
-     "title": "大禹看了沉默，愚公看了流泪",
-     "url": "https://www.bilibili.com/video/BV1fYes6xEmq",
-     "hot": 2323316
+     "title": "《蓝色星原：旅谣》枫糖PV | 【枫糖的一天】",
+     "url": "https://www.bilibili.com/video/BV1L7ec6JE5v",
+     "hot": 430170
     },
     {
-     "title": "【何同学】很大胆。iPhone 18 Pro首发体验",
-     "url": "https://www.bilibili.com/video/BV12peP6kEnK",
-     "hot": 773380
-    },
-    {
-     "title": "烂烂烂烂烂烂活",
-     "url": "https://www.bilibili.com/video/BV1t6ex66EKs",
-     "hot": 2324882
-    },
-    {
-     "title": "iPhone18 Pro性能分析：五年来最强的芯片升级！",
-     "url": "https://www.bilibili.com/video/BV1oZeA6fERD",
-     "hot": 1004270
+     "title": "《原神》沃雅妮莎角色PV——「心之声」",
+     "url": "https://www.bilibili.com/video/BV13Xew6LE7T",
+     "hot": 702952
     },
     {
      "title": "《鸣潮》动画短片 | 寻心",
      "url": "https://www.bilibili.com/video/BV1WAec6fE5N",
-     "hot": 2636323
+     "hot": 3177309
     },
     {
-     "title": "立志成为恶兽第四集【up动画】【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1wAeH6nEtB",
-     "hot": 640514
+     "title": "英国可能解体又不太可能",
+     "url": "https://www.bilibili.com/video/BV1iQeM6uEEH",
+     "hot": 611128
     },
     {
-     "title": "5.0L大V8，如今是否还能打？",
-     "url": "https://www.bilibili.com/video/BV1mLew6zEPe",
-     "hot": 454625
+     "title": "不是不够努力：拆解后发国家工业化的结构性枷锁",
+     "url": "https://www.bilibili.com/video/BV1rWeF6xEHW",
+     "hot": 597210
     },
     {
-     "title": "三年之期已到，恭迎世一上归位！【第9集】",
-     "url": "https://www.bilibili.com/video/BV1h4ec6VEs3",
-     "hot": 794997
+     "title": "我疯了！挑战1比1还原海绵宝宝浴室，打造专属菠萝屋",
+     "url": "https://www.bilibili.com/video/BV1j2e76eEPb",
+     "hot": 776159
     },
     {
-     "title": "各省的刻板印象这一块",
-     "url": "https://www.bilibili.com/video/BV1PneF6bELe",
-     "hot": 1716692
+     "title": "史上最没用比赛",
+     "url": "https://www.bilibili.com/video/BV14veH6tEcd",
+     "hot": 394992
     },
     {
-     "title": "S1赛季「逐风启程」——《伊莫》PC端今日上线",
-     "url": "https://www.bilibili.com/video/BV1mxY16ZE2K",
-     "hot": 2375382
+     "title": "炽日将烬 // 2026无畏契约全球冠军赛主题曲",
+     "url": "https://www.bilibili.com/video/BV1rtew6hEnF",
+     "hot": 1074100
+    },
+    {
+     "title": "【何同学】很大胆。iPhone 18 Pro首发体验",
+     "url": "https://www.bilibili.com/video/BV12peP6kEnK",
+     "hot": 1160658
+    },
+    {
+     "title": "《异环》1.4版本PV「祷歌为谁而诵」",
+     "url": "https://www.bilibili.com/video/BV1jWej6hET5",
+     "hot": 329903
     }
    ]
   }
@@ -670,38 +638,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "外卖平台试行“红灯停表”，媒体：让算法学会“等灯”，劳动者不再两难",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-inisatuq9434717.shtml",
+   "title": "4个月市值蒸发7000亿，宁德时代“高成长叙事”落幕？",
+   "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-iniscekc4125714.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "理想i9等多款新车同日发布 马斯克再次暗示特斯拉与SpaceX或合并",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-inisatup0306407.shtml",
+   "title": "深耕消费电子多年，绿联科技要把AI搬回家",
+   "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisceki0291421.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "隆基绿能钟宝申：以场景牵引创新，以“三扩”打开新能源应用新空间",
-   "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisayam0346158.shtml",
+   "title": "教培一线观察：传统投流仍如常，通过 AI 实现增长是良方",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-09-17/doc-iniscqyc0378320.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "何时追上特斯拉FSD？朱江明：没有可比性，中国车不能到美国，特斯拉FSD也还没在中国落地",
-   "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisayam0345801.shtml",
+   "title": "华为杨超斌：以灵衢互联为核心，打造集群与超节点协同的新计算架构",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-iniscqyc0368714.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "影石公布打击黑水军新进展：黑水军团伙被刑拘",
-   "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisayaf4228575.shtml",
+   "title": "分析师：新加坡创纪录的AI热潮难以推动新加坡金管局收紧政策",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscqxz3592040.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "得物App：iPhone 18 Pro系列新品同步首发，预约用户超百万",
-   "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisayam0341106.shtml",
+   "title": "英国国王将呼吁英伟达和OpenAI等公司负责人掌控好AI技术",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscqye9185250.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "地瓜机器人获4亿美元C轮融资，未来资产领投",
-   "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisayan9391026.shtml",
+   "title": "阿波罗考虑把给软银的贷款增至90亿美元 助力其加码投资OpenAI",
+   "url": "https://finance.sina.com.cn/world/2026-09-17/doc-iniscqyc0355638.shtml",
    "source": "新浪科技"
   }
  ]
