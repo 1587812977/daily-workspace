@@ -1,57 +1,84 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-17 17:34",
+ "updatedAt": "2026-09-18 01:13",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
-   "time": "09-17 16:35",
-   "sourceCount": 8
+   "title": "Anthropic 将 Claude Cowork 与聊天合并为统一 Claude，并推出 Docs、Slides",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmu4e3eba0k1oro4wqa10kw30",
+   "time": "09-17 13:49",
+   "sourceCount": 10
   },
   {
    "rank": 2,
-   "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
-   "time": "09-17 13:49",
-   "sourceCount": 8
+   "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
+   "time": "09-18 00:18",
+   "sourceCount": 10
   },
   {
    "rank": 3,
    "title": "微软 AI CEO 警告“模型福利”论调",
    "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
    "url": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
-   "time": "09-17 03:00",
-   "sourceCount": 6
+   "time": "09-17 22:00",
+   "sourceCount": 7
   },
   {
    "rank": 4,
-   "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/cmu2xqfxz02zhroc1hxuzi6jm",
+   "title": "Google 发布 Gemini 3.8 Live 与 3.5 Transcribe 实时语音模型",
+   "source": "Google AI：DEV 作者专属（RSS）",
+   "url": "https://aihot.news/items/cmu48q7gn0dwtro4wp12lkplz",
    "time": "09-16 22:30",
-   "sourceCount": 15
+   "sourceCount": 12
   },
   {
    "rank": 5,
-   "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l",
-   "time": "09-17 00:06",
-   "sourceCount": 3
+   "title": "Dwarkesh 对谈 Noam Brown：智能体集群、对齐与递归自我改进",
+   "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+   "url": "https://aihot.news/items/cmu5qsx2y0gpfroqonmogw4sk",
+   "time": "09-17 23:38",
+   "sourceCount": 4
   },
   {
    "rank": 6,
-   "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元",
-   "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-   "url": "https://aihot.news/items/cmu352k2908t9rosaotpsx42c",
-   "time": "09-16 04:23",
-   "sourceCount": 2
+   "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l",
+   "time": "09-17 21:16",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
+  {
+   "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
+   "summary": "Goodfire Research 发现模型内部存在伴随奖励作弊的激活信号，可用简单探针实时检测。在 Kimi K3、GLM 5.2、Qwen 3.8 Max 三个开源模型的三个智能体基准上，50-96% 的 rollout 出现奖励作弊；探针能捕捉 LLM 链式思维监测漏掉的作弊案例，且可泛化到训练数据之外的任务。",
+   "reason": "研究给出激活探针监测奖励作弊的具体结果和成本对比，读者可以了解比链式思维监测更可扩展的对齐监控思路。",
+   "source": "Goodfire Research（网页）",
+   "url": "https://aihot.news/items/cmu5r7kl30h35roqonpk4qypn",
+   "time": "09-18 00:38",
+   "category": "paper"
+  },
+  {
+   "title": "Dwarkesh 对谈 Noam Brown：智能体集群、对齐与递归自我改进",
+   "summary": "Dwarkesh Patel 采访 OpenAI 研究员 Noam Brown，谈多智能体系统、对齐与递归自我改进。",
+   "reason": "OpenAI 研究员 Noam Brown 亲述万级智能体协作机制与对齐判断，读者可以借此了解推理扩展、智能体协作和对齐风险的一手观点。",
+   "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+   "url": "https://aihot.news/items/cmu5qsx2y0gpfroqonmogw4sk",
+   "time": "09-17 23:38",
+   "category": "tip"
+  },
+  {
+   "title": "Unsloth 发布 Docker 镜像与 Unsloth Desktop，本地训练运行 500+ 模型",
+   "summary": "Unsloth 宣布可使用其 Docker 镜像本地训练和运行 500+ 模型，提供新 GUI 和 notebooks 工作流，无需配置，支持 NVIDIA 和 AMD，指南见 https://unsloth.ai/docs/get-started/install/docker。",
+   "reason": "官方介绍了新 Docker 镜像和 Desktop 应用，列出本地训练运行模型的硬件支持与效率数字，读者可据此评估本地部署方式。",
+   "source": "X：Unsloth (@UnslothAI)",
+   "url": "https://aihot.news/items/cmu5ocffd0duoroqoykax6pm1",
+   "time": "09-17 23:03",
+   "category": "ai-products"
+  },
   {
    "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
    "summary": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。",
@@ -95,42 +122,6 @@ var WB_DATA = {
    "source": "xAI：News（网页）",
    "url": "https://aihot.news/items/cmu4hic050r8kro4wzayakuhu",
    "time": "09-16 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能",
-   "summary": "Anthropic 宣布 Claude Cowork 与聊天合并为一个 Claude，任务无需再选择入口，Cowork 和 Design 的能力可在任意对话中使用，未来几周内向 Pro 和 Max 计划推出。",
-   "reason": "官方说明了 Cowork 与聊天合并的原因和入口变化，读者可以据此判断现有工作流如何迁移。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/cmu4c8qar0hzero4w3b6n1jyf",
-   "time": "09-17 00:51",
-   "category": "ai-products"
-  },
-  {
-   "title": "Claude Docs、Claude Slides 与 Claude Design 直接嵌入对话，可导出 PowerPoint 或 PDF",
-   "summary": "Anthropic 的 Boris Cherny 宣布 Claude Docs、Claude Slides 和 Claude Design 已进入每段对话，直接在聊天中生成演示、文档和设计。生成的演示可打开、编辑并导出为 PowerPoint 或 PDF，无需跳转到单独工具。",
-   "reason": "作者以产品方身份说明三款工具已内嵌对话，读者可以据此评估文档、幻灯片和设计生成对现有工作流的影响。",
-   "source": "X：Boris Cherny (@bcherny)",
-   "url": "https://aihot.news/items/cmu4bql8w0haoro4wduou7kxe",
-   "time": "09-17 00:28",
-   "category": "ai-products"
-  },
-  {
-   "title": "微软 AI CEO 警告\"模型福利\"论调",
-   "summary": "微软 AI CEO Mustafa Suleyman 发文反对\"模型福利\"理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能。",
-   "reason": null,
-   "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
-   "url": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
-   "time": "09-16 22:01",
-   "category": "ai-models"
-  },
-  {
-   "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify",
-   "summary": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
-   "reason": "官方宣布 ChatGPT Ads 多项更新，涵盖 Sponsored Agents 测试和 HubSpot、Shopify 集成，可了解 AI 广告平台的具体落地方式。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmu4574wb09w5ro4w7cdwfm7l",
-   "time": "09-16 21:00",
    "category": "ai-products"
   }
  ],
@@ -529,68 +520,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-17 17:34",
+   "updateTime": "2026-09-18 01:13",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "折叠还是直板？iPhone 18 Pro&Duo深度视频",
+     "title": "我只是想煮一个鸡蛋，互联网却想教我做人❤️",
+     "url": "https://www.bilibili.com/video/BV1vdeJ6KEkR",
+     "hot": 740444
+    },
+    {
+     "title": "友：时长越长观看越少。  我：但这里是B站诶！",
+     "url": "https://www.bilibili.com/video/BV1doec6QEqF",
+     "hot": 1125315
+    },
+    {
+     "title": "【绯红回响EP19】寒霜之刃【费那奇动画周×updream-AI动画征集】【up动画】",
+     "url": "https://www.bilibili.com/video/BV1tue36vEZy",
+     "hot": 305756
+    },
+    {
+     "title": "【独家】时光代理人 第三季 PartOne 第7集 唐人街探案【8月国创】",
+     "url": "https://www.bilibili.com/video/BV1f2eJ6GE79",
+     "hot": 376354
+    },
+    {
+     "title": "特厨做饭|零差评零失误！专业厨师的压箱底",
+     "url": "https://www.bilibili.com/video/BV1mheg6hE6j",
+     "hot": 508384
+    },
+    {
+     "title": "选哪个？iPhone 18 Pro&Duo深度上手",
      "url": "https://www.bilibili.com/video/BV1cSec6tEux",
-     "hot": 3378276
+     "hot": 4782815
     },
     {
-     "title": "【全球首发】2026全球冠军赛 // 全实机演示",
-     "url": "https://www.bilibili.com/video/BV1Ywe36gEbJ",
-     "hot": 183623
+     "title": "阿祖从军记（二）",
+     "url": "https://www.bilibili.com/video/BV1aweu6aE3v",
+     "hot": 720726
     },
     {
-     "title": "《蓝色星原：旅谣》枫糖PV | 【枫糖的一天】",
-     "url": "https://www.bilibili.com/video/BV1L7ec6JE5v",
-     "hot": 430170
+     "title": "【小满香香公主】最新视频来袭，快来看看吧！",
+     "url": "https://www.bilibili.com/video/BV1n9eA6YEhj",
+     "hot": 1443079
     },
     {
-     "title": "《原神》沃雅妮莎角色PV——「心之声」",
-     "url": "https://www.bilibili.com/video/BV13Xew6LE7T",
-     "hot": 702952
-    },
-    {
-     "title": "《鸣潮》动画短片 | 寻心",
-     "url": "https://www.bilibili.com/video/BV1WAec6fE5N",
-     "hot": 3177309
-    },
-    {
-     "title": "英国可能解体又不太可能",
-     "url": "https://www.bilibili.com/video/BV1iQeM6uEEH",
-     "hot": 611128
-    },
-    {
-     "title": "不是不够努力：拆解后发国家工业化的结构性枷锁",
-     "url": "https://www.bilibili.com/video/BV1rWeF6xEHW",
-     "hot": 597210
-    },
-    {
-     "title": "我疯了！挑战1比1还原海绵宝宝浴室，打造专属菠萝屋",
-     "url": "https://www.bilibili.com/video/BV1j2e76eEPb",
-     "hot": 776159
+     "title": "《鸣潮》先约电台EP3.7——心《心月辞》",
+     "url": "https://www.bilibili.com/video/BV1u9ew6yEEP",
+     "hot": 307201
     },
     {
      "title": "史上最没用比赛",
      "url": "https://www.bilibili.com/video/BV14veH6tEcd",
-     "hot": 394992
+     "hot": 1226490
     },
     {
-     "title": "炽日将烬 // 2026无畏契约全球冠军赛主题曲",
-     "url": "https://www.bilibili.com/video/BV1rtew6hEnF",
-     "hot": 1074100
+     "title": "【边狱巴士】“今天，我杀了妈妈...”丨 主线第10章汉化（施工中）",
+     "url": "https://www.bilibili.com/video/BV14Meu6tEiC",
+     "hot": 652911
     },
     {
-     "title": "【何同学】很大胆。iPhone 18 Pro首发体验",
-     "url": "https://www.bilibili.com/video/BV12peP6kEnK",
-     "hot": 1160658
-    },
-    {
-     "title": "《异环》1.4版本PV「祷歌为谁而诵」",
-     "url": "https://www.bilibili.com/video/BV1jWej6hET5",
-     "hot": 329903
+     "title": "《蓝色星原：旅谣》枫糖PV | 【枫糖的一天】",
+     "url": "https://www.bilibili.com/video/BV1L7ec6JE5v",
+     "hot": 1110696
     }
    ]
   }
@@ -643,33 +634,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "从“全球PC龙头”到“全球AI基建龙头”，联想集团的估值坐标正在改变",
+   "url": "https://finance.sina.com.cn/stock/enterprise/2026-09-17/doc-iniscqxx4045850.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "深耕消费电子多年，绿联科技要把AI搬回家",
    "url": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisceki0291421.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "教培一线观察：传统投流仍如常，通过 AI 实现增长是良方",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-09-17/doc-iniscqyc0378320.shtml",
+   "title": "美国二手房签约量意外小幅上升 高利率仍抑制需求",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-inisefvt3542760.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "华为杨超斌：以灵衢互联为核心，打造集群与超节点协同的新计算架构",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-iniscqyc0368714.shtml",
+   "title": "何小鹏：2027年小鹏将全球上线VLA，正在海外建立小鹏超级储能充电站",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-inisczpx0425375.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "分析师：新加坡创纪录的AI热潮难以推动新加坡金管局收紧政策",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscqxz3592040.shtml",
+   "title": "何小鹏：做机器人的难度是造车的20倍，“最早四季度我们机器人能力会有跳跃”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-inisczpy9097873.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "英国国王将呼吁英伟达和OpenAI等公司负责人掌控好AI技术",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-17/doc-iniscqye9185250.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "阿波罗考虑把给软银的贷款增至90亿美元 助力其加码投资OpenAI",
-   "url": "https://finance.sina.com.cn/world/2026-09-17/doc-iniscqyc0355638.shtml",
+   "title": "何小鹏：与大众合作收获非常多，正与更多车企和非车企洽谈技术合作",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-17/doc-inisczpt3934477.shtml",
    "source": "新浪科技"
   }
  ]
