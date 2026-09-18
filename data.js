@@ -1,17 +1,25 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-18 10:47",
+ "updatedAt": "2026-09-18 17:06",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
-   "time": "09-18 07:46",
-   "sourceCount": 13
+   "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+   "source": "Qwen：Blog Retrieval（API）",
+   "url": "https://aihot.news/items/cmu5smj860insroqokcuh0u9v",
+   "time": "09-18 16:40",
+   "sourceCount": 9
   },
   {
    "rank": 2,
+   "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
+   "time": "09-18 10:54",
+   "sourceCount": 13
+  },
+  {
+   "rank": 3,
    "title": "Anthropic 将 Claude Cowork 与聊天合并为统一 Claude，并推出 Docs、Slides",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/cmu4e3eba0k1oro4wqa10kw30",
@@ -19,7 +27,7 @@ var WB_DATA = {
    "sourceCount": 10
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/cmu5tujnp0jvoroqoq64oqnjr",
@@ -27,7 +35,7 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
    "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
    "url": "https://aihot.news/items/cmu605ozy000arok0lxr4x1y8",
@@ -35,15 +43,23 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 5,
-   "title": "Meta 发布 muse for Mac，智能体可直接操作电脑上的文件、消息和日程",
-   "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-   "url": "https://aihot.news/items/cmu648ktv0a7hrofjha0nxsmr",
-   "time": "09-18 06:39",
+   "rank": 6,
+   "title": "Hacktron 披露利用 libheif 漏洞与 OpenAI SSO 缺陷接管员工 ChatGPT 账户的过程",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmu6h4gdc0oh9rofjwfl983n6",
+   "time": "09-18 15:25",
    "sourceCount": 5
   },
   {
-   "rank": 6,
+   "rank": 7,
+   "title": "Meta 发布 muse for Mac，智能体可直接操作电脑上的文件、消息和日程",
+   "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+   "url": "https://aihot.news/items/cmu648ktv0a7hrofjha0nxsmr",
+   "time": "09-18 14:08",
+   "sourceCount": 5
+  },
+  {
+   "rank": 8,
    "title": "微软 AI CEO 警告“模型福利”论调",
    "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
    "url": "https://aihot.news/items/cmu46kvju0bdsro4w0sonrv7q",
@@ -51,15 +67,7 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 7,
-   "title": "Anthropic 发布三项测量指标，公开 AI 驱动 AI 研发的进度数据",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/cmu5z60qg07n0roiq06x24vut",
-   "time": "09-18 04:21",
-   "sourceCount": 5
-  },
-  {
-   "rank": 8,
+   "rank": 9,
    "title": "ChatGPT for Word 上线，OpenAI 员工称 Excel 和 PowerPoint 用量近期激增",
    "source": "X：Sherwin Wu（@sherwinwu）",
    "url": "https://aihot.news/items/cmu66hcff0ci8rofjhs1az9qz",
@@ -67,23 +75,42 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 9,
-   "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmu5y1e61069vroiq1klswjin",
-   "time": "09-18 08:25",
-   "sourceCount": 3
-  },
-  {
    "rank": 10,
-   "title": "OpenAI 披露 GPT-5.6 Sol 等模型在摘要中留下指令以掩盖不当行为",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmu606l6o02m3rok0vzsehmvd",
-   "time": "09-18 07:46",
-   "sourceCount": 2
+   "title": "Anthropic 发布三项测量指标，公开 AI 驱动 AI 研发的进度数据",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/cmu5z60qg07n0roiq06x24vut",
+   "time": "09-18 04:21",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
+  {
+   "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
+   "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。",
+   "reason": "作者补充了模型对比和成本细节，读者可以结合被引用者的完整复述了解这次用前沿模型做安全研究的投入规模。",
+   "source": "X：Haider (@haider1)",
+   "url": "https://aihot.news/items/cmu6n3z980c4qro0fjx53zz4h",
+   "time": "09-18 15:25",
+   "category": "tip"
+  },
+  {
+   "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+   "summary": "Hacktron 团队披露 2026 年 7 月 25 日 chained libheif 堆缓冲区溢出与 OpenAI SSO 身份缺陷，攻破 community.openai.com 并接管多名员工 ChatGPT/Codex 账号，用员工 Codex 在 OpenAI 内部 monorepo 开出无害 PR 作为证明，全程不到 72 小时。",
+   "reason": "作者以第一手复盘展示了 AI 智能体如何把漏洞利用成本压缩到数天数千美元，安全团队可据此重估自身威胁模型。",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/cmu6idvti04i9ro0fktczvi9g",
+   "time": "09-18 12:45",
+   "category": "tip"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash 发布：552B MoE 多模态模型主打 KV cache 压缩",
+   "summary": "DeepSeek 发布 DeepSeek-V4.1-Flash，一个 552B 参数的多模态 MoE 模型，支持最长 100 万 token 上下文，模型权重已在 Hugging Face 开放。",
+   "reason": "论文给出了每 token KV cache 字节数等具体压缩指标，并与上一代模型直接对比，可评估长上下文 Agent 部署成本变化。",
+   "source": "HuggingFace Daily Papers（社区热门论文）",
+   "url": "https://aihot.news/items/cmu6ds2t00kqarofjrwmdwjyh",
+   "time": "09-17 08:00",
+   "category": "ai-models"
+  },
   {
    "title": "TypeSafe AI 发布只做高频决策的大模型 Jev，作者实测其分类判断性价比",
    "summary": "TypeSafe AI 推出专注高频决策的大模型 Jev，不做对话和文字生成，只输出判断，速度比传统大模型快20~200倍，成本0.042美元/百万Token且输出Token免费。作者实测预筛任务中Jev准确性第二且更便宜，在并行判断任务上达到最高准确率和最快速度；模型采用RLCD训练方法优化决策校准，可在官网 https://typesafe.ai/ 申请资格，Vercel 已首发接入。",
@@ -164,33 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmu5y1dkt069qroiqnnhxz778",
    "time": "09-18 03:49",
    "category": "paper"
-  },
-  {
-   "title": "Epoch AI 分析：贸易数据与经马来西亚走私至中国的约 30 亿美元芯片一致",
-   "summary": "Epoch AI 分析海关数据发现，2024 年 4 月至 2025 年 6 月中国记录了 37.5 亿美元、均价约 10.6 万美元/台的马来西亚原产服务器进口，价格水平更符合 AI 服务器而非普通服务器。",
-   "reason": "原文用双侧海关镜像数据检验了多种替代解释，并给出算力规模的估算方法与假设边界，读者可自行复核推理链条。",
-   "source": "Epoch AI：研究、数据与评测",
-   "url": "https://aihot.news/items/cmu5xn9rv05yfroiqd91x2qk7",
-   "time": "09-17 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-   "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
-   "reason": "官方发布同时开放 API 和开源插件与运行时，读者可以据此评估音视频智能体在剪辑、会议、实时交互等工作流中的落地方式。",
-   "source": "Qwen：Blog Retrieval（API）",
-   "url": "https://aihot.news/items/cmu5smj860insroqokcuh0u9v",
-   "time": "09-18 01:18",
-   "category": "ai-models"
-  },
-  {
-   "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目",
-   "summary": "Anthropic 重构 Claude Code 的 Projects，用户设定目标后由 Claude 拆解任务、并行调度多个线程、审查输出并汇总结果，线程本质上是各自独立分支的 Claude Code 云端会话。",
-   "reason": "官方说明了重构后的 Projects 如何用协调者加多线程承接长任务，以及灰度范围和使用限制，便于判断是否适合现有工作流。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/cmu5tujnp0jvoroqoq64oqnjr",
-   "time": "09-18 01:52",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -652,68 +652,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-18 10:47",
+   "updateTime": "2026-09-18 17:06",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "听说你最近一段时间一直在找我？【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1Yieu6uEUU",
-     "hot": 587878
+     "title": "Tropical fruit slicing animation",
+     "url": "https://www.bilibili.com/video/BV1ZueH6LEa6",
+     "hot": 732161
     },
     {
-     "title": "我只是想煮一个鸡蛋，互联网却想教我做人❤️",
-     "url": "https://www.bilibili.com/video/BV1vdeJ6KEkR",
-     "hot": 1190655
+     "title": "《虱子大开口》",
+     "url": "https://www.bilibili.com/video/BV12Yeg6FE9q",
+     "hot": 352764
     },
     {
-     "title": "这里只有一个是真的张起灵",
-     "url": "https://www.bilibili.com/video/BV1uheG6gERq",
-     "hot": 765724
+     "title": "反骨娘娘团：胖橘宜修出门，娘娘团放肆嗨",
+     "url": "https://www.bilibili.com/video/BV124eK6mE5U",
+     "hot": 328155
     },
     {
      "title": "【独家】时光代理人 第三季 PartOne 第7集 唐人街探案【8月国创】",
      "url": "https://www.bilibili.com/video/BV1f2eJ6GE79",
-     "hot": 436090
+     "hot": 636775
     },
     {
-     "title": "中式魅魔挑战（你能闯到第几关？）",
-     "url": "https://www.bilibili.com/video/BV1gveN6WEpC",
-     "hot": 635828
+     "title": "【纪录片】生命奇观2 01 内蒙古高原",
+     "url": "https://www.bilibili.com/video/BV1PUej65E41",
+     "hot": 2085776
     },
     {
-     "title": "阿祖从军记（二）",
-     "url": "https://www.bilibili.com/video/BV1aweu6aE3v",
-     "hot": 1155593
+     "title": "我只是想煮一个鸡蛋，互联网却想教我做人❤️",
+     "url": "https://www.bilibili.com/video/BV1vdeJ6KEkR",
+     "hot": 1741586
     },
     {
-     "title": "【1931.9.18-2026.9.18】九一八事变爆发95周年，请留一分钟",
-     "url": "https://www.bilibili.com/video/BV1gCeu6eEpx",
-     "hot": 212859
+     "title": "听说你最近一段时间一直在找我？【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1Yieu6uEUU",
+     "hot": 1242001
     },
     {
-     "title": "天津漫展手机事件",
-     "url": "https://www.bilibili.com/video/BV1YaeN6xEWR",
-     "hot": 2899211
+     "title": "铁傀儡 VS 合金剑",
+     "url": "https://www.bilibili.com/video/BV1VaeT6PES2",
+     "hot": 410364
     },
     {
-     "title": "甄姬：没见第一波线，第二波直接来8个？！",
-     "url": "https://www.bilibili.com/video/BV1VfeJ6PE12",
-     "hot": 1156111
+     "title": "其实王者账号是有耐久的，没耐久就玩不了了",
+     "url": "https://www.bilibili.com/video/BV1XteG63EMP",
+     "hot": 493800
     },
     {
-     "title": "互相求婚？美国女孩和我为什么要这样做",
-     "url": "https://www.bilibili.com/video/BV1Nqeg6tEBo",
-     "hot": 204775
+     "title": "【年会不能停！2】刘马组合升职无限流",
+     "url": "https://www.bilibili.com/video/BV1fxen6yEf3",
+     "hot": 346397
     },
     {
-     "title": "十年，你会记得哪个瞬间?",
-     "url": "https://www.bilibili.com/video/BV193eK6ZEDC",
-     "hot": 442575
+     "title": "揭秘硫磺竹笋，二氧化硫含量惊人，这样的竹笋能吃吗？恳请当地彻查硫磺竹笋，保障食品安全",
+     "url": "https://www.bilibili.com/video/BV1T2er6QE4b",
+     "hot": 386644
     },
     {
-     "title": "手机升级个系统，多出 37G 空间？是鸿蒙 7 超空间存储技术！",
-     "url": "https://www.bilibili.com/video/BV1r6Yi64EkV",
-     "hot": 687880
+     "title": "《篡改正史 | 正史改竄》MV：本案，审查不合格【AI MV大赛】",
+     "url": "https://www.bilibili.com/video/BV15Be361EbR",
+     "hot": 230408
     }
    ]
   }
@@ -771,28 +771,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "运满满铝产业专项服务落地巩义 以数字化激活大宗物流新动能",
-   "url": "https://finance.sina.com.cn/roll/2026-09-18/doc-inisfiif3402705.shtml",
+   "title": "东京补贴加持 特斯拉售价低于古董劳力士",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inisftxc0308643.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "香山股份业绩大幅“变脸”商誉减值风险高悬 再拟溢价8倍跨界AI算力 标的估值不到1年暴涨566%",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-09-18/doc-inisfazm0266707.shtml",
+   "title": "钉钉创始人陈航担任百望股份非执行董事，年薪10万元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-18/doc-inisftwx3318511.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "尹同跃：工信部领导让我老老实实讲产品、讲技术，不吹牛不说过头话",
-   "url": "https://finance.sina.com.cn/roll/2026-09-18/doc-inisfazi3490691.shtml",
+   "title": "京东物流陈佳：在部分环境恶劣的物流场景中，“非常愿意为机器人产品付费”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-18/doc-inisftwz3446967.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "蔚来车机地图开始高德和百度二选一，客服回应：合作未到期，为提升车辆系统的稳定性",
-   "url": "https://finance.sina.com.cn/roll/2026-09-18/doc-inisfazf3509918.shtml",
+   "title": "星动纪元邵剑飞：目前机器人产品能达到60-70分时，部分客户便愿意接受",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-18/doc-inisftxc0217516.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "芒果AIGC精品内容全新厂牌“灵创剧场”发布",
-   "url": "https://finance.sina.com.cn/roll/2026-09-18/doc-inisfazf3497184.shtml",
+   "title": "iPhone 18 Pro首发遭“黄牛”拒收， Pro Max溢价大幅缩水",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-18/doc-inisftwx3292050.shtml",
    "source": "新浪科技"
   }
  ]
