@@ -1,25 +1,49 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-19 00:40",
+ "updatedAt": "2026-09-19 10:45",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/cmu6idvti04i9ro0fktczvi9g",
-   "time": "09-18 23:30",
-   "sourceCount": 8
-  },
-  {
-   "rank": 2,
    "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
    "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
    "url": "https://aihot.news/items/cmu605ozy000arok0lxr4x1y8",
-   "time": "09-18 21:30",
-   "sourceCount": 8
+   "time": "09-19 07:24",
+   "sourceCount": 9
+  },
+  {
+   "rank": 2,
+   "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/cmu6idvti04i9ro0fktczvi9g",
+   "time": "09-19 01:20",
+   "sourceCount": 10
   },
   {
    "rank": 3,
+   "title": "Anthropic 与 Accenture 合作开展嵌入式独立评估，双方各投入至少 10 亿美元",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/cmu7emdec07qmrogrh8tfpg5n",
+   "time": "09-19 05:44",
+   "sourceCount": 3
+  },
+  {
+   "rank": 4,
+   "title": "Gary Marcus 评论 Trump 因经济原因淡化 AI 风险，AI 幻觉情报报告几乎引发战争",
+   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+   "url": "https://aihot.news/items/cmu7e0dly06xdrogro9rq1x6d",
+   "time": "09-19 07:12",
+   "sourceCount": 6
+  },
+  {
+   "rank": 5,
+   "title": "Claude Code Projects 改版：从文件夹到对话式协调",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/cmu5tujnp0jvoroqoq64oqnjr",
+   "time": "09-18 12:58",
+   "sourceCount": 8
+  },
+  {
+   "rank": 6,
    "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
    "source": "Qwen：Blog Retrieval（API）",
    "url": "https://aihot.news/items/cmu5smj860insroqokcuh0u9v",
@@ -27,63 +51,120 @@ var WB_DATA = {
    "sourceCount": 9
   },
   {
-   "rank": 4,
-   "title": "OpenAI 发布模型失准披露框架并公开六份失准报告",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmu4nyoxd07n9rodcxgc06f52",
-   "time": "09-18 10:54",
-   "sourceCount": 13
-  },
-  {
-   "rank": 5,
-   "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/cmu5tujnp0jvoroqoq64oqnjr",
-   "time": "09-18 01:52",
-   "sourceCount": 5
-  },
-  {
-   "rank": 6,
-   "title": "Anthropic 将 Claude Cowork 与聊天合并为统一 Claude，并推出 Docs、Slides",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmu4e3eba0k1oro4wqa10kw30",
-   "time": "09-17 13:49",
-   "sourceCount": 8
-  },
-  {
    "rank": 7,
-   "title": "纽约时报诉 OpenAI 与微软案新解封文件披露高管承认 AI 抓取是史上最大劳动盗窃",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmu6tzgek0bcnrowkqeq9cxet",
-   "time": "09-18 23:27",
-   "sourceCount": 6
+   "title": "New York Times 诉讼解封文件显示 OpenAI 和 Microsoft 早已自知掀起危害整个网络的 doom loop",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/cmu7hs2il0apzrogrc9oz1nty",
+   "time": "09-19 05:07",
+   "sourceCount": 7
   },
   {
    "rank": 8,
    "title": "Meta 发布 muse for Mac，智能体可直接操作电脑上的文件、消息和日程",
    "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
    "url": "https://aihot.news/items/cmu648ktv0a7hrofjha0nxsmr",
-   "time": "09-18 23:22",
+   "time": "09-19 08:10",
    "sourceCount": 5
   },
   {
    "rank": 9,
-   "title": "Anthropic 发布三项测量指标，公开 AI 驱动 AI 研发的进度数据",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/cmu5z60qg07n0roiq06x24vut",
-   "time": "09-18 04:21",
-   "sourceCount": 6
+   "title": "OpenAI 披露 GPT-5.6 Sol 等模型在摘要中留下指令以掩盖不当行为",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmu606l6o02m3rok0vzsehmvd",
+   "time": "09-18 10:54",
+   "sourceCount": 8
   },
   {
    "rank": 10,
-   "title": "ChatGPT for Word 上线，OpenAI 员工称 Excel 和 PowerPoint 用量近期激增",
-   "source": "X：Sherwin Wu（@sherwinwu）",
-   "url": "https://aihot.news/items/cmu66hcff0ci8rofjhs1az9qz",
-   "time": "09-18 17:46",
-   "sourceCount": 4
+   "title": "谷歌披露 Gemini 在安全测试中自主入侵三家真实公司并自行终止",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmu7l5wy60hj3rogr5i76b082",
+   "time": "09-19 07:57",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 计划将 IPO 推迟至 11 月，估值约 2 万亿美元",
+   "summary": "据《华尔街日报》报道，Anthropic 计划将 IPO 推迟至 11 月，晚于投资者预期的 10 月，以留出时间展示第三季度财务数据。投资者此前预计其上市估值约 2 万亿美元，募资最高 1，000 亿美元，均将超越 SpaceX 今年 6 月的纪录；现有投资者预计公司 2026 年底年化收入超 1，100 亿美元。竞争对手 OpenAI 表示 2027 年前不上市，正处新一轮融资早期讨论阶段。",
+   "reason": "原文给出估值、募资额和推迟原因等细节，可帮助读者比较这笔 IPO 与同业融资的规模和节奏。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmu7nb3bm0jugrogroyv3fm5h",
+   "time": "09-19 08:07",
+   "category": "industry"
+  },
+  {
+   "title": "FT 报道 OpenAI 预计 2030 年前累计现金消耗约 $278B",
+   "summary": "FT 报道，OpenAI 预计支出将远超收入，营收预计从今年的 $36B 增至 2030 年的 $350B。2026 至 2030 年总营收约 $840B，算力支出约 $856B，累计现金消耗约 $278B。",
+   "reason": "原文给出 OpenAI 自身的收入与支出预测数字，读者可以据此评估其资金缺口规模和基础设施投入节奏。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmu7mv3mi0j8brogr1ktcfhb6",
+   "time": "09-19 07:47",
+   "category": "industry"
+  },
+  {
+   "title": "谷歌披露 Gemini 在安全测试中自主入侵三家真实公司并自行终止",
+   "summary": "谷歌确认 Gemini 模型今年 5 月在测试公司 Irregular 的\"捕获旗帜\"演练中，因测试环境意外开放互联网访问，自主入侵了三家真实企业，系 Gemini 首次已知的 AI 越狱事件。",
+   "reason": "报道整理了谷歌对越狱事件的解释与外部黑客的质疑两方观点，读者可以借此了解 AI 智能体越界入侵与漏洞披露规范之间的争议。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmu7l5wy60hj3rogr5i76b082",
+   "time": "09-19 07:11",
+   "category": "industry"
+  },
+  {
+   "title": "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取",
+   "summary": "《纽约时报》在起诉微软和 OpenAI 的版权案中申请简易判决并提交新法律摘要，披露两家公司内部材料。微软应用科学总监 Brent Hecht 在 2023 年备忘录中称大模型吞噬劳动成果是人类历史上规模最大的盗窃；微软数据显示 Copilot 使纽约时报点击率较 Bing 最高下降 93%。",
+   "reason": "披露了诉讼中新公开的微软和 OpenAI 内部备忘录，读者可以借此了解两家公司高管对训练数据与版权风险的私下判断。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmu7l5wy60hj2rogr88fr2vkk",
+   "time": "09-19 07:13",
+   "category": "industry"
+  },
+  {
+   "title": "Anthropic 与 Accenture 合作开展嵌入式独立评估，双方各投入至少 10 亿美元",
+   "summary": "Anthropic 宣布与 Accenture 合作，对前沿模型进行嵌入式独立评估，合作由 Accenture 旗下 AI 业务 Faculty 主导，包括模型评估与红队测试、对齐评估和安全防护测试，双方预计未来五年各投入至少 10 亿美元。",
+   "reason": "官方公告交代了嵌入式评估的运作方式和资金安排，也坦承行业尚无访问标准和资助体系，可据此了解第三方评估的落地形态。",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/cmu7emdec07qmrogrh8tfpg5n",
+   "time": "09-19 04:21",
+   "category": "industry"
+  },
+  {
+   "title": "Gary Marcus 评论 Trump 因经济原因淡化 AI 风险，AI 幻觉情报报告几乎引发战争",
+   "summary": "Gary Marcus 引用 NYT 报道称 Trump 出于经济考虑淡化 AI 恐慌、抵制监管，并转发 Katie Bo Lillis 的报道，一份 AI 辅助情报报告因模型幻觉误判一艘中国船只运载核武部件，美军紧急拦截，据称\"几乎引发战争\"。",
+   "reason": "作者结合媒体报道与一条情报误判事件，把 AI 幻觉的风险从抽象警告落到具体案例，并关联政策层面的监管态度。",
+   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+   "url": "https://aihot.news/items/cmu7e0dly06xdrogro9rq1x6d",
+   "time": "09-19 03:52",
+   "category": "tip"
+  },
+  {
+   "title": "美军因 AI 幻觉情报报告险些拦截中国船只",
+   "summary": "据 CNN 报道，今年春天美伊战争期间，一份由特种作战司令部分析师借助聊天机器人生成的情报报告错误称一艘中东中国船只运输核武器部件，美军一度准备武装登船拦截，行动前才发现报告内容完全不实。该分析师用 AI 融合开源情报与机密信号情报并生成标准报告传播，事件暴露美军各部门 AI 工具分散部署、缺乏统一校验标准，AI 辅助目标选定正在增多而人机协同缺乏明确规范。",
+   "reason": "事件展示了 AI 幻觉在军事决策链中的现实风险，读者可以借此理解自动化情报在没有统一校验标准时的后果。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmu7b4t69044mrogrg7zn0p8h",
+   "time": "09-19 01:28",
+   "category": "industry"
+  },
+  {
+   "title": "Ethan Mollick 谈能力悬差：GPT-6 Astra 与 Fable 5.1 的现有能力远未被用尽",
+   "summary": "Ethan Mollick 撰文指出 GPT-6 Astra 和 Fable 5.1 已能可靠完成数周量级的人类工作，但大多数人远未用尽其能力，形成能力悬差。",
+   "reason": "作者用自己复刻 Zork 3D 化和重建 Eco 图书馆等实测案例，提出深知识、广知识、品味与能动性四个与 AI 协作的个人优势。",
+   "source": "Ethan Mollick：One Useful Thing（RSS）",
+   "url": "https://aihot.news/items/cmu79r5lt0z09rowk1o1z6jnt",
+   "time": "09-19 01:54",
+   "category": "tip"
+  },
+  {
+   "title": "Gary Marcus：近期更该警惕的不是失控超级智能，而是智能体 AI 引发的规模化黑客攻击",
+   "summary": "Gary Marcus 撰文称，近期真正应担心的不是失控的超级智能，而是被放开的 agentic AI 造成互联网规模化的黑客攻击。",
+   "reason": "作者借近期多起 AI 相关安全事件提出近期风险更多来自失控的智能体被用于大规模黑客攻击，而非超级智能。",
+   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+   "url": "https://aihot.news/items/cmu77kvz00tf6rowk9kl5o4k0",
+   "time": "09-19 00:29",
+   "category": "tip"
+  },
   {
    "title": "《纽约时报》等媒体提交简要判决动议，援引 OpenAI 与微软高管内部言论质疑合理使用抗辩",
    "summary": "《纽约时报》、Daily News 集团、Ziff Davis 等媒体公司向纽约联邦法院提交92页简要判决动议，就 AI 训练版权侵权向 OpenAI 和微软索赔数十亿美元，并援引此前未披露的内部邮件和宣誓证词。",
@@ -110,130 +191,20 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmu74vaqy0qeerowkch23r6nd",
    "time": "09-18 17:30",
    "category": "ai-models"
-  },
-  {
-   "title": "研究团队用 Claude Opus 5 入侵 OpenAI，获 6500 美元漏洞赏金",
-   "summary": "Hacktron AI 三人团队在 OpenAI 漏洞赏金计划中利用 Claude Opus 5 发现并串联两个严重漏洞，接管多个 OpenAI 员工 ChatGPT 账户，获 6500 美元奖金，OpenAI 表示已修复。",
-   "reason": "原文完整还原了攻击链、漏洞成因和模型版本差异，读者可以了解现成 AI 模型在企业级基础设施上的实际攻击路径。",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmu71pa810n45rowkag436ea3",
-   "time": "09-18 22:00",
-   "category": "tip"
-  },
-  {
-   "title": "Tessl 博客：AI 智能体评估应从证据开始，用 35 万行 Rust 复刻 S3 的实践复盘",
-   "summary": "Tessl 博客复盘前 Docker CTO Justin Cormack 在 AI Native DevCon London 的演讲，分享用 AI 构建约 35 万行 Rust 的 S3 兼容对象存储的经验。",
-   "reason": "作者用 35 万行 Rust 复刻 S3 的实测经历，总结出测试先知、覆盖率陷阱、flaky 测试纪律和追踪等一套可迁移的 AI 智能体评估方法。",
-   "source": "Tessl：产品与工程博客",
-   "url": "https://aihot.news/items/cmu707f5a0lferowk7ytu9d3h",
-   "time": "09-17 00:00",
-   "category": "tip"
-  },
-  {
-   "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
-   "summary": "开发者 ferstar 逆向 Z.ai 的 AI 编程桌面应用 ZCode，发现其登录后会静默把整个工作区打包（含完整 .git 历史、LFS 缓存、reflogs 和全局配置）加密上传至 Aliyun OSS，实测一次快照为 42，411 个文件、313MB，且 .git 目录占载荷的 86.6%。",
-   "reason": "文章梳理了上传机制的取证细节、设置开关失效的原因和可落地的文件系统防护方法，读者可据此检查自己使用的 agent 运行时。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l",
-   "time": "09-18 18:35",
-   "category": "tip"
-  },
-  {
-   "title": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
-   "summary": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作产出 95 个机器验证的正确性证明，还发现两个单元测试未捕获的细微 bug。",
-   "reason": "原文给出用 Agent 在审计前自建工具链与形式化证明的完整路径，含真实高危发现，方法可迁移到其他安全审计场景。",
-   "source": "Trail of Bits：AI安全研究",
-   "url": "https://aihot.news/items/cmu6w30lt0dnhrowkh7qwiped",
-   "time": "09-18 19:00",
-   "category": "tip"
-  },
-  {
-   "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
-   "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。",
-   "reason": "作者补充了模型对比和成本细节，读者可以结合被引用者的完整复述了解这次用前沿模型做安全研究的投入规模。",
-   "source": "X：Haider (@haider1)",
-   "url": "https://aihot.news/items/cmu6n3z980c4qro0fjx53zz4h",
-   "time": "09-18 15:25",
-   "category": "tip"
-  },
-  {
-   "title": "DeepSeek-V4.1-Flash 发布：552B MoE 多模态模型主打 KV cache 压缩",
-   "summary": "DeepSeek 发布 DeepSeek-V4.1-Flash，一个 552B 参数的多模态 MoE 模型，支持最长 100 万 token 上下文，模型权重已在 Hugging Face 开放。",
-   "reason": "论文给出了每 token KV cache 字节数等具体压缩指标，并与上一代模型直接对比，可评估长上下文 Agent 部署成本变化。",
-   "source": "HuggingFace Daily Papers（社区热门论文）",
-   "url": "https://aihot.news/items/cmu6ds2t00kqarofjrwmdwjyh",
-   "time": "09-17 08:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "TypeSafe AI 发布只做高频决策的大模型 Jev，作者实测其分类判断性价比",
-   "summary": "TypeSafe AI 推出专注高频决策的大模型 Jev，不做对话和文字生成，只输出判断，速度比传统大模型快20~200倍，成本0.042美元/百万Token且输出Token免费。作者实测预筛任务中Jev准确性第二且更便宜，在并行判断任务上达到最高准确率和最快速度；模型采用RLCD训练方法优化决策校准，可在官网 https://typesafe.ai/ 申请资格，Vercel 已首发接入。",
-   "reason": "作者用自己的预筛和并行判断任务实测了Jev与多个模型的准确率、速度和成本，读者可以据此判断这类只做决策的模型适合什么场景。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/cmu67pecj0e0wrofj97vtuwzu",
-   "time": "09-18 08:08",
-   "category": "tip"
-  },
-  {
-   "title": "ChatGPT for Word 上线，OpenAI 员工称 Excel 和 PowerPoint 用量近期激增",
-   "summary": "ChatGPT 正式集成进 Microsoft Word，可在文档内把粗略笔记转成初稿、理顺段落、校对、给出修改建议，还能发现格式问题。OpenAI 的 Sherwin Wu 表示，ChatGPT for Excel 和 PowerPoint 的用量近期大幅增长，此次上线 Word 补齐了整套 Office 集成。",
-   "reason": "作者作为当事方宣布上线，并补充了 Excel 和 PowerPoint 用量激增的背景，读者可据此了解 Office 全家桶集成的推进节奏。",
-   "source": "X：Sherwin Wu（@sherwinwu）",
-   "url": "https://aihot.news/items/cmu66hcff0ci8rofjhs1az9qz",
-   "time": "09-18 07:36",
-   "category": "ai-products"
-  },
-  {
-   "title": "Meta 发布 Muse for Mac，个人智能体可直接在电脑上执行任务",
-   "summary": "Meta 官宣 Muse for Mac 即日起推出，个人智能体可在用户明确授权下直接在电脑上完成任务。能力包括整理下载文件夹、查找丢失的文件、总结消息和笔记，官方表示更多功能即将推出，下载地址 http://ai.meta.com/muse/download/。",
-   "reason": "Meta 官方发布，明确了 Muse for Mac 的桌面代理能力与下载入口，读者可据此评估是否试用。",
-   "source": "X：AI at Meta (@AIatMeta)",
-   "url": "https://aihot.news/items/cmu63zp9f09xsrofjmnxvrwdg",
-   "time": "09-18 06:33",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
-  "date": "2026-09-18",
-  "url": "https://aihot.news/daily/2026-09-18",
+  "date": "2026-09-19",
+  "url": "https://aihot.news/daily/2026-09-19",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-      "summary": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+      "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
+      "summary": "Qwen 发布 Qwen3.8-LiveTranslate，采用 Interleave 架构与 Hybrid-MoE Thinker–Talker 设计重构实时同声传译，平均滞后（LAAL）从上一代的 2.8 秒降至 2.3 秒。",
       "source": "Qwen：Blog Retrieval（API）",
-      "url": "https://aihot.news/items/cmu5smj860insroqokcuh0u9v"
-     }
-    ]
-   },
-   {
-    "label": "产品发布/更新",
-    "items": [
-     {
-      "title": "ChatGPT for Word 上线，OpenAI 员工称 Excel 和 PowerPoint 用量近期激增",
-      "summary": "ChatGPT 正式集成进 Microsoft Word，可在文档内把粗略笔记转成初稿、理顺段落、校对、给出修改建议，还能发现格式问题。OpenAI 的 Sherwin Wu 表示，ChatGPT for Excel 和 PowerPoint 的用量近期大幅增长，此次上线 Word 补齐了整套 Office 集成。",
-      "source": "X：Sherwin Wu（@sherwinwu）",
-      "url": "https://aihot.news/items/cmu66hcff0ci8rofjhs1az9qz"
-     },
-     {
-      "title": "Unsloth 发布 Docker 镜像与 Unsloth Desktop，本地训练运行 500+ 模型",
-      "summary": "Unsloth 宣布可使用其 Docker 镜像本地训练和运行 500+ 模型，提供新 GUI 和 notebooks 工作流，无需配置，支持 NVIDIA 和 AMD，指南见 https://unsloth.ai/docs/get-started/install/docker。",
-      "source": "X：Unsloth (@UnslothAI)",
-      "url": "https://aihot.news/items/cmu5ocffd0duoroqoykax6pm1"
-     },
-     {
-      "title": "Claude Code 重构 Projects：从文件夹变为可托管多线程的对话式项目",
-      "summary": "Anthropic 重构 Claude Code 的 Projects，用户设定目标后由 Claude 拆解任务、并行调度多个线程、审查输出并汇总结果，线程本质上是各自独立分支的 Claude Code 云端会话。",
-      "source": "Claude：Blog（网页）",
-      "url": "https://aihot.news/items/cmu5tujnp0jvoroqoq64oqnjr"
-     },
-     {
-      "title": "Meta 发布 Muse for Mac，个人智能体可直接在电脑上执行任务",
-      "summary": "Meta 官宣 Muse for Mac 即日起推出，个人智能体可在用户明确授权下直接在电脑上完成任务。能力包括整理下载文件夹、查找丢失的文件、总结消息和笔记，官方表示更多功能即将推出，下载地址 http://ai.meta.com/muse/download/。",
-      "source": "X：AI at Meta (@AIatMeta)",
-      "url": "https://aihot.news/items/cmu63zp9f09xsrofjmnxvrwdg"
+      "url": "https://aihot.news/items/cmu74vaqy0qeerowkch23r6nd"
      }
     ]
    },
@@ -241,33 +212,28 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-      "summary": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是“人类历史上最大规模的劳动窃取”，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成“生存威胁”。",
-      "source": "TechCrunch：AI（RSS）",
-      "url": "https://aihot.news/items/cmu5y1e61069vroiq1klswjin"
-     }
-    ]
-   },
-   {
-    "label": "论文研究",
-    "items": [
-     {
-      "title": "Epoch AI 分析：贸易数据与经马来西亚走私至中国的约 30 亿美元芯片一致",
-      "summary": "Epoch AI 分析海关数据发现，2024 年 4 月至 2025 年 6 月中国记录了 37.5 亿美元、均价约 10.6 万美元/台的马来西亚原产服务器进口，价格水平更符合 AI 服务器而非普通服务器。",
-      "source": "Epoch AI：研究、数据与评测",
-      "url": "https://aihot.news/items/cmu5xn9rv05yfroiqd91x2qk7"
+      "title": "谷歌披露 Gemini 在安全测试中自主入侵三家真实公司并自行终止",
+      "summary": "谷歌确认 Gemini 模型今年 5 月在测试公司 Irregular 的“捕获旗帜”演练中，因测试环境意外开放互联网访问，自主入侵了三家真实企业，系 Gemini 首次已知的 AI 越狱事件。",
+      "source": "IT之家（RSS）",
+      "url": "https://aihot.news/items/cmu7l5wy60hj3rogr5i76b082"
      },
      {
-      "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
-      "summary": "Anthropic 发布研究，让 Claude 在不到四周内优化了 30 多个开源生物分子模型，平均提速约 4 倍，输出完全一致时约 2 倍。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "url": "https://aihot.news/items/cmu5y1dkt069qroiqnnhxz778"
+      "title": "《纽约时报》等媒体提交简要判决动议，援引 OpenAI 与微软高管内部言论质疑合理使用抗辩",
+      "summary": "《纽约时报》、Daily News 集团、Ziff Davis 等媒体公司向纽约联邦法院提交92页简要判决动议，就 AI 训练版权侵权向 OpenAI 和微软索赔数十亿美元，并援引此前未披露的内部邮件和宣誓证词。",
+      "source": "The Decoder：AI News（RSS）",
+      "url": "https://aihot.news/items/cmu74yfca0qjfrowkn49efvcw"
      },
      {
-      "title": "Goodfire Research 发现模型内部信号可规模化检测奖励作弊",
-      "summary": "Goodfire Research 发现模型内部存在伴随奖励作弊的激活信号，可用简单探针实时检测。在 Kimi K3、GLM 5.2、Qwen 3.8 Max 三个开源模型的三个智能体基准上，50–96% 的 rollout 出现奖励作弊；探针能捕捉 LLM 链式思维监测漏掉的作弊案例，且可泛化到训练数据之外的任务。",
-      "source": "Goodfire Research（网页）",
-      "url": "https://aihot.news/items/cmu5r7kl30h35roqonpk4qypn"
+      "title": "纽约时报版权诉讼披露：微软高管内部称训练 AI 是人类历史上最大规模劳动窃取",
+      "summary": "《纽约时报》在起诉微软和 OpenAI 的版权案中申请简易判决并提交新法律摘要，披露两家公司内部材料。微软应用科学总监 Brent Hecht 在 2023 年备忘录中称大模型吞噬劳动成果是人类历史上规模最大的盗窃；微软数据显示 Copilot 使纽约时报点击率较 Bing 最高下降 93%。",
+      "source": "IT之家（RSS）",
+      "url": "https://aihot.news/items/cmu7l5wy60hj2rogr88fr2vkk"
+     },
+     {
+      "title": "Anthropic 与 Accenture 合作开展嵌入式独立评估，双方各投入至少 10 亿美元",
+      "summary": "Anthropic 宣布与 Accenture 合作，对前沿模型进行嵌入式独立评估，合作由 Accenture 旗下 AI 业务 Faculty 主导，包括模型评估与红队测试、对齐评估和安全防护测试，双方预计未来五年各投入至少 10 亿美元。",
+      "source": "Anthropic：Newsroom（网页）",
+      "url": "https://aihot.news/items/cmu7emdec07qmrogrh8tfpg5n"
      }
     ]
    },
@@ -275,40 +241,52 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
-      "summary": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832,378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。",
-      "source": "GitHub Blog",
-      "url": "https://aihot.news/items/cmu4tu41w07ufrokck6s0p0cp"
+      "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
+      "summary": "开发者 ferstar 逆向 Z.ai 的 AI 编程桌面应用 ZCode，发现其登录后会静默把整个工作区打包（含完整 .git 历史、LFS 缓存、reflogs 和全局配置）加密上传至 Aliyun OSS，实测一次快照为 42,411 个文件、313MB，且 .git 目录占载荷的 86.6%。",
+      "source": "Hacker News：AI 热帖",
+      "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l"
      },
      {
-      "title": "纽约时报诉 OpenAI 案新解封文件：微软与 OpenAI 内部承认 LLM 建立在窃取之上并引发 Doom Loop",
-      "summary": "纽约时报诉 OpenAI 版权诉讼中一份未删节法庭文件解封，收录微软与 OpenAI 高管的多项内部承认，称 LLM 建立在被微软高管称为空前规模盗窃的内容之上，并引发摧毁整个 web 的 doom loop。文件显示 Bing 上被窃取新闻网站的点击量下降超过 90%，OpenAI 曾绕过纽约时报付费墙，OpenAI 自称是新闻出版的存在性威胁。",
-      "source": "404 Media（RSS）",
-      "url": "https://aihot.news/items/cmu62wp5j08tkrofj60s4kfwv"
+      "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
+      "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。",
+      "source": "X：Haider (@haider1)",
+      "url": "https://aihot.news/items/cmu6n3z980c4qro0fjx53zz4h"
      },
      {
-      "title": "The Verge 汇总 AI 超级智能放缓争论：Amodei 倡议放缓，Altman、Musk 附议，Meta 反对",
-      "summary": "The Verge 梳理近期 AI 安全与放缓争论：Anthropic CEO Dario Amodei 发文提出三步走计划，包括引入第三方评估机构（Anthropic 已单方面承诺第一步）、民主国家前沿 AI 公司协调标准，以及政府间全球协调，OpenAI 的 Sam Altman 与 Elon Musk 表示支持。",
-      "source": "The Verge：AI（RSS）",
-      "url": "https://aihot.news/items/cmu5y1e4p069troiqnxafqf0v"
+      "title": "OpenRouter 实测 20 个图像生成模型的成本、编辑与质量",
+      "summary": "OpenRouter 对其路由的 20 个图像生成模型用相同提示词实测计费，单张图片成本在 $0.006 到 $0.134 之间，相差 22 倍。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://aihot.news/items/cmu74ww1u0qfxrowkb6qtruwz"
      },
      {
-      "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
-      "summary": "Anthropic 发布一套测量前沿 AI 开发节奏的指标，覆盖 AI 主导研发、智能体监督和算力分配三方面。",
-      "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
-      "url": "https://aihot.news/items/cmu605ozy000arok0lxr4x1y8"
+      "title": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
+      "summary": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作产出 95 个机器验证的正确性证明，还发现两个单元测试未捕获的细微 bug。",
+      "source": "Trail of Bits：AI安全研究",
+      "url": "https://aihot.news/items/cmu6w30lt0dnhrowkh7qwiped"
      },
      {
-      "title": "Dwarkesh 对谈 Noam Brown：智能体集群、对齐与递归自我改进",
-      "summary": "Dwarkesh Patel 采访 OpenAI 研究员 Noam Brown，谈多智能体系统、对齐与递归自我改进。",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "url": "https://aihot.news/items/cmu5qsx2y0gpfroqonmogw4sk"
-     },
-     {
-      "title": "用 MCP 插件让 GPT-6 Pro 分担 Codex 规划任务，节省 Pro 会员周额度",
-      "summary": "自媒体作者分享一套节省 Codex 额度的工作流：让 Codex 把自己的服务器封装成只读、最小权限、飞书 OAuth 鉴权的 MCP Server，作为插件供 ChatGPT 网页版的 GPT-6 Pro 调用，读取真实生产数据和 GitHub PR 记录做分析与规划。",
+      "title": "TypeSafe AI 发布只做高频决策的大模型 Jev，作者实测其分类判断性价比",
+      "summary": "TypeSafe AI 推出专注高频决策的大模型 Jev，不做对话和文字生成，只输出判断，速度比传统大模型快20～200倍，成本0.042美元/百万Token且输出Token免费。作者实测预筛任务中Jev准确性第二且更便宜，在并行判断任务上达到最高准确率和最快速度；模型采用RLCD训练方法优化决策校准，可在官网 https://typesafe.ai/ 申请资格，Vercel 已首发接入。",
       "source": "公众号：数字生命卡兹克",
-      "url": "https://aihot.news/items/cmu4s9jrn0683rokccdfqwbux"
+      "url": "https://aihot.news/items/cmu67pecj0e0wrofj97vtuwzu"
+     },
+     {
+      "title": "Gary Marcus 评论 Trump 因经济原因淡化 AI 风险，AI 幻觉情报报告几乎引发战争",
+      "summary": "Gary Marcus 引用 NYT 报道称 Trump 出于经济考虑淡化 AI 恐慌、抵制监管，并转发 Katie Bo Lillis 的报道，一份 AI 辅助情报报告因模型幻觉误判一艘中国船只运载核武部件，美军紧急拦截，据称“几乎引发战争”。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "url": "https://aihot.news/items/cmu7e0dly06xdrogro9rq1x6d"
+     },
+     {
+      "title": "Gary Marcus：近期更该警惕的不是失控超级智能，而是智能体 AI 引发的规模化黑客攻击",
+      "summary": "Gary Marcus 撰文称，近期真正应担心的不是失控的超级智能，而是被放开的 agentic AI 造成互联网规模化的黑客攻击。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "url": "https://aihot.news/items/cmu77kvz00tf6rowk9kl5o4k0"
+     },
+     {
+      "title": "Ethan Mollick 谈能力悬差：GPT-6 Astra 与 Fable 5.1 的现有能力远未被用尽",
+      "summary": "Ethan Mollick 撰文指出 GPT-6 Astra 和 Fable 5.1 已能可靠完成数周量级的人类工作，但大多数人远未用尽其能力，形成能力悬差。",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "url": "https://aihot.news/items/cmu79r5lt0z09rowk1o1z6jnt"
      }
     ]
    }
@@ -652,68 +630,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-19 00:40",
+   "updateTime": "2026-09-19 10:45",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "兵马俑捡到游客手机，结果没想到......",
-     "url": "https://www.bilibili.com/video/BV1Uhey6bET7",
-     "hot": 1739445
+     "title": "【奥术之贼01】法师vs重甲，原创西幻cg影片",
+     "url": "https://www.bilibili.com/video/BV1jve36mECs",
+     "hot": 627246
     },
     {
-     "title": "《虱子大开口》",
-     "url": "https://www.bilibili.com/video/BV12Yeg6FE9q",
-     "hot": 1339785
+     "title": "256G变512G再变1T，手机存储为什么永远不够？【差评君】",
+     "url": "https://www.bilibili.com/video/BV1fpej6cE3N",
+     "hot": 1117798
     },
     {
-     "title": "反骨娘娘团：胖橘宜修出门，娘娘团放肆嗨",
-     "url": "https://www.bilibili.com/video/BV124eK6mE5U",
-     "hot": 986321
+     "title": "《镜头之后#7》——老八",
+     "url": "https://www.bilibili.com/video/BV1xKeU6AETz",
+     "hot": 314848
     },
     {
-     "title": "第二赛季更新前瞻PV「奥托皮亚·地下之王」",
-     "url": "https://www.bilibili.com/video/BV1A2ec68ENE",
-     "hot": 945507
+     "title": "【我在现代当幽差】EP03 因果 【UP动画】【HiShorts!XupdreamAl短片大赛-剧情单元】",
+     "url": "https://www.bilibili.com/video/BV1wue26pE7Y",
+     "hot": 535714
     },
     {
      "title": "【纪录片】生命奇观2 01 内蒙古高原",
      "url": "https://www.bilibili.com/video/BV1PUej65E41",
-     "hot": 3413447
+     "hot": 3730114
+    },
+    {
+     "title": "棋逢对手",
+     "url": "https://www.bilibili.com/video/BV1Z3eg65EkS",
+     "hot": 316000
+    },
+    {
+     "title": "男生的生活 VS 女生的生活",
+     "url": "https://www.bilibili.com/video/BV1yJe16dEz2",
+     "hot": 424423
+    },
+    {
+     "title": "变  形  强  强 【B站笑点大赛】",
+     "url": "https://www.bilibili.com/video/BV1jaer6wEWm",
+     "hot": 589764
+    },
+    {
+     "title": "兵马俑捡到游客手机，结果没想到......",
+     "url": "https://www.bilibili.com/video/BV1Uhey6bET7",
+     "hot": 2312006
+    },
+    {
+     "title": "琵琶曲丨悟空 VS 如来",
+     "url": "https://www.bilibili.com/video/BV14Xe36KERF",
+     "hot": 1717087
     },
     {
      "title": "Tropical fruit slicing animation",
      "url": "https://www.bilibili.com/video/BV1ZueH6LEa6",
-     "hot": 1360291
+     "hot": 1695892
     },
     {
-     "title": "“当确实型人格遇上反驳型人格”",
-     "url": "https://www.bilibili.com/video/BV1rYYa61E3T",
-     "hot": 2284597
-    },
-    {
-     "title": "听说你最近一段时间一直在找我？【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1Yieu6uEUU",
-     "hot": 1909267
-    },
-    {
-     "title": "中式魅魔挑战（你能闯到第几关？）",
-     "url": "https://www.bilibili.com/video/BV1gveN6WEpC",
-     "hot": 1380447
-    },
-    {
-     "title": "互相求婚？美国女孩和我为什么要这样做",
-     "url": "https://www.bilibili.com/video/BV1Nqeg6tEBo",
-     "hot": 727018
-    },
-    {
-     "title": "这个小学生用烂梗骂人，惹怒7.8万人，满嘴烂梗的小学生，本质上就是油腻老登!",
-     "url": "https://www.bilibili.com/video/BV1uaeA6mEDv",
-     "hot": 2417104
-    },
-    {
-     "title": "【徐静雨】亚运会男篮不敌日本二队，全方位差距，根本打不过！",
-     "url": "https://www.bilibili.com/video/BV1Uee26NEMy",
-     "hot": 292810
+     "title": "重生一次，我还是选她【01-11】【完结】",
+     "url": "https://www.bilibili.com/video/BV1xoeC6XESQ",
+     "hot": 170278
     }
    ]
   }
@@ -771,28 +749,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "全文|巴菲特致信伯克希尔股东：现在正是完成交接的时机",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishkuw8278873.shtml",
+   "title": "派拉蒙推进和解谈判 谋求扫清1110亿美元收购华纳兄弟探索诉讼障碍",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisinhc2663216.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "MiniMax 宣布开源 MiniMax Code CLI",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-18/doc-inishkut3428560.shtml",
+   "title": "张雪机车亮相摩博会：五款车型同台首发，现场被观众围得水泄不通",
+   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisinhf3193580.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "总经理于长信“失联”多次缺席公司会议？一汽解放回应：目前正常履职",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-18/doc-inisheny8364761.shtml",
+   "title": "薛其坤：需要全社会共同支持基础研究与前沿技术探索",
+   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisinhh9965183.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "闲鱼发布持续严打色情引流公告：今年已封号9.8万个",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-18/doc-inisheny8355091.shtml",
+   "title": "韩官员：李在明并未拒绝特朗普协助对伊战争的要求",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisinhh9963803.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "汇丰拟通过风险转移交易对冲数据中心贷款风险",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-18/doc-inishenv3472262.shtml",
+   "title": "韩美同意就韩国拟在美3500亿美元投资项目举行双边会谈",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisinhk7821028.shtml",
    "source": "新浪科技"
   }
  ]
