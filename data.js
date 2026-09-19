@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-19 16:53",
+ "updatedAt": "2026-09-20 00:00",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,6 +12,14 @@ var WB_DATA = {
   },
   {
    "rank": 2,
+   "title": "Gemini 在安全测试中突破隔离入侵三家公司，Google 未主动披露",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/cmu8kddvg1oeerogrlk5vi756",
+   "time": "09-19 23:25",
+   "sourceCount": 8
+  },
+  {
+   "rank": 3,
    "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
    "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
    "url": "https://aihot.news/items/cmu605ozy000arok0lxr4x1y8",
@@ -19,7 +27,15 @@ var WB_DATA = {
    "sourceCount": 9
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "title": "Meta 发布 muse for Mac，智能体可直接操作电脑上的文件、消息和日程",
+   "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+   "url": "https://aihot.news/items/cmu648ktv0a7hrofjha0nxsmr",
+   "time": "09-19 19:53",
+   "sourceCount": 7
+  },
+  {
+   "rank": 5,
    "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号",
    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
    "url": "https://aihot.news/items/cmu6idvti04i9ro0fktczvi9g",
@@ -27,7 +43,7 @@ var WB_DATA = {
    "sourceCount": 10
   },
   {
-   "rank": 4,
+   "rank": 6,
    "title": "Gary Marcus 评论 Trump 因经济原因淡化 AI 风险，AI 幻觉情报报告几乎引发战争",
    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
    "url": "https://aihot.news/items/cmu7e0dly06xdrogro9rq1x6d",
@@ -35,36 +51,20 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 5,
-   "title": "WSJ 报道：Gemini 在 Irregular 网络安全评测中越出测试环境并入侵三家公司",
-   "source": "X：Haider (@haider1)",
-   "url": "https://aihot.news/items/cmu7zc3h30zcqrogr2dx8w8w6",
-   "time": "09-19 15:45",
-   "sourceCount": 6
+   "rank": 7,
+   "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+   "source": "Qwen：Blog Retrieval（API）",
+   "url": "https://aihot.news/items/cmu5smj860insroqokcuh0u9v",
+   "time": "09-19 22:30",
+   "sourceCount": 10
   },
   {
-   "rank": 6,
+   "rank": 8,
    "title": "Claude Code Projects 改版：从文件夹到对话式协调",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/cmu5tujnp0jvoroqoq64oqnjr",
    "time": "09-18 12:58",
    "sourceCount": 8
-  },
-  {
-   "rank": 7,
-   "title": "Meta 发布 muse for Mac，智能体可直接操作电脑上的文件、消息和日程",
-   "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-   "url": "https://aihot.news/items/cmu648ktv0a7hrofjha0nxsmr",
-   "time": "09-19 15:22",
-   "sourceCount": 6
-  },
-  {
-   "rank": 8,
-   "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-   "source": "Qwen：Blog Retrieval（API）",
-   "url": "https://aihot.news/items/cmu5smj860insroqokcuh0u9v",
-   "time": "09-18 17:46",
-   "sourceCount": 9
   },
   {
    "rank": 9,
@@ -76,10 +76,10 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "FT 报道 OpenAI 预计 2030 年前累计现金消耗约 $278B",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmu7mv3mi0j8brogr1ktcfhb6",
-   "time": "09-19 16:19",
+   "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
+   "source": "Qwen：Blog Retrieval（API）",
+   "url": "https://aihot.news/items/cmu74vaqy0qeerowkch23r6nd",
+   "time": "09-19 15:14",
    "sourceCount": 3
   }
  ],
@@ -172,24 +172,6 @@ var WB_DATA = {
    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
    "url": "https://aihot.news/items/cmu77kvz00tf6rowk9kl5o4k0",
    "time": "09-19 00:29",
-   "category": "tip"
-  },
-  {
-   "title": "《纽约时报》等媒体提交简要判决动议，援引 OpenAI 与微软高管内部言论质疑合理使用抗辩",
-   "summary": "《纽约时报》、Daily News 集团、Ziff Davis 等媒体公司向纽约联邦法院提交92页简要判决动议，就 AI 训练版权侵权向 OpenAI 和微软索赔数十亿美元，并援引此前未披露的内部邮件和宣誓证词。",
-   "reason": "原文梳理了原告新披露的高管内部言论和证词如何冲击合理使用抗辩，读者可借此了解这起版权案的关键争议点。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu74yfca0qjfrowkn49efvcw",
-   "time": "09-18 23:27",
-   "category": "industry"
-  },
-  {
-   "title": "OpenRouter 实测 20 个图像生成模型的成本、编辑与质量",
-   "summary": "OpenRouter 对其路由的 20 个图像生成模型用相同提示词实测计费，单张图片成本在 $0.006 到 $0.134 之间，相差 22 倍。",
-   "reason": "OpenRouter 用同一提示词实测 20 个图像生成模型的真实计费，读者可以借此绕开各不相同的计价单位直接比较成本。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/cmu74ww1u0qfxrowkb6qtruwz",
-   "time": "09-18 08:00",
    "category": "tip"
   }
  ],
@@ -630,68 +612,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-19 16:53",
+   "updateTime": "2026-09-20 00:00",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "G8烧了，用刀割，这样真能稳定吗",
-     "url": "https://www.bilibili.com/video/BV1pbem6tEW8",
-     "hot": 599113
+     "title": "舍友把宿舍改造成飞机",
+     "url": "https://www.bilibili.com/video/BV1L1eS6sEqC",
+     "hot": 666255
     },
     {
-     "title": "5年前，我们因为它绝交了。5年后，重新来过！",
-     "url": "https://www.bilibili.com/video/BV1Y3eS6mEcC",
-     "hot": 320007
+     "title": "《花骨朵》亚细亚旷世奇才/洛天依",
+     "url": "https://www.bilibili.com/video/BV16veP6eEeC",
+     "hot": 186459
     },
     {
-     "title": "“当确实型人格遇上反驳型人格”",
-     "url": "https://www.bilibili.com/video/BV1rYYa61E3T",
-     "hot": 3172122
+     "title": "果蝇乐园3/捕捉系统，孤雌生殖，变异机制！！",
+     "url": "https://www.bilibili.com/video/BV1BceS6sEkP",
+     "hot": 442404
     },
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第16集【总第192集】",
      "url": "https://www.bilibili.com/video/BV1RxeU6EEah",
-     "hot": 2678867
+     "hot": 4136944
     },
     {
-     "title": "出大问题！房车抛锚！差点渴死在沙漠里！",
-     "url": "https://www.bilibili.com/video/BV1Sve26eENf",
-     "hot": 298155
-    },
-    {
-     "title": "【奥术之贼01】法师vs重甲，原创西幻cg影片",
-     "url": "https://www.bilibili.com/video/BV1jve36mECs",
-     "hot": 1255228
-    },
-    {
-     "title": "《镜头之后#7》——老八",
-     "url": "https://www.bilibili.com/video/BV1xKeU6AETz",
-     "hot": 733750
-    },
-    {
-     "title": "【互联网入门指南】Github入门",
-     "url": "https://www.bilibili.com/video/BV1Bvem6WERT",
-     "hot": 296052
-    },
-    {
-     "title": "《你爸带你忆苦思甜》",
-     "url": "https://www.bilibili.com/video/BV1Y4ec6VEFc",
-     "hot": 3085955
-    },
-    {
-     "title": "【纪录片】中国救护2 01 在抵达之前",
-     "url": "https://www.bilibili.com/video/BV1REey6qEGG",
-     "hot": 1675783
+     "title": "听李田原聊小米澎程背后的故事",
+     "url": "https://www.bilibili.com/video/BV12BeG6eEQM",
+     "hot": 501528
     },
     {
      "title": "【变奏群像篇】第一期 原来你是这样的小熊头！",
      "url": "https://www.bilibili.com/video/BV1W8eS6vET5",
-     "hot": 195136
+     "hot": 811974
     },
     {
-     "title": "新番时光机！十年前的观众都在看什么？「2016年7月篇」泛式",
-     "url": "https://www.bilibili.com/video/BV1FEet6eETy",
-     "hot": 334674
+     "title": "出大问题！房车抛锚！差点渴死在沙漠里！",
+     "url": "https://www.bilibili.com/video/BV1Sve26eENf",
+     "hot": 679103
+    },
+    {
+     "title": "我们拍到了大翅鲸！",
+     "url": "https://www.bilibili.com/video/BV1BWet6FEWk",
+     "hot": 478386
+    },
+    {
+     "title": "猜数字游戏（曹刘版）",
+     "url": "https://www.bilibili.com/video/BV1ZUYf6JEfo",
+     "hot": 619515
+    },
+    {
+     "title": "【纪录片】中国救护2 01 在抵达之前",
+     "url": "https://www.bilibili.com/video/BV1REey6qEGG",
+     "hot": 2879132
+    },
+    {
+     "title": "【微电影】星河外卖员：平台战争",
+     "url": "https://www.bilibili.com/video/BV1SveU6GExV",
+     "hot": 426457
+    },
+    {
+     "title": "【奥术之贼01】法师vs重甲，原创西幻cg影片",
+     "url": "https://www.bilibili.com/video/BV1jve36mECs",
+     "hot": 1919137
     }
    ]
   }
@@ -749,28 +731,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "Keeway集团副总裁鲍正勤：在海外踩了很多坑，一些新兴市场前几年都是巨额亏损",
-   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-iniskcea7542643.shtml",
+   "title": "伊朗提出对美谈判三大前提，等待特朗普答复",
+   "url": "https://finance.sina.com.cn/7x24/2026-09-19/doc-inisktzr2868566.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "360联合昇腾AI打造AI Agent方案，多智能体协作效率提升6倍",
-   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisiwwe7659527.shtml",
+   "title": "阿那亚突发大停电，官方回应：园区外线路故障所致，正抓紧抢修",
+   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-09-19/doc-inisktzu7287125.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "凯越机车总经理赵洪：做赛事如果只为了上电视打广告没有意义，把赛事做成研发的一部分才是长期资产",
-   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisiwwa9881708.shtml",
+   "title": "美军指挥官：霍尔木兹海峡石油运量创六个月新高",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-inisktzs9617811.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "罗兰贝格徐虎雄：出海对二轮车玩家是发展的必答题，要在产品、渠道和供应链上进一步做深",
-   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisiwvz3076132.shtml",
+   "title": "纳斯达克100指数季度再平衡落定 SpaceX权重将升至2.82%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptt2970689.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "隆鑫通用董事长李耀：过去买摩托车问多少钱、几升油，现在年轻人问声浪够不够上头、发朋友圈够不够炸？",
-   "url": "https://finance.sina.com.cn/roll/2026-09-19/doc-inisiwvz3053871.shtml",
+   "title": "巴菲特推进计划下一步，确保伯克希尔在他身后不走样",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-19/doc-iniskptr2230607.shtml",
    "source": "新浪科技"
   }
  ]
