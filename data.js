@@ -1,21 +1,21 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-20 10:58",
+ "updatedAt": "2026-09-20 17:23",
  "aihotHot": [
   {
    "rank": 1,
    "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放",
    "source": "X：OpenRouter (@OpenRouter)",
    "url": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
-   "time": "09-20 10:13",
-   "sourceCount": 8
+   "time": "09-20 15:25",
+   "sourceCount": 7
   },
   {
    "rank": 2,
    "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/cmu7jnd0b0fxtrogrch785oud",
-   "time": "09-20 09:58",
+   "time": "09-20 10:16",
    "sourceCount": 9
   },
   {
@@ -24,63 +24,63 @@ var WB_DATA = {
    "source": "Claude Code：GitHub Releases（RSS）",
    "url": "https://aihot.news/items/cmu7bu9xu04terogr4pz0w6r4",
    "time": "09-20 01:00",
-   "sourceCount": 8
+   "sourceCount": 7
   },
   {
    "rank": 4,
-   "title": "安全研究人员利用Claude模型攻入OpenAI内部系统",
-   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-   "url": "https://aihot.news/items/cmu77kvz00tf6rowk9kl5o4k0",
-   "time": "09-20 09:23",
-   "sourceCount": 11
+   "title": "路透：GPT-6 Astra挤压其企业业务领先地位，Anthropic可能推出新模型",
+   "source": "X：Kim (@kimmonismus)",
+   "url": "https://aihot.news/items/cmu852zra15airogrzqligyjy",
+   "time": "09-20 17:17",
+   "sourceCount": 4
   },
   {
    "rank": 5,
-   "title": "FT报道：OpenAI预计支出将远超收入，2030年营收或达3500亿美元",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmu7mv3mi0j8brogr1ktcfhb6",
-   "time": "09-20 07:54",
-   "sourceCount": 3
+   "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmu7vvrzj0snnrogr298gqllj",
+   "time": "09-20 14:58",
+   "sourceCount": 2
   },
   {
    "rank": 6,
-   "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmu606l6o02m2rok01owq1zp8",
-   "time": "09-20 09:30",
+   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
+   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
+   "time": "09-20 16:37",
    "sourceCount": 3
   },
   {
    "rank": 7,
-   "title": "Anthropic CEO Amodei此前提出含第三方评估与国际协议的三步放缓AI发展计划",
-   "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
-   "url": "https://aihot.news/items/cmu605ozy000arok0lxr4x1y8",
-   "time": "09-20 10:20",
-   "sourceCount": 5
-  },
-  {
-   "rank": 8,
-   "title": "报道称AI幻觉情报使美军准备拦截中国船只，险些引发冲突",
+   "title": "安全研究人员利用Claude模型攻入OpenAI内部系统",
    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-   "url": "https://aihot.news/items/cmu7e0dly06xdrogro9rq1x6d",
-   "time": "09-20 00:43",
+   "url": "https://aihot.news/items/cmu77kvz00tf6rowk9kl5o4k0",
+   "time": "09-20 16:54",
    "sourceCount": 7
   },
   {
+   "rank": 8,
+   "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmu606l6o02m2rok01owq1zp8",
+   "time": "09-20 17:01",
+   "sourceCount": 3
+  },
+  {
    "rank": 9,
-   "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmu7vvrzj0snnrogr298gqllj",
-   "time": "09-20 09:50",
-   "sourceCount": 2
+   "title": "FT报道：OpenAI预计支出将远超收入，2030年营收或达3500亿美元",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmu7mv3mi0j8brogr1ktcfhb6",
+   "time": "09-20 16:26",
+   "sourceCount": 3
   },
   {
    "rank": 10,
-   "title": "Anthropic 与 Accenture 合作开展嵌入式前沿评测",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/cmu7emdec07qmrogrh8tfpg5n",
-   "time": "09-20 06:06",
-   "sourceCount": 4
+   "title": "作者称 UI 开关不能阻止上传：快照捕获侧车无条件实例化，隐私政策未披露整仓上传",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l",
+   "time": "09-20 16:20",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
@@ -101,15 +101,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmu92ktj505lkrojrl223hicj",
    "time": "09-20 07:58",
    "category": "industry"
-  },
-  {
-   "title": "Alexandr Wang 转发一份让 AI 智能体保护日历通勤时间的 Muse 提示词",
-   "summary": "Alexandr Wang 转发 @trevin 分享的 Muse 提示词，该提示词也可用于 Instinct 和 Grok @bot，作用是扫描未来 14 天日历、为异地会议自动添加 Travel time 通勤缓冲时间块。",
-   "reason": "转发了一份可直接复用的日历通勤时间保护提示词，含意图识别、冲突处理和用户偏好记忆等实用设计。",
-   "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-   "url": "https://aihot.news/items/cmu7tboxt0pv0rogre8ibr9n8",
-   "time": "09-19 10:48",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -478,68 +469,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-20 10:58",
+   "updateTime": "2026-09-20 17:23",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【微电影】星河外卖员：平台战争",
-     "url": "https://www.bilibili.com/video/BV1SveU6GExV",
-     "hot": 822592
-    },
-    {
-     "title": "《花骨朵》亚细亚旷世奇才/洛天依",
-     "url": "https://www.bilibili.com/video/BV16veP6eEeC",
-     "hot": 488761
-    },
-    {
-     "title": "攻破WorkBuddy有奖品？！这我绝对要全拿！",
-     "url": "https://www.bilibili.com/video/BV18ye86WEnE",
-     "hot": 81029
-    },
-    {
-     "title": "【独家】《凡人修仙传之慕兰之战》第16集【总第192集】",
-     "url": "https://www.bilibili.com/video/BV1RxeU6EEah",
-     "hot": 4552438
-    },
-    {
-     "title": "【2026LPL第三赛段】9月19日 IG vs JDG",
-     "url": "https://www.bilibili.com/video/BV1Hveb6rEaV",
-     "hot": 2084735
+     "title": "【萌黄一槽】大蛇丸[传说中的三忍]全技能爆料！随“形”应变？！",
+     "url": "https://www.bilibili.com/video/BV19Mei6GEPZ",
+     "hot": 724555
     },
     {
      "title": "我们拍到了大翅鲸！",
      "url": "https://www.bilibili.com/video/BV1BWet6FEWk",
-     "hot": 903724
+     "hot": 1622186
     },
     {
-     "title": "《鸣潮》3.7版本前瞻通讯 | 回顾影像",
-     "url": "https://www.bilibili.com/video/BV1Xoeb6xE8y",
-     "hot": 1038144
+     "title": "中式魅魔挑战（你能闯到第几关？）",
+     "url": "https://www.bilibili.com/video/BV1gveN6WEpC",
+     "hot": 4131089
     },
     {
-     "title": "在下要告发所有人",
-     "url": "https://www.bilibili.com/video/BV1LNe46WE86",
-     "hot": 406062
+     "title": "【独家】牧神记 第101集 巫法杀人",
+     "url": "https://www.bilibili.com/video/BV1MEe46yEzC",
+     "hot": 899461
     },
     {
-     "title": "考试倒数第一，打架天下无敌？打翻校园霸凌，全程热血高能！爆爽漫改韩剧《学习小组》上",
-     "url": "https://www.bilibili.com/video/BV1idey6GE26",
-     "hot": 468344
+     "title": "神兽厨房：给梅山来的7位客人做饭",
+     "url": "https://www.bilibili.com/video/BV1oxet6ZEPS",
+     "hot": 439985
     },
     {
-     "title": "【纪录片】中国救护2 01 在抵达之前",
-     "url": "https://www.bilibili.com/video/BV1REey6qEGG",
-     "hot": 3173006
+     "title": "警察杀神模仿警察杀神屠杀警察，全套军用装备碾压6名警员中枪！",
+     "url": "https://www.bilibili.com/video/BV1fqe46hEHp",
+     "hot": 481469
+    },
+    {
+     "title": "烟盒战队-复抽者！",
+     "url": "https://www.bilibili.com/video/BV131eC6cEm3",
+     "hot": 1323485
+    },
+    {
+     "title": "《明日方舟：终末地》「雪凇幽梦」版本更新情报",
+     "url": "https://www.bilibili.com/video/BV1o6e46bERx",
+     "hot": 358333
     },
     {
      "title": "舍友把宿舍改造成飞机",
      "url": "https://www.bilibili.com/video/BV1L1eS6sEqC",
-     "hot": 1075631
+     "hot": 1513749
     },
     {
-     "title": "【变奏群像篇】第一期 原来你是这样的小熊头！",
-     "url": "https://www.bilibili.com/video/BV1W8eS6vET5",
-     "hot": 1160172
+     "title": "陌生的女人，竟在我家偷偷住了二十年....",
+     "url": "https://www.bilibili.com/video/BV157eY6zEec",
+     "hot": 228692
+    },
+    {
+     "title": "【传奇耐熬王】荒野独居2026👊全球最高规格荒野比赛🔪世界各地绝活哥前来参赛...兔王鹿王鱼王大战！",
+     "url": "https://www.bilibili.com/video/BV1fCeb6NEEy",
+     "hot": 536270
+    },
+    {
+     "title": "一战再战",
+     "url": "https://www.bilibili.com/video/BV1nceh6kEXa",
+     "hot": 222190
     }
    ]
   }
@@ -592,33 +583,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "阶跃Step 5 Preview 发布，跻身 AA 榜单全球开源前三",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-20/doc-inismvnz1660677.shtml",
+   "title": "启元机器人Q1、T1发布，售价19999元起",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhca6711656.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "明阳集团张瑞：未来新能源发展是全行业全链条的合唱",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-20/doc-inismvnz1652757.shtml",
+   "title": "启元机器人“启元星生态计划”发布，未来5年投10亿元建消费级机器人生态",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhav1548168.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "华为数字能源王超建议：加大统一平台化力度，减少内卷式开发",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-09-20/doc-inismrfh9422634.shtml",
+   "title": "莫斯科炼油厂遇袭 俄罗斯称遭乌克兰大规模无人机袭击",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-20/doc-inisnhay9348361.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "阿那亚被曝遭遇 9 小时停电：今日凌晨恢复供电，官方暂无统一赔偿政策",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-20/doc-inismrfc1771255.shtml",
+   "title": "启元机器人CEO田华：以造车标准造“机器人”，2.5分钟下线一个机器人",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhav1540140.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "赛力斯科技刘宗成呼吁：整治“速成车”",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-09-20/doc-inismrff2642231.shtml",
+   "title": "对话腾讯首席人才官奚丹：让青年科学家勇敢“破壁”，不再熬走黄金期",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhay9337154.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "赛力斯科技刘宗成呼吁：对恶意低价、数据造假、“黑公关”等行为形成自律约束和统一标准",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-09-20/doc-inismrfk6934091.shtml",
+   "title": "启元机器人Q1发布，稚晖君要做你的“第一个个人机器人”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhay9313665.shtml",
    "source": "新浪科技"
   }
  ]
