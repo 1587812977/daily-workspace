@@ -1,25 +1,41 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-20 17:23",
+ "updatedAt": "2026-09-21 00:25",
  "aihotHot": [
   {
    "rank": 1,
    "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放",
    "source": "X：OpenRouter (@OpenRouter)",
    "url": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
-   "time": "09-20 15:25",
-   "sourceCount": 7
+   "time": "09-21 00:09",
+   "sourceCount": 6
   },
   {
    "rank": 2,
    "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/cmu7jnd0b0fxtrogrch785oud",
-   "time": "09-20 10:16",
+   "time": "09-20 23:34",
    "sourceCount": 9
   },
   {
    "rank": 3,
+   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
+   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
+   "time": "09-20 23:28",
+   "sourceCount": 4
+  },
+  {
+   "rank": 4,
+   "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmu7vvrzj0snnrogr298gqllj",
+   "time": "09-20 17:44",
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
    "title": "Claude Code 2.1.277 在无 CLAUDE.md 时读取 AGENTS.md",
    "source": "Claude Code：GitHub Releases（RSS）",
    "url": "https://aihot.news/items/cmu7bu9xu04terogr4pz0w6r4",
@@ -27,7 +43,15 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 4,
+   "rank": 6,
+   "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型",
+   "source": "Qwen：Blog Retrieval（API）",
+   "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
+   "time": "09-21 00:10",
+   "sourceCount": 6
+  },
+  {
+   "rank": 7,
    "title": "路透：GPT-6 Astra挤压其企业业务领先地位，Anthropic可能推出新模型",
    "source": "X：Kim (@kimmonismus)",
    "url": "https://aihot.news/items/cmu852zra15airogrzqligyjy",
@@ -35,31 +59,15 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 5,
-   "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmu7vvrzj0snnrogr298gqllj",
-   "time": "09-20 14:58",
-   "sourceCount": 2
-  },
-  {
-   "rank": 6,
-   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
-   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
-   "time": "09-20 16:37",
+   "rank": 8,
+   "title": "FT报道：OpenAI预计支出将远超收入，2030年营收或达3500亿美元",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmu7mv3mi0j8brogr1ktcfhb6",
+   "time": "09-20 19:14",
    "sourceCount": 3
   },
   {
-   "rank": 7,
-   "title": "安全研究人员利用Claude模型攻入OpenAI内部系统",
-   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-   "url": "https://aihot.news/items/cmu77kvz00tf6rowk9kl5o4k0",
-   "time": "09-20 16:54",
-   "sourceCount": 7
-  },
-  {
-   "rank": 8,
+   "rank": 9,
    "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/cmu606l6o02m2rok01owq1zp8",
@@ -67,23 +75,33 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 9,
-   "title": "FT报道：OpenAI预计支出将远超收入，2030年营收或达3500亿美元",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmu7mv3mi0j8brogr1ktcfhb6",
-   "time": "09-20 16:26",
-   "sourceCount": 3
-  },
-  {
    "rank": 10,
-   "title": "作者称 UI 开关不能阻止上传：快照捕获侧车无条件实例化，隐私政策未披露整仓上传",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l",
-   "time": "09-20 16:20",
-   "sourceCount": 3
+   "title": "特朗普发起为AI更名的投票，并称对AI的打压是民主党骗局之一",
+   "source": "@mark_k",
+   "url": "https://aihot.news/items/cmu8q4lm908xvro3kqufzth5h",
+   "time": "09-21 00:06",
+   "sourceCount": 5
   }
  ],
  "aihotItems": [
+  {
+   "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
+   "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。",
+   "reason": "官方宣布 Qwen-Image-2.1 已进入 ComfyUI 工作流，开源权重与单 7B 模型同时支持生成和编辑，方便用户直接上手搭建。",
+   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+   "url": "https://aihot.news/items/cmu9w55as056krowjqmhejtmz",
+   "time": "09-20 21:52",
+   "category": "ai-products"
+  },
+  {
+   "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+   "summary": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆盖全景图、信息图和分镜等任务。",
+   "reason": "官方详解了 7B 统一图像模型的透明图像生成、10 图参考编辑与推理优化，读者可据此评估在设计等场景的可用性。",
+   "source": "Qwen：Blog Retrieval（API）",
+   "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
+   "time": "09-20 20:00",
+   "category": "ai-models"
+  },
   {
    "title": "阶跃星辰发布旗舰模型 Step 5 Preview，10 月 15 日开源权重",
    "summary": "阶跃星辰发布旗舰基座模型 Step 5 Preview，采用稀疏 MoE 架构，总参数量 600B、激活 27B，支持 100 万 Token 上下文和文本与视觉输入，在 Artificial Analysis Intelligence Index 得 44 分，居全球开源模型前三，单任务成本为 Claude Opus 5 的 1/8。",
@@ -469,68 +487,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-20 17:23",
+   "updateTime": "2026-09-21 00:25",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【萌黄一槽】大蛇丸[传说中的三忍]全技能爆料！随“形”应变？！",
-     "url": "https://www.bilibili.com/video/BV19Mei6GEPZ",
-     "hot": 724555
+     "title": "“乡土凝存温情，善念永续流年.”【Blue Dragon-Inst】【乡土の小曲】",
+     "url": "https://www.bilibili.com/video/BV1ZCeb6NEyM",
+     "hot": 856089
     },
     {
-     "title": "我们拍到了大翅鲸！",
-     "url": "https://www.bilibili.com/video/BV1BWet6FEWk",
-     "hot": 1622186
+     "title": "当那一天真的来临，我们不会孤军奋战 | 元素战争：破晓 【原神HoYoFair x bilibilionly】",
+     "url": "https://www.bilibili.com/video/BV1woez6TECm",
+     "hot": 171233
     },
     {
-     "title": "中式魅魔挑战（你能闯到第几关？）",
-     "url": "https://www.bilibili.com/video/BV1gveN6WEpC",
-     "hot": 4131089
+     "title": "【STN快报第8.5季21】索尼把金刚狼做成了金刚",
+     "url": "https://www.bilibili.com/video/BV1vmeB6WEEb",
+     "hot": 208020
     },
     {
      "title": "【独家】牧神记 第101集 巫法杀人",
      "url": "https://www.bilibili.com/video/BV1MEe46yEzC",
-     "hot": 899461
+     "hot": 1869635
     },
     {
-     "title": "神兽厨房：给梅山来的7位客人做饭",
-     "url": "https://www.bilibili.com/video/BV1oxet6ZEPS",
-     "hot": 439985
+     "title": "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】",
+     "url": "https://www.bilibili.com/video/BV1uhev6BEpe",
+     "hot": 372078
     },
     {
-     "title": "警察杀神模仿警察杀神屠杀警察，全套军用装备碾压6名警员中枪！",
-     "url": "https://www.bilibili.com/video/BV1fqe46hEHp",
-     "hot": 481469
+     "title": "依旧获得优先择偶权",
+     "url": "https://www.bilibili.com/video/BV1vgeb6ZEN7",
+     "hot": 2759615
     },
     {
-     "title": "烟盒战队-复抽者！",
-     "url": "https://www.bilibili.com/video/BV131eC6cEm3",
-     "hot": 1323485
+     "title": "《崩坏：星穹铁道》4.6版本「月升之前，与兽共舞」前瞻特别节目",
+     "url": "https://www.bilibili.com/video/BV1wXeq6wEGR",
+     "hot": 700562
     },
     {
-     "title": "《明日方舟：终末地》「雪凇幽梦」版本更新情报",
-     "url": "https://www.bilibili.com/video/BV1o6e46bERx",
-     "hot": 358333
-    },
-    {
-     "title": "舍友把宿舍改造成飞机",
-     "url": "https://www.bilibili.com/video/BV1L1eS6sEqC",
-     "hot": 1513749
+     "title": "这牌咋样？",
+     "url": "https://www.bilibili.com/video/BV1EKeh6uEVd",
+     "hot": 775082
     },
     {
      "title": "陌生的女人，竟在我家偷偷住了二十年....",
      "url": "https://www.bilibili.com/video/BV157eY6zEec",
-     "hot": 228692
+     "hot": 634329
     },
     {
-     "title": "【传奇耐熬王】荒野独居2026👊全球最高规格荒野比赛🔪世界各地绝活哥前来参赛...兔王鹿王鱼王大战！",
-     "url": "https://www.bilibili.com/video/BV1fCeb6NEEy",
-     "hot": 536270
+     "title": "采访了刘慈欣",
+     "url": "https://www.bilibili.com/video/BV1bLei6BEGo",
+     "hot": 593528
     },
     {
-     "title": "一战再战",
-     "url": "https://www.bilibili.com/video/BV1nceh6kEXa",
-     "hot": 222190
+     "title": "【逐影集趣】DP全关卡攻略 摆完挂机 简单好抄",
+     "url": "https://www.bilibili.com/video/BV1wXeq6wEpo",
+     "hot": 701745
+    },
+    {
+     "title": "电动车钥匙丢了？锁坐桶里了？别急",
+     "url": "https://www.bilibili.com/video/BV1myet61EDn",
+     "hot": 1031547
     }
    ]
   }
@@ -583,33 +601,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "启元机器人Q1、T1发布，售价19999元起",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhca6711656.shtml",
+   "title": "智谱将上线“零数据留存”机制",
+   "url": "https://finance.sina.com.cn/wm/2026-09-20/doc-inisnwyu6462352.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "启元机器人“启元星生态计划”发布，未来5年投10亿元建消费级机器人生态",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhav1548168.shtml",
+   "title": "特朗普称他可能对与伊朗总统会面持开放态度",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-20/doc-inisnwys9184467.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "莫斯科炼油厂遇袭 俄罗斯称遭乌克兰大规模无人机袭击",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-20/doc-inisnhay9348361.shtml",
+   "title": "考拉悠然：基于悠然无界世界模型构建的通用具身智能体GeekMind，已实现行业落地",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnwyu6434561.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "启元机器人CEO田华：以造车标准造“机器人”，2.5分钟下线一个机器人",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhav1540140.shtml",
+   "title": "券商前员工内幕交易被罚没125万，网友：又菜又爱玩",
+   "url": "https://video.sina.com.cn/p/tech/2026-09-20/detail-inisnssw6545006.d.html",
    "source": "新浪科技"
   },
   {
-   "title": "对话腾讯首席人才官奚丹：让青年科学家勇敢“破壁”，不再熬走黄金期",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhay9337154.shtml",
+   "title": "安世中国12英寸平台量产成果亮相，计划第四季度集中推新",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnssu9250954.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "启元机器人Q1发布，稚晖君要做你的“第一个个人机器人”",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnhay9313665.shtml",
+   "title": "第七届激光显示大会在京召开，行业预判：5年内120吋大屏将成主流",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-20/doc-inisnssr1367866.shtml",
    "source": "新浪科技"
   }
  ]
