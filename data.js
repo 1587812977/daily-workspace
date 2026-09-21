@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-21 10:55",
+ "updatedAt": "2026-09-21 18:07",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,26 +8,18 @@ var WB_DATA = {
    "source": "X：OpenRouter (@OpenRouter)",
    "url": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
    "time": "09-21 09:44",
-   "sourceCount": 5
+   "sourceCount": 4
   },
   {
    "rank": 2,
-   "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmu7jnd0b0fxtrogrch785oud",
-   "time": "09-21 04:20",
+   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
+   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
+   "time": "09-21 14:37",
    "sourceCount": 6
   },
   {
    "rank": 3,
-   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
-   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
-   "time": "09-21 08:41",
-   "sourceCount": 5
-  },
-  {
-   "rank": 4,
    "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型",
    "source": "Qwen：Blog Retrieval（API）",
    "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
@@ -35,23 +27,23 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
+   "rank": 4,
+   "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmu7jnd0b0fxtrogrch785oud",
+   "time": "09-21 04:20",
+   "sourceCount": 3
+  },
+  {
    "rank": 5,
    "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmu7vvrzj0snnrogr298gqllj",
    "time": "09-21 01:17",
-   "sourceCount": 3
+   "sourceCount": 2
   },
   {
    "rank": 6,
-   "title": "路透：GPT-6 Astra挤压其企业业务领先地位，Anthropic可能推出新模型",
-   "source": "X：Kim (@kimmonismus)",
-   "url": "https://aihot.news/items/cmu852zra15airogrzqligyjy",
-   "time": "09-20 17:17",
-   "sourceCount": 4
-  },
-  {
-   "rank": 7,
    "title": "Anthropic CEO Amodei此前提出含第三方评估与国际协议的三步放缓AI发展计划",
    "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
    "url": "https://aihot.news/items/cmu605ozy000arok0lxr4x1y8",
@@ -59,7 +51,7 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 8,
+   "rank": 7,
    "title": "特朗普发起为AI更名的投票，并称对AI的打压是民主党骗局之一",
    "source": "@mark_k",
    "url": "https://aihot.news/items/cmu8q4lm908xvro3kqufzth5h",
@@ -67,7 +59,7 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 9,
+   "rank": 8,
    "title": "ZCode：作者称 UI 开关不能阻止上传：快照捕获侧车无条件实例化，隐私政策未披露整仓上传",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l",
@@ -75,15 +67,41 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
+   "rank": 9,
+   "title": "作者称Jev现已向所有人开放，无需候补名单",
+   "source": "@typesafeai",
+   "url": "https://aihot.news/items/cmuacp46v0b19ro5tzymtz1qh",
+   "time": "09-21 12:42",
+   "sourceCount": 1
+  },
+  {
    "rank": 10,
-   "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmu606l6o02m2rok01owq1zp8",
-   "time": "09-21 07:03",
-   "sourceCount": 3
+   "title": "硅基流动完成B+轮二期与C轮融资，2026年度累计股权融资额近29亿元",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmu9dh37f08gtro8iyj3e3v8x",
+   "time": "09-20 21:18",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+   "summary": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
+   "reason": "官方发布 Kimi Code Desktop 1.0，覆盖安装方式、Agent 模式与开发工作流细节，读者可了解它相对 CLI 的界面与协作变化。",
+   "source": "公众号：月之暗面（Kimi）",
+   "url": "https://aihot.news/items/cmuaytowf0c4oroln02tacq0c",
+   "time": "09-21 15:54",
+   "category": "ai-products"
+  },
+  {
+   "title": "通义千问发布 Qwen-Image-2.1：7B 单检查点同时支持图像生成与编辑",
+   "summary": "通义千问发布 Qwen-Image-2.1，一个 7B 参数的原生图像生成与编辑模型，生成和编辑共用单一检查点，最多支持 10 张参考图。模型自带提示词增强 LLM，已集成 diffusers 和 ComfyUI，并在 Hugging Face Spaces 提供免安装的浏览器在线 demo：https://huggingface.co/spaces/hugging-apps/qwen-image-2-1",
+   "reason": "原文给出了 Qwen-Image-2.1 的参数量、参考图能力与 Spaces 在线入口，读者可直接试用并判断是否替换现有生图工作流。",
+   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+   "url": "https://aihot.news/items/cmuao05at0q8uro5tpc85e2kj",
+   "time": "09-21 10:50",
+   "category": "ai-models"
+  },
   {
    "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
    "summary": "作者访谈多位字幕组与漫画汉化组成员，发现他们并不抵触AI。Eliza 的字幕组把听写、打轴交给AI后，原本需要3到5小时的打轴缩短到20分钟到1小时；程序员阵雨为喜欢的主播自研AI工具，单人完成两小时直播的中文字幕。漫画汉化组则因嵌字质量等原因仍坚持人工制作，成员看重的是同好社群与爱好本身。",
@@ -513,68 +531,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-21 10:55",
+   "updateTime": "2026-09-21 18:07",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "KPL十周年宣传片：《保持纯粹的热爱》",
-     "url": "https://www.bilibili.com/video/BV1Wsem6cEBw",
-     "hot": 1165260
+     "title": "最小的蝶翼，也能掀起风暴 | 守护生命，幸好有你！",
+     "url": "https://www.bilibili.com/video/BV1MShe6dEkn",
+     "hot": 856775
     },
     {
-     "title": "这牌咋样？",
-     "url": "https://www.bilibili.com/video/BV1EKeh6uEVd",
-     "hot": 1115436
+     "title": "我修改了Minecraft的船：",
+     "url": "https://www.bilibili.com/video/BV1Hjez6eEPv",
+     "hot": 844240
     },
     {
-     "title": "让村民们自己发展6个小时，回来后我竟然被架空了",
-     "url": "https://www.bilibili.com/video/BV1CRez6BEe9",
-     "hot": 104154
+     "title": "谁不想上《琵琶行》的时候急头白脸听语文老师弹个琵琶呢？",
+     "url": "https://www.bilibili.com/video/BV17Lev6UEKS",
+     "hot": 520317
     },
     {
-     "title": "【独家】牧神记 第101集 巫法杀人",
-     "url": "https://www.bilibili.com/video/BV1MEe46yEzC",
-     "hot": 2053779
+     "title": "《原神》角色预告-「薇斯纳：春之晨舞」",
+     "url": "https://www.bilibili.com/video/BV16Leq64Ei3",
+     "hot": 593619
     },
     {
-     "title": "师徒PK最后一舞，谁输了谁改名！我将拿出我最伟大的作品。",
-     "url": "https://www.bilibili.com/video/BV1X9eb6tEvy",
-     "hot": 672077
+     "title": "千校千问，和每一个你共赴新的课堂",
+     "url": "https://www.bilibili.com/video/BV1Leeu66EX4",
+     "hot": 606706
     },
     {
-     "title": "【杀死比赛】真人演唱殿堂级宏大交响重构版《琵琶曲》",
-     "url": "https://www.bilibili.com/video/BV14Ue86DEjn",
-     "hot": 576339
-    },
-    {
-     "title": "正视",
-     "url": "https://www.bilibili.com/video/BV11kev6cEhk",
-     "hot": 822481
-    },
-    {
-     "title": "“乡土凝存温情，善念永续流年.”【Blue Dragon-Inst】【乡土の小曲】",
-     "url": "https://www.bilibili.com/video/BV1ZCeb6NEyM",
-     "hot": 1383577
-    },
-    {
-     "title": "那个满眼满心都是我的小猫，去世了！",
-     "url": "https://www.bilibili.com/video/BV15bez6xEEB",
-     "hot": 584901
+     "title": "后续就是还有高手",
+     "url": "https://www.bilibili.com/video/BV14mez6VEG9",
+     "hot": 1138808
     },
     {
      "title": "当那一天真的来临，我们不会孤军奋战 | 元素战争：破晓 【原神HoYoFair x bilibilionly】",
      "url": "https://www.bilibili.com/video/BV1woez6TECm",
-     "hot": 408990
+     "hot": 785458
     },
     {
-     "title": "炎拳天使目前只卖了一千份，感觉皮特儿他们工作室要无了",
-     "url": "https://www.bilibili.com/video/BV1jJeq69Eob",
-     "hot": 510372
+     "title": "那个满眼满心都是我的小猫，去世了！",
+     "url": "https://www.bilibili.com/video/BV15bez6xEEB",
+     "hot": 1155200
     },
     {
-     "title": "第36集|外卖小哥穿越修仙世界，徒手斗恶龙",
-     "url": "https://www.bilibili.com/video/BV1ELeq64E2t",
-     "hot": 272416
+     "title": "【杀死比赛】真人演唱殿堂级宏大交响重构版《琵琶曲》",
+     "url": "https://www.bilibili.com/video/BV14Ue86DEjn",
+     "hot": 1036077
+    },
+    {
+     "title": "单纯的约会（92）",
+     "url": "https://www.bilibili.com/video/BV1AueU6cE3d",
+     "hot": 697549
+    },
+    {
+     "title": "【第四十五赛季·精华2】故事视频公开：——“驼铃迤逦，幸存者向沙洲月告解：我有罪……”",
+     "url": "https://www.bilibili.com/video/BV1U1he6tEQX",
+     "hot": 274142
+    },
+    {
+     "title": "《异环》黑羽角色PV丨「魔女」的工作",
+     "url": "https://www.bilibili.com/video/BV1iWej6hEe6",
+     "hot": 466113
     }
    ]
   }
@@ -612,13 +630,13 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "长鑫G5量产：国产存储打到全球第几梯队？",
-   "url": "https://finance.sina.com.cn/wm/2026-09-21/doc-inispuec0934371.shtml",
+   "title": "智谱创始人唐杰亲自下场投诉网友",
+   "url": "https://finance.sina.com.cn/stock/companyt/2026-09-21/doc-inisqmac7779164.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OpenAI和Claude都在干的事，没想到Qoder在5月就上线了",
-   "url": "https://finance.sina.com.cn/cj/2026-09-20/doc-inisnwyr2459609.shtml",
+   "title": "长鑫G5量产：国产存储打到全球第几梯队？",
+   "url": "https://finance.sina.com.cn/wm/2026-09-21/doc-inispuec0934371.shtml",
    "source": "新浪科技"
   },
   {
@@ -627,33 +645,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "长鑫存储第五代技术平台正式量产，实现微缩工艺突破",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-21/doc-inispync2196925.shtml",
+   "title": "比特币一度升破85000美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqrkf6076055.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "STEPX与剪映率先达成智能体领域深度合作，推出A2A协同视频创作体验",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-21/doc-inispync2192116.shtml",
+   "title": "威华达控股31.86亿港元引入AI战略股东",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inisqriy5804681.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "汉朔科技AI零售战略落地欧洲，联合海外伙伴发布全新智能购物车方案",
-   "url": "https://finance.sina.com.cn/tob/2026-09-21/doc-inispymz0854703.shtml",
+   "title": "有岗位提出“多尺度陪玩”“一对一陪伴”等不当服务要求？BOSS直聘：警惕旅游岗位暗藏的不当陪伴服务要求",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inisqriw8928576.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "淘宝公布今年双11海外新玩法：在全球20个市场同步启动，超120万商家参与",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-21/doc-inispync2190299.shtml",
+   "title": "后发破局 全链深耕｜长晶科技打造国产功率半导体核心标杆",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-09-21/doc-inisqriz7741495.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "璇玑动力泛行业中型四足机器人Hypertron-SW01亮相，实现“开箱即上岗、落地即作业”",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-21/doc-inispyne8959062.shtml",
+   "title": "把VR黑科技搬进运动场，科创职工解锁了运动新玩法！",
+   "url": "https://finance.sina.com.cn/wm/2026-09-21/doc-inisqriw8940955.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "优必选发布《人形机器人科技伦理治理白皮书》，构建具身智能伦理治理框架",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-21/doc-inispynh6009603.shtml",
+   "title": "凯雷收购卢克石油海外资产交易停滞 炼油产能闲置加剧市场紧张",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqriw8907852.shtml",
    "source": "新浪科技"
   }
  ]
