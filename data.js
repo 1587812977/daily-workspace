@@ -1,41 +1,49 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-21 18:07",
+ "updatedAt": "2026-09-22 02:17",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放",
-   "source": "X：OpenRouter (@OpenRouter)",
-   "url": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
-   "time": "09-21 09:44",
-   "sourceCount": 4
+   "title": "Grok 4.7 今日正式推出，已开始滚动发布",
+   "source": "xAI：News（网页）",
+   "url": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
+   "time": "09-22 01:49",
+   "sourceCount": 13
   },
   {
    "rank": 2,
-   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
-   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
-   "time": "09-21 14:37",
-   "sourceCount": 6
+   "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放",
+   "source": "X：OpenRouter (@OpenRouter)",
+   "url": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
+   "time": "09-22 00:03",
+   "sourceCount": 5
   },
   {
    "rank": 3,
-   "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型",
-   "source": "Qwen：Blog Retrieval（API）",
-   "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
-   "time": "09-21 07:07",
-   "sourceCount": 6
+   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
+   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
+   "time": "09-21 21:59",
+   "sourceCount": 7
   },
   {
    "rank": 4,
-   "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmu7jnd0b0fxtrogrch785oud",
-   "time": "09-21 04:20",
-   "sourceCount": 3
+   "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型",
+   "source": "Qwen：Blog Retrieval（API）",
+   "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
+   "time": "09-22 00:40",
+   "sourceCount": 7
   },
   {
    "rank": 5,
+   "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmu606l6o02m2rok01owq1zp8",
+   "time": "09-22 01:28",
+   "sourceCount": 5
+  },
+  {
+   "rank": 6,
    "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmu7vvrzj0snnrogr298gqllj",
@@ -43,27 +51,19 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 6,
-   "title": "Anthropic CEO Amodei此前提出含第三方评估与国际协议的三步放缓AI发展计划",
-   "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
-   "url": "https://aihot.news/items/cmu605ozy000arok0lxr4x1y8",
-   "time": "09-21 07:03",
-   "sourceCount": 4
-  },
-  {
    "rank": 7,
-   "title": "特朗普发起为AI更名的投票，并称对AI的打压是民主党骗局之一",
-   "source": "@mark_k",
-   "url": "https://aihot.news/items/cmu8q4lm908xvro3kqufzth5h",
-   "time": "09-21 02:56",
-   "sourceCount": 5
-  },
-  {
-   "rank": 8,
    "title": "ZCode：作者称 UI 开关不能阻止上传：快照捕获侧车无条件实例化，隐私政策未披露整仓上传",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/cmu6y9sjz0jbyrowkh7tus28l",
-   "time": "09-21 09:02",
+   "time": "09-21 18:00",
+   "sourceCount": 3
+  },
+  {
+   "rank": 8,
+   "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmu7jnd0b0fxtrogrch785oud",
+   "time": "09-22 00:57",
    "sourceCount": 2
   },
   {
@@ -71,19 +71,73 @@ var WB_DATA = {
    "title": "作者称Jev现已向所有人开放，无需候补名单",
    "source": "@typesafeai",
    "url": "https://aihot.news/items/cmuacp46v0b19ro5tzymtz1qh",
-   "time": "09-21 12:42",
-   "sourceCount": 1
+   "time": "09-21 22:39",
+   "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "硅基流动完成B+轮二期与C轮融资，2026年度累计股权融资额近29亿元",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmu9dh37f08gtro8iyj3e3v8x",
-   "time": "09-20 21:18",
-   "sourceCount": 1
+   "title": "宇树科技9月21日发布Dex5-S灵巧手：22自由度、约1:1真手尺寸，起售价3.99万元，分标准版与Pro版",
+   "source": "X：宇树 Unitree (@UnitreeRobotics)",
+   "url": "https://aihot.news/items/cmub6lrdz0ktcroln8qwszs5g",
+   "time": "09-21 23:35",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三",
+   "summary": "Elon Musk 引用 Artificial Analysis 评测称，Grok 4.7 使 xAI 在智能体编码上排名第三，仅次于 Anthropic 和 OpenAI。",
+   "reason": "引用 Artificial Analysis 的评测数据并结合作者自身判断，给出了 Grok 4.7 在智能体编码中的排名与速度成本权衡视角。",
+   "source": "X：Elon Musk (@elonmusk, xAI)",
+   "url": "https://aihot.news/items/cmubi4zxl110orolnqaltv0qp",
+   "time": "09-22 01:06",
+   "category": "tip"
+  },
+  {
+   "title": "Tomer Tunguz 谈 AI 优化 if-then 判断：专用决策器把分类成本降近百倍",
+   "summary": "Tomer Tunguz 撰文提出最新一波 AI 正在接管软件中的 if-then 判断原语，Jev 与 SemIf 这类专用决策器以数百毫秒返回结果，成本比传统生成式调用低约 76x 到 209x。作者在自己的 Agent 中替换了约四分之一的调用，在 98 条人工核验的生产邮件线程上，Jev 达到 80%、本地 SemIf 达到 82% 的分类准确率，高于生产模型的 47%。",
+   "reason": "作者结合自身 Agent 的替换实验给出成本与准确率对比，为判断专用小模型何时可替代前沿模型提供参照。",
+   "source": "Tomer Tunguz 博客（VC 分析）",
+   "url": "https://aihot.news/items/cmubhvftd10qjrolnr7q9k3lt",
+   "time": "09-21 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Artificial Analysis 评测 Grok 4.7：智能指数得分 46，编码智能体指数升至 56",
+   "summary": "Artificial Analysis 发布 Grok 4.7 评测，其在 Artificial Analysis Intelligence Index 得分 46，较 Grok 4.6 高 2 分，使 SpaceXAI 进入前四大 AI 实验室。",
+   "reason": "评测方给出了 Grok 4.7 在智能指数和编码智能体上的具体得分与代价比，可据此对照其他前沿模型权衡选用。",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/cmubhf6n4106prolnfasuj0hw",
+   "time": "09-22 00:38",
+   "category": "paper"
+  },
+  {
+   "title": "xAI 发布 Grok 4.7，主打编码与知识工作",
+   "summary": "xAI 发布 Grok 4.7，定位为其最强编码与知识工作模型，定价 $2/百万输入 token、$6/百万输出 token，与 Grok 4.6 同价同速，另有速度和价格加倍的快速变体。",
+   "reason": "官方给出了完整定价、速度和多项基准对比，读者可以据此把 Grok 4.7 放进现有模型选型里横向比较。",
+   "source": "xAI：News（网页）",
+   "url": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
+   "time": "09-21 08:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "Nathan Lambert 撰文分析开源模型的中美实力格局",
+   "summary": "Nathan Lambert 发布其向美国国会汇报的开源模型现状综述，指出中国开源权重模型已在下载量、基准成绩和学术采用上领先，自 2025 年 7 月起在 Hugging Face 下载量上领先约 1.6B（总 3.2B，为美国两倍）。",
+   "reason": "作者基于自己持续追踪的下载量、基准和 arXiv 数据，给出开源权重模型中美竞争格局的全景与政策视角。",
+   "source": "Nathan Lambert：Interconnects（RSS）",
+   "url": "https://aihot.news/items/cmub7xfbe0putrolnfkkepe2c",
+   "time": "09-21 19:56",
+   "category": "tip"
+  },
+  {
+   "title": "亚马逊封禁 Meta Muse 智能体代用户购物，双方争端升级",
+   "summary": "亚马逊阻断了 Meta 个人 AI 智能体 Muse 代用户在其网站购物的访问权限，称从未许可该访问，并指 Muse 不表明身份、会采集保存用户账号凭证，带来隐私和安全隐患。",
+   "reason": "原文梳理了亚马逊封禁 Muse 的理由、双方合作背景和此前的 Perplexity 判决，读者可以借此理解 Agent 代购争端的法律与商业脉络。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmub7xf1o0pu2roln165i6mhu",
+   "time": "09-21 19:52",
+   "category": "industry"
+  },
   {
    "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
    "summary": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
@@ -128,24 +182,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmua567e703tmro5t558lzx7o",
    "time": "09-21 02:05",
    "category": "paper"
-  },
-  {
-   "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
-   "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。",
-   "reason": "官方宣布 Qwen-Image-2.1 已进入 ComfyUI 工作流，开源权重与单 7B 模型同时支持生成和编辑，方便用户直接上手搭建。",
-   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-   "url": "https://aihot.news/items/cmu9w55as056krowjqmhejtmz",
-   "time": "09-20 21:52",
-   "category": "ai-products"
-  },
-  {
-   "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
-   "summary": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆盖全景图、信息图和分镜等任务。",
-   "reason": "官方详解了 7B 统一图像模型的透明图像生成、10 图参考编辑与推理优化，读者可据此评估在设计等场景的可用性。",
-   "source": "Qwen：Blog Retrieval（API）",
-   "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
-   "time": "09-20 20:00",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -531,68 +567,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-21 18:07",
+   "updateTime": "2026-09-22 02:17",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "最小的蝶翼，也能掀起风暴 | 守护生命，幸好有你！",
-     "url": "https://www.bilibili.com/video/BV1MShe6dEkn",
-     "hot": 856775
+     "title": "三年之期已到，恭迎世一上归位！【第10集】",
+     "url": "https://www.bilibili.com/video/BV13KhB6rE7N",
+     "hot": 424234
     },
     {
-     "title": "我修改了Minecraft的船：",
-     "url": "https://www.bilibili.com/video/BV1Hjez6eEPv",
-     "hot": 844240
+     "title": "Mac mini M6性能测试：核心更多了，性能强多少？",
+     "url": "https://www.bilibili.com/video/BV1JQhz6fE1x",
+     "hot": 162062
     },
     {
-     "title": "谁不想上《琵琶行》的时候急头白脸听语文老师弹个琵琶呢？",
-     "url": "https://www.bilibili.com/video/BV17Lev6UEKS",
-     "hot": 520317
+     "title": "《曾经的梦想》",
+     "url": "https://www.bilibili.com/video/BV15Qhh6oEWC",
+     "hot": 1477340
     },
     {
-     "title": "《原神》角色预告-「薇斯纳：春之晨舞」",
-     "url": "https://www.bilibili.com/video/BV16Leq64Ei3",
-     "hot": 593619
+     "title": "手机直出电影感？原相机也能出片｜vivo X500 Pro Max首发体验",
+     "url": "https://www.bilibili.com/video/BV1LZhv6uEe6",
+     "hot": 104497
     },
     {
-     "title": "千校千问，和每一个你共赴新的课堂",
-     "url": "https://www.bilibili.com/video/BV1Leeu66EX4",
-     "hot": 606706
+     "title": "穿越冰岛无人区，我遇到了百年一遇的奇观……",
+     "url": "https://www.bilibili.com/video/BV13vez6HEYS",
+     "hot": 432896
+    },
+    {
+     "title": "“行不逾方，却情涌如江.”【瞬-伴奏】【温柔含蓄の小曲】",
+     "url": "https://www.bilibili.com/video/BV1MTen6ZE7e",
+     "hot": 562729
+    },
+    {
+     "title": "全明星发癫，笑到停不下来，极致抽象的恶搞喜剧——《越光宝盒》",
+     "url": "https://www.bilibili.com/video/BV13sey6eEu3",
+     "hot": 860828
+    },
+    {
+     "title": "从产线到手机，看看京东方与vivo如何打磨一块2K屏",
+     "url": "https://www.bilibili.com/video/BV1KHhB6hEJW",
+     "hot": 107627
     },
     {
      "title": "后续就是还有高手",
      "url": "https://www.bilibili.com/video/BV14mez6VEG9",
-     "hot": 1138808
+     "hot": 3472439
     },
     {
-     "title": "当那一天真的来临，我们不会孤军奋战 | 元素战争：破晓 【原神HoYoFair x bilibilionly】",
-     "url": "https://www.bilibili.com/video/BV1woez6TECm",
-     "hot": 785458
+     "title": "谁不想上《琵琶行》的时候急头白脸听语文老师弹个琵琶呢？",
+     "url": "https://www.bilibili.com/video/BV17Lev6UEKS",
+     "hot": 1367145
     },
     {
-     "title": "那个满眼满心都是我的小猫，去世了！",
-     "url": "https://www.bilibili.com/video/BV15bez6xEEB",
-     "hot": 1155200
+     "title": "三条人类",
+     "url": "https://www.bilibili.com/video/BV1Pnhi6WErP",
+     "hot": 291874
     },
     {
-     "title": "【杀死比赛】真人演唱殿堂级宏大交响重构版《琵琶曲》",
-     "url": "https://www.bilibili.com/video/BV14Ue86DEjn",
-     "hot": 1036077
-    },
-    {
-     "title": "单纯的约会（92）",
-     "url": "https://www.bilibili.com/video/BV1AueU6cE3d",
-     "hot": 697549
-    },
-    {
-     "title": "【第四十五赛季·精华2】故事视频公开：——“驼铃迤逦，幸存者向沙洲月告解：我有罪……”",
-     "url": "https://www.bilibili.com/video/BV1U1he6tEQX",
-     "hot": 274142
-    },
-    {
-     "title": "《异环》黑羽角色PV丨「魔女」的工作",
-     "url": "https://www.bilibili.com/video/BV1iWej6hEe6",
-     "hot": 466113
+     "title": "我修改了Minecraft的船：",
+     "url": "https://www.bilibili.com/video/BV1Hjez6eEPv",
+     "hot": 1840244
     }
    ]
   }
@@ -625,6 +661,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "vivo X500 Pro Max 毫不费力的电影感",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-09-21/doc-inisqriy5781722.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "谷歌还有大招！最新模型Mathematica泄露",
    "url": "https://finance.sina.com.cn/wm/2026-09-20/doc-inismkxn7017520.shtml",
    "source": "新浪科技"
@@ -645,33 +686,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "比特币一度升破85000美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqrkf6076055.shtml",
+   "title": "美国FAA列出针对纽约地区所有主要机场的地面停飞措施",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpx2564565.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "威华达控股31.86亿港元引入AI战略股东",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inisqriy5804681.shtml",
+   "title": "礼来CEO：三分之一新的GLP-1口服药患者正在服用Foundayo，制药商正加紧生产",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpv5843363.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "有岗位提出“多尺度陪玩”“一对一陪伴”等不当服务要求？BOSS直聘：警惕旅游岗位暗藏的不当陪伴服务要求",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-21/doc-inisqriw8928576.shtml",
+   "title": "欧洲股市创7月以来最大涨幅 能源价格回落缓解通胀担忧",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpx2559539.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "后发破局 全链深耕｜长晶科技打造国产功率半导体核心标杆",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-09-21/doc-inisqriz7741495.shtml",
+   "title": "比特币升至1月以来最高水平85000美元，市场争论“加密寒冬”是否结束",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpt9066811.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "把VR黑科技搬进运动场，科创职工解锁了运动新玩法！",
-   "url": "https://finance.sina.com.cn/wm/2026-09-21/doc-inisqriw8940955.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "凯雷收购卢克石油海外资产交易停滞 炼油产能闲置加剧市场紧张",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisqriw8907852.shtml",
+   "title": "标普：银行对人工智能的应用将很快影响它们信用评级",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inisrnpx2558064.shtml",
    "source": "新浪科技"
   }
  ]
