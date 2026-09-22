@@ -1,21 +1,21 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-22 10:55",
+ "updatedAt": "2026-09-22 17:25",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Grok 4.7 今日正式推出，已开始滚动发布",
    "source": "xAI：News（网页）",
    "url": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
-   "time": "09-22 08:09",
-   "sourceCount": 17
+   "time": "09-22 12:10",
+   "sourceCount": 16
   },
   {
    "rank": 2,
    "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首",
    "source": "X：Artificial Analysis (@ArtificialAnlys)",
    "url": "https://aihot.news/items/cmubox8pl0510ro4vw01ibnin",
-   "time": "09-22 07:05",
+   "time": "09-22 11:57",
    "sourceCount": 7
   },
   {
@@ -32,22 +32,22 @@ var WB_DATA = {
    "source": "X：OpenRouter (@OpenRouter)",
    "url": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
    "time": "09-22 09:21",
-   "sourceCount": 5
+   "sourceCount": 4
   },
   {
    "rank": 5,
-   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
-   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
-   "time": "09-22 09:49",
-   "sourceCount": 8
+   "title": "OpenAI团队部署代理群入侵Hugging Face，作者称媒体存在夸大并指OpenAI沙箱与监控漏洞是关键因素",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmu606l6o02m2rok01owq1zp8",
+   "time": "09-22 14:29",
+   "sourceCount": 5
   },
   {
    "rank": 6,
-   "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmu606l6o02m2rok01owq1zp8",
-   "time": "09-22 05:14",
+   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
+   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
+   "time": "09-22 10:59",
    "sourceCount": 6
   },
   {
@@ -56,7 +56,7 @@ var WB_DATA = {
    "source": "Qwen：Blog Retrieval（API）",
    "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
    "time": "09-22 00:40",
-   "sourceCount": 7
+   "sourceCount": 6
   },
   {
    "rank": 8,
@@ -68,19 +68,19 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "作者发布MiMo-V2.6-Flash：310B总参数、15B激活",
-   "source": "X：小米 MiMo (@XiaomiMiMo)",
-   "url": "https://aihot.news/items/cmubqsb9l03vbrociqf22sr07",
-   "time": "09-22 07:05",
+   "title": "宇树科技9月21日发布Dex5-S灵巧手：22自由度、约1:1真手尺寸，起售价3.99万元，分标准版与Pro版",
+   "source": "X：宇树 Unitree (@UnitreeRobotics)",
+   "url": "https://aihot.news/items/cmub6lrdz0ktcroln8qwszs5g",
+   "time": "09-22 16:49",
    "sourceCount": 4
   },
   {
    "rank": 10,
-   "title": "作者称Jev现已向所有人开放，无需候补名单",
-   "source": "@typesafeai",
-   "url": "https://aihot.news/items/cmuacp46v0b19ro5tzymtz1qh",
-   "time": "09-21 22:39",
-   "sourceCount": 2
+   "title": "Hy Image3.5 preview 发布：主打文本渲染、真实感与编辑一致性的高性价比图像生成模型，支持文生图/图生图与2K输出",
+   "source": "腾讯混元：Research（API）",
+   "url": "https://aihot.news/items/cmuc2t8pi06v6rots79xxyyt8",
+   "time": "09-22 16:00",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
@@ -647,68 +647,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-22 10:55",
+   "updateTime": "2026-09-22 17:25",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《曾经的梦想》",
-     "url": "https://www.bilibili.com/video/BV15Qhh6oEWC",
-     "hot": 2287004
+     "title": "狼王传奇系列1-11集合集【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1BreB6tEWT",
+     "hot": 355977
+    },
+    {
+     "title": "花40000买个金丝楠乌木，三年后锯开竟然变成这样，做成手串扇子是亏还是赚？",
+     "url": "https://www.bilibili.com/video/BV1Ywhi6iEHi",
+     "hot": 378472
+    },
+    {
+     "title": "《原神》角色预告-「沃雅妮莎：此夜共沦」",
+     "url": "https://www.bilibili.com/video/BV1BqhB6nEdN",
+     "hot": 663483
+    },
+    {
+     "title": "《穷亲戚》",
+     "url": "https://www.bilibili.com/video/BV14yhr6GEbH",
+     "hot": 442250
+    },
+    {
+     "title": "师徒PK最后一舞，谁输了谁改名！我将拿出我最伟大的作品。",
+     "url": "https://www.bilibili.com/video/BV1X9eb6tEvy",
+     "hot": 2648353
+    },
+    {
+     "title": "【毕导】这个X你肯定见过，但它其实根本不存在",
+     "url": "https://www.bilibili.com/video/BV1VVhk6pEiR",
+     "hot": 337366
     },
     {
      "title": "三条人类",
      "url": "https://www.bilibili.com/video/BV1Pnhi6WErP",
-     "hot": 917525
-    },
-    {
-     "title": "差价6000万倍！不同价位风洞有什么区别？",
-     "url": "https://www.bilibili.com/video/BV15ieC6TEti",
-     "hot": 1464663
-    },
-    {
-     "title": "三年之期已到，恭迎世一上归位！【第10集】",
-     "url": "https://www.bilibili.com/video/BV13KhB6rE7N",
-     "hot": 899340
-    },
-    {
-     "title": "《乌贼食宴》 问题壹",
-     "url": "https://www.bilibili.com/video/BV1qheC66E5P",
-     "hot": 324576
-    },
-    {
-     "title": "员工餐自助打饭，超美味四点金，牛肋排，红烧肉！",
-     "url": "https://www.bilibili.com/video/BV1n1hv6jEJG",
-     "hot": 588479
-    },
-    {
-     "title": "《异环》黑羽角色PV丨「魔女」的工作",
-     "url": "https://www.bilibili.com/video/BV1iWej6hEe6",
-     "hot": 1276049
+     "hot": 1677820
     },
     {
      "title": "驯化咖啡：一种植物武器，为什么被人类喝了六百年",
      "url": "https://www.bilibili.com/video/BV1nshi6DEh4",
-     "hot": 592835
+     "hot": 874953
     },
     {
-     "title": "让村民们自己发展6个小时，回来后我竟然被架空了",
-     "url": "https://www.bilibili.com/video/BV1CRez6BEe9",
-     "hot": 920296
+     "title": "差价6000万倍！不同价位风洞有什么区别？",
+     "url": "https://www.bilibili.com/video/BV15ieC6TEti",
+     "hot": 2315456
     },
     {
-     "title": "他罗斯有步坦协同，但我金朝有超位魔法！【帝国时代4】",
-     "url": "https://www.bilibili.com/video/BV17Qhv6VEaE",
-     "hot": 596073
+     "title": "财神窦占龙 第8集 同舟【8月国创】",
+     "url": "https://www.bilibili.com/video/BV1HHeC62EBs",
+     "hot": 236191
     },
     {
-     "title": "后续就是还有高手",
-     "url": "https://www.bilibili.com/video/BV14mez6VEG9",
-     "hot": 4196068
+     "title": "廉颇推塔竟然这么快，这还玩啥六耳啊",
+     "url": "https://www.bilibili.com/video/BV1cahB69END",
+     "hot": 492338
     },
     {
-     "title": "Mac mini M6性能测试：核心更多了，性能强多少？",
-     "url": "https://www.bilibili.com/video/BV1JQhz6fE1x",
-     "hot": 393176
+     "title": "《崩坏：星穹铁道》走近星穹——「真珠：深度学习中」",
+     "url": "https://www.bilibili.com/video/BV1SZhk6HEXw",
+     "hot": 456546
     }
    ]
   }
@@ -761,33 +761,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "吴泳铭：Qwen团队正进行RSI探索，计划训练5-10T参数模型",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-22/doc-inissitf7049101.shtml",
+   "title": "虎鲸文娱发布AI影视制作与管理平台“鲸锐AI”",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqz8853699.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-22/doc-inissitp2205941.shtml",
+   "title": "入驻伙伴超1000家，千问宣布打造Personal Agent",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqx6833193.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "苏宁易购与韵达达成深度战略合作",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-22/doc-inissiti8881573.shtml",
+   "title": "汇丰新人工智能模型预测一个月后美国收益率下行",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyrf1994970.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "影石Insta360美国首店落地纽约时代广场，全球出货量突破1000万台",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-22/doc-inissitm5649121.shtml",
+   "title": "商汤大装置林海：Token规模化时代，AIDC评价标准从PUE转向TPW",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyrc5619060.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "吴泳铭：2032年阿里云数据中心规模将超20GW",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-22/doc-inissiti8870185.shtml",
+   "title": "小鹏机器人已与供应链企业完成定点协议签署，正在推进产线排产",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyrc5615879.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "麦当劳被曝提前点出餐，客服回应：会如实记录并优化整改",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-22/doc-inissitm5628571.shtml",
+   "title": "美团被指暗藏涉黄擦边服务 客服回应“零容忍”",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqz8842729.shtml",
    "source": "新浪科技"
   }
  ]
