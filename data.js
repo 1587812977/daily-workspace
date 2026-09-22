@@ -1,25 +1,33 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-22 17:25",
+ "updatedAt": "2026-09-23 01:11",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Grok 4.7 今日正式推出，已开始滚动发布",
    "source": "xAI：News（网页）",
    "url": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
-   "time": "09-22 12:10",
-   "sourceCount": 16
+   "time": "09-22 17:19",
+   "sourceCount": 15
   },
   {
    "rank": 2,
    "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首",
    "source": "X：Artificial Analysis (@ArtificialAnlys)",
    "url": "https://aihot.news/items/cmubox8pl0510ro4vw01ibnin",
-   "time": "09-22 11:57",
-   "sourceCount": 7
+   "time": "09-23 00:00",
+   "sourceCount": 11
   },
   {
    "rank": 3,
+   "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
+   "source": "X：Claude (@claudeai)",
+   "url": "https://aihot.news/items/cmucwpqty0rj8roedzxz1496u",
+   "time": "09-23 00:50",
+   "sourceCount": 3
+  },
+  {
+   "rank": 4,
    "title": "OpenAI宣布正与独立数学家顾问组合作，协助其负责任地分享AI与数学进展",
    "source": "X：OpenAI (@OpenAI)",
    "url": "https://aihot.news/items/cmubkgdje000yro3d0t731ihz",
@@ -27,36 +35,28 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 4,
-   "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放",
-   "source": "X：OpenRouter (@OpenRouter)",
-   "url": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
-   "time": "09-22 09:21",
-   "sourceCount": 4
-  },
-  {
    "rank": 5,
    "title": "OpenAI团队部署代理群入侵Hugging Face，作者称媒体存在夸大并指OpenAI沙箱与监控漏洞是关键因素",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/cmu606l6o02m2rok01owq1zp8",
-   "time": "09-22 14:29",
+   "time": "09-22 19:09",
    "sourceCount": 5
   },
   {
    "rank": 6,
-   "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重",
-   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-   "url": "https://aihot.news/items/cmu99pi3604g2ro8iyt4qb7p7",
-   "time": "09-22 10:59",
-   "sourceCount": 6
+   "title": "作者发布MiMo-V2.6-Flash：310B总参数、15B激活",
+   "source": "X：小米 MiMo (@XiaomiMiMo)",
+   "url": "https://aihot.news/items/cmubqsb9l03vbrociqf22sr07",
+   "time": "09-22 19:42",
+   "sourceCount": 5
   },
   {
    "rank": 7,
-   "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型",
-   "source": "Qwen：Blog Retrieval（API）",
-   "url": "https://aihot.news/items/cmu9tfhu904turokx2vfjy34f",
-   "time": "09-22 00:40",
-   "sourceCount": 6
+   "title": "阿里平头哥将在云栖大会发布真武 V900 AI 芯片，宣称算力提升至真武 M890 的 3 倍",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmuc42x6g08hmrots8v7pvhwy",
+   "time": "09-23 00:10",
+   "sourceCount": 4
   },
   {
    "rank": 8,
@@ -68,129 +68,129 @@ var WB_DATA = {
   },
   {
    "rank": 9,
+   "title": "发布方今日推出 DIFFUSE 平台，供代理机构、品牌和工作室搜索、联系并雇用AI原生创意人才",
+   "source": "X：Runway (@runwayml)",
+   "url": "https://aihot.news/items/cmucsffpd0mdiroedx9ljankc",
+   "time": "09-22 23:14",
+   "sourceCount": 2
+  },
+  {
+   "rank": 10,
    "title": "宇树科技9月21日发布Dex5-S灵巧手：22自由度、约1:1真手尺寸，起售价3.99万元，分标准版与Pro版",
    "source": "X：宇树 Unitree (@UnitreeRobotics)",
    "url": "https://aihot.news/items/cmub6lrdz0ktcroln8qwszs5g",
    "time": "09-22 16:49",
    "sourceCount": 4
-  },
-  {
-   "rank": 10,
-   "title": "Hy Image3.5 preview 发布：主打文本渲染、真实感与编辑一致性的高性价比图像生成模型，支持文生图/图生图与2K输出",
-   "source": "腾讯混元：Research（API）",
-   "url": "https://aihot.news/items/cmuc2t8pi06v6rots79xxyyt8",
-   "time": "09-22 16:00",
-   "sourceCount": 4
   }
  ],
  "aihotItems": [
   {
-   "title": "腾讯混元发布 Hy Image3.5 preview 图像生成模型",
-   "summary": "腾讯混元发布 Hy Image3.5 preview，支持文生图与图生图、最多 5 张参考图、多轮编辑和最高 2K 分辨率输出，经上百名专业设计师 GSB 盲测对上一代胜率综合提升 30% 以上。",
-   "reason": "原文给出了文本渲染、编辑一致性与定价等具体能力细节，以及多家腾讯内部产品的实测反馈，便于评估适用场景。",
-   "source": "腾讯混元：Research（API）",
-   "url": "https://aihot.news/items/cmuc2t8pi06v6rots79xxyyt8",
-   "time": "09-21 10:51",
+   "title": "Claude Opus 5.5 上线 OpenRouter，智能体编码等能力领先 Opus 5",
+   "summary": "Anthropic 的 Claude Opus 5.5 上线 OpenRouter，是 Claude 5.5 系列首个模型，在智能体编码、知识工作和计算机使用上领先 Opus 5 和 Fable 5.1。提供 1M 上下文窗口，定价为每百万输入 token $4、输出 $20，比 Opus 5 低 20%。",
+   "reason": "原文给出定价、上下文窗口和多项基准对比，读者可以据此评估它在智能体编码等场景里的性价比。",
+   "source": "X：OpenRouter (@OpenRouter)",
+   "url": "https://aihot.news/items/cmucxgaki0sfkroed0n804wg5",
+   "time": "09-23 00:44",
    "category": "ai-models"
   },
   {
-   "title": "卡兹克实测对比 Grok 4.7 与小米 MiMo V2.6：后者成不可能三角版本答案",
-   "summary": "作者实测同日凌晨发布的 Grok 4.7 与小米 MiMo V2.6，认为 Grok 4.7 低于预期，MiMo V2.6 成为性能、价格、速度三角的当前版本答案。",
-   "reason": "作者亲手测试并给出价格、速度和基准对比，读者可以据此评估小米 MiMo V2.6 对自身工作流和成本的实际影响。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/cmuc1rfgb05sdrotszk0w9ivq",
-   "time": "09-22 10:02",
-   "category": "tip"
+   "title": "Anthropic 发布 Claude Opus 5.5，速度提升约 30%、成本低约 40%",
+   "summary": "Anthropic 推出 Claude 5.5 家族首个模型 Claude Opus 5.5，官方称其在多数任务上达到 Claude Fable 5.1 的水平，运行成本比 Opus 5 低 40%。Claude Devs 补充称其每任务速度快约 30%；在 Claude Code 中，5 小时会话限额今日提升 20%，因 Opus 5.5 定价更低，额度内可用量多 25%，Pro、Max 和 Team 用户还将获得一次可随时使用的额度重置。引用图显示 Opus 5.5 在 Terminal-Bench 4.0 各 effort 档位下得分领先。",
+   "reason": "原文给出 Opus 5.5 相对 Opus 5 的速度、成本数字和 Claude Code 额度变化，读者可据此评估切换后的实际收益。",
+   "source": "X：Claude Devs (@ClaudeDevs)",
+   "url": "https://aihot.news/items/cmucxgak90sfjroedoesuzlcw",
+   "time": "09-23 00:44",
+   "category": "ai-models"
   },
   {
-   "title": "Artificial Analysis 评测 Step 5 Preview： Intelligence Index 得 44 分，成本约为同级模型 1/2.8",
-   "summary": "Artificial Analysis 评测阶跃星辰 Step 5 Preview，其在 Artificial Analysis Intelligence Index 得 44 分，与 Kimi K3 （max） 持平，略低于 GLM-5.3 （max） 和 Qwen3.8 Max 的 45 分，每任务成本约 $0.72，约为同级模型（约 $2.00）的 1/2.8。",
-   "reason": "Artificial Analysis 实测 Step 5 Preview 的得分、成本与智能体短板，读者可据此对比同分段模型的表现与性价比。",
+   "title": "Anthropic 发布 Claude Opus 5.5，成本降低 40% 且速度提升 30%",
+   "summary": "Anthropic 发布 Claude Opus 5.5，官方称典型工作负载成本比 Opus 5 低 40%，输出速度提升超 30%。",
+   "reason": "原文汇总了价格、速度和多项基准对比，读者可以据此评估 Claude Opus 5.5 相对上一代的成本与能力变化。",
+   "source": "@mark_k",
+   "url": "https://aihot.news/items/cmucx8ev80s5yroedurnxuik7",
+   "time": "09-23 00:38",
+   "category": "ai-models"
+  },
+  {
+   "title": "Claude Opus 5.5 登顶 Artificial Analysis Intelligence Index，并降价 20%",
+   "summary": "Artificial Analysis 评测显示 Claude Opus 5.5 以 58 分登顶 Artificial Analysis Intelligence Index，为其实测最高分。",
+   "reason": "第三方评测给出 Claude Opus 5.5 的指数得分、各基准分数与降价细节，可帮助读者横向比较它与 GPT-6 Astra 等模型的性价比。",
    "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/cmuc0pmnx04g0rotscsnqd50c",
-   "time": "09-22 09:49",
+   "url": "https://aihot.news/items/cmucwv0h50ro5roedgmckw2j5",
+   "time": "09-23 00:41",
    "category": "tip"
   },
   {
-   "title": "OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning 如何承担 Agent 高频执行调用",
-   "summary": "OpenRouter 发文解读 NVIDIA 的 Nemotron 3.5 Lightning，这是一款 30B 总参数、约 3B 激活参数的混合专家开源权重模型，定位于工具调用、编码等高频、边界清晰的 Agent 执行步骤，与负责复杂推理的 Nemotron 3 Ultra（550B 总参数、55B 激活）形成分工。",
-   "reason": "OpenRouter 结合自家端点数据拆解 Nemotron 3.5 Lightning 的定位、上下文和调用差异，读者可据此评估它在 Agent 执行层的适用性。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/cmubyl2o004y7ro9i986nyhfy",
-   "time": "09-22 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "小米 MiMo-V2.6-Pro 登上 Code Arena： WebDev 榜约第10名，开源权重中约第3",
-   "summary": "小米发布 MiMo-V2.6-Pro 与 Flash 两款全模态模型，MiMo-V2.6-Pro 在 Code Arena： WebDev 榜以 1628 分（AutoEval）位列约第10名，开源权重（MIT 许可）中约第3，较 MiMo-V2.5-Pro 的 1475 分上涨 153 分。",
-   "reason": "榜单方第一手评测数据，给出具体分差和排名位置，可用作判断 MiMo 新版编码能力的参考。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/cmubr2enk04a1rociadivcsjt",
-   "time": "09-22 05:08",
+   "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
+   "summary": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
+   "reason": "原文给出定价、基准与安全评测细节，读者可以据此评估 Opus 5.5 在成本和长任务上的实际变化。",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
+   "time": "09-23 00:53",
    "category": "ai-models"
   },
   {
-   "title": "小米发布开放权重模型 MiMo-V2.6-Pro，登顶 Artificial Analysis 开放权重模型智能指数",
-   "summary": "小米（Xiaomi）发布开放权重模型 MiMo-V2.6-Pro，在 Artificial Analysis Intelligence Index 得分 46，超越前代 MiMo-V2.5-Pro 的 26，为开放权重模型中最高。",
-   "reason": "借 Artificial Analysis 的评测数据说明 MiMo-V2.6-Pro 的智能指数与成本位置，读者可据此评估其部署性价比。",
-   "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-   "url": "https://aihot.news/items/cmubqsb9b03v9rocigei56crg",
-   "time": "09-22 05:03",
-   "category": "ai-models"
-  },
-  {
-   "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
-   "summary": "Xiaomi MiMo 于今日正式发布并开源 MiMo-V2.6 系列模型，包含 Pro 与 Flash 两个原生全模态模型，称这是探索 RSI（递归自我改进）路径的关键一步。",
-   "reason": "官方给出 RL 训练成本、步数与多项评测分数等细节，并同步开源权重与训练环境，读者可据此评估其性价比与复现价值。",
-   "source": "公众号：小米 MiMo",
-   "url": "https://aihot.news/items/cmubpn8sw05u5ro4vlvacy22d",
-   "time": "09-22 04:18",
-   "category": "ai-models"
-  },
-  {
-   "title": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
-   "summary": "小米 MiMo 发布 MiMo-V2.6 Pro 与 Flash 两个全模态模型，通过规模化强化学习训练。Pro 在多数 Agent 基准上与 Claude Opus 5 和 GPT-5.6 Sol 表现相当，在 Artificial Analysis Intelligence Index 得分 46，为开源模型中最高；能力覆盖编码、computer use、3D 推理和创作。",
-   "reason": "官方发布全模态模型并开放权重、技术报告和训练代码，附与 Claude Opus 5、GPT-5.6 Sol 的 Agent 基准对比数据。",
-   "source": "X：小米 MiMo (@XiaomiMiMo)",
-   "url": "https://aihot.news/items/cmubqsb9l03vbrociqf22sr07",
-   "time": "09-22 04:51",
-   "category": "ai-models"
-  },
-  {
-   "title": "不列颠哥伦比亚省起诉 OpenAI，指其未在枪击案前将 flagged ChatGPT 活动转介警方",
-   "summary": "不列颠哥伦比亚省在加州起诉 OpenAI，指 flagged 的 ChatGPT 活动本应在 2026 年 2 月 10 日 Tumbler Ridge 枪击案前通报警方，该案致 8 人死亡（含 5 名儿童和一名教育工作者）、27 人受伤。",
-   "reason": "原文给出 OpenAI 转介门槛调整前后的具体对照，读者可借此理解 AI 公司安全上报规则的争议焦点。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmubom7qi04k8ro4v1zoas2o7",
-   "time": "09-22 04:11",
+   "title": "Meta AI 助手 Muse 曝出严重 0-day，可被本地应用窃取账户令牌",
+   "summary": "Ars Technica 报道，安全专家 Patrick Wardle 披露 Meta 的 macOS AI 助手 Muse 存在 0-day 漏洞：任何本地应用或终端命令都能修改未公开设置，把语音转录端点指向攻击者服务器，从而获取 Muse 账户令牌和完整控制权。",
+   "reason": "原文给出漏洞成因、攻击路径和 Meta 的设计失误细节，读者可以了解 AI 智能体权限设计的安全教训。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmucwn00k0rgmroed9bjd9g33",
+   "time": "09-22 22:35",
    "category": "industry"
   },
   {
-   "title": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
-   "summary": "Linear 工程师分享如何解决 AI Agent 加速写代码后 CI 成为瓶颈的问题，PR 等待时间从 6 分钟以上降至 5 分钟出头，单测 runner 时间约减半。",
-   "reason": "作者以第一手实践拆解 Linear 优化 CI 的具体做法与数据，读者可将其方法迁移到自己的 TypeScript 项目。",
-   "source": "Linear：Now（RSS）",
-   "url": "https://aihot.news/items/cmublfs5a03bcro0lebbtf8fb",
-   "time": "09-21 20:26",
-   "category": "tip"
+   "title": "Anthropic 发布 Claude Opus 5.5，Claude 5.5 系列首个模型",
+   "summary": "Anthropic 发布 Claude Opus 5.5，是 Claude 5.5 系列的首个模型。官方称其在多数任务上达到 Claude Fable 5.1 的水平，运行成本比 Opus 5 低 40%。",
+   "reason": "官方发布说明给出新模型与上代的性能对照和成本变化，便于评估是否替换现有 Opus 5。",
+   "source": "X：Claude (@claudeai)",
+   "url": "https://aihot.news/items/cmucwpqty0rj8roedzxz1496u",
+   "time": "09-23 00:31",
+   "category": "ai-models"
   },
   {
-   "title": "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三",
-   "summary": "Elon Musk 引用 Artificial Analysis 评测称，Grok 4.7 使 xAI 在智能体编码上排名第三，仅次于 Anthropic 和 OpenAI。",
-   "reason": "引用 Artificial Analysis 的评测数据并结合作者自身判断，给出了 Grok 4.7 在智能体编码中的排名与速度成本权衡视角。",
-   "source": "X：Elon Musk (@elonmusk, xAI)",
-   "url": "https://aihot.news/items/cmubi4zxl110orolnqaltv0qp",
-   "time": "09-22 01:06",
-   "category": "tip"
+   "title": "Qwen-Image-2.1 开源发布，登顶 Arena 图像编辑榜开源第一",
+   "summary": "通义千问发布 Qwen-Image-2.1，开放权重，在 Arena Image Edit Arena 以 1367 分位列开源第一、总榜第 16，距第 15 名 GPT-Image-1.5-high-fidelity 仅 3 分，同时登上 Text-to-Image Arena 开源第一。",
+   "reason": "Qwen-Image-2.1 以 7B 开放权重在 Arena 图像编辑榜登顶开源第一，与闭源模型差距仅 3 分，可据此评估其实用价值。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/cmuctnbbf0nziroedajbl6g3r",
+   "time": "09-22 23:13",
+   "category": "ai-models"
   },
   {
-   "title": "Tomer Tunguz 谈 AI 优化 if-then 判断：专用决策器把分类成本降近百倍",
-   "summary": "Tomer Tunguz 撰文提出最新一波 AI 正在接管软件中的 if-then 判断原语，Jev 与 SemIf 这类专用决策器以数百毫秒返回结果，成本比传统生成式调用低约 76x 到 209x。作者在自己的 Agent 中替换了约四分之一的调用，在 98 条人工核验的生产邮件线程上，Jev 达到 80%、本地 SemIf 达到 82% 的分类准确率，高于生产模型的 47%。",
-   "reason": "作者结合自身 Agent 的替换实验给出成本与准确率对比，为判断专用小模型何时可替代前沿模型提供参照。",
-   "source": "Tomer Tunguz 博客（VC 分析）",
-   "url": "https://aihot.news/items/cmubhvftd10qjrolnr7q9k3lt",
-   "time": "09-21 08:00",
-   "category": "tip"
+   "title": "LiteParse 9 月更新：PDFium 提速 20-25%，新增视觉定位与 is-complex 路由 API",
+   "summary": "LlamaIndex 发布 LiteParse 2.14.6 更新，通过对自维护 PDFium fork 做内存分配优化（内置 mimalloc）等手段，将文本提取耗时降低 20-25%，平均 2.76ms/页，markdown 渲染 3.94ms/页。",
+   "reason": "原文给出速度、表格准确率等实测对比数据和新增 API，读者可据此评估是否替换现有 PDF 解析方案。",
+   "source": "LlamaIndex：产品、工程与评测",
+   "url": "https://aihot.news/items/cmucs4qas0m1vroedh2vdhjb6",
+   "time": "09-22 22:38",
+   "category": "ai-products"
+  },
+  {
+   "title": "Apple 新款 Mac mini（M6/M5 Pro）与 Mac Studio（M5 Max/M5 Ultra）今日开售",
+   "summary": "Apple 宣布新款 Mac mini 和 Mac Studio 于 9 月 22 日开售。Mac mini 搭载 M6 和 M5 Pro，AI 性能最高提升 4 倍。",
+   "reason": "官方发布文给出了完整芯片规格、AI 性能倍数和定价，读者可据此评估新桌面机对本地 AI 工作流的适配度。",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/cmucoqh360i0jroedps8dr2es",
+   "time": "09-22 20:59",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenRouter 推出 Batch API，批量推理可享半价",
+   "summary": "OpenRouter 发布 Batch API，异步批量请求由供应商在 24 小时窗口内完成，通常按正常 per-token 价格的 50% 或更低收费，目前已支持 70 多个模型。",
+   "reason": "公告给出折扣幅度、70+ 模型覆盖和 beta 期 230k+ 批次的实测完成时间，还提示了提交时段对速度的影响。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/cmucobbcz0hj4roedra9qgdbh",
+   "time": "09-22 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Kimi 发布浏览器扩展，由 Kimi WebBridge 更名而来",
+   "summary": "Kimi 发布新的 Kimi Browser Extension，前身为 Kimi WebBridge。用户可在浏览器侧边栏与 Kimi 对话，让它导航网页、填写表单并完成任务；对重复性任务，可录制一次操作步骤保存为 skill，下次由 Kimi 接手执行。产品现已在 kimi.com/products/kimi-browser-extension 和 Chrome Web Store 上线。",
+   "reason": "官方原文给出了产品入口、侧边栏能力和把重复操作存为 skill 的做法，读者可据此评估是否纳入自己的浏览器工作流。",
+   "source": "X：Kimi.ai (@Kimi_Moonshot)",
+   "url": "https://aihot.news/items/cmuckjawr09ljroedz4yf3xqf",
+   "time": "09-22 19:00",
+   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -647,68 +647,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-22 17:25",
+   "updateTime": "2026-09-23 01:11",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "《柯洁围棋入门课》",
+     "url": "https://www.bilibili.com/video/BV1YDhJ6ZEL6",
+     "hot": 1066738
+    },
+    {
+     "title": "比电影更夸张？专业保镖到底在做什么？",
+     "url": "https://www.bilibili.com/video/BV1J7hE6aEDQ",
+     "hot": 1089281
+    },
+    {
+     "title": "9000个名字刻在墙上，这座边境小城经历了什么？OPPO Find X10 ProMax",
+     "url": "https://www.bilibili.com/video/BV12Qhe6WERb",
+     "hot": 140778
+    },
+    {
+     "title": "【独家】镇魂街第五季 王国纷争篇定档12月11日！",
+     "url": "https://www.bilibili.com/video/BV1fae16mEe4",
+     "hot": 217230
+    },
+    {
      "title": "狼王传奇系列1-11集合集【AI全民制作人】",
      "url": "https://www.bilibili.com/video/BV1BreB6tEWT",
-     "hot": 355977
-    },
-    {
-     "title": "花40000买个金丝楠乌木，三年后锯开竟然变成这样，做成手串扇子是亏还是赚？",
-     "url": "https://www.bilibili.com/video/BV1Ywhi6iEHi",
-     "hot": 378472
-    },
-    {
-     "title": "《原神》角色预告-「沃雅妮莎：此夜共沦」",
-     "url": "https://www.bilibili.com/video/BV1BqhB6nEdN",
-     "hot": 663483
-    },
-    {
-     "title": "《穷亲戚》",
-     "url": "https://www.bilibili.com/video/BV14yhr6GEbH",
-     "hot": 442250
-    },
-    {
-     "title": "师徒PK最后一舞，谁输了谁改名！我将拿出我最伟大的作品。",
-     "url": "https://www.bilibili.com/video/BV1X9eb6tEvy",
-     "hot": 2648353
+     "hot": 1050365
     },
     {
      "title": "【毕导】这个X你肯定见过，但它其实根本不存在",
      "url": "https://www.bilibili.com/video/BV1VVhk6pEiR",
-     "hot": 337366
+     "hot": 1017254
     },
     {
-     "title": "三条人类",
-     "url": "https://www.bilibili.com/video/BV1Pnhi6WErP",
-     "hot": 1677820
+     "title": "医生坐诊2——pa大夫，你看我到底能不能红啊！",
+     "url": "https://www.bilibili.com/video/BV13Thi6AE3S",
+     "hot": 538168
     },
     {
-     "title": "驯化咖啡：一种植物武器，为什么被人类喝了六百年",
-     "url": "https://www.bilibili.com/video/BV1nshi6DEh4",
-     "hot": 874953
+     "title": "噢Ω就这啊α - 向上｜上海全球冠军赛 特别节目",
+     "url": "https://www.bilibili.com/video/BV1RXhk6REwc",
+     "hot": 396402
     },
     {
-     "title": "差价6000万倍！不同价位风洞有什么区别？",
-     "url": "https://www.bilibili.com/video/BV15ieC6TEti",
-     "hot": 2315456
+     "title": "复仇者联盟",
+     "url": "https://www.bilibili.com/video/BV1pYhJ63EA7",
+     "hot": 450467
     },
     {
      "title": "财神窦占龙 第8集 同舟【8月国创】",
      "url": "https://www.bilibili.com/video/BV1HHeC62EBs",
-     "hot": 236191
+     "hot": 254748
     },
     {
-     "title": "廉颇推塔竟然这么快，这还玩啥六耳啊",
-     "url": "https://www.bilibili.com/video/BV1cahB69END",
-     "hot": 492338
+     "title": "好久不见啊，佐助",
+     "url": "https://www.bilibili.com/video/BV1B1hJ6wEwe",
+     "hot": 332175
     },
     {
-     "title": "《崩坏：星穹铁道》走近星穹——「真珠：深度学习中」",
-     "url": "https://www.bilibili.com/video/BV1SZhk6HEXw",
-     "hot": 456546
+     "title": "【硬核】俄乌打了四年多，到底谁在买单？",
+     "url": "https://www.bilibili.com/video/BV1SUhe6xEM2",
+     "hot": 521685
     }
    ]
   }
@@ -761,33 +761,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "虎鲸文娱发布AI影视制作与管理平台“鲸锐AI”",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqz8853699.shtml",
+   "title": "伦敦AI大会现场，她突然问了一个很多人都不敢问的问题。当AI越来越快地改变我们的生活，谁在替我们决定未来",
+   "url": "https://finance.sina.com.cn/world/2026-09-23/doc-inistrnv5572386.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "入驻伙伴超1000家，千问宣布打造Personal Agent",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqx6833193.shtml",
+   "title": "OPPO Find X10 系列发布：首发哈苏超清原相机+ 三2亿镜头群，起售价4999元",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-23/doc-inistrnv5549330.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "汇丰新人工智能模型预测一个月后美国收益率下行",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inissyrf1994970.shtml",
+   "title": "消息称豆包开始收缩对话团队",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inistmet6730775.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "商汤大装置林海：Token规模化时代，AIDC评价标准从PUE转向TPW",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyrc5619060.shtml",
+   "title": "宇树科技完成全球首次全尺寸通用人形机器人全AI驱动自主集群表演",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-22/doc-inistmex5635981.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "小鹏机器人已与供应链企业完成定点协议签署，正在推进产线排产",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyrc5615879.shtml",
+   "title": "软件企业降价推销AI产品，防止客户转投Anthropic、OpenAI",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-22/doc-inistmev8863345.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美团被指暗藏涉黄擦边服务 客服回应“零容忍”",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-22/doc-inissyqz8842729.shtml",
+   "title": "beats360体验：这还是我认识的beats吗？",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-09-22/doc-inissuic8883461.shtml",
    "source": "新浪科技"
   }
  ]
