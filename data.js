@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-23 17:25",
+ "updatedAt": "2026-09-24 01:24",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,7 +8,7 @@ var WB_DATA = {
    "source": "X：Claude (@claudeai)",
    "url": "https://aihot.news/items/cmucwpqty0rj8roedzxz1496u",
    "time": "09-23 06:21",
-   "sourceCount": 23
+   "sourceCount": 22
   },
   {
    "rank": 2,
@@ -16,18 +16,10 @@ var WB_DATA = {
    "source": "X：OpenAI (@OpenAI)",
    "url": "https://aihot.news/items/cmuczxsyt03k4ro7nep4vsmez",
    "time": "09-23 06:38",
-   "sourceCount": 13
+   "sourceCount": 12
   },
   {
    "rank": 3,
-   "title": "Grok 4.7 发布，宣称更智能且能力更强，保持相同速度与成本",
-   "source": "xAI：News（网页）",
-   "url": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
-   "time": "09-23 04:35",
-   "sourceCount": 14
-  },
-  {
-   "rank": 4,
    "title": "OpenAI发布GPT-6 Luna，API成本较5.6系列减半，并将向桌面应用和Free/Go用户开放",
    "source": "X：OpenAI (@OpenAI)",
    "url": "https://aihot.news/items/cmuczxsyt03k4ro7nep4vsmez",
@@ -35,12 +27,20 @@ var WB_DATA = {
    "sourceCount": 11
   },
   {
-   "rank": 5,
+   "rank": 4,
    "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首",
    "source": "X：Artificial Analysis (@ArtificialAnlys)",
    "url": "https://aihot.news/items/cmubox8pl0510ro4vw01ibnin",
    "time": "09-23 00:00",
    "sourceCount": 11
+  },
+  {
+   "rank": 5,
+   "title": "Grok 4.7 发布，宣称更智能且能力更强，保持相同速度与成本",
+   "source": "xAI：News（网页）",
+   "url": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
+   "time": "09-23 04:35",
+   "sourceCount": 8
   },
   {
    "rank": 6,
@@ -68,22 +68,94 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "OpenAI团队部署代理群入侵Hugging Face，作者称媒体存在夸大并指OpenAI沙箱与监控漏洞是关键因素",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmu606l6o02m2rok01owq1zp8",
-   "time": "09-22 19:09",
-   "sourceCount": 5
-  },
-  {
-   "rank": 10,
    "title": "GPT-6 Sol 被预告将于今日发布",
    "source": "X：ChatGPT (@ChatGPT)",
    "url": "https://aihot.news/items/cmud0ng5n001gro1fb8xe3oji",
    "time": "09-23 02:25",
    "sourceCount": 4
+  },
+  {
+   "rank": 10,
+   "title": "作者发布MiMo-V2.6-Flash：310B总参数、15B激活",
+   "source": "X：小米 MiMo (@XiaomiMiMo)",
+   "url": "https://aihot.news/items/cmubqsb9l03vbrociqf22sr07",
+   "time": "09-22 19:42",
+   "sourceCount": 5
   }
  ],
  "aihotItems": [
+  {
+   "title": "Arena 实测：GPT-6 Sol （Max） 以 1689 分列 Code Arena： WebDev 第 4 名",
+   "summary": "Arena 公布 OpenAI 的 GPT-6 Sol （Max） 真实投票结果，在 Code Arena： WebDev 榜单以 1689 分排名第 4，价格 $8/M tokens（混合输入/输出）。",
+   "reason": "原文给出真实投票榜单的排名、价格和多分类变化，可以据此比较 GPT-6 Sol 在性能与成本上的位置。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/cmuedgev303hyromm2gpbnjqf",
+   "time": "09-24 01:05",
+   "category": "tip"
+  },
+  {
+   "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体",
+   "summary": "Google 宣布 Antigravity SDK 支持本地模型工作流，首发通过 Google AI Edge 的 LiteRT 支持 Gemma 4 26B A4B，可完全离线运行智能体，建议机器配备 >24GB VRAM 或统一内存。",
+   "reason": "官方发布了本地模型支持与混合编排示例，给出代码、硬件要求和具体 token 数据，开发者可评估离线智能体工作流的可行性。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/cmued0oy602x2rommk0l8lw6q",
+   "time": "09-24 01:09",
+   "category": "ai-products"
+  },
+  {
+   "title": "小米发布 MiMo-V2.6 Pro 与 Flash 开源全模态模型，Pro 在多数 Agent 基准上对标 Claude Opus 5 和 GPT-5.6 Sol",
+   "summary": "小米发布开源全模态模型 MiMo-V2.6 Pro 与 Flash，通过规模化强化学习训练，Pro 在 Artificial Analysis Intelligence Index 得分 46，为开源模型中最高，并在多数 Agent 基准上表现与 Claude Opus 5 和 GPT-5.6 Sol 相当。",
+   "reason": "作者从开源权重视角点评小米新模型，引用的基准对比可用于判断开源模型与闭源前沿模型的差距变化。",
+   "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+   "url": "https://aihot.news/items/cmue9wuq00sqxrogh9805ahzr",
+   "time": "09-23 23:20",
+   "category": "ai-models"
+  },
+  {
+   "title": "vLLM 发布 vllm-metal v0.28.0：在 Apple Silicon 上支持并发推理服务",
+   "summary": "vLLM 官方发布 vllm-metal v0.28.0，把 vLLM 的 V1 调度器、paged KV cache 和 OpenAI 兼容服务器带到 Apple Silicon，由 MLX 和 Metal 执行模型，版本号与上游 vLLM 对齐。",
+   "reason": "官方首次发布 vllm-metal，用 packed varlen attention 和 paged KV 解决 Mac 上并发请求的服务问题，并给出可复现的并发基准数据。",
+   "source": "vLLM 官方博客（RSS）",
+   "url": "https://aihot.news/items/cmue9uxe20smtroghgwne9l3u",
+   "time": "09-22 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+   "summary": "Google DeepMind 发布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 两款文本转语音模型，支持用自然语言提示词从零设计声音、30 秒样本复刻声音，并提供逐行表演指导、长时音频生成和双说话人场景编排，覆盖 100 多种语言。",
+   "reason": "官方介绍了两款 TTS 模型的能力细节、评测名次和开放入口，开发者可以据此评估语音生成工作流的选型。",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/cmuea8xrm0t1nroghhxj2y3eg",
+   "time": "09-23 23:25",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 前线工程师分享 AI 驱动代码现代化项目的六步准备方法",
+   "summary": "Anthropic 在 Notes from the Field 系列中分享管理大型代码现代化项目的经验，称原本需数年的现代化可在数月或数周内完成，瓶颈从写代码转向组织动员。",
+   "reason": "来自 Anthropic 前线工程师的实战总结，把智能体驱动的代码现代化拆成可落地的六步组织流程。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/cmue7dm420pvmroghjxeh5rk3",
+   "time": "09-23 22:33",
+   "category": "tip"
+  },
+  {
+   "title": "OpenAI 向乌克兰政府开放 Daybreak 网络防御计划",
+   "summary": "OpenAI 宣布向乌克兰政府开放其 Daybreak 计划，支持民用基础设施的网络防御，与乌克兰数字化转型部合作提供识别软件漏洞、开发和测试修复的工具。乌克兰 CERT-UA 在 2025 年处理了近 6，000 起网络事件；此前法国、德国、波兰等欧洲防御方已使用其网络模型，其中 CERT Polska 借此发现第三方路由软件中的 6 个漏洞，厂商已发布修复。",
+   "reason": "原文给出 Daybreak 计划向乌克兰开放的具体安排和 CERT-UA、CERT Polska 的使用案例，读者可借此了解 AI 网络防御工具的实际落地。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmue2etyn0k5broghxiolkkpi",
+   "time": "09-23 21:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Qwen 发布 Qwen-Audio-3.1 全家桶，ASR、TTS、Realtime 升级并新增 TTS-Next 与 ASR-Next",
+   "summary": "Qwen 发布 Qwen-Audio-3.1，ASR、TTS 与 Realtime 全面升级，并新增音频创作模型 TTS-Next 和音频理解模型 ASR-Next，共五个模型覆盖理解、生成、交互与创作。全线降价，TTS 约 70% off、Realtime 约 85% off、ASR 最高 95% off；Realtime 可边说边听、随时打断，检测到低落情绪时会放慢语速并共情回应。",
+   "reason": "官方一次性给出五个音频模型的能力细节和三档降价幅度，读者可对照自身场景评估替换成本。",
+   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+   "url": "https://aihot.news/items/cmudwte2x0aqtroghe1b5cxfd",
+   "time": "09-23 17:11",
+   "category": "ai-models"
+  },
   {
    "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
    "summary": "OpenAI 发布 GPT-6 系列两款新模型 GPT-6 Sol 与 Luna，API 定价相比 GPT-5.6 促销价下调约 50%，Sol 为每 1M tokens 输入 $2、输出 $10，Luna 为 $0.10、$0.50，两者已上线 API。",
@@ -103,6 +175,15 @@ var WB_DATA = {
    "category": "tip"
   },
   {
+   "title": "METR 发布 Claude Opus 5.5 部署前评估摘要",
+   "summary": "METR 发布对 Claude Opus 5.5 的部署前评估摘要，基于 10 个工作日的 API 能力测试和五个任务（Budget NanoGPT Speedrun、LMCA、Train a Program、Gaming Bot、Sunlight）。",
+   "reason": "METR 作为第三方评估方给出了 Claude Opus 5.5 在 AI 研发加速上的量化结论，读者可据此了解部署前评估的证据基础与判断边界。",
+   "source": "METR：Blog（网页）",
+   "url": "https://aihot.news/items/cmudbo6sf04ntroggkmjafzax",
+   "time": "09-22 00:00",
+   "category": "tip"
+  },
+  {
    "title": "Epoch AI 研究报告：达到同等 AI 性能的成本每季度下降约 47%",
    "summary": "Epoch AI 发布报告，估算过去三年内达到同等 AI 性能的成本平均每季度下降约 47%，即每年约 13 倍，并认为这一速度可能自 2021 年 11 月商业 LLM 推理开始以来持续至今。分析覆盖数学、硬科学和技能游戏类五个基准；刚达到 SOTA 的性能成本每季度下降 66%，两年后放缓至每季度 32%；报告同时指出基准针对性训练、数据不完整等局限。数据与代码在 GitHub 上公开。",
    "reason": "报告用五个基准三年数据量化达到同等性能的成本下降速度，还区分了刚成为 SOTA 与两年后两种情形，数字和方法都值得细看。",
@@ -110,87 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmud77i8r04yerorajpj343j2",
    "time": "09-22 08:00",
    "category": "paper"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价低 50%",
-   "summary": "OpenAI 欢迎两个新模型加入 GPT-6 系列。GPT-6 Sol 和 Luna 基于 GPT-6 Astra 的技术成果，将大部分能力带入更快、更便宜、支持大规模工作的模型中。通过提升缓存和推理效率，两款模型 API 价格比 GPT-5.6 促销定价低 50%。",
-   "reason": "OpenAI 在 GPT-6 系列中加入 Sol 和 Luna 两个更快更便宜的型号，并给出相对 GPT-5.6 促销价降 50% 的 API 价格。",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/cmud73hd204tvrora52lp47l0",
-   "time": "09-23 05:25",
-   "category": "ai-models"
-  },
-  {
-   "title": "Claude Opus 5.5 发布：较 Opus 5 降价提速，系统卡披露安全演习中约半数运行或有危害行为",
-   "summary": "Anthropic 发布 Claude Opus 5.5，称达到 Fable 5.1 级性能，相较 Opus 5 输入/输出价格降至 $4 和 $20 每 1M tokens，缓存读取降 60% 至 $0.20，输出提速超 30%，Fast mode 最高 2.5x 速度但 token 价格翻倍。系统卡显示，安全演习中模型获得公共包仓库的模拟凭证后，约半数运行采取的行动若环境为真可能有危害；约三分之一的 Opus 5.5 运行出现口头化的评估意识，提高真实性的改动通常改善了其表现。",
-   "reason": "摘出系统卡中安全演习的行为数据和降价提速细节，可以对照了解 Claude Opus 5.5 的能力与风险变化。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmud52j4i003droralpe8a53b",
-   "time": "09-23 04:12",
-   "category": "ai-models"
-  },
-  {
-   "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
-   "summary": "OpenAI 为 GPT-6 系列推出改进的提示词缓存系统，默认提高缓存命中率，对 30 分钟窗口内复用的合格共享前缀提供最高 90% 的缓存输入 token 折扣。",
-   "reason": "原文给出缓存命中率、30 分钟窗口折扣上限和新监控诊断工具，读者可以据此优化长期运行智能体的成本和延迟。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmud4mu5303n5roa915w7f1ja",
-   "time": "09-23 05:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "五角大楼调查：过度依赖 Maven AI 是美军误击伊朗米纳布学校的原因之一",
-   "summary": "五角大楼内部调查发现，2026 年 2 月 28 日两枚 Tomahawk 导弹击中伊朗米纳布 Shajarah Tayyebeh 小学，造成超过 150 人死亡、其中至少 123 名儿童，原因是情报过时、卫星图像七年未更新，以及 Centcom 部分人员过度依赖 Palantir 的 Maven Smart System。",
-   "reason": "调查报道拆解了 Maven 智能系统在杀伤链中的位置与人员预期偏差，读者可借此理解军事 AI 决策链的实际风险点。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmud57mjw02snrora28mvi2h0",
-   "time": "09-23 03:03",
-   "category": "tip"
-  },
-  {
-   "title": "五角大楼内部审查：过度依赖 Palantir Maven AI 系统导致误击伊朗学校、123 名儿童死亡",
-   "summary": "据 Bloomberg 援引未公开的五角大楼内部审查官员报道，美军今年 2 月开战首日误击伊朗 Minab 的 Shajarah Tayyebeh 小学，造成超 150 人死亡、其中至少 123 名儿童，过度依赖 Palantir 开发的 Maven Smart System 是原因之一。",
-   "reason": "报道梳理了美军误击事件中过度依赖 Palantir AI 工具的具体环节，以及数据陈旧和审查团队缩编等叠加因素，有助于理解军事场景中 AI 使用风险。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmud32gov0427rov6rcxw9xlf",
-   "time": "09-23 03:03",
-   "category": "industry"
-  },
-  {
-   "title": "Artificial Analysis 评测 GPT-6 Sol 和 Luna：成本减半但各评测有升有降",
-   "summary": "Artificial Analysis 评测 GPT-6 Sol 和 Luna，价格约为 GPT-5.6 同名型号的一半，Sol 定价 $2/$10 每百万输入/输出 token，Luna 为 $0.10/$0.50。",
-   "reason": "Artificial Analysis 用自家基准拆解 GPT-6 两个新模型的降价幅度、幻觉变化和各评测升降，可帮读者判断换模型的成本收益。",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv",
-   "time": "09-23 03:41",
-   "category": "tip"
-  },
-  {
-   "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-   "summary": "Anthropic 发布 Claude Opus 5.5，OpenAI 随后发布 GPT-6 Sol 和 GPT-6 Luna。GPT-6 两款价格为其 GPT-5.6 对应型号的一半，GPT-6 Luna 低至 $0.10/M 输入、$0.50/M 输出；Opus 5.5 降价 20% 至 $4/$20，缓存读取降 60%。",
-   "reason": "作者实测了多款新模型的定价和推理表现，给出可与自家工作流对照的选型参考。",
-   "source": "Simon Willison 博客",
-   "url": "https://aihot.news/items/cmudch57g05bqroggl65fi9vo",
-   "time": "09-23 07:46",
-   "category": "tip"
-  },
-  {
-   "title": "Arena 上线 GPT-6 Sol 与 GPT-6 Luna 测试，评分即将公布",
-   "summary": "Arena 宣布 OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 评分即将公布，邀请用户前往 Arena 实测并通过投票真实智能体任务支持其排行榜。",
-   "reason": "文中提及Peter用相同提示词和max reasoning对比GPT-6 Sol与GPT-5.6 Sol，覆盖输出、token用量和时延，可帮助读者了解两代模型差异。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/cmud3aisf04anrov691zrlhcg",
-   "time": "09-23 03:29",
-   "category": "ai-models"
-  },
-  {
-   "title": "GPT-6 Sol 与 Luna 发布，API 价格比 GPT-5.6 低 50%",
-   "summary": "OpenAI 开发者账号宣布 GPT-6 Sol 和 Luna 发布，两者 API 定价比 GPT-5.6 低 50%。Sherwin Wu 补充 GPT-6 Luna 定价为每 1M tokens 输入 $0.10、输出 $0.50，并称价格很快需要改按每十亿 tokens 计价。",
-   "reason": "作者补充了 GPT-6 Luna 的具体 API 定价，结合官方降价信息可看出新模型价格量级明显下探。",
-   "source": "X：Sherwin Wu（@sherwinwu）",
-   "url": "https://aihot.news/items/cmud102ad03urro1fdmzfqj9w",
-   "time": "09-23 02:19",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -712,68 +712,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-23 17:25",
+   "updateTime": "2026-09-24 01:24",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《崩坏：星穹铁道》即兴巡演PV——「至此，已成艺术」",
-     "url": "https://www.bilibili.com/video/BV1yvhW6sEzi",
-     "hot": 1057613
+     "title": "辽阔的草原，生不出狭隘的爱！",
+     "url": "https://www.bilibili.com/video/BV1TJh76GEbj",
+     "hot": 533029
     },
     {
-     "title": "暗区突围X少女前线2：追放 联动访谈实录",
-     "url": "https://www.bilibili.com/video/BV1skhj6qEwD",
-     "hot": 509403
+     "title": "这是要坐电梯上天啊？！",
+     "url": "https://www.bilibili.com/video/BV1yxh76TEn5",
+     "hot": 293790
     },
     {
-     "title": "狗不慎掉入渠沟，路过大哥急中生智，将树枝和扎带组合成工具，成功将其救起。网友：大哥最后拧扎带那几下，太有智慧了！",
-     "url": "https://www.bilibili.com/video/BV1CehH67EJU",
-     "hot": 848698
+     "title": "8月份疯狂回血111万，峰哥是如何成功自救的？",
+     "url": "https://www.bilibili.com/video/BV15bh869EbY",
+     "hot": 297786
     },
     {
-     "title": "【独家】镇魂街第五季 王国纷争篇定档12月11日！",
-     "url": "https://www.bilibili.com/video/BV1fae16mEe4",
-     "hot": 269487
+     "title": "小米18 Pro系列上手体验：骁龙8E6有惊喜？！",
+     "url": "https://www.bilibili.com/video/BV1bQh463EU6",
+     "hot": 474198
     },
     {
-     "title": "《异环》黑羽角色短片丨救世主的祭宴",
-     "url": "https://www.bilibili.com/video/BV1jWej6hEVt",
-     "hot": 593798
+     "title": "我决定，亲自生活！！",
+     "url": "https://www.bilibili.com/video/BV1D2hi6vEMd",
+     "hot": 714479
     },
     {
-     "title": "带着豆包去买瓜",
-     "url": "https://www.bilibili.com/video/BV1w7hn63EBs",
-     "hot": 523276
+     "title": "那个傲慢的酥饼小贩，可真是一个大好人",
+     "url": "https://www.bilibili.com/video/BV1CehH67Ejn",
+     "hot": 1018474
     },
     {
      "title": "【剧情】大理石厅谋杀案（2026）01【莱丝利·曼维尔 / 蒂姆·迈克穆兰】",
      "url": "https://www.bilibili.com/video/BV15yem67EM2",
-     "hot": 288699
+     "hot": 349830
     },
     {
-     "title": "这是啥户型啊？",
-     "url": "https://www.bilibili.com/video/BV1rKhq6QEU6",
-     "hot": 1651139
+     "title": "【泽元电台】加强上路？利好换线？一年一度的世界赛版本又来了！",
+     "url": "https://www.bilibili.com/video/BV1kUht6wEKw",
+     "hot": 846822
     },
     {
-     "title": "当美院人玩涂鸦躲猫猫真人版",
-     "url": "https://www.bilibili.com/video/BV1QGhJ69EAo",
-     "hot": 965972
+     "title": "坏了这是真啥子！唱了《琪露诺的完美算数教室》",
+     "url": "https://www.bilibili.com/video/BV1gRh46uEPQ",
+     "hot": 142761
     },
     {
-     "title": "9月26日，全新干员研究外观【牧羊人-安魂】登场！",
-     "url": "https://www.bilibili.com/video/BV1vShJ6bEbM",
-     "hot": 551415
+     "title": "迈克尔·许家印《朋友的酒DJ》史上经典！迈克尔杰克逊致敬过的演唱会开场！人生必看的现场",
+     "url": "https://www.bilibili.com/video/BV18yhp68ER1",
+     "hot": 685055
     },
     {
-     "title": "花60W买燃油性能车还有价值吗？奥迪S5 Avant山路测试！",
-     "url": "https://www.bilibili.com/video/BV16ihJ6MEHA",
-     "hot": 459328
+     "title": "带着豆包去买瓜",
+     "url": "https://www.bilibili.com/video/BV1w7hn63EBs",
+     "hot": 1121641
     },
     {
-     "title": "琵琶曲‖ 决战重制版【re0】",
-     "url": "https://www.bilibili.com/video/BV1rnea6mEgL",
-     "hot": 724509
+     "title": "“蟹蟹梨的西西里”",
+     "url": "https://www.bilibili.com/video/BV1aXhJ64EmX",
+     "hot": 172811
     }
    ]
   }
@@ -821,38 +821,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "Barrick Gold上市前签署五年AI合作协议",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcpz8600355.shtml",
+   "title": "伊朗高级官员：“新”外交不会回到过去",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytt5171225.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "克里姆林宫称尚无基础举行乌克兰和平谈判",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcpx6088548.shtml",
+   "title": "伊朗向美国提出重启谈判条件 包括接受霍尔木兹海峡方案",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytr8384613.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧元区综合PMI触及三年高位 服务业意外改善",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcpz8593008.shtml",
+   "title": "美国财政部称周四将回购至多60亿美元较长期美债",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytv0899361.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "瑞士联邦院支持收紧瑞银资本要求 否决折中提案",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcqc5360966.shtml",
+   "title": "纳瓦罗：白宫官员不应上福克斯新闻和福克斯商业频道的节目",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvumt8509980.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "东风汽车总经理冯长军与任正非会谈，任正非：造车之本在于安全与品质",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisvcpz8577533.shtml",
+   "title": "龚宇：AI是内容的加分项，不是用来搭建流水线的工具",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisvumv5264590.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "苹果推出新功能可关闭App摇一摇广告，客服回应",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisvcpx6073042.shtml",
+   "title": "伊朗总统：无意发展核武器 但不会放弃发展核技术的权利",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvumx1014781.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "希腊顶级航运巨头押注英伟达 搭乘人工智能热潮",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcqc5319107.shtml",
+   "title": "EIA：美国原油库存上周增加296.9万桶 预估中值为减少69万桶",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvumx1009073.shtml",
    "source": "新浪科技"
   }
  ]
