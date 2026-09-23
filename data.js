@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-23 10:56",
+ "updatedAt": "2026-09-23 17:25",
  "aihotHot": [
   {
    "rank": 1,
@@ -84,6 +84,15 @@ var WB_DATA = {
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
+   "summary": "OpenAI 发布 GPT-6 系列两款新模型 GPT-6 Sol 与 Luna，API 定价相比 GPT-5.6 促销价下调约 50%，Sol 为每 1M tokens 输入 $2、输出 $10，Luna 为 $0.10、$0.50，两者已上线 API。",
+   "reason": "原文汇总了定价、多组基准对比和新的缓存控制细节，读者可以据此评估 Sol 与 Luna 在不同任务下的成本收益。",
+   "source": "MarkTechPost（RSS）",
+   "url": "https://aihot.news/items/cmudnpv0k0hrrrogg9gcyun5n",
+   "time": "09-23 13:18",
+   "category": "ai-models"
+  },
   {
    "title": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
    "summary": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
@@ -181,15 +190,6 @@ var WB_DATA = {
    "source": "X：Sherwin Wu（@sherwinwu）",
    "url": "https://aihot.news/items/cmud102ad03urro1fdmzfqj9w",
    "time": "09-23 02:19",
-   "category": "ai-models"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
-   "summary": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，将 GPT-6 Astra 的训练方法用于更快更便宜的模型，API 价格较 GPT-5.6 促销价下调 50%（Sol 输入 $4→$2、输出 $20→$10；Luna 输入 $0.20→$0.10、输出 $1.20→$0.50，每百万 token）。",
-   "reason": "官方发布给出各档模型的具体基准分数、API 价格降幅和缓存改进数据，可以用来对比 GPT-6 家族在成本与能力之间的取舍。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmud1y2ku039iro5ysl7pq6d3",
-   "time": "09-23 02:00",
    "category": "ai-models"
   }
  ],
@@ -712,68 +712,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-23 10:56",
+   "updateTime": "2026-09-23 17:25",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "好久不见啊，佐助",
-     "url": "https://www.bilibili.com/video/BV1B1hJ6wEwe",
-     "hot": 1040699
+     "title": "《崩坏：星穹铁道》即兴巡演PV——「至此，已成艺术」",
+     "url": "https://www.bilibili.com/video/BV1yvhW6sEzi",
+     "hot": 1057613
     },
     {
-     "title": "比电影更夸张？专业保镖到底在做什么？",
-     "url": "https://www.bilibili.com/video/BV1J7hE6aEDQ",
-     "hot": 2005079
+     "title": "暗区突围X少女前线2：追放 联动访谈实录",
+     "url": "https://www.bilibili.com/video/BV1skhj6qEwD",
+     "hot": 509403
     },
     {
-     "title": "《柯洁围棋入门课》",
-     "url": "https://www.bilibili.com/video/BV1YDhJ6ZEL6",
-     "hot": 1665038
+     "title": "狗不慎掉入渠沟，路过大哥急中生智，将树枝和扎带组合成工具，成功将其救起。网友：大哥最后拧扎带那几下，太有智慧了！",
+     "url": "https://www.bilibili.com/video/BV1CehH67EJU",
+     "hot": 848698
     },
     {
      "title": "【独家】镇魂街第五季 王国纷争篇定档12月11日！",
      "url": "https://www.bilibili.com/video/BV1fae16mEe4",
-     "hot": 245500
+     "hot": 269487
+    },
+    {
+     "title": "《异环》黑羽角色短片丨救世主的祭宴",
+     "url": "https://www.bilibili.com/video/BV1jWej6hEVt",
+     "hot": 593798
+    },
+    {
+     "title": "带着豆包去买瓜",
+     "url": "https://www.bilibili.com/video/BV1w7hn63EBs",
+     "hot": 523276
+    },
+    {
+     "title": "【剧情】大理石厅谋杀案（2026）01【莱丝利·曼维尔 / 蒂姆·迈克穆兰】",
+     "url": "https://www.bilibili.com/video/BV15yem67EM2",
+     "hot": 288699
     },
     {
      "title": "这是啥户型啊？",
      "url": "https://www.bilibili.com/video/BV1rKhq6QEU6",
-     "hot": 957378
+     "hot": 1651139
     },
     {
-     "title": "骁龙8 Elite Extreme Gen6前瞻上手：高通新旗舰手机来啦！",
-     "url": "https://www.bilibili.com/video/BV17uhW6VE2R",
-     "hot": 413785
+     "title": "当美院人玩涂鸦躲猫猫真人版",
+     "url": "https://www.bilibili.com/video/BV1QGhJ69EAo",
+     "hot": 965972
     },
     {
-     "title": "复仇者联盟",
-     "url": "https://www.bilibili.com/video/BV1pYhJ63EA7",
-     "hot": 775927
+     "title": "9月26日，全新干员研究外观【牧羊人-安魂】登场！",
+     "url": "https://www.bilibili.com/video/BV1vShJ6bEbM",
+     "hot": 551415
+    },
+    {
+     "title": "花60W买燃油性能车还有价值吗？奥迪S5 Avant山路测试！",
+     "url": "https://www.bilibili.com/video/BV16ihJ6MEHA",
+     "hot": 459328
     },
     {
      "title": "琵琶曲‖ 决战重制版【re0】",
      "url": "https://www.bilibili.com/video/BV1rnea6mEgL",
-     "hot": 385057
-    },
-    {
-     "title": "和同父异母的妹妹去旅游会发生什么？",
-     "url": "https://www.bilibili.com/video/BV1T7hB6PEBm",
-     "hot": 836003
-    },
-    {
-     "title": "财神窦占龙 第8集 同舟【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1HHeC62EBs",
-     "hot": 260310
-    },
-    {
-     "title": "狼王传奇系列1-11集合集【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1BreB6tEWT",
-     "hot": 1375824
-    },
-    {
-     "title": "医生坐诊2——pa大夫，你看我到底能不能红啊！",
-     "url": "https://www.bilibili.com/video/BV13Thi6AE3S",
-     "hot": 787088
+     "hot": 724509
     }
    ]
   }
@@ -821,38 +821,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "传祺越7上市，四款车型上市权益价16.18万至20.78万元",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-23/doc-inisunsp1467529.shtml",
+   "title": "Barrick Gold上市前签署五年AI合作协议",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcpz8600355.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "闲鱼公布调查结果：平台上不存在涉未成年人淫秽信息，已就引流行为报案",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-23/doc-inisunsm5380061.shtml",
+   "title": "克里姆林宫称尚无基础举行乌克兰和平谈判",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcpx6088548.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Seedance 2.5 上线样片模式：480P 选镜头，1080P 出成片",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-23/doc-inisunsm5355391.shtml",
+   "title": "欧元区综合PMI触及三年高位 服务业意外改善",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcpz8593008.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "手机拍照越来越漂亮，还原“肉眼所见”反倒成最大的难题？",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-09-23/doc-inisunsf6252245.shtml",
+   "title": "瑞士联邦院支持收紧瑞银资本要求 否决折中提案",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcqc5360966.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "麦田能源“造船出海”领跑全球户储 技术市场双重壁垒护航新周期",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-09-23/doc-inisunsm5291996.shtml",
+   "title": "东风汽车总经理冯长军与任正非会谈，任正非：造车之本在于安全与品质",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisvcpz8577533.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "第六代骁龙8超级至尊版来了：首款5GHz移动CPU",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-09-23/doc-inisuhkm8623314.shtml",
+   "title": "苹果推出新功能可关闭App摇一摇广告，客服回应",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisvcpx6073042.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "马斯克最新发声：只要时间允许就一定要去中国看看，值得一看的东西太多",
-   "url": "https://finance.sina.com.cn/world/gjcj/2026-09-23/doc-inisuhkm8582688.shtml",
+   "title": "希腊顶级航运巨头押注英伟达 搭乘人工智能热潮",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvcqc5319107.shtml",
    "source": "新浪科技"
   }
  ]
