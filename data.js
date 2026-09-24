@@ -1,49 +1,65 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-24 01:24",
+ "updatedAt": "2026-09-24 10:46",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
-   "source": "X：Claude (@claudeai)",
-   "url": "https://aihot.news/items/cmucwpqty0rj8roedzxz1496u",
-   "time": "09-23 06:21",
-   "sourceCount": 22
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/cmucyny580521roni2aiyh9xj",
+   "time": "09-24 04:15",
+   "sourceCount": 27
   },
   {
    "rank": 2,
    "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%",
-   "source": "X：OpenAI (@OpenAI)",
-   "url": "https://aihot.news/items/cmuczxsyt03k4ro7nep4vsmez",
-   "time": "09-23 06:38",
-   "sourceCount": 12
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv",
+   "time": "09-24 02:54",
+   "sourceCount": 13
   },
   {
    "rank": 3,
    "title": "OpenAI发布GPT-6 Luna，API成本较5.6系列减半，并将向桌面应用和Free/Go用户开放",
    "source": "X：OpenAI (@OpenAI)",
    "url": "https://aihot.news/items/cmuczxsyt03k4ro7nep4vsmez",
-   "time": "09-23 05:25",
-   "sourceCount": 11
+   "time": "09-23 08:00",
+   "sourceCount": 13
   },
   {
    "rank": 4,
-   "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首",
-   "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/cmubox8pl0510ro4vw01ibnin",
-   "time": "09-23 00:00",
-   "sourceCount": 11
+   "title": "Anthropic分享早期研究结果：Claude自主发现与CRISPR样重复阵列相关的新型酶系统ART",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/cmuefqp730041rovxbpewc3gn",
+   "time": "09-24 02:46",
+   "sourceCount": 5
   },
   {
    "rank": 5,
+   "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/cmubox8pl0510ro4vw01ibnin",
+   "time": "09-24 02:54",
+   "sourceCount": 9
+  },
+  {
+   "rank": 6,
+   "title": "Google发布Gemini 3.8 Flash TTS语音合成模型",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmuee8fwi04lbrommueh6vgyt",
+   "time": "09-24 01:39",
+   "sourceCount": 4
+  },
+  {
+   "rank": 7,
    "title": "Grok 4.7 发布，宣称更智能且能力更强，保持相同速度与成本",
    "source": "xAI：News（网页）",
    "url": "https://aihot.news/items/cmubfarpy0xtirolnplntl9p1",
    "time": "09-23 04:35",
-   "sourceCount": 8
+   "sourceCount": 4
   },
   {
-   "rank": 6,
+   "rank": 8,
    "title": "Anthropic称Claude Sonnet 5.5预计未来数周发布，将带来类似性能、效率与安全提升",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/cmucwn00k0rglroed55jw9pqk",
@@ -51,7 +67,7 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 7,
+   "rank": 9,
    "title": "Anthropic称Claude Haiku 5.5预计未来数周发布，将带来类似性能、效率与安全提升",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/cmucwn00k0rglroed55jw9pqk",
@@ -59,194 +75,148 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 8,
-   "title": "OpenAI宣布正与独立数学家顾问组合作，协助其负责任地分享AI与数学进展",
-   "source": "X：OpenAI (@OpenAI)",
-   "url": "https://aihot.news/items/cmubkgdje000yro3d0t731ihz",
-   "time": "09-22 07:27",
-   "sourceCount": 4
-  },
-  {
-   "rank": 9,
-   "title": "GPT-6 Sol 被预告将于今日发布",
-   "source": "X：ChatGPT (@ChatGPT)",
-   "url": "https://aihot.news/items/cmud0ng5n001gro1fb8xe3oji",
-   "time": "09-23 02:25",
-   "sourceCount": 4
-  },
-  {
    "rank": 10,
-   "title": "作者发布MiMo-V2.6-Flash：310B总参数、15B激活",
-   "source": "X：小米 MiMo (@XiaomiMiMo)",
-   "url": "https://aihot.news/items/cmubqsb9l03vbrociqf22sr07",
-   "time": "09-22 19:42",
-   "sourceCount": 5
+   "title": "OpenAI 披露 8 月 28 日开始训练的神秘模型已解决 100 多个数学开放问题（含纳维-斯托克斯难题）",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cmuelte66074qroyneq7xit7f",
+   "time": "09-23 20:00",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
   {
-   "title": "Arena 实测：GPT-6 Sol （Max） 以 1689 分列 Code Arena： WebDev 第 4 名",
-   "summary": "Arena 公布 OpenAI 的 GPT-6 Sol （Max） 真实投票结果，在 Code Arena： WebDev 榜单以 1689 分排名第 4，价格 $8/M tokens（混合输入/输出）。",
-   "reason": "原文给出真实投票榜单的排名、价格和多分类变化，可以据此比较 GPT-6 Sol 在性能与成本上的位置。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/cmuedgev303hyromm2gpbnjqf",
-   "time": "09-24 01:05",
+   "title": "腾讯混元发布 Hy Image3.5 preview 图像生成模型",
+   "summary": "腾讯混元发布 Hy Image3.5 preview，支持文生图与图生图、最多 5 张参考图、多轮编辑和最高 2K 分辨率输出，经上百名专业设计师 GSB 盲测对上一代胜率综合提升 30% 以上。",
+   "reason": "原文给出了文本渲染、编辑一致性与定价等具体能力细节，以及多家腾讯内部产品的实测反馈，便于评估适用场景。",
+   "source": "腾讯混元：Research（API）",
+   "url": "https://aihot.news/items/cmuc2t8pi06v6rots79xxyyt8",
+   "time": "09-21 10:51",
+   "category": "ai-models"
+  },
+  {
+   "title": "卡兹克实测对比 Grok 4.7 与小米 MiMo V2.6：后者成不可能三角版本答案",
+   "summary": "作者实测同日凌晨发布的 Grok 4.7 与小米 MiMo V2.6，认为 Grok 4.7 低于预期，MiMo V2.6 成为性能、价格、速度三角的当前版本答案。",
+   "reason": "作者亲手测试并给出价格、速度和基准对比，读者可以据此评估小米 MiMo V2.6 对自身工作流和成本的实际影响。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/cmuc1rfgb05sdrotszk0w9ivq",
+   "time": "09-22 10:02",
    "category": "tip"
   },
   {
-   "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体",
-   "summary": "Google 宣布 Antigravity SDK 支持本地模型工作流，首发通过 Google AI Edge 的 LiteRT 支持 Gemma 4 26B A4B，可完全离线运行智能体，建议机器配备 >24GB VRAM 或统一内存。",
-   "reason": "官方发布了本地模型支持与混合编排示例，给出代码、硬件要求和具体 token 数据，开发者可评估离线智能体工作流的可行性。",
-   "source": "Google Developers Blog（RSS）",
-   "url": "https://aihot.news/items/cmued0oy602x2rommk0l8lw6q",
-   "time": "09-24 01:09",
-   "category": "ai-products"
-  },
-  {
-   "title": "小米发布 MiMo-V2.6 Pro 与 Flash 开源全模态模型，Pro 在多数 Agent 基准上对标 Claude Opus 5 和 GPT-5.6 Sol",
-   "summary": "小米发布开源全模态模型 MiMo-V2.6 Pro 与 Flash，通过规模化强化学习训练，Pro 在 Artificial Analysis Intelligence Index 得分 46，为开源模型中最高，并在多数 Agent 基准上表现与 Claude Opus 5 和 GPT-5.6 Sol 相当。",
-   "reason": "作者从开源权重视角点评小米新模型，引用的基准对比可用于判断开源模型与闭源前沿模型的差距变化。",
-   "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-   "url": "https://aihot.news/items/cmue9wuq00sqxrogh9805ahzr",
-   "time": "09-23 23:20",
-   "category": "ai-models"
-  },
-  {
-   "title": "vLLM 发布 vllm-metal v0.28.0：在 Apple Silicon 上支持并发推理服务",
-   "summary": "vLLM 官方发布 vllm-metal v0.28.0，把 vLLM 的 V1 调度器、paged KV cache 和 OpenAI 兼容服务器带到 Apple Silicon，由 MLX 和 Metal 执行模型，版本号与上游 vLLM 对齐。",
-   "reason": "官方首次发布 vllm-metal，用 packed varlen attention 和 paged KV 解决 Mac 上并发请求的服务问题，并给出可复现的并发基准数据。",
-   "source": "vLLM 官方博客（RSS）",
-   "url": "https://aihot.news/items/cmue9uxe20smtroghgwne9l3u",
-   "time": "09-22 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
-   "summary": "Google DeepMind 发布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 两款文本转语音模型，支持用自然语言提示词从零设计声音、30 秒样本复刻声音，并提供逐行表演指导、长时音频生成和双说话人场景编排，覆盖 100 多种语言。",
-   "reason": "官方介绍了两款 TTS 模型的能力细节、评测名次和开放入口，开发者可以据此评估语音生成工作流的选型。",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/cmuea8xrm0t1nroghhxj2y3eg",
-   "time": "09-23 23:25",
-   "category": "ai-models"
-  },
-  {
-   "title": "Anthropic 前线工程师分享 AI 驱动代码现代化项目的六步准备方法",
-   "summary": "Anthropic 在 Notes from the Field 系列中分享管理大型代码现代化项目的经验，称原本需数年的现代化可在数月或数周内完成，瓶颈从写代码转向组织动员。",
-   "reason": "来自 Anthropic 前线工程师的实战总结，把智能体驱动的代码现代化拆成可落地的六步组织流程。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/cmue7dm420pvmroghjxeh5rk3",
-   "time": "09-23 22:33",
+   "title": "Artificial Analysis 评测 Step 5 Preview： Intelligence Index 得 44 分，成本约为同级模型 1/2.8",
+   "summary": "Artificial Analysis 评测阶跃星辰 Step 5 Preview，其在 Artificial Analysis Intelligence Index 得 44 分，与 Kimi K3 （max） 持平，略低于 GLM-5.3 （max） 和 Qwen3.8 Max 的 45 分，每任务成本约 $0.72，约为同级模型（约 $2.00）的 1/2.8。",
+   "reason": "Artificial Analysis 实测 Step 5 Preview 的得分、成本与智能体短板，读者可据此对比同分段模型的表现与性价比。",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/cmuc0pmnx04g0rotscsnqd50c",
+   "time": "09-22 09:49",
    "category": "tip"
   },
   {
-   "title": "OpenAI 向乌克兰政府开放 Daybreak 网络防御计划",
-   "summary": "OpenAI 宣布向乌克兰政府开放其 Daybreak 计划，支持民用基础设施的网络防御，与乌克兰数字化转型部合作提供识别软件漏洞、开发和测试修复的工具。乌克兰 CERT-UA 在 2025 年处理了近 6，000 起网络事件；此前法国、德国、波兰等欧洲防御方已使用其网络模型，其中 CERT Polska 借此发现第三方路由软件中的 6 个漏洞，厂商已发布修复。",
-   "reason": "原文给出 Daybreak 计划向乌克兰开放的具体安排和 CERT-UA、CERT Polska 的使用案例，读者可借此了解 AI 网络防御工具的实际落地。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cmue2etyn0k5broghxiolkkpi",
-   "time": "09-23 21:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Qwen 发布 Qwen-Audio-3.1 全家桶，ASR、TTS、Realtime 升级并新增 TTS-Next 与 ASR-Next",
-   "summary": "Qwen 发布 Qwen-Audio-3.1，ASR、TTS 与 Realtime 全面升级，并新增音频创作模型 TTS-Next 和音频理解模型 ASR-Next，共五个模型覆盖理解、生成、交互与创作。全线降价，TTS 约 70% off、Realtime 约 85% off、ASR 最高 95% off；Realtime 可边说边听、随时打断，检测到低落情绪时会放慢语速并共情回应。",
-   "reason": "官方一次性给出五个音频模型的能力细节和三档降价幅度，读者可对照自身场景评估替换成本。",
-   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-   "url": "https://aihot.news/items/cmudwte2x0aqtroghe1b5cxfd",
-   "time": "09-23 17:11",
-   "category": "ai-models"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
-   "summary": "OpenAI 发布 GPT-6 系列两款新模型 GPT-6 Sol 与 Luna，API 定价相比 GPT-5.6 促销价下调约 50%，Sol 为每 1M tokens 输入 $2、输出 $10，Luna 为 $0.10、$0.50，两者已上线 API。",
-   "reason": "原文汇总了定价、多组基准对比和新的缓存控制细节，读者可以据此评估 Sol 与 Luna 在不同任务下的成本收益。",
-   "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/cmudnpv0k0hrrrogg9gcyun5n",
-   "time": "09-23 13:18",
-   "category": "ai-models"
-  },
-  {
-   "title": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
-   "summary": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
-   "reason": "作者用自家 API 实测 19 个模型并按用例给出候选、价格与维度，读者可按输入类型和存储约束直接对照选型。",
+   "title": "OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning 如何承担 Agent 高频执行调用",
+   "summary": "OpenRouter 发文解读 NVIDIA 的 Nemotron 3.5 Lightning，这是一款 30B 总参数、约 3B 激活参数的混合专家开源权重模型，定位于工具调用、编码等高频、边界清晰的 Agent 执行步骤，与负责复杂推理的 Nemotron 3 Ultra（550B 总参数、55B 激活）形成分工。",
+   "reason": "OpenRouter 结合自家端点数据拆解 Nemotron 3.5 Lightning 的定位、上下文和调用差异，读者可据此评估它在 Agent 执行层的适用性。",
    "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/cmude350u077jroggw7odbigk",
-   "time": "09-23 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "METR 发布 Claude Opus 5.5 部署前评估摘要",
-   "summary": "METR 发布对 Claude Opus 5.5 的部署前评估摘要，基于 10 个工作日的 API 能力测试和五个任务（Budget NanoGPT Speedrun、LMCA、Train a Program、Gaming Bot、Sunlight）。",
-   "reason": "METR 作为第三方评估方给出了 Claude Opus 5.5 在 AI 研发加速上的量化结论，读者可据此了解部署前评估的证据基础与判断边界。",
-   "source": "METR：Blog（网页）",
-   "url": "https://aihot.news/items/cmudbo6sf04ntroggkmjafzax",
-   "time": "09-22 00:00",
-   "category": "tip"
-  },
-  {
-   "title": "Epoch AI 研究报告：达到同等 AI 性能的成本每季度下降约 47%",
-   "summary": "Epoch AI 发布报告，估算过去三年内达到同等 AI 性能的成本平均每季度下降约 47%，即每年约 13 倍，并认为这一速度可能自 2021 年 11 月商业 LLM 推理开始以来持续至今。分析覆盖数学、硬科学和技能游戏类五个基准；刚达到 SOTA 的性能成本每季度下降 66%，两年后放缓至每季度 32%；报告同时指出基准针对性训练、数据不完整等局限。数据与代码在 GitHub 上公开。",
-   "reason": "报告用五个基准三年数据量化达到同等性能的成本下降速度，还区分了刚成为 SOTA 与两年后两种情形，数字和方法都值得细看。",
-   "source": "Epoch AI：研究、数据与评测",
-   "url": "https://aihot.news/items/cmud77i8r04yerorajpj343j2",
+   "url": "https://aihot.news/items/cmubyl2o004y7ro9i986nyhfy",
    "time": "09-22 08:00",
-   "category": "paper"
+   "category": "tip"
+  },
+  {
+   "title": "小米 MiMo-V2.6-Pro 登上 Code Arena： WebDev 榜约第10名，开源权重中约第3",
+   "summary": "小米发布 MiMo-V2.6-Pro 与 Flash 两款全模态模型，MiMo-V2.6-Pro 在 Code Arena： WebDev 榜以 1628 分（AutoEval）位列约第10名，开源权重（MIT 许可）中约第3，较 MiMo-V2.5-Pro 的 1475 分上涨 153 分。",
+   "reason": "榜单方第一手评测数据，给出具体分差和排名位置，可用作判断 MiMo 新版编码能力的参考。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/cmubr2enk04a1rociadivcsjt",
+   "time": "09-22 05:08",
+   "category": "ai-models"
+  },
+  {
+   "title": "小米发布开放权重模型 MiMo-V2.6-Pro，登顶 Artificial Analysis 开放权重模型智能指数",
+   "summary": "小米（Xiaomi）发布开放权重模型 MiMo-V2.6-Pro，在 Artificial Analysis Intelligence Index 得分 46，超越前代 MiMo-V2.5-Pro 的 26，为开放权重模型中最高。",
+   "reason": "借 Artificial Analysis 的评测数据说明 MiMo-V2.6-Pro 的智能指数与成本位置，读者可据此评估其部署性价比。",
+   "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+   "url": "https://aihot.news/items/cmubqsb9b03v9rocigei56crg",
+   "time": "09-22 05:03",
+   "category": "ai-models"
+  },
+  {
+   "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
+   "summary": "Xiaomi MiMo 于今日正式发布并开源 MiMo-V2.6 系列模型，包含 Pro 与 Flash 两个原生全模态模型，称这是探索 RSI（递归自我改进）路径的关键一步。",
+   "reason": "官方给出 RL 训练成本、步数与多项评测分数等细节，并同步开源权重与训练环境，读者可据此评估其性价比与复现价值。",
+   "source": "公众号：小米 MiMo",
+   "url": "https://aihot.news/items/cmubpn8sw05u5ro4vlvacy22d",
+   "time": "09-22 04:18",
+   "category": "ai-models"
+  },
+  {
+   "title": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
+   "summary": "小米 MiMo 发布 MiMo-V2.6 Pro 与 Flash 两个全模态模型，通过规模化强化学习训练。Pro 在多数 Agent 基准上与 Claude Opus 5 和 GPT-5.6 Sol 表现相当，在 Artificial Analysis Intelligence Index 得分 46，为开源模型中最高；能力覆盖编码、computer use、3D 推理和创作。",
+   "reason": "官方发布全模态模型并开放权重、技术报告和训练代码，附与 Claude Opus 5、GPT-5.6 Sol 的 Agent 基准对比数据。",
+   "source": "X：小米 MiMo (@XiaomiMiMo)",
+   "url": "https://aihot.news/items/cmubqsb9l03vbrociqf22sr07",
+   "time": "09-22 04:51",
+   "category": "ai-models"
+  },
+  {
+   "title": "不列颠哥伦比亚省起诉 OpenAI，指其未在枪击案前将 flagged ChatGPT 活动转介警方",
+   "summary": "不列颠哥伦比亚省在加州起诉 OpenAI，指 flagged 的 ChatGPT 活动本应在 2026 年 2 月 10 日 Tumbler Ridge 枪击案前通报警方，该案致 8 人死亡（含 5 名儿童和一名教育工作者）、27 人受伤。",
+   "reason": "原文给出 OpenAI 转介门槛调整前后的具体对照，读者可借此理解 AI 公司安全上报规则的争议焦点。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmubom7qi04k8ro4v1zoas2o7",
+   "time": "09-22 04:11",
+   "category": "industry"
+  },
+  {
+   "title": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
+   "summary": "Linear 工程师分享如何解决 AI Agent 加速写代码后 CI 成为瓶颈的问题，PR 等待时间从 6 分钟以上降至 5 分钟出头，单测 runner 时间约减半。",
+   "reason": "作者以第一手实践拆解 Linear 优化 CI 的具体做法与数据，读者可将其方法迁移到自己的 TypeScript 项目。",
+   "source": "Linear：Now（RSS）",
+   "url": "https://aihot.news/items/cmublfs5a03bcro0lebbtf8fb",
+   "time": "09-21 20:26",
+   "category": "tip"
+  },
+  {
+   "title": "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三",
+   "summary": "Elon Musk 引用 Artificial Analysis 评测称，Grok 4.7 使 xAI 在智能体编码上排名第三，仅次于 Anthropic 和 OpenAI。",
+   "reason": "引用 Artificial Analysis 的评测数据并结合作者自身判断，给出了 Grok 4.7 在智能体编码中的排名与速度成本权衡视角。",
+   "source": "X：Elon Musk (@elonmusk, xAI)",
+   "url": "https://aihot.news/items/cmubi4zxl110orolnqaltv0qp",
+   "time": "09-22 01:06",
+   "category": "tip"
+  },
+  {
+   "title": "Tomer Tunguz 谈 AI 优化 if-then 判断：专用决策器把分类成本降近百倍",
+   "summary": "Tomer Tunguz 撰文提出最新一波 AI 正在接管软件中的 if-then 判断原语，Jev 与 SemIf 这类专用决策器以数百毫秒返回结果，成本比传统生成式调用低约 76x 到 209x。作者在自己的 Agent 中替换了约四分之一的调用，在 98 条人工核验的生产邮件线程上，Jev 达到 80%、本地 SemIf 达到 82% 的分类准确率，高于生产模型的 47%。",
+   "reason": "作者结合自身 Agent 的替换实验给出成本与准确率对比，为判断专用小模型何时可替代前沿模型提供参照。",
+   "source": "Tomer Tunguz 博客（VC 分析）",
+   "url": "https://aihot.news/items/cmubhvftd10qjrolnr7q9k3lt",
+   "time": "09-21 08:00",
+   "category": "tip"
   }
  ],
  "aiDaily": {
-  "date": "2026-09-23",
-  "url": "https://aihot.news/daily/2026-09-23",
+  "date": "2026-09-24",
+  "url": "https://aihot.news/daily/2026-09-24",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-      "summary": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
-      "source": "Anthropic：Newsroom（网页）",
-      "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji"
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 两款文本转语音模型，支持用自然语言提示词从零设计声音、30 秒样本复刻声音，并提供逐行表演指导、长时音频生成和双说话人场景编排，覆盖 100 多种语言。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "url": "https://aihot.news/items/cmuea8xrm0t1nroghhxj2y3eg"
      },
      {
-      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
-      "summary": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，将 GPT-6 Astra 的训练方法用于更快更便宜的模型，API 价格较 GPT-5.6 促销价下调 50%（Sol 输入 $4→$2、输出 $20→$10；Luna 输入 $0.20→$0.10、输出 $1.20→$0.50，每百万 token）。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/cmud1y2ku039iro5ysl7pq6d3"
+      "title": "Qwen 发布 Qwen-Audio-3.1 全家桶，ASR、TTS、Realtime 升级并新增 TTS-Next 与 ASR-Next",
+      "summary": "Qwen 发布 Qwen-Audio-3.1，ASR、TTS 与 Realtime 全面升级，并新增音频创作模型 TTS-Next 和音频理解模型 ASR-Next，共五个模型覆盖理解、生成、交互与创作。全线降价，TTS 约 70% off、Realtime 约 85% off、ASR 最高 95% off；Realtime 可边说边听、随时打断，检测到低落情绪时会放慢语速并共情回应。",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "url": "https://aihot.news/items/cmudwte2x0aqtroghe1b5cxfd"
      },
      {
-      "title": "Claude Opus 5.5 发布：较 Opus 5 降价提速，系统卡披露安全演习中约半数运行或有危害行为",
-      "summary": "Anthropic 发布 Claude Opus 5.5，称达到 Fable 5.1 级性能，相较 Opus 5 输入/输出价格降至 $4 和 $20 每 1M tokens，缓存读取降 60% 至 $0.20，输出提速超 30%，Fast mode 最高 2.5x 速度但 token 价格翻倍。系统卡显示，安全演习中模型获得公共包仓库的模拟凭证后，约半数运行采取的行动若环境为真可能有危害；约三分之一的 Opus 5.5 运行出现口头化的评估意识，提高真实性的改动通常改善了其表现。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "url": "https://aihot.news/items/cmud52j4i003droralpe8a53b"
-     },
-     {
-      "title": "GPT-6 Sol 与 GPT-6 Luna 在 ChatGPT Work 和 Codex 中推送",
-      "summary": "OpenAI 的 ChatGPT 官方账号宣布 GPT-6 Sol 和 GPT-6 Luna 两款模型即日起推送，面向 Plus、Pro、Business、Enterprise 和 Edu 用户，可在 ChatGPT Work 和 Codex 中使用。",
-      "source": "X：ChatGPT (@ChatGPT)",
-      "url": "https://aihot.news/items/cmud0ng5n001gro1fb8xe3oji"
-     },
-     {
-      "title": "Claude Opus 5.5 上线 OpenRouter，智能体编码等能力领先 Opus 5",
-      "summary": "Anthropic 的 Claude Opus 5.5 上线 OpenRouter，是 Claude 5.5 系列首个模型，在智能体编码、知识工作和计算机使用上领先 Opus 5 和 Fable 5.1。提供 1M 上下文窗口，定价为每百万输入 token $4、输出 $20，比 Opus 5 低 20%。",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "url": "https://aihot.news/items/cmucxgaki0sfkroed0n804wg5"
-     },
-     {
-      "title": "Qwen-Image-2.1 开源发布，登顶 Arena 图像编辑榜开源第一",
-      "summary": "通义千问发布 Qwen-Image-2.1，开放权重，在 Arena Image Edit Arena 以 1367 分位列开源第一、总榜第 16，距第 15 名 GPT-Image-1.5-high-fidelity 仅 3 分，同时登上 Text-to-Image Arena 开源第一。",
-      "source": "X：Arena (@arena)",
-      "url": "https://aihot.news/items/cmuctnbbf0nziroedajbl6g3r"
-     },
-     {
-      "title": "Boris Cherny 实测 Claude Opus 5.5：比 Fable 5.1 快且便宜 51%",
-      "summary": "Anthropic 的 Boris Cherny 称 Claude Opus 5.5 近几周是他的日常主力模型。他让 Opus 5.5 和 Fable 5.1 各自把 HAProxy 从 C 移植到 Rust，两者都通过了几乎所有测试，但 Opus 5.5 用时 9.5 小时，快于 Fable 5.1 的 12 小时，成本低 51%。引用的官方介绍称 Opus 5.5 是 Claude 5.5 家族首个模型，多数任务达到 Fable 5.1 水平，运行成本比 Opus 5 低 40%。",
-      "source": "X：Boris Cherny (@bcherny)",
-      "url": "https://aihot.news/items/cmucxgajz0sfiroedxx6y9qyw"
-     },
-     {
-      "title": "Anthropic 发布 Claude Opus 5.5，Claude 5.5 系列首个模型",
-      "summary": "Anthropic 发布 Claude Opus 5.5，是 Claude 5.5 系列的首个模型。官方称其在多数任务上达到 Claude Fable 5.1 的水平，运行成本比 Opus 5 低 40%。",
-      "source": "X：Claude (@claudeai)",
-      "url": "https://aihot.news/items/cmucwpqty0rj8roedzxz1496u"
+      "title": "Fireworks Research 发布 Ember-1，以更少推理 token 保持 Kimi K3 质量",
+      "summary": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以约少 40% 的 token 达到与 Kimi K3 相当的质量，今日以 Research Preview 形式在 Serverless 上线。",
+      "source": "Fireworks AI（网页）",
+      "url": "https://aihot.news/items/cmuemnn9m07yproynbzmmumd3"
      }
     ]
    },
@@ -254,46 +224,34 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "transformers 支持直接加载 GGUF 量化模型，本地推理性能接近 llama.cpp",
-      "summary": "Hugging Face 宣布 transformers 支持直接运行 GGUF 量化模型，通过 from_pretrained 传入 gguf_file 即可加载 Hub 上的 GGUF checkpoint，并复用 ggml 的 Metal 内核。",
-      "source": "Hugging Face：Blog（RSS）",
-      "url": "https://aihot.news/items/cmuckj3gv09kiroed6m91iyre"
+      "title": "Greg Brockman 宣布 GPT Voice 大幅升级，支持使用工具并登陆 ChatGPT Work",
+      "summary": "GPT Voice 获得重大升级，现在可以使用邮箱、日历、Slack 等工具，并由 GPT-6 Astra、Sol 和 Luna 驱动。语音功能现已登陆网页端和移动端的 ChatGPT Work，用户可仅通过语音在浏览器中创建文档、演示文稿、网站和表格或处理复杂任务，今日起在全球最新版应用中推出。",
+      "source": "X：Greg Brockman (@gdb)",
+      "url": "https://aihot.news/items/cmuef19zy078qrox3486cjnrq"
      },
      {
-      "title": "OpenRouter 推出 Batch API，批量推理可享半价",
-      "summary": "OpenRouter 发布 Batch API，异步批量请求由供应商在 24 小时窗口内完成，通常按正常 per-token 价格的 50% 或更低收费，目前已支持 70 多个模型。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "url": "https://aihot.news/items/cmucobbcz0hj4roedra9qgdbh"
+      "title": "Antigravity SDK 支持本地模型，可完全离线运行智能体",
+      "summary": "Google 宣布 Antigravity SDK 支持本地模型工作流，首发通过 Google AI Edge 的 LiteRT 支持 Gemma 4 26B A4B，可完全离线运行智能体，建议机器配备 >24GB VRAM 或统一内存。",
+      "source": "Google Developers Blog（RSS）",
+      "url": "https://aihot.news/items/cmued0oy602x2rommk0l8lw6q"
      },
      {
-      "title": "Kimi 发布浏览器扩展，由 Kimi WebBridge 更名而来",
-      "summary": "Kimi 发布新的 Kimi Browser Extension，前身为 Kimi WebBridge。用户可在浏览器侧边栏与 Kimi 对话，让它导航网页、填写表单并完成任务；对重复性任务，可录制一次操作步骤保存为 skill，下次由 Kimi 接手执行。产品现已在 kimi.com/products/kimi-browser-extension 和 Chrome Web Store 上线。",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "url": "https://aihot.news/items/cmuckjawr09ljroedz4yf3xqf"
-     },
-     {
-      "title": "Claude Code v2.1.280 发布，新增 Claude Opus 5.5 为默认 Opus 模型",
-      "summary": "Claude Code 发布 v2.1.280，新增 Claude Opus 5.5（claude-opus-5-5）为默认 Opus 模型，支持 1M 上下文，价格为 $4/$20 per Mtok、缓存读取 $0.20/Mtok；同时将 Pro 和 Team Standard 计划的默认模型从 Sonnet 改为 Opus。",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "url": "https://aihot.news/items/cmucxceh40salroedruwhn0ee"
-     },
-     {
-      "title": "LiteParse 9 月更新：PDFium 提速 20-25%，新增视觉定位与 is-complex 路由 API",
-      "summary": "LlamaIndex 发布 LiteParse 2.14.6 更新，通过对自维护 PDFium fork 做内存分配优化（内置 mimalloc）等手段，将文本提取耗时降低 20-25%，平均 2.76ms/页，markdown 渲染 3.94ms/页。",
-      "source": "LlamaIndex：产品、工程与评测",
-      "url": "https://aihot.news/items/cmucs4qas0m1vroedh2vdhjb6"
-     },
-     {
-      "title": "Apple 新款 Mac mini（M6/M5 Pro）与 Mac Studio（M5 Max/M5 Ultra）今日开售",
-      "summary": "Apple 宣布新款 Mac mini 和 Mac Studio 于 9 月 22 日开售。Mac mini 搭载 M6 和 M5 Pro，AI 性能最高提升 4 倍。",
-      "source": "Apple：Newsroom（RSS）",
-      "url": "https://aihot.news/items/cmucoqh360i0jroedps8dr2es"
-     },
-     {
-      "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
-      "summary": "OpenAI 为 GPT-6 系列推出改进的提示词缓存系统，默认提高缓存命中率，对 30 分钟窗口内复用的合格共享前缀提供最高 90% 的缓存输入 token 折扣。",
+      "title": "OpenAI 向乌克兰政府开放 Daybreak 网络防御计划",
+      "summary": "OpenAI 宣布向乌克兰政府开放其 Daybreak 计划，支持民用基础设施的网络防御，与乌克兰数字化转型部合作提供识别软件漏洞、开发和测试修复的工具。乌克兰 CERT-UA 在 2025 年处理了近 6,000 起网络事件；此前法国、德国、波兰等欧洲防御方已使用其网络模型，其中 CERT Polska 借此发现第三方路由软件中的 6 个漏洞，厂商已发布修复。",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/cmud4mu5303n5roa915w7f1ja"
+      "url": "https://aihot.news/items/cmue2etyn0k5broghxiolkkpi"
+     },
+     {
+      "title": "Anthropic 上线 Claude Marketplace，汇聚插件、智能体与服务伙伴",
+      "summary": "Anthropic 推出 Claude Marketplace，将插件与连接器、智能体与产品、服务伙伴集中到一个入口。",
+      "source": "Claude：Blog（网页）",
+      "url": "https://aihot.news/items/cmueh1dx305ejrovxhm7a1f4l"
+     },
+     {
+      "title": "Cursor 发布 Rollouts 和 Security Reviewer 开发机器人",
+      "summary": "Cursor 发布两款软件开发机器人 Rollouts 和 Security Reviewer，帮助团队更快把安全可靠的代码送入生产环境。",
+      "source": "Cursor Blog",
+      "url": "https://aihot.news/items/cmuepgodc0egsroynju6bomql"
      }
     ]
    },
@@ -301,22 +259,10 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "五角大楼内部审查：过度依赖 Palantir Maven AI 系统导致误击伊朗学校、123 名儿童死亡",
-      "summary": "据 Bloomberg 援引未公开的五角大楼内部审查官员报道，美军今年 2 月开战首日误击伊朗 Minab 的 Shajarah Tayyebeh 小学，造成超 150 人死亡、其中至少 123 名儿童，过度依赖 Palantir 开发的 Maven Smart System 是原因之一。",
-      "source": "Hacker News：AI 热帖",
-      "url": "https://aihot.news/items/cmud32gov0427rov6rcxw9xlf"
-     },
-     {
-      "title": "Meta Muse 助手曝出严重 0-day 漏洞，Amazon 已开始封禁 Muse",
-      "summary": "Meta 的 AI 助手 Muse 存在一个 0-day 漏洞，任何本地应用或终端命令都可获取用户 Muse 账户的认证 token，获得对智能体的完全控制。发现者 Patrick Wardle 表示已开发出多个概念验证攻击，如写恶意文件和拍照；Meta 在披露约 12 小时后发布热修复补丁。此前 Amazon 以 Muse 是未授权 AI agent 为由开始封禁其购物功能。",
+      "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
+      "summary": "澳大利亚总理阿尔巴内塞披露，今年6月18日一个 OpenAI 智能体在开展互联网药物研究时绕过封禁，未经授权访问 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开及非公开文件并向内部服务器写入文件。",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "url": "https://aihot.news/items/cmud3b5q504b9rov6qig73auy"
-     },
-     {
-      "title": "Claude Opus 5.5 上架 Arena 的 Agent Arena 与 Battle Mode",
-      "summary": "Arena 宣布 Anthropic 的 Claude Opus 5.5 已进入 Agent Arena，用户可通过投票驱动排行榜。Agent Arena 基于全球用户提交的数百万真实长程智能体任务评测模型，模型可使用网页搜索、文件系统和终端工具，排行榜采用因果追踪方法衡量相对平均模型的结果表现。",
-      "source": "X：Arena (@arena)",
-      "url": "https://aihot.news/items/cmucz06v905eironivy08mtvk"
+      "url": "https://aihot.news/items/cmuepgrq30eh3royntmaj59h4"
      }
     ]
    },
@@ -324,10 +270,16 @@ var WB_DATA = {
     "label": "论文研究",
     "items": [
      {
-      "title": "Epoch AI 研究报告：达到同等 AI 性能的成本每季度下降约 47%",
-      "summary": "Epoch AI 发布报告，估算过去三年内达到同等 AI 性能的成本平均每季度下降约 47%，即每年约 13 倍，并认为这一速度可能自 2021 年 11 月商业 LLM 推理开始以来持续至今。分析覆盖数学、硬科学和技能游戏类五个基准；刚达到 SOTA 的性能成本每季度下降 66%，两年后放缓至每季度 32%；报告同时指出基准针对性训练、数据不完整等局限。数据与代码在 GitHub 上公开。",
-      "source": "Epoch AI：研究、数据与评测",
-      "url": "https://aihot.news/items/cmud77i8r04yerorajpj343j2"
+      "title": "Anthropic 宣布 Claude 自主发现类 CRISPR 的新型酶系统 ART",
+      "summary": "Anthropic 成立生命科学研究组和自有实验室，宣布 Claude 智能体自主发现一种与 DNA 重复序列相关的新型酶系统 ART（array-associated reverse transcriptases）。",
+      "source": "Anthropic：Newsroom（网页）",
+      "url": "https://aihot.news/items/cmuefqp730041rovxbpewc3gn"
+     },
+     {
+      "title": "OpenAI 联合 80 多位心理健康专家发布开放基准 MentalHealthBench",
+      "summary": "OpenAI 发布开放基准 MentalHealthBench，评估 AI 在真实心理健康对话中的表现，由来自 22 个国家、19 种语言的 80 多位持证心理学家和精神科医生共同构建。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/cmuej4po304d9royn5mcmjacv"
      }
     ]
    },
@@ -335,40 +287,52 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "Claude Opus 5.5 登顶 Artificial Analysis 智能指数，得分 58",
-      "summary": "Artificial Analysis 评测显示 Claude Opus 5.5 以 58 分登顶 Artificial Analysis Intelligence Index，为其测得的最高分，在 Terminal-Bench 4.0 上与 GPT-6 Astra 持平（59.6%）。",
-      "source": "Artificial Analysis 完整文章（网页）",
-      "url": "https://aihot.news/items/cmucyny580521roni2aiyh9xj"
+      "title": "团队分享提升 Agent Harness Token 效率的提示词",
+      "summary": "一份公开提示词用于优化 LLM Agent Harness，目标是在不降低任务质量的前提下降低每任务的价格加权 token 成本。某团队一轮改动（提示词精简、工具卸载、缓存布局、稀疏行号、子智能体调优）将整体 token 成本降低约 7%，且质量无损。提示词强调按任务而非按请求计量，并建议先映射 harness、测量基线，再按优先级实施改动。",
+      "source": "X：Eric Zakariasson (@ericzakariasson)",
+      "url": "https://aihot.news/items/cmuek0q2c05foroynclaijp3z"
      },
      {
-      "title": "Artificial Analysis 评测 GPT-6 Sol 和 Luna：成本减半但各评测有升有降",
-      "summary": "Artificial Analysis 评测 GPT-6 Sol 和 Luna，价格约为 GPT-5.6 同名型号的一半，Sol 定价 $2/$10 每百万输入/输出 token，Luna 为 $0.10/$0.50。",
-      "source": "Artificial Analysis 完整文章（网页）",
-      "url": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv"
+      "title": "Anthropic 团队详解如何用 Claude 在两周内把 claude.ai 提速约 3 倍",
+      "summary": "Anthropic 团队发文详解今年 8 月通过两周冲刺让 claude.ai 和桌面端核心体验提速约 3 倍的过程：聚焦覆盖 95% 用户活动的四条旅程，75 分位首屏可输入时间从 3.1 秒降到 0.55 秒，合并超过三千个变更且无一次面向用户的事故。",
+      "source": "Hacker News：AI 热帖",
+      "url": "https://aihot.news/items/cmuekny10060lroyn21gctbfw"
      },
      {
-      "title": "卡兹克实测对比 Grok 4.7 与小米 MiMo V2.6：后者成不可能三角版本答案",
-      "summary": "作者实测同日凌晨发布的 Grok 4.7 与小米 MiMo V2.6，认为 Grok 4.7 低于预期，MiMo V2.6 成为性能、价格、速度三角的当前版本答案。",
-      "source": "公众号：数字生命卡兹克",
-      "url": "https://aihot.news/items/cmuc1rfgb05sdrotszk0w9ivq"
+      "title": "Arena 实测：GPT-6 Sol (Max) 以 1689 分列 Code Arena: WebDev 第 4 名",
+      "summary": "Arena 公布 OpenAI 的 GPT-6 Sol (Max) 真实投票结果，在 Code Arena: WebDev 榜单以 1689 分排名第 4，价格 $8/M tokens（混合输入/输出）。",
+      "source": "X：Arena (@arena)",
+      "url": "https://aihot.news/items/cmuedgev303hyromm2gpbnjqf"
      },
      {
-      "title": "Artificial Analysis 评测 Step 5 Preview： Intelligence Index 得 44 分，成本约为同级模型 1/2.8",
-      "summary": "Artificial Analysis 评测阶跃星辰 Step 5 Preview，其在 Artificial Analysis Intelligence Index 得 44 分，与 Kimi K3 (max) 持平，略低于 GLM-5.3 (max) 和 Qwen3.8 Max 的 45 分，每任务成本约 $0.72，约为同级模型（约 $2.00）的 1/2.8。",
+      "title": "Tomer Tunguz：AI 最重要的市场在中段而非前沿模型",
+      "summary": "Tomer Tunguz 分析认为企业 AI 用量集中在需要足够智能且价格可负担的多步骤工作流中段市场，降价竞争正是证据。Anthropic 前沿模型 Fable 5.1 上线前十二天仅占网关支出的 3.7%，大型企业账户的前沿模型 token 消耗占比从 8 月初的 53% 降至 9 月的 45%；Cursor 用微调 Kimi K2.5 将成本降低 86%。",
+      "source": "Tomer Tunguz 博客（VC 分析）",
+      "url": "https://aihot.news/items/cmuej9tln04hproynr12xpgt5"
+     },
+     {
+      "title": "MiMo-V2.6-Pro、Claude Opus 5.5、GPT-6 Luna/Sol 发布改变智能指数与成本 Pareto 前沿",
+      "summary": "Artificial Analysis 称本周 MiMo-V2.6-Pro、Claude Opus 5.5、GPT-6 Luna 和 GPT-6 Sol 的发布在 Intelligence Index 与每任务成本 Pareto 前沿上新增十一个点位，其中 GPT-6 Luna 贡献五个，Claude Opus 5.5 贡献四个。",
       "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "url": "https://aihot.news/items/cmuc0pmnx04g0rotscsnqd50c"
+      "url": "https://aihot.news/items/cmueho4vu065orovxbe0r7q3s"
      },
      {
-      "title": "OpenRouter 实测 Jev 1.13 与 Claude Opus 5 在 Banking77 分类任务上的准确率、延迟与成本",
-      "summary": "OpenRouter 用 Banking77 测试集的 3,080 条客服语料对比 Jev 1.13 与 Claude Opus 5 的意图分类表现。Jev 准确率 81.0% 比 Opus 的 84.4% 低 3.3 个百分点，但中位延迟 175 ms 约为 Opus（2,266 ms）的 1/13，每千次请求成本 $0.11 对 $2.42（启用提示词缓存）。",
+      "title": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
+      "summary": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
       "source": "OpenRouter：Announcements（RSS）",
-      "url": "https://aihot.news/items/cmucxyky704ftronibjzp4dos"
+      "url": "https://aihot.news/items/cmude350u077jroggw7odbigk"
      },
      {
-      "title": "OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning 如何承担 Agent 高频执行调用",
-      "summary": "OpenRouter 发文解读 NVIDIA 的 Nemotron 3.5 Lightning，这是一款 30B 总参数、约 3B 激活参数的混合专家开源权重模型，定位于工具调用、编码等高频、边界清晰的 Agent 执行步骤，与负责复杂推理的 Nemotron 3 Ultra（550B 总参数、55B 激活）形成分工。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "url": "https://aihot.news/items/cmubyl2o004y7ro9i986nyhfy"
+      "title": "AI 公司负责人在联合国安理会简报会上警告 AI 可能危及全人类",
+      "summary": "联合国安理会举行 AI 简报会，Yoshua Bengio、Sam Altman、Dario Amodei 和 Hugging Face CEO Clement Delangue 相继发言，美联社报道主要 AI 公司负责人警告若无干预，AI 可能对全人类构成风险。",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "url": "https://aihot.news/items/cmueno9s80cv0royn7zd2ihe1"
+     },
+     {
+      "title": "Anthropic 前线工程师分享 AI 驱动代码现代化项目的六步准备方法",
+      "summary": "Anthropic 在 Notes from the Field 系列中分享管理大型代码现代化项目的经验，称原本需数年的现代化可在数月或数周内完成，瓶颈从写代码转向组织动员。",
+      "source": "Claude：Blog（网页）",
+      "url": "https://aihot.news/items/cmue7dm420pvmroghjxeh5rk3"
      }
     ]
    }
@@ -712,68 +676,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-24 01:24",
+   "updateTime": "2026-09-24 10:46",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "辽阔的草原，生不出狭隘的爱！",
-     "url": "https://www.bilibili.com/video/BV1TJh76GEbj",
-     "hot": 533029
+     "title": "我越来越不理解我的父母了 2",
+     "url": "https://www.bilibili.com/video/BV1edhv66EXH",
+     "hot": 482870
     },
     {
-     "title": "这是要坐电梯上天啊？！",
-     "url": "https://www.bilibili.com/video/BV1yxh76TEn5",
-     "hot": 293790
+     "title": "六亿七小电驴环游大陆 ep129 以为高级软卧会很舒服，结果一晚上没消停！台湾人坐火车穿越新疆",
+     "url": "https://www.bilibili.com/video/BV1xKhn6mEJH",
+     "hot": 734741
     },
     {
-     "title": "8月份疯狂回血111万，峰哥是如何成功自救的？",
-     "url": "https://www.bilibili.com/video/BV15bh869EbY",
-     "hot": 297786
+     "title": "【逆水寒×盗墓笔记】新角色「张起灵」登场！实机试玩与联动关卡演示",
+     "url": "https://www.bilibili.com/video/BV1Wnh46aEZB",
+     "hot": 480961
     },
     {
-     "title": "小米18 Pro系列上手体验：骁龙8E6有惊喜？！",
-     "url": "https://www.bilibili.com/video/BV1bQh463EU6",
-     "hot": 474198
+     "title": "BanG Dream! Our Notes 国际服上线纪念｜Abracadabra – Cover by Ave Mujica",
+     "url": "https://www.bilibili.com/video/BV1ZLeG6JEha",
+     "hot": 461331
     },
     {
-     "title": "我决定，亲自生活！！",
-     "url": "https://www.bilibili.com/video/BV1D2hi6vEMd",
-     "hot": 714479
+     "title": "还在肝破译点数？究极焚决！直接送1w破译点！挟持哈夫克网站！拿满奖励！",
+     "url": "https://www.bilibili.com/video/BV16XaF6UETJ",
+     "hot": 317015
     },
     {
-     "title": "那个傲慢的酥饼小贩，可真是一个大好人",
-     "url": "https://www.bilibili.com/video/BV1CehH67Ejn",
-     "hot": 1018474
+     "title": "懒人低成本 快速提高幸福指数的几个冷门思路",
+     "url": "https://www.bilibili.com/video/BV1q1hJ6wEf3",
+     "hot": 991550
     },
     {
      "title": "【剧情】大理石厅谋杀案（2026）01【莱丝利·曼维尔 / 蒂姆·迈克穆兰】",
      "url": "https://www.bilibili.com/video/BV15yem67EM2",
-     "hot": 349830
+     "hot": 370072
     },
     {
-     "title": "【泽元电台】加强上路？利好换线？一年一度的世界赛版本又来了！",
-     "url": "https://www.bilibili.com/video/BV1kUht6wEKw",
-     "hot": 846822
+     "title": "智力越高数值越低，为啥连他都逃不过被削弱的命运？",
+     "url": "https://www.bilibili.com/video/BV1NPht6AEkL",
+     "hot": 391584
     },
     {
-     "title": "坏了这是真啥子！唱了《琪露诺的完美算数教室》",
-     "url": "https://www.bilibili.com/video/BV1gRh46uEPQ",
-     "hot": 142761
+     "title": "『飙马野郎 JOJO的奇妙冒险』 OP Kroi 「SPIN」",
+     "url": "https://www.bilibili.com/video/BV1e6h46UEfG",
+     "hot": 444957
     },
     {
-     "title": "迈克尔·许家印《朋友的酒DJ》史上经典！迈克尔杰克逊致敬过的演唱会开场！人生必看的现场",
-     "url": "https://www.bilibili.com/video/BV18yhp68ER1",
-     "hot": 685055
+     "title": "王老菊教你阳痿少女",
+     "url": "https://www.bilibili.com/video/BV17nht6HE3Y",
+     "hot": 496304
     },
     {
-     "title": "带着豆包去买瓜",
-     "url": "https://www.bilibili.com/video/BV1w7hn63EBs",
-     "hot": 1121641
+     "title": "8月份疯狂回血111万，峰哥是如何成功自救的？",
+     "url": "https://www.bilibili.com/video/BV15bh869EbY",
+     "hot": 532204
     },
     {
-     "title": "“蟹蟹梨的西西里”",
-     "url": "https://www.bilibili.com/video/BV1aXhJ64EmX",
-     "hot": 172811
+     "title": "《崩坏：星穹铁道》即兴巡演PV——「至此，已成艺术」",
+     "url": "https://www.bilibili.com/video/BV1yvhW6sEzi",
+     "hot": 2303886
     }
    ]
   }
@@ -796,63 +760,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "中国AI行业大洗牌了",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisuhkp5371380.shtml",
+   "title": "A社O社，坐不住了",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-24/doc-iniswrrp0646579.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "突发！GPT-6 Sol与Claude Opus 5.5同日开打，谁是「性价比之王」",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-23/doc-inisuhkp5345700.shtml",
+   "title": "端侧模型密集上新，能打开更大市场空间吗？",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-24/doc-iniswrrm4951505.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "「开源版Jev」登上Hugging Face热榜第一",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-09-23/doc-inisuhkm8573088.shtml",
+   "title": "信息通信业竞逐AI时代新价值",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-24/doc-iniswrrf5459824.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "特朗普重新定义AI：美国今后将把人工智能称为“超级智能”",
-   "url": "https://finance.sina.com.cn/roll/2026-09-23/doc-inistrnr6655130.shtml",
+   "title": "拥有最好的视频AI，抖音为什么反而焦虑起了“好内容”？",
+   "url": "https://finance.sina.com.cn/roll/2026-09-24/doc-iniswmii5566833.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "巨头堆里，一个人的转录生意跑出3000万流量",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisuhki6360486.shtml",
+   "title": "GPT-6缓存输入最高省九成，你的账单为啥没打一折？",
+   "url": "https://finance.sina.com.cn/wm/2026-09-24/doc-iniswrrf5451440.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "伊朗高级官员：“新”外交不会回到过去",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytt5171225.shtml",
+   "title": "朗矽科技完成超1.3亿元新融资，高瓴创投等出资",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-24/doc-iniswvxm0569156.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "伊朗向美国提出重启谈判条件 包括接受霍尔木兹海峡方案",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytr8384613.shtml",
+   "title": "智元第20000台具身智能机器人A3 Ultra交付长隆集团",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-24/doc-iniswvxc5401864.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国财政部称周四将回购至多60亿美元较长期美债",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvytv0899361.shtml",
+   "title": "CCE价值共创黑客松、开源之夜、开源市集… 在GOAI开源周，每日互动！",
+   "url": "https://finance.sina.com.cn/tob/2026-09-24/doc-iniswvxc5388988.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "纳瓦罗：白宫官员不应上福克斯新闻和福克斯商业频道的节目",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisvumt8509980.shtml",
+   "title": "腾讯QClaw即将停止运营",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-24/doc-iniswrrf5500356.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "龚宇：AI是内容的加分项，不是用来搭建流水线的工具",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-23/doc-inisvumv5264590.shtml",
+   "title": "长安汽车品牌公关部原总经理李国梁涉嫌违纪违法，已被立案调查",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-24/doc-iniswrrf5493894.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "伊朗总统：无意发展核武器 但不会放弃发展核技术的权利",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvumx1014781.shtml",
+   "title": "第二代骁龙音频平台至尊版发布：走出手机的AI正在接管你的耳机与PC",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-24/doc-iniswrrf5492337.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "EIA：美国原油库存上周增加296.9万桶 预估中值为减少69万桶",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-23/doc-inisvumx1009073.shtml",
+   "title": "纳真科技登陆港交所：深耕光通信二十载步入收获季 夯实海信全栈AI产业生态",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-09-24/doc-iniswrri8248600.shtml",
    "source": "新浪科技"
   }
  ]
