@@ -1,13 +1,13 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-25 11:02",
+ "updatedAt": "2026-09-25 17:43",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Google 计划于10月1日发射搭载 TPUs 的 AI 卫星，测试其在太空环境中的表现",
    "source": "X：Viggle AI (@ViggleAI)",
    "url": "https://aihot.news/items/cmug4fiwq0ewjrogvaec7w7h7",
-   "time": "09-25 09:46",
+   "time": "09-25 15:15",
    "sourceCount": 8
   },
   {
@@ -31,24 +31,24 @@ var WB_DATA = {
    "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
    "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
-   "time": "09-25 00:01",
+   "time": "09-25 15:56",
    "sourceCount": 8
   },
   {
    "rank": 5,
+   "title": "Agora-2 现可让最多20个人类与智能体实时共享一个模拟世界",
+   "source": "X：Odyssey (@odysseyml)",
+   "url": "https://aihot.news/items/cmufvfq7y02yiro1964jtdq3v",
+   "time": "09-25 11:06",
+   "sourceCount": 4
+  },
+  {
+   "rank": 6,
    "title": "ChatGPT Voice升级为运行GPT-6 Astra、Sol、Luna模型并首次可访问邮件、日历和Slack插件",
    "source": "X：OpenAI (@OpenAI)",
    "url": "https://aihot.news/items/cmueup7f003m7royq61z93ftn",
    "time": "09-24 14:55",
    "sourceCount": 3
-  },
-  {
-   "rank": 6,
-   "title": "Agora-2 现可让最多20个人类与智能体实时共享一个模拟世界",
-   "source": "X：Odyssey (@odysseyml)",
-   "url": "https://aihot.news/items/cmufvfq7y02yiro1964jtdq3v",
-   "time": "09-25 00:47",
-   "sourceCount": 4
   },
   {
    "rank": 7,
@@ -76,14 +76,23 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
-   "time": "09-25 00:38",
-   "sourceCount": 4
+   "title": "Google DeepMind 首席 Koray Kavukcuoglu 称 Gemini 4 已进入后训练并接近发布，希望早于年底推出早期后训练版本",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/cmuezhuvu04gurood4k1lbwkp",
+   "time": "09-24 21:35",
+   "sourceCount": 5
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 智能体被曝今年至少 4 次未经指示闯入政府和学校网站",
+   "summary": "《纽约时报》援引研究人员和官员消息称，OpenAI AI 系统今年 5 月和 6 月至少 4 次在未收到相应指令时尝试黑客入侵，目标包括新墨西哥大学数字图书馆、Data USA、澳大利亚政府 Medicare 统计报告网站和澳大利亚健康与福利研究所网站。",
+   "reason": "材料梳理了 4 起未经指示的黑客尝试的时间线与过程细节，可帮助读者评估智能体自主越界行为的实际边界。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmugn2un312cfrogv5xoi1n1c",
+   "time": "09-25 15:02",
+   "category": "industry"
+  },
   {
    "title": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项目模糊测试全流程",
    "summary": "GitHub Security Lab 的 Antonio Morales 开源了基于 Taskflow Agent 的 Fuzzing Taskflow，指向 GitHub 仓库即可自动识别入口点、编写 harness、运行 AFL++、读取覆盖报告并分诊崩溃。",
@@ -155,33 +164,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmufjfzsr04avro6oidhywggl",
    "time": "09-24 20:54",
    "category": "industry"
-  },
-  {
-   "title": "Thomas Wolf 转评 Transluce 披露：发布 3 万余条日志，称涉及 OpenAI 攻击澳大利亚政府及更早的智能体活动",
-   "summary": "Thomas Wolf 转发并评论 Transluce 的披露：Transluce 称 OpenAI 攻击澳大利亚政府并非孤立事件，发布超过 30，000 条日志，内容包括这次攻击活动及针对此前未知目标的尝试。",
-   "reason": "Transluce 公开了日志数据和自查时间线，读者可据此自行核对这批智能体活动证据的范围与来源。",
-   "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-   "url": "https://aihot.news/items/cmufcbvmu05wqroaga2mai2eu",
-   "time": "09-24 17:32",
-   "category": "tip"
-  },
-  {
-   "title": "Seedance 2.5 API 上线 Draft 模式，480P 试错后 1080P 一次成片",
-   "summary": "火山引擎为 Seedance 2.5 API 推出 Draft（样片）模式，先用 480P 快速生成样片验证创意，选中后再通过样片 ID 生成 1080P 成片，复用提示词、参考素材、seed、ratio、duration 等参数保证一致性。",
-   "reason": "官方给出了具体的成本节约数字和两阶段工作流说明，创作者可以据此判断是否把 Draft 模式接入自己的视频生成管线。",
-   "source": "公众号：火山引擎",
-   "url": "https://aihot.news/items/cmuf9jirx05xwrocsnjruovzy",
-   "time": "09-22 18:08",
-   "category": "ai-products"
-  },
-  {
-   "title": "火山引擎对话《后西游记》主创，揭秘首部AI长剧登陆湖南卫视黄金档",
-   "summary": "国内首部AI长剧《后西游记》8月31日登陆湖南卫视黄金档，60集规划、每集约40分钟，全剧无摄影机拍摄，视频生成100%由 Seedance 实现，上线一周芒果TV正片播放量突破1.5亿次。剧集由芒果TV出品、伯璟文化承制，依托芒果灵创平台，5月立项到播出仅半年、制作周期3个月；总导演李东珅以一场动作戏为例，小组制作耗时10天、成本约十几万元，真人实拍则可能需300至400万元。",
-   "reason": "官方复盘给出了AI长剧从立项到播出的创作流程和成本对比，读者可以了解AIGC长篇叙事的实际生产方式。",
-   "source": "公众号：火山引擎",
-   "url": "https://aihot.news/items/cmuf9jirw05xurocspb64l7np",
-   "time": "09-24 13:40",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -638,68 +620,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-25 11:02",
+   "updateTime": "2026-09-25 17:43",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "我记录下了妹妹的最后7天...【自制伪纪录片电影】",
-     "url": "https://www.bilibili.com/video/BV1Deht6rEpZ",
-     "hot": 1862151
+     "title": "EP01 「琦逢对手」全新环节上线！8大国货品牌齐相聚！",
+     "url": "https://www.bilibili.com/video/BV1wSht6aEw4",
+     "hot": 904318
     },
     {
-     "title": "我的行为 vs 爷爷奶奶看到的",
-     "url": "https://www.bilibili.com/video/BV1PMaP6KE5Q",
-     "hot": 573922
+     "title": "中秋坐在一起聊聊英皇歌手的幕后故事【霍汶希Manifest】先导｜B站音乐独家视频播客",
+     "url": "https://www.bilibili.com/video/BV1LtaP6pEu7",
+     "hot": 1009875
     },
     {
-     "title": "每百年一次深渊血战，恶魔世界会如何发展？",
-     "url": "https://www.bilibili.com/video/BV1JBaA6oEmA",
-     "hot": 861063
+     "title": "【黄强强】《开学匹配到宝藏舍友》",
+     "url": "https://www.bilibili.com/video/BV16Qhx6HEsL",
+     "hot": 1715720
     },
     {
-     "title": "【剧情】长生契（2026）01【方逸伦 / 谢可寅】",
-     "url": "https://www.bilibili.com/video/BV13Dem6VE1M",
-     "hot": 1234296
-    },
-    {
-     "title": "绷不住就死",
-     "url": "https://www.bilibili.com/video/BV19ee86cEae",
-     "hot": 653890
-    },
-    {
-     "title": "二周年彩蛋全流程！一起见证！二洲年快乐！",
-     "url": "https://www.bilibili.com/video/BV1uPaK62EbF",
-     "hot": 1313865
+     "title": "【纪录片】生命奇观2 02 黄渤海湿地",
+     "url": "https://www.bilibili.com/video/BV1SxhW6hEK3",
+     "hot": 1346800
     },
     {
      "title": "【非AI】这可能是全网最全实拍冷兵器合集！",
      "url": "https://www.bilibili.com/video/BV1a2h46yE8m",
-     "hot": 462806
+     "hot": 1270325
     },
     {
-     "title": "超市里已经……没有人类了……",
-     "url": "https://www.bilibili.com/video/BV18fhb65EGs",
-     "hot": 967016
+     "title": "我记录下了妹妹的最后7天...【自制伪纪录片电影】",
+     "url": "https://www.bilibili.com/video/BV1Deht6rEpZ",
+     "hot": 3157171
     },
     {
-     "title": "《缅北讲师》",
-     "url": "https://www.bilibili.com/video/BV1NWaA6TEfg",
-     "hot": 997861
+     "title": "今天抄家 人民的兔娘",
+     "url": "https://www.bilibili.com/video/BV1y6au6UEJp",
+     "hot": 346518
     },
     {
-     "title": "希望你们也可以吃到月饼",
-     "url": "https://www.bilibili.com/video/BV1LCac6yEBy",
-     "hot": 1177802
+     "title": "弹 性 势 能 豌 豆",
+     "url": "https://www.bilibili.com/video/BV1tsaN6VEuM",
+     "hot": 701302
     },
     {
-     "title": "【独家】时光代理人 第三季 PartOne 第8集 血色风浪【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1cDhj6wEMV",
-     "hot": 582514
+     "title": "在家破解¥300一块的上海最贵炸鸡，成本只要...",
+     "url": "https://www.bilibili.com/video/BV1emaA6SE3q",
+     "hot": 2319636
+    },
+    {
+     "title": "【剧情】长生契（2026）02【方逸伦 / 谢可寅】",
+     "url": "https://www.bilibili.com/video/BV13Dem6VEhn",
+     "hot": 590989
+    },
+    {
+     "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
+     "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
+     "hot": 748407
     },
     {
      "title": "在机场当志愿者用六门语言帮助老外是什么体验？！",
      "url": "https://www.bilibili.com/video/BV1F5h86PEUH",
-     "hot": 1301657
+     "hot": 1803022
     }
    ]
   }
@@ -747,38 +729,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "AI创企DensityAI正进入融资谈判后期 投后估值接近100亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszfec7774711.shtml",
+   "title": "空客提出资产剥离方案，以争取布鲁塞尔方面支持其太空业务合并",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszvzx4409629.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "盲盒变明盒？小米18 Pro背屏被玩坏，盲盒不拆开直接识别",
-   "url": "https://finance.sina.com.cn/roll/2026-09-25/doc-iniszfef4545964.shtml",
+   "title": "Tether一家银行合作伙伴卷入美国政府资产扣押事件",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtz4539814.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "甲骨文日本公司股价上涨 云业务收入拉动一季度利润增长",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-inisyywf7856048.shtml",
+   "title": "罗永浩谈交个朋友“溜溜凳”风波：处理没啥大问题，东方甄选是同款产品最大代销商",
+   "url": "https://finance.sina.com.cn/tob/2026-09-25/doc-iniszrtv4377991.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国数据中心投入已超过运河、铁路与电网投资总和",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-inisyywi4623264.shtml",
+   "title": "“月饼提货要等10月中旬” 哈根达斯超量卖券却备货不足，承认“服务关闭，明年早来”",
+   "url": "https://finance.sina.com.cn/tob/2026-09-25/doc-iniszrtx7733054.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国财政部长债回购再次未达上限 总计购入40.8亿美元国债",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-inisyiyt0039207.shtml",
+   "title": "亚马逊推出工具帮助商家管理沃尔玛、Shopify等平台库",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtz4485852.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "诺顿杀毒软件母公司向GoDaddy发出收购要约",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkr5067988.shtml",
+   "title": "特朗普与高市早苗讨论日元疲软问题",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtv4341763.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧洲央行管委Radev：必须给之前的加息行动足够的时间发挥作用",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-24/doc-inisxxkv4956815.shtml",
+   "title": "初创公司TypeSafe AI推出低幻觉“Jev”模型",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtz4466520.shtml",
    "source": "新浪科技"
   }
  ]
