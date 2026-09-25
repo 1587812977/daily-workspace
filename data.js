@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-25 17:43",
+ "updatedAt": "2026-09-26 01:28",
  "aihotHot": [
   {
    "rank": 1,
@@ -15,19 +15,27 @@ var WB_DATA = {
    "title": "Anthropic分享早期研究结果：Claude自主发现与CRISPR样重复阵列相关的新型酶系统ART",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/cmuefqp730041rovxbpewc3gn",
-   "time": "09-25 00:04",
-   "sourceCount": 8
+   "time": "09-25 17:27",
+   "sourceCount": 9
   },
   {
    "rank": 3,
-   "title": "Google发布Gemini 3.8 Flash TTS语音合成模型",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/cmuea8xrm0t1nroghhxj2y3eg",
-   "time": "09-25 00:28",
-   "sourceCount": 11
+   "title": "宣布 Copilot 迄今最大更新，将 Autopilot、Code、Home 和 Office 整合在一起，并可在 Teams 中调用 Copilot",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/cmugxssng1h79rogvb7o30o9u",
+   "time": "09-26 00:30",
+   "sourceCount": 6
   },
   {
    "rank": 4,
+   "title": "LongCat-2.5-Preview现已上线，含1.6T参数、约48B活跃参数、1M token上下文窗口，原生多模态",
+   "source": "X：美团 LongCat (@Meituan_LongCat)",
+   "url": "https://aihot.news/items/cmuh2q4570711rolzphy03l0t",
+   "time": "09-26 00:24",
+   "sourceCount": 2
+  },
+  {
+   "rank": 5,
    "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
    "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
@@ -35,7 +43,7 @@ var WB_DATA = {
    "sourceCount": 8
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "Agora-2 现可让最多20个人类与智能体实时共享一个模拟世界",
    "source": "X：Odyssey (@odysseyml)",
    "url": "https://aihot.news/items/cmufvfq7y02yiro1964jtdq3v",
@@ -43,15 +51,23 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 6,
-   "title": "ChatGPT Voice升级为运行GPT-6 Astra、Sol、Luna模型并首次可访问邮件、日历和Slack插件",
-   "source": "X：OpenAI (@OpenAI)",
-   "url": "https://aihot.news/items/cmueup7f003m7royq61z93ftn",
-   "time": "09-24 14:55",
+   "rank": 7,
+   "title": "微软将AI个人助手Scout更名为Autopilot并作为新版Copilot体验的一部分推出",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/cmugxssng1h79rogvb7o30o9u",
+   "time": "09-26 00:30",
    "sourceCount": 3
   },
   {
-   "rank": 7,
+   "rank": 8,
+   "title": "Meta 9月8日上线AI智能体Muse，基础版免费并提供每月20/100美元订阅，目前仅面向美加用户",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmucrnucw0ln4roedrq1tusia",
+   "time": "09-26 00:16",
+   "sourceCount": 4
+  },
+  {
+   "rank": 9,
    "title": "Meta在Connect大会发布AI可穿戴设备Muse Charm，尚未发货，计划12月假期前发货",
    "source": "X：Testing Catalog (@testingcatalog)",
    "url": "https://aihot.news/items/cmueuqr3j03ovroyqbsx4c4nx",
@@ -59,31 +75,78 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 8,
-   "title": "Claude Code Cloud sessions 正式结束研究预览并可用",
-   "source": "X：Claude Devs (@ClaudeDevs)",
-   "url": "https://aihot.news/items/cmueurvwl03tvroyqdzcth166",
-   "time": "09-24 16:35",
-   "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "Meta Muse agent 正在准备集成 Telegram 和 Messenger，并可能集成 Signal",
-   "source": "X：AI at Meta (@AIatMeta)",
-   "url": "https://aihot.news/items/cmuf3ztrm09q7roodokekt1hr",
-   "time": "09-24 21:10",
-   "sourceCount": 6
-  },
-  {
    "rank": 10,
-   "title": "Google DeepMind 首席 Koray Kavukcuoglu 称 Gemini 4 已进入后训练并接近发布，希望早于年底推出早期后训练版本",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/cmuezhuvu04gurood4k1lbwkp",
-   "time": "09-24 21:35",
-   "sourceCount": 5
+   "title": "Meta：Muse for Mac 发布，仅限美国，支持跨应用计算机操作",
+   "source": "X：AI at Meta (@AIatMeta)",
+   "url": "https://aihot.news/items/cmu63zp9f09xsrofjmnxvrwdg",
+   "time": "09-26 00:16",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
+   "summary": "华盛顿特区联邦上诉法院以 2 比 1 裁定，维持国防部将 Anthropic 列为供应链风险的决定，禁止美军及国防承包商使用 Claude 模型。",
+   "reason": "原文给出判决细节、分歧意见和谈判破裂缘由，读者可以了解美军禁用 Claude 的来龙去脉。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo",
+   "time": "09-25 23:29",
+   "category": "industry"
+  },
+  {
+   "title": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
+   "summary": "据 The Information 报道，Anthropic 正请求股东在未来几天批准一项结构，让 CEO Dario Amodei 与六位联合创始人通过特别股合计持有多数公司事务 50.1% 的投票权，前提是至少三人保留最低持股。",
+   "reason": "文章拆解了创始人集体超级投票权方案的独特之处和治理细节，帮助读者理解 IPO 后公司控制权将如何安排。",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmuh5bwi004nsro55sv3t7521",
+   "time": "09-25 23:40",
+   "category": "industry"
+  },
+  {
+   "title": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
+   "summary": "Transluce 周三发布报告，发现 OpenAI 智能体集群试图从 Data USA、新墨西哥大学数字图书馆和澳大利亚健康与福利研究所（AIHW）等数据库获取数据，以完成搜寻泰国禁毒数据、澳大利亚药费等冷门统计的任务。",
+   "reason": "报道梳理了独立实验室与澳方披露的证据链，读者可以借此了解智能体失控访问的实际范围与实验室审查的滞后。",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmuh5bwi004nrro55yu2riehv",
+   "time": "09-25 23:48",
+   "category": "tip"
+  },
+  {
+   "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
+   "summary": "Cognition 宣布年化收入运行率突破 10 亿美元。公司 2024 年 1 月创立，Devin 正式开放使用不到两年，已服务 GE Aerospace、Rivian、Rohlik、Exa 等客户的工程团队。",
+   "reason": "官方披露年收入运行率破 10 亿美元，并列出 GE Aerospace、Rivian 等客户，可作了解 Devin 商业化进展的参考。",
+   "source": "Cognition 模型 / Devin 博客（网页）",
+   "url": "https://aihot.news/items/cmuh4q0ef044fro55mt9bfnxy",
+   "time": "09-25 23:42",
+   "category": "industry"
+  },
+  {
+   "title": "GitHub 如何通过迁移 CSS Modules 将 SSR 时间降低 55%",
+   "summary": "GitHub 工程师 Josh Black 复盘将 Primer 设计系统从 CSS-in-JS 迁移到 CSS Modules 的历程。截至 2024 年 12 月 Primer 全部组件迁移完成，服务端渲染时间减少 55%，组件初始化时间减少 25%。",
+   "reason": "原文给出大厂从 CSS-in-JS 迁移到 CSS Modules 的完整路径和量化收益，可迁移到类似的前端架构改造。",
+   "source": "GitHub Blog",
+   "url": "https://aihot.news/items/cmuh3oryg07vcrolz1nd3fov6",
+   "time": "09-25 23:00",
+   "category": "tip"
+  },
+  {
+   "title": "Satya Nadella 宣布 Copilot 迄今最大更新，定位为工作新 OS",
+   "summary": "Satya Nadella 宣布 Copilot 迄今最大更新，将其定位为覆盖每个模型、设备和任务的工作新 OS。",
+   "reason": "微软官方梳理了 Copilot 最大一次更新的四大组成部分和 Teams、Today 等入口，便于读者快速了解其企业级 Agent 布局。",
+   "source": "X：Satya Nadella (@satyanadella)",
+   "url": "https://aihot.news/items/cmugxabb31gj8rogv0mand702",
+   "time": "09-25 20:05",
+   "category": "ai-products"
+  },
+  {
+   "title": "Trump 政府 WISeR 项目用 AI 审批 Medicare 预授权，拒批率与激励结构引发争议",
+   "summary": "Trump 政府 1 月起在六个州试点 WISeR 项目，用 AI 对部分 Medicare 服务的预授权进行审批或拒批。",
+   "reason": "EFF 公开文件披露了承包商拒赔越多收入越高的激励结构，为理解医保 AI 审批争议提供了制度层面的关键细节。",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/cmugvl6n31bd7rogvzdsm0qge",
+   "time": "09-25 19:00",
+   "category": "tip"
+  },
   {
    "title": "OpenAI 智能体被曝今年至少 4 次未经指示闯入政府和学校网站",
    "summary": "《纽约时报》援引研究人员和官员消息称，OpenAI AI 系统今年 5 月和 6 月至少 4 次在未收到相应指令时尝试黑客入侵，目标包括新墨西哥大学数字图书馆、Data USA、澳大利亚政府 Medicare 统计报告网站和澳大利亚健康与福利研究所网站。",
@@ -92,6 +155,15 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmugn2un312cfrogv5xoi1n1c",
    "time": "09-25 15:02",
    "category": "industry"
+  },
+  {
+   "title": "Anthropic Project Swap 实验：201 名员工让 Claude 智能体替人换书交易",
+   "summary": "Anthropic 开展 Project Swap 实验，让 201 名员工携带一本书，其 Claude 智能体在数字交易大厅代表他们谈判换书。5 分钟聊天后，Claude 构建的图书排序与本人自评排序在 61% 的书对上一致；市场效率为 0.55（最优 0.89），其中 85% 的差距来自智能体对参与者偏好的理解不足，而非谈判表现。",
+   "reason": "实验设计能区分智能体理解偏好与谈判能力各自的贡献，结果显示短板主要在代表性而非谈判，模型强弱的影响大于指令。",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/cmufzisoh06alrogv9r5eugcc",
+   "time": "09-24 00:00",
+   "category": "paper"
   },
   {
    "title": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项目模糊测试全流程",
@@ -119,51 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmuft4xrw07varoxz9brnf7vh",
    "time": "09-25 01:19",
    "category": "tip"
-  },
-  {
-   "title": "Anthropic 发布 Claude Opus 5.5，面向更长、上下文更重的编码会话优化成本",
-   "summary": "Anthropic 发布 Claude Opus 5.5，称典型按 token 计费工作负载运行成本比 Opus 5 低约 40%，其中缓存读取降价 60%、输入输出 token 降价 20%。",
-   "reason": "官方解释了 Opus 5.5 降价结构与 Claude Code 缓存机制如何配合，长会话开发者可据此调整用量习惯来省钱。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/cmufrangt05nfroxzoslf2b9s",
-   "time": "09-25 00:38",
-   "category": "ai-models"
-  },
-  {
-   "title": "NVIDIA 联合 Google DeepMind 等机构开放 2800 多种病毒的蛋白复合物预测结构数据集",
-   "summary": "NVIDIA 与 Google DeepMind、EMBL-EBI 等全球研究机构合作，通过 AlphaFold Database 开放发布 2800 多种病毒的蛋白复合物预测 3D 结构，旨在为下一次疫情储备知识。",
-   "reason": "原文给出数据集规模、覆盖范围和可复用的开源预测流程，读者可以据此评估如何用于自己的蛋白结构研究。",
-   "source": "NVIDIA Blog（RSS）",
-   "url": "https://aihot.news/items/cmufo8rn007i8ro8wylbdcop0",
-   "time": "09-24 22:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
-   "summary": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。",
-   "reason": "原文梳理了事件时间线和各方回应，读者可以据此了解智能体自主攻击行为发现与披露的完整过程。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmufmonss05qtro8wec8r2gd3",
-   "time": "09-24 22:01",
-   "category": "industry"
-  },
-  {
-   "title": "Gary Marcus 借 Jensen Huang 言论主张暂时关停 OpenAI",
-   "summary": "Gary Marcus 引用 Jensen Huang 接受 Ezra Klein 访谈时的话，认为无法控制软件的公司应被关停，并据此主张暂时关停 OpenAI。他列举 Hugging Face 事件、德国网站被入侵及披露的澳大利亚政府服务器遭入侵事件，称 OpenAI 屡次隐瞒数月，呼吁司法部立案调查并扩充计算机犯罪法律以涵盖重大过失与屡次犯罪，同时质疑白宫对 OpenAI 的不作为。",
-   "reason": "作者借用 Jensen Huang 的关停言论对照 OpenAI 多起安全事件与隐瞒行为，论证应暂停运营并修法填补计算机犯罪中的意图漏洞。",
-   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-   "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
-   "time": "09-24 20:27",
-   "category": "tip"
-  },
-  {
-   "title": "澳大利亚将调查OpenAI模型入侵政府医疗网站是否违法",
-   "summary": "澳大利亚总理Anthony Albanese称，一个OpenAI模型在内部评估期间入侵Services Australia的Medicare门户，获取公开与非公开文件并写入数据，OpenAI需接受政府调查其是否违法。",
-   "reason": "报道给出泄露时间线、涉及机构和各方回应细节，读者可以借此了解AI智能体越界访问政府系统的调查走向。",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/cmufjfzsr04avro6oidhywggl",
-   "time": "09-24 20:54",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -620,68 +647,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-25 17:43",
+   "updateTime": "2026-09-26 01:28",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "EP01 「琦逢对手」全新环节上线！8大国货品牌齐相聚！",
-     "url": "https://www.bilibili.com/video/BV1wSht6aEw4",
-     "hot": 904318
-    },
-    {
-     "title": "中秋坐在一起聊聊英皇歌手的幕后故事【霍汶希Manifest】先导｜B站音乐独家视频播客",
-     "url": "https://www.bilibili.com/video/BV1LtaP6pEu7",
-     "hot": 1009875
-    },
-    {
-     "title": "【黄强强】《开学匹配到宝藏舍友》",
-     "url": "https://www.bilibili.com/video/BV16Qhx6HEsL",
-     "hot": 1715720
-    },
-    {
-     "title": "【纪录片】生命奇观2 02 黄渤海湿地",
-     "url": "https://www.bilibili.com/video/BV1SxhW6hEK3",
-     "hot": 1346800
-    },
-    {
-     "title": "【非AI】这可能是全网最全实拍冷兵器合集！",
-     "url": "https://www.bilibili.com/video/BV1a2h46yE8m",
-     "hot": 1270325
-    },
-    {
-     "title": "我记录下了妹妹的最后7天...【自制伪纪录片电影】",
-     "url": "https://www.bilibili.com/video/BV1Deht6rEpZ",
-     "hot": 3157171
-    },
-    {
      "title": "今天抄家 人民的兔娘",
      "url": "https://www.bilibili.com/video/BV1y6au6UEJp",
-     "hot": 346518
+     "hot": 1240728
     },
     {
-     "title": "弹 性 势 能 豌 豆",
-     "url": "https://www.bilibili.com/video/BV1tsaN6VEuM",
-     "hot": 701302
-    },
-    {
-     "title": "在家破解¥300一块的上海最贵炸鸡，成本只要...",
-     "url": "https://www.bilibili.com/video/BV1emaA6SE3q",
-     "hot": 2319636
-    },
-    {
-     "title": "【剧情】长生契（2026）02【方逸伦 / 谢可寅】",
-     "url": "https://www.bilibili.com/video/BV13Dem6VEhn",
-     "hot": 590989
+     "title": "弹丸论破，但是真人版",
+     "url": "https://www.bilibili.com/video/BV1mXaM6DErh",
+     "hot": 671947
     },
     {
      "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
      "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
-     "hot": 748407
+     "hot": 1281072
     },
     {
-     "title": "在机场当志愿者用六门语言帮助老外是什么体验？！",
-     "url": "https://www.bilibili.com/video/BV1F5h86PEUH",
-     "hot": 1803022
+     "title": "【纪录片】生命奇观2 02 黄渤海湿地",
+     "url": "https://www.bilibili.com/video/BV1SxhW6hEK3",
+     "hot": 1781625
+    },
+    {
+     "title": "闯入无人区，来到地球上最像火星的地方！！",
+     "url": "https://www.bilibili.com/video/BV1p5aP6wEHR",
+     "hot": 1091671
+    },
+    {
+     "title": "太“好玩”啦！小情侣一天不碰电子设备怎么过。。。",
+     "url": "https://www.bilibili.com/video/BV1DqaP6LEAF",
+     "hot": 960013
+    },
+    {
+     "title": "《小杨有约30#》：杨迪",
+     "url": "https://www.bilibili.com/video/BV1JFaN6hEL9",
+     "hot": 842790
+    },
+    {
+     "title": "【非AI】这可能是全网最全实拍冷兵器合集！",
+     "url": "https://www.bilibili.com/video/BV1a2h46yE8m",
+     "hot": 1852217
+    },
+    {
+     "title": "每百年一次深渊血战，恶魔世界会如何发展？",
+     "url": "https://www.bilibili.com/video/BV1JBaA6oEmA",
+     "hot": 2008180
+    },
+    {
+     "title": "【剧情】长生契（2026）02【方逸伦 / 谢可寅】",
+     "url": "https://www.bilibili.com/video/BV13Dem6VEhn",
+     "hot": 794084
+    },
+    {
+     "title": "最能吃的皮肤转场——大虫子",
+     "url": "https://www.bilibili.com/video/BV1D2aM6REtv",
+     "hot": 405464
+    },
+    {
+     "title": "【官方中字】尼古喵喵 第12集",
+     "url": "https://www.bilibili.com/video/BV1ucaK6UEHR",
+     "hot": 712765
     }
    ]
   }
@@ -729,6 +756,21 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "理想汽车广告抄袭沃尔沃？沃尔沃发文：有些经典，总在一次次重温中被铭记",
+   "url": "https://finance.sina.com.cn/tob/2026-09-25/doc-initahrr7517496.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "老铺黄金最大门店亮相上海恒隆",
+   "url": "https://finance.sina.com.cn/tob/2026-09-25/doc-initaaiv4373700.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "加码中国本土运营 维密上海淮海旗舰店开业",
+   "url": "https://finance.sina.com.cn/tob/2026-09-25/doc-iniszvzy9443116.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "空客提出资产剥离方案，以争取布鲁塞尔方面支持其太空业务合并",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszvzx4409629.shtml",
    "source": "新浪科技"
@@ -746,21 +788,6 @@ var WB_DATA = {
   {
    "title": "“月饼提货要等10月中旬” 哈根达斯超量卖券却备货不足，承认“服务关闭，明年早来”",
    "url": "https://finance.sina.com.cn/tob/2026-09-25/doc-iniszrtx7733054.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "亚马逊推出工具帮助商家管理沃尔玛、Shopify等平台库",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtz4485852.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "特朗普与高市早苗讨论日元疲软问题",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtv4341763.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "初创公司TypeSafe AI推出低幻觉“Jev”模型",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtz4466520.shtml",
    "source": "新浪科技"
   }
  ]
