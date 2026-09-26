@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-26 01:28",
+ "updatedAt": "2026-09-26 11:06",
  "aihotHot": [
   {
    "rank": 1,
@@ -647,68 +647,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-26 01:28",
+   "updateTime": "2026-09-26 11:08",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "10块到3000块，谁才是家庭清洁No.1？",
+     "url": "https://www.bilibili.com/video/BV12ihx6aEnC",
+     "hot": 679607
+    },
+    {
+     "title": "《以片换物- -洗剪吹》 再不疯狂就老了  借一场大笑，释放藏起来的自己。",
+     "url": "https://www.bilibili.com/video/BV1JSau6kEou",
+     "hot": 231474
+    },
+    {
      "title": "今天抄家 人民的兔娘",
      "url": "https://www.bilibili.com/video/BV1y6au6UEJp",
-     "hot": 1240728
-    },
-    {
-     "title": "弹丸论破，但是真人版",
-     "url": "https://www.bilibili.com/video/BV1mXaM6DErh",
-     "hot": 671947
-    },
-    {
-     "title": "糟糕！我的粮食被勋宗抢走了！【神奇组织54】",
-     "url": "https://www.bilibili.com/video/BV1WhaA6hE7s",
-     "hot": 1281072
+     "hot": 1916048
     },
     {
      "title": "【纪录片】生命奇观2 02 黄渤海湿地",
      "url": "https://www.bilibili.com/video/BV1SxhW6hEK3",
-     "hot": 1781625
+     "hot": 1956097
     },
     {
-     "title": "闯入无人区，来到地球上最像火星的地方！！",
-     "url": "https://www.bilibili.com/video/BV1p5aP6wEHR",
-     "hot": 1091671
+     "title": "听声音知强度！当年最强的战绩竟然是同一个人打出来的？",
+     "url": "https://www.bilibili.com/video/BV185ac6eEEa",
+     "hot": 347499
     },
     {
-     "title": "太“好玩”啦！小情侣一天不碰电子设备怎么过。。。",
-     "url": "https://www.bilibili.com/video/BV1DqaP6LEAF",
-     "hot": 960013
+     "title": "我，跑酷",
+     "url": "https://www.bilibili.com/video/BV1wLaP6hEJw",
+     "hot": 1598150
     },
     {
-     "title": "《小杨有约30#》：杨迪",
-     "url": "https://www.bilibili.com/video/BV1JFaN6hEL9",
-     "hot": 842790
+     "title": "百万电影机PK手机，能看出区别吗？",
+     "url": "https://www.bilibili.com/video/BV1woez6TEWq",
+     "hot": 505193
     },
     {
-     "title": "【非AI】这可能是全网最全实拍冷兵器合集！",
-     "url": "https://www.bilibili.com/video/BV1a2h46yE8m",
-     "hot": 1852217
+     "title": "躲闪摇究极进化闪身步",
+     "url": "https://www.bilibili.com/video/BV1Ycag6NEmc",
+     "hot": 1671201
     },
     {
-     "title": "每百年一次深渊血战，恶魔世界会如何发展？",
-     "url": "https://www.bilibili.com/video/BV1JBaA6oEmA",
-     "hot": 2008180
+     "title": "查理斯《绝命糖猪-chalice》",
+     "url": "https://www.bilibili.com/video/BV1rYh76aEaV",
+     "hot": 302880
     },
     {
      "title": "【剧情】长生契（2026）02【方逸伦 / 谢可寅】",
      "url": "https://www.bilibili.com/video/BV13Dem6VEhn",
-     "hot": 794084
+     "hot": 815641
     },
     {
-     "title": "最能吃的皮肤转场——大虫子",
-     "url": "https://www.bilibili.com/video/BV1D2aM6REtv",
-     "hot": 405464
+     "title": "你们说我像谁我就模仿谁！这一期下料有点猛啊哈哈哈哈",
+     "url": "https://www.bilibili.com/video/BV1iZau6TEvH",
+     "hot": 467155
     },
     {
-     "title": "【官方中字】尼古喵喵 第12集",
-     "url": "https://www.bilibili.com/video/BV1ucaK6UEHR",
-     "hot": 712765
+     "title": "那是你心电图！！！",
+     "url": "https://www.bilibili.com/video/BV1YgaN6XEXz",
+     "hot": 233222
     }
    ]
   }
@@ -756,6 +756,21 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "英飞凌耗资14.4亿美元的泰国半导体工厂将于10月1日投产",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initckaz3586127.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "AI失控了？OpenAI确认干预3家美国政府网站",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initccvk8821562.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "苹果因侵犯触觉反馈专利 被判需支付57亿美元赔偿金",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initccvi3960554.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "理想汽车广告抄袭沃尔沃？沃尔沃发文：有些经典，总在一次次重温中被铭记",
    "url": "https://finance.sina.com.cn/tob/2026-09-25/doc-initahrr7517496.shtml",
    "source": "新浪科技"
@@ -773,21 +788,6 @@ var WB_DATA = {
   {
    "title": "空客提出资产剥离方案，以争取布鲁塞尔方面支持其太空业务合并",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszvzx4409629.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "Tether一家银行合作伙伴卷入美国政府资产扣押事件",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-25/doc-iniszrtz4539814.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "罗永浩谈交个朋友“溜溜凳”风波：处理没啥大问题，东方甄选是同款产品最大代销商",
-   "url": "https://finance.sina.com.cn/tob/2026-09-25/doc-iniszrtv4377991.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "“月饼提货要等10月中旬” 哈根达斯超量卖券却备货不足，承认“服务关闭，明年早来”",
-   "url": "https://finance.sina.com.cn/tob/2026-09-25/doc-iniszrtx7733054.shtml",
    "source": "新浪科技"
   }
  ]
