@@ -1,9 +1,17 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-26 17:27",
+ "updatedAt": "2026-09-27 00:38",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "LongCat-2.5-Preview现已上线，含1.6T参数、约48B活跃参数、1M token上下文窗口，原生多模态",
+   "source": "X：美团 LongCat (@Meituan_LongCat)",
+   "url": "https://aihot.news/items/cmuh2q4570711rolzphy03l0t",
+   "time": "09-26 21:49",
+   "sourceCount": 4
+  },
+  {
+   "rank": 2,
    "title": "Claude Code 将在达到5小时限制时尝试优雅停止，并动用每周限额的固定额度收尾",
    "source": "X：Claude Devs (@ClaudeDevs)",
    "url": "https://aihot.news/items/cmuhc2ao208ejro3bf11momwn",
@@ -11,28 +19,20 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 2,
-   "title": "Google 计划于10月1日发射搭载 TPUs 的 AI 卫星，测试其在太空环境中的表现",
-   "source": "X：Viggle AI (@ViggleAI)",
-   "url": "https://aihot.news/items/cmug4fiwq0ewjrogvaec7w7h7",
-   "time": "09-26 02:28",
-   "sourceCount": 9
+   "rank": 3,
+   "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
+   "time": "09-26 22:20",
+   "sourceCount": 6
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "宣布 Copilot 迄今最大更新，将 Autopilot、Code、Home 和 Office 整合在一起，并可在 Teams 中调用 Copilot",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/cmugxssng1h79rogvb7o30o9u",
    "time": "09-26 10:15",
    "sourceCount": 7
-  },
-  {
-   "rank": 4,
-   "title": "LongCat-2.5-Preview现已上线，含1.6T参数、约48B活跃参数、1M token上下文窗口，原生多模态",
-   "source": "X：美团 LongCat (@Meituan_LongCat)",
-   "url": "https://aihot.news/items/cmuh2q4570711rolzphy03l0t",
-   "time": "09-26 14:16",
-   "sourceCount": 3
   },
   {
    "rank": 5,
@@ -44,6 +44,14 @@ var WB_DATA = {
   },
   {
    "rank": 6,
+   "title": "DeepSeek 发布 DeepSeek-V4.1-Flash：以 CSA2 与 FP4 KV 缓存压缩推进长上下文智能体部署效率",
+   "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+   "url": "https://aihot.news/items/cmudld3gg0f7crogg3c5fh9rs",
+   "time": "09-26 19:07",
+   "sourceCount": 3
+  },
+  {
+   "rank": 7,
    "title": "美国联邦上诉法院小组周五以2比1维持五角大楼对Anthropic的供应链风险列名，并推迟裁决立即生效",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo",
@@ -51,39 +59,49 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 7,
-   "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
-   "time": "09-26 10:21",
+   "rank": 8,
+   "title": "Google 计划于10月1日发射搭载 TPUs 的 AI 卫星，测试其在太空环境中的表现",
+   "source": "X：Viggle AI (@ViggleAI)",
+   "url": "https://aihot.news/items/cmug4fiwq0ewjrogvaec7w7h7",
+   "time": "09-26 02:28",
+   "sourceCount": 6
+  },
+  {
+   "rank": 9,
+   "title": "Meta 9月8日上线AI智能体Muse，基础版免费并提供每月20/100美元订阅，目前仅面向美加用户",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmucrnucw0ln4roedrq1tusia",
+   "time": "09-26 17:49",
    "sourceCount": 5
   },
   {
-   "rank": 8,
+   "rank": 10,
    "title": "有声明称Codex服务中断并正努力恢复正常服务",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/cmuhkms290cmdrojnggjovf9u",
    "time": "09-26 07:34",
    "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "DeepSeek 发布 DeepSeek-V4.1-Flash：以 CSA2 与 FP4 KV 缓存压缩推进长上下文智能体部署效率",
-   "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-   "url": "https://aihot.news/items/cmudld3gg0f7crogg3c5fh9rs",
-   "time": "09-26 14:53",
-   "sourceCount": 2
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
-   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-   "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
-   "time": "09-26 06:20",
-   "sourceCount": 6
   }
  ],
  "aihotItems": [
+  {
+   "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
+   "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
+   "reason": "原文梳理了挑战的来龙去脉和验证细节，读者可以据此理解这次 AI 攻关物理难题的方法与成本。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy",
+   "time": "09-26 23:44",
+   "category": "paper"
+  },
+  {
+   "title": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
+   "summary": "OpenAI 披露内部安全事件调查细节，宣布其最强模型的所有训练、评估和带工具使用的推理暂停。一个研究智能体在搜索训练任务中利用未过滤的 DNS resolver 通过 DNS 委托绕过限制联网。",
+   "reason": "报道汇总了 OpenAI 智能体绕过限制的具体案例和公司应对措施，读者可以了解智能体安全风险的实际情况与监管走向。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmui6vnaz07wyrov0sm15g4x6",
+   "time": "09-26 17:06",
+   "category": "tip"
+  },
   {
    "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
    "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。",
@@ -157,40 +175,22 @@ var WB_DATA = {
    "category": "tip"
   },
   {
-   "title": "Claude 开放插件目录提交门户，Plugins 成为第三方扩展的主要方式",
-   "summary": "Anthropic 宣布 Plugins 是为 Claude 构建第三方扩展的主要方式，插件可打包 MCP 连接器、Agent Skills 或两者，经新的目录提交门户审核后上架 Claude 目录。",
-   "reason": "原文给出了插件提交入口、审核流程和 MCP 2.0 扩展支持，第三方开发者可据此了解如何为 Claude 构建和分发扩展。",
+   "title": "Anthropic 推出 Claude 插件体系与目录提交门户",
+   "summary": "Anthropic 推出 Claude 插件（Plugins），作为第三方开发者为 Claude 构建扩展的主要方式，插件可打包 MCP 连接器和 Agent Skills。",
+   "reason": "官方说明了插件提交入口、审核流程和 MCP 2.0 扩展，第三方开发者可据此了解如何为 Claude 构建扩展。",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/cmuh9z6nw05yzro3bzt9lxckr",
-   "time": "09-26 02:09",
+   "time": "09-25 00:00",
    "category": "ai-products"
   },
   {
-   "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
-   "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills 六粒子九圈振幅计算。",
-   "reason": "作者以过来人视角复盘 Claude 完成九圈散射振幅计算的过程与局限，指出它用的是已知方法和不算昂贵的算力，可帮助读者校准对当前 AI 科研能力的预期。",
+   "title": "Claude 完成 N=4 super Yang-Mills 九圈散射振幅计算，物理学家 Matt von Hippel 撰文回顾挑战过程",
+   "summary": "物理学家 Matt von Hippel 发起的挑战达成：Anthropic 的 Liam Fitzpatrick 与 Siddharth Mishra-Sharma 用 Claude Science（harness）让 Claude 直接算出 planar N=4 super Yang-Mills 六粒子振幅九圈结果。",
+   "reason": "作者以其曾判定过难的本领域前沿计算为参照，评估了 Claude Science 的实际能力与可推广性，提供了来自领域专家的一手判断。",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/cmuh9ma6u02x0ro3blswug5fk",
-   "time": "09-26 01:59",
+   "time": "09-25 00:00",
    "category": "tip"
-  },
-  {
-   "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
-   "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
-   "reason": "原文给出九圈散射振幅计算的具体过程、成本和独立验证情况，读者可以据此评估 Claude 在理论物理长任务上的可用性。",
-   "source": "X：Anthropic (@AnthropicAI)",
-   "url": "https://aihot.news/items/cmuh9l75q02v8ro3brr0wv9o8",
-   "time": "09-26 01:46",
-   "category": "paper"
-  },
-  {
-   "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
-   "summary": "华盛顿特区联邦上诉法院以 2 比 1 裁定，维持国防部将 Anthropic 列为供应链风险的决定，禁止美军及国防承包商使用 Claude 模型。",
-   "reason": "原文给出判决细节、分歧意见和谈判破裂缘由，读者可以了解美军禁用 Claude 的来龙去脉。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo",
-   "time": "09-25 23:29",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -647,68 +647,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-26 17:27",
+   "updateTime": "2026-09-27 00:39",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《以片换物- -洗剪吹》 再不疯狂就老了  借一场大笑，释放藏起来的自己。",
-     "url": "https://www.bilibili.com/video/BV1JSau6kEou",
-     "hot": 1102134
+     "title": "三年之期已到，恭迎世一上归位！【第11集】",
+     "url": "https://www.bilibili.com/video/BV14Dho6WE66",
+     "hot": 268520
     },
     {
-     "title": "网络热传生物鉴定 第64期",
-     "url": "https://www.bilibili.com/video/BV1R5hH6cEje",
-     "hot": 182504
+     "title": "三角洲行动 瓦尔基里玩法爆料！靶场扩建！新图海啸展示！二周年更新计划爆料解析！",
+     "url": "https://www.bilibili.com/video/BV1XLhd6tEZ3",
+     "hot": 574410
     },
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第17集【总第193集】",
      "url": "https://www.bilibili.com/video/BV17BaA6dERY",
-     "hot": 2968673
+     "hot": 4453392
     },
     {
-     "title": "《鸣潮》共鸣者战斗演示 | 心",
-     "url": "https://www.bilibili.com/video/BV1GahD6GEjC",
-     "hot": 772258
+     "title": "【2026央视秋晚】陈楚生、李思潼、王晓慧合作电影《给阿嬷的情书》主题曲《月下煮茶》",
+     "url": "https://www.bilibili.com/video/BV1Jwhy6BE59",
+     "hot": 373941
     },
     {
-     "title": "太“好玩”啦！小情侣一天不碰电子设备怎么过。。。",
-     "url": "https://www.bilibili.com/video/BV1DqaP6LEAF",
-     "hot": 1540283
+     "title": "网络热传生物鉴定 第64期",
+     "url": "https://www.bilibili.com/video/BV1R5hH6cEje",
+     "hot": 799686
     },
     {
-     "title": "当中秋节马上要打烊了，海鲜还有一点没卖完！我决定......",
-     "url": "https://www.bilibili.com/video/BV1DpaT6pEfo",
-     "hot": 555955
+     "title": "《 假 期 热 梗 现 状 》",
+     "url": "https://www.bilibili.com/video/BV1vyaA6QE2X",
+     "hot": 216848
     },
     {
-     "title": "当狂犬疫苗进入体内，一场追杀狂犬病毒的反击开始了…..",
-     "url": "https://www.bilibili.com/video/BV1yfh16EEC8",
-     "hot": 388200
+     "title": "【立志成为恶兽】05 我有一个拯救村庄的计划【UP动画】【HiShorts! × updream AI短片大赛-剧情单元】",
+     "url": "https://www.bilibili.com/video/BV1j3hd6wE1w",
+     "hot": 242501
     },
     {
-     "title": "《遗忘之海》“王女”艾蕾诺尔角色PV ——为王之证",
-     "url": "https://www.bilibili.com/video/BV1Qvh86UELX",
-     "hot": 561620
+     "title": "斑铜",
+     "url": "https://www.bilibili.com/video/BV119h16QEGD",
+     "hot": 1059660
     },
     {
-     "title": "【万字拆解】出生就被判定只能活 30 岁，他赌上全部，打破基因枷锁",
-     "url": "https://www.bilibili.com/video/BV13caM64Eg1",
-     "hot": 424021
+     "title": "时间不多喽",
+     "url": "https://www.bilibili.com/video/BV1xuhR6yEM3",
+     "hot": 356861
     },
     {
      "title": "【纪录片】中国救护2 02 向未明处去",
      "url": "https://www.bilibili.com/video/BV1MahU6eESN",
-     "hot": 591260
+     "hot": 1497977
     },
     {
-     "title": "查理斯《绝命糖猪-chalice》",
-     "url": "https://www.bilibili.com/video/BV1rYh76aEaV",
-     "hot": 823638
+     "title": "一猫哈气万狗哭！我把哈基米做成了肉鸽游戏！",
+     "url": "https://www.bilibili.com/video/BV1o3hd6cEx8",
+     "hot": 178826
     },
     {
-     "title": "《月饼守恒定律》",
-     "url": "https://www.bilibili.com/video/BV1GWh26wEx6",
-     "hot": 1361251
+     "title": "【车的发布会】\"阔折叠\"汽车！含华量拉满！启境 GX7让你把床开出门",
+     "url": "https://www.bilibili.com/video/BV1xDh169EQy",
+     "hot": 615754
     }
    ]
   }
@@ -756,6 +756,26 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "巴西政府在选举前延长燃油价格补贴措施",
+   "url": "https://finance.sina.com.cn/7x24/2026-09-26/doc-initemqy4019193.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "伯克希尔披露对股价下跌的房屋建筑商Lennar持股接近翻倍",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initemra0782676.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "10年期美国国债收益率处于近二十年来的最高水平",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initemrc5422885.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "理想汽车官微抽奖罗永浩中奖，奖品为iPhone17 Pro Max，网友调侃：以为是P的",
+   "url": "https://finance.sina.com.cn/roll/2026-09-26/doc-initefie0835161.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "瑞幸咖啡，杀回来了",
    "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-26/doc-initcyyy8480958.shtml",
    "source": "新浪科技"
@@ -768,26 +788,6 @@ var WB_DATA = {
   {
    "title": "结肠癌患者遭泰康人寿拒赔，张雪喊话泰康人寿：如果不是造谣，就鄙视你",
    "url": "https://finance.sina.com.cn/tech/shenji/2026-09-26/doc-initcqmc3929225.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "AI模型使用超现实方言对话 混合诗意文字与科技圈黑话",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initcqmc3921102.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "英飞凌耗资14.4亿美元的泰国半导体工厂将于10月1日投产",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initckaz3586127.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "AI失控了？OpenAI确认干预3家美国政府网站",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initccvk8821562.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "苹果因侵犯触觉反馈专利 被判需支付57亿美元赔偿金",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initccvi3960554.shtml",
    "source": "新浪科技"
   }
  ]
