@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-27 18:07",
+ "updatedAt": "2026-09-28 01:12",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,6 +12,14 @@ var WB_DATA = {
   },
   {
    "rank": 2,
+   "title": "OpenAI DevDay 倒计时72小时，发布者称一直在构建并将展示成果",
+   "source": "X：OpenAI Developers (@OpenAIDevs)",
+   "url": "https://aihot.news/items/cmuit4c8j05hbrohycylxzqzd",
+   "time": "09-28 00:25",
+   "sourceCount": 1
+  },
+  {
+   "rank": 3,
    "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
    "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
    "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
@@ -19,20 +27,12 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 3,
-   "title": "LongCat-2.5-Preview现已上线，含1.6T参数、约48B活跃参数、1M token上下文窗口，原生多模态",
-   "source": "X：美团 LongCat (@Meituan_LongCat)",
-   "url": "https://aihot.news/items/cmuh2q4570711rolzphy03l0t",
-   "time": "09-26 21:49",
-   "sourceCount": 4
-  },
-  {
    "rank": 4,
-   "title": "OpenAI DevDay 倒计时72小时，发布者称一直在构建并将展示成果",
-   "source": "X：OpenAI Developers (@OpenAIDevs)",
-   "url": "https://aihot.news/items/cmuit4c8j05hbrohycylxzqzd",
-   "time": "09-27 08:44",
-   "sourceCount": 1
+   "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%",
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/cmud2ya2c03wnrov6lnmiq2dv",
+   "time": "09-28 00:50",
+   "sourceCount": 4
   },
   {
    "rank": 5,
@@ -44,14 +44,6 @@ var WB_DATA = {
   },
   {
    "rank": 6,
-   "title": "宣布 Copilot 迄今最大更新，将 Autopilot、Code、Home 和 Office 整合在一起，并可在 Teams 中调用 Copilot",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/cmugxssng1h79rogvb7o30o9u",
-   "time": "09-27 09:18",
-   "sourceCount": 7
-  },
-  {
-   "rank": 7,
    "title": "Claude Code 将在达到5小时限制时尝试优雅停止，并动用每周限额的固定额度收尾",
    "source": "X：Claude Devs (@ClaudeDevs)",
    "url": "https://aihot.news/items/cmuhc2ao208ejro3bf11momwn",
@@ -59,12 +51,20 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 8,
+   "rank": 7,
    "title": "OpenAI公布安全事件调查并暂停最先进模型训练、评估及工具使用推理",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmui6vnaz07wyrov0sm15g4x6",
    "time": "09-27 17:23",
    "sourceCount": 3
+  },
+  {
+   "rank": 8,
+   "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放",
+   "source": "X：OpenRouter (@OpenRouter)",
+   "url": "https://aihot.news/items/cmu7hc2e80aavrogr7vbwhcjm",
+   "time": "09-27 19:32",
+   "sourceCount": 2
   },
   {
    "rank": 9,
@@ -76,14 +76,23 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "DeepSeek 发布 DeepSeek-V4.1-Flash：以 CSA2 与 FP4 KV 缓存压缩推进长上下文智能体部署效率",
-   "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-   "url": "https://aihot.news/items/cmudld3gg0f7crogg3c5fh9rs",
-   "time": "09-26 19:07",
+   "title": "LongCat-2.5-Preview现已上线，含1.6T参数、约48B活跃参数、1M token上下文窗口，原生多模态",
+   "source": "X：美团 LongCat (@Meituan_LongCat)",
+   "url": "https://aihot.news/items/cmuh2q4570711rolzphy03l0t",
+   "time": "09-26 21:49",
    "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%",
+   "summary": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；直接调低阈值需重启 20 步 MixRL，估计成本 231 万美元，且内部测试重复率仅从 13.45% 降至 3.83%。",
+   "reason": "原文给出完整的归因实验和修复路径，还公开了成本对比，读者可借鉴其诊断 RL 训练中涌现行为的方法。",
+   "source": "小米 MiMo：官网发布与博客",
+   "url": "https://aihot.news/items/cmuk25h00156vro9h173e1zjz",
+   "time": "09-27 00:00",
+   "category": "paper"
+  },
   {
    "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
    "summary": "Authors Guild v. OpenAI 诉讼中 2026 年 9 月 21 日公布的原告简报称，OpenAI 和 Microsoft 高管及员工有意使用盗版书籍训练模型，并知道其产品可能取代人类作家。",
@@ -137,15 +146,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmuinp76b0smurov0wemcbshl",
    "time": "09-27 01:02",
    "category": "ai-models"
-  },
-  {
-   "title": "Claude 无人值守算出 N=4 超杨-米尔斯理论九圈散射振幅，刷新人类八圈纪录",
-   "summary": "Anthropic 宣布 Claude 在 Claude Science 系统中仅凭一条提示词、无人监督连续运行数天，算出平面 N=4 超杨-米尔斯理论六粒子振幅的九圈结果，超越 Lance Dixon 团队 2023 年的八圈纪录，总成本几千美元，其中直接自举路线的 Python 运行成本仅约 100 美元。",
-   "reason": "原文梳理了挑战的来龙去脉和验证细节，读者可以据此理解这次 AI 攻关物理难题的方法与成本。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy",
-   "time": "09-26 23:44",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -536,68 +536,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-27 18:07",
+   "updateTime": "2026-09-28 01:12",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《崩坏：星穹铁道》真珠角色PV——「如何描绘一种希望」",
-     "url": "https://www.bilibili.com/video/BV1Rmh96ZEXh",
-     "hot": 1727772
+     "title": "蛙跳爬泰山",
+     "url": "https://www.bilibili.com/video/BV1Hxah6BEGy",
+     "hot": 395890
     },
     {
-     "title": "《纯粹の体育精神》",
-     "url": "https://www.bilibili.com/video/BV1Kyas6wEuz",
-     "hot": 648864
+     "title": "挑战自助餐最亏本的十类食物！通通吃一遍！",
+     "url": "https://www.bilibili.com/video/BV1tNab65ECw",
+     "hot": 620535
     },
     {
      "title": "《三角洲行动》群星计划—代号：深蓝",
      "url": "https://www.bilibili.com/video/BV1sghX6KEkX",
-     "hot": 1902977
+     "hot": 2704450
     },
     {
      "title": "【独家】牧神记 第102集 大尊",
      "url": "https://www.bilibili.com/video/BV152aA6nEz4",
-     "hot": 1340776
+     "hot": 2027236
     },
     {
-     "title": "美食街，我在森林很想你【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV12AhD6wENZ",
-     "hot": 1327184
+     "title": "钓鱼被鱼揍了",
+     "url": "https://www.bilibili.com/video/BV1Usat6rEm1",
+     "hot": 535090
     },
     {
-     "title": "消失的队友二",
-     "url": "https://www.bilibili.com/video/BV11ahH6UEbn",
-     "hot": 529935
+     "title": "《纯粹の体育精神》",
+     "url": "https://www.bilibili.com/video/BV1Kyas6wEuz",
+     "hot": 1975449
     },
     {
-     "title": "【立志成为恶兽】05 我有一个拯救村庄的计划【UP动画】【HiShorts! × updream AI短片大赛-剧情单元】",
-     "url": "https://www.bilibili.com/video/BV1j3hd6wE1w",
-     "hot": 1057968
+     "title": "【短的发布会】广汽偷偷进军房地产？传祺越 7化身最强房车送你全套户外大平层",
+     "url": "https://www.bilibili.com/video/BV1HZhC63ECT",
+     "hot": 999564
     },
     {
-     "title": "【原神】哈哈，我真的要被7.1笑死了",
-     "url": "https://www.bilibili.com/video/BV19Lhd6tEdu",
-     "hot": 331549
+     "title": "我们尝试用AI造了一个时空",
+     "url": "https://www.bilibili.com/video/BV1TPa46MEwU",
+     "hot": 684307
     },
     {
-     "title": "将大局逆转吧！",
-     "url": "https://www.bilibili.com/video/BV1QLat6mEe5",
-     "hot": 401521
+     "title": "《崩坏：星穹铁道》真珠角色PV——「如何描绘一种希望」",
+     "url": "https://www.bilibili.com/video/BV1Rmh96ZEXh",
+     "hot": 2028961
     },
     {
      "title": "【剧情】长生契（2026）07【方逸伦 / 谢可寅】",
      "url": "https://www.bilibili.com/video/BV1aUem6yEur",
-     "hot": 451738
+     "hot": 468442
     },
     {
-     "title": "溶酶体：细胞里为什么藏着一颗自毁炸弹？",
-     "url": "https://www.bilibili.com/video/BV1HRa46AER2",
-     "hot": 608252
+     "title": "没人会记得神作之下的第二名，除非那一年都是逆天神梗！",
+     "url": "https://www.bilibili.com/video/BV114h96GEyq",
+     "hot": 2328848
     },
     {
-     "title": "高中时同学经常乱吃药",
-     "url": "https://www.bilibili.com/video/BV1Tcht6NEF6",
-     "hot": 1177417
+     "title": "【STN快报第8.5季22】史上最刀发布会，玩家看完纷纷感叹太刀了",
+     "url": "https://www.bilibili.com/video/BV16ya86iEWL",
+     "hot": 347419
     }
    ]
   }
@@ -645,6 +645,26 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "在多年大举买入之后，美股散户交易者似乎正转向观望",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvy0010360.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "伊朗外长确认与美国的间接谈判 军方仍保持强硬立场",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithuvt9209954.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "鸿蒙智行发声：问界合作模式调整，但仍是大家庭成员之一",
+   "url": "https://finance.sina.com.cn/roll/2026-09-27/doc-inithqqa0106124.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "特朗普：昨晚有“创纪录数量”的石油从霍尔木兹海峡运出",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-inithqpv9318302.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "旧超级油轮价值飙升超过新造船，市场陷入“疯狂”",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfxsh3516711.shtml",
    "source": "新浪科技"
@@ -657,26 +677,6 @@ var WB_DATA = {
   {
    "title": "币安与Circle扩大合作 分析师称USDC在稳定币竞争中获提振",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfxsh3511363.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "Kraken母公司Payward斥资数十亿美元打造金融基础设施",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfxsm4752996.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "黑客已经转移8300万美元被盗Bitget交易所虚拟货币",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfxsh3507437.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "传华为或于今年11月推出星耀子品牌，客服回应",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-27/doc-initfxsh3493462.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "努比亚NaviX Ultra玩王者荣耀被强制踢下线，豆包手机助手致歉",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-27/doc-initftkf9700118.shtml",
    "source": "新浪科技"
   }
  ]
