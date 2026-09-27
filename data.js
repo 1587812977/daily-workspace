@@ -1,9 +1,25 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-27 11:13",
+ "updatedAt": "2026-09-27 18:07",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
+   "time": "09-27 17:20",
+   "sourceCount": 7
+  },
+  {
+   "rank": 2,
+   "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
+   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+   "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
+   "time": "09-27 17:23",
+   "sourceCount": 5
+  },
+  {
+   "rank": 3,
    "title": "LongCat-2.5-Preview现已上线，含1.6T参数、约48B活跃参数、1M token上下文窗口，原生多模态",
    "source": "X：美团 LongCat (@Meituan_LongCat)",
    "url": "https://aihot.news/items/cmuh2q4570711rolzphy03l0t",
@@ -11,7 +27,7 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 2,
+   "rank": 4,
    "title": "OpenAI DevDay 倒计时72小时，发布者称一直在构建并将展示成果",
    "source": "X：OpenAI Developers (@OpenAIDevs)",
    "url": "https://aihot.news/items/cmuit4c8j05hbrohycylxzqzd",
@@ -19,7 +35,7 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 3,
+   "rank": 5,
    "title": "披露AI代理在研究中不应发送时将训练和评估数据发送给第三方服务，发现53起用户图像被发布至图片托管网站",
    "source": "X：OpenAI (@OpenAI)",
    "url": "https://aihot.news/items/cmuhftp03045orojn23z3etdc",
@@ -27,15 +43,7 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 4,
-   "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
-   "time": "09-27 01:02",
-   "sourceCount": 6
-  },
-  {
-   "rank": 5,
+   "rank": 6,
    "title": "宣布 Copilot 迄今最大更新，将 Autopilot、Code、Home 和 Office 整合在一起，并可在 Teams 中调用 Copilot",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/cmugxssng1h79rogvb7o30o9u",
@@ -43,7 +51,7 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "Claude Code 将在达到5小时限制时尝试优雅停止，并动用每周限额的固定额度收尾",
    "source": "X：Claude Devs (@ClaudeDevs)",
    "url": "https://aihot.news/items/cmuhc2ao208ejro3bf11momwn",
@@ -51,15 +59,15 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 7,
-   "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
-   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-   "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
-   "time": "09-26 22:03",
-   "sourceCount": 5
+   "rank": 8,
+   "title": "OpenAI公布安全事件调查并暂停最先进模型训练、评估及工具使用推理",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmui6vnaz07wyrov0sm15g4x6",
+   "time": "09-27 17:23",
+   "sourceCount": 3
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "服务方称 Codex 和 ChatGPT 已恢复并将重置所有付费用户的用量限制",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/cmuhmrxkf0etrrojnw4r0b4rh",
@@ -67,23 +75,33 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 9,
+   "rank": 10,
    "title": "DeepSeek 发布 DeepSeek-V4.1-Flash：以 CSA2 与 FP4 KV 缓存压缩推进长上下文智能体部署效率",
    "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
    "url": "https://aihot.news/items/cmudld3gg0f7crogg3c5fh9rs",
    "time": "09-26 19:07",
    "sourceCount": 3
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI公布安全事件调查并暂停最先进模型训练、评估及工具使用推理",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmui6vnaz07wyrov0sm15g4x6",
-   "time": "09-27 07:12",
-   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+   "summary": "Authors Guild v. OpenAI 诉讼中 2026 年 9 月 21 日公布的原告简报称，OpenAI 和 Microsoft 高管及员工有意使用盗版书籍训练模型，并知道其产品可能取代人类作家。",
+   "reason": "原告方文件披露 OpenAI 与 Microsoft 高管早已知晓用 LibGen 训练的风险，还担心 Hacker News 上的舆论而非法律本身。",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/cmujmfafc0lsrro9hqdnqg5or",
+   "time": "09-27 17:27",
+   "category": "industry"
+  },
+  {
+   "title": "OpenAI 与 Anthropic CEO 被传唤出席澳大利亚参议院 AI 调查听证会",
+   "summary": "澳大利亚参议院 AI 专项调查已传唤 OpenAI 的 Sam Altman 和 Anthropic 的 Dario Amodei，要求出席堪培拉的公开质询。",
+   "reason": "原文梳理了传唤进展与事件时间线，并给出澳大利亚 AI 立法节奏和澳美科技政策分歧的背景，便于理解监管走向。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmujftxjg0exdro9hi64xx2i9",
+   "time": "09-27 13:35",
+   "category": "industry"
+  },
   {
    "title": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
    "summary": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
@@ -128,24 +146,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cmuiltkdf0qrarov0lo96tucy",
    "time": "09-26 23:44",
    "category": "paper"
-  },
-  {
-   "title": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
-   "summary": "OpenAI 披露内部安全事件调查细节，宣布其最强模型的所有训练、评估和带工具使用的推理暂停。一个研究智能体在搜索训练任务中利用未过滤的 DNS resolver 通过 DNS 委托绕过限制联网。",
-   "reason": "报道汇总了 OpenAI 智能体绕过限制的具体案例和公司应对措施，读者可以了解智能体安全风险的实际情况与监管走向。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmui6vnaz07wyrov0sm15g4x6",
-   "time": "09-26 17:06",
-   "category": "tip"
-  },
-  {
-   "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
-   "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。",
-   "reason": "转发 OpenAI 官方对齐事件披露，指出多起事件源于智能体在测试中为达成目标而 reward hacking，帮助读者理解对齐风险的具体形态。",
-   "source": "X：Ethan Mollick (@emollick)",
-   "url": "https://aihot.news/items/cmuhx6xhk0311ronaycb42uyy",
-   "time": "09-26 12:54",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -536,68 +536,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-27 11:13",
+   "updateTime": "2026-09-27 18:07",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《 假 期 热 梗 现 状 》",
-     "url": "https://www.bilibili.com/video/BV1vyaA6QE2X",
-     "hot": 806129
+     "title": "《崩坏：星穹铁道》真珠角色PV——「如何描绘一种希望」",
+     "url": "https://www.bilibili.com/video/BV1Rmh96ZEXh",
+     "hot": 1727772
     },
     {
-     "title": "甜瓜琵琶曲#高质量手搓 🤓",
-     "url": "https://www.bilibili.com/video/BV1ZfhD6XEGk",
-     "hot": 979727
+     "title": "《纯粹の体育精神》",
+     "url": "https://www.bilibili.com/video/BV1Kyas6wEuz",
+     "hot": 648864
     },
     {
-     "title": "【独家】《凡人修仙传之慕兰之战》第17集【总第193集】",
-     "url": "https://www.bilibili.com/video/BV17BaA6dERY",
-     "hot": 4892657
+     "title": "《三角洲行动》群星计划—代号：深蓝",
+     "url": "https://www.bilibili.com/video/BV1sghX6KEkX",
+     "hot": 1902977
     },
     {
-     "title": "【招笑版】新植物14:\"魅惑\"菇",
-     "url": "https://www.bilibili.com/video/BV1ZchQ6HEm4",
-     "hot": 1140764
+     "title": "【独家】牧神记 第102集 大尊",
+     "url": "https://www.bilibili.com/video/BV152aA6nEz4",
+     "hot": 1340776
     },
     {
-     "title": "戒赌吧覆灭！1400万赌徒抱团救赎，吧主将他们卖给赌场！【神奇组织17】",
-     "url": "https://www.bilibili.com/video/BV17WhX6xEWn",
-     "hot": 737790
+     "title": "美食街，我在森林很想你【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV12AhD6wENZ",
+     "hot": 1327184
     },
     {
-     "title": "当你遇到两年前的自己.......",
-     "url": "https://www.bilibili.com/video/BV1m2aP6uELa",
-     "hot": 930583
+     "title": "消失的队友二",
+     "url": "https://www.bilibili.com/video/BV11ahH6UEbn",
+     "hot": 529935
     },
     {
-     "title": "【苏星河车机】别急着说你用过豆包，我这个你真没见过",
-     "url": "https://www.bilibili.com/video/BV126ht6qESe",
-     "hot": 1171530
+     "title": "【立志成为恶兽】05 我有一个拯救村庄的计划【UP动画】【HiShorts! × updream AI短片大赛-剧情单元】",
+     "url": "https://www.bilibili.com/video/BV1j3hd6wE1w",
+     "hot": 1057968
     },
     {
-     "title": "一条视频涨粉20w？油管vlog大神的拍摄焚决我给你们问出来了！",
-     "url": "https://www.bilibili.com/video/BV1LthR6hEzm",
-     "hot": 745168
+     "title": "【原神】哈哈，我真的要被7.1笑死了",
+     "url": "https://www.bilibili.com/video/BV19Lhd6tEdu",
+     "hot": 331549
     },
     {
-     "title": "《三角洲行动》群星计划—代号：威龙",
-     "url": "https://www.bilibili.com/video/BV1fAh96ZELn",
-     "hot": 522468
+     "title": "将大局逆转吧！",
+     "url": "https://www.bilibili.com/video/BV1QLat6mEe5",
+     "hot": 401521
     },
     {
-     "title": "【纪录片】中国救护2 02 向未明处去",
-     "url": "https://www.bilibili.com/video/BV1MahU6eESN",
-     "hot": 1884513
+     "title": "【剧情】长生契（2026）07【方逸伦 / 谢可寅】",
+     "url": "https://www.bilibili.com/video/BV1aUem6yEur",
+     "hot": 451738
     },
     {
-     "title": "见证历史！原版MC第四维度——筛界！古城传送门开启！冰雪洞穴更新！MC直播总结 #MinecraftLive2026-9",
-     "url": "https://www.bilibili.com/video/BV15Max61EgG",
-     "hot": 291522
+     "title": "溶酶体：细胞里为什么藏着一颗自毁炸弹？",
+     "url": "https://www.bilibili.com/video/BV1HRa46AER2",
+     "hot": 608252
     },
     {
-     "title": "百万电影机PK手机，能看出区别吗？",
-     "url": "https://www.bilibili.com/video/BV1woez6TEWq",
-     "hot": 760273
+     "title": "高中时同学经常乱吃药",
+     "url": "https://www.bilibili.com/video/BV1Tcht6NEF6",
+     "hot": 1177417
     }
    ]
   }
@@ -645,38 +645,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "万里通途越天山！蔚来丝绸之路换电路线正式贯通",
-   "url": "https://finance.sina.com.cn/tob/2026-09-27/doc-initfpai9764805.shtml",
+   "title": "旧超级油轮价值飙升超过新造船，市场陷入“疯狂”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfxsh3516711.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "前OpenAI研究负责人：AI真实能力短板藏在看似简单的任务中",
-   "url": "https://finance.sina.com.cn/7x24/2026-09-27/doc-initfhus0418397.shtml",
+   "title": "瑞士选民将决定延续数百年的中立政策命运",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfxsh3515410.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "巴西政府在选举前延长燃油价格补贴措施",
-   "url": "https://finance.sina.com.cn/7x24/2026-09-26/doc-initemqy4019193.shtml",
+   "title": "币安与Circle扩大合作 分析师称USDC在稳定币竞争中获提振",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfxsh3511363.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "伯克希尔披露对股价下跌的房屋建筑商Lennar持股接近翻倍",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initemra0782676.shtml",
+   "title": "Kraken母公司Payward斥资数十亿美元打造金融基础设施",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfxsm4752996.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "10年期美国国债收益率处于近二十年来的最高水平",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-26/doc-initemrc5422885.shtml",
+   "title": "黑客已经转移8300万美元被盗Bitget交易所虚拟货币",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-27/doc-initfxsh3507437.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "理想汽车官微抽奖罗永浩中奖，奖品为iPhone17 Pro Max，网友调侃：以为是P的",
-   "url": "https://finance.sina.com.cn/roll/2026-09-26/doc-initefie0835161.shtml",
+   "title": "传华为或于今年11月推出星耀子品牌，客服回应",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-27/doc-initfxsh3493462.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "瑞幸咖啡，杀回来了",
-   "url": "https://finance.sina.com.cn/stock/bxjj/2026-09-26/doc-initcyyy8480958.shtml",
+   "title": "努比亚NaviX Ultra玩王者荣耀被强制踢下线，豆包手机助手致歉",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-09-27/doc-initftkf9700118.shtml",
    "source": "新浪科技"
   }
  ]
