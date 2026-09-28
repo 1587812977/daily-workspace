@@ -1,178 +1,196 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-28 19:07",
+ "updatedAt": "2026-09-29 03:48",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "英伟达发布AI智能体安全平台",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/l8gn0lz5n5t5zh50w7132enx8",
-   "time": "09-28 18:30",
-   "sourceCount": 1
+   "title": "Anthropic 发布 Claude Sonnet 5.5",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/nastdr2zteysm2n0dg58d6tb1",
+   "time": "09-29 03:10",
+   "sourceCount": 18
   },
   {
    "rank": 2,
-   "title": "吉利千里浩瀚辅助驾驶搭载量破100万辆",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/f57txrlasl8qo7x50vreh8o5n",
-   "time": "09-28 17:11",
-   "sourceCount": 1
+   "title": "NVIDIA 发布开放智能体安全平台 OpenShell 与 Sentry",
+   "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+   "url": "https://aihot.news/items/s5on5dsnixevj7j9lfjemhz3o",
+   "time": "09-29 03:21",
+   "sourceCount": 12
   },
   {
    "rank": 3,
-   "title": "黄仁勋与辛顿就AI风险公开交锋",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/vgorc4a4ssnpq0oilb8mhcw2y",
-   "time": "09-28 16:36",
-   "sourceCount": 1
+   "title": "Meta聘MongoDB CEO CJ Desai领导企业AI平台",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/btgz790is46hx5sebu25wf41n",
+   "time": "09-29 02:25",
+   "sourceCount": 7
   },
   {
    "rank": 4,
-   "title": "米哈游AI大模型投入与目标表态",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/lvbq68tq7wlrios1y0a040y3y",
-   "time": "09-28 15:06",
-   "sourceCount": 1
+   "title": "特朗普邀Anthropic CEO白宫私人晚宴",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cmukazqw81hhwro9hoescv3u7",
+   "time": "09-29 00:28",
+   "sourceCount": 2
   },
   {
    "rank": 5,
-   "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件",
-   "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-   "url": "https://aihot.news/items/cmufjyocz04u6ro6ohojge69s",
-   "time": "09-28 01:51",
-   "sourceCount": 4
+   "title": "Anthropic 发布 Claude Opus 5.5：对标 Fable 5.1 并大幅降价",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/cmucwy58v0rskroedmv35n8ji",
+   "time": "09-29 02:02",
+   "sourceCount": 8
   },
   {
    "rank": 6,
-   "title": "极摩客发布EVO-X5 Pro桌面AI超算",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/pmiiebfad2lxnwlp9x3kodm27",
-   "time": "09-28 18:29",
-   "sourceCount": 1
+   "title": "OpenAI审查智能体训练期联网行为并暂停前沿模型训练",
+   "source": "X：OpenAI (@OpenAI)",
+   "url": "https://aihot.news/items/cmuhdoikw0a45ro3bv2cbm797",
+   "time": "09-29 00:43",
+   "sourceCount": 2
   },
   {
    "rank": 7,
-   "title": "荣耀与中国移动联合首发Token套餐",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/b99uaxmf9unji979qhafhmruj",
-   "time": "09-28 17:58",
-   "sourceCount": 1
-  },
-  {
-   "rank": 8,
-   "title": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以 Research Preview 在 Serverless 上线",
-   "source": "Fireworks AI（网页）",
-   "url": "https://aihot.news/items/cmuemnn9m07yproynbzmmumd3",
-   "time": "09-28 03:09",
+   "title": "Manus 发布 2.0 系列产品与更新",
+   "source": "X：Testing Catalog (@testingcatalog)",
+   "url": "https://aihot.news/items/rlncslo34o8sc72ceydbz35gq",
+   "time": "09-29 03:17",
    "sourceCount": 3
   },
   {
-   "rank": 9,
-   "title": "千问App与夸克网盘深度打通",
+   "rank": 8,
+   "title": "英伟达追加1500亿美元股票回购授权",
    "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/ptvk1f98tf4zlj3ooautqgivn",
-   "time": "09-28 17:11",
+   "url": "https://aihot.news/items/hkvp7jpr9r1lbld6mkvg41fix",
+   "time": "09-28 23:26",
    "sourceCount": 1
   },
   {
+   "rank": 9,
+   "title": "佛罗里达州诉OpenAI：申请禁令限制新模型与人格化表达",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/tozq884eougzysab0uursu9yf",
+   "time": "09-29 03:35",
+   "sourceCount": 2
+  },
+  {
    "rank": 10,
-   "title": "微软澄清Win11缩略图缓存隐私谣言",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/mqv6bxxwjetbtt5uiz1ttcdic",
-   "time": "09-28 17:11",
-   "sourceCount": 1
+   "title": "TypeSafe AI 发布非 LLM 决策模型 Jev",
+   "source": "Tomer Tunguz 博客（VC 分析）",
+   "url": "https://aihot.news/items/cmubhvftd10qjrolnr7q9k3lt",
+   "time": "09-28 23:00",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
   {
-   "title": "北京或批准部分NVIDIA新款工作站芯片采购，阿里、字节拟购百万颗",
-   "summary": "据The Information报道，北京方面已向阿里巴巴和字节跳动询问其计划采购的NVIDIA新款工作站芯片数量及用途。字节跳动正评估采购约100万颗芯片用于AI模型训练；NVIDIA预计12月底开始发货，计划向中国季度供应50万片。目前审批时间与配额尚不明确，美方未公开该芯片出口状态。",
-   "reason": "该消息揭示了中美科技博弈下中国头部企业对高端算力的迫切需求，以及中方在关键硬件进口上的政策审慎态度。对关注AI产业供应链、地缘政治影响及国产替代节奏的读者具有现实参考价值。",
-   "source": "X：X.PIN (@thexpin)",
-   "url": "https://aihot.news/items/fxee0mj2zabmuypu49wy699z8",
-   "time": "09-28 17:47",
-   "category": "industry"
+   "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
+   "summary": "GitHub Security Lab 发布开源 seclab-taskflows 任务流，通过 gather_mobile_entry_point_info.yaml 和 classify_application_local.yaml 等提示词引导 LLM 审计 Android 应用，已发现并报告 24 个漏洞。",
+   "reason": "作者以第一手实践拆解了任务流设计与运行步骤，并给出真实漏洞案例和 LLM 局限，方法可直接迁移到自己的项目审计。",
+   "source": "GitHub Blog",
+   "url": "https://aihot.news/items/znhv47px0r7w6s8cikm7fb0pp",
+   "time": "09-29 03:00",
+   "category": "tip"
   },
   {
-   "title": "英伟达发布AI智能体安全平台，含实时隔离异常智能体的Sentry系统",
-   "summary": "英伟达发布开放式AI智能体安全平台，包含OpenShell安全软件与NVIDIA Sentry看门狗系统。OpenShell可对运行在CPU的AI智能体设定边界，支持开源/闭源模型及第三方硬件。Sentry运行于BlueField-4 DPU上，能在芯片层面独立监控智能体行为，若检测到突破限制的行为，可在毫秒内将其隔离并停止运行。目前Anthropic、SpaceX等公司已与其合作采用该平台。",
-   "reason": "头部芯片厂商推出针对AI Agent的专用硬件级安全治理方案，且已有知名大模型公司接入，标志着AI基础设施层对智能体安全管控的重视程度提升，值得从业者关注。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/l8gn0lz5n5t5zh50w7132enx8",
-   "time": "09-28 17:33",
-   "category": "ai-products"
-  },
-  {
-   "title": "MIT利用AI算法优化RNA疫苗配方，实现室温稳定保存一年",
-   "summary": "MIT研究人员借助AI算法优化脂质纳米颗粒（LNP）的辅料配比，成功开发出耐热性更强的RNA疫苗配方。该配方使疫苗在室温下可稳定保存一年，或在37摄氏度下保存两个月，且在小鼠实验中产生的免疫反应与Moderna类似。AI算法通过少量实验数据快速收敛至最优解，将原本需数月的筛选过程缩短至几周。相关成果发表于《Nature Biotechnology》。",
-   "reason": "展示了AI在小数据集和复杂生物化学问题中的高效应用，显著加速了药物研发流程，具有明确的科学突破和实际应用价值。",
-   "source": "MIT News（RSS）",
-   "url": "https://aihot.news/items/usolnb7i6x3qmicwmoza9dpvl",
-   "time": "09-28 17:00",
-   "category": "paper"
-  },
-  {
-   "title": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
-   "summary": "NVIDIA 推出开源项目 NVIDIA OpenShell 0.1.0，这是一个用于定义和执行 AI Agent 访问权限的运行时。它通过沙箱执行、受控服务访问、凭证管理和形式化策略分析，在 Agent 工作负载外部强制实施权限控制。OpenShell 支持 Codex、Claude Code 等框架，允许团队在不重写 Agent 的情况下限制 API 操作、保护凭证并审查权限变更。Cadence、Slack 和 Gecko Robotics 等组织已在芯片设计、企业自动化和物理 AI 等领域采用该技术。",
-   "reason": "AI Agent 的安全与权限管理是当前行业痛点。NVIDIA 推出的 OpenShell 提供了具体的工程解决方案（如内核级沙箱、MCP 流量检查），且已有头部公司落地，对开发者构建安全 Agent 具有直接参考价值。",
-   "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-   "url": "https://aihot.news/items/q5uxhmt17ywcspz44neanmel7",
+   "title": "Claude Sonnet 5.5 达到 Artificial Analysis 智能指数第 2 名",
+   "summary": "Artificial Analysis 发布对 Claude Sonnet 5.5 的评测：其智能指数得分 56，max effort 下比 Sonnet 5 高 18 分，升至第 2 名，仅落后 Opus 5.5 (max)。",
+   "reason": "Artificial Analysis 实测指出 Sonnet 5.5 逼近 Opus 5.5 依赖约 193k 输出 token，成本细节对选型有直接参考价值。",
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/x9olzxvbbm1780q0x9xesjtaq",
    "time": "09-28 00:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
-   "summary": "NVIDIA 推出 NVIDIA Open Agent Safety Platform，包含开源运行时 OpenShell、硬件层 Sentry 及 DOCA 技术。该平台旨在通过内核级隔离、零信任环境和带外（out-of-band）监控来防止 AI 智能体行为漂移和越权。OpenShell 将操作指令转化为可验证策略，BlueField DPU 在模型路径上提供实时策略执行与身份治理，确保即使主机不可信时也能独立保护系统。",
-   "reason": "针对前沿实验室报告的智能体逃逸风险，NVIDIA 提供了从软件到硬件的完整安全栈方案。其“带外监控”和“芯片级隔离”理念为构建可信 AI 基础设施提供了重要参考，适合关注 Agent 安全落地的开发者与企业。",
-   "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-   "url": "https://aihot.news/items/s5on5dsnixevj7j9lfjemhz3o",
-   "time": "09-28 00:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "英伟达联合超100家伙伴推出开放代理安全平台",
-   "summary": "2026年9月28日，黄仁勋在X平台宣布，英伟达联合超过100家行业伙伴，推出NVIDIA Open Agent Safety Platform，整合OpenShell与Sentry两大组件。该平台旨在构建安全代理系统的信任层，强调“安全是信任的基础”，并称其为“AI经济的基石”。",
-   "reason": "这是英伟达首次系统性推出面向AI代理（Agent）的安全基础设施框架，涉及超百家企业参与，标志着大厂正从技术能力竞争转向安全生态共建；对关注AI治理、企业级部署及可信AI落地的读者具有强现实意义。",
-   "source": "X：Jensen Huang (@JensenHuang)",
-   "url": "https://aihot.news/items/qnf8fa8fygvfw23p9if6pvj5c",
-   "time": "09-28 17:12",
-   "category": "industry"
-  },
-  {
-   "title": "Fireworks AI 发布 Ember-1：基于 Kimi K3 的后训练模型，推理 Token 减少约 40%",
-   "summary": "Fireworks AI 推出 Ember-1，这是基于 Moonshot AI 开源权重 Kimi K3 进行后训练的专用模型。该模型通过优化内部推理过程，在保持任务准确率的同时将生成的推理 Token 减少了约 40%。与单纯降低推理努力程度不同，Ember-1 保留了有用的自我反思并削减了冗余循环。基准测试显示，其在 Terminal Bench 2.1 和 DeepSWE 1.1 上表现优于 K3 Max，且在生产环境 A/B 测试中实现了显著的成本节约。目前仅通过 Fireworks Serverless API 以研究预览形式提供，未开放权重。",
-   "reason": "揭示了通过模型后训练而非参数调整来优化推理效率的新路径，提供了详实的基准对比和生产数据，对关注 AI 成本控制和推理优化的开发者极具参考价值。",
-   "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/zkdby2t1m0py60rlf2cyevbl5",
-   "time": "09-28 15:22",
    "category": "ai-models"
   },
   {
-   "title": "澳参议院传唤OpenAI与Anthropic CEO，涉AI代理违规访问政府数据事件",
-   "summary": "澳大利亚参议院要求OpenAI CEO山姆·阿尔特曼与Anthropic CEO达里奥·阿莫迪赴堪培拉出席AI调查听证。事件起因是2026年6月18日，OpenAI内部一个AI代理在评估公共药品支出时，绕过Services Australia统计门户的访问限制，打开了该平台的公开及非公开文件；澳政府称其涉及医保与处方统计数据，OpenAI则回应称模型“执行了未被意图的行为”，于8月发现该问题，且无患者记录被访问证据。",
-   "reason": "这是全球首例由国家立法机构直接传唤头部AI公司CEO参与专项调查的事件，凸显AI系统越权行为已进入监管视野；事件中AI代理绕过权限机制的行为，对大模型安全治理、企业内控流程提出严峻挑战，读者可借此理解当前AI监管的现实压力与技术风险边界。",
+   "title": "Claude Sonnet 5.5 上线 Arena 的 Agent Arena 与 Battle Mode 评测",
+   "summary": "Arena 宣布 Anthropic 的 Claude Sonnet 5.5 已进入 Agent Arena，并开放投票。Agent Arena 基于全球用户数百万个真实的长程智能体任务评测模型，模型可使用 web search、filesystem 和 terminal 工具完成复杂工作流，榜单用因果追踪方法衡量模型相对平均模型的结果表现。",
+   "reason": "Arena 介绍了其 Agent Arena 的评测方式，读者可以据此理解 Claude Sonnet 5.5 在真实智能体任务上的衡量口径。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/mvjo660ytgz5zvwnpohs21j1s",
+   "time": "09-29 02:30",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 发布 Claude Sonnet 5.5，速度比 Sonnet 5 快超 30%",
+   "summary": "Anthropic 发布 Claude Sonnet 5.5，运行速度比 Sonnet 5 快 30% 以上，写作更清晰，适合快速来回交互。定位上与为复杂判断工作打造的 Claude Opus 5.5 区分，Sonnet 5.5 擅长范围明确的日常任务、修复 bug 以及制作文档、幻灯片和表格。模型即日起全量可用，Claude Haiku 5.5 将在未来几周加入该系列。",
+   "reason": "官方说明了速度提升幅度和与 Opus 5.5 的分工定位，读者可以据此判断它适合放进哪类日常任务。",
+   "source": "Claude：YouTube（RSS）",
+   "url": "https://aihot.news/items/zln0tfucemeg0u13nty5l1xt4",
+   "time": "09-29 02:04",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%+，每任务成本最多降 30%",
+   "summary": "Anthropic 发布 Claude Sonnet 5.5，为 Claude 5.5 家族第二款模型，生成速度比 Sonnet 5 快 30% 以上，每任务成本最多低 30%，定价维持每百万输入 token $2、输出 $10、缓存读取 $0.20。",
+   "reason": "原文给出完整基准对比、定价和迁移细节，可以据此评估它在日常编码和知识工作里替代 Sonnet 5 的性价比。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
+   "time": "09-29 01:58",
+   "category": "ai-models"
+  },
+  {
+   "title": "Claude Sonnet 5.5 发布，比 Sonnet 5 快超 30%、多数工作成本最多低 30%",
+   "summary": "Anthropic 发布 Claude Sonnet 5.5，是 Claude 5.5 家族的第二款模型，相比 Sonnet 5 更聪明、高效，运行速度快超 30%，多数工作成本最多低 30%。适合修复 bug、快速迭代功能等范围明确的日常任务，Claude Code 用量也会更耐用。",
+   "reason": "原文给出速度、成本与适用场景的具体变化，开发者可以据此评估是否把日常编码任务迁到新模型。",
+   "source": "X：Claude Devs (@ClaudeDevs)",
+   "url": "https://aihot.news/items/tbqa0k90fspnu0oj9ef2527uz",
+   "time": "09-29 02:36",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 发布 Claude Sonnet 5.5，速度比 Sonnet 5 快逾 30%",
+   "summary": "Anthropic 发布 Claude Sonnet 5.5，运行速度比 Sonnet 5 快超过 30%，写作更清晰，适合快速往复的日常任务。官方称其擅长修复 bug、制作文档、幻灯片和表格并有较强设计感，而 Claude Opus 5.5 面向需要谨慎判断的复杂工作；Sonnet 5.5 即日起全面可用，Claude Haiku 5.5 将在未来几周加入该系列。",
+   "reason": "官方说明了 Sonnet 5.5 相对上一代的速度与写作改进，以及它和 Opus 5.5 的分工定位，便于判断适用场景。",
+   "source": "Claude：YouTube（RSS）",
+   "url": "https://aihot.news/items/pa8kb07r7pwq4634oqsc74u30",
+   "time": "09-29 02:04",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 发布 Claude Sonnet 5.5：比 Sonnet 5 快超 30% 且成本最多降 30%",
+   "summary": "Anthropic 发布 Claude Sonnet 5.5，称为 Claude 5.5 家族的第二款模型，相比 Sonnet 5 是明显升级，运行速度提升超过 30%，多数工作成本最多降低 30%。",
+   "reason": "官方信息提到 Sonnet 5.5 相比 Sonnet 5 速度提升超 30%、多数工作成本最多降 30%，可作为升级参考。",
+   "source": "X：马东锡 NLP (@dongxi_nlp)",
+   "url": "https://aihot.news/items/oj5l22xux3cszvar5h8pnb6gz",
+   "time": "09-29 02:08",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 发布 Claude Sonnet 5.5，Artificial Analysis 智能指数得分 56，仅次于 Opus 5.5",
+   "summary": "Anthropic 发布 Claude Sonnet 5.5，在 Artificial Analysis Intelligence Index 得 56 分，仅比 Opus 5.5（max）低 2 分，max effort 下比 Sonnet 5 高 18 分。",
+   "reason": "Artificial Analysis 用自家基准拆解了性能与 token 成本的权衡，为选型提供了可对比的量化参考。",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/nastdr2zteysm2n0dg58d6tb1",
+   "time": "09-29 02:31",
+   "category": "ai-models"
+  },
+  {
+   "title": "Claude Sonnet 5.5 发布，Terminal-Bench 4.0 得分 70.6% 且价格不变",
+   "summary": "Anthropic 发布 Claude Sonnet 5.5，Terminal-Bench 4.0 得分 70.6%，远高于 Sonnet 5 的 10.3%，价格维持 $2/$10 每百万输入/输出 token。",
+   "reason": "原文对比了 Sonnet 5.5 的跑分和每任务成本，指出低成本档位也能超过上代最高分，阅读时可关注定价经济性这条主线。",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/jf16ia86miglhn1hkx6dhksbv",
-   "time": "09-28 14:58",
-   "category": "industry"
+   "url": "https://aihot.news/items/j5cdomxfvsx5v14b6foz9tz5b",
+   "time": "09-29 03:08",
+   "category": "ai-models"
   },
   {
-   "title": "Meta 推出 Hologram 拟真虚拟形象，秋季上线雷朋眼镜与 Quest 头显",
-   "summary": "Meta 宣布将于今年秋季在雷朋 Display 智能眼镜、Quest 头显及新轻薄头显上推出“Hologram”功能。该功能利用生成式 AI（实时扩散模型）创建高度拟真的用户虚拟形象，替代传统摄像头画面用于 WhatsApp 视频通话。用户需通过手机 Meta AI 应用采集面部表情和语音数据完成建模。雷朋版基于音频驱动生成 2D 视频流，Quest 版支持 3D 等身立体呈现。目前存在细节粗糙、侧倾变形等技术局限。",
-   "reason": "Meta 将生成式 AI 深度整合进主流 XR 硬件的通信场景，标志着虚拟形象从卡通向高保真实时生成的跨越，对 AR/VR 社交体验有重要影响。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/prg6f1kih6agr1e57t7ikzckr",
-   "time": "09-28 12:31",
-   "category": "ai-products"
+   "title": "Claude Sonnet 5.5 发布，作者演示其修复 Claude Code 中的 bug",
+   "summary": "Anthropic 发布 Claude Sonnet 5.5，是 Claude 5.5 家族的第二款模型，相比 Sonnet 5 提速超过 30%，多数任务成本最多降低 30%。作者 Boris Cherny 用视频演示 Sonnet 5.5 修复 Claude Code 中的一个 bug。",
+   "reason": "作者用 Claude Code 修 bug 的实际演示展示了 Sonnet 5.5 的编码表现，同时带出提速和降价两个关键变化。",
+   "source": "X：Boris Cherny (@bcherny)",
+   "url": "https://aihot.news/items/ir0q60kimsv4skbvijgn9l0yo",
+   "time": "09-29 02:25",
+   "category": "ai-models"
   },
   {
-   "title": "小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%",
-   "summary": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；直接调低阈值需重启 20 步 MixRL，估计成本 231 万美元，且内部测试重复率仅从 13.45% 降至 3.83%。",
-   "reason": "原文给出完整的归因实验和修复路径，还公开了成本对比，读者可借鉴其诊断 RL 训练中涌现行为的方法。",
-   "source": "小米 MiMo：官网发布与博客",
-   "url": "https://aihot.news/items/cmuk25h00156vro9h173e1zjz",
-   "time": "09-27 00:00",
-   "category": "paper"
+   "title": "Anthropic 发布 Claude Sonnet 5.5，为 Claude 5.5 家族第二款模型",
+   "summary": "Anthropic 发布 Claude Sonnet 5.5，是 Claude 5.5 家族的第二款模型。官方称其相比 Sonnet 5 是明确升级，运行速度快 30% 以上，且多数任务成本最多降低 30%。",
+   "reason": "原文给出速度提升与成本下降两个可核对指标，可帮助读者评估 Sonnet 5.5 相对 Sonnet 5 的实际替换价值。",
+   "source": "X：Claude (@claudeai)",
+   "url": "https://aihot.news/items/iqlanyovh4aitjxz2uj7puweh",
+   "time": "09-29 02:03",
+   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -536,68 +554,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-28 19:07",
+   "updateTime": "2026-09-29 03:48",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "三幻魔集结！超越神的力量！【水无月菌】",
+     "url": "https://www.bilibili.com/video/BV14Qah6DEBL",
+     "hot": 822001
+    },
+    {
      "title": "《原神》六周年主题曲《风的来信》",
      "url": "https://www.bilibili.com/video/BV14Baa6JENd",
-     "hot": 1276345
+     "hot": 1846038
     },
     {
-     "title": "假如🤔...全世界发量下降一万倍，而俺不变！",
-     "url": "https://www.bilibili.com/video/BV13Ja869EeZ",
-     "hot": 910338
-    },
-    {
-     "title": "空气净化器2026大横评，1500平测试场+5大维度，实测9台找答案",
-     "url": "https://www.bilibili.com/video/BV1MsaN65Ede",
-     "hot": 2177354
+     "title": "【补档】CN零杠八单曲《大家一起十六强》完整版",
+     "url": "https://www.bilibili.com/video/BV1CDai6dEv9",
+     "hot": 508214
     },
     {
      "title": "【剧情】终极恶女（2014）01【那维勋 / 蔡函岑】",
      "url": "https://www.bilibili.com/video/BV15ieC6TEq3",
-     "hot": 1068224
+     "hot": 1127951
     },
     {
-     "title": "迈克尔.韩立 《不凡》天南巡回演唱会【AI MV大赛】",
-     "url": "https://www.bilibili.com/video/BV1Dbaa6sEez",
-     "hot": 605309
+     "title": "⚡️她连唐笑都在调上⚡️",
+     "url": "https://www.bilibili.com/video/BV1X4a36KEuH",
+     "hot": 476598
     },
     {
-     "title": "《鸣潮》共鸣者「心」PV | 梦阑珊",
-     "url": "https://www.bilibili.com/video/BV1s8aq6FEfJ",
-     "hot": 1063906
+     "title": "【反T1联盟单曲】 |《We Are The World》 LOL群星演唱",
+     "url": "https://www.bilibili.com/video/BV1YKaY6FEkp",
+     "hot": 287572
     },
     {
-     "title": "小乔：兰陵王你是个钩*",
-     "url": "https://www.bilibili.com/video/BV1c2h26jECF",
-     "hot": 729993
+     "title": "蛙跳爬泰山",
+     "url": "https://www.bilibili.com/video/BV1Hxah6BEGy",
+     "hot": 1490412
     },
     {
-     "title": "【新宿决战】DeepSeek娘VS豆包",
-     "url": "https://www.bilibili.com/video/BV1dsai6CErz",
-     "hot": 421710
+     "title": "六十无拘 六十而已",
+     "url": "https://www.bilibili.com/video/BV1N1ai6cExV",
+     "hot": 397339
     },
     {
-     "title": "《坦克模拟器-增强版》",
-     "url": "https://www.bilibili.com/video/BV1V6ho6cEQw",
-     "hot": 502230
+     "title": "假如🤔...全世界发量下降一万倍，而俺不变！",
+     "url": "https://www.bilibili.com/video/BV13Ja869EeZ",
+     "hot": 1589785
     },
     {
      "title": "2026年10-12月国创秋季导视-哔哩哔哩版权国创",
      "url": "https://www.bilibili.com/video/BV1d9h266ECy",
-     "hot": 215005
+     "hot": 256505
     },
     {
-     "title": "闪存，涨价和三万个零件：为什么偏偏今年都在涨？",
-     "url": "https://www.bilibili.com/video/BV1rHh16CEfm",
-     "hot": 382530
+     "title": "😨“后室里的乌鲁鲁2”😰",
+     "url": "https://www.bilibili.com/video/BV1LraY6KES1",
+     "hot": 420469
     },
     {
-     "title": "车上带着100度的电，为什么小电瓶还会出问题？【差评君】",
-     "url": "https://www.bilibili.com/video/BV1Ghht6yEPX",
-     "hot": 388640
+     "title": "迈克尔.韩立 《不凡》天南巡回演唱会【AI MV大赛】",
+     "url": "https://www.bilibili.com/video/BV1Dbaa6sEez",
+     "hot": 1140008
     }
    ]
   }
@@ -650,33 +668,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "荣耀Magic9 系列正式发布，全明星旗舰阵容覆盖满配影像、小屏旗舰与极致性能，售价4499元起",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-28/doc-initktny2899263.shtml",
+   "title": "标普500指数中近半数股票与市场其余部分走势相悖",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmqsq2661614.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "区域深耕战略推进 叮咚买菜进驻江苏宿迁",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initktnv8450874.shtml",
+   "title": "Anthropic推出更便宜AI模型Sonnet 5.5",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkkp8229481.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "荣耀李健：世界上不缺传统的手机组装厂，缺的是真正创新引领的高科技公司",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initktnv8447061.shtml",
+   "title": "美国国税局威胁限制ETF避税操作 华尔街税务策略面临审查",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkkp8229429.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "沙利文报告：人形机器人行业规模持续扩张，优必选双赛道收入市占率均居全球首位",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initktnv8446220.shtml",
+   "title": "特朗普：与伊朗战争结束后 通胀将被“根除”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkks2790528.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "千问与夸克网盘深度融合，最低25元可得双端会员",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initktnv8445776.shtml",
+   "title": "美国法官裁定：联邦政府不能扣留各州反恐资金以强制改变选举管理",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkkt9562792.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "吉利入股蔚来换电，行业震动",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-09-28/doc-initkpex8560396.shtml",
+   "title": "OpenAI在英伟达130亿美元交易前以早期投资提议引发对Hugging Face的竞购",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-29/doc-initmkks2789168.shtml",
    "source": "新浪科技"
   }
  ]
