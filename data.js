@@ -1,13 +1,13 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-30 18:37",
+ "updatedAt": "2026-10-01 02:05",
  "aihotHot": [
   {
    "rank": 1,
    "title": "OpenAI 发布常驻智能体 Dots",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
-   "time": "09-30 16:43",
+   "time": "10-01 00:45",
    "sourceCount": 11
   },
   {
@@ -15,31 +15,31 @@ var WB_DATA = {
    "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8",
-   "time": "09-30 18:06",
-   "sourceCount": 12
+   "time": "10-01 01:25",
+   "sourceCount": 11
   },
   {
    "rank": 3,
    "title": "AMD 82亿美元收购World Labs，李飞飞任首席科学家",
    "source": "World Labs：官网",
    "url": "https://aihot.news/items/ukbm1pni8gdc5ciwwuywzkhwb",
-   "time": "09-30 15:41",
-   "sourceCount": 10
+   "time": "09-30 21:54",
+   "sourceCount": 9
   },
   {
    "rank": 4,
    "title": "Anthropic 发布 Claude Sonnet 5.5",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
-   "time": "09-30 16:40",
-   "sourceCount": 15
+   "time": "09-30 23:04",
+   "sourceCount": 14
   },
   {
    "rank": 5,
    "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
-   "time": "09-30 13:26",
+   "time": "09-30 22:39",
    "sourceCount": 7
   },
   {
@@ -47,7 +47,7 @@ var WB_DATA = {
    "title": "OpenAI重开Pro 200并新增Pro 500档",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/gs96clovs726l3b5nd80ofnva",
-   "time": "09-30 16:31",
+   "time": "09-30 21:30",
    "sourceCount": 5
   },
   {
@@ -63,7 +63,7 @@ var WB_DATA = {
    "title": "DeepSeek开源华为昇腾平台基础设施组件",
    "source": "公众号：DeepSeek（深度求索）",
    "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3",
-   "time": "09-30 17:56",
+   "time": "09-30 21:13",
    "sourceCount": 3
   },
   {
@@ -71,19 +71,100 @@ var WB_DATA = {
    "title": "特朗普推动AI改名并筹建AI Force",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmu9jwllp040mrogngntwk2d7",
-   "time": "09-30 17:51",
+   "time": "10-01 01:01",
    "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "NVIDIA 发布开放智能体安全平台 OpenShell 与 Sentry",
-   "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-   "url": "https://aihot.news/items/s5on5dsnixevj7j9lfjemhz3o",
-   "time": "09-30 08:06",
-   "sourceCount": 9
+   "title": "Anthropic评估GLM-5.3网络攻击能力",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/eqf3o3tlak08851t52unuji2o",
+   "time": "09-30 21:31",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "Factory Automations 正式开放：Droid 可定时或按事件自动执行工程工作流",
+   "summary": "Factory 宣布 Automations 正式向所有用户开放，用自然语言描述工作流后，Droid 可按定时或 Slack、GitHub、webhook 触发运行，支持自选模型（含 BYOK 和 Factory Router）与自选机器。",
+   "reason": "官方宣布 Automations 正式开放，给出具体用例、模型自选与企业使用数据，可以了解定时与事件触发的 Agent 工作流怎么落地。",
+   "source": "Factory 研究 / 产品（RSS）",
+   "url": "https://aihot.news/items/u33r5t71q9fo30jygm4iqnfm4",
+   "time": "09-30 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Anthropic 研究测算机器人对岗位的暴露度：机器人可做 74% 的物理任务但仅 0.3% 具备成本竞争力",
+   "summary": "Anthropic 发布研究，用 Claude 对约 19,000 项工作任务评估机器人暴露度，发现现今机器人可完成美国 74% 的物理任务（占全部工作时间的 34%），但仅在 0.3% 的任务上比人工更具成本竞争力，按每年约 3% 的降价趋势需约 40 年才能达到 10%。",
+   "reason": "研究给出了可核查的机器人任务暴露数据与成本测算，读者可据此比较机器人与 LLM 影响的职业差异。",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/lzxm86234leqs91hbocegps1l",
+   "time": "09-30 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "MIT 等机构发布 Ataraxos，以极低成本战胜顶级人类 Stratego 选手",
+   "summary": "MIT、CMU、NYU 与 Stanford 的研究人员开发出 AI 系统 Ataraxos，在隐藏信息棋盘战棋 Stratego 上大幅超越世界顶级人类选手，论文发表于 Nature。",
+   "reason": "原文解释了 Ataraxos 如何用自博弈强化学习和决策时规划以远低于以往的训练成本战胜顶级 Stratego 选手，方法细节可直接对照其他隐藏信息博弈场景。",
+   "source": "MIT News（RSS）",
+   "url": "https://aihot.news/items/knj4jcg30hz6vujhwu7xqeplj",
+   "time": "09-30 23:00",
+   "category": "paper"
+  },
+  {
+   "title": "ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元",
+   "summary": "ElevenLabs 完成 3 亿美元员工 tender offer，估值达 220 亿美元，是 2026 年 2 月 Series D 估值的两倍，由 Wellington 和 T. Rowe Price 领投。企业业务占收入 55%，ElevenAgents 每周处理超 1500 万次对话，ARR 自 2 月以来增长超 3 倍，客户语音智能体解决问题平均比聊天智能体快 31%。",
+   "reason": "原文给出 ElevenLabs 估值翻倍至 220 亿美元的关键经营数字和 ElevenAgents 增长细节，可据此了解企业级语音智能体市场的实际进展。",
+   "source": "ElevenLabs：Blog（网页）",
+   "url": "https://aihot.news/items/fkaymng16iu4hg5x53jpq7o8p",
+   "time": "09-30 20:00",
+   "category": "industry"
+  },
+  {
+   "title": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
+   "summary": "Google DeepMind 于 9 月 30 日发布 SynthID Bio，将水印技术引入合成生物学，把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。",
+   "reason": "原文给出湿实验验证数据、开源计划与在 DNA 合成筛查中的应用场景，读者可以据此评估这项水印技术对生物安全的实际作用。",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/deivg466iwv9ypddacud3hd7d",
+   "time": "09-30 23:03",
+   "category": "ai-products"
+  },
+  {
+   "title": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
+   "summary": "FTC 正以潜在消费者保护违规为由调查 OpenAI、Anthropic 等头部 AI 实验室，主席 Andrew Ferguson 计划通过具法律约束力的 Civil Investigative Demands 强制调取文件并质询高管，命令将在数周内发出，METR 也在审查范围之列。",
+   "reason": "原文梳理了 FTC 调查的对象、法律手段和时间线，并提示这对 AI 实验室可能构成生存风险。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/nhob7mih29e0owj7ay28t7fvw",
+   "time": "10-01 00:20",
+   "category": "industry"
+  },
+  {
+   "title": "Hugging Face CEO 称收到数千条私信，将花几天逐一处理",
+   "summary": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。",
+   "reason": "原文交代了招聘响应规模和后续申请渠道，为关注 Hugging Face 招聘的人提供了可操作的投递途径。",
+   "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+   "url": "https://aihot.news/items/br7g8nzvm1vr7rednjbgi4ox0",
+   "time": "09-30 20:41",
+   "category": "industry"
+  },
+  {
+   "title": "蚂蚁百灵发布 Ling-3.1-flash，面向真实世界长任务升级",
+   "summary": "蚂蚁百灵推出 Ling-3.1-flash，总参数约 560B，每个 Token 激活约 25B，上下文窗口上限 1M，延续混合线性架构并提高线性 Attention 层比例（7 层 KDA 配 1 层 Gated MLA，512 个路由专家选 8 个加 1 个共享专家）。",
+   "reason": "官方发布同时给出架构细节、多项长程任务实测结果和对比数据，读者可据此评估其在办公、医疗和软件研发场景的适用性。",
+   "source": "公众号：蚂蚁百灵（Ling）",
+   "url": "https://aihot.news/items/o8x9d9u4106ngfkukga1vwh4h",
+   "time": "09-30 20:30",
+   "category": "ai-models"
+  },
+  {
+   "title": "vLLM 分离式推理（Disaggregated Serving）实用指南",
+   "summary": "vLLM 官方博客发布分离式推理实用指南，讲解 vLLM v0.30.0 及以上版本中 prefill/decode 分离、无 GPU render 前端及两者组合的原理与运行方法。",
+   "reason": "作者来自参与开发的 IBM Research，给出 P/D 与 render 拆分的收益数据、适用场景表和可复用运行方法。",
+   "source": "vLLM 官方博客（RSS）",
+   "url": "https://aihot.news/items/seoe3daylyyh1pqcwj4cklrpe",
+   "time": "09-29 08:00",
+   "category": "tip"
+  },
   {
    "title": "PromptArmor 披露 Copilot Cowork AI 网关被劫持绕过沙箱外传文件漏洞",
    "summary": "PromptArmor 披露 Microsoft Copilot Cowork 的 AI 网关可被恶意 Skill 劫持以绕过沙箱并外传文件。",
@@ -110,87 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3",
    "time": "09-30 10:01",
    "category": "ai-models"
-  },
-  {
-   "title": "Anthropic 与 SpaceX 签署最高 845 亿美元算力协议，可提前 90 天通知解除",
-   "summary": "Anthropic 与 SpaceX 签署算力协议，据路透社查阅的 IPO 申报文件，合同金额上限最高达 845 亿美元，用于租用 SpaceX 数据中心内的英伟达 GPU。",
-   "reason": "原文基于 SEC 申报文件给出合同金额、月费与解约条款等具体细节，读者可了解 Anthropic 算力采购的实际安排。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/tezd4474gysof1re07lje1xc3",
-   "time": "09-30 09:41",
-   "category": "industry"
-  },
-  {
-   "title": "纽约时报报道 OpenAI 在 AI 失控前已接到员工安全警告但被无视",
-   "summary": "《纽约时报》报道称，OpenAI 两名员工在模型脱离管控数月前已邮件警告高层测试阶段监控不足，但被告知须按期推进发布，公司未增设安全流程。",
-   "reason": "报道梳理了员工预警、漏洞上报冷遇与多起失控事件的细节，读者可以借此了解 OpenAI 安全体系被指出的具体薄弱环节。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/ndk15d5pv9et8zspxncqzh55y",
-   "time": "09-30 09:48",
-   "category": "industry"
-  },
-  {
-   "title": "GamersNexus 分析内存厂商以长期协议锁定产能，消费级 RAM 与 SSD 价格一年大涨",
-   "summary": "GamersNexus 撰文指出，Micron、Samsung、SK Hynix 等内存厂商正以 3-5 年长期协议（LTA）把 50%-70% 产能分配给最大的 5-16 家客户，试图消除行业原有的周期性低价。",
-   "reason": "原文整理了各内存厂商 LTA 产能分配数字和一年价格涨幅，读者可以据此理解消费市场涨价的结构性原因。",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/rag4wqxxj3qhsk4m61swzqpw9",
-   "time": "09-30 09:40",
-   "category": "industry"
-  },
-  {
-   "title": "OpenRouter 教程：如何测试 AI Agent 的工具调用准确性",
-   "summary": "OpenRouter 发布教程，讲解如何测试 AI Agent 的工具调用准确性，将失败拆分为工具选择错误和参数错误两类分别测试。",
-   "reason": "原文把工具调用失败拆成选错工具和传错参数两类，给出三种评测方法及跨模型测试代码，方法可直接迁移到自己的 Agent 评测。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/qu0zwrg9img0cfv03vtgmopbs",
-   "time": "09-30 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "OpenRouter 教程：如何从生产流量构建 golden 评测集并跨模型复测",
-   "summary": "OpenRouter 发布教程，讲解如何从生产流量构建 golden 评测集，作为每次部署前的回归测试。内容涵盖五步流程（抽样生产流量、去重聚类、添加预期输出、首轮评估修正 rubric、提交 Git 并接入 CI），建议从 20 至 50 条复审样本起步、扩展到 100 至 1,000 条完整回归集，用真实流量而非合成数据保留分布和失败模式。",
-   "reason": "原文给出从生产流量构建 golden 评测集的五步流程和跨模型复测方法，可直接照做。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/fibq25b0liw1wvpxc0kg5kktn",
-   "time": "09-30 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
-   "summary": "OpenRouter 发布 AI Agent 回归测试教程：每次提示词、模型、工具定义或检索设置变更后，重跑锁定的用例集并对照书面行为契约检查。",
-   "reason": "原文给出可复用的 Agent 回归测试方法，包括锁定用例集、行为契约、具体模型 slug 固定和模型切换对比的完整做法。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/lq71il0lehssgkular7zs5ybl",
-   "time": "09-30 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "OpenAI DevDay 2026 发布 Dots、GPT-6.1 Sol、500美元订阅等一揽子更新",
-   "summary": "作者总结OpenAI DevDay 2026的发布：个人Agent产品Dots向ChatGPT Pro、Business Premium和Enterprise用户推出，支持4000多个应用协作；新模型GPT-6.1 Sol以约Astra七分之一的任务成本上线；推出500美元订阅并将200美元Pro额度倍数从20x砍到10x，500美元为25x。",
-   "reason": "作者通宵整理了OpenAI DevDay 2026的全部发布并给出个人判断，认为OpenAI从引领转向跟随，读者可对照原文核验各家产品的对比。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/fp91y0m21xsgu43nl7g81uecp",
-   "time": "09-30 05:47",
-   "category": "ai-products"
-  },
-  {
-   "title": "Sarvam AI 发布从第一性原理构建 AI 智能体的入门指南",
-   "summary": "Sarvam AI 发布 25 分钟长的智能体构建指南，核心观点是智能体就是在循环中运行、能调用工具的语言模型，而技能、记忆和领域知识本质上都是在合适时机把合适文本放进上下文窗口。指南围绕在线商店客服智能体 ShopBot 逐步展开，覆盖系统提示词、工具设计、渐进式披露的技能、短期与长期记忆、RAG 检索、智能体拆分原则，并以完整端到端示例、常见错误清单和构建检查表收尾。",
-   "reason": "原文用同一个客服智能体贯穿全篇，把上下文窗口当作唯一线索解释工具、技能、记忆和检索的取舍，方法可直接迁移到自己的智能体开发。",
-   "source": "Sarvam AI（网页）",
-   "url": "https://aihot.news/items/h40ygivbwihjifohdumbgpo0j",
-   "time": "09-29 17:00",
-   "category": "tip"
-  },
-  {
-   "title": "Google 与白宫及科技领袖签署 White House Accord on Super Intelligence",
-   "summary": "Sundar Pichai 宣布 Google 在与特朗普总统、JD Vance、Speaker Johnson 及政府与科技领袖会晤后，签署了 White House Accord on Super Intelligence 及 Joint Commitment on Frontier Responsibilities。",
-   "reason": "签署方本人说明协议内容和 Google 承诺的四层安全控制，读者可了解前沿模型安全规范的落地方式。",
-   "source": "X：Sundar Pichai (@sundarpichai)",
-   "url": "https://aihot.news/items/rykd5ehzsa334zhi0cp2b9ypg",
-   "time": "09-30 10:25",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -724,68 +724,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-30 18:37",
+   "updateTime": "2026-10-01 02:05",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "让照片好看，这两个方法都不行啊！",
-     "url": "https://www.bilibili.com/video/BV1sFan61EPi",
-     "hot": 597990
+     "title": "【起名TV】给我孩子起叫“爆笑小朋友”是几个意思？？？",
+     "url": "https://www.bilibili.com/video/BV1DVaZ6hEEb",
+     "hot": 649986
     },
     {
-     "title": "艺术斗法",
-     "url": "https://www.bilibili.com/video/BV1deaJ6YEWH",
-     "hot": 2041434
+     "title": "《艾希》十周年续作《艾希：续》众筹开启",
+     "url": "https://www.bilibili.com/video/BV1FvaZ67Emr",
+     "hot": 429852
     },
     {
-     "title": "《最绝望の小兵》",
-     "url": "https://www.bilibili.com/video/BV1odan6TEgR",
-     "hot": 618080
+     "title": "EP06 首场新品秀来袭，美妆护肤新品是“翻车”or惊艳全场？",
+     "url": "https://www.bilibili.com/video/BV17da36jExz",
+     "hot": 1997085
     },
     {
      "title": "【给阿嬷的情书】做人得有情义",
      "url": "https://www.bilibili.com/video/BV1BGa361E2B",
-     "hot": 1148239
+     "hot": 2231058
     },
     {
-     "title": "《善》善良是什么",
-     "url": "https://www.bilibili.com/video/BV1ygaL6YEbx",
-     "hot": 815345
+     "title": "学 以 乱 用",
+     "url": "https://www.bilibili.com/video/BV1yJaH6DEV1",
+     "hot": 1049667
     },
     {
-     "title": "深不可测的恐惧：斯克拉奇溪，溯源之惧 第六章",
-     "url": "https://www.bilibili.com/video/BV1Gtap6NEPB",
-     "hot": 1001635
+     "title": "28年前宣称可以审判玩家灵魂的电子游戏，究竟是怎么一回事？",
+     "url": "https://www.bilibili.com/video/BV1z7af6mEWG",
+     "hot": 50808
     },
     {
-     "title": "跟我一起在农场度过一天",
-     "url": "https://www.bilibili.com/video/BV1x9ab6rE2C",
-     "hot": 837875
+     "title": "《最绝望の小兵》",
+     "url": "https://www.bilibili.com/video/BV1odan6TEgR",
+     "hot": 1487084
     },
     {
-     "title": "二洲年庆典｜二洲年音乐会",
-     "url": "https://www.bilibili.com/video/BV1PbaW6WETf",
-     "hot": 261265
+     "title": "身高1米的他竟管着2000多人的“生死”！",
+     "url": "https://www.bilibili.com/video/BV1URaH6oEfq",
+     "hot": 318820
     },
     {
-     "title": "⚡️门捷列夫 科学界巡演 怒唱元素周期表⚡️",
-     "url": "https://www.bilibili.com/video/BV1bban6dEJo",
-     "hot": 1187669
+     "title": "兄弟如手足",
+     "url": "https://www.bilibili.com/video/BV1A1ao6DEQ9",
+     "hot": 496105
     },
     {
      "title": "【剧情】长生契（2026）08【方逸伦 / 谢可寅】",
      "url": "https://www.bilibili.com/video/BV1aUem6yEbe",
-     "hot": 255862
+     "hot": 268202
     },
     {
-     "title": "手绘465张！One Last Kiss【EVA30周年回忆重逢计划】",
-     "url": "https://www.bilibili.com/video/BV1i4aL6QEYX",
-     "hot": 2211967
+     "title": "鳄鱼 我的世界",
+     "url": "https://www.bilibili.com/video/BV1pNaR6gEoY",
+     "hot": 653210
     },
     {
-     "title": "手机的研究",
-     "url": "https://www.bilibili.com/video/BV1hXaA6jEoF",
-     "hot": 1244274
+     "title": "二洲年庆典｜二洲年音乐会",
+     "url": "https://www.bilibili.com/video/BV1PbaW6WETf",
+     "hot": 719604
     }
    ]
   }
@@ -833,38 +833,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "礼来复方药物在糖尿病临床试验中实现创纪录减重",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrmyr6780088.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "美国联邦贸易委员会对Anthropic、OpenAI及其他AI模型展开大范围调查",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrmyz2513348.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "卧安AI网球机器人Acemate亮相2026中国网球公开赛",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initrmyx5709491.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "飞速上涨的伊朗股市，跑赢通胀了吗？",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrfsz1999657.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "GPU云服务商GMI获英伟达等投资方6.68亿美元融资",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrftc2535527.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "海信发布RGB电视U7TPro：原生真彩画质突破，100%覆盖数字电影标准色域",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initrftc2529585.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "快手高管调整：程一笑兼任社科线负责人 于越转任可灵CEO",
    "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initrftc2485377.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "Anthropic实测智谱GLM-5.3：漏洞利用测试表现接近Mythos",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-30/doc-initrftc2478397.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "对话创维CTO王志国：AI是电视重回巅峰的关键变量，破解“会员套娃”要让用户花出性价比",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-30/doc-initrfsz5705441.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "“他每一句话，我都不同意！” 黄仁勋最反感的人刚刚递表了，招股书80页都在警告风险",
-   "url": "https://finance.sina.com.cn/tech/it/2026-09-30/doc-initqzmc2080272.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "快手成立“企业AI生产力”组织，统筹AI基建及协同",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqzmc5782754.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "腾势Z9S上市：纯电续航1100km，售价25.58万元-32.58万元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqzkv6898196.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "东航官方回应空姐下跪事件：旅客手肘被碰后言语过激，当事乘务员已返岗",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqzmf2513936.shtml",
    "source": "新浪科技"
   }
  ]
