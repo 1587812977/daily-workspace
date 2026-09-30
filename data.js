@@ -1,96 +1,105 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-09-30 11:36",
+ "updatedAt": "2026-09-30 18:37",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "OpenAI 常驻助手 \"o\" 曝光，DevDay 下周揭晓",
-   "source": "X：Testing Catalog (@testingcatalog)",
-   "url": "https://aihot.news/items/cmui8zcbu0a1arov03inxuwup",
-   "time": "09-30 11:11",
-   "sourceCount": 12
+   "title": "OpenAI 发布常驻智能体 Dots",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
+   "time": "09-30 16:43",
+   "sourceCount": 11
   },
   {
    "rank": 2,
-   "title": "OpenAI推出Ultrafast高速层级",
-   "source": "X：OpenAI Developers (@OpenAIDevs)",
-   "url": "https://aihot.news/items/mzrr47eq951b8nzpqg3oi0gtp",
-   "time": "09-30 11:00",
-   "sourceCount": 14
+   "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8",
+   "time": "09-30 18:06",
+   "sourceCount": 12
   },
   {
    "rank": 3,
-   "title": "AMD收购World Labs并任命李飞飞为首席科学家",
+   "title": "AMD 82亿美元收购World Labs，李飞飞任首席科学家",
    "source": "World Labs：官网",
    "url": "https://aihot.news/items/ukbm1pni8gdc5ciwwuywzkhwb",
-   "time": "09-30 11:00",
+   "time": "09-30 15:41",
    "sourceCount": 10
   },
   {
    "rank": 4,
-   "title": "Claude Sonnet 5.5 疑似泄露，配置标识符现身并开启灰度测试",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmukkk6ag1ux6ro9hvmv7r7n6",
-   "time": "09-30 09:44",
-   "sourceCount": 17
+   "title": "Anthropic 发布 Claude Sonnet 5.5",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
+   "time": "09-30 16:40",
+   "sourceCount": 15
   },
   {
    "rank": 5,
-   "title": "Anthropic 计划将 IPO 推迟至 11 月，估值约 2 万亿美元",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmu7nb3bm0jugrogroyv3fm5h",
-   "time": "09-30 10:38",
+   "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
+   "time": "09-30 13:26",
    "sourceCount": 7
   },
   {
    "rank": 6,
-   "title": "OpenAI调整Pro订阅用量计算并预告新功能",
+   "title": "OpenAI重开Pro 200并新增Pro 500档",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/gs96clovs726l3b5nd80ofnva",
-   "time": "09-30 10:59",
-   "sourceCount": 6
+   "time": "09-30 16:31",
+   "sourceCount": 5
   },
   {
    "rank": 7,
-   "title": "OpenAI因安全问题推迟发布Astra 6.1模型",
+   "title": "OpenAI因安全对齐问题取消GPT-6.1 Astra发布",
    "source": "Ars Technica：AI（RSS）",
    "url": "https://aihot.news/items/iinkrp1rv6xk3xmidsbkxax95",
-   "time": "09-30 08:29",
+   "time": "09-30 16:40",
    "sourceCount": 6
   },
   {
    "rank": 8,
-   "title": "NVIDIA 谈 AI 安全：如何在智能体栈的每一层解决工程问题",
-   "source": "NVIDIA Blog（RSS）",
-   "url": "https://aihot.news/items/cmubdnou10w1grolnge77fpm2",
-   "time": "09-30 08:06",
-   "sourceCount": 11
+   "title": "DeepSeek开源华为昇腾平台基础设施组件",
+   "source": "公众号：DeepSeek（深度求索）",
+   "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3",
+   "time": "09-30 17:56",
+   "sourceCount": 3
   },
   {
    "rank": 9,
-   "title": "Manus AI 发布 Manus 2.0",
+   "title": "特朗普推动AI改名并筹建AI Force",
    "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/z16dwwrxb4uczgv6tnh5c4id1",
-   "time": "09-29 21:59",
-   "sourceCount": 7
+   "url": "https://aihot.news/items/cmu9jwllp040mrogngntwk2d7",
+   "time": "09-30 17:51",
+   "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "DevDay 下周二举行",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/cmuf4r7pu0e1srood5qov38vo",
-   "time": "09-30 09:24",
-   "sourceCount": 4
+   "title": "NVIDIA 发布开放智能体安全平台 OpenShell 与 Sentry",
+   "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+   "url": "https://aihot.news/items/s5on5dsnixevj7j9lfjemhz3o",
+   "time": "09-30 08:06",
+   "sourceCount": 9
   }
  ],
  "aihotItems": [
   {
-   "title": "Artificial Analysis 开源 AA-AgentPerf-Local 本地模型智能体推理测试工具并公布首批结果",
-   "summary": "Artificial Analysis 发布开源工具 AA-AgentPerf-Local，通过在笔记本和工作站硬件上回放 8 个真实智能体任务共 168 轮模型交互（上下文增长至约 56K tokens）来测试本地推理性能。",
-   "reason": "工具开源且初始结果覆盖四类硬件和四款模型，读者可据此规划本地智能体的推理部署方案。",
-   "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/qd22fzywa1405n7s9yuubb6zn",
-   "time": "09-30 11:10",
+   "title": "PromptArmor 披露 Copilot Cowork AI 网关被劫持绕过沙箱外传文件漏洞",
+   "summary": "PromptArmor 披露 Microsoft Copilot Cowork 的 AI 网关可被恶意 Skill 劫持以绕过沙箱并外传文件。",
+   "reason": "PromptArmor 完整披露了 Copilot Cowork 沙箱绕过的攻击链与时间线，读者可以据此评估 Skill 生态与沙箱设计的风险。",
+   "source": "PromptArmor：Threat Intelligence",
+   "url": "https://aihot.news/items/uqwg8g8u20023z36jy20gpfb1",
+   "time": "09-30 08:00",
+   "category": "industry"
+  },
+  {
+   "title": "Artificial Analysis 开源 AA-AgentPerf-Local，测试笔记本与工作站上本地 AI 智能体推理性能",
+   "summary": "Artificial Analysis 发布开源工具 AA-AgentPerf-Local，通过重放 8 个真实智能体任务（168 轮、上下文增长至约 56K tokens）测试本地推理性能，并上线笔记本与工作站排行榜。",
+   "reason": "原文给出四种桌面级硬件和四个模型的智能体推理实测结果与全部开源配置，可帮读者在搭建本地 agent 前做选型比较。",
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/uet0fx7vwv720jh2evuzmfbmm",
+   "time": "09-29 00:00",
    "category": "ai-products"
   },
   {
@@ -155,15 +164,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/lq71il0lehssgkular7zs5ybl",
    "time": "09-30 08:00",
    "category": "tip"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6.1 Sol，主打智能体编码与跨应用工作流",
-   "summary": "OpenAI 发布 GPT-6.1 Sol，称其在编码、computer use 和跨应用工作流中表现强劲，价格低于 GPT-6 Astra。引用内容提到其面向复杂重构、深度代码库调查和长时间运行的智能体，缓存输入享有较标准输入定价 95% 的折扣，并附文档链接 https://developers.openai.com/api/docs/models/gpt-6.1-sol。",
-   "reason": "原文给出 GPT-6.1 Sol 的能力方向与相对 GPT-6 Astra 的价格对比，读者可据此评估编码智能体工作流的成本选择。",
-   "source": "X：OpenAI Developers (@OpenAIDevs)",
-   "url": "https://aihot.news/items/jicijbyw83wnt5qj2uuxkbw1k",
-   "time": "09-30 07:13",
-   "category": "ai-models"
   },
   {
    "title": "OpenAI DevDay 2026 发布 Dots、GPT-6.1 Sol、500美元订阅等一揽子更新",
@@ -724,68 +724,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-09-30 11:36",
+   "updateTime": "2026-09-30 18:37",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "手绘465张！One Last Kiss【EVA30周年回忆重逢计划】",
-     "url": "https://www.bilibili.com/video/BV1i4aL6QEYX",
-     "hot": 1377411
+     "title": "让照片好看，这两个方法都不行啊！",
+     "url": "https://www.bilibili.com/video/BV1sFan61EPi",
+     "hot": 597990
     },
     {
      "title": "艺术斗法",
      "url": "https://www.bilibili.com/video/BV1deaJ6YEWH",
-     "hot": 844855
+     "hot": 2041434
     },
     {
-     "title": "【鸣潮】心月狐攻略！双体系大C  完全体独断万古？！同奏体系讲解 细节养成作业+进阶技巧",
-     "url": "https://www.bilibili.com/video/BV1sHa966Eu6",
-     "hot": 133403
+     "title": "《最绝望の小兵》",
+     "url": "https://www.bilibili.com/video/BV1odan6TEgR",
+     "hot": 618080
     },
     {
-     "title": "【剧情】长生契（2026）11【方逸伦 / 谢可寅】",
-     "url": "https://www.bilibili.com/video/BV13Uem6yEzo",
-     "hot": 439212
-    },
-    {
-     "title": "【矢量突破#3】拟生态全关卡 摆完挂机 简单好抄 核心突破/特别战线",
-     "url": "https://www.bilibili.com/video/BV17dan6MECs",
-     "hot": 679476
-    },
-    {
-     "title": "手机的研究",
-     "url": "https://www.bilibili.com/video/BV1hXaA6jEoF",
-     "hot": 648242
-    },
-    {
-     "title": "“柳条人年年立起，没人记得这火燃了几世”",
-     "url": "https://www.bilibili.com/video/BV1Jda36jENB",
-     "hot": 1016939
-    },
-    {
-     "title": "参数天花乱坠，实测原形毕露！12款热门空气炸锅，谁是不虚标实力派？",
-     "url": "https://www.bilibili.com/video/BV1NKaV6bEv2",
-     "hot": 1168851
-    },
-    {
-     "title": "什么叫勇者跟被救的公主二阶段打起来了？",
-     "url": "https://www.bilibili.com/video/BV16gap62EPJ",
-     "hot": 443568
-    },
-    {
-     "title": "【剧情】长生契（2026）08【方逸伦 / 谢可寅】",
-     "url": "https://www.bilibili.com/video/BV1aUem6yEbe",
-     "hot": 245931
-    },
-    {
-     "title": "假如🤔...全世界发量下降一万倍，而俺不变！",
-     "url": "https://www.bilibili.com/video/BV13Ja869EeZ",
-     "hot": 3300030
+     "title": "【给阿嬷的情书】做人得有情义",
+     "url": "https://www.bilibili.com/video/BV1BGa361E2B",
+     "hot": 1148239
     },
     {
      "title": "《善》善良是什么",
      "url": "https://www.bilibili.com/video/BV1ygaL6YEbx",
-     "hot": 424676
+     "hot": 815345
+    },
+    {
+     "title": "深不可测的恐惧：斯克拉奇溪，溯源之惧 第六章",
+     "url": "https://www.bilibili.com/video/BV1Gtap6NEPB",
+     "hot": 1001635
+    },
+    {
+     "title": "跟我一起在农场度过一天",
+     "url": "https://www.bilibili.com/video/BV1x9ab6rE2C",
+     "hot": 837875
+    },
+    {
+     "title": "二洲年庆典｜二洲年音乐会",
+     "url": "https://www.bilibili.com/video/BV1PbaW6WETf",
+     "hot": 261265
+    },
+    {
+     "title": "⚡️门捷列夫 科学界巡演 怒唱元素周期表⚡️",
+     "url": "https://www.bilibili.com/video/BV1bban6dEJo",
+     "hot": 1187669
+    },
+    {
+     "title": "【剧情】长生契（2026）08【方逸伦 / 谢可寅】",
+     "url": "https://www.bilibili.com/video/BV1aUem6yEbe",
+     "hot": 255862
+    },
+    {
+     "title": "手绘465张！One Last Kiss【EVA30周年回忆重逢计划】",
+     "url": "https://www.bilibili.com/video/BV1i4aL6QEYX",
+     "hot": 2211967
+    },
+    {
+     "title": "手机的研究",
+     "url": "https://www.bilibili.com/video/BV1hXaA6jEoF",
+     "hot": 1244274
     }
    ]
   }
@@ -833,38 +833,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "抖音广告上线“平台官方保障”标识",
-   "url": "https://finance.sina.com.cn/roll/2026-09-30/doc-initqkpp2627222.shtml",
+   "title": "快手高管调整：程一笑兼任社科线负责人 于越转任可灵CEO",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initrftc2485377.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "豆包支持出行服务 上线“出行用豆包”专属入口",
-   "url": "https://finance.sina.com.cn/roll/2026-09-30/doc-initqkpm2281151.shtml",
+   "title": "Anthropic实测智谱GLM-5.3：漏洞利用测试表现接近Mythos",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-30/doc-initrftc2478397.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "DeepSeek开源昇腾基础组件，涵盖对标英伟达CUDA的高级语言编译工具",
-   "url": "https://finance.sina.com.cn/roll/2026-09-30/doc-initqkpm5828931.shtml",
+   "title": "对话创维CTO王志国：AI是电视重回巅峰的关键变量，破解“会员套娃”要让用户花出性价比",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-30/doc-initrfsz5705441.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "阿维塔科技人事调整：陈卓任董事长，雍军任总裁",
-   "url": "https://finance.sina.com.cn/roll/2026-09-30/doc-initqkpc7112975.shtml",
+   "title": "“他每一句话，我都不同意！” 黄仁勋最反感的人刚刚递表了，招股书80页都在警告风险",
+   "url": "https://finance.sina.com.cn/tech/it/2026-09-30/doc-initqzmc2080272.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "优必选拟在阿拉木图建厂，并与哈萨克斯坦高校共建联合能力中心",
-   "url": "https://finance.sina.com.cn/roll/2026-09-30/doc-initqkpm5824065.shtml",
+   "title": "快手成立“企业AI生产力”组织，统筹AI基建及协同",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqzmc5782754.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "携手王者荣耀职业联赛 儒意电影开拓电竞文化线下场景",
-   "url": "https://finance.sina.com.cn/roll/2026-09-30/doc-initqkpm2243215.shtml",
+   "title": "腾势Z9S上市：纯电续航1100km，售价25.58万元-32.58万元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqzkv6898196.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "阶跃首款大模型原生智能体手机 STEPX Neo 获入网许可 十月上市",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-30/doc-initqkpm2236501.shtml",
+   "title": "东航官方回应空姐下跪事件：旅客手肘被碰后言语过激，当事乘务员已返岗",
+   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqzmf2513936.shtml",
    "source": "新浪科技"
   }
  ]
