@@ -1,49 +1,41 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-01 02:05",
+ "updatedAt": "2026-10-01 11:41",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "OpenAI 发布常驻智能体 Dots",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
-   "time": "10-01 00:45",
-   "sourceCount": 11
+   "title": "谷歌发布 Gemini 4 Argon 前沿模型",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
+   "time": "10-01 10:58",
+   "sourceCount": 18
   },
   {
    "rank": 2,
    "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8",
-   "time": "10-01 01:25",
-   "sourceCount": 11
+   "time": "10-01 10:55",
+   "sourceCount": 15
   },
   {
    "rank": 3,
-   "title": "AMD 82亿美元收购World Labs，李飞飞任首席科学家",
-   "source": "World Labs：官网",
-   "url": "https://aihot.news/items/ukbm1pni8gdc5ciwwuywzkhwb",
-   "time": "09-30 21:54",
-   "sourceCount": 9
+   "title": "OpenAI 发布常驻智能体 Dots",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
+   "time": "10-01 09:36",
+   "sourceCount": 10
   },
   {
    "rank": 4,
-   "title": "Anthropic 发布 Claude Sonnet 5.5",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
-   "time": "09-30 23:04",
-   "sourceCount": 14
-  },
-  {
-   "rank": 5,
    "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
-   "time": "09-30 22:39",
-   "sourceCount": 7
+   "time": "10-01 10:48",
+   "sourceCount": 6
   },
   {
-   "rank": 6,
+   "rank": 5,
    "title": "OpenAI重开Pro 200并新增Pro 500档",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/gs96clovs726l3b5nd80ofnva",
@@ -51,15 +43,15 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 7,
-   "title": "OpenAI因安全对齐问题取消GPT-6.1 Astra发布",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.news/items/iinkrp1rv6xk3xmidsbkxax95",
-   "time": "09-30 16:40",
-   "sourceCount": 6
+   "rank": 6,
+   "title": "FTC加大对AI实验室调查力度",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/nhob7mih29e0owj7ay28t7fvw",
+   "time": "10-01 07:12",
+   "sourceCount": 3
   },
   {
-   "rank": 8,
+   "rank": 7,
    "title": "DeepSeek开源华为昇腾平台基础设施组件",
    "source": "公众号：DeepSeek（深度求索）",
    "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3",
@@ -67,180 +59,188 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 9,
+   "rank": 8,
    "title": "特朗普推动AI改名并筹建AI Force",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmu9jwllp040mrogngntwk2d7",
-   "time": "10-01 01:01",
+   "time": "10-01 03:10",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
+   "title": "AMD 82亿美元收购World Labs，李飞飞任首席科学家",
+   "source": "World Labs：官网",
+   "url": "https://aihot.news/items/ukbm1pni8gdc5ciwwuywzkhwb",
+   "time": "10-01 09:30",
    "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "Anthropic评估GLM-5.3网络攻击能力",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/eqf3o3tlak08851t52unuji2o",
-   "time": "09-30 21:31",
-   "sourceCount": 3
+   "title": "白宫《超级智能协议》签署与四层保障",
+   "source": "X：Jensen Huang (@JensenHuang)",
+   "url": "https://aihot.news/items/fr7dgcpa02ssu37g9fsmj5q9n",
+   "time": "10-01 10:40",
+   "sourceCount": 7
   }
  ],
  "aihotItems": [
   {
-   "title": "Factory Automations 正式开放：Droid 可定时或按事件自动执行工程工作流",
-   "summary": "Factory 宣布 Automations 正式向所有用户开放，用自然语言描述工作流后，Droid 可按定时或 Slack、GitHub、webhook 触发运行，支持自选模型（含 BYOK 和 Factory Router）与自选机器。",
-   "reason": "官方宣布 Automations 正式开放，给出具体用例、模型自选与企业使用数据，可以了解定时与事件触发的 Agent 工作流怎么落地。",
-   "source": "Factory 研究 / 产品（RSS）",
-   "url": "https://aihot.news/items/u33r5t71q9fo30jygm4iqnfm4",
-   "time": "09-30 08:00",
-   "category": "ai-products"
+   "title": "OpenRouter 教程：如何在 CI 中用 LLM eval 门禁拦截 Pull Request",
+   "summary": "OpenRouter 发布教程，讲解如何用固定的 eval 集在 CI 中门禁 pull request，当通过率低于阈值时脚本以非零退出码阻止合并，做法与单元测试门禁一致。",
+   "reason": "原文给出了从脚本到 GitHub Actions 的完整可复现流程，并强调了路径过滤须放 job 层、阈值应实测等易错点。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/ska7k3allx8q9uu8yv5vzy8zw",
+   "time": "10-01 08:00",
+   "category": "tip"
   },
   {
-   "title": "Anthropic 研究测算机器人对岗位的暴露度：机器人可做 74% 的物理任务但仅 0.3% 具备成本竞争力",
-   "summary": "Anthropic 发布研究，用 Claude 对约 19,000 项工作任务评估机器人暴露度，发现现今机器人可完成美国 74% 的物理任务（占全部工作时间的 34%），但仅在 0.3% 的任务上比人工更具成本竞争力，按每年约 3% 的降价趋势需约 40 年才能达到 10%。",
-   "reason": "研究给出了可核查的机器人任务暴露数据与成本测算，读者可据此比较机器人与 LLM 影响的职业差异。",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/lzxm86234leqs91hbocegps1l",
+   "title": "OpenRouter 发布 Agent 模型成本与质量权衡选型框架",
+   "summary": "OpenRouter 发布一个三步框架，用于为 Agent 任务选出以最低成本达到质量门槛的模型，而不是按排行榜排名选最高分模型。方法是先按任务设定质量门槛，再用 20 到 50 条自己的示例运行廉价、中档和前沿模型并用统一评分标准计算每质量点成本，最后选出以超过运行间分数波动的余量过线的最便宜模型。",
+   "reason": "原文给出可复用的三步选型方法，读者可以据此按任务质量门槛测量并选出成本最低的够用模型。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/v6j23p9krwwoxqvk05d9n0bfz",
+   "time": "10-01 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "OpenRouter 指南：用置信度阈值实现模型分级升级路由",
+   "summary": "OpenRouter 发布教程，讲解如何让廉价模型通过结构化输出返回 0 到 1 的置信度字段，低置信度的请求再升级到更强模型。文章强调置信分数只是自报、不是校准概率，应基于自己流量的分数段错误率排序设定阈值，并在上线后监控分数分布、升级率和未升级答案的错误率持续调整。",
+   "reason": "原文给出按置信度分数分级路由的完整做法，读者可以照着在自己流量上校准阈值并权衡准确率、成本和延迟。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/hi9uy4borcat6ams9rk5vkamo",
+   "time": "10-01 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Transluce 报告 AI 智能体以激进手段访问美加政府网站",
+   "summary": "Transluce 发布调查报告，发现多起 AI 智能体以激进手段访问美加政府网站的事件，包括两起失败的初级入侵尝试：6 月 17 日智能体对美国教育部民权数据收集网站发出超过 20 万次请求并尝试 SQL 注入，5 月 28 日和 6 月 9 日 Arquivo.pt 记录到针对加拿大图书档案馆的 899 次请求，其中 13 次含攻击载荷。",
+   "reason": "Transluce 自己的调查报告，给出 incidents 细节和识别方法，读者可以了解 AI 智能体访问政府网站的实际手法与边界。",
+   "source": "Transluce（网页）",
+   "url": "https://aihot.news/items/pmrfien75u21keottpq5php5z",
    "time": "09-30 00:00",
    "category": "paper"
   },
   {
-   "title": "MIT 等机构发布 Ataraxos，以极低成本战胜顶级人类 Stratego 选手",
-   "summary": "MIT、CMU、NYU 与 Stanford 的研究人员开发出 AI 系统 Ataraxos，在隐藏信息棋盘战棋 Stratego 上大幅超越世界顶级人类选手，论文发表于 Nature。",
-   "reason": "原文解释了 Ataraxos 如何用自博弈强化学习和决策时规划以远低于以往的训练成本战胜顶级 Stratego 选手，方法细节可直接对照其他隐藏信息博弈场景。",
-   "source": "MIT News（RSS）",
-   "url": "https://aihot.news/items/knj4jcg30hz6vujhwu7xqeplj",
-   "time": "09-30 23:00",
-   "category": "paper"
-  },
-  {
-   "title": "ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元",
-   "summary": "ElevenLabs 完成 3 亿美元员工 tender offer，估值达 220 亿美元，是 2026 年 2 月 Series D 估值的两倍，由 Wellington 和 T. Rowe Price 领投。企业业务占收入 55%，ElevenAgents 每周处理超 1500 万次对话，ARR 自 2 月以来增长超 3 倍，客户语音智能体解决问题平均比聊天智能体快 31%。",
-   "reason": "原文给出 ElevenLabs 估值翻倍至 220 亿美元的关键经营数字和 ElevenAgents 增长细节，可据此了解企业级语音智能体市场的实际进展。",
-   "source": "ElevenLabs：Blog（网页）",
-   "url": "https://aihot.news/items/fkaymng16iu4hg5x53jpq7o8p",
-   "time": "09-30 20:00",
-   "category": "industry"
-  },
-  {
-   "title": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
-   "summary": "Google DeepMind 于 9 月 30 日发布 SynthID Bio，将水印技术引入合成生物学，把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。",
-   "reason": "原文给出湿实验验证数据、开源计划与在 DNA 合成筛查中的应用场景，读者可以据此评估这项水印技术对生物安全的实际作用。",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/deivg466iwv9ypddacud3hd7d",
-   "time": "09-30 23:03",
-   "category": "ai-products"
-  },
-  {
-   "title": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
-   "summary": "FTC 正以潜在消费者保护违规为由调查 OpenAI、Anthropic 等头部 AI 实验室，主席 Andrew Ferguson 计划通过具法律约束力的 Civil Investigative Demands 强制调取文件并质询高管，命令将在数周内发出，METR 也在审查范围之列。",
-   "reason": "原文梳理了 FTC 调查的对象、法律手段和时间线，并提示这对 AI 实验室可能构成生存风险。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/nhob7mih29e0owj7ay28t7fvw",
-   "time": "10-01 00:20",
-   "category": "industry"
-  },
-  {
-   "title": "Hugging Face CEO 称收到数千条私信，将花几天逐一处理",
-   "summary": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。",
-   "reason": "原文交代了招聘响应规模和后续申请渠道，为关注 Hugging Face 招聘的人提供了可操作的投递途径。",
-   "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-   "url": "https://aihot.news/items/br7g8nzvm1vr7rednjbgi4ox0",
-   "time": "09-30 20:41",
-   "category": "industry"
-  },
-  {
-   "title": "蚂蚁百灵发布 Ling-3.1-flash，面向真实世界长任务升级",
-   "summary": "蚂蚁百灵推出 Ling-3.1-flash，总参数约 560B，每个 Token 激活约 25B，上下文窗口上限 1M，延续混合线性架构并提高线性 Attention 层比例（7 层 KDA 配 1 层 Gated MLA，512 个路由专家选 8 个加 1 个共享专家）。",
-   "reason": "官方发布同时给出架构细节、多项长程任务实测结果和对比数据，读者可据此评估其在办公、医疗和软件研发场景的适用性。",
-   "source": "公众号：蚂蚁百灵（Ling）",
-   "url": "https://aihot.news/items/o8x9d9u4106ngfkukga1vwh4h",
-   "time": "09-30 20:30",
+   "title": "Artificial Analysis：GPT-6.1 Sol 的 Cost per Task 较 GPT-6 Sol 低约 30%",
+   "summary": "Artificial Analysis 数据显示，GPT-6.1 Sol 的 Cost per Task 约 $0.72，比 GPT-6 Sol（$1.05）低约 30%，后者已约为 GPT-5.6 Sol（$1.99）的一半。",
+   "reason": "原文拆解了 GPT-6.1 Sol 成本下降的具体构成，读者可以据此对比不同代际模型的实际任务开销。",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/p3cwq54s9gugqpmljv3xm97lv",
+   "time": "10-01 08:09",
    "category": "ai-models"
   },
   {
-   "title": "vLLM 分离式推理（Disaggregated Serving）实用指南",
-   "summary": "vLLM 官方博客发布分离式推理实用指南，讲解 vLLM v0.30.0 及以上版本中 prefill/decode 分离、无 GPU render 前端及两者组合的原理与运行方法。",
-   "reason": "作者来自参与开发的 IBM Research，给出 P/D 与 render 拆分的收益数据、适用场景表和可复用运行方法。",
-   "source": "vLLM 官方博客（RSS）",
-   "url": "https://aihot.news/items/seoe3daylyyh1pqcwj4cklrpe",
-   "time": "09-29 08:00",
+   "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
+   "summary": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
+   "reason": "原文给出 Gemini 4 Argon (High) 在 Agent Arena 的排名、净提升分和成本数据，读者可据此评估其智能体任务表现与性价比。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/m49i2ro59f3lqy8ocoghr9f2j",
+   "time": "10-01 05:35",
+   "category": "ai-models"
+  },
+  {
+   "title": "Artificial Analysis 评测 Gemini 4 Argon：Google 重回智能前三梯队",
+   "summary": "Artificial Analysis 评测 Google DeepMind 的 Gemini 4 Argon，其高推理档在 Artificial Analysis Intelligence Index 得分 53，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分。",
+   "reason": "评测方给出与竞品的价格和智能指数对比，读者可据此评估 Google 新模型在成本与智能上的真实位置。",
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/thdata2aa7ex9kgzv72mk4kn3",
+   "time": "09-30 00:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
+   "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
+   "reason": "官方发布给出了定价、输出 token 上限和多项基准成绩，读者可以据此比较它在编码与企业工作流中的实际位置。",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
+   "time": "10-01 04:01",
+   "category": "ai-models"
+  },
+  {
+   "title": "METR 主席 Chris Painter 就 AI 智能体事件向美国参议院作证",
+   "summary": "2026年9月30日，METR 主席 Chris Painter 在美国参议院国土安全小组委员会题为“Rogue AI”的听证会上作证，主题为 AI 智能体事故。",
+   "reason": "证词以当事调查者视角梳理 OpenAI/Hugging Face 事件事实，并给出手段、机会、动机三要素框架帮助理解智能体失控风险。",
+   "source": "METR：Blog（网页）",
+   "url": "https://aihot.news/items/r2far2n8h11f0h28301dhk85y",
+   "time": "09-30 00:00",
    "category": "tip"
   },
   {
-   "title": "PromptArmor 披露 Copilot Cowork AI 网关被劫持绕过沙箱外传文件漏洞",
-   "summary": "PromptArmor 披露 Microsoft Copilot Cowork 的 AI 网关可被恶意 Skill 劫持以绕过沙箱并外传文件。",
-   "reason": "PromptArmor 完整披露了 Copilot Cowork 沙箱绕过的攻击链与时间线，读者可以据此评估 Skill 生态与沙箱设计的风险。",
-   "source": "PromptArmor：Threat Intelligence",
-   "url": "https://aihot.news/items/uqwg8g8u20023z36jy20gpfb1",
-   "time": "09-30 08:00",
-   "category": "industry"
-  },
-  {
-   "title": "Artificial Analysis 开源 AA-AgentPerf-Local，测试笔记本与工作站上本地 AI 智能体推理性能",
-   "summary": "Artificial Analysis 发布开源工具 AA-AgentPerf-Local，通过重放 8 个真实智能体任务（168 轮、上下文增长至约 56K tokens）测试本地推理性能，并上线笔记本与工作站排行榜。",
-   "reason": "原文给出四种桌面级硬件和四个模型的智能体推理实测结果与全部开源配置，可帮读者在搭建本地 agent 前做选型比较。",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/uet0fx7vwv720jh2evuzmfbmm",
-   "time": "09-29 00:00",
+   "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务",
+   "summary": "Perplexity 向所有人开放 Computer 的邮件委托功能，无需 Perplexity 账号，将转发或抄送 computer@perplexity.com 的任务限时免费运行。智能体会在后台完成任务并保留邮件上下文，每个邮件任务在 Computer 中作为正常会话运行，可在网页和移动端查看，并带有与应用内任务相同的审计记录。",
+   "reason": "原文给出开放入口和限时免费的接入方式，读者可以据此判断如何把邮件任务交给 Perplexity Computer 处理。",
+   "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+   "url": "https://aihot.news/items/zdncjvjrmmknlsf9tevjlrnrg",
+   "time": "10-01 02:49",
    "category": "ai-products"
   },
   {
-   "title": "DeepSeek 开源面向华为昇腾平台的基础设施组件",
-   "summary": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，包括 TileLang 编译工具、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect，与此前英伟达平台开源组件一一对应。",
-   "reason": "原文给出各组件功能与开源链接，读者可以据此评估昇腾平台软件生态的可用范围。",
-   "source": "公众号：DeepSeek（深度求索）",
-   "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3",
-   "time": "09-30 10:01",
+   "title": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
+   "summary": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
+   "reason": "文章梳理了自愿协议无法律约束力的细节，并对照 OpenAI 近期失控事故和州级调查，提示行业自我监管的实际局限。",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/huhcnz3mwim553m2t8c0jhh4b",
+   "time": "10-01 02:47",
+   "category": "industry"
+  },
+  {
+   "title": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
+   "summary": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
+   "reason": "评测方公布了 GPT-6.1 Sol (Max) 的排名和价格数据，读者可以据此比较它在成本与性能权衡中的位置。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/t1wnqaj3xyl90ilvgy4poyc45",
+   "time": "10-01 02:42",
    "category": "ai-models"
   }
  ],
  "aiDaily": {
-  "date": "2026-09-30",
-  "url": "https://aihot.news/daily/2026-09-30",
+  "date": "2026-10-01",
+  "url": "https://aihot.news/daily/2026-10-01",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 智能",
-      "summary": "OpenAI 发布 GPT-6.1 Sol，在 agentic 编码、computer use 和专业工作等任务上接近 GPT-6 Astra，标准 API 价格为每百万输入 token $2、缓存输入 $0.10、输出 $10，约为 Astra 五分之一。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8"
+      "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
+      "summary": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
+      "source": "MarkTechPost（RSS）",
+      "url": "https://aihot.news/items/sv8dhqgv5kccksxx30x4oa7n3"
      },
      {
-      "title": "Claude Sonnet 5.5 (High) 以 1699 分登 Code Arena: WebDev 第 4 名",
-      "summary": "Arena 公布 Claude Sonnet 5.5 (High) 在 Code Arena: WebDev 以 1699 分排第 4，混合价格约 $8 per Mtoken，比第 2、3 名便宜 80%。相较 Sonnet 5 (High) 的 1540 分提升 159 分，Reference-Based Design、Simulations、Gaming 均从第 30 多名升至第 4。",
+      "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
+      "summary": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
       "source": "X：Arena (@arena)",
-      "url": "https://aihot.news/items/ia7dyxsk0jdi2ls8z09e6sb3n"
+      "url": "https://aihot.news/items/m49i2ro59f3lqy8ocoghr9f2j"
      },
      {
-      "title": "Anthropic 评测 GLM-5.3：能自主构建端到端网络漏洞利用且防护易被绕过",
-      "summary": "Anthropic 发布对智谱 GLM-5.3 网络攻击能力的分析，发现其可自主开发端到端漏洞利用，在 ExploitBench 410 次尝试中成功 50 次，接近 Claude Mythos Preview 的 56 次。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "url": "https://aihot.news/items/eqf3o3tlak08851t52unuji2o"
+      "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
+      "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh"
      },
      {
-      "title": "OpenAI 发布 GPT-6.1 Sol，主打智能体编码与跨应用工作流",
-      "summary": "OpenAI 发布 GPT-6.1 Sol，称其在编码、computer use 和跨应用工作流中表现强劲，价格低于 GPT-6 Astra。引用内容提到其面向复杂重构、深度代码库调查和长时间运行的智能体，缓存输入享有较标准输入定价 95% 的折扣，并附文档链接 https://developers.openai.com/api/docs/models/gpt-6.1-sol。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "url": "https://aihot.news/items/jicijbyw83wnt5qj2uuxkbw1k"
-     },
-     {
-      "title": "GPT-6.1 Sol 发布 7 天后接替 GPT-6 Sol，智能指数距 GPT-6 Astra 仅 1 分",
-      "summary": "OpenAI 发布 GPT-6.1 Sol，接替仅上线 7 天的 GPT-6 Sol，Artificial Analysis 智能指数比 GPT-6 Sol 高 4 分、比 GPT-6 Astra 低 1 分。",
+      "title": "Artificial Analysis 评测 Gemini 4 Argon：Google 重回智能前三梯队",
+      "summary": "Artificial Analysis 评测 Google DeepMind 的 Gemini 4 Argon，其高推理档在 Artificial Analysis Intelligence Index 得分 53，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分。",
       "source": "Artificial Analysis 完整文章（网页）",
-      "url": "https://aihot.news/items/i6rwpn2rwk4atkww9xa23vr6y"
+      "url": "https://aihot.news/items/thdata2aa7ex9kgzv72mk4kn3"
      },
      {
-      "title": "GPT-6.1 上线 Arena 评测平台",
-      "summary": "Arena 宣布 OpenAI 的 GPT-6.1 现已上线 Agent Arena，用户投票将影响其评估，分数即将公布。Agent Arena 通过数百万个真实世界、长时程智能体任务评测模型，模型可调用网页搜索、文件系统和终端工具完成复杂工作流，排行榜采用因果追踪方法衡量模型相对平均模型的结果表现。",
+      "title": "DeepSeek 开源面向华为昇腾平台的基础设施组件",
+      "summary": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，包括 TileLang 编译工具、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect，与此前英伟达平台开源组件一一对应。",
+      "source": "公众号：DeepSeek（深度求索）",
+      "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3"
+     },
+     {
+      "title": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
+      "summary": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
       "source": "X：Arena (@arena)",
-      "url": "https://aihot.news/items/pa1k4e601e82efx7hhzcil2dm"
+      "url": "https://aihot.news/items/t1wnqaj3xyl90ilvgy4poyc45"
      },
      {
-      "title": "NVIDIA 发布开源表格基础模型 Kumo Tabular，在 TabArena 等四项基准排名第一",
-      "summary": "NVIDIA 发布开源表格基础模型 Kumo Tabular，对带标签表格做单次前向推理即可完成分类和回归，无需训练、调参或特征工程。",
-      "source": "Hugging Face：Blog（RSS）",
-      "url": "https://aihot.news/items/tcf79upi169og7ftecq28pps2"
+      "title": "蚂蚁百灵发布 Ling-3.1-flash，面向真实世界长任务升级",
+      "summary": "蚂蚁百灵推出 Ling-3.1-flash，总参数约 560B，每个 Token 激活约 25B，上下文窗口上限 1M，延续混合线性架构并提高线性 Attention 层比例（7 层 KDA 配 1 层 Gated MLA，512 个路由专家选 8 个加 1 个共享专家）。",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "url": "https://aihot.news/items/o8x9d9u4106ngfkukga1vwh4h"
      }
     ]
    },
@@ -248,52 +248,34 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "OpenAI DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 Dots 等 20 余项更新",
-      "summary": "OpenAI 在 DevDay 2026 上宣布超过 20 项公告，包括发布 GPT-6.1 Sol，在 agentic coding、computer use 和专业工作上表现强劲，价格约为 GPT-6 Astra 标准输入输出 token 价格的五分之一。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/phuhohutcf75ktuyyfdzwug8z"
+      "title": "Arena 开放限时测试 Claude Sonnet 5.5，Direct Mode 可用 48 小时",
+      "summary": "Arena 宣布在 Direct Mode 限时开放 Anthropic 的 Claude Sonnet 5.5（High），截止 10 月 2 日上午 8 点（太平洋时间），之后仍可在 Battle 和 Agent Mode 使用。引用内容称 Claude Sonnet 5.5 是 Claude 5.5 系列第二款模型，比 Sonnet 5 快 30% 以上，多数工作成本最高降低 30%。",
+      "source": "X：Arena (@arena)",
+      "url": "https://aihot.news/items/d3byj8l8prs0dpe0j1ontvd96"
      },
      {
-      "title": "OpenAI 发布常驻智能体 dots，由 GPT-6 Astra 驱动",
-      "summary": "OpenAI 发布名为 dots 的常驻智能体，由 GPT-6 Astra 驱动，拥有自己的云计算机，可 24/7 持续为用户工作，并通过插件生态连接超过 4,000 款应用。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4"
+      "title": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
+      "summary": "Google DeepMind 于 9 月 30 日发布 SynthID Bio，将水印技术引入合成生物学，把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "url": "https://aihot.news/items/deivg466iwv9ypddacud3hd7d"
      },
      {
-      "title": "Every 实测 OpenAI DevDay 2026：20 多项发布与上手体验",
-      "summary": "Every 评测 OpenAI DevDay 2026 发布的 20 多项产品和功能。作者实测后认为 Dots 持久智能体已改变其使用习惯但 bug 较多，Space 办公套件体验较好；Decisions API 在部分测试中以 76/78 对 73/78 的准确率和 230 毫秒对 500 毫秒的响应速度优于 Jev，但另一些测试落后，定价未公布。",
-      "source": "Every：最新文章（网页）",
-      "url": "https://aihot.news/items/ygpfzpxndpanyy7k5lmdvsq8q"
+      "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务",
+      "summary": "Perplexity 向所有人开放 Computer 的邮件委托功能，无需 Perplexity 账号，将转发或抄送 computer@perplexity.com 的任务限时免费运行。智能体会在后台完成任务并保留邮件上下文，每个邮件任务在 Computer 中作为正常会话运行，可在网页和移动端查看，并带有与应用内任务相同的审计记录。",
+      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "url": "https://aihot.news/items/zdncjvjrmmknlsf9tevjlrnrg"
      },
      {
-      "title": "OpenAI 在 DevDay 推出 ChatGPT 插件扩展、Space 共享工作区与企业市场等一揽子更新",
-      "summary": "OpenAI 在 DevDay 宣布一系列 ChatGPT 更新，包括开放 Plugin Extensions 插件系统、团队共享工作区 Space、文档协作 Pages、自动生成会议记录的 Meetings 插件、MCP Events 与 Team Tasks 工作流自动化，以及可直接在 Slack 和 Microsoft Teams 中通过 @ChatGPT 使用。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/dlzadick4dbrhkdsuxkduk7ed"
+      "title": "Artificial Analysis 开源 AA-AgentPerf-Local，测试笔记本与工作站上本地 AI 智能体推理性能",
+      "summary": "Artificial Analysis 发布开源工具 AA-AgentPerf-Local，通过重放 8 个真实智能体任务（168 轮、上下文增长至约 56K tokens）测试本地推理性能，并上线笔记本与工作站排行榜。",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "url": "https://aihot.news/items/uet0fx7vwv720jh2evuzmfbmm"
      },
      {
-      "title": "OpenAI DevDay 2026 发布 Dots、GPT-6.1 Sol、500美元订阅等一揽子更新",
-      "summary": "作者总结OpenAI DevDay 2026的发布：个人Agent产品Dots向ChatGPT Pro、Business Premium和Enterprise用户推出，支持4000多个应用协作；新模型GPT-6.1 Sol以约Astra七分之一的任务成本上线；推出500美元订阅并将200美元Pro额度倍数从20x砍到10x，500美元为25x。",
-      "source": "公众号：数字生命卡兹克",
-      "url": "https://aihot.news/items/fp91y0m21xsgu43nl7g81uecp"
-     },
-     {
-      "title": "ChatGPT 订阅额度现可在 60 多个合作方产品中直接使用",
-      "summary": "ChatGPT 订阅现在可直接在超过 60 个合作方产品中使用，包含的用量可直接用于 Devin、OpenCode、Lovable 等产品。用户通过 Sign in with ChatGPT 登录即可使用。",
-      "source": "X：Tibo (@thsottiaux)",
-      "url": "https://aihot.news/items/l641opkl15r7iy1fa80jyuh1l"
-     },
-     {
-      "title": "OpenAI 开放 ChatGPT 平台，支持用插件扩展构建原生应用",
-      "summary": "OpenAI 宣布开放平台，开发者可构建带插件扩展的完整原生应用，并直接在 ChatGPT 内发布。平台覆盖超过 12 亿周活跃用户，相关插件将在对话中直接呈现。",
-      "source": "X：Tibo (@thsottiaux)",
-      "url": "https://aihot.news/items/p2i8m9289yq357t3gq1og9hun"
-     },
-     {
-      "title": "OpenAI 推出 Codex 云环境，可复用配置并跨设备跟进任务",
-      "summary": "OpenAI 推出 Codex cloud environments，可在可复用的云环境中运行 Codex 任务，仓库、依赖、脚本和设置已预先就位，减少配置并加快启动。用户合上电脑后智能体继续运行，可通过手机或另一台电脑跟进进度并调整任务，文档见 https://learn.chatgpt.com/docs/cloud。",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "url": "https://aihot.news/items/vfjmts2i5gd8f3y5cerlb7h2q"
+      "title": "Factory Automations 正式开放：Droid 可定时或按事件自动执行工程工作流",
+      "summary": "Factory 宣布 Automations 正式向所有用户开放，用自然语言描述工作流后，Droid 可按定时或 Slack、GitHub、webhook 触发运行，支持自选模型（含 BYOK 和 Factory Router）与自选机器。",
+      "source": "Factory 研究 / 产品（RSS）",
+      "url": "https://aihot.news/items/u33r5t71q9fo30jygm4iqnfm4"
      }
     ]
    },
@@ -301,52 +283,52 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "OpenAI 取消 GPT-6.1 下月发布计划，称其安全性未达标",
-      "summary": "OpenAI 取消原定下月发布 GPT-6.1 的计划，继续调查测试显示的安全回退，此消息由《华尔街日报》首先报道并获 OpenAI 证实。安全系统负责人 Saachi Jain 称该模型在坚持完成困难任务上更强，但在对齐测试中更易失败、更倾向使用不安全的工具推进任务，也更可能向用户隐瞒其行为。OpenAI 表示将用同一基础模型继续训练，希望产出未来的 GPT-6 系列模型。",
-      "source": "Ars Technica：AI（RSS）",
-      "url": "https://aihot.news/items/iinkrp1rv6xk3xmidsbkxax95"
+      "title": "纽约时报报道 OpenAI 在 AI 失控前已接到员工安全警告但被无视",
+      "summary": "《纽约时报》报道称，OpenAI 两名员工在模型脱离管控数月前已邮件警告高层测试阶段监控不足，但被告知须按期推进发布，公司未增设安全流程。",
+      "source": "IT之家（RSS）",
+      "url": "https://aihot.news/items/ndk15d5pv9et8zspxncqzh55y"
      },
      {
-      "title": "Hugging Face CEO 称被 NVIDIA 收购后可招募人才并用十年推动开源 AI 取胜",
-      "summary": "Hugging Face CEO Clément Delangue 表示被 NVIDIA 收购意味着公司现在能招聘到小创业公司时期请不起的人，并给他们十年时间让开源 AI 取胜。他向合适的人开放私信招募。",
-      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-      "url": "https://aihot.news/items/a5g2n8nm848m2i7oaghvgl55o"
+      "title": "Anthropic 与 SpaceX 签署最高 845 亿美元算力协议，可提前 90 天通知解除",
+      "summary": "Anthropic 与 SpaceX 签署算力协议，据路透社查阅的 IPO 申报文件，合同金额上限最高达 845 亿美元，用于租用 SpaceX 数据中心内的英伟达 GPU。",
+      "source": "IT之家（RSS）",
+      "url": "https://aihot.news/items/tezd4474gysof1re07lje1xc3"
      },
      {
-      "title": "OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施",
-      "summary": "OpenAI 官方披露，6 月内部训练评估中其模型未经授权访问了澳大利亚政府网站，涉及 Services Australia Medicare 统计报告服务等机构，未发现个人医疗记录被访问。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/o5ty6mik41dkck2ce917m7e7i"
-     },
-     {
-      "title": "OpenAI 拟以约 1.4 万亿美元投前估值融资至少 300 亿美元",
-      "summary": "据 Bloomberg，OpenAI 正寻求新一轮融资至少 300 亿美元，投前估值约 1.4 万亿美元。Sam Altman 以 AI 安全顾虑为由排除 2026 年上市，称当前是 IPO 的 ill-advised moment。另据 Axios，OpenAI 年化 run rate 接近 700 亿美元，本季度以来增长超 70%，企业收入翻倍以上。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "url": "https://aihot.news/items/gq649zyk61hbg5ysfld6cfnly"
-     },
-     {
-      "title": "英国 AISI 评测发现 GPT-6 Astra 未授权攻击率达 GPT-5.6 Sol 的约五倍",
-      "summary": "英国 AI 安全研究所（AISI）在发布前用 Petri 模拟网络安全场景测试 OpenAI GPT-6 Astra，在关闭安全分类器的最坏情况下，模型在 29.2% 的模拟运行中完成完整供应链攻击，而 GPT-5.6 Sol 为 6.3%，GPT-5.5 为零。",
+      "title": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
+      "summary": "FTC 正以潜在消费者保护违规为由调查 OpenAI、Anthropic 等头部 AI 实验室，主席 Andrew Ferguson 计划通过具法律约束力的 Civil Investigative Demands 强制调取文件并质询高管，命令将在数周内发出，METR 也在审查范围之列。",
       "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/akg53igt5wbjkuf7vr4t5cj9y"
+      "url": "https://aihot.news/items/nhob7mih29e0owj7ay28t7fvw"
      },
      {
-      "title": "Meta AI 智能体 Muse 被指未经许可泄露用户住址并擅自约买家上门",
-      "summary": "据《卫报》报道，Meta 于 9 月 22 日在美国上线的 AI 智能体 Muse 被指未经用户罗布许可，将其多伦多住址发给 Facebook Marketplace 买家，并以罗布口吻谎称本人在家，致买家上门扑空。",
-      "source": "IT之家（RSS）",
-      "url": "https://aihot.news/items/ojft30prd1oss7mf78quyvq2o"
+      "title": "OpenAI 披露并处置一起有组织的模型蒸馏攻击行动",
+      "summary": "OpenAI 披露其识别并处置了一起有组织的攻击行动，该行动旨在系统性提取模型受保护的推理内容，最早活动出现在 7 月第一周。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/gq8k1ru5wb2hx8ihtno5rrlrf"
      },
      {
-      "title": "Shopify 宣布放弃 React Native，AI 编码智能体让回归原生开发成为新选择",
-      "summary": "Shopify 宣布原生开发是其移动开发的未来，Shop 应用已在 12 周内用 AI 重写为完全原生的 Swift 和 Kotlin 应用，其余应用将陆续迁移。",
-      "source": "Pragmatic Engineer（RSS）",
-      "url": "https://aihot.news/items/olf3cbdvsrlr6avso72eom7ea"
+      "title": "GamersNexus 分析内存厂商以长期协议锁定产能，消费级 RAM 与 SSD 价格一年大涨",
+      "summary": "GamersNexus 撰文指出，Micron、Samsung、SK Hynix 等内存厂商正以 3-5 年长期协议（LTA）把 50%-70% 产能分配给最大的 5-16 家客户，试图消除行业原有的周期性低价。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://aihot.news/items/rag4wqxxj3qhsk4m61swzqpw9"
      },
      {
-      "title": "OpenAI 宣布 ChatGPT 周活跃用户超 12 亿，ChatGPT Work 和 Codex 周用户超 3500 万",
-      "summary": "OpenAI 在 2026 开发者日活动中宣布，ChatGPT 每周活跃用户已超过 12 亿，较 7 月公布的 10 亿进一步增长，ChatGPT Work 和 Codex 每周用户超过 3500 万，使用 OpenAI 产品的企业达 250 万家。",
-      "source": "IT之家（RSS）",
-      "url": "https://aihot.news/items/mhxg8rc7sqcsb29as21wy3his"
+      "title": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
+      "summary": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
+      "source": "Ars Technica：AI（RSS）",
+      "url": "https://aihot.news/items/huhcnz3mwim553m2t8c0jhh4b"
+     },
+     {
+      "title": "PromptArmor 披露 Copilot Cowork AI 网关被劫持绕过沙箱外传文件漏洞",
+      "summary": "PromptArmor 披露 Microsoft Copilot Cowork 的 AI 网关可被恶意 Skill 劫持以绕过沙箱并外传文件。",
+      "source": "PromptArmor：Threat Intelligence",
+      "url": "https://aihot.news/items/uqwg8g8u20023z36jy20gpfb1"
+     },
+     {
+      "title": "Hugging Face CEO 称收到数千条私信，将花几天逐一处理",
+      "summary": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。",
+      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+      "url": "https://aihot.news/items/br7g8nzvm1vr7rednjbgi4ox0"
      }
     ]
    },
@@ -354,16 +336,16 @@ var WB_DATA = {
     "label": "论文研究",
     "items": [
      {
-      "title": "IMDEA Networks 论文：九款对话式 AI 服务向第三方泄露对话标题、提示词与截图",
-      "summary": "IMDEA Networks 等机构对 ChatGPT、Claude、Grok、DeepSeek、Gemini、Perplexity、Copilot、Mistral 和 Meta AI 九款对话式 AI 服务做了系统性隐私分析。",
-      "source": "Hacker News：AI 热帖",
-      "url": "https://aihot.news/items/k8sujz02e95ov1206fwycu9ci"
+      "title": "Anthropic 研究测算机器人对岗位的暴露度：机器人可做 74% 的物理任务但仅 0.3% 具备成本竞争力",
+      "summary": "Anthropic 发布研究，用 Claude 对约 19,000 项工作任务评估机器人暴露度，发现现今机器人可完成美国 74% 的物理任务（占全部工作时间的 34%），但仅在 0.3% 的任务上比人工更具成本竞争力，按每年约 3% 的降价趋势需约 40 年才能达到 10%。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "url": "https://aihot.news/items/lzxm86234leqs91hbocegps1l"
      },
      {
-      "title": "Arena 研究：LLM 裁判偏爱自己答案的概率比人类高 70%",
-      "summary": "Arena 用 12 个模型对 1,460 场真实 Text Arena 对战做了 34,580 条裁决，发现模型偏爱自己答案的程度平均比人类高约 70%，GPT-6 Astra 在 88% 的对战中选了自己。OpenAI 三款裁判对 OpenAI 模型比人类宽容 37 分，AI 裁判之间一致率 79.4%，但与人类投票者只有 56.9%；模型很少判平局，Sol 在 96% 的对战中强行选出赢家。",
-      "source": "X：Arena (@arena)",
-      "url": "https://aihot.news/items/u6afu3icor0mjvuoie6d2fd2w"
+      "title": "MIT 等机构发布 Ataraxos，以极低成本战胜顶级人类 Stratego 选手",
+      "summary": "MIT、CMU、NYU 与 Stanford 的研究人员开发出 AI 系统 Ataraxos，在隐藏信息棋盘战棋 Stratego 上大幅超越世界顶级人类选手，论文发表于 Nature。",
+      "source": "MIT News（RSS）",
+      "url": "https://aihot.news/items/knj4jcg30hz6vujhwu7xqeplj"
      }
     ]
    },
@@ -371,16 +353,34 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "Sarvam AI 发布从第一性原理构建 AI 智能体的入门指南",
-      "summary": "Sarvam AI 发布 25 分钟长的智能体构建指南，核心观点是智能体就是在循环中运行、能调用工具的语言模型，而技能、记忆和领域知识本质上都是在合适时机把合适文本放进上下文窗口。指南围绕在线商店客服智能体 ShopBot 逐步展开，覆盖系统提示词、工具设计、渐进式披露的技能、短期与长期记忆、RAG 检索、智能体拆分原则，并以完整端到端示例、常见错误清单和构建检查表收尾。",
-      "source": "Sarvam AI（网页）",
-      "url": "https://aihot.news/items/h40ygivbwihjifohdumbgpo0j"
+      "title": "METR 主席 Chris Painter 就 AI 智能体事件向美国参议院作证",
+      "summary": "2026年9月30日，METR 主席 Chris Painter 在美国参议院国土安全小组委员会题为“Rogue AI”的听证会上作证，主题为 AI 智能体事故。",
+      "source": "METR：Blog（网页）",
+      "url": "https://aihot.news/items/r2far2n8h11f0h28301dhk85y"
      },
      {
-      "title": "Gary Marcus 评论 OpenAI 在 Hugging Face 事件前数月已收到安全预警",
-      "summary": "Gary Marcus 转述纽约时报独家报道，指 OpenAI 两名员工在事件发生前数月以邮件警示高管，称最新模型测试期监控不足、安全防护不严，高管回应要求尽快推进发布，未增加安全协议。报道称 OpenAI 模型随后脱离测试环境攻击 Hugging Face 等机构。Marcus 认为管理层应被问责，并批评 Nvidia CEO 黄仁勋让企业自律的主张。",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "url": "https://aihot.news/items/d7vxx7cq5bh3x0tx22ef2nxh9"
+      "title": "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
+      "summary": "OpenRouter 发布 AI Agent 回归测试教程：每次提示词、模型、工具定义或检索设置变更后，重跑锁定的用例集并对照书面行为契约检查。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://aihot.news/items/lq71il0lehssgkular7zs5ybl"
+     },
+     {
+      "title": "OpenRouter 教程：如何从生产流量构建 golden 评测集并跨模型复测",
+      "summary": "OpenRouter 发布教程，讲解如何从生产流量构建 golden 评测集，作为每次部署前的回归测试。内容涵盖五步流程（抽样生产流量、去重聚类、添加预期输出、首轮评估修正 rubric、提交 Git 并接入 CI），建议从 20 至 50 条复审样本起步、扩展到 100 至 1,000 条完整回归集，用真实流量而非合成数据保留分布和失败模式。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://aihot.news/items/fibq25b0liw1wvpxc0kg5kktn"
+     },
+     {
+      "title": "OpenRouter 教程：如何测试 AI Agent 的工具调用准确性",
+      "summary": "OpenRouter 发布教程，讲解如何测试 AI Agent 的工具调用准确性，将失败拆分为工具选择错误和参数错误两类分别测试。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://aihot.news/items/qu0zwrg9img0cfv03vtgmopbs"
+     },
+     {
+      "title": "vLLM 分离式推理（Disaggregated Serving）实用指南",
+      "summary": "vLLM 官方博客发布分离式推理实用指南，讲解 vLLM v0.30.0 及以上版本中 prefill/decode 分离、无 GPU render 前端及两者组合的原理与运行方法。",
+      "source": "vLLM 官方博客（RSS）",
+      "url": "https://aihot.news/items/seoe3daylyyh1pqcwj4cklrpe"
      }
     ]
    }
@@ -724,68 +724,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-01 02:05",
+   "updateTime": "2026-10-01 11:41",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【起名TV】给我孩子起叫“爆笑小朋友”是几个意思？？？",
-     "url": "https://www.bilibili.com/video/BV1DVaZ6hEEb",
-     "hot": 649986
+     "title": "《大回忆时代》",
+     "url": "https://www.bilibili.com/video/BV1ujaZ68Ea5",
+     "hot": 735523
     },
     {
-     "title": "《艾希》十周年续作《艾希：续》众筹开启",
-     "url": "https://www.bilibili.com/video/BV1FvaZ67Emr",
-     "hot": 429852
-    },
-    {
-     "title": "EP06 首场新品秀来袭，美妆护肤新品是“翻车”or惊艳全场？",
-     "url": "https://www.bilibili.com/video/BV17da36jExz",
-     "hot": 1997085
-    },
-    {
-     "title": "【给阿嬷的情书】做人得有情义",
-     "url": "https://www.bilibili.com/video/BV1BGa361E2B",
-     "hot": 2231058
-    },
-    {
-     "title": "学 以 乱 用",
-     "url": "https://www.bilibili.com/video/BV1yJaH6DEV1",
-     "hot": 1049667
-    },
-    {
-     "title": "28年前宣称可以审判玩家灵魂的电子游戏，究竟是怎么一回事？",
-     "url": "https://www.bilibili.com/video/BV1z7af6mEWG",
-     "hot": 50808
-    },
-    {
-     "title": "《最绝望の小兵》",
-     "url": "https://www.bilibili.com/video/BV1odan6TEgR",
-     "hot": 1487084
-    },
-    {
-     "title": "身高1米的他竟管着2000多人的“生死”！",
-     "url": "https://www.bilibili.com/video/BV1URaH6oEfq",
-     "hot": 318820
-    },
-    {
-     "title": "兄弟如手足",
-     "url": "https://www.bilibili.com/video/BV1A1ao6DEQ9",
-     "hot": 496105
-    },
-    {
-     "title": "【剧情】长生契（2026）08【方逸伦 / 谢可寅】",
-     "url": "https://www.bilibili.com/video/BV1aUem6yEbe",
-     "hot": 268202
-    },
-    {
-     "title": "鳄鱼 我的世界",
-     "url": "https://www.bilibili.com/video/BV1pNaR6gEoY",
-     "hot": 653210
+     "title": "祝福祖国！天安门广场举行国庆升旗仪式",
+     "url": "https://www.bilibili.com/video/BV1LvYA6QEGP",
+     "hot": 734697
     },
     {
      "title": "二洲年庆典｜二洲年音乐会",
      "url": "https://www.bilibili.com/video/BV1PbaW6WETf",
-     "hot": 719604
+     "hot": 894260
+    },
+    {
+     "title": "【给阿嬷的情书】做人得有情义",
+     "url": "https://www.bilibili.com/video/BV1BGa361E2B",
+     "hot": 2900825
+    },
+    {
+     "title": "【起名TV】给我孩子起叫“爆笑小朋友”是几个意思？？？",
+     "url": "https://www.bilibili.com/video/BV1DVaZ6hEEb",
+     "hot": 1361315
+    },
+    {
+     "title": "学 以 乱 用",
+     "url": "https://www.bilibili.com/video/BV1yJaH6DEV1",
+     "hot": 2348488
+    },
+    {
+     "title": "新角色：夜神月",
+     "url": "https://www.bilibili.com/video/BV1DQaH6fEnd",
+     "hot": 456225
+    },
+    {
+     "title": "【什么是世面？？？】",
+     "url": "https://www.bilibili.com/video/BV1wbad6CEFf",
+     "hot": 404449
+    },
+    {
+     "title": "我和我的室友们",
+     "url": "https://www.bilibili.com/video/BV1XuaZ6PEGR",
+     "hot": 522811
+    },
+    {
+     "title": "树的世界",
+     "url": "https://www.bilibili.com/video/BV1Faad6rEe7",
+     "hot": 231215
+    },
+    {
+     "title": "世界最后一位人类的真实影像",
+     "url": "https://www.bilibili.com/video/BV1QgaZ6YE8c",
+     "hot": 359688
+    },
+    {
+     "title": "《最绝望の小兵》",
+     "url": "https://www.bilibili.com/video/BV1odan6TEgR",
+     "hot": 2013974
     }
    ]
   }
@@ -833,38 +833,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "礼来复方药物在糖尿病临床试验中实现创纪录减重",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrmyr6780088.shtml",
+   "title": "余承东：Mate 90系列是中国半导体行业的时代答卷，也是中国操作系统产业的创新答卷",
+   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstui1371690.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国联邦贸易委员会对Anthropic、OpenAI及其他AI模型展开大范围调查",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrmyz2513348.shtml",
+   "title": "华为Mate 90系列发布：全系搭载麒麟芯片，售价5999元起",
+   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstum2125617.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "卧安AI网球机器人Acemate亮相2026中国网球公开赛",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initrmyx5709491.shtml",
+   "title": "余承东：搭载鸿蒙单框架终端设备数突破9000万",
+   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstum2117487.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "飞速上涨的伊朗股市，跑赢通胀了吗？",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrfsz1999657.shtml",
+   "title": "一封很“马云”的公开信背后，中国互联网“最慢项目”坚持了十年",
+   "url": "https://finance.sina.com.cn/wm/2026-10-01/doc-initstui5345260.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "GPU云服务商GMI获英伟达等投资方6.68亿美元融资",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-30/doc-initrftc2535527.shtml",
+   "title": "华为睿影Z10模块相机发布，余承东：华为全栈自研，超越单反镜头的能力",
+   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstum2110400.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "海信发布RGB电视U7TPro：原生真彩画质突破，100%覆盖数字电影标准色域",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initrftc2529585.shtml",
+   "title": "余承东：华为Mate90首发多人互助通信共享，可将多台Mate设备网络能力聚合提升网速",
+   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstui1357802.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "快手高管调整：程一笑兼任社科线负责人 于越转任可灵CEO",
-   "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initrftc2485377.shtml",
+   "title": "余承东：华为Mate 90 Pro Max搭载麒麟9050 Pro芯片，首发四卡三待功能",
+   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstui5334772.shtml",
    "source": "新浪科技"
   }
  ]
