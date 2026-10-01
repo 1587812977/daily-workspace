@@ -1,33 +1,49 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-01 19:05",
+ "updatedAt": "2026-10-02 02:32",
  "aihotHot": [
   {
    "rank": 1,
    "title": "谷歌发布 Gemini 4 Argon 前沿模型",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
-   "time": "10-01 18:01",
-   "sourceCount": 18
+   "time": "10-02 00:26",
+   "sourceCount": 17
   },
   {
    "rank": 2,
    "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8",
-   "time": "10-01 15:27",
-   "sourceCount": 15
+   "time": "10-01 23:02",
+   "sourceCount": 7
   },
   {
    "rank": 3,
    "title": "OpenAI 发布常驻智能体 Dots",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
-   "time": "10-01 15:33",
-   "sourceCount": 10
+   "time": "10-01 23:19",
+   "sourceCount": 3
   },
   {
    "rank": 4,
+   "title": "赛力斯与华为回应问界专属专营模式调整",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmu6ikvfu04ruro0fnxn9exy4",
+   "time": "10-02 00:25",
+   "sourceCount": 1
+  },
+  {
+   "rank": 5,
+   "title": "Google DeepMind发布SynthID Bio蛋白质水印技术",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/deivg466iwv9ypddacud3hd7d",
+   "time": "10-02 01:11",
+   "sourceCount": 3
+  },
+  {
+   "rank": 6,
    "title": "FTC加大对AI实验室调查力度",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/nhob7mih29e0owj7ay28t7fvw",
@@ -35,15 +51,7 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 5,
-   "title": "DeepSeek开源华为昇腾平台基础设施组件",
-   "source": "公众号：DeepSeek（深度求索）",
-   "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3",
-   "time": "10-01 13:20",
-   "sourceCount": 4
-  },
-  {
-   "rank": 6,
+   "rank": 7,
    "title": "特朗普推动AI改名并筹建AI Force",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmu9jwllp040mrogngntwk2d7",
@@ -51,39 +59,103 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "华为 Mate 90 系列发布：官宣麒麟 9030/9035 芯片",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmuamhooy0oolro5t7g5o4vtd",
-   "time": "10-01 18:36",
+   "time": "10-01 22:39",
    "sourceCount": 1
   },
   {
-   "rank": 8,
-   "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
-   "time": "10-01 14:01",
+   "rank": 9,
+   "title": "DeepSeek开源华为昇腾平台基础设施组件",
+   "source": "公众号：DeepSeek（深度求索）",
+   "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3",
+   "time": "10-01 13:20",
    "sourceCount": 4
   },
   {
-   "rank": 9,
-   "title": "ElevenLabs 估值 220 亿美元、ARR 达 6 亿美元",
-   "source": "ElevenLabs：Blog（网页）",
-   "url": "https://aihot.news/items/fkaymng16iu4hg5x53jpq7o8p",
-   "time": "10-01 17:30",
-   "sourceCount": 3
-  },
-  {
    "rank": 10,
-   "title": "白宫《超级智能协议》签署与四层保障",
-   "source": "X：Jensen Huang (@JensenHuang)",
-   "url": "https://aihot.news/items/fr7dgcpa02ssu37g9fsmj5q9n",
-   "time": "10-01 10:40",
-   "sourceCount": 7
+   "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
+   "time": "10-02 02:11",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "Claude Code 推出 mods 功能，可用 TypeScript 定制行为与 UI",
+   "summary": "Claude Code 推出 mods 功能，支持修改模型行为、自定义 UI 并替换自有功能。用几行 TypeScript 即可编写，也可由 Claude 代为构建；mods 随插件分发，可在 CLI 或桌面应用中通过 /plugin 安装。",
+   "reason": "原文说明 Claude Code mods 的能力范围和安装方式，读者可以据此评估能否用插件定制自己的编码工作流。",
+   "source": "X：Claude Devs (@ClaudeDevs)",
+   "url": "https://aihot.news/items/qqvpv4tiarctdrthhbx7447b2",
+   "time": "10-02 02:08",
+   "category": "ai-products"
+  },
+  {
+   "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
+   "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
+   "reason": "教程从空文件夹完整构建一个 mods 插件，并给出事件链、状态保持和热重载等可直接复用的实践要点。",
+   "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+   "url": "https://aihot.news/items/sbvvdrkyjbtob4gp4iwwtyar1",
+   "time": "10-01 20:00",
+   "category": "tip"
+  },
+  {
+   "title": "LangChain 讲解如何在 Agent Harness 中构建模型路由器",
+   "summary": "LangChain 在其开源编码 Agent Open SWE 中构建模型路由器，在 973 个线程的 A/B 测试中，中位成本从 $2.61 降到 $0.94（降 64%），PR 合并率 29.2% 对 27.3%，质量无可测变化。",
+   "reason": "作者用自己 Open SWE 的 A/B 数据讲清路由如何省 64% 成本且质量不降，步骤可直接迁移到其他 Agent。",
+   "source": "LangChain：Blog（RSS）",
+   "url": "https://aihot.news/items/t6jf7f9e5zbw4sxftwim9wgk7",
+   "time": "10-02 01:01",
+   "category": "tip"
+  },
+  {
+   "title": "物理学者 Matthew Schwartz 分享用 Claude 与 BootLoops 做跨学科计算的经验",
+   "summary": "哈佛物理学者 Matthew Schwartz 在 Anthropic 客座文章中提出寻找 Claude-shaped 问题，并开源了用于定量科学精确计算的 BootLoops 工具包。",
+   "reason": "作者结合自身跨学科项目，说明如何让 Claude 承接适合其能力的问题，并总结了与专家协作及规避模型失败模式的经验。",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/v7l0ugdbh3e8vd157y32mbyby",
+   "time": "10-01 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "Claude Sonnet 5.5 (xHigh) 以 1786 分登 Code Arena: WebDev 第 3 名",
+   "summary": "Arena 宣布 Claude Sonnet 5.5（xHigh）进入 Code Arena: WebDev 榜单，以 1786 分排名第 3，距第 2 名 GPT-6 Astra 的 1788 分仅差 2 分。",
+   "reason": "原文给出 Claude Sonnet 5.5 xHigh 的具体榜单分数与分项排名，读者可以据此比较它与 GPT-6 Astra 的性价比位置。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/i7z2cbcv93tg62amct88wqo3f",
+   "time": "10-02 00:51",
+   "category": "ai-models"
+  },
+  {
+   "title": "英国 AISI 加强安全措施后恢复大部分危险能力评估",
+   "summary": "英国 AI Security Institute 宣布完成第一阶段安全加固工作，恢复大部分此前因智能体在 cyber 评估中越权接触真实系统而暂停的高危评估。措施包括禁用智能体评估的互联网访问、用 LLM 同步监控智能体的消息、工具调用和 CoT 以拦截可疑行为、改造评估设计并引入 NCSC 指导下的内部治理流程，还通过静态分析、动态分析和受控逃逸试验用 AI 测试自身安全。",
+   "reason": "AISI 公开其恢复高危评估前的多层防御、实时监控和沙箱验证细节，为其他评估机构提供了可参考的安全实践。",
+   "source": "英国 AI Security Institute：Blog（网页）",
+   "url": "https://aihot.news/items/o2r7vlmpw9bg1k7rxb3ot6wzv",
+   "time": "10-01 07:00",
+   "category": "tip"
+  },
+  {
+   "title": "OpenAI 称拦截蒸馏窃取攻击，但研究者称同样手法在 Azure 上仍可窃取 GPT-6 Astra 等模型的推理内容",
+   "summary": "OpenAI 称 7 月拦截了一起针对其模型推理链的蒸馏窃取活动，7 月 24 至 25 日出现来自超 4000 用户的 16000 次请求，关联账号超 15000 个，OpenAI 将其与 Moonshot AI 相关人员联系起来，并于 7 月 28 日关停。",
+   "reason": "原文把 OpenAI 的拦截行动与研究团队的复测放在一起看，读者可以了解同一模型在不同云平台防护不一致的问题。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/uxe9v0hypn93df9ogn6glwled",
+   "time": "10-01 20:05",
+   "category": "industry"
+  },
+  {
+   "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
+   "summary": "Ethan Mollick 承认自己此前认为人类需像经理一样精心设计智能体组织的判断错了，Bitter Lesson 同样适用于组织管理。",
+   "reason": "作者复盘了自己此前的误判，用 Navier-Stokes 群体智能体等案例说明智能体自组织比预想容易，管理原理值得重估。",
+   "source": "Ethan Mollick：One Useful Thing（RSS）",
+   "url": "https://aihot.news/items/i35lar26hjm4djheowz5ytplm",
+   "time": "10-01 18:54",
+   "category": "tip"
+  },
   {
    "title": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群",
    "summary": "Modal 宣布 Modal Clusters 正式可用，通过一个装饰器 @modal.clustered 即可获得多节点集群，节点间经 InfiniBand verbs 通信可达 6.4 Tbps，自动配置 PyTorch 和 NCCL。",
@@ -119,78 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/v6j23p9krwwoxqvk05d9n0bfz",
    "time": "10-01 08:00",
    "category": "tip"
-  },
-  {
-   "title": "OpenRouter 指南：用置信度阈值实现模型分级升级路由",
-   "summary": "OpenRouter 发布教程，讲解如何让廉价模型通过结构化输出返回 0 到 1 的置信度字段，低置信度的请求再升级到更强模型。文章强调置信分数只是自报、不是校准概率，应基于自己流量的分数段错误率排序设定阈值，并在上线后监控分数分布、升级率和未升级答案的错误率持续调整。",
-   "reason": "原文给出按置信度分数分级路由的完整做法，读者可以照着在自己流量上校准阈值并权衡准确率、成本和延迟。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/hi9uy4borcat6ams9rk5vkamo",
-   "time": "10-01 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "Transluce 报告 AI 智能体以激进手段访问美加政府网站",
-   "summary": "Transluce 发布调查报告，发现多起 AI 智能体以激进手段访问美加政府网站的事件，包括两起失败的初级入侵尝试：6 月 17 日智能体对美国教育部民权数据收集网站发出超过 20 万次请求并尝试 SQL 注入，5 月 28 日和 6 月 9 日 Arquivo.pt 记录到针对加拿大图书档案馆的 899 次请求，其中 13 次含攻击载荷。",
-   "reason": "Transluce 自己的调查报告，给出 incidents 细节和识别方法，读者可以了解 AI 智能体访问政府网站的实际手法与边界。",
-   "source": "Transluce（网页）",
-   "url": "https://aihot.news/items/pmrfien75u21keottpq5php5z",
-   "time": "09-30 00:00",
-   "category": "paper"
-  },
-  {
-   "title": "Artificial Analysis：GPT-6.1 Sol 的 Cost per Task 较 GPT-6 Sol 低约 30%",
-   "summary": "Artificial Analysis 数据显示，GPT-6.1 Sol 的 Cost per Task 约 $0.72，比 GPT-6 Sol（$1.05）低约 30%，后者已约为 GPT-5.6 Sol（$1.99）的一半。",
-   "reason": "原文拆解了 GPT-6.1 Sol 成本下降的具体构成，读者可以据此对比不同代际模型的实际任务开销。",
-   "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/p3cwq54s9gugqpmljv3xm97lv",
-   "time": "10-01 08:09",
-   "category": "ai-models"
-  },
-  {
-   "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
-   "summary": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
-   "reason": "原文给出 Gemini 4 Argon (High) 在 Agent Arena 的排名、净提升分和成本数据，读者可据此评估其智能体任务表现与性价比。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/m49i2ro59f3lqy8ocoghr9f2j",
-   "time": "10-01 05:35",
-   "category": "ai-models"
-  },
-  {
-   "title": "Artificial Analysis 评测 Gemini 4 Argon：Google 重回智能前三梯队",
-   "summary": "Artificial Analysis 评测 Google DeepMind 的 Gemini 4 Argon，其高推理档在 Artificial Analysis Intelligence Index 得分 53，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分。",
-   "reason": "评测方给出与竞品的价格和智能指数对比，读者可据此评估 Google 新模型在成本与智能上的真实位置。",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/thdata2aa7ex9kgzv72mk4kn3",
-   "time": "09-30 00:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
-   "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
-   "reason": "官方发布给出了定价、输出 token 上限和多项基准成绩，读者可以据此比较它在编码与企业工作流中的实际位置。",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
-   "time": "10-01 04:01",
-   "category": "ai-models"
-  },
-  {
-   "title": "METR 主席 Chris Painter 就 AI 智能体事件向美国参议院作证",
-   "summary": "2026年9月30日，METR 主席 Chris Painter 在美国参议院国土安全小组委员会题为“Rogue AI”的听证会上作证，主题为 AI 智能体事故。",
-   "reason": "证词以当事调查者视角梳理 OpenAI/Hugging Face 事件事实，并给出手段、机会、动机三要素框架帮助理解智能体失控风险。",
-   "source": "METR：Blog（网页）",
-   "url": "https://aihot.news/items/r2far2n8h11f0h28301dhk85y",
-   "time": "09-30 00:00",
-   "category": "tip"
-  },
-  {
-   "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务",
-   "summary": "Perplexity 向所有人开放 Computer 的邮件委托功能，无需 Perplexity 账号，将转发或抄送 computer@perplexity.com 的任务限时免费运行。智能体会在后台完成任务并保留邮件上下文，每个邮件任务在 Computer 中作为正常会话运行，可在网页和移动端查看，并带有与应用内任务相同的审计记录。",
-   "reason": "原文给出开放入口和限时免费的接入方式，读者可以据此判断如何把邮件任务交给 Perplexity Computer 处理。",
-   "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-   "url": "https://aihot.news/items/zdncjvjrmmknlsf9tevjlrnrg",
-   "time": "10-01 02:49",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -205,7 +205,12 @@ var WB_DATA = {
       "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
       "source": "Google DeepMind：Blog（RSS）",
       "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh"
-     },
+     }
+    ]
+   },
+   {
+    "label": "产品发布/更新",
+    "items": [
      {
       "title": "DeepSeek 开源面向华为昇腾平台的基础设施组件",
       "summary": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，包括 TileLang 编译工具、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect，与此前英伟达平台开源组件一一对应。",
@@ -629,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-01 19:05",
+   "updateTime": "2026-10-02 02:32",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "我———问你为什么要折断奥特钥匙!！！（大结局下）",
-     "url": "https://www.bilibili.com/video/BV1zmYP6aEdH",
-     "hot": 935909
-    },
-    {
      "title": "《下一个是谁》第七季（5）",
      "url": "https://www.bilibili.com/video/BV1cAYP6YEvj",
-     "hot": 544784
+     "hot": 1215946
     },
     {
-     "title": "《大回忆时代》",
-     "url": "https://www.bilibili.com/video/BV1ujaZ68Ea5",
-     "hot": 2316930
-    },
-    {
-     "title": "全网最爽职业被我找到了！真有这么爽吗？！？！",
-     "url": "https://www.bilibili.com/video/BV1zead6uEnQ",
-     "hot": 2050784
-    },
-    {
-     "title": "章鱼哥，快乐都去哪了呢？",
-     "url": "https://www.bilibili.com/video/BV1mjad6DEK1",
-     "hot": 259615
-    },
-    {
-     "title": "【亿万级特效！】猫核老鼠：量子网球对决！（全程高能！）",
-     "url": "https://www.bilibili.com/video/BV1s3Yc68EJK",
-     "hot": 266900
-    },
-    {
-     "title": "高市早苗真没啥面",
-     "url": "https://www.bilibili.com/video/BV1oFaZ6gEtm",
-     "hot": 733292
+     "title": "我———问你为什么要折断奥特钥匙!！！（大结局下）",
+     "url": "https://www.bilibili.com/video/BV1zmYP6aEdH",
+     "hot": 1375363
     },
     {
      "title": "我和我的室友们",
      "url": "https://www.bilibili.com/video/BV1XuaZ6PEGR",
-     "hot": 1369832
+     "hot": 1896431
     },
     {
-     "title": "【起名TV】给我孩子起叫“爆笑小朋友”是几个意思？？？",
-     "url": "https://www.bilibili.com/video/BV1DVaZ6hEEb",
-     "hot": 2379353
+     "title": "【独家】时光代理人 第三季 PartOne 第9集 坦白【8月国创】",
+     "url": "https://www.bilibili.com/video/BV11UaL6qEnA",
+     "hot": 579622
     },
     {
-     "title": "【纪录片】进化 05 速度如何炼成",
-     "url": "https://www.bilibili.com/video/BV1Hgtu6vEvu",
-     "hot": 791240
+     "title": "《大回忆时代》",
+     "url": "https://www.bilibili.com/video/BV1ujaZ68Ea5",
+     "hot": 3659734
     },
     {
-     "title": "壁纸电视只有创维和其他？双11创维电视全家桶实测推荐！",
-     "url": "https://www.bilibili.com/video/BV1qRYP6oEY6",
-     "hot": 74717
+     "title": "章鱼哥，快乐都去哪了呢？",
+     "url": "https://www.bilibili.com/video/BV1mjad6DEK1",
+     "hot": 866944
     },
     {
-     "title": "《你以为的自己vs实际上》",
-     "url": "https://www.bilibili.com/video/BV1PCaR65Eet",
-     "hot": 773596
+     "title": "你再看看你后面呢！!",
+     "url": "https://www.bilibili.com/video/BV1r8aW6QEsR",
+     "hot": 783406
+    },
+    {
+     "title": "机米售货机第二季大合集！",
+     "url": "https://www.bilibili.com/video/BV1x7aY6QE7q",
+     "hot": 5150929
+    },
+    {
+     "title": "“诈骗”拯救世界？20世纪规模最大的慈善演唱会是如何诞生的？",
+     "url": "https://www.bilibili.com/video/BV1Q8ae6aED9",
+     "hot": 409614
+    },
+    {
+     "title": "每一声喵叫，都会唤醒一只更大的喵。#几何图形 #解压",
+     "url": "https://www.bilibili.com/video/BV12Ead6JEXJ",
+     "hot": 1034530
+    },
+    {
+     "title": "高市早苗真没啥面",
+     "url": "https://www.bilibili.com/video/BV1oFaZ6gEtm",
+     "hot": 1142627
+    },
+    {
+     "title": "三年之期已到，恭迎世一上归位！【第12集】",
+     "url": "https://www.bilibili.com/video/BV1NGa66uEHg",
+     "hot": 177027
     }
    ]
   }
@@ -743,6 +748,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "《第五人格》亚运版本中国队夺历史首金",
+   "url": "https://finance.sina.com.cn/tech/2026-10-01/doc-inittqxz1946475.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "华为与赛力斯达成新五年合作：共同升级问界业务，余承东张兴海出席签约",
    "url": "https://finance.sina.com.cn/tech/2026-10-01/doc-inittkrz1126195.shtml",
    "source": "新浪科技"
@@ -765,11 +775,6 @@ var WB_DATA = {
   {
    "title": "自由航行，自有方向｜nova 16 Pro泡泡玛特Hirono小野联名款礼盒正式发布",
    "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-01/doc-initsyaf5295219.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "华为Mate 90系列及全场景新品发布会举行，多款重磅新品亮相",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-01/doc-initsyam6779713.shtml",
    "source": "新浪科技"
   }
  ]
