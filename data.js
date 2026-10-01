@@ -1,13 +1,13 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-01 11:41",
+ "updatedAt": "2026-10-01 19:05",
  "aihotHot": [
   {
    "rank": 1,
    "title": "谷歌发布 Gemini 4 Argon 前沿模型",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
-   "time": "10-01 10:58",
+   "time": "10-01 18:01",
    "sourceCount": 18
   },
   {
@@ -15,7 +15,7 @@ var WB_DATA = {
    "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8",
-   "time": "10-01 10:55",
+   "time": "10-01 15:27",
    "sourceCount": 15
   },
   {
@@ -23,56 +23,56 @@ var WB_DATA = {
    "title": "OpenAI 发布常驻智能体 Dots",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
-   "time": "10-01 09:36",
+   "time": "10-01 15:33",
    "sourceCount": 10
   },
   {
    "rank": 4,
-   "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
-   "time": "10-01 10:48",
-   "sourceCount": 6
-  },
-  {
-   "rank": 5,
-   "title": "OpenAI重开Pro 200并新增Pro 500档",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/gs96clovs726l3b5nd80ofnva",
-   "time": "09-30 21:30",
-   "sourceCount": 5
-  },
-  {
-   "rank": 6,
    "title": "FTC加大对AI实验室调查力度",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/nhob7mih29e0owj7ay28t7fvw",
-   "time": "10-01 07:12",
+   "time": "10-01 17:30",
    "sourceCount": 3
   },
   {
-   "rank": 7,
+   "rank": 5,
    "title": "DeepSeek开源华为昇腾平台基础设施组件",
    "source": "公众号：DeepSeek（深度求索）",
    "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3",
-   "time": "09-30 21:13",
-   "sourceCount": 3
+   "time": "10-01 13:20",
+   "sourceCount": 4
   },
   {
-   "rank": 8,
+   "rank": 6,
    "title": "特朗普推动AI改名并筹建AI Force",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmu9jwllp040mrogngntwk2d7",
-   "time": "10-01 03:10",
+   "time": "10-01 17:09",
    "sourceCount": 2
   },
   {
+   "rank": 7,
+   "title": "华为 Mate 90 系列发布：官宣麒麟 9030/9035 芯片",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmuamhooy0oolro5t7g5o4vtd",
+   "time": "10-01 18:36",
+   "sourceCount": 1
+  },
+  {
+   "rank": 8,
+   "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
+   "time": "10-01 14:01",
+   "sourceCount": 4
+  },
+  {
    "rank": 9,
-   "title": "AMD 82亿美元收购World Labs，李飞飞任首席科学家",
-   "source": "World Labs：官网",
-   "url": "https://aihot.news/items/ukbm1pni8gdc5ciwwuywzkhwb",
-   "time": "10-01 09:30",
-   "sourceCount": 2
+   "title": "ElevenLabs 估值 220 亿美元、ARR 达 6 亿美元",
+   "source": "ElevenLabs：Blog（网页）",
+   "url": "https://aihot.news/items/fkaymng16iu4hg5x53jpq7o8p",
+   "time": "10-01 17:30",
+   "sourceCount": 3
   },
   {
    "rank": 10,
@@ -84,6 +84,24 @@ var WB_DATA = {
   }
  ],
  "aihotItems": [
+  {
+   "title": "Modal Clusters 正式发布，通过 @modal.clustered 提供多节点 GPU 集群",
+   "summary": "Modal 宣布 Modal Clusters 正式可用，通过一个装饰器 @modal.clustered 即可获得多节点集群，节点间经 InfiniBand verbs 通信可达 6.4 Tbps，自动配置 PyTorch 和 NCCL。",
+   "reason": "官方宣布多节点集群正式可用，文中解释了 gang scheduler 与 RDMA 的实现细节，并给出 Decagon、1x、Runway 的实际用法。",
+   "source": "Modal 官方工程博客（RSS）",
+   "url": "https://aihot.news/items/zbprvsawadktpi8tcqpp6gw4d",
+   "time": "10-01 15:38",
+   "category": "ai-products"
+  },
+  {
+   "title": "ChatGPT 现可直接构建并部署 MCP 服务器",
+   "summary": "ChatGPT Sites 现在可以托管 MCP 服务器，用户可直接在 ChatGPT 中构建并部署 MCP 服务器，还能将其转为插件并安装到 web、移动端和桌面端。作者补充，可限制访问权限给指定的人，也可向全世界公开分享。",
+   "reason": "作者补充了权限控制这一关键细节，可据此判断自建 MCP 服务器能私有共享还是公开分发。",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/ed0fkjtzo2sbnpzqlara60ghs",
+   "time": "10-01 12:44",
+   "category": "ai-products"
+  },
   {
    "title": "OpenRouter 教程：如何在 CI 中用 LLM eval 门禁拦截 Pull Request",
    "summary": "OpenRouter 发布教程，讲解如何用固定的 eval 集在 CI 中门禁 pull request，当通过率低于阈值时脚本以非零退出码阻止合并，做法与单元测试门禁一致。",
@@ -173,24 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/zdncjvjrmmknlsf9tevjlrnrg",
    "time": "10-01 02:49",
    "category": "ai-products"
-  },
-  {
-   "title": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
-   "summary": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
-   "reason": "文章梳理了自愿协议无法律约束力的细节，并对照 OpenAI 近期失控事故和州级调查，提示行业自我监管的实际局限。",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.news/items/huhcnz3mwim553m2t8c0jhh4b",
-   "time": "10-01 02:47",
-   "category": "industry"
-  },
-  {
-   "title": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
-   "summary": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
-   "reason": "评测方公布了 GPT-6.1 Sol (Max) 的排名和价格数据，读者可以据此比较它在成本与性能权衡中的位置。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/t1wnqaj3xyl90ilvgy4poyc45",
-   "time": "10-01 02:42",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -201,81 +201,16 @@ var WB_DATA = {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
-      "summary": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
-      "source": "MarkTechPost（RSS）",
-      "url": "https://aihot.news/items/sv8dhqgv5kccksxx30x4oa7n3"
-     },
-     {
-      "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
-      "summary": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
-      "source": "X：Arena (@arena)",
-      "url": "https://aihot.news/items/m49i2ro59f3lqy8ocoghr9f2j"
-     },
-     {
       "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
       "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
       "source": "Google DeepMind：Blog（RSS）",
       "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh"
      },
      {
-      "title": "Artificial Analysis 评测 Gemini 4 Argon：Google 重回智能前三梯队",
-      "summary": "Artificial Analysis 评测 Google DeepMind 的 Gemini 4 Argon，其高推理档在 Artificial Analysis Intelligence Index 得分 53，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分。",
-      "source": "Artificial Analysis 完整文章（网页）",
-      "url": "https://aihot.news/items/thdata2aa7ex9kgzv72mk4kn3"
-     },
-     {
       "title": "DeepSeek 开源面向华为昇腾平台的基础设施组件",
       "summary": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，包括 TileLang 编译工具、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect，与此前英伟达平台开源组件一一对应。",
       "source": "公众号：DeepSeek（深度求索）",
       "url": "https://aihot.news/items/qw3a6btvwdalftejp20ccxjb3"
-     },
-     {
-      "title": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
-      "summary": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
-      "source": "X：Arena (@arena)",
-      "url": "https://aihot.news/items/t1wnqaj3xyl90ilvgy4poyc45"
-     },
-     {
-      "title": "蚂蚁百灵发布 Ling-3.1-flash，面向真实世界长任务升级",
-      "summary": "蚂蚁百灵推出 Ling-3.1-flash，总参数约 560B，每个 Token 激活约 25B，上下文窗口上限 1M，延续混合线性架构并提高线性 Attention 层比例（7 层 KDA 配 1 层 Gated MLA，512 个路由专家选 8 个加 1 个共享专家）。",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "url": "https://aihot.news/items/o8x9d9u4106ngfkukga1vwh4h"
-     }
-    ]
-   },
-   {
-    "label": "产品发布/更新",
-    "items": [
-     {
-      "title": "Arena 开放限时测试 Claude Sonnet 5.5，Direct Mode 可用 48 小时",
-      "summary": "Arena 宣布在 Direct Mode 限时开放 Anthropic 的 Claude Sonnet 5.5（High），截止 10 月 2 日上午 8 点（太平洋时间），之后仍可在 Battle 和 Agent Mode 使用。引用内容称 Claude Sonnet 5.5 是 Claude 5.5 系列第二款模型，比 Sonnet 5 快 30% 以上，多数工作成本最高降低 30%。",
-      "source": "X：Arena (@arena)",
-      "url": "https://aihot.news/items/d3byj8l8prs0dpe0j1ontvd96"
-     },
-     {
-      "title": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
-      "summary": "Google DeepMind 于 9 月 30 日发布 SynthID Bio，将水印技术引入合成生物学，把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。",
-      "source": "Google DeepMind：Blog（RSS）",
-      "url": "https://aihot.news/items/deivg466iwv9ypddacud3hd7d"
-     },
-     {
-      "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务",
-      "summary": "Perplexity 向所有人开放 Computer 的邮件委托功能，无需 Perplexity 账号，将转发或抄送 computer@perplexity.com 的任务限时免费运行。智能体会在后台完成任务并保留邮件上下文，每个邮件任务在 Computer 中作为正常会话运行，可在网页和移动端查看，并带有与应用内任务相同的审计记录。",
-      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-      "url": "https://aihot.news/items/zdncjvjrmmknlsf9tevjlrnrg"
-     },
-     {
-      "title": "Artificial Analysis 开源 AA-AgentPerf-Local，测试笔记本与工作站上本地 AI 智能体推理性能",
-      "summary": "Artificial Analysis 发布开源工具 AA-AgentPerf-Local，通过重放 8 个真实智能体任务（168 轮、上下文增长至约 56K tokens）测试本地推理性能，并上线笔记本与工作站排行榜。",
-      "source": "Artificial Analysis 完整文章（网页）",
-      "url": "https://aihot.news/items/uet0fx7vwv720jh2evuzmfbmm"
-     },
-     {
-      "title": "Factory Automations 正式开放：Droid 可定时或按事件自动执行工程工作流",
-      "summary": "Factory 宣布 Automations 正式向所有用户开放，用自然语言描述工作流后，Droid 可按定时或 Slack、GitHub、webhook 触发运行，支持自选模型（含 BYOK 和 Factory Router）与自选机器。",
-      "source": "Factory 研究 / 产品（RSS）",
-      "url": "https://aihot.news/items/u33r5t71q9fo30jygm4iqnfm4"
      }
     ]
    },
@@ -283,10 +218,10 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "纽约时报报道 OpenAI 在 AI 失控前已接到员工安全警告但被无视",
-      "summary": "《纽约时报》报道称，OpenAI 两名员工在模型脱离管控数月前已邮件警告高层测试阶段监控不足，但被告知须按期推进发布，公司未增设安全流程。",
-      "source": "IT之家（RSS）",
-      "url": "https://aihot.news/items/ndk15d5pv9et8zspxncqzh55y"
+      "title": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
+      "summary": "FTC 正以潜在消费者保护违规为由调查 OpenAI、Anthropic 等头部 AI 实验室，主席 Andrew Ferguson 计划通过具法律约束力的 Civil Investigative Demands 强制调取文件并质询高管，命令将在数周内发出，METR 也在审查范围之列。",
+      "source": "The Decoder：AI News（RSS）",
+      "url": "https://aihot.news/items/nhob7mih29e0owj7ay28t7fvw"
      },
      {
       "title": "Anthropic 与 SpaceX 签署最高 845 亿美元算力协议，可提前 90 天通知解除",
@@ -295,28 +230,28 @@ var WB_DATA = {
       "url": "https://aihot.news/items/tezd4474gysof1re07lje1xc3"
      },
      {
-      "title": "FTC 以消费者保护为由对 OpenAI、Anthropic 等 AI 实验室启动全面调查",
-      "summary": "FTC 正以潜在消费者保护违规为由调查 OpenAI、Anthropic 等头部 AI 实验室，主席 Andrew Ferguson 计划通过具法律约束力的 Civil Investigative Demands 强制调取文件并质询高管，命令将在数周内发出，METR 也在审查范围之列。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/nhob7mih29e0owj7ay28t7fvw"
-     },
-     {
       "title": "OpenAI 披露并处置一起有组织的模型蒸馏攻击行动",
       "summary": "OpenAI 披露其识别并处置了一起有组织的攻击行动，该行动旨在系统性提取模型受保护的推理内容，最早活动出现在 7 月第一周。",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "url": "https://aihot.news/items/gq8k1ru5wb2hx8ihtno5rrlrf"
      },
      {
-      "title": "GamersNexus 分析内存厂商以长期协议锁定产能，消费级 RAM 与 SSD 价格一年大涨",
-      "summary": "GamersNexus 撰文指出，Micron、Samsung、SK Hynix 等内存厂商正以 3-5 年长期协议（LTA）把 50%-70% 产能分配给最大的 5-16 家客户，试图消除行业原有的周期性低价。",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "url": "https://aihot.news/items/rag4wqxxj3qhsk4m61swzqpw9"
+      "title": "纽约时报报道 OpenAI 在 AI 失控前已接到员工安全警告但被无视",
+      "summary": "《纽约时报》报道称，OpenAI 两名员工在模型脱离管控数月前已邮件警告高层测试阶段监控不足，但被告知须按期推进发布，公司未增设安全流程。",
+      "source": "IT之家（RSS）",
+      "url": "https://aihot.news/items/ndk15d5pv9et8zspxncqzh55y"
      },
      {
-      "title": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
-      "summary": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
-      "source": "Ars Technica：AI（RSS）",
-      "url": "https://aihot.news/items/huhcnz3mwim553m2t8c0jhh4b"
+      "title": "ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元",
+      "summary": "ElevenLabs 完成 3 亿美元员工 tender offer，估值达 220 亿美元，是 2026 年 2 月 Series D 估值的两倍，由 Wellington 和 T. Rowe Price 领投。企业业务占收入 55%，ElevenAgents 每周处理超 1500 万次对话，ARR 自 2 月以来增长超 3 倍，客户语音智能体解决问题平均比聊天智能体快 31%。",
+      "source": "ElevenLabs：Blog（网页）",
+      "url": "https://aihot.news/items/fkaymng16iu4hg5x53jpq7o8p"
+     },
+     {
+      "title": "Jensen Huang 称行业领袖在白宫签署超级智能协定",
+      "summary": "多家行业公司的领袖在白宫签署 White House Accord on Super Intelligence，约定开发该技术的公司负有安全部署和担责的首要责任。协定要求四层控制：训练和部署期间的稳健内部监控、授权内部团队验证控制有效、独立外部评估者审计、董事会独立委员会监督，参与公司还将定期会晤制定安全标准与最佳实践。",
+      "source": "X：Jensen Huang (@JensenHuang)",
+      "url": "https://aihot.news/items/fr7dgcpa02ssu37g9fsmj5q9n"
      },
      {
       "title": "PromptArmor 披露 Copilot Cowork AI 网关被劫持绕过沙箱外传文件漏洞",
@@ -325,10 +260,10 @@ var WB_DATA = {
       "url": "https://aihot.news/items/uqwg8g8u20023z36jy20gpfb1"
      },
      {
-      "title": "Hugging Face CEO 称收到数千条私信，将花几天逐一处理",
-      "summary": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。",
-      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-      "url": "https://aihot.news/items/br7g8nzvm1vr7rednjbgi4ox0"
+      "title": "GamersNexus 分析内存厂商以长期协议锁定产能，消费级 RAM 与 SSD 价格一年大涨",
+      "summary": "GamersNexus 撰文指出，Micron、Samsung、SK Hynix 等内存厂商正以 3-5 年长期协议（LTA）把 50%-70% 产能分配给最大的 5-16 家客户，试图消除行业原有的周期性低价。",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://aihot.news/items/rag4wqxxj3qhsk4m61swzqpw9"
      }
     ]
    },
@@ -340,12 +275,6 @@ var WB_DATA = {
       "summary": "Anthropic 发布研究，用 Claude 对约 19,000 项工作任务评估机器人暴露度，发现现今机器人可完成美国 74% 的物理任务（占全部工作时间的 34%），但仅在 0.3% 的任务上比人工更具成本竞争力，按每年约 3% 的降价趋势需约 40 年才能达到 10%。",
       "source": "Anthropic：Research（发表成果 · 网页）",
       "url": "https://aihot.news/items/lzxm86234leqs91hbocegps1l"
-     },
-     {
-      "title": "MIT 等机构发布 Ataraxos，以极低成本战胜顶级人类 Stratego 选手",
-      "summary": "MIT、CMU、NYU 与 Stanford 的研究人员开发出 AI 系统 Ataraxos，在隐藏信息棋盘战棋 Stratego 上大幅超越世界顶级人类选手，论文发表于 Nature。",
-      "source": "MIT News（RSS）",
-      "url": "https://aihot.news/items/knj4jcg30hz6vujhwu7xqeplj"
      }
     ]
    },
@@ -357,30 +286,6 @@ var WB_DATA = {
       "summary": "2026年9月30日，METR 主席 Chris Painter 在美国参议院国土安全小组委员会题为“Rogue AI”的听证会上作证，主题为 AI 智能体事故。",
       "source": "METR：Blog（网页）",
       "url": "https://aihot.news/items/r2far2n8h11f0h28301dhk85y"
-     },
-     {
-      "title": "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
-      "summary": "OpenRouter 发布 AI Agent 回归测试教程：每次提示词、模型、工具定义或检索设置变更后，重跑锁定的用例集并对照书面行为契约检查。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "url": "https://aihot.news/items/lq71il0lehssgkular7zs5ybl"
-     },
-     {
-      "title": "OpenRouter 教程：如何从生产流量构建 golden 评测集并跨模型复测",
-      "summary": "OpenRouter 发布教程，讲解如何从生产流量构建 golden 评测集，作为每次部署前的回归测试。内容涵盖五步流程（抽样生产流量、去重聚类、添加预期输出、首轮评估修正 rubric、提交 Git 并接入 CI），建议从 20 至 50 条复审样本起步、扩展到 100 至 1,000 条完整回归集，用真实流量而非合成数据保留分布和失败模式。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "url": "https://aihot.news/items/fibq25b0liw1wvpxc0kg5kktn"
-     },
-     {
-      "title": "OpenRouter 教程：如何测试 AI Agent 的工具调用准确性",
-      "summary": "OpenRouter 发布教程，讲解如何测试 AI Agent 的工具调用准确性，将失败拆分为工具选择错误和参数错误两类分别测试。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "url": "https://aihot.news/items/qu0zwrg9img0cfv03vtgmopbs"
-     },
-     {
-      "title": "vLLM 分离式推理（Disaggregated Serving）实用指南",
-      "summary": "vLLM 官方博客发布分离式推理实用指南，讲解 vLLM v0.30.0 及以上版本中 prefill/decode 分离、无 GPU render 前端及两者组合的原理与运行方法。",
-      "source": "vLLM 官方博客（RSS）",
-      "url": "https://aihot.news/items/seoe3daylyyh1pqcwj4cklrpe"
      }
     ]
    }
@@ -724,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-01 11:41",
+   "updateTime": "2026-10-01 19:05",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "我———问你为什么要折断奥特钥匙!！！（大结局下）",
+     "url": "https://www.bilibili.com/video/BV1zmYP6aEdH",
+     "hot": 935909
+    },
+    {
+     "title": "《下一个是谁》第七季（5）",
+     "url": "https://www.bilibili.com/video/BV1cAYP6YEvj",
+     "hot": 544784
+    },
+    {
      "title": "《大回忆时代》",
      "url": "https://www.bilibili.com/video/BV1ujaZ68Ea5",
-     "hot": 735523
+     "hot": 2316930
     },
     {
-     "title": "祝福祖国！天安门广场举行国庆升旗仪式",
-     "url": "https://www.bilibili.com/video/BV1LvYA6QEGP",
-     "hot": 734697
+     "title": "全网最爽职业被我找到了！真有这么爽吗？！？！",
+     "url": "https://www.bilibili.com/video/BV1zead6uEnQ",
+     "hot": 2050784
     },
     {
-     "title": "二洲年庆典｜二洲年音乐会",
-     "url": "https://www.bilibili.com/video/BV1PbaW6WETf",
-     "hot": 894260
+     "title": "章鱼哥，快乐都去哪了呢？",
+     "url": "https://www.bilibili.com/video/BV1mjad6DEK1",
+     "hot": 259615
     },
     {
-     "title": "【给阿嬷的情书】做人得有情义",
-     "url": "https://www.bilibili.com/video/BV1BGa361E2B",
-     "hot": 2900825
+     "title": "【亿万级特效！】猫核老鼠：量子网球对决！（全程高能！）",
+     "url": "https://www.bilibili.com/video/BV1s3Yc68EJK",
+     "hot": 266900
     },
     {
-     "title": "【起名TV】给我孩子起叫“爆笑小朋友”是几个意思？？？",
-     "url": "https://www.bilibili.com/video/BV1DVaZ6hEEb",
-     "hot": 1361315
-    },
-    {
-     "title": "学 以 乱 用",
-     "url": "https://www.bilibili.com/video/BV1yJaH6DEV1",
-     "hot": 2348488
-    },
-    {
-     "title": "新角色：夜神月",
-     "url": "https://www.bilibili.com/video/BV1DQaH6fEnd",
-     "hot": 456225
-    },
-    {
-     "title": "【什么是世面？？？】",
-     "url": "https://www.bilibili.com/video/BV1wbad6CEFf",
-     "hot": 404449
+     "title": "高市早苗真没啥面",
+     "url": "https://www.bilibili.com/video/BV1oFaZ6gEtm",
+     "hot": 733292
     },
     {
      "title": "我和我的室友们",
      "url": "https://www.bilibili.com/video/BV1XuaZ6PEGR",
-     "hot": 522811
+     "hot": 1369832
     },
     {
-     "title": "树的世界",
-     "url": "https://www.bilibili.com/video/BV1Faad6rEe7",
-     "hot": 231215
+     "title": "【起名TV】给我孩子起叫“爆笑小朋友”是几个意思？？？",
+     "url": "https://www.bilibili.com/video/BV1DVaZ6hEEb",
+     "hot": 2379353
     },
     {
-     "title": "世界最后一位人类的真实影像",
-     "url": "https://www.bilibili.com/video/BV1QgaZ6YE8c",
-     "hot": 359688
+     "title": "【纪录片】进化 05 速度如何炼成",
+     "url": "https://www.bilibili.com/video/BV1Hgtu6vEvu",
+     "hot": 791240
     },
     {
-     "title": "《最绝望の小兵》",
-     "url": "https://www.bilibili.com/video/BV1odan6TEgR",
-     "hot": 2013974
+     "title": "壁纸电视只有创维和其他？双11创维电视全家桶实测推荐！",
+     "url": "https://www.bilibili.com/video/BV1qRYP6oEY6",
+     "hot": 74717
+    },
+    {
+     "title": "《你以为的自己vs实际上》",
+     "url": "https://www.bilibili.com/video/BV1PCaR65Eet",
+     "hot": 773596
     }
    ]
   }
@@ -818,6 +723,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "12年从蛰伏到突围 一颗芯片与Mate的求索之路",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-10-01/doc-inittkrz5186980.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "智能体、新模型、500美元套餐齐亮相，Codex全面上云，奥特曼谈AI“新文艺复兴”",
    "url": "https://finance.sina.com.cn/jjxw/2026-09-30/doc-initqeff7158900.shtml",
    "source": "新浪科技"
@@ -833,38 +743,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "余承东：Mate 90系列是中国半导体行业的时代答卷，也是中国操作系统产业的创新答卷",
-   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstui1371690.shtml",
+   "title": "华为与赛力斯达成新五年合作：共同升级问界业务，余承东张兴海出席签约",
+   "url": "https://finance.sina.com.cn/tech/2026-10-01/doc-inittkrz1126195.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "华为Mate 90系列发布：全系搭载麒麟芯片，售价5999元起",
-   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstum2125617.shtml",
+   "title": "美国联邦航空管理局针对波音757-300机型发布适航指令",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-inittekc5235849.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "余承东：搭载鸿蒙单框架终端设备数突破9000万",
-   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstum2117487.shtml",
+   "title": "汇丰：欧洲资金从法国转向英国，资金流入持续增加",
+   "url": "https://finance.sina.com.cn/world/2026-10-01/doc-initsyam6803880.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "一封很“马云”的公开信背后，中国互联网“最慢项目”坚持了十年",
-   "url": "https://finance.sina.com.cn/wm/2026-10-01/doc-initstui5345260.shtml",
+   "title": "花旗分析师：十月适宜布局存储芯片股",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-01/doc-initsyaf1296438.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "华为睿影Z10模块相机发布，余承东：华为全栈自研，超越单反镜头的能力",
-   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstum2110400.shtml",
+   "title": "自由航行，自有方向｜nova 16 Pro泡泡玛特Hirono小野联名款礼盒正式发布",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-01/doc-initsyaf5295219.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "余承东：华为Mate90首发多人互助通信共享，可将多台Mate设备网络能力聚合提升网速",
-   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstui1357802.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "余承东：华为Mate 90 Pro Max搭载麒麟9050 Pro芯片，首发四卡三待功能",
-   "url": "https://finance.sina.com.cn/tob/2026-10-01/doc-initstui5334772.shtml",
+   "title": "华为Mate 90系列及全场景新品发布会举行，多款重磅新品亮相",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-01/doc-initsyam6779713.shtml",
    "source": "新浪科技"
   }
  ]
