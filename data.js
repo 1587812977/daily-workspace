@@ -1,89 +1,125 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-02 18:38",
+ "updatedAt": "2026-10-03 01:59",
  "aihotHot": [
   {
    "rank": 1,
    "title": "谷歌发布 Gemini 4 Argon 前沿模型",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
-   "time": "10-02 17:07",
+   "time": "10-03 00:52",
    "sourceCount": 17
   },
   {
    "rank": 2,
-   "title": "Cloudflare 开源决策模型 Clef 与 Clef-flash",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/wx18gjj92zgt5rt0rtj1wy5cc",
-   "time": "10-02 17:01",
-   "sourceCount": 5
-  },
-  {
-   "rank": 3,
    "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
-   "time": "10-02 17:28",
+   "time": "10-02 22:26",
    "sourceCount": 2
+  },
+  {
+   "rank": 3,
+   "title": "Cloudflare 开源决策模型 Clef 与 Clef-flash",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/wx18gjj92zgt5rt0rtj1wy5cc",
+   "time": "10-03 00:26",
+   "sourceCount": 5
   },
   {
    "rank": 4,
    "title": "微软发布MAI-Transcribe-2-Streaming流式转写模型",
    "source": "Microsoft AI：官方博客（网页）",
    "url": "https://aihot.news/items/htdvt7tia6mwbp3pz2bdlvjb4",
-   "time": "10-02 17:20",
+   "time": "10-03 00:20",
    "sourceCount": 6
   },
   {
    "rank": 5,
-   "title": "Claude Code mods 发布与示例更新",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/qzfc4nrsqe4rk8yxlk16ox6in",
-   "time": "10-02 16:34",
+   "title": "英伟达发布64GB内存版DGX Spark",
+   "source": "NVIDIA Blog（RSS）",
+   "url": "https://aihot.news/items/epb245so8hb7m1r74gumw2dze",
+   "time": "10-03 01:17",
    "sourceCount": 2
   },
   {
    "rank": 6,
+   "title": "Tavus发布Griffin视频交互模型",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/e7763j3shkmk8j0rorefsy4gn",
+   "time": "10-03 00:31",
+   "sourceCount": 6
+  },
+  {
+   "rank": 7,
+   "title": "Claude Code mods 发布与示例更新",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/qzfc4nrsqe4rk8yxlk16ox6in",
+   "time": "10-02 22:07",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
+   "title": "OpenAI解雇3名安全研究员",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/a1s641znzieiiyaoqnm2pf4x8",
+   "time": "10-02 21:05",
+   "sourceCount": 4
+  },
+  {
+   "rank": 9,
+   "title": "arXiv 推出更严格投稿限流政策",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/u5b3wwv9ovilrlkuv0mp8xuyr",
+   "time": "10-02 22:19",
+   "sourceCount": 3
+  },
+  {
+   "rank": 10,
    "title": "赛力斯与华为回应问界专属专营模式调整",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/cmu6ikvfu04ruro0fnxn9exy4",
    "time": "10-02 12:04",
    "sourceCount": 1
-  },
-  {
-   "rank": 7,
-   "title": "OpenAI 发布常驻智能体 Dots",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/r9nae38v4x5x29jrec46olsl4",
-   "time": "10-02 16:16",
-   "sourceCount": 1
-  },
-  {
-   "rank": 8,
-   "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/ewa77zkka92qb5lqukt70bfu8",
-   "time": "10-02 14:42",
-   "sourceCount": 5
-  },
-  {
-   "rank": 9,
-   "title": "Tavus发布Griffin视频交互模型",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/e7763j3shkmk8j0rorefsy4gn",
-   "time": "10-02 12:27",
-   "sourceCount": 6
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI解雇3名安全研究员",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/nfwj6zykk26pi551k3u75cwmr",
-   "time": "10-02 14:30",
-   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词与长任务管理",
+   "summary": "OpenAI 发布 GPT-6 家族的实用指南，讲解如何按任务选择 GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 及推理档位与速度模式。",
+   "reason": "原文系统给出 GPT-6 家族的选型、缓存成本、长任务管理等可操作方法，读者可直接迁移到自己的生产工作流。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cw97qi7nc5ucehymkc1k9s6zk",
+   "time": "10-03 00:15",
+   "category": "tip"
+  },
+  {
+   "title": "Google 发布基于 TEE 的下一代联邦学习系统，Gboard 已部署",
+   "summary": "Google 宣布下一代联邦学习系统，利用可信执行环境（TEE）提供完全可验证、可审计的数据匿名化保证，访问策略发布至公共透明日志 Rekor，二进制可从开源代码可复现构建。Gboard 已部署该系统，用于英语和日语下一词预测模型，训练时间从过去的每次 1-2 个月显著缩短，并带来更强的隐私保证和更高的准确率。",
+   "reason": "原文来自 Google 官方，说明了基于 TEE 的联邦学习系统如何提供可验证的隐私保证，以及 Gboard 训练提速的实际收益。",
+   "source": "Google Research：Blog（网页）",
+   "url": "https://aihot.news/items/zfrloexd1672w3tse0utp4jgb",
+   "time": "10-03 00:15",
+   "category": "ai-products"
+  },
+  {
+   "title": "Ai2 开源 8B 科学报告生成模型 AstaBrief",
+   "summary": "Ai2 开源 AstaBrief 8B，一个基于 Qwen3-8B、将研究问题和检索文献片段转化为带引用报告的科学报告生成模型，现已在 Asta 的 Generate a report 功能中作为 Fast mode 上线，并连同训练数据开放下载。",
+   "reason": "原文给出训练数据构成、过滤方法与速度成本对比，读者可据此判断开源科学报告模型的具体做法是否可迁移。",
+   "source": "Ai2 / Allen Institute for AI（RSS）",
+   "url": "https://aihot.news/items/l7mkdees7p8apb7stdidl4p3i",
+   "time": "10-02 16:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "NVIDIA DGX Spark 推出 64GB 版本，10 月 23 日起以 $4,999 开售",
+   "summary": "NVIDIA 宣布 DGX Spark 推出 64GB 统一内存新配置，10 月 23 日起由 Acer、ASUS、Dell、Gigabyte、HP 和 MSI 发售，起步价 $4,999，支持最高 1000 亿参数模型在端侧运行。",
+   "reason": "官方公告给出64GB版的价格、上市时间和双机集群性能数据，读者可以据此评估本地AI部署的内存与成本取舍。",
+   "source": "NVIDIA Blog（RSS）",
+   "url": "https://aihot.news/items/epb245so8hb7m1r74gumw2dze",
+   "time": "10-02 21:00",
+   "category": "ai-products"
+  },
   {
    "title": "Bloomberg：Anthropic 为可能估值近 2 万亿美元的 IPO 邀请机构投资者质询高管",
    "summary": "Bloomberg 报道，Anthropic 已邀请机构投资者在其可能估值近 2 万亿美元的 IPO 前质询高管。10 月 14 日的会议之后，最早 11 月 9 日当周启动正式路演，感恩节前上市；按 SEC 规则需在 10 月下旬公布 S-1 文件。OpenAI 则相反，以安全担忧为由排除 2026 年上市，正以约 1.4 万亿美元估值私下寻求至少 300 亿美元融资。",
@@ -139,12 +175,12 @@ var WB_DATA = {
    "category": "industry"
   },
   {
-   "title": "Google 首次轨道 AI 芯片试验确认在轨运行正常",
-   "summary": "Google 确认其首个轨道 AI 芯片试验已入轨并取得联系，运行符合预期。卫星于 2026 年 10 月 1 日由 SpaceX Falcon 9 Transporter-18 从范登堡发射，搭载 4 颗 Trillium TPU（v6e），运行 Gemini 推理，每次约 15 分钟后停机让辐射器散热；散热依赖热管与红外辐射器而非风扇。",
-   "reason": "原文系统梳理了轨道 TPU 试验的负载、散热、辐射测试与扩展路线，读者可据此了解太空算力的真实瓶颈。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/fe27jbwrn6gfzym6j9q179auw",
-   "time": "10-02 08:44",
+   "title": "Google Project Suncatcher 首颗原型卫星发射入轨",
+   "summary": "Google 宣布其探索在太空托管机器学习基础设施的 Project Suncatcher 已将一颗与 Planet 合作建造的原型卫星送入轨道，搭乘 SpaceX Transporter-18 拼车任务。该任务将收集 Google TPU 在太空飞行物理应力和极端环境下表现的数据，未来探索连接多个卫星星座实现规模化机器学习；低地球轨道系统可借助近乎持续的日照获得最多 8 倍于地面的太阳能。",
+   "reason": "原文给出原型卫星、合作方和任务目的，读者可以了解 Google 太空算力设想的当前进展与验证路径。",
+   "source": "X：Google AI (@GoogleAI)",
+   "url": "https://aihot.news/items/ljyywltag6vvryw193ryz7lgd",
+   "time": "10-02 23:53",
    "category": "industry"
   },
   {
@@ -155,42 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/kaz49j9sbrf1rcugch9d2fdjm",
    "time": "10-02 06:43",
    "category": "ai-models"
-  },
-  {
-   "title": "Suno 推出 Speech beta：语音与背景音乐一体生成",
-   "summary": "Suno 推出 Speech beta，称其为首个能把语音与原创背景音乐作为一条完整曲目生成的音频模型。用户输入文字并描述想要的声音和音乐风格即可创作，beta 已向所有用户开放，官方提示仍存在口音漂移、停顿过重等问题并将持续改进。",
-   "reason": "官方介绍了 Speech 的玩法和 beta 限制，还附了官方博客链接，想试用或了解语音加音乐一体生成的可以看看。",
-   "source": "Suno：Blog（网页）",
-   "url": "https://aihot.news/items/rnjrj40fmm98d9duz9lcuk8u2",
-   "time": "10-02 04:35",
-   "category": "ai-products"
-  },
-  {
-   "title": "Epoch AI 推出 ChatGPT usage explorer，基于5000名美国用户三年聊天记录",
-   "summary": "Epoch AI 与 YouGov 合作推出 ChatGPT usage explorer，发布5000名美国 YouGov 样本用户的 ChatGPT 聊天元数据，覆盖约66万对话、830万条消息，部分记录追溯至2022年11月发布后数周。",
-   "reason": "原文基于5000名用户的真实聊天记录做独立分析，给出使用强度变化数据和样本局限说明，读者可了解其实际使用趋势。",
-   "source": "Epoch AI：研究、数据与评测",
-   "url": "https://aihot.news/items/uli2rb6y55e3p9z1rh1t8efld",
-   "time": "10-01 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成",
-   "summary": "Krea 宣布 FLUX 3 Image 已上线其平台。新能力包括多轮编辑且不改动其他像素、用 bounding box 排版图像、最高 4K 生成，以及组合最多 10 个参考图。",
-   "reason": "官方宣布 FLUX 3 Image 上线 Krea，列出了多轮编辑、4K 生成等具体能力，读者可据此评估是否替换现有图像工作流。",
-   "source": "X：Krea AI (@krea_ai)",
-   "url": "https://aihot.news/items/uveypxyk0fvw6czfi11nn6tph",
-   "time": "10-02 05:18",
-   "category": "ai-products"
-  },
-  {
-   "title": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑",
-   "summary": "Black Forest Labs 的 FLUX 3 Image 现已上线 OpenRouter，是支持文生图与多参考编辑的旗舰图像模型，原生可渲染至 4K。原文提到可精确多轮编辑不动其他像素、用 bounding box 布局、最多用 10 个参考图合成，商业权重已开放，开放权重版将在未来数周发布。",
-   "reason": "原文给出 FLUX 3 Image 的核心能力与开放权重计划，读者可据此评估是否接入工作流。",
-   "source": "X：OpenRouter (@OpenRouter)",
-   "url": "https://aihot.news/items/x1x0d5mqj4y384t9fcq4415kj",
-   "time": "10-02 04:37",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-02 18:38",
+   "updateTime": "2026-10-03 01:59",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "逻辑折叠深度解析！华为Mate 90系列韬定律芯片有多强？",
      "url": "https://www.bilibili.com/video/BV1heam6TExz",
-     "hot": 363219
+     "hot": 1117592
     },
     {
-     "title": "你离开的事实原创高至豪偶遇粉丝，于是为她演奏一曲",
-     "url": "https://www.bilibili.com/video/BV1wAYP6YEif",
-     "hot": 1370558
+     "title": "半个包子的真相",
+     "url": "https://www.bilibili.com/video/BV1kyYP6eEex",
+     "hot": 1790554
     },
     {
-     "title": "国庆节留守儿童的痛",
-     "url": "https://www.bilibili.com/video/BV1dYa669Enp",
-     "hot": 333668
+     "title": "ピノキオピー - えねみぃ feat. 初音ミク・重音テト",
+     "url": "https://www.bilibili.com/video/BV1UGa961Ejt",
+     "hot": 513254
     },
     {
      "title": "【纪录片】生命奇观2 03 川西山地",
      "url": "https://www.bilibili.com/video/BV1g9aW6TEB4",
-     "hot": 1398408
+     "hot": 1678899
     },
     {
-     "title": "24位博主为粉丝争夺30万元！",
-     "url": "https://www.bilibili.com/video/BV15far6dEjT",
-     "hot": 636000
+     "title": "假如地球online有幕后玩家",
+     "url": "https://www.bilibili.com/video/BV1Q6aB63Egh",
+     "hot": 1498376
     },
     {
-     "title": "“没有人可以回到过去 但可以现在开始”",
-     "url": "https://www.bilibili.com/video/BV1oLYP6WEKx",
-     "hot": 1443991
+     "title": "“遗憾不一定总是贯穿人生始终.”【Shadow of the sun】【不遗憾の小曲】",
+     "url": "https://www.bilibili.com/video/BV1rtaH6LExD",
+     "hot": 728613
     },
     {
-     "title": "如何在家制造棉花泡泡糖",
-     "url": "https://www.bilibili.com/video/BV1gBam6vE76",
-     "hot": 76420
+     "title": "“战争不会因为我们离得远一点就忘记这里” - 第1章—失超丨写实真人机甲原创IP《合金战役》",
+     "url": "https://www.bilibili.com/video/BV19aaB62EPu",
+     "hot": 735356
+    },
+    {
+     "title": "【宋雨琦】 ‘I Like You’ Official Music Video",
+     "url": "https://www.bilibili.com/video/BV1veaJ6YE1x",
+     "hot": 590714
+    },
+    {
+     "title": "我的东京留学生活不可能那么二次元！【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1mrao6WEKK",
+     "hot": 249079
+    },
+    {
+     "title": "【纪录片】威尔史密斯的极地纵横 01 南极探险",
+     "url": "https://www.bilibili.com/video/BV1wUao6UEyD",
+     "hot": 706276
     },
     {
      "title": "《原神》剧情PV-「燕归来」",
      "url": "https://www.bilibili.com/video/BV1cQap6UEr2",
-     "hot": 387879
+     "hot": 628168
     },
     {
-     "title": "新颜色都是第一次做、难免有点生疏 做不得不好希望大家理解也可以多给我一点意见谢谢大家啦么么哒、记得一键三连….",
-     "url": "https://www.bilibili.com/video/BV12ha86LEg8",
-     "hot": 996272
-    },
-    {
-     "title": "【独家】时光代理人 第三季 PartOne 第9集 坦白【8月国创】",
-     "url": "https://www.bilibili.com/video/BV11UaL6qEnA",
-     "hot": 1056452
-    },
-    {
-     "title": "⚡赵本山  世界巡演⚡",
-     "url": "https://www.bilibili.com/video/BV1PHay6UEaS",
-     "hot": 419044
-    },
-    {
-     "title": "章鱼哥，快乐都去哪了呢？",
-     "url": "https://www.bilibili.com/video/BV1mjad6DEK1",
-     "hot": 2644397
+     "title": "24位博主为粉丝争夺30万元！",
+     "url": "https://www.bilibili.com/video/BV15far6dEjT",
+     "hot": 1171297
     }
    ]
   }
@@ -748,6 +748,21 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "蔚来宣布单日换电总量达183469次创历史新高，已在全国累计建成换电站4160座",
+   "url": "https://finance.sina.com.cn/china/gncj/2026-10-02/doc-initvyev4473707.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "《神探之痕迹》上映首日领跑国庆档 阅文旗下新丽出品",
+   "url": "https://finance.sina.com.cn/china/gncj/2026-10-02/doc-initvyex1216768.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "iQOO16正式发布：首发2K 165Hz三星珠峰屏，国补到手价5499元起",
+   "url": "https://finance.sina.com.cn/world/gjcj/2026-10-02/doc-initvtxc5625286.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "全新领克20上市：全系标配千里浩瀚H5辅助驾驶系统与激光雷达，限时专享价11.88万元起",
    "url": "https://finance.sina.com.cn/tech/shenji/2026-10-02/doc-initviif1365786.shtml",
    "source": "新浪科技"
@@ -760,21 +775,6 @@ var WB_DATA = {
   {
    "title": "知情人士：亚马逊计划向投资者出售价值80亿美元的英伟达芯片",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initvazi1445462.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "高德地图2026正式上线，空间智能进一步融入出行全流程",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-02/doc-inituwti4747138.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "英伟达参投的Firmus计划澳洲IPO 目标估值300亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initusmr6058986.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "软银投资者暂放信用风险 评估人工智能上行潜力",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-02/doc-initusmm4765719.shtml",
    "source": "新浪科技"
   }
  ]
