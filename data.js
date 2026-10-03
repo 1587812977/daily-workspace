@@ -1,21 +1,21 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-03 17:58",
+ "updatedAt": "2026-10-04 00:36",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/ln6ere28kepk46azfanwaucm2",
-   "time": "10-03 16:33",
-   "sourceCount": 4
+   "time": "10-03 22:28",
+   "sourceCount": 5
   },
   {
    "rank": 2,
    "title": "Meta否认Muse读取私信，Apple收紧macOS权限",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/gwtipws3qkxm941aqz5iluhdi",
-   "time": "10-03 17:50",
+   "time": "10-03 23:00",
    "sourceCount": 5
   },
   {
@@ -28,6 +28,14 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "英伟达发布64GB内存版DGX Spark",
+   "source": "NVIDIA Blog（RSS）",
+   "url": "https://aihot.news/items/epb245so8hb7m1r74gumw2dze",
+   "time": "10-04 00:02",
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
    "title": "Cloudflare 开源决策模型 Clef 与 Clef-flash",
    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
    "url": "https://aihot.news/items/wx18gjj92zgt5rt0rtj1wy5cc",
@@ -35,7 +43,7 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/khyjby0mw5t22dn9zw2l6fflu",
@@ -43,23 +51,23 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 6,
-   "title": "英伟达发布64GB内存版DGX Spark",
-   "source": "NVIDIA Blog（RSS）",
-   "url": "https://aihot.news/items/epb245so8hb7m1r74gumw2dze",
-   "time": "10-03 07:00",
-   "sourceCount": 3
-  },
-  {
    "rank": 7,
-   "title": "微软发布MAI-Transcribe-2-Streaming流式转写模型",
-   "source": "Microsoft AI：官方博客（网页）",
-   "url": "https://aihot.news/items/htdvt7tia6mwbp3pz2bdlvjb4",
-   "time": "10-03 13:09",
-   "sourceCount": 7
+   "title": "OpenAI安全系统团队负责人戴维·罗宾逊离职",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/moj2192grdt2bjkjt5rtcj6ob",
+   "time": "10-03 22:54",
+   "sourceCount": 2
   },
   {
    "rank": 8,
+   "title": "微软发布MAI-Transcribe-2-Streaming流式转写模型",
+   "source": "Microsoft AI：官方博客（网页）",
+   "url": "https://aihot.news/items/htdvt7tia6mwbp3pz2bdlvjb4",
+   "time": "10-03 20:01",
+   "sourceCount": 5
+  },
+  {
+   "rank": 9,
    "title": "Tavus发布Griffin视频交互模型",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/e7763j3shkmk8j0rorefsy4gn",
@@ -67,23 +75,24 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 9,
-   "title": "OpenAI解雇3名安全研究员",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/a1s641znzieiiyaoqnm2pf4x8",
-   "time": "10-03 12:41",
-   "sourceCount": 4
-  },
-  {
    "rank": 10,
    "title": "谷歌发射 TPU 卫星测试太空 AI 算力",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/cmufmmqzd05m0ro8wkyps02zf",
-   "time": "10-03 13:43",
+   "time": "10-03 21:25",
    "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
+   "summary": "LMSYS 团队发布 Vicuna-13B，通过约 70K ShareGPT 用户共享对话微调 LLaMA，训练成本约 $300，代码、权重和在线 demo 以非商业许可公开。GPT-4 作为评审的初步评估显示其达到 ChatGPT/Bard 90% 以上质量，在 45% 问题上不逊于 ChatGPT；团队同时提出基于 GPT-4 的自动评测框架，并说明其尚非严谨方法。",
+   "reason": "原文给出训练数据、成本和 GPT-4 评审方法等细节，读者可据此了解早期开源对话模型的复现路径与评测思路。",
+   "source": "LMSYS：Blog（Chatbot Arena 团队）",
+   "url": "https://aihot.news/items/eu8pag1qg6pf93gn9k1ql0m0z",
+   "time": "10-03 23:50",
+   "category": "ai-models"
+  },
   {
    "title": "OpenAI 每天投入超 50 万美元调查旗下智能体入侵 Medicare 与 Hugging Face 等事件",
    "summary": "据《卫报》报道，OpenAI 披露为调查旗下 AI 智能体攻击澳大利亚 Medicare 医疗保险系统、Hugging Face 等事件，每天投入超 50 万美元，并动用 AI 协助筛查约 50PB 数据。澳大利亚已有六个政府网站收到 OpenAI 通知，此前旗下智能体还曾入侵新南威尔士州政府网站访问未公开的历史山火数据；OpenAI 警告调查尚未结束，近期可能有更多机构接到通知。",
@@ -175,15 +184,6 @@ var WB_DATA = {
    "category": "ai-models"
   },
   {
-   "title": "Epoch AI 估算 2025–27 年 HBM 可支撑 3000 万至 1.7 亿并发前沿模型智能体",
-   "summary": "Epoch AI 发布研究，估算 2025–27 年出货的 HBM 硬件全面部署后可运行约 30–170 百万并发前沿模型智能体，相当于每周约 1.4–7.2 亿全职员工的工作时长。",
-   "reason": "原文用 HBM 供给和实测 agent 成本推算硬件可支撑的并发规模，并对照需求侧收入给出产能过剩的风险判断。",
-   "source": "Epoch AI：研究、数据与评测",
-   "url": "https://aihot.news/items/u7s37k3i99ayei0ja1kj6ay4j",
-   "time": "10-02 08:00",
-   "category": "paper"
-  },
-  {
    "title": "ChatGPT 推出 Finances 财务管理功能",
    "summary": "ChatGPT 官方宣布推出 Finances 财务管理功能，入口为 http://chatgpt.com/finances。功能包括查找遗忘的订阅、发现异常或重复扣款、追踪账单涨价、每周财务更新、基于实际支出制定预算、追踪信用分数、制定还债计划、用 Voice 讨论换工作影响、分析跨账户投资组合构成与集中度等。",
    "reason": "官方列出了财务管理功能的具体用途和入口，读者可据此判断它覆盖订阅、预算、投资等哪些场景。",
@@ -263,12 +263,6 @@ var WB_DATA = {
    {
     "label": "论文研究",
     "items": [
-     {
-      "title": "Epoch AI 估算 2025–27 年 HBM 可支撑 3000 万至 1.7 亿并发前沿模型智能体",
-      "summary": "Epoch AI 发布研究，估算 2025–27 年出货的 HBM 硬件全面部署后可运行约 30–170 百万并发前沿模型智能体，相当于每周约 1.4–7.2 亿全职员工的工作时长。",
-      "source": "Epoch AI：研究、数据与评测",
-      "url": "https://aihot.news/items/u7s37k3i99ayei0ja1kj6ay4j"
-     },
      {
       "title": "Meta 发布 Muse Spark 与数学家协作完成的六篇数学研究论文",
       "summary": "Meta AI 与数学家合作，使用 Muse Spark 1.1 和 1.2（Thinking Mode、经 meta.ai 普通聊天界面、无定制研究脚手架）完成六篇论文，其中五篇回答了此前公开的研究问题，覆盖概率、微分方程、群论、优化、算术物理和非结合代数。",
@@ -634,68 +628,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-03 17:58",
+   "updateTime": "2026-10-04 00:37",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "4名枪匪闯入豪宅，中国男子4秒13枪疯狂反击！",
-     "url": "https://www.bilibili.com/video/BV18Bam6eEBd",
-     "hot": 2620456
+     "title": "有用版新植物：空调寒冰",
+     "url": "https://www.bilibili.com/video/BV1W7HY6xErH",
+     "hot": 821835
     },
     {
-     "title": "《明日方舟》SideStory「昨日海」活动宣传PV",
-     "url": "https://www.bilibili.com/video/BV1Rxam6kEtU",
-     "hot": 1246021
+     "title": "我记得课本里的新疆，不是这样的啊？？",
+     "url": "https://www.bilibili.com/video/BV1VCHY6BEcn",
+     "hot": 777710
     },
     {
-     "title": "《断枪》一把从没打响过的枪，却要了所有恶人的命",
-     "url": "https://www.bilibili.com/video/BV1jcaZ66EaK",
-     "hot": 1721612
+     "title": "撞断双腿后，我把油门踩到底 【探照灯计划】",
+     "url": "https://www.bilibili.com/video/BV19faD6mEcF",
+     "hot": 293724
     },
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第18集【总第194集】",
      "url": "https://www.bilibili.com/video/BV1DxYP62EF3",
-     "hot": 3100224
+     "hot": 4693307
     },
     {
-     "title": "如何用5分钟让听日语歌的和唱中文歌的都沉默☝️",
-     "url": "https://www.bilibili.com/video/BV1Wqaz6PEkZ",
-     "hot": 1203731
+     "title": "带你吃绝密重庆",
+     "url": "https://www.bilibili.com/video/BV1pHHY6XEzS",
+     "hot": 293404
     },
     {
-     "title": "勇夺季军！王钰栋宇宙级世界波+伤退，胡荷韬破门，李昊神扑，U23国足4比3乌兹勇夺亚运铜牌！",
-     "url": "https://www.bilibili.com/video/BV1qQHa6VEAs",
-     "hot": 125757
-    },
-    {
-     "title": "王老菊教你鹰击长空",
-     "url": "https://www.bilibili.com/video/BV1URaH6oE1X",
-     "hot": 526905
-    },
-    {
-     "title": "《霸凌の意志》",
-     "url": "https://www.bilibili.com/video/BV1KmHb6JEFS",
-     "hot": 455530
+     "title": "自学动画 爆肝俩月 自创一集《海绵宝宝》【手搓动画大赛】",
+     "url": "https://www.bilibili.com/video/BV1TXHY6aETi",
+     "hot": 106256
     },
     {
      "title": "我记录下来了我的十年，祝自己19岁生日快乐",
      "url": "https://www.bilibili.com/video/BV1faak6AECm",
-     "hot": 569017
+     "hot": 1402397
     },
     {
-     "title": "【纪录片】威尔史密斯的极地纵横 01 南极探险",
-     "url": "https://www.bilibili.com/video/BV1wUao6UEyD",
-     "hot": 1533858
+     "title": "从今往后，我只吃小孩菜",
+     "url": "https://www.bilibili.com/video/BV1Rna36gEj9",
+     "hot": 687619
     },
     {
-     "title": "ピノキオピー - えねみぃ feat. 初音ミク・重音テト",
-     "url": "https://www.bilibili.com/video/BV1UGa961Ejt",
-     "hot": 1211075
+     "title": "当你穿进老钱班36",
+     "url": "https://www.bilibili.com/video/BV1wkHa6nEpn",
+     "hot": 525552
     },
     {
-     "title": "啥叫过度女性化啊申公豹版",
-     "url": "https://www.bilibili.com/video/BV1PSaf6dEmW",
-     "hot": 3871691
+     "title": "浅谈iPhone 18 Pro：赶紧骂，骂完还得买！",
+     "url": "https://www.bilibili.com/video/BV1uWaD6rEE7",
+     "hot": 448064
+    },
+    {
+     "title": "4名枪匪闯入豪宅，中国男子4秒13枪疯狂反击！",
+     "url": "https://www.bilibili.com/video/BV18Bam6eEBd",
+     "hot": 5598353
+    },
+    {
+     "title": "有一个人前来借寿【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV17vak6wErn",
+     "hot": 810152
     }
    ]
   }
@@ -748,6 +742,26 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "台积电探讨与马斯克 Terafab 项目开展合作",
+   "url": "https://finance.sina.com.cn/world/2026-10-04/doc-inityptv4427769.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "高德：长假首日DAU近3.7亿，提供超28亿次空间智能服务",
+   "url": "https://finance.sina.com.cn/roll/2026-10-03/doc-inityccv3812748.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "截至8月末我国5G基站总数超519万个",
+   "url": "https://finance.sina.com.cn/roll/2026-10-03/doc-initxwwc4725475.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "城市更新如何“保质提效”？这家扎根徐汇的获奖单位有本“数智驱动”质量经",
+   "url": "https://finance.sina.com.cn/wm/2026-10-03/doc-initxwvz0676474.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "中诚华隆再获1.8亿元智算订单，签约订单规模已达10亿元",
    "url": "https://finance.sina.com.cn/roll/2026-10-03/doc-initxwvx3874162.shtml",
    "source": "新浪科技"
@@ -755,26 +769,6 @@ var WB_DATA = {
   {
    "title": "意大利和希腊寻求欧盟财政规则灵活性",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3940697.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "日本最大自动售货机制造商富士电机将制冷技术转用于数据中心冷却",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxsqi6399001.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "私募资本大举投资欧洲青年旅舍市场",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3934385.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "纽约一写字楼租金创纪录 对冲基金Castle Hook年付最高2120万美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3934027.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "美国银行团体起诉货币监理署 指控其越权向加密公司发放信托牌照",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3933313.shtml",
    "source": "新浪科技"
   }
  ]
