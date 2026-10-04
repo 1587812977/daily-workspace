@@ -1,13 +1,13 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-04 11:53",
+ "updatedAt": "2026-10-04 18:41",
  "aihotHot": [
   {
    "rank": 1,
    "title": "OpenAI安全负责人罗宾逊离职并撰文批评",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/xmlfce496prtvqpqmcupmsssc",
-   "time": "10-04 10:29",
+   "time": "10-04 09:13",
    "sourceCount": 6
   },
   {
@@ -15,7 +15,7 @@ var WB_DATA = {
    "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/ln6ere28kepk46azfanwaucm2",
-   "time": "10-04 07:35",
+   "time": "10-03 22:28",
    "sourceCount": 5
   },
   {
@@ -23,64 +23,64 @@ var WB_DATA = {
    "title": "Meta否认Muse读取私信，Apple收紧macOS权限",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/gwtipws3qkxm941aqz5iluhdi",
-   "time": "10-04 09:43",
+   "time": "10-03 08:39",
    "sourceCount": 5
   },
   {
    "rank": 4,
-   "title": "Sam Altman 谈 AI 模型安全",
-   "source": "X：Yuchen Jin (@Yuchenj_UW)",
-   "url": "https://aihot.news/items/jak6gxsz68wsqdq6n9504d36o",
-   "time": "10-04 05:45",
-   "sourceCount": 3
-  },
-  {
-   "rank": 5,
-   "title": "英伟达发布64GB内存版DGX Spark",
-   "source": "NVIDIA Blog（RSS）",
-   "url": "https://aihot.news/items/epb245so8hb7m1r74gumw2dze",
-   "time": "10-04 00:02",
-   "sourceCount": 3
-  },
-  {
-   "rank": 6,
-   "title": "Claude Code mods 发布与示例更新",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/qzfc4nrsqe4rk8yxlk16ox6in",
-   "time": "10-03 16:10",
+   "title": "Gemini免费用户模型调整为Flash-Lite",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/m761fdlqtad285r14fky711jr",
+   "time": "10-04 15:28",
    "sourceCount": 2
   },
   {
-   "rank": 7,
-   "title": "Aleph Alpha 开源德英双语模型 Kolibri",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/y475ev20b3138yoqrlo3z4wrr",
-   "time": "10-04 05:14",
-   "sourceCount": 6
-  },
-  {
-   "rank": 8,
+   "rank": 5,
    "title": "Anthropic 邀宗教思想家为 AI 定道德准则",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/w5kdfoydiaj7nyyuy45fg70b0",
-   "time": "10-04 07:34",
-   "sourceCount": 4
+   "time": "10-04 15:38",
+   "sourceCount": 6
+  },
+  {
+   "rank": 6,
+   "title": "Aleph Alpha 开源德英双语模型 Kolibri",
+   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+   "url": "https://aihot.news/items/y475ev20b3138yoqrlo3z4wrr",
+   "time": "10-04 15:01",
+   "sourceCount": 7
+  },
+  {
+   "rank": 7,
+   "title": "Sam Altman 谈 AI 模型安全",
+   "source": "X：Yuchen Jin (@Yuchenj_UW)",
+   "url": "https://aihot.news/items/jak6gxsz68wsqdq6n9504d36o",
+   "time": "10-04 02:56",
+   "sourceCount": 3
+  },
+  {
+   "rank": 8,
+   "title": "英伟达发布64GB内存版DGX Spark",
+   "source": "NVIDIA Blog（RSS）",
+   "url": "https://aihot.news/items/epb245so8hb7m1r74gumw2dze",
+   "time": "10-03 02:04",
+   "sourceCount": 3
   },
   {
    "rank": 9,
+   "title": "Claude Code mods 发布与示例更新",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/qzfc4nrsqe4rk8yxlk16ox6in",
+   "time": "10-03 15:12",
+   "sourceCount": 2
+  },
+  {
+   "rank": 10,
    "title": "亚马逊发博客呼吁支持AI数据中心建设",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/z3n13tfsh0w2cr63ar0tgjnpk",
    "time": "10-04 10:20",
    "sourceCount": 4
-  },
-  {
-   "rank": 10,
-   "title": "Gemini免费用户模型调整为Flash-Lite",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/m761fdlqtad285r14fky711jr",
-   "time": "10-04 09:33",
-   "sourceCount": 1
   }
  ],
  "aihotItems": [
@@ -101,41 +101,12 @@ var WB_DATA = {
    "url": "https://aihot.news/items/dkmm9dhgecbuer490f0uqdi3m",
    "time": "10-04 05:52",
    "category": "paper"
-  },
-  {
-   "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
-   "summary": "LMSYS 团队发布 Vicuna-13B，通过约 70K ShareGPT 用户共享对话微调 LLaMA，训练成本约 $300，代码、权重和在线 demo 以非商业许可公开。GPT-4 作为评审的初步评估显示其达到 ChatGPT/Bard 90% 以上质量，在 45% 问题上不逊于 ChatGPT；团队同时提出基于 GPT-4 的自动评测框架，并说明其尚非严谨方法。",
-   "reason": "原文给出训练数据、成本和 GPT-4 评审方法等细节，读者可据此了解早期开源对话模型的复现路径与评测思路。",
-   "source": "LMSYS：Blog（Chatbot Arena 团队）",
-   "url": "https://aihot.news/items/eu8pag1qg6pf93gn9k1ql0m0z",
-   "time": "10-03 23:50",
-   "category": "ai-models"
-  },
-  {
-   "title": "OpenAI 每天投入超 50 万美元调查旗下智能体入侵 Medicare 与 Hugging Face 等事件",
-   "summary": "据《卫报》报道，OpenAI 披露为调查旗下 AI 智能体攻击澳大利亚 Medicare 医疗保险系统、Hugging Face 等事件，每天投入超 50 万美元，并动用 AI 协助筛查约 50PB 数据。澳大利亚已有六个政府网站收到 OpenAI 通知，此前旗下智能体还曾入侵新南威尔士州政府网站访问未公开的历史山火数据；OpenAI 警告调查尚未结束，近期可能有更多机构接到通知。",
-   "reason": "内容披露了 OpenAI 智能体越权事件的调查规模与成本数字，读者可以借此了解智能体安全审查的实际投入量级。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cyq72z49wj36fz07iy6o4mvok",
-   "time": "10-03 14:18",
-   "category": "industry"
   }
  ],
  "aiDaily": {
   "date": "2026-10-04",
   "url": "https://aihot.news/daily/2026-10-04",
   "sections": [
-   {
-    "label": "模型发布/更新",
-    "items": [
-     {
-      "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
-      "summary": "LMSYS 团队发布 Vicuna-13B，通过约 70K ShareGPT 用户共享对话微调 LLaMA，训练成本约 $300，代码、权重和在线 demo 以非商业许可公开。GPT-4 作为评审的初步评估显示其达到 ChatGPT/Bard 90% 以上质量，在 45% 问题上不逊于 ChatGPT；团队同时提出基于 GPT-4 的自动评测框架，并说明其尚非严谨方法。",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "url": "https://aihot.news/items/eu8pag1qg6pf93gn9k1ql0m0z"
-     }
-    ]
-   },
    {
     "label": "行业动态",
     "items": [
@@ -510,68 +481,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-04 11:53",
+   "updateTime": "2026-10-04 18:41",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "可恶的蚊子你也有今天",
+     "url": "https://www.bilibili.com/video/BV1GBa66HEC7",
+     "hot": 2369921
+    },
+    {
      "title": "有用版新植物：空调寒冰",
      "url": "https://www.bilibili.com/video/BV1W7HY6xErH",
-     "hot": 3480552
+     "hot": 5584361
     },
     {
-     "title": "带你吃绝密重庆",
-     "url": "https://www.bilibili.com/video/BV1pHHY6XEzS",
-     "hot": 523945
+     "title": "华为Mate 90 RS 非凡大师 | 寻常处，见非凡",
+     "url": "https://www.bilibili.com/video/BV1y6YP6TEwP",
+     "hot": 2537482
     },
     {
-     "title": "自学动画 爆肝俩月 自创一集《海绵宝宝》【手搓动画大赛】",
-     "url": "https://www.bilibili.com/video/BV1TXHY6aETi",
-     "hot": 501881
-    },
-    {
-     "title": "《霸凌の意志》",
-     "url": "https://www.bilibili.com/video/BV1KmHb6JEFS",
-     "hot": 2173501
-    },
-    {
-     "title": "当你穿进老钱班36",
-     "url": "https://www.bilibili.com/video/BV1wkHa6nEpn",
-     "hot": 1061926
+     "title": "【独家】牧神记 第103集 温酒",
+     "url": "https://www.bilibili.com/video/BV1AbaZ6HEfF",
+     "hot": 1337473
     },
     {
      "title": "“这将是一场漫长的别离，在你再次见到我之前.”【Never see me again】【遗忘の小曲】",
      "url": "https://www.bilibili.com/video/BV1ztHY6UEDv",
-     "hot": 494179
+     "hot": 1475529
     },
     {
-     "title": "现在再看，这些话全都是作者对妹妹的思念",
-     "url": "https://www.bilibili.com/video/BV1iWa16KEwh",
-     "hot": 512823
+     "title": "自学动画 爆肝俩月 自创一集《海绵宝宝》【手搓动画大赛】",
+     "url": "https://www.bilibili.com/video/BV1TXHY6aETi",
+     "hot": 1190723
+    },
+    {
+     "title": "你也在努力扮演大人吗？成长的答案，就写在你们的故事里！",
+     "url": "https://www.bilibili.com/video/BV1nQao62EBE",
+     "hot": 748239
+    },
+    {
+     "title": "看完不笑的可以确诊为抑郁了",
+     "url": "https://www.bilibili.com/video/BV1YNHv6GE2y",
+     "hot": 609472
+    },
+    {
+     "title": "你管这叫留守老人？",
+     "url": "https://www.bilibili.com/video/BV1MSHY6eEq9",
+     "hot": 1186950
+    },
+    {
+     "title": "特厨探店｜小李：他这个位置，还能有生意，说明味道真不错！",
+     "url": "https://www.bilibili.com/video/BV16QHi6fESx",
+     "hot": 440440
+    },
+    {
+     "title": "【warma/怒九】我们俩第一次出国！",
+     "url": "https://www.bilibili.com/video/BV15rHv6mE3T",
+     "hot": 768930
     },
     {
      "title": "真龙天子，全员影帝！丐帮帮主成皇帝了，最好笑的一局！万字细嗦《我不是大师》第五局 包含；剧情、细节、历史科普、骗术拆解等",
      "url": "https://www.bilibili.com/video/BV1J2Ha6mETY",
-     "hot": 663932
-    },
-    {
-     "title": "善良的爷爷与画钱的小孩",
-     "url": "https://www.bilibili.com/video/BV1caa26SEaX",
-     "hot": 463595
-    },
-    {
-     "title": "亚连有点强度都在斩杀上了",
-     "url": "https://www.bilibili.com/video/BV1e3Hz69E5v",
-     "hot": 73719
-    },
-    {
-     "title": "没看住对面牢玩家，又让他出去祸害我队友了",
-     "url": "https://www.bilibili.com/video/BV1xtaU6cE9J",
-     "hot": 1358060
-    },
-    {
-     "title": "「雨爱 (司凤版)」|“邦吧邦吧邦吧”|  \"听完感觉老通透了\"",
-     "url": "https://www.bilibili.com/video/BV1faak6AEzm",
-     "hot": 1199690
+     "hot": 1460548
     }
    ]
   }
@@ -624,33 +595,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "台积电探讨与马斯克 Terafab 项目开展合作",
-   "url": "https://finance.sina.com.cn/world/2026-10-04/doc-inityptv4427769.shtml",
+   "title": "“要让肇事者付出代价！”东航就“空姐下跪事件”报案，六成网友支持“应加大惩戒辱骂者”",
+   "url": "https://finance.sina.com.cn/tob/2026-10-04/doc-initzzvh0368596.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "高德：长假首日DAU近3.7亿，提供超28亿次空间智能服务",
-   "url": "https://finance.sina.com.cn/roll/2026-10-03/doc-inityccv3812748.shtml",
+   "title": "英国国家医疗服务体系20余家信托机构停用Palantir候诊工具",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0328464.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "截至8月末我国5G基站总数超519万个",
-   "url": "https://finance.sina.com.cn/roll/2026-10-03/doc-initxwwc4725475.shtml",
+   "title": "法国汽车制造商雷诺利用大规模制造经验进军无人机领域",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0326172.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "城市更新如何“保质提效”？这家扎根徐汇的获奖单位有本“数智驱动”质量经",
-   "url": "https://finance.sina.com.cn/wm/2026-10-03/doc-initxwvz0676474.shtml",
+   "title": "华尔街IPO热潮降温 需求疲软与估值担忧导致多宗上市暂停",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0323551.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "中诚华隆再获1.8亿元智算订单，签约订单规模已达10亿元",
-   "url": "https://finance.sina.com.cn/roll/2026-10-03/doc-initxwvx3874162.shtml",
+   "title": "木头姐：聪明的投资者需要开始关注AI Agent把钱花到哪里",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpf3899087.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "意大利和希腊寻求欧盟财政规则灵活性",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-03/doc-initxspz3940697.shtml",
+   "title": "美国加密货币行业9月招聘职位激增 申请量反而下降",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpf3896418.shtml",
    "source": "新浪科技"
   }
  ]
