@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-04 18:41",
+ "updatedAt": "2026-10-05 00:56",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,6 +12,14 @@ var WB_DATA = {
   },
   {
    "rank": 2,
+   "title": "特朗普组建AI部队并敲定AI沙皇人选",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmu9lxijt04a1ro9b80vlc4th",
+   "time": "10-04 23:15",
+   "sourceCount": 2
+  },
+  {
+   "rank": 3,
    "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/ln6ere28kepk46azfanwaucm2",
@@ -19,20 +27,12 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 3,
-   "title": "Meta否认Muse读取私信，Apple收紧macOS权限",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/gwtipws3qkxm941aqz5iluhdi",
-   "time": "10-03 08:39",
-   "sourceCount": 5
-  },
-  {
    "rank": 4,
-   "title": "Gemini免费用户模型调整为Flash-Lite",
+   "title": "马斯克确认SpaceXAI将更名为SpaceXSI",
    "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/m761fdlqtad285r14fky711jr",
-   "time": "10-04 15:28",
-   "sourceCount": 2
+   "url": "https://aihot.news/items/j45voriw6fcykynqwt5gwbtmm",
+   "time": "10-04 18:04",
+   "sourceCount": 1
   },
   {
    "rank": 5,
@@ -40,10 +40,26 @@ var WB_DATA = {
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/w5kdfoydiaj7nyyuy45fg70b0",
    "time": "10-04 15:38",
-   "sourceCount": 6
+   "sourceCount": 5
   },
   {
    "rank": 6,
+   "title": "Meta否认Muse读取私信，Apple收紧macOS权限",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/gwtipws3qkxm941aqz5iluhdi",
+   "time": "10-03 08:39",
+   "sourceCount": 5
+  },
+  {
+   "rank": 7,
+   "title": "Gemini免费用户模型调整为Flash-Lite",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/m761fdlqtad285r14fky711jr",
+   "time": "10-04 15:28",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
    "title": "Aleph Alpha 开源德英双语模型 Kolibri",
    "source": "Hacker News 热门（buzzing.cc 中文翻译）",
    "url": "https://aihot.news/items/y475ev20b3138yoqrlo3z4wrr",
@@ -51,7 +67,7 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 7,
+   "rank": 9,
    "title": "Sam Altman 谈 AI 模型安全",
    "source": "X：Yuchen Jin (@Yuchenj_UW)",
    "url": "https://aihot.news/items/jak6gxsz68wsqdq6n9504d36o",
@@ -59,28 +75,12 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 8,
-   "title": "英伟达发布64GB内存版DGX Spark",
-   "source": "NVIDIA Blog（RSS）",
-   "url": "https://aihot.news/items/epb245so8hb7m1r74gumw2dze",
-   "time": "10-03 02:04",
-   "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "Claude Code mods 发布与示例更新",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/qzfc4nrsqe4rk8yxlk16ox6in",
-   "time": "10-03 15:12",
-   "sourceCount": 2
-  },
-  {
    "rank": 10,
-   "title": "亚马逊发博客呼吁支持AI数据中心建设",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/z3n13tfsh0w2cr63ar0tgjnpk",
-   "time": "10-04 10:20",
-   "sourceCount": 4
+   "title": "Yuchen Jin 称终端时代已终结",
+   "source": "X：Yuchen Jin (@Yuchenj_UW)",
+   "url": "https://aihot.news/items/nj7vtq0wdadqu63nrcpefqkb3",
+   "time": "10-04 22:23",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
@@ -481,68 +481,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-04 18:41",
+   "updateTime": "2026-10-05 00:56",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "可恶的蚊子你也有今天",
-     "url": "https://www.bilibili.com/video/BV1GBa66HEC7",
-     "hot": 2369921
+     "title": "Mili - Rendezvous（密会）【边狱巴士】",
+     "url": "https://www.bilibili.com/video/BV1yRH66VEHm",
+     "hot": 307910
     },
     {
-     "title": "有用版新植物：空调寒冰",
-     "url": "https://www.bilibili.com/video/BV1W7HY6xErH",
-     "hot": 5584361
-    },
-    {
-     "title": "华为Mate 90 RS 非凡大师 | 寻常处，见非凡",
-     "url": "https://www.bilibili.com/video/BV1y6YP6TEwP",
-     "hot": 2537482
-    },
-    {
-     "title": "【独家】牧神记 第103集 温酒",
-     "url": "https://www.bilibili.com/video/BV1AbaZ6HEfF",
-     "hot": 1337473
+     "title": "《依旧忆苦思甜》",
+     "url": "https://www.bilibili.com/video/BV1mEad6JEs8",
+     "hot": 1030736
     },
     {
      "title": "“这将是一场漫长的别离，在你再次见到我之前.”【Never see me again】【遗忘の小曲】",
      "url": "https://www.bilibili.com/video/BV1ztHY6UEDv",
-     "hot": 1475529
+     "hot": 2984338
+    },
+    {
+     "title": "【独家】牧神记 第103集 温酒",
+     "url": "https://www.bilibili.com/video/BV1AbaZ6HEfF",
+     "hot": 1928922
     },
     {
      "title": "自学动画 爆肝俩月 自创一集《海绵宝宝》【手搓动画大赛】",
      "url": "https://www.bilibili.com/video/BV1TXHY6aETi",
-     "hot": 1190723
+     "hot": 1685854
     },
     {
-     "title": "你也在努力扮演大人吗？成长的答案，就写在你们的故事里！",
-     "url": "https://www.bilibili.com/video/BV1nQao62EBE",
-     "hot": 748239
+     "title": "好歌",
+     "url": "https://www.bilibili.com/video/BV1gLHj6XEyy",
+     "hot": 444694
+    },
+    {
+     "title": "【春物语】我的婚后生活果然有问题 第1话：于是，结婚半年的两人还没叫过对方的名字。",
+     "url": "https://www.bilibili.com/video/BV14sHj62EzS",
+     "hot": 173386
     },
     {
      "title": "看完不笑的可以确诊为抑郁了",
      "url": "https://www.bilibili.com/video/BV1YNHv6GE2y",
-     "hot": 609472
+     "hot": 1132785
     },
     {
-     "title": "你管这叫留守老人？",
-     "url": "https://www.bilibili.com/video/BV1MSHY6eEq9",
-     "hot": 1186950
+     "title": "Re:佩恩从零开始的异世界生活！！！【水门篇 下 】",
+     "url": "https://www.bilibili.com/video/BV126Hi6TEAg",
+     "hot": 671334
     },
     {
-     "title": "特厨探店｜小李：他这个位置，还能有生意，说明味道真不错！",
-     "url": "https://www.bilibili.com/video/BV16QHi6fESx",
-     "hot": 440440
+     "title": "善良的爷爷与画钱的小孩",
+     "url": "https://www.bilibili.com/video/BV1caa26SEaX",
+     "hot": 1191519
     },
     {
-     "title": "【warma/怒九】我们俩第一次出国！",
-     "url": "https://www.bilibili.com/video/BV15rHv6mE3T",
-     "hot": 768930
+     "title": "用鳃呼吸吧沃雅妮莎！",
+     "url": "https://www.bilibili.com/video/BV1c6Hr6CEmk",
+     "hot": 263042
     },
     {
-     "title": "真龙天子，全员影帝！丐帮帮主成皇帝了，最好笑的一局！万字细嗦《我不是大师》第五局 包含；剧情、细节、历史科普、骗术拆解等",
-     "url": "https://www.bilibili.com/video/BV1J2Ha6mETY",
-     "hot": 1460548
+     "title": "奥黛塔，快跟沃来比赛吧！",
+     "url": "https://www.bilibili.com/video/BV1U4Hr6HEqw",
+     "hot": 176036
     }
    ]
   }
@@ -595,6 +595,16 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "苹果新任CEO特努斯上任即亲掌设计，10月密集推新品对冲服务业务放缓",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-iniuassy0134334.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "余承东回应误发“余总转发文案”：没想到工作备注比正文还抢镜",
+   "url": "https://finance.sina.com.cn/tech/2026-10-04/doc-iniuanma0247722.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "“要让肇事者付出代价！”东航就“空姐下跪事件”报案，六成网友支持“应加大惩戒辱骂者”",
    "url": "https://finance.sina.com.cn/tob/2026-10-04/doc-initzzvh0368596.shtml",
    "source": "新浪科技"
@@ -612,16 +622,6 @@ var WB_DATA = {
   {
    "title": "华尔街IPO热潮降温 需求疲软与估值担忧导致多宗上市暂停",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0323551.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "木头姐：聪明的投资者需要开始关注AI Agent把钱花到哪里",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpf3899087.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "美国加密货币行业9月招聘职位激增 申请量反而下降",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzvpf3896418.shtml",
    "source": "新浪科技"
   }
  ]
