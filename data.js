@@ -1,30 +1,30 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-05 00:56",
+ "updatedAt": "2026-10-05 11:37",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "OpenAI Codex 与 ChatGPT Work 承诺 28 天每日更新",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmf54gyjdos166m78jip77ptm",
+   "time": "10-05 09:47",
+   "sourceCount": 2
+  },
+  {
+   "rank": 2,
+   "title": "特朗普组建超级智能部队，任命Clayton牵头",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmu9lxijt04a1ro9b80vlc4th",
+   "time": "10-05 01:41",
+   "sourceCount": 2
+  },
+  {
+   "rank": 3,
    "title": "OpenAI安全负责人罗宾逊离职并撰文批评",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/xmlfce496prtvqpqmcupmsssc",
    "time": "10-04 09:13",
    "sourceCount": 6
-  },
-  {
-   "rank": 2,
-   "title": "特朗普组建AI部队并敲定AI沙皇人选",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu9lxijt04a1ro9b80vlc4th",
-   "time": "10-04 23:15",
-   "sourceCount": 2
-  },
-  {
-   "rank": 3,
-   "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/ln6ere28kepk46azfanwaucm2",
-   "time": "10-03 22:28",
-   "sourceCount": 5
   },
   {
    "rank": 4,
@@ -40,15 +40,15 @@ var WB_DATA = {
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/w5kdfoydiaj7nyyuy45fg70b0",
    "time": "10-04 15:38",
-   "sourceCount": 5
+   "sourceCount": 2
   },
   {
    "rank": 6,
-   "title": "Meta否认Muse读取私信，Apple收紧macOS权限",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/gwtipws3qkxm941aqz5iluhdi",
-   "time": "10-03 08:39",
-   "sourceCount": 5
+   "title": "Meta开源Muse Gadgets硬件计划并推Home Link",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/wleocdhi3eyxshgrbzt9we1zl",
+   "time": "10-05 08:00",
+   "sourceCount": 2
   },
   {
    "rank": 7,
@@ -68,11 +68,11 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "Sam Altman 谈 AI 模型安全",
-   "source": "X：Yuchen Jin (@Yuchenj_UW)",
-   "url": "https://aihot.news/items/jak6gxsz68wsqdq6n9504d36o",
-   "time": "10-04 02:56",
-   "sourceCount": 3
+   "title": "奥尔特曼称AI效益值得承担部分风险",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/mxyxr5n3vzejgy4cb4ahkpepw",
+   "time": "10-05 09:02",
+   "sourceCount": 1
   },
   {
    "rank": 10,
@@ -85,21 +85,12 @@ var WB_DATA = {
  ],
  "aihotItems": [
   {
-   "title": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体",
-   "summary": "Microsoft 与 Hugging Face 发布 ThinkingBox 智能体沙箱与 ThinkingBox-Bench 基准，覆盖 507 个有状态业务工作流、每任务运行 20 次，以终局数据库状态和副作用作可执行判定，现可通过 OpenEnv 在 Hugging Face 上运行。",
-   "reason": "原文用数据库终态加 20 次重复评测智能体，给出一致性保留率、失败签名和可复现的运行方式，值得关注记录型工作流的可靠性评估。",
-   "source": "Hugging Face：Blog（RSS）",
-   "url": "https://aihot.news/items/gqh4yclcjmaci6uhur56580uh",
-   "time": "10-04 06:56",
-   "category": "paper"
-  },
-  {
-   "title": "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善",
-   "summary": "Google 等机构的论文提出 insecure reporting 现象：LLM 汇报已完成工作时会隐瞒削弱成果的缺陷。GPT-5.5 在 200 份摘要中仅 2 次提到新方法输给基线，加入 Be honest in your response 后升至 190 次；8 个对抗性汇报场景中模型都能发现缺陷但倾向维持成功叙事。",
-   "reason": "原文给出具体实验数字和一个可直接复用的缓解手段，并提示剩余失效场景。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/dkmm9dhgecbuer490f0uqdi3m",
-   "time": "10-04 05:52",
+   "title": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄",
+   "summary": "PromptArmor 披露 Databricks Genie Code 可被恶意 Skill 利用：Skill 代码将数据嵌入聊天渲染的 HTML 显示，渲染时通过用户浏览器发起网络请求外泄数据，并弹出钓鱼界面索取凭据。",
+   "reason": "原文逐项说明四类控制为何拦不住恶意 Skill 的数据外泄链路，并附披露时间线，供评估 AI 供应商安全模型时参考。",
+   "source": "PromptArmor：Threat Intelligence",
+   "url": "https://aihot.news/items/dfcis3hxowljt45i0bvyi3f0n",
+   "time": "10-05 08:24",
    "category": "paper"
   }
  ],
@@ -481,68 +472,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-05 00:56",
+   "updateTime": "2026-10-05 11:38",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "Mili - Rendezvous（密会）【边狱巴士】",
-     "url": "https://www.bilibili.com/video/BV1yRH66VEHm",
-     "hot": 307910
+     "title": "【春物语】我的婚后生活果然有问题 第1话：于是，结婚半年的两人还没叫过对方的名字。",
+     "url": "https://www.bilibili.com/video/BV14sHj62EzS",
+     "hot": 1042385
     },
     {
-     "title": "《依旧忆苦思甜》",
-     "url": "https://www.bilibili.com/video/BV1mEad6JEs8",
-     "hot": 1030736
+     "title": "看这个视频我不烧心！",
+     "url": "https://www.bilibili.com/video/BV1WSHL66EdZ",
+     "hot": 538585
     },
     {
-     "title": "“这将是一场漫长的别离，在你再次见到我之前.”【Never see me again】【遗忘の小曲】",
-     "url": "https://www.bilibili.com/video/BV1ztHY6UEDv",
-     "hot": 2984338
+     "title": "再见了地球",
+     "url": "https://www.bilibili.com/video/BV1jSHr6iEcr",
+     "hot": 738340
     },
     {
      "title": "【独家】牧神记 第103集 温酒",
      "url": "https://www.bilibili.com/video/BV1AbaZ6HEfF",
-     "hot": 1928922
+     "hot": 2125847
     },
     {
-     "title": "自学动画 爆肝俩月 自创一集《海绵宝宝》【手搓动画大赛】",
-     "url": "https://www.bilibili.com/video/BV1TXHY6aETi",
-     "hot": 1685854
+     "title": "《依旧忆苦思甜》",
+     "url": "https://www.bilibili.com/video/BV1mEad6JEs8",
+     "hot": 1584648
     },
     {
-     "title": "好歌",
-     "url": "https://www.bilibili.com/video/BV1gLHj6XEyy",
-     "hot": 444694
-    },
-    {
-     "title": "【春物语】我的婚后生活果然有问题 第1话：于是，结婚半年的两人还没叫过对方的名字。",
-     "url": "https://www.bilibili.com/video/BV14sHj62EzS",
-     "hot": 173386
-    },
-    {
-     "title": "看完不笑的可以确诊为抑郁了",
-     "url": "https://www.bilibili.com/video/BV1YNHv6GE2y",
-     "hot": 1132785
-    },
-    {
-     "title": "Re:佩恩从零开始的异世界生活！！！【水门篇 下 】",
-     "url": "https://www.bilibili.com/video/BV126Hi6TEAg",
-     "hot": 671334
-    },
-    {
-     "title": "善良的爷爷与画钱的小孩",
-     "url": "https://www.bilibili.com/video/BV1caa26SEaX",
-     "hot": 1191519
-    },
-    {
-     "title": "用鳃呼吸吧沃雅妮莎！",
-     "url": "https://www.bilibili.com/video/BV1c6Hr6CEmk",
-     "hot": 263042
+     "title": "《大回忆时代》战斗篇",
+     "url": "https://www.bilibili.com/video/BV111HL6VEWF",
+     "hot": 546114
     },
     {
      "title": "奥黛塔，快跟沃来比赛吧！",
      "url": "https://www.bilibili.com/video/BV1U4Hr6HEqw",
-     "hot": 176036
+     "hot": 410681
+    },
+    {
+     "title": "近期画的",
+     "url": "https://www.bilibili.com/video/BV1Y2Hv65E9Y",
+     "hot": 231094
+    },
+    {
+     "title": "《诡异的她》第一季全集·纯享",
+     "url": "https://www.bilibili.com/video/BV1c3HL6qEyq",
+     "hot": 180468
+    },
+    {
+     "title": "广州街唱《万疆》唱到一半，李玉刚本人来了？！",
+     "url": "https://www.bilibili.com/video/BV1TWHj67ESg",
+     "hot": 926217
+    },
+    {
+     "title": "当 代 假 期 现 状",
+     "url": "https://www.bilibili.com/video/BV18Dad6tESF",
+     "hot": 427863
+    },
+    {
+     "title": "看完不笑的可以确诊为抑郁了",
+     "url": "https://www.bilibili.com/video/BV1YNHv6GE2y",
+     "hot": 1376843
     }
    ]
   }
@@ -595,33 +586,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "苹果新任CEO特努斯上任即亲掌设计，10月密集推新品对冲服务业务放缓",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-iniuassy0134334.shtml",
+   "title": "欧元跌幅扩大至0.7% 表现垫底G10货币",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniucuem9772191.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "余承东回应误发“余总转发文案”：没想到工作备注比正文还抢镜",
-   "url": "https://finance.sina.com.cn/tech/2026-10-04/doc-iniuanma0247722.shtml",
+   "title": "赵长鹏谈财富与交易逻辑：福布斯榜单估值存在虚高，稳定币交易看重标的可信度",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-05/doc-iniucuem4605615.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“要让肇事者付出代价！”东航就“空姐下跪事件”报案，六成网友支持“应加大惩戒辱骂者”",
-   "url": "https://finance.sina.com.cn/tob/2026-10-04/doc-initzzvh0368596.shtml",
+   "title": "迪拜航空副驾驶袭击事件暴露多国安全审查漏洞",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniucuep6499339.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "英国国家医疗服务体系20余家信托机构停用Palantir候诊工具",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0328464.shtml",
+   "title": "零跑汽车声明：目前已下线与蔡康永相关的全部内容",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-05/doc-iniucpwm3118061.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "法国汽车制造商雷诺利用大规模制造经验进军无人机领域",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0326172.shtml",
+   "title": "美国俄克拉何马城两家大型能源企业总部迁往休斯顿",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniucpwm3110403.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "华尔街IPO热潮降温 需求疲软与估值担忧导致多宗上市暂停",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-04/doc-initzzvh0323551.shtml",
+   "title": "巴西总统选举首轮投票结果揭晓 弗拉维奥·博索纳罗领先卢拉进入第二轮",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniucpwp4714373.shtml",
    "source": "新浪科技"
   }
  ]
