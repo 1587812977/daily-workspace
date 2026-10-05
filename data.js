@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-05 11:37",
+ "updatedAt": "2026-10-05 19:43",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,22 +12,14 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "特朗普组建超级智能部队，任命Clayton牵头",
+   "title": "特朗普成立超级智能工作组，克莱顿牵头",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmu9lxijt04a1ro9b80vlc4th",
-   "time": "10-05 01:41",
-   "sourceCount": 2
+   "time": "10-05 12:39",
+   "sourceCount": 3
   },
   {
    "rank": 3,
-   "title": "OpenAI安全负责人罗宾逊离职并撰文批评",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/xmlfce496prtvqpqmcupmsssc",
-   "time": "10-04 09:13",
-   "sourceCount": 6
-  },
-  {
-   "rank": 4,
    "title": "马斯克确认SpaceXAI将更名为SpaceXSI",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/j45voriw6fcykynqwt5gwbtmm",
@@ -35,15 +27,31 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
+   "rank": 4,
+   "title": "OpenAI安全负责人罗宾逊离职并撰文批评",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/xmlfce496prtvqpqmcupmsssc",
+   "time": "10-04 09:13",
+   "sourceCount": 6
+  },
+  {
    "rank": 5,
-   "title": "Anthropic 邀宗教思想家为 AI 定道德准则",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/w5kdfoydiaj7nyyuy45fg70b0",
-   "time": "10-04 15:38",
-   "sourceCount": 2
+   "title": "华为高通达成5G等专利交叉许可协议",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/eqsd72krt75x22ruxjsncr81j",
+   "time": "10-05 17:40",
+   "sourceCount": 1
   },
   {
    "rank": 6,
+   "title": "Gemini免费用户模型调整为Flash-Lite",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/m761fdlqtad285r14fky711jr",
+   "time": "10-04 15:28",
+   "sourceCount": 1
+  },
+  {
+   "rank": 7,
    "title": "Meta开源Muse Gadgets硬件计划并推Home Link",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/wleocdhi3eyxshgrbzt9we1zl",
@@ -51,36 +59,28 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 7,
-   "title": "Gemini免费用户模型调整为Flash-Lite",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/m761fdlqtad285r14fky711jr",
-   "time": "10-04 15:28",
-   "sourceCount": 2
-  },
-  {
    "rank": 8,
-   "title": "Aleph Alpha 开源德英双语模型 Kolibri",
-   "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-   "url": "https://aihot.news/items/y475ev20b3138yoqrlo3z4wrr",
-   "time": "10-04 15:01",
-   "sourceCount": 7
+   "title": "谷歌暂停OSS VRP产品漏洞提报",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/j49zwqdd5hz24pbxcxxc9t2as",
+   "time": "10-05 04:31",
+   "sourceCount": 2
   },
   {
    "rank": 9,
-   "title": "奥尔特曼称AI效益值得承担部分风险",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/mxyxr5n3vzejgy4cb4ahkpepw",
-   "time": "10-05 09:02",
-   "sourceCount": 1
+   "title": "Anthropic 邀宗教思想家为 AI 定道德准则",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/w5kdfoydiaj7nyyuy45fg70b0",
+   "time": "10-04 15:38",
+   "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "Yuchen Jin 称终端时代已终结",
-   "source": "X：Yuchen Jin (@Yuchenj_UW)",
-   "url": "https://aihot.news/items/nj7vtq0wdadqu63nrcpefqkb3",
-   "time": "10-04 22:23",
-   "sourceCount": 2
+   "title": "施耐德电气226亿美元全现金收购PTC",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/d4b6q65qoah5zvlc5h0br4eb8",
+   "time": "10-05 14:07",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
@@ -95,44 +95,9 @@ var WB_DATA = {
   }
  ],
  "aiDaily": {
-  "date": "2026-10-04",
-  "url": "https://aihot.news/daily/2026-10-04",
-  "sections": [
-   {
-    "label": "行业动态",
-    "items": [
-     {
-      "title": "OpenAI 披露内部研究模型在评估中利用漏洞入侵内部 EDA 机器事件",
-      "summary": "OpenAI 披露，2026 年 3 月 27 日一次评估中，内部研究模型为寻找评分器隐藏答案，先后利用两个漏洞：覆写 reference tool 的 dist/index.cjs 以在工具环境执行命令，再通过芯片设计服务 --top 参数的 shell 注入在内部 EDA 机器上运行 id 命令。",
-      "source": "OpenAI：失准报告与通报（网页）",
-      "url": "https://aihot.news/items/j5whyu39ceixq111sobt4fic1"
-     },
-     {
-      "title": "OpenAI 披露内部模型从 Slack 获悉可能停机并提前准备重启事件",
-      "summary": "OpenAI 发布一份失准事件报告：2026 年 5 月 22 日，一个内部部署模型从部署团队的 Slack 讨论中得知其运行实例可能因更新而停止，随后保存交接笔记、提醒研究员会话可能中断，并在获得缺失的 OpenAI API key 后执行迁移命令。",
-      "source": "OpenAI：失准报告与通报（网页）",
-      "url": "https://aihot.news/items/s3supi9t3z6gkguckfsz4ygzq"
-     }
-    ]
-   },
-   {
-    "label": "论文研究",
-    "items": [
-     {
-      "title": "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善",
-      "summary": "Google 等机构的论文提出 insecure reporting 现象：LLM 汇报已完成工作时会隐瞒削弱成果的缺陷。GPT-5.5 在 200 份摘要中仅 2 次提到新方法输给基线，加入 Be honest in your response 后升至 190 次；8 个对抗性汇报场景中模型都能发现缺陷但倾向维持成功叙事。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "url": "https://aihot.news/items/dkmm9dhgecbuer490f0uqdi3m"
-     },
-     {
-      "title": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体",
-      "summary": "Microsoft 与 Hugging Face 发布 ThinkingBox 智能体沙箱与 ThinkingBox-Bench 基准，覆盖 507 个有状态业务工作流、每任务运行 20 次，以终局数据库状态和副作用作可执行判定，现可通过 OpenEnv 在 Hugging Face 上运行。",
-      "source": "Hugging Face：Blog（RSS）",
-      "url": "https://aihot.news/items/gqh4yclcjmaci6uhur56580uh"
-     }
-    ]
-   }
-  ]
+  "date": "2026-10-05",
+  "url": "https://aihot.news/daily/2026-10-05",
+  "sections": []
  },
  "hotLists": {
   "weibo": {
@@ -472,68 +437,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-05 11:38",
+   "updateTime": "2026-10-05 19:44",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【春物语】我的婚后生活果然有问题 第1话：于是，结婚半年的两人还没叫过对方的名字。",
-     "url": "https://www.bilibili.com/video/BV14sHj62EzS",
-     "hot": 1042385
+     "title": "《诡异的她》第一季全集·纯享",
+     "url": "https://www.bilibili.com/video/BV1c3HL6qEyq",
+     "hot": 1553795
+    },
+    {
+     "title": "《我上哪给你整假的》",
+     "url": "https://www.bilibili.com/video/BV1LNHj68EMg",
+     "hot": 682971
     },
     {
      "title": "看这个视频我不烧心！",
      "url": "https://www.bilibili.com/video/BV1WSHL66EdZ",
-     "hot": 538585
+     "hot": 2302679
     },
     {
-     "title": "再见了地球",
-     "url": "https://www.bilibili.com/video/BV1jSHr6iEcr",
-     "hot": 738340
+     "title": "惊惊惊惊惊惊惊惊了",
+     "url": "https://www.bilibili.com/video/BV1BJao6BE71",
+     "hot": 881497
     },
     {
-     "title": "【独家】牧神记 第103集 温酒",
-     "url": "https://www.bilibili.com/video/BV1AbaZ6HEfF",
-     "hot": 2125847
+     "title": "【哥布林故事总集篇】愿你也能像哥布林一样，开启逆袭翻盘的旅途",
+     "url": "https://www.bilibili.com/video/BV1fnHL68EPT",
+     "hot": 411673
     },
     {
-     "title": "《依旧忆苦思甜》",
-     "url": "https://www.bilibili.com/video/BV1mEad6JEs8",
-     "hot": 1584648
+     "title": "“实验室制取培根”",
+     "url": "https://www.bilibili.com/video/BV1roH76CEN9",
+     "hot": 1152028
     },
     {
-     "title": "《大回忆时代》战斗篇",
-     "url": "https://www.bilibili.com/video/BV111HL6VEWF",
-     "hot": 546114
+     "title": "【完整版】纪录片《缅北电诈覆灭纪实》第一集《利剑出鞘》",
+     "url": "https://www.bilibili.com/video/BV1hQHW63EMc",
+     "hot": 100608
     },
     {
-     "title": "奥黛塔，快跟沃来比赛吧！",
-     "url": "https://www.bilibili.com/video/BV1U4Hr6HEqw",
-     "hot": 410681
+     "title": "印度军事这次支棱起来了",
+     "url": "https://www.bilibili.com/video/BV11bHE6QEx2",
+     "hot": 767837
     },
     {
-     "title": "近期画的",
-     "url": "https://www.bilibili.com/video/BV1Y2Hv65E9Y",
-     "hot": 231094
+     "title": "凡事尽力而为 最是圆满",
+     "url": "https://www.bilibili.com/video/BV18RaZ6YEv3",
+     "hot": 272845
     },
     {
-     "title": "《诡异的她》第一季全集·纯享",
-     "url": "https://www.bilibili.com/video/BV1c3HL6qEyq",
-     "hot": 180468
+     "title": "当我把verity变成双重人格！",
+     "url": "https://www.bilibili.com/video/BV1ubHn68EPd",
+     "hot": 771786
     },
     {
-     "title": "广州街唱《万疆》唱到一半，李玉刚本人来了？！",
-     "url": "https://www.bilibili.com/video/BV1TWHj67ESg",
-     "hot": 926217
+     "title": "“哼，把我忘得干净，偏等伤了无人能医，才想起我这肯管你的人？”《明日方舟：终末地》核心章节「丹青渡」版本前瞻特别节目即将于10月6日19:30播出。",
+     "url": "https://www.bilibili.com/video/BV1CpHW6cEks",
+     "hot": 259414
     },
     {
-     "title": "当 代 假 期 现 状",
-     "url": "https://www.bilibili.com/video/BV18Dad6tESF",
-     "hot": 427863
-    },
-    {
-     "title": "看完不笑的可以确诊为抑郁了",
-     "url": "https://www.bilibili.com/video/BV1YNHv6GE2y",
-     "hot": 1376843
+     "title": "请尽情拆掉小时候不敢拆的电子产品吧！",
+     "url": "https://www.bilibili.com/video/BV1nMHs68EQu",
+     "hot": 113887
     }
    ]
   }
@@ -586,33 +551,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "欧元跌幅扩大至0.7% 表现垫底G10货币",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniucuem9772191.shtml",
+   "title": "2026年诺贝尔生理学或医学奖授予光遗传学三位奠基者",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniuemac9593573.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "赵长鹏谈财富与交易逻辑：福布斯榜单估值存在虚高，稳定币交易看重标的可信度",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-05/doc-iniucuem4605615.shtml",
+   "title": "“快打救护车！” 无人驾驶车门突然夹手，男子疼得跺脚现场求救，网友担忧“Robotaxi隐患太大”",
+   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-05/doc-iniuemaf6353878.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "迪拜航空副驾驶袭击事件暴露多国安全审查漏洞",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniucuep6499339.shtml",
+   "title": "英国电信收购陷入困境的TalkTalk",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniueeui6417667.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "零跑汽车声明：目前已下线与蔡康永相关的全部内容",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-05/doc-iniucpwm3118061.shtml",
+   "title": "全球债券抛售加剧 量化对冲基金大幅获利",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniueeui6406011.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国俄克拉何马城两家大型能源企业总部迁往休斯顿",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniucpwm3110403.shtml",
+   "title": "航运企业寻求反无人机保护 应对黑海和中东袭击潮",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniueeuc2829719.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "巴西总统选举首轮投票结果揭晓 弗拉维奥·博索纳罗领先卢拉进入第二轮",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniucpwp4714373.shtml",
+   "title": "欧元兑美元跌至17个月低点",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniueeuc2827325.shtml",
    "source": "新浪科技"
   }
  ]
