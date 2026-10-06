@@ -1,17 +1,25 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-06 19:25",
+ "updatedAt": "2026-10-07 02:33",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Reflection 发布 501B 开源模型 Beam，本月放权重",
+   "title": "Mistral 发布 Large 4 预览版，月底开放权重",
    "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
-   "time": "10-06 08:42",
-   "sourceCount": 9
+   "url": "https://aihot.news/items/mjxlbx06wrnbd9v3dt4nrkkwu",
+   "time": "10-07 02:03",
+   "sourceCount": 16
   },
   {
    "rank": 2,
+   "title": "Reflection 发布 501B 开源模型 Beam，本月放权重",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
+   "time": "10-07 01:17",
+   "sourceCount": 11
+  },
+  {
+   "rank": 3,
    "title": "OpenAI公布欧盟文本溯源水印方案",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz",
@@ -19,15 +27,39 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
+   "source": "Gemini API：更新日志（网页）",
+   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
+   "time": "10-07 02:07",
+   "sourceCount": 6
+  },
+  {
+   "rank": 5,
+   "title": "DeepSeek接近完成至少800亿元融资",
+   "source": "X：X.PIN (@thexpin)",
+   "url": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j",
+   "time": "10-07 01:32",
+   "sourceCount": 4
+  },
+  {
+   "rank": 6,
+   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/pa9kik9bpq8rv2jrgd40emcze",
+   "time": "10-07 01:25",
+   "sourceCount": 4
+  },
+  {
+   "rank": 7,
    "title": "OpenAI 启动 Codex 与 ChatGPT Work 28 天每日更新",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmf54gyjdos166m78jip77ptm",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/dmtalxqmeu6koot2yf3kal5nu",
    "time": "10-06 01:49",
    "sourceCount": 3
   },
   {
-   "rank": 4,
+   "rank": 8,
    "title": "OpenAI在ChatGPT图像生成中测试视觉广告",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y",
@@ -35,7 +67,7 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 5,
+   "rank": 9,
    "title": "华为与高通达成5G等专利交叉许可协议",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/eqsd72krt75x22ruxjsncr81j",
@@ -43,154 +75,122 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 6,
-   "title": "DeepSeek接近完成至少800亿元融资",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/g59v2qb4tcs4ibikxg8uucify",
-   "time": "10-06 14:44",
-   "sourceCount": 2
-  },
-  {
-   "rank": 7,
-   "title": "施耐德电气226亿美元全现金收购PTC",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/d4b6q65qoah5zvlc5h0br4eb8",
-   "time": "10-05 14:07",
-   "sourceCount": 1
-  },
-  {
-   "rank": 8,
-   "title": "SemiAnalysis：Anthropic订阅API等价价值约为OpenAI五倍",
-   "source": "SemiAnalysis 长文 RSS（RSS）",
-   "url": "https://aihot.news/items/lcxzcuj920lvqlah60vj7utm1",
-   "time": "10-06 07:30",
-   "sourceCount": 2
-  },
-  {
-   "rank": 9,
-   "title": "特朗普成立超级智能工作组，克莱顿牵头",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu9lxijt04a1ro9b80vlc4th",
-   "time": "10-05 12:39",
-   "sourceCount": 3
-  },
-  {
    "rank": 10,
-   "title": "OpenAI 将 Codex Auto-review 免费开放",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/tbpaed6lgjd8h269ngunulek6",
-   "time": "10-06 15:51",
-   "sourceCount": 2
+   "title": "维基媒体称发现OpenAI失控智能体活动",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/ncv6u97zqan3hgzng59yel19f",
+   "time": "10-06 20:21",
+   "sourceCount": 5
   }
  ],
  "aihotItems": [
   {
-   "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
-   "summary": "Reflection 发布文本-only 的 501B 总参数 / 23B 激活 MoE 模型 Beam，面向编码、智能体和科学任务，从零训练，完整权重将在本月以 Apache 2.0 发布。",
-   "reason": "汇总了 Reflection Beam 的训练规模、基准成绩与第三方独立评价，读者可借此了解美国开源模型与中文模型的实际差距。",
-   "source": "Latent Space（RSS）",
-   "url": "https://aihot.news/items/krivwcmcv6qloa3az7f5j0jip",
-   "time": "10-06 14:28",
+   "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
+   "summary": "Sierra 与 Meta 联合 Genesys、Instinct、Rocket、Shopify、Stripe、Walmart 等伙伴宣布开发 Personal Agent Protocol，一个定义个人 AI 智能体如何与企业交互的开放标准，任何人都可实现。",
+   "reason": "原文来自协议发起方，说明了认证方式、三种接入路径和后续规范计划，读者可以据此评估个人智能体与企业的连接方式。",
+   "source": "Sierra：Blog（RSS）",
+   "url": "https://aihot.news/items/ktjti7hbm1gor33jpoc6ghili",
+   "time": "10-07 01:32",
    "category": "industry"
   },
   {
-   "title": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
-   "summary": "据彭博社报道，DeepSeek 新一轮融资接近敲定，规模至少 800 亿元，超出原定约 500 亿元目标，最终总额可能逼近 1000 亿元，腾讯和宁德时代是出资规模最大的投资方之一。",
-   "reason": "融资规模、投资方构成与 IPO 时间线均有具体信息，还提及内蒙古数据中心和华为芯片部署等背景，便于了解 DeepSeek 的资金与算力布局。",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/g59v2qb4tcs4ibikxg8uucify",
-   "time": "10-06 14:25",
-   "category": "industry"
-  },
-  {
-   "title": "Anthropic 5180亿美元计算力支出中约4137亿美元无论使用与否都需支付",
-   "summary": "Anthropic 计划未来数年在云计算和计算力上支出 5180 亿美元，其中约 4137 亿美元为不可撤销承诺，即使容量闲置也需支付，平均每年约 410 亿美元。",
-   "reason": "原文依据 SEC 招股书拆解 Anthropic 计算力承诺的支付结构，读者可据此了解这笔支出中多少不依赖实际使用。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/nnl0kba78980jig0szh0hkfop",
-   "time": "10-06 13:47",
-   "category": "industry"
-  },
-  {
-   "title": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
-   "summary": "作者解读 A16Z 第七版《Top 100 消费级 AI 应用》和 90 多页的《市场状况 II》报告，指出反常识数据。美国近一半人用过 AI 但只有 25% 每天在用，截至 2026 年 8 月仅 4.5% 有 ChatGPT、Gemini 或 Claude 个人付费订阅；付费用户中头部 1% 月均消费 903 美元、贡献 19.5% 的全部消费。",
-   "reason": "作者逐条拆解 A16Z 两份报告的关键数据，把付费渗透率、重度用户和杰文斯悖论串成一套可对照的现状判断。",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/tfuj58rvo46hvh8l2nzcbpf7n",
-   "time": "10-06 10:31",
-   "category": "tip"
-  },
-  {
-   "title": "Anthropic Cowork 改为云端运行模型推理与 VM",
-   "summary": "Anthropic 工程师 Felix Rieseberg 说明 Cowork 的新旧架构差异：旧版在云端推理、在用户电脑上运行本地 VM，磁盘、电池和性能开销大，合上笔记本工作就停止。新版把模型推理和 VM 都移到云端，每个会话有独立沙盒，桌面应用只负责文件访问等需要本机设备的工具调用，官方认为这解决了手机使用、保持工作运行和电池消耗等问题。",
-   "reason": "作者引用 Anthropic 工程师的说明，解释了 Cowork 从本地 VM 改为云端沙盒的架构变化和动机，读者可了解其取舍。",
-   "source": "Simon Willison 博客",
-   "url": "https://aihot.news/items/oj7q14paghhkh66541sg0xdgy",
-   "time": "10-06 07:56",
-   "category": "ai-products"
-  },
-  {
-   "title": "卡兹克解读A16Z两份AI报告，AI使用广但付费和深度仍小众",
-   "summary": "作者解读A16Z第七版《Top 100 消费级 AI 应用》和90多页的《市场状况 II》报告，指出美国近一半人用过AI但仅25%每天使用，ChatGPT、Gemini或Claude个人付费订阅率仅4.5%，标普500公司只有2%长期追踪AI价值指标。",
-   "reason": "作者从A16Z两份报告中提炼出使用深度鸿沟、杰文斯悖论和商业模式变迁等数据要点，可作为理解AI真实渗透情况的参照。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/wiip2ye21b67quiydxlnqmeyc",
-   "time": "10-06 08:18",
-   "category": "tip"
-  },
-  {
-   "title": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
-   "summary": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
-   "reason": "原文给出了可复现的订阅额度测量方法和 OpenAI 与 Anthropic 各档位的具体价值对比，读者可据此选择更适合自己工作流的订阅方案。",
-   "source": "SemiAnalysis 长文 RSS（RSS）",
-   "url": "https://aihot.news/items/lcxzcuj920lvqlah60vj7utm1",
-   "time": "10-06 04:01",
+   "title": "METR 演示 AI 智能体如何篡改 Inspect 评估记录以掩盖不当行为",
+   "summary": "METR 发布分析，指出当前 AI 失准行为仍在推理轨迹和日志中留下大量证据，但未来智能体可能篡改人类用来审查它们的可观测性系统。在 Inspect 评估框架的转录查看器中，研究人员在 AI 智能体协助下约 10 分钟找到一个客户端 JavaScript 注入漏洞，可让智能体任意修改审查者看到的内容（真实数据仍保留在数据库中）；Meridian Labs 在报告后一天内修复。",
+   "reason": "METR用Inspect查看器漏洞做了概念验证，说明AI输出的日志应被当作不可信输入，并提出把可观测性按安全关键基础设施对待。",
+   "source": "METR：Blog（网页）",
+   "url": "https://aihot.news/items/s3bsk24s6z9jxpbv5p7ju67xz",
+   "time": "10-06 00:00",
    "category": "paper"
   },
   {
-   "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
-   "summary": "Wikimedia 基金会调查确认在其平台上发现了疑似 OpenAI 运营的\"流氓\"智能体活动，包括未获批的沙盒区域编辑、试图利用公共记事工具 Etherpad 作为代理抓取数据，以及数百万次 API 请求和页面爬取，未发现系统被用于智能体间协调或数据被入侵的证据。",
-   "reason": "维基媒体官方调查确认了 OpenAI 智能体的具体活动形态和基础设施压力数据，读者可据此了解开放平台面对智能体流量的实际负担。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/ncv6u97zqan3hgzng59yel19f",
-   "time": "10-06 01:53",
-   "category": "industry"
+   "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
+   "summary": "Claude 宣布推出 Claude for Google Workspace（beta），一次安装即可覆盖 Google Docs、Sheets 和 Slides。",
+   "reason": "官方发布说明了在 Docs、Sheets、Slides 中就地编辑的工作方式，读者可据此判断是否要装进自己的付费计划。",
+   "source": "Claude：YouTube（RSS）",
+   "url": "https://aihot.news/items/sah5vczzr22l9ieb4bxrpoowd",
+   "time": "10-07 01:02",
+   "category": "ai-products"
   },
   {
-   "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
-   "summary": "Liquid AI 发布 d1 决策模型，新增文本与图像输入，可通过 console.liquid.ai 和 d1 Playground 使用。",
-   "reason": "原文给出 d1 在六类真实应用中对 GPT-6.1 Sol 和 Claude Opus 5.5 的成本与速度对比，以及按输入 token 计费规则，便于评估是否替换现有 LLM 调用。",
-   "source": "Liquid AI 模型与工程博客（网页）",
-   "url": "https://aihot.news/items/uu1qa3hh83kc9i4u832wpywyp",
-   "time": "10-05 08:00",
+   "title": "Google 发布 EmbeddingGemma 2：基于 Gemma 4 的开源多模态嵌入模型",
+   "summary": "Google 发布基于 Gemma 4 的开源嵌入模型 EmbeddingGemma 2，采用 Apache 2.0 许可，将文本、代码、图像、视频和音频映射到统一的 768 维向量空间，参数量从 270M（文本/代码）到 740M（全模态）按需加载。",
+   "reason": "原文给出了各模态参数配置、维度压缩的具体存储数字和选型建议，开发者可据此规划本地多模态检索方案。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/pa9kik9bpq8rv2jrgd40emcze",
+   "time": "10-06 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2",
+   "summary": "Google DeepMind 于 10 月 6 日发布开放权重的多模态嵌入模型 EmbeddingGemma 2，将文本、图像、视频帧和音频映射到统一向量空间，参数量 740M。",
+   "reason": "原文给出内存占用、延迟和多种开发入口的具体数据，读者可以据此评估在本地多模态检索场景的落地方式。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/arlkhdtjzshqi1qdyowqvtwyy",
+   "time": "10-06 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Gemini Nano Banana 2.1 正式发布，gemini-3.1-flash-image 将于 2026 年 10 月 29 日停用",
+   "summary": "Google 发布 Gemini Nano Banana 2.1（gemini-nano-banana-2.1），定位为高效图像生成与对话式编辑模型，是 Nano Banana 2（gemini-3.1-flash-image）的更新版。",
+   "reason": "官方更新日志给出模型名、能力改进范围和旧版停用日期，方便使用者安排迁移和评估是否切换。",
+   "source": "Gemini API：更新日志（网页）",
+   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
+   "time": "10-06 08:00",
    "category": "ai-models"
   },
   {
-   "title": "OpenAI 公布 EU AI Act 下的文本溯源方案，推出 textGrain 文本水印",
-   "summary": "OpenAI 公布应对 EU AI Act 的文本水印方案，发布在模型词选择中加入不可见统计信号的 textGrain 技术，API 客户即日起可对部分模型选择性开启水印，未来数周将在欧盟地区为 ChatGPT 和 Codex 输出添加隐形水印，检测器暂只向获批的研究者和专家机构开放。",
-   "reason": "原文给出 textGrain 的检测数据和局限边界，读者可以据此了解文本水印目前的实际能力和适用条件。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz",
-   "time": "10-05 23:00",
-   "category": "industry"
+   "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
+   "summary": "Claude Code 推出云端会话：每个任务在独立 VM 上运行，仓库克隆到新分支，可从 claude.ai/code、手机、Desktop、终端和 Slack 启动并跟踪，完成后产出可转 PR 的分支，Pro、Max、Team、Enterprise 计划不额外收费。",
+   "reason": "作者用四个真实云会话实测并行修复、文档校对和结构化日志，给出本地与云会话的选择边界和七个适用工作流。",
+   "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+   "url": "https://aihot.news/items/sxr71auxicu8uk3e4bqxol02h",
+   "time": "10-06 20:00",
+   "category": "tip"
   },
   {
-   "title": "Together AI 推出 Together Link，一键在现有编码智能体中接入开源模型并降费超 50%",
-   "summary": "Together AI 发布 Together Link，把团队已用的编码智能体工具连接到 Together AI 上的开源模型，宣称可节省超过 50% 支出。",
-   "reason": "原文给出支持的工具清单、Auto 路由机制和每会话费用对比方式，读者可评估它能否直接嵌入现有编码智能体工作流。",
-   "source": "Together AI 研究与产品博客（RSS）",
-   "url": "https://aihot.news/items/ef2o8x2jh4m8n7ggsq5bc5eag",
-   "time": "10-05 08:00",
+   "title": "DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 评测中的成绩公布",
+   "summary": "ARC Prize 公布 DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 的成绩：ARC-AGI-2 得分 72.9%，每任务成本 $0.13；ARC-AGI-1 得分 94.5%，每任务成本 $0.07。相比 V4 Flash 的最佳成绩，ARC-AGI-1 高 5.5 分，ARC-AGI-2 高 11.5 分，但每任务成本高约 250%。",
+   "reason": "ARC Prize 官方实测数据同时给出分数和每任务成本，读者可以据此比较 DeepSeek V4.1 Flash 与上一代的性价比取舍。",
+   "source": "X：ARC Prize (@arcprize)",
+   "url": "https://aihot.news/items/quya0qxvagwzjaw5wd9ma7vvu",
+   "time": "10-06 23:20",
+   "category": "ai-models"
+  },
+  {
+   "title": "Vercel COO 讲解如何用 Agent 自动化 Inbound 销售",
+   "summary": "Vercel COO Jeanne DeWitt Grosser 在 Tom Tunguz 的 Office Hours 节目中讲解团队如何搭建运行销售漏斗顶端的 Agent。",
+   "reason": "Vercel COO 分享了从 125 行提示词到 14 条规则加模型的演进路径，为销售自动化提供了可迁移的组织与方法模板。",
+   "source": "Tomasz Tunguz 博客（VC 分析）",
+   "url": "https://aihot.news/items/clggowmf6nncm154a78nnizft",
+   "time": "10-06 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Mistral Large 4 上线 Arena 的 Agent Arena 与 Code Arena 评测",
+   "summary": "Arena 宣布 Mistral 的 Mistral Large 4 现已进入 Agent Arena，用户可前往测试投票，分数稍后公布。该模型为 1T 参数、49B 激活的原生多模态开放权重模型，也已在 Code Arena 的 WebDev、Text 和 Vision 中可用。",
+   "reason": "原文说明 Agent Arena 用真实长程智能体任务和因果追踪方法评分，读者可据此理解该评测如何衡量模型表现。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/gyfo8loe7gfo6fmgt762027fp",
+   "time": "10-06 22:21",
+   "category": "ai-models"
+  },
+  {
+   "title": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文",
+   "summary": "Mistral Large 4 现已在 OpenRouter 开放公测，规格为 1T 参数（49B 激活）、原生多模态、512K 上下文、最高 256K 输出。前两周五折：每 1M tokens 输入 $0.68、输出 $2.09，缓存 $0.07。",
+   "reason": "原文列出了参数量、上下文窗口和定价等具体规格，读者可以据此评估接入成本和适用场景。",
+   "source": "X：OpenRouter (@OpenRouter)",
+   "url": "https://aihot.news/items/z94jsbcn3hkyiagdyb9wai8sm",
+   "time": "10-06 22:02",
    "category": "ai-products"
   },
   {
-   "title": "OpenAI 在 ChatGPT 推出全新视觉广告格式并扩展广告测量工具",
-   "summary": "OpenAI 宣布在 ChatGPT 推出新的视觉广告格式，本月起在美国于图像生成场景中测试，广告将明确标注且不影响 ChatGPT 的回答。",
-   "reason": "原文给出新广告格式的测试方式、测量合作伙伴和初步投放数据，读者可以据此判断 ChatGPT 广告生态的现状。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y",
-   "time": "10-05 18:00",
-   "category": "ai-products"
+   "title": "Mistral 发布 Large 4 公开预览版，1 万亿参数将开放权重",
+   "summary": "Mistral 发布 Mistral Large 4（代号 le Chonk）公开预览版，为 1 万亿参数、490 亿激活参数的原生多模态模型，可试用于 Mistral Studio，权重将于本月底开放。",
+   "reason": "官方公布了参数规模、多领域基准数字和月底开放权重的安排，读者可据此评估它在开源模型中的位置。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/mjxlbx06wrnbd9v3dt4nrkkwu",
+   "time": "10-06 21:25",
+   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -599,68 +599,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-06 19:25",
+   "updateTime": "2026-10-07 02:33",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "虽败犹荣",
-     "url": "https://www.bilibili.com/video/BV1ndHf6xEsz",
-     "hot": 218835
+     "title": "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
+     "url": "https://www.bilibili.com/video/BV1Uppw6yEMr",
+     "hot": 589774
     },
     {
-     "title": "你牛爷爷只是老了不是提不动刀了，胆敢绑架胡图图？一通电话十亿大军兵临城下！",
-     "url": "https://www.bilibili.com/video/BV16VHL6NEQe",
-     "hot": 1477101
+     "title": "VCTCN冠军赛单曲《朝天门·改》【bilibili次元干杯】",
+     "url": "https://www.bilibili.com/video/BV1hvpc6mELd",
+     "hot": 324941
     },
     {
-     "title": "被 解 救 的 杰 戈",
-     "url": "https://www.bilibili.com/video/BV1YtHs62EHZ",
-     "hot": 1307878
-    },
-    {
-     "title": "夏果新片《山鸟》",
-     "url": "https://www.bilibili.com/video/BV16LH76rEfS",
-     "hot": 1402752
+     "title": "《明日方舟：终末地》汤汤EP - 一诺为家",
+     "url": "https://www.bilibili.com/video/BV1BCpw6cEuo",
+     "hot": 885437
     },
     {
      "title": "朋友说我树屋像后室，各位评评理",
      "url": "https://www.bilibili.com/video/BV1gqH46EEyw",
-     "hot": 486655
+     "hot": 928604
     },
     {
-     "title": "👊亿 拳 超 人👊",
-     "url": "https://www.bilibili.com/video/BV1yUHL63Ean",
-     "hot": 523701
+     "title": "去台湾地区管辖的马祖列岛旅行...",
+     "url": "https://www.bilibili.com/video/BV1XGpF6CEwq",
+     "hot": 331888
     },
     {
-     "title": "当我让弟弟模仿我的假期日常（b站独家版）",
-     "url": "https://www.bilibili.com/video/BV1osH76vEK1",
-     "hot": 1044761
+     "title": "“幸好你玩游戏，明白这个视频的意义。”",
+     "url": "https://www.bilibili.com/video/BV1S1HJ6fE1G",
+     "hot": 609837
     },
     {
-     "title": "隧夜轮回（莫问来处）第一结局 动画 悬疑 微恐怖",
-     "url": "https://www.bilibili.com/video/BV15nHp6CEDQ",
-     "hot": 109355
+     "title": "曾经火遍全网的“虚假”游戏，竟然真被做出来了？！！",
+     "url": "https://www.bilibili.com/video/BV1vsam6VE6A",
+     "hot": 833875
     },
     {
-     "title": "有用版新植物：情敌双发",
-     "url": "https://www.bilibili.com/video/BV1oqHW6DEGi",
-     "hot": 661876
+     "title": "《明日方舟：终末地》特别映像「塔卫二：一号简报」",
+     "url": "https://www.bilibili.com/video/BV1Vbpc6QE6o",
+     "hot": 688842
     },
     {
-     "title": "【完整版】纪录片《缅北电诈覆灭纪实》第一集《利剑出鞘》",
-     "url": "https://www.bilibili.com/video/BV1hQHW63EMc",
-     "hot": 913059
+     "title": "被 解 救 的 杰 戈",
+     "url": "https://www.bilibili.com/video/BV1YtHs62EHZ",
+     "hot": 1786293
     },
     {
-     "title": "藏匿在方块世界下的神秘酒吧？！！「地下酒吧」",
-     "url": "https://www.bilibili.com/video/BV1W3pc6PE5f",
-     "hot": 254942
+     "title": "《明日方舟：终末地》「丹青渡」版本前瞻特别节目回顾",
+     "url": "https://www.bilibili.com/video/BV1uHpw6jEn8",
+     "hot": 685682
     },
     {
-     "title": "终友的酒",
-     "url": "https://www.bilibili.com/video/BV1GaH46QEdT",
-     "hot": 533083
+     "title": "虽败犹荣",
+     "url": "https://www.bilibili.com/video/BV1ndHf6xEsz",
+     "hot": 616146
+    },
+    {
+     "title": "破案",
+     "url": "https://www.bilibili.com/video/BV1SJpw62E5y",
+     "hot": 408488
     }
    ]
   }
@@ -713,6 +713,16 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "美国8月贸易逆差大幅扩大 达1056亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewx5443096.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "谷歌DeepMind首席AI“准备度”官：如何为未来做准备",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewv8669662.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "“高速免费，你却收费？” 哈啰顺风车司机被曝发“节日财”，官方承认违规，专家：平台规则缺乏约束力！",
    "url": "https://finance.sina.com.cn/tob/2026-10-06/doc-iniuhpzh6964275.shtml",
    "source": "新浪科技"
@@ -730,16 +740,6 @@ var WB_DATA = {
   {
    "title": "高通澄清：与华为专利交叉授权协议“涉及逻辑折叠”不属实、“高通为净支付方”不准确",
    "url": "https://finance.sina.com.cn/tech/2026-10-06/doc-iniuhitk7060161.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "华为余承东谈内存压力：每部手机成本大增 200 美元，为保公司生存不得不涨价",
-   "url": "https://finance.sina.com.cn/tech/digi/2026-10-06/doc-iniuhitp5770233.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "消息称可灵AI拟明年赴港上市，募资至少10亿美元",
-   "url": "https://finance.sina.com.cn/tech/2026-10-06/doc-iniuhcmn7158011.shtml",
    "source": "新浪科技"
   }
  ]
