@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-06 12:25",
+ "updatedAt": "2026-10-06 19:25",
  "aihotHot": [
   {
    "rank": 1,
@@ -28,14 +28,6 @@ var WB_DATA = {
   },
   {
    "rank": 4,
-   "title": "华为高通达成5G等专利交叉许可协议",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/eqsd72krt75x22ruxjsncr81j",
-   "time": "10-06 00:32",
-   "sourceCount": 3
-  },
-  {
-   "rank": 5,
    "title": "OpenAI在ChatGPT图像生成中测试视觉广告",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y",
@@ -43,12 +35,20 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 6,
-   "title": "马斯克确认SpaceXAI将更名为SpaceXSI",
+   "rank": 5,
+   "title": "华为与高通达成5G等专利交叉许可协议",
    "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/j45voriw6fcykynqwt5gwbtmm",
-   "time": "10-04 18:04",
-   "sourceCount": 1
+   "url": "https://aihot.news/items/eqsd72krt75x22ruxjsncr81j",
+   "time": "10-06 17:18",
+   "sourceCount": 3
+  },
+  {
+   "rank": 6,
+   "title": "DeepSeek接近完成至少800亿元融资",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/g59v2qb4tcs4ibikxg8uucify",
+   "time": "10-06 14:44",
+   "sourceCount": 2
   },
   {
    "rank": 7,
@@ -60,6 +60,14 @@ var WB_DATA = {
   },
   {
    "rank": 8,
+   "title": "SemiAnalysis：Anthropic订阅API等价价值约为OpenAI五倍",
+   "source": "SemiAnalysis 长文 RSS（RSS）",
+   "url": "https://aihot.news/items/lcxzcuj920lvqlah60vj7utm1",
+   "time": "10-06 07:30",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
    "title": "特朗普成立超级智能工作组，克莱顿牵头",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/cmu9lxijt04a1ro9b80vlc4th",
@@ -67,23 +75,42 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 9,
-   "title": "维基媒体称发现OpenAI失控智能体活动",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/ncv6u97zqan3hgzng59yel19f",
-   "time": "10-06 11:42",
-   "sourceCount": 4
-  },
-  {
    "rank": 10,
-   "title": "SemiAnalysis：Anthropic订阅API等价价值约为OpenAI五倍",
-   "source": "SemiAnalysis 长文 RSS（RSS）",
-   "url": "https://aihot.news/items/lcxzcuj920lvqlah60vj7utm1",
-   "time": "10-06 07:30",
+   "title": "OpenAI 将 Codex Auto-review 免费开放",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/tbpaed6lgjd8h269ngunulek6",
+   "time": "10-06 15:51",
    "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Reflection 发布 501B-A23B 开源编码模型 Beam",
+   "summary": "Reflection 发布文本-only 的 501B 总参数 / 23B 激活 MoE 模型 Beam，面向编码、智能体和科学任务，从零训练，完整权重将在本月以 Apache 2.0 发布。",
+   "reason": "汇总了 Reflection Beam 的训练规模、基准成绩与第三方独立评价，读者可借此了解美国开源模型与中文模型的实际差距。",
+   "source": "Latent Space（RSS）",
+   "url": "https://aihot.news/items/krivwcmcv6qloa3az7f5j0jip",
+   "time": "10-06 14:28",
+   "category": "industry"
+  },
+  {
+   "title": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
+   "summary": "据彭博社报道，DeepSeek 新一轮融资接近敲定，规模至少 800 亿元，超出原定约 500 亿元目标，最终总额可能逼近 1000 亿元，腾讯和宁德时代是出资规模最大的投资方之一。",
+   "reason": "融资规模、投资方构成与 IPO 时间线均有具体信息，还提及内蒙古数据中心和华为芯片部署等背景，便于了解 DeepSeek 的资金与算力布局。",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/g59v2qb4tcs4ibikxg8uucify",
+   "time": "10-06 14:25",
+   "category": "industry"
+  },
+  {
+   "title": "Anthropic 5180亿美元计算力支出中约4137亿美元无论使用与否都需支付",
+   "summary": "Anthropic 计划未来数年在云计算和计算力上支出 5180 亿美元，其中约 4137 亿美元为不可撤销承诺，即使容量闲置也需支付，平均每年约 410 亿美元。",
+   "reason": "原文依据 SEC 招股书拆解 Anthropic 计算力承诺的支付结构，读者可据此了解这笔支出中多少不依赖实际使用。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/nnl0kba78980jig0szh0hkfop",
+   "time": "10-06 13:47",
+   "category": "industry"
+  },
   {
    "title": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
    "summary": "作者解读 A16Z 第七版《Top 100 消费级 AI 应用》和 90 多页的《市场状况 II》报告，指出反常识数据。美国近一半人用过 AI 但只有 25% 每天在用，截至 2026 年 8 月仅 4.5% 有 ChatGPT、Gemini 或 Claude 个人付费订阅；付费用户中头部 1% 月均消费 903 美元、贡献 19.5% 的全部消费。",
@@ -572,68 +599,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-06 12:26",
+   "updateTime": "2026-10-06 19:25",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《诡异的她》第一季全集·纯享",
-     "url": "https://www.bilibili.com/video/BV1c3HL6qEyq",
-     "hot": 4122290
-    },
-    {
-     "title": "《明日方舟》干员「克莱门莎」技能展示PV",
-     "url": "https://www.bilibili.com/video/BV1zhHW6REAd",
-     "hot": 463424
+     "title": "虽败犹荣",
+     "url": "https://www.bilibili.com/video/BV1ndHf6xEsz",
+     "hot": 218835
     },
     {
      "title": "你牛爷爷只是老了不是提不动刀了，胆敢绑架胡图图？一通电话十亿大军兵临城下！",
      "url": "https://www.bilibili.com/video/BV16VHL6NEQe",
-     "hot": 639310
+     "hot": 1477101
     },
     {
      "title": "被 解 救 的 杰 戈",
      "url": "https://www.bilibili.com/video/BV1YtHs62EHZ",
-     "hot": 533877
+     "hot": 1307878
     },
     {
      "title": "夏果新片《山鸟》",
      "url": "https://www.bilibili.com/video/BV16LH76rEfS",
-     "hot": 712502
+     "hot": 1402752
     },
     {
-     "title": "小孩菜实力排行",
-     "url": "https://www.bilibili.com/video/BV1sZHH6bE3o",
-     "hot": 1822633
+     "title": "朋友说我树屋像后室，各位评评理",
+     "url": "https://www.bilibili.com/video/BV1gqH46EEyw",
+     "hot": 486655
     },
     {
-     "title": "《我上哪给你整假的》",
-     "url": "https://www.bilibili.com/video/BV1LNHj68EMg",
-     "hot": 2026169
+     "title": "👊亿 拳 超 人👊",
+     "url": "https://www.bilibili.com/video/BV1yUHL63Ean",
+     "hot": 523701
     },
     {
-     "title": "当我把verity变成双重人格！",
-     "url": "https://www.bilibili.com/video/BV1ubHn68EPd",
-     "hot": 2272767
+     "title": "当我让弟弟模仿我的假期日常（b站独家版）",
+     "url": "https://www.bilibili.com/video/BV1osH76vEK1",
+     "hot": 1044761
     },
     {
-     "title": "【哥布林故事总集篇】愿你也能像哥布林一样，开启逆袭翻盘的旅途",
-     "url": "https://www.bilibili.com/video/BV1fnHL68EPT",
-     "hot": 1097687
+     "title": "隧夜轮回（莫问来处）第一结局 动画 悬疑 微恐怖",
+     "url": "https://www.bilibili.com/video/BV15nHp6CEDQ",
+     "hot": 109355
     },
     {
-     "title": "这期有绷得住的风险吗？",
-     "url": "https://www.bilibili.com/video/BV1DJYF6KEAD",
-     "hot": 607016
+     "title": "有用版新植物：情敌双发",
+     "url": "https://www.bilibili.com/video/BV1oqHW6DEGi",
+     "hot": 661876
     },
     {
-     "title": "【抢先看】重回2002，永不空军的鱼竿被军方收编？军方进仓库一看：激光炮手电、隐身涂层、全球降雨弹……你管这叫鱼竿？",
-     "url": "https://www.bilibili.com/video/BV1cwHa6mEPH",
-     "hot": 1376668
+     "title": "【完整版】纪录片《缅北电诈覆灭纪实》第一集《利剑出鞘》",
+     "url": "https://www.bilibili.com/video/BV1hQHW63EMc",
+     "hot": 913059
     },
     {
-     "title": "大学生挑战国庆7天一个人爆改包浆宿舍",
-     "url": "https://www.bilibili.com/video/BV1eKHq6JEcg",
-     "hot": 1193051
+     "title": "藏匿在方块世界下的神秘酒吧？！！「地下酒吧」",
+     "url": "https://www.bilibili.com/video/BV1W3pc6PE5f",
+     "hot": 254942
+    },
+    {
+     "title": "终友的酒",
+     "url": "https://www.bilibili.com/video/BV1GaH46QEdT",
+     "hot": 533083
     }
    ]
   }
@@ -686,33 +713,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "“高速免费，你却收费？” 哈啰顺风车司机被曝发“节日财”，官方承认违规，专家：平台规则缺乏约束力！",
+   "url": "https://finance.sina.com.cn/tob/2026-10-06/doc-iniuhpzh6964275.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "余承东：已基本摆脱对美国技术依赖，华为折叠屏比苹果起步更早",
+   "url": "https://finance.sina.com.cn/tob/2026-10-06/doc-iniuhpzh6963835.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "原中国电信员工实名举报多名高管，官方回应：已进行过内部专项核查，言论与事实不符",
+   "url": "https://finance.sina.com.cn/tob/2026-10-06/doc-iniuhpzh6955572.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "高通澄清：与华为专利交叉授权协议“涉及逻辑折叠”不属实、“高通为净支付方”不准确",
+   "url": "https://finance.sina.com.cn/tech/2026-10-06/doc-iniuhitk7060161.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "华为余承东谈内存压力：每部手机成本大增 200 美元，为保公司生存不得不涨价",
+   "url": "https://finance.sina.com.cn/tech/digi/2026-10-06/doc-iniuhitp5770233.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "消息称可灵AI拟明年赴港上市，募资至少10亿美元",
    "url": "https://finance.sina.com.cn/tech/2026-10-06/doc-iniuhcmn7158011.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "美国将轰炸机全部撤离险遭恐怖袭击的英国基地",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniufhft9310983.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "Meta和微软设法减少员工对Claude的使用",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniufhfv6077194.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "伊朗称与违背承诺的美国谈判“毫无意义”",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniufhft3967849.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "法国央行行长就利率发出警告",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuezxx6178713.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "花旗建议加码巴西风险资产 此前博索纳罗在首轮投票中表现强于预期",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuezxv9404195.shtml",
    "source": "新浪科技"
   }
  ]
