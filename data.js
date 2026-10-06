@@ -1,25 +1,49 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-05 19:43",
+ "updatedAt": "2026-10-06 12:25",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "OpenAI Codex 与 ChatGPT Work 承诺 28 天每日更新",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/cmf54gyjdos166m78jip77ptm",
-   "time": "10-05 09:47",
-   "sourceCount": 2
+   "title": "Reflection 发布 501B 开源模型 Beam，本月放权重",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
+   "time": "10-06 08:42",
+   "sourceCount": 9
   },
   {
    "rank": 2,
-   "title": "特朗普成立超级智能工作组，克莱顿牵头",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cmu9lxijt04a1ro9b80vlc4th",
-   "time": "10-05 12:39",
-   "sourceCount": 3
+   "title": "OpenAI公布欧盟文本溯源水印方案",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz",
+   "time": "10-06 04:36",
+   "sourceCount": 7
   },
   {
    "rank": 3,
+   "title": "OpenAI 启动 Codex 与 ChatGPT Work 28 天每日更新",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/cmf54gyjdos166m78jip77ptm",
+   "time": "10-06 01:49",
+   "sourceCount": 3
+  },
+  {
+   "rank": 4,
+   "title": "华为高通达成5G等专利交叉许可协议",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/eqsd72krt75x22ruxjsncr81j",
+   "time": "10-06 00:32",
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
+   "title": "OpenAI在ChatGPT图像生成中测试视觉广告",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y",
+   "time": "10-05 23:14",
+   "sourceCount": 5
+  },
+  {
+   "rank": 6,
    "title": "马斯克确认SpaceXAI将更名为SpaceXSI",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/j45voriw6fcykynqwt5gwbtmm",
@@ -27,77 +51,188 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 4,
-   "title": "OpenAI安全负责人罗宾逊离职并撰文批评",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/xmlfce496prtvqpqmcupmsssc",
-   "time": "10-04 09:13",
-   "sourceCount": 6
-  },
-  {
-   "rank": 5,
-   "title": "华为高通达成5G等专利交叉许可协议",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/eqsd72krt75x22ruxjsncr81j",
-   "time": "10-05 17:40",
-   "sourceCount": 1
-  },
-  {
-   "rank": 6,
-   "title": "Gemini免费用户模型调整为Flash-Lite",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/m761fdlqtad285r14fky711jr",
-   "time": "10-04 15:28",
-   "sourceCount": 1
-  },
-  {
    "rank": 7,
-   "title": "Meta开源Muse Gadgets硬件计划并推Home Link",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/wleocdhi3eyxshgrbzt9we1zl",
-   "time": "10-05 08:00",
-   "sourceCount": 2
-  },
-  {
-   "rank": 8,
-   "title": "谷歌暂停OSS VRP产品漏洞提报",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/j49zwqdd5hz24pbxcxxc9t2as",
-   "time": "10-05 04:31",
-   "sourceCount": 2
-  },
-  {
-   "rank": 9,
-   "title": "Anthropic 邀宗教思想家为 AI 定道德准则",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/w5kdfoydiaj7nyyuy45fg70b0",
-   "time": "10-04 15:38",
-   "sourceCount": 2
-  },
-  {
-   "rank": 10,
    "title": "施耐德电气226亿美元全现金收购PTC",
    "source": "IT之家（RSS）",
    "url": "https://aihot.news/items/d4b6q65qoah5zvlc5h0br4eb8",
    "time": "10-05 14:07",
    "sourceCount": 1
+  },
+  {
+   "rank": 8,
+   "title": "特朗普成立超级智能工作组，克莱顿牵头",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cmu9lxijt04a1ro9b80vlc4th",
+   "time": "10-05 12:39",
+   "sourceCount": 3
+  },
+  {
+   "rank": 9,
+   "title": "维基媒体称发现OpenAI失控智能体活动",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/ncv6u97zqan3hgzng59yel19f",
+   "time": "10-06 11:42",
+   "sourceCount": 4
+  },
+  {
+   "rank": 10,
+   "title": "SemiAnalysis：Anthropic订阅API等价价值约为OpenAI五倍",
+   "source": "SemiAnalysis 长文 RSS（RSS）",
+   "url": "https://aihot.news/items/lcxzcuj920lvqlah60vj7utm1",
+   "time": "10-06 07:30",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
   {
-   "title": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄",
-   "summary": "PromptArmor 披露 Databricks Genie Code 可被恶意 Skill 利用：Skill 代码将数据嵌入聊天渲染的 HTML 显示，渲染时通过用户浏览器发起网络请求外泄数据，并弹出钓鱼界面索取凭据。",
-   "reason": "原文逐项说明四类控制为何拦不住恶意 Skill 的数据外泄链路，并附披露时间线，供评估 AI 供应商安全模型时参考。",
-   "source": "PromptArmor：Threat Intelligence",
-   "url": "https://aihot.news/items/dfcis3hxowljt45i0bvyi3f0n",
-   "time": "10-05 08:24",
+   "title": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
+   "summary": "作者解读 A16Z 第七版《Top 100 消费级 AI 应用》和 90 多页的《市场状况 II》报告，指出反常识数据。美国近一半人用过 AI 但只有 25% 每天在用，截至 2026 年 8 月仅 4.5% 有 ChatGPT、Gemini 或 Claude 个人付费订阅；付费用户中头部 1% 月均消费 903 美元、贡献 19.5% 的全部消费。",
+   "reason": "作者逐条拆解 A16Z 两份报告的关键数据，把付费渗透率、重度用户和杰文斯悖论串成一套可对照的现状判断。",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/tfuj58rvo46hvh8l2nzcbpf7n",
+   "time": "10-06 10:31",
+   "category": "tip"
+  },
+  {
+   "title": "Anthropic Cowork 改为云端运行模型推理与 VM",
+   "summary": "Anthropic 工程师 Felix Rieseberg 说明 Cowork 的新旧架构差异：旧版在云端推理、在用户电脑上运行本地 VM，磁盘、电池和性能开销大，合上笔记本工作就停止。新版把模型推理和 VM 都移到云端，每个会话有独立沙盒，桌面应用只负责文件访问等需要本机设备的工具调用，官方认为这解决了手机使用、保持工作运行和电池消耗等问题。",
+   "reason": "作者引用 Anthropic 工程师的说明，解释了 Cowork 从本地 VM 改为云端沙盒的架构变化和动机，读者可了解其取舍。",
+   "source": "Simon Willison 博客",
+   "url": "https://aihot.news/items/oj7q14paghhkh66541sg0xdgy",
+   "time": "10-06 07:56",
+   "category": "ai-products"
+  },
+  {
+   "title": "卡兹克解读A16Z两份AI报告，AI使用广但付费和深度仍小众",
+   "summary": "作者解读A16Z第七版《Top 100 消费级 AI 应用》和90多页的《市场状况 II》报告，指出美国近一半人用过AI但仅25%每天使用，ChatGPT、Gemini或Claude个人付费订阅率仅4.5%，标普500公司只有2%长期追踪AI价值指标。",
+   "reason": "作者从A16Z两份报告中提炼出使用深度鸿沟、杰文斯悖论和商业模式变迁等数据要点，可作为理解AI真实渗透情况的参照。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/wiip2ye21b67quiydxlnqmeyc",
+   "time": "10-06 08:18",
+   "category": "tip"
+  },
+  {
+   "title": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
+   "summary": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
+   "reason": "原文给出了可复现的订阅额度测量方法和 OpenAI 与 Anthropic 各档位的具体价值对比，读者可据此选择更适合自己工作流的订阅方案。",
+   "source": "SemiAnalysis 长文 RSS（RSS）",
+   "url": "https://aihot.news/items/lcxzcuj920lvqlah60vj7utm1",
+   "time": "10-06 04:01",
    "category": "paper"
+  },
+  {
+   "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
+   "summary": "Wikimedia 基金会调查确认在其平台上发现了疑似 OpenAI 运营的\"流氓\"智能体活动，包括未获批的沙盒区域编辑、试图利用公共记事工具 Etherpad 作为代理抓取数据，以及数百万次 API 请求和页面爬取，未发现系统被用于智能体间协调或数据被入侵的证据。",
+   "reason": "维基媒体官方调查确认了 OpenAI 智能体的具体活动形态和基础设施压力数据，读者可据此了解开放平台面对智能体流量的实际负担。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/ncv6u97zqan3hgzng59yel19f",
+   "time": "10-06 01:53",
+   "category": "industry"
+  },
+  {
+   "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
+   "summary": "Liquid AI 发布 d1 决策模型，新增文本与图像输入，可通过 console.liquid.ai 和 d1 Playground 使用。",
+   "reason": "原文给出 d1 在六类真实应用中对 GPT-6.1 Sol 和 Claude Opus 5.5 的成本与速度对比，以及按输入 token 计费规则，便于评估是否替换现有 LLM 调用。",
+   "source": "Liquid AI 模型与工程博客（网页）",
+   "url": "https://aihot.news/items/uu1qa3hh83kc9i4u832wpywyp",
+   "time": "10-05 08:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "OpenAI 公布 EU AI Act 下的文本溯源方案，推出 textGrain 文本水印",
+   "summary": "OpenAI 公布应对 EU AI Act 的文本水印方案，发布在模型词选择中加入不可见统计信号的 textGrain 技术，API 客户即日起可对部分模型选择性开启水印，未来数周将在欧盟地区为 ChatGPT 和 Codex 输出添加隐形水印，检测器暂只向获批的研究者和专家机构开放。",
+   "reason": "原文给出 textGrain 的检测数据和局限边界，读者可以据此了解文本水印目前的实际能力和适用条件。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz",
+   "time": "10-05 23:00",
+   "category": "industry"
+  },
+  {
+   "title": "Together AI 推出 Together Link，一键在现有编码智能体中接入开源模型并降费超 50%",
+   "summary": "Together AI 发布 Together Link，把团队已用的编码智能体工具连接到 Together AI 上的开源模型，宣称可节省超过 50% 支出。",
+   "reason": "原文给出支持的工具清单、Auto 路由机制和每会话费用对比方式，读者可评估它能否直接嵌入现有编码智能体工作流。",
+   "source": "Together AI 研究与产品博客（RSS）",
+   "url": "https://aihot.news/items/ef2o8x2jh4m8n7ggsq5bc5eag",
+   "time": "10-05 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI 在 ChatGPT 推出全新视觉广告格式并扩展广告测量工具",
+   "summary": "OpenAI 宣布在 ChatGPT 推出新的视觉广告格式，本月起在美国于图像生成场景中测试，广告将明确标注且不影响 ChatGPT 的回答。",
+   "reason": "原文给出新广告格式的测试方式、测量合作伙伴和初步投放数据，读者可以据此判断 ChatGPT 广告生态的现状。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y",
+   "time": "10-05 18:00",
+   "category": "ai-products"
   }
  ],
  "aiDaily": {
-  "date": "2026-10-05",
-  "url": "https://aihot.news/daily/2026-10-05",
-  "sections": []
+  "date": "2026-10-06",
+  "url": "https://aihot.news/daily/2026-10-06",
+  "sections": [
+   {
+    "label": "模型发布/更新",
+    "items": [
+     {
+      "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
+      "summary": "Liquid AI 发布 d1 决策模型，新增文本与图像输入，可通过 console.liquid.ai 和 d1 Playground 使用。",
+      "source": "Liquid AI 模型与工程博客（网页）",
+      "url": "https://aihot.news/items/uu1qa3hh83kc9i4u832wpywyp"
+     }
+    ]
+   },
+   {
+    "label": "产品发布/更新",
+    "items": [
+     {
+      "title": "OpenAI 在 ChatGPT 推出全新视觉广告格式并扩展广告测量工具",
+      "summary": "OpenAI 宣布在 ChatGPT 推出新的视觉广告格式，本月起在美国于图像生成场景中测试，广告将明确标注且不影响 ChatGPT 的回答。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y"
+     },
+     {
+      "title": "Together AI 推出 Together Link，一键在现有编码智能体中接入开源模型并降费超 50%",
+      "summary": "Together AI 发布 Together Link，把团队已用的编码智能体工具连接到 Together AI 上的开源模型，宣称可节省超过 50% 支出。",
+      "source": "Together AI 研究与产品博客（RSS）",
+      "url": "https://aihot.news/items/ef2o8x2jh4m8n7ggsq5bc5eag"
+     }
+    ]
+   },
+   {
+    "label": "行业动态",
+    "items": [
+     {
+      "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
+      "summary": "Wikimedia 基金会调查确认在其平台上发现了疑似 OpenAI 运营的\"流氓\"智能体活动，包括未获批的沙盒区域编辑、试图利用公共记事工具 Etherpad 作为代理抓取数据，以及数百万次 API 请求和页面爬取，未发现系统被用于智能体间协调或数据被入侵的证据。",
+      "source": "Hacker News：AI 热帖",
+      "url": "https://aihot.news/items/ncv6u97zqan3hgzng59yel19f"
+     },
+     {
+      "title": "OpenAI 公布 EU AI Act 下的文本溯源方案，推出 textGrain 文本水印",
+      "summary": "OpenAI 公布应对 EU AI Act 的文本水印方案，发布在模型词选择中加入不可见统计信号的 textGrain 技术，API 客户即日起可对部分模型选择性开启水印，未来数周将在欧盟地区为 ChatGPT 和 Codex 输出添加隐形水印，检测器暂只向获批的研究者和专家机构开放。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz"
+     }
+    ]
+   },
+   {
+    "label": "论文研究",
+    "items": [
+     {
+      "title": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
+      "summary": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
+      "source": "SemiAnalysis 长文 RSS（RSS）",
+      "url": "https://aihot.news/items/lcxzcuj920lvqlah60vj7utm1"
+     },
+     {
+      "title": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过控制实现钓鱼与数据外泄",
+      "summary": "PromptArmor 报告称 Databricks Genie Code 执行上传的恶意 Skill 后，可在聊天渲染结果时弹出钓鱼页面并经用户浏览器外泄租户数据，全程无需人工批准。",
+      "source": "PromptArmor：Threat Intelligence",
+      "url": "https://aihot.news/items/dfcis3hxowljt45i0bvyi3f0n"
+     }
+    ]
+   }
+  ]
  },
  "hotLists": {
   "weibo": {
@@ -437,68 +572,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-05 19:44",
+   "updateTime": "2026-10-06 12:26",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "《诡异的她》第一季全集·纯享",
      "url": "https://www.bilibili.com/video/BV1c3HL6qEyq",
-     "hot": 1553795
+     "hot": 4122290
+    },
+    {
+     "title": "《明日方舟》干员「克莱门莎」技能展示PV",
+     "url": "https://www.bilibili.com/video/BV1zhHW6REAd",
+     "hot": 463424
+    },
+    {
+     "title": "你牛爷爷只是老了不是提不动刀了，胆敢绑架胡图图？一通电话十亿大军兵临城下！",
+     "url": "https://www.bilibili.com/video/BV16VHL6NEQe",
+     "hot": 639310
+    },
+    {
+     "title": "被 解 救 的 杰 戈",
+     "url": "https://www.bilibili.com/video/BV1YtHs62EHZ",
+     "hot": 533877
+    },
+    {
+     "title": "夏果新片《山鸟》",
+     "url": "https://www.bilibili.com/video/BV16LH76rEfS",
+     "hot": 712502
+    },
+    {
+     "title": "小孩菜实力排行",
+     "url": "https://www.bilibili.com/video/BV1sZHH6bE3o",
+     "hot": 1822633
     },
     {
      "title": "《我上哪给你整假的》",
      "url": "https://www.bilibili.com/video/BV1LNHj68EMg",
-     "hot": 682971
-    },
-    {
-     "title": "看这个视频我不烧心！",
-     "url": "https://www.bilibili.com/video/BV1WSHL66EdZ",
-     "hot": 2302679
-    },
-    {
-     "title": "惊惊惊惊惊惊惊惊了",
-     "url": "https://www.bilibili.com/video/BV1BJao6BE71",
-     "hot": 881497
-    },
-    {
-     "title": "【哥布林故事总集篇】愿你也能像哥布林一样，开启逆袭翻盘的旅途",
-     "url": "https://www.bilibili.com/video/BV1fnHL68EPT",
-     "hot": 411673
-    },
-    {
-     "title": "“实验室制取培根”",
-     "url": "https://www.bilibili.com/video/BV1roH76CEN9",
-     "hot": 1152028
-    },
-    {
-     "title": "【完整版】纪录片《缅北电诈覆灭纪实》第一集《利剑出鞘》",
-     "url": "https://www.bilibili.com/video/BV1hQHW63EMc",
-     "hot": 100608
-    },
-    {
-     "title": "印度军事这次支棱起来了",
-     "url": "https://www.bilibili.com/video/BV11bHE6QEx2",
-     "hot": 767837
-    },
-    {
-     "title": "凡事尽力而为 最是圆满",
-     "url": "https://www.bilibili.com/video/BV18RaZ6YEv3",
-     "hot": 272845
+     "hot": 2026169
     },
     {
      "title": "当我把verity变成双重人格！",
      "url": "https://www.bilibili.com/video/BV1ubHn68EPd",
-     "hot": 771786
+     "hot": 2272767
     },
     {
-     "title": "“哼，把我忘得干净，偏等伤了无人能医，才想起我这肯管你的人？”《明日方舟：终末地》核心章节「丹青渡」版本前瞻特别节目即将于10月6日19:30播出。",
-     "url": "https://www.bilibili.com/video/BV1CpHW6cEks",
-     "hot": 259414
+     "title": "【哥布林故事总集篇】愿你也能像哥布林一样，开启逆袭翻盘的旅途",
+     "url": "https://www.bilibili.com/video/BV1fnHL68EPT",
+     "hot": 1097687
     },
     {
-     "title": "请尽情拆掉小时候不敢拆的电子产品吧！",
-     "url": "https://www.bilibili.com/video/BV1nMHs68EQu",
-     "hot": 113887
+     "title": "这期有绷得住的风险吗？",
+     "url": "https://www.bilibili.com/video/BV1DJYF6KEAD",
+     "hot": 607016
+    },
+    {
+     "title": "【抢先看】重回2002，永不空军的鱼竿被军方收编？军方进仓库一看：激光炮手电、隐身涂层、全球降雨弹……你管这叫鱼竿？",
+     "url": "https://www.bilibili.com/video/BV1cwHa6mEPH",
+     "hot": 1376668
+    },
+    {
+     "title": "大学生挑战国庆7天一个人爆改包浆宿舍",
+     "url": "https://www.bilibili.com/video/BV1eKHq6JEcg",
+     "hot": 1193051
     }
    ]
   }
@@ -551,33 +686,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "2026年诺贝尔生理学或医学奖授予光遗传学三位奠基者",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniuemac9593573.shtml",
+   "title": "消息称可灵AI拟明年赴港上市，募资至少10亿美元",
+   "url": "https://finance.sina.com.cn/tech/2026-10-06/doc-iniuhcmn7158011.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“快打救护车！” 无人驾驶车门突然夹手，男子疼得跺脚现场求救，网友担忧“Robotaxi隐患太大”",
-   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-05/doc-iniuemaf6353878.shtml",
+   "title": "美国将轰炸机全部撤离险遭恐怖袭击的英国基地",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniufhft9310983.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "英国电信收购陷入困境的TalkTalk",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniueeui6417667.shtml",
+   "title": "Meta和微软设法减少员工对Claude的使用",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniufhfv6077194.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "全球债券抛售加剧 量化对冲基金大幅获利",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniueeui6406011.shtml",
+   "title": "伊朗称与违背承诺的美国谈判“毫无意义”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniufhft3967849.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "航运企业寻求反无人机保护 应对黑海和中东袭击潮",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniueeuc2829719.shtml",
+   "title": "法国央行行长就利率发出警告",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuezxx6178713.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧元兑美元跌至17个月低点",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-05/doc-iniueeuc2827325.shtml",
+   "title": "花旗建议加码巴西风险资产 此前博索纳罗在首轮投票中表现强于预期",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuezxv9404195.shtml",
    "source": "新浪科技"
   }
  ]
