@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-07 11:52",
+ "updatedAt": "2026-10-07 19:14",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,35 +12,35 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
-   "time": "10-07 06:41",
-   "sourceCount": 11
-  },
-  {
-   "rank": 3,
    "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
-   "time": "10-07 09:15",
-   "sourceCount": 7
+   "time": "10-07 16:54",
+   "sourceCount": 8
+  },
+  {
+   "rank": 3,
+   "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
+   "source": "Gemini API：更新日志（网页）",
+   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
+   "time": "10-07 13:07",
+   "sourceCount": 12
   },
   {
    "rank": 4,
+   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
+   "time": "10-07 15:32",
+   "sourceCount": 11
+  },
+  {
+   "rank": 5,
    "title": "Reflection 发布 501B 开源模型 Beam，本月放权重",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
    "time": "10-07 01:17",
    "sourceCount": 11
-  },
-  {
-   "rank": 5,
-   "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
-   "source": "Gemini API：更新日志（网页）",
-   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
-   "time": "10-07 09:01",
-   "sourceCount": 10
   },
   {
    "rank": 6,
@@ -52,6 +52,22 @@ var WB_DATA = {
   },
   {
    "rank": 7,
+   "title": "SpaceX 宣布按任务选用最佳后端模型",
+   "source": "X：Elon Musk (@elonmusk, xAI)",
+   "url": "https://aihot.news/items/n4k46z7om6jpr0mqvpr7picv6",
+   "time": "10-07 17:38",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
+   "title": "SpaceX洽谈借款400亿美元采购英伟达芯片",
+   "source": "IT之家（RSS）",
+   "url": "https://aihot.news/items/xoabqybtd9qrfmikalao9gba8",
+   "time": "10-07 09:21",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
    "title": "Anthropic扩展CVP，三档开放Claude网络能力",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/a96x4zt1tn3um8h49nz2kqgpc",
@@ -59,31 +75,33 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 8,
-   "title": "OpenAI Decisions API 从限量预览转公测",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/u3xqs4u7tqjvaph4sfdnxfafw",
-   "time": "10-07 08:03",
-   "sourceCount": 3
-  },
-  {
-   "rank": 9,
+   "rank": 10,
    "title": "DeepSeek接近完成至少800亿元融资",
    "source": "X：X.PIN (@thexpin)",
    "url": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j",
    "time": "10-07 01:32",
    "sourceCount": 4
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI在ChatGPT图像生成中测试视觉广告",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y",
-   "time": "10-05 23:14",
-   "sourceCount": 5
   }
  ],
  "aihotItems": [
+  {
+   "title": "Mistral Large 4 进入 Code Arena: WebDev 排名第45，得分1534",
+   "summary": "Arena 宣布 Mistral Large 4 登陆 Code Arena: WebDev，以 1534 分排名第 45，比 Mistral Large 3（第130名）高 304 分，比 Mistral Medium 3.5 高 271 分。",
+   "reason": "Arena 实测数据显示 Mistral Large 4 的编码得分、排名和价格对比，可帮读者评估其性价比位置。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/kxqn0rzbtjdxg7ibbjge08tzt",
+   "time": "10-07 14:18",
+   "category": "ai-models"
+  },
+  {
+   "title": "PromptArmor 解析 WebMCP 的工作机制与安全风险",
+   "summary": "PromptArmor 发布 WebMCP 解析文章，介绍这项让网站直接向 AI 智能体提供工具的技术的机制与采用情况。",
+   "reason": "原文系统拆解 WebMCP 的机制、厂商采用现状和治理、提示词注入等新增风险，可作为评估供应商 WebMCP 暴露面的参考框架。",
+   "source": "PromptArmor：Threat Intelligence",
+   "url": "https://aihot.news/items/aj31qyu01hx95ra5sq2f0k5a9",
+   "time": "10-06 08:00",
+   "category": "tip"
+  },
   {
    "title": "Cursor iOS 应用支持远程控制本地智能体",
    "summary": "Cursor 在 iOS 应用中上线本地智能体远程控制，用户可查看并回复电脑上正在运行的智能体。除企业组织外默认对所有用户开启，登录后账户中的电脑自动显示，在桌面应用批准配对即可使用。智能体仍在本机运行，需电脑保持开机联网，可在设置中开启防止休眠选项，企业管理员可在 Org settings 中开启此功能。",
@@ -172,24 +190,6 @@ var WB_DATA = {
    "source": "Anthropic：Claude.dev 开发者博客（RSS）",
    "url": "https://aihot.news/items/sxr71auxicu8uk3e4bqxol02h",
    "time": "10-06 20:00",
-   "category": "tip"
-  },
-  {
-   "title": "DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 评测中的成绩公布",
-   "summary": "ARC Prize 公布 DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 的成绩：ARC-AGI-2 得分 72.9%，每任务成本 $0.13；ARC-AGI-1 得分 94.5%，每任务成本 $0.07。相比 V4 Flash 的最佳成绩，ARC-AGI-1 高 5.5 分，ARC-AGI-2 高 11.5 分，但每任务成本高约 250%。",
-   "reason": "ARC Prize 官方实测数据同时给出分数和每任务成本，读者可以据此比较 DeepSeek V4.1 Flash 与上一代的性价比取舍。",
-   "source": "X：ARC Prize (@arcprize)",
-   "url": "https://aihot.news/items/quya0qxvagwzjaw5wd9ma7vvu",
-   "time": "10-06 23:20",
-   "category": "ai-models"
-  },
-  {
-   "title": "Vercel COO 讲解如何用 Agent 自动化 Inbound 销售",
-   "summary": "Vercel COO Jeanne DeWitt Grosser 在 Tom Tunguz 的 Office Hours 节目中讲解团队如何搭建运行销售漏斗顶端的 Agent。",
-   "reason": "Vercel COO 分享了从 125 行提示词到 14 条规则加模型的演进路径，为销售自动化提供了可迁移的组织与方法模板。",
-   "source": "Tomasz Tunguz 博客（VC 分析）",
-   "url": "https://aihot.news/items/clggowmf6nncm154a78nnizft",
-   "time": "10-06 08:00",
    "category": "tip"
   }
  ],
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-07 11:52",
+   "updateTime": "2026-10-07 19:14",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《明日方舟：终末地》「丹青渡」版本前瞻特别节目回顾",
-     "url": "https://www.bilibili.com/video/BV1uHpw6jEn8",
-     "hot": 1077467
+     "title": "“但凡少一个契机，两个人就不会相遇”【Night Crusing-降调】【世界线の小曲】",
+     "url": "https://www.bilibili.com/video/BV1Wupc6vEY2",
+     "hot": 818382
     },
     {
-     "title": "《明日方舟：终末地》核心章节「丹青渡」版本PV",
-     "url": "https://www.bilibili.com/video/BV1NCHf6eE6j",
-     "hot": 1516256
+     "title": "当所有植物274株叠种在一起 哪些僵尸能击败它呢？",
+     "url": "https://www.bilibili.com/video/BV1JEH46hEsu",
+     "hot": 1216460
     },
     {
-     "title": "《明日方舟：终末地》特别映像「宏山」",
-     "url": "https://www.bilibili.com/video/BV1z6pw6AEBD",
-     "hot": 855812
+     "title": "不烧心的作业我不写！！！",
+     "url": "https://www.bilibili.com/video/BV15Gpw6pEzh",
+     "hot": 1730555
     },
     {
-     "title": "VCTCN冠军赛单曲《朝天门·改》【bilibili次元干杯】",
-     "url": "https://www.bilibili.com/video/BV1hvpc6mELd",
-     "hot": 848996
-    },
-    {
-     "title": "去台湾地区管辖的马祖列岛旅行...",
-     "url": "https://www.bilibili.com/video/BV1XGpF6CEwq",
-     "hot": 1038316
-    },
-    {
-     "title": "【算命TV】反封建迷信第一人重拳出击（字面意思）",
-     "url": "https://www.bilibili.com/video/BV1Hqpw6KEw7",
-     "hot": 1049321
-    },
-    {
-     "title": "当你意识到来不及写国庆作业时",
-     "url": "https://www.bilibili.com/video/BV1UqH46jEef",
-     "hot": 2830245
-    },
-    {
-     "title": "反向旅游 陕西铜川！这次我要把铜川拍透…",
-     "url": "https://www.bilibili.com/video/BV1QuHx6mE4e",
-     "hot": 594406
-    },
-    {
-     "title": "王之谢幕！梅西一射两传完美告别阿根廷国家队，奥塔门迪破门，阿根廷3比0贝宁！",
-     "url": "https://www.bilibili.com/video/BV1z2pK6yEQo",
-     "hot": 135115
-    },
-    {
-     "title": "烧 心 大 赛 ！【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1xNH46gEkv",
-     "hot": 1585660
+     "title": "【纪录片】门捷列夫很忙 第1集 门捷列夫不知道",
+     "url": "https://www.bilibili.com/video/BV1Shht6CEd1",
+     "hot": 290115
     },
     {
      "title": "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
      "url": "https://www.bilibili.com/video/BV1Uppw6yEMr",
-     "hot": 952336
+     "hot": 1383021
     },
     {
-     "title": "<何谓凛冬>",
-     "url": "https://www.bilibili.com/video/BV1XKHx6SEtZ",
-     "hot": 402570
+     "title": "VCTCN冠军赛单曲《朝天门·改》【bilibili次元干杯】",
+     "url": "https://www.bilibili.com/video/BV1hvpc6mELd",
+     "hot": 1458318
+    },
+    {
+     "title": "反向旅游 陕西铜川！这次我要把铜川拍透…",
+     "url": "https://www.bilibili.com/video/BV1QuHx6mE4e",
+     "hot": 1643439
+    },
+    {
+     "title": "带三个姑娘相亲，现场真炸裂，这就是乡村爱情故事吗？",
+     "url": "https://www.bilibili.com/video/BV1ZfHs6sEHf",
+     "hot": 1168289
+    },
+    {
+     "title": "动态视频｜把硬币丢进杯子里赢得10000元！",
+     "url": "https://www.bilibili.com/video/BV175Hp6mE6c",
+     "hot": 918091
+    },
+    {
+     "title": "自从买了二手车修车技术直线提升",
+     "url": "https://www.bilibili.com/video/BV1k4HW6tE9e",
+     "hot": 897873
+    },
+    {
+     "title": "当我用莫奈的眼睛看长白山，才发现那些细节也太惊艳了！",
+     "url": "https://www.bilibili.com/video/BV1QgHZ6TEei",
+     "hot": 800575
+    },
+    {
+     "title": "烧 心 大 赛 ！【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1xNH46gEkv",
+     "hot": 2798341
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "Mizuho IR策略师预计美国经济放缓料推动日元汇率年底升至153",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukhki8334160.shtml",
+   "title": "美团：2026国庆长线游预订同比增25%，超三成用户在目的地停留至少3天",
+   "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniukxfz8108415.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "AMD首席执行官苏姿丰将与三星半导体负责人会面 应对内存短缺",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukhkr4939613.shtml",
+   "title": "抖音生活服务：AI入口首次成为假日消费新场景，“豆包订酒店”下单量环比增56%",
+   "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniukxhc4870807.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "蔚来换电单日总量达183664次再创历史新高，累计提供超过1.27亿次换电服务",
-   "url": "https://finance.sina.com.cn/wm/2026-10-07/doc-iniukhkn6196959.shtml",
+   "title": "德国8月工业产出反弹，创2025年初以来最强增幅",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksyh6031807.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "HubSpot裁员7%，称并非因为AI",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaaq6289941.shtml",
+   "title": "比特币跌破8.4万美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksym4748320.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "法国政府准备动用宪法权力绕过议会通过预算削减案",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaam8357985.shtml",
+   "title": "美国政府关联钱包转移逾1亿美元加密货币 尚未确认出售",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksyf4959809.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OKX获多家机构投资 估值250亿美元推进金融科技平台转型",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaam8356505.shtml",
+   "title": "耐克资深高管推动中国市场转型",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksyc8158559.shtml",
    "source": "新浪科技"
   }
  ]
