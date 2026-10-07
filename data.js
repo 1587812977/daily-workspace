@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-07 19:14",
+ "updatedAt": "2026-10-08 03:02",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Mistral 发布 Large 4 预览版，月底开放权重",
    "source": "Artificial Analysis 完整文章（网页）",
    "url": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk",
-   "time": "10-07 04:18",
-   "sourceCount": 19
+   "time": "10-07 22:12",
+   "sourceCount": 16
   },
   {
    "rank": 2,
@@ -20,177 +20,177 @@ var WB_DATA = {
   },
   {
    "rank": 3,
-   "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
-   "source": "Gemini API：更新日志（网页）",
-   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
-   "time": "10-07 13:07",
-   "sourceCount": 12
+   "title": "SpaceX 宣布 Grok Bot 按任务选用最佳后端模型",
+   "source": "X：Testing Catalog (@testingcatalog)",
+   "url": "https://aihot.news/items/dbhowpb183i256684uz2527i1",
+   "time": "10-07 23:04",
+   "sourceCount": 3
   },
   {
    "rank": 4,
-   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
-   "time": "10-07 15:32",
-   "sourceCount": 11
+   "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
+   "time": "10-08 02:52",
+   "sourceCount": 6
   },
   {
    "rank": 5,
+   "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
+   "source": "Gemini API：更新日志（网页）",
+   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
+   "time": "10-07 11:47",
+   "sourceCount": 11
+  },
+  {
+   "rank": 6,
+   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
+   "time": "10-07 23:20",
+   "sourceCount": 10
+  },
+  {
+   "rank": 7,
+   "title": "Google 全球开放 SynthID 水印检测器",
+   "source": "X：Google (@Google)",
+   "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo",
+   "time": "10-08 01:50",
+   "sourceCount": 5
+  },
+  {
+   "rank": 8,
    "title": "Reflection 发布 501B 开源模型 Beam，本月放权重",
-   "source": "Hacker News：AI 热帖",
+   "source": "Reflection Blog",
    "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
    "time": "10-07 01:17",
    "sourceCount": 11
   },
   {
-   "rank": 6,
-   "title": "OpenAI在欧盟为ChatGPT文本加隐形水印",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz",
-   "time": "10-07 04:50",
-   "sourceCount": 8
-  },
-  {
-   "rank": 7,
-   "title": "SpaceX 宣布按任务选用最佳后端模型",
-   "source": "X：Elon Musk (@elonmusk, xAI)",
-   "url": "https://aihot.news/items/n4k46z7om6jpr0mqvpr7picv6",
-   "time": "10-07 17:38",
-   "sourceCount": 2
-  },
-  {
-   "rank": 8,
-   "title": "SpaceX洽谈借款400亿美元采购英伟达芯片",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/xoabqybtd9qrfmikalao9gba8",
-   "time": "10-07 09:21",
-   "sourceCount": 2
-  },
-  {
    "rank": 9,
-   "title": "Anthropic扩展CVP，三档开放Claude网络能力",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/a96x4zt1tn3um8h49nz2kqgpc",
-   "time": "10-07 07:20",
-   "sourceCount": 3
+   "title": "Google 推出实验性 AI 游戏平台 Playground",
+   "source": "Google Blog：AI（RSS）",
+   "url": "https://aihot.news/items/f6gwhhu7370v7h37gkrncldvf",
+   "time": "10-07 23:41",
+   "sourceCount": 4
   },
   {
    "rank": 10,
-   "title": "DeepSeek接近完成至少800亿元融资",
-   "source": "X：X.PIN (@thexpin)",
-   "url": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j",
-   "time": "10-07 01:32",
-   "sourceCount": 4
+   "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/uir31g728myjry383z17txvrw",
+   "time": "10-08 02:24",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
   {
-   "title": "Mistral Large 4 进入 Code Arena: WebDev 排名第45，得分1534",
-   "summary": "Arena 宣布 Mistral Large 4 登陆 Code Arena: WebDev，以 1534 分排名第 45，比 Mistral Large 3（第130名）高 304 分，比 Mistral Medium 3.5 高 271 分。",
-   "reason": "Arena 实测数据显示 Mistral Large 4 的编码得分、排名和价格对比，可帮读者评估其性价比位置。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/kxqn0rzbtjdxg7ibbjge08tzt",
-   "time": "10-07 14:18",
-   "category": "ai-models"
-  },
-  {
-   "title": "PromptArmor 解析 WebMCP 的工作机制与安全风险",
-   "summary": "PromptArmor 发布 WebMCP 解析文章，介绍这项让网站直接向 AI 智能体提供工具的技术的机制与采用情况。",
-   "reason": "原文系统拆解 WebMCP 的机制、厂商采用现状和治理、提示词注入等新增风险，可作为评估供应商 WebMCP 暴露面的参考框架。",
-   "source": "PromptArmor：Threat Intelligence",
-   "url": "https://aihot.news/items/aj31qyu01hx95ra5sq2f0k5a9",
-   "time": "10-06 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "Cursor iOS 应用支持远程控制本地智能体",
-   "summary": "Cursor 在 iOS 应用中上线本地智能体远程控制，用户可查看并回复电脑上正在运行的智能体。除企业组织外默认对所有用户开启，登录后账户中的电脑自动显示，在桌面应用批准配对即可使用。智能体仍在本机运行，需电脑保持开机联网，可在设置中开启防止休眠选项，企业管理员可在 Org settings 中开启此功能。",
-   "reason": "原文说明了远程控制的开启方式、配对流程和电脑需保持开机的限制，读者可据此判断是否适合在自己的工作流中使用。",
-   "source": "Cursor：Changelog（网页）",
-   "url": "https://aihot.news/items/wbd0ik8kqdtpjw5u8kjsudqms",
-   "time": "10-06 08:00",
+   "title": "Cursor 公布 Claude Haiku 5.5 定价并下调 Claude Sonnet 5.5 缓存读取价格",
+   "summary": "Cursor 公布 Claude Haiku 5.5 定价为每 M 输入 token $0.10、输出 token $0.50，输入超过 100k token 时为 $0.50/M 和 $2.50/M。Claude Sonnet 5.5 缓存读取价格也从 $0.20/M 降至 $0.10/M，用户可在 cursor.com/evals 上通过 CursorBench 对比 Haiku 5.5 的表现。",
+   "reason": "原文给出了 Claude Haiku 5.5 具体定价和 Sonnet 5.5 缓存读取降价，可帮助开发者评估在 Cursor 上的使用成本。",
+   "source": "X：Cursor (@cursor_ai)",
+   "url": "https://aihot.news/items/vk1sotxx6v25hhgn55mwgv4nv",
+   "time": "10-08 02:14",
    "category": "ai-products"
   },
   {
-   "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
-   "summary": "OpenAI 发布一批由内部前沿模型产出的新数学成果，成果以 GitHub 仓库形式公开，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。",
-   "reason": "原文说明了成果发布方式、Lean 形式化和计算开销等细节，读者可以了解 AI 数学成果如何面向数学社区开放。",
+   "title": "OpenAI 向所有 ChatGPT 用户开放 GPT-6，并推出 Intelligent UI",
+   "summary": "OpenAI 宣布将 GPT-6 推向更广泛的用户，覆盖每周使用 ChatGPT 的超过 12 亿人。GPT-6 引入 Intelligent UI，可根据问题组合文本、图表、按钮、表单和交互组件，甚至直接在对话中创建小工具，其背后是一套原生可流式组件库和一个随生成逐步呈现界面的编译器。",
+   "reason": "原文解释了 Intelligent UI 的组件库和流式编译机制，并给出 GPT-6 与 GPT-5.6 的响应速度对比数据。",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
-   "time": "10-07 07:01",
-   "category": "paper"
-  },
-  {
-   "title": "GitHub 重建 Git 基础设施，应对智能体规模开发",
-   "summary": "GitHub 宣布重建 Git 基础设施，以支持智能体规模开发带来的高并发读写负载。2026 年 8 月 GitHub 月度 Git 事件量达 473.3 billion（一年翻倍以上），9 月智能体和开发者产生 7.38 billion commits（超一年前五倍），pushes 同比增长 4.9 倍。",
-   "reason": "GitHub 工程方亲述面向智能体规模开发重建 Git 基础设施的动因与设计原则，含内部基准写吞吐最高 35 倍等一手数据。",
-   "source": "GitHub Blog",
-   "url": "https://aihot.news/items/iq15z1msend1ocusxt2phyms7",
-   "time": "10-07 04:57",
-   "category": "industry"
-  },
-  {
-   "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
-   "summary": "Sierra 与 Meta 联合 Genesys、Instinct、Rocket、Shopify、Stripe、Walmart 等伙伴宣布开发 Personal Agent Protocol，一个定义个人 AI 智能体如何与企业交互的开放标准，任何人都可实现。",
-   "reason": "原文来自协议发起方，说明了认证方式、三种接入路径和后续规范计划，读者可以据此评估个人智能体与企业的连接方式。",
-   "source": "Sierra：Blog（RSS）",
-   "url": "https://aihot.news/items/ktjti7hbm1gor33jpoc6ghili",
-   "time": "10-07 01:32",
-   "category": "industry"
-  },
-  {
-   "title": "METR 演示 AI 智能体如何篡改 Inspect 评估记录以掩盖不当行为",
-   "summary": "METR 发布分析，指出当前 AI 失准行为仍在推理轨迹和日志中留下大量证据，但未来智能体可能篡改人类用来审查它们的可观测性系统。在 Inspect 评估框架的转录查看器中，研究人员在 AI 智能体协助下约 10 分钟找到一个客户端 JavaScript 注入漏洞，可让智能体任意修改审查者看到的内容（真实数据仍保留在数据库中）；Meridian Labs 在报告后一天内修复。",
-   "reason": "METR用Inspect查看器漏洞做了概念验证，说明AI输出的日志应被当作不可信输入，并提出把可观测性按安全关键基础设施对待。",
-   "source": "METR：Blog（网页）",
-   "url": "https://aihot.news/items/s3bsk24s6z9jxpbv5p7ju67xz",
-   "time": "10-06 00:00",
-   "category": "paper"
-  },
-  {
-   "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
-   "summary": "Claude 宣布推出 Claude for Google Workspace（beta），一次安装即可覆盖 Google Docs、Sheets 和 Slides。",
-   "reason": "官方发布说明了在 Docs、Sheets、Slides 中就地编辑的工作方式，读者可据此判断是否要装进自己的付费计划。",
-   "source": "Claude：YouTube（RSS）",
-   "url": "https://aihot.news/items/sah5vczzr22l9ieb4bxrpoowd",
-   "time": "10-07 01:02",
+   "url": "https://aihot.news/items/uir31g728myjry383z17txvrw",
+   "time": "10-08 02:00",
    "category": "ai-products"
   },
   {
-   "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
-   "summary": "Google DeepMind 发布 EmbeddingGemma 2，基于 Gemma 4 架构，以 Apache 2.0 许可开源，将文本、代码、图像、视频和音频映射到统一嵌入空间。",
-   "reason": "官方发布给出参数量、内存占用、维度裁剪和基准分数等具体细节，读者可据此评估端侧多模态嵌入方案的可行性。",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
-   "time": "10-07 03:57",
-   "category": "ai-models"
-  },
-  {
-   "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2",
-   "summary": "Google DeepMind 于 10 月 6 日发布开放权重的多模态嵌入模型 EmbeddingGemma 2，将文本、图像、视频帧和音频映射到统一向量空间，参数量 740M。",
-   "reason": "原文给出内存占用、延迟和多种开发入口的具体数据，读者可以据此评估在本地多模态检索场景的落地方式。",
-   "source": "Google Developers Blog（RSS）",
-   "url": "https://aihot.news/items/arlkhdtjzshqi1qdyowqvtwyy",
-   "time": "10-06 08:00",
+   "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+   "summary": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
+   "reason": "发布说明列出了新增默认 Haiku 模型、脚本接口扩展和大量稳定性修复，读者可据此判断是否升级及影响现有工作流。",
+   "source": "Claude Code：GitHub Releases（RSS）",
+   "url": "https://aihot.news/items/vd2lvzvjz4tujiqupl30ifq3k",
+   "time": "10-08 02:10",
    "category": "ai-products"
   },
   {
-   "title": "Gemini Nano Banana 2.1 图像生成模型正式发布，gemini-3.1-flash-image 被弃用",
-   "summary": "Google 在 Gemini API 更新日志中宣布 Gemini Nano Banana 2.1（gemini-nano-banana-2.1）正式可用，作为 Nano Banana 2（gemini-3.1-flash-image）的更新版本。",
-   "reason": "原文列出新模型相对上一代的具体提升点和新支持的比例与分辨率，可帮助图像生成用户判断是否迁移。",
-   "source": "Gemini API：更新日志（网页）",
-   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
-   "time": "10-06 08:00",
+   "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
+   "summary": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
+   "reason": "原文给出了 Max 和 Team 套餐的月度 API 额度金额与适用范围，读者可据此判断是否值得调整现有订阅。",
+   "source": "X：Claude Devs (@ClaudeDevs)",
+   "url": "https://aihot.news/items/ponkn6n046yorr5pg1yv3yjm5",
+   "time": "10-08 02:08",
+   "category": "ai-products"
+  },
+  {
+   "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
+   "summary": "Anthropic 发布 Claude Haiku 5.5，定位为迄今最便宜、最快的小模型，适合摘要、压缩、数据库查询、分类等高吞吐任务，并可搭配 Opus 5.5 和 Sonnet 5.5 担任编码子智能体。",
+   "reason": "官方发布了定价、基准成绩与订阅 API 额度变化，读者可以据此评估小模型在低成本智能体任务中的适用场景。",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/lqyhqdf0u7iksn5ydnpyhk81x",
+   "time": "10-07 00:00",
    "category": "ai-models"
   },
   {
-   "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
-   "summary": "Claude Code 推出云端会话：每个任务在独立 VM 上运行，仓库克隆到新分支，可从 claude.ai/code、手机、Desktop、终端和 Slack 启动并跟踪，完成后产出可转 PR 的分支，Pro、Max、Team、Enterprise 计划不额外收费。",
-   "reason": "作者用四个真实云会话实测并行修复、文档校对和结构化日志，给出本地与云会话的选择边界和七个适用工作流。",
-   "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-   "url": "https://aihot.news/items/sxr71auxicu8uk3e4bqxol02h",
-   "time": "10-06 20:00",
+   "title": "Anthropic 将 Claude Sonnet 5.5 缓存读取价格减半至每百万 token $0.10",
+   "summary": "Anthropic 宣布将 Claude Sonnet 5.5 的缓存读取价格减半，降至每百万 token $0.10。官方称这使 Sonnet 5.5 在多数长期运行任务上的运行成本降低约 20%。",
+   "reason": "官方宣布缓存读取价格减半并给出长期任务成本降幅，可直接据此评估 Claude Sonnet 5.5 的使用成本。",
+   "source": "X：Claude (@claudeai)",
+   "url": "https://aihot.news/items/zn6imszjo14gki6kr2uyydknp",
+   "time": "10-08 02:01",
+   "category": "ai-products"
+  },
+  {
+   "title": "Stanford HAI 研究：想让员工拥抱 AI，别把它包装成效率工具",
+   "summary": "Stanford HAI 报道 Karunakaran 等人对律所、广告公司和 IT 服务公司的 AI 部署研究，发现把 AI 介绍为生产力工具时员工不愿使用，介绍为工作丰富化手段时使用意愿明显提升。在一家律所的对照观察中，以丰富工作为目标引入 AI 工具 LawBot 的部门，使用量比强调提效的部门高 58%，尝试新用法多 70%。研究还强调配套培训、探索时间和调整考核指标的重要性。",
+   "reason": "研究给出一个可操作的管理方法，把 AI 介绍为工作丰富化并配套培训和时间，比强调提效更能推动员工真正使用。",
+   "source": "Stanford HAI News（网页）",
+   "url": "https://aihot.news/items/kdyctdu2befn8m1jz1wgktb84",
+   "time": "10-07 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "Liquid AI 发布开源决策模型 d1-3B 和 d1-omni-600M",
+   "summary": "Liquid AI 发布开源权重决策模型 d1-3B 和 d1-omni-600M，已在 Hugging Face 上提供。",
+   "reason": "官方公开了模型架构、训练细节和各硬件延迟数据，读者可以据此评估小参数决策模型在边缘部署中的取舍。",
+   "source": "Liquid AI 模型与工程博客（网页）",
+   "url": "https://aihot.news/items/qawfhyw1v10hv75bld8ogbjgj",
+   "time": "10-07 08:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "Unsloth 开源教程：本地训练 Qwen3.5 0.8B 决策模型，准确率从 20.7% 提升至 74.3%",
+   "summary": "Unsloth 发布教程与开源仓库，可将 Qwen3.8、Gemma 4 等 LLM 微调为输出选项概率的决策模型，Qwen3.5 0.8B 在 3 个决策基准上的合计准确率从 20.7% 提到 74.3%，仅需 4GB 显存。",
+   "reason": "原文给出完整微调方法和前后准确率对比，读者可在 4GB 显存上复现把 LLM 转成决策模型的流程。",
+   "source": "X：Unsloth (@UnslothAI)",
+   "url": "https://aihot.news/items/y7db2ly158hip5dw1evmjw5kv",
+   "time": "10-08 00:21",
    "category": "tip"
+  },
+  {
+   "title": "Perplexity 开源 pplx-embed-v2-late 多模态 late-interaction 嵌入模型（9B 与 0.6B）",
+   "summary": "Perplexity 开源 pplx-embed-v2-late，两个针对文本和图像的 late-interaction 多向量嵌入模型，大小为 9B 和 0.6B，共享同一嵌入空间，权重已在 Hugging Face 提供。9B 可用于索引多模态数据，0.6B 可在设备端查询，无需 OCR 即可检索 PDF 页面；模型在 MADQA 得分 92.4%，BrowseComp+ 得分 64%。",
+   "reason": "原文给出两个规模的嵌入模型、共享空间用法和基准分数，读者可据此评估多模态检索与端侧查询的可行方案。",
+   "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+   "url": "https://aihot.news/items/lfy2ww68p9lgpxxhu5jssflwf",
+   "time": "10-08 00:33",
+   "category": "ai-models"
+  },
+  {
+   "title": "Microsoft Research Asia 开源 Agent Lightning v1.0：3,500 行代码的真实 harness 智能体 RL 训练框架",
+   "summary": "Microsoft Research Asia 提出 Harnessed Agentic RL 训练范式并开源重建的 Agent Lightning v1.0，让部署时使用的同一 agent harness 直接参与强化学习，无需在训练框架内重写 agent。",
+   "reason": "框架让部署中的真实 agent harness 直接参与 RL 训练，无需重写 agent 代码，还给出了端到端编码智能体训练效果作参考。",
+   "source": "Microsoft Research 博客（RSS）",
+   "url": "https://aihot.news/items/t9wypjd9cbb42ttuq7vrpp07l",
+   "time": "10-08 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "亚利桑那州法院裁定 AI 生成受害者视频带有不当情感分量 将重新量刑",
+   "summary": "亚利桑那州上诉法院裁定，Gabriel Horcasitas 2021 年路怒枪杀 Christopher Pelkey 一案维持过失杀人定罪，但因量刑听证中播放的 AI 生成受害者视频带有不当情感分量，法官须重新考虑刑期。",
+   "reason": "报道记录了美国法院首次承认 AI 生成受害者视频影响量刑的案例，可帮助读者理解 AI 生成内容进入司法程序的边界争议。",
+   "source": "404 Media（RSS）",
+   "url": "https://aihot.news/items/iz93flwr7h9m7po4wnu8sm4hy",
+   "time": "10-07 22:46",
+   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-07 19:14",
+   "updateTime": "2026-10-08 03:03",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "“但凡少一个契机，两个人就不会相遇”【Night Crusing-降调】【世界线の小曲】",
-     "url": "https://www.bilibili.com/video/BV1Wupc6vEY2",
-     "hot": 818382
+     "title": "耗时一年，改造善良老人晚年，完整后续来了！",
+     "url": "https://www.bilibili.com/video/BV1pMH46MEmw",
+     "hot": 722355
     },
     {
-     "title": "当所有植物274株叠种在一起 哪些僵尸能击败它呢？",
-     "url": "https://www.bilibili.com/video/BV1JEH46hEsu",
-     "hot": 1216460
-    },
-    {
-     "title": "不烧心的作业我不写！！！",
-     "url": "https://www.bilibili.com/video/BV15Gpw6pEzh",
-     "hot": 1730555
-    },
-    {
-     "title": "【纪录片】门捷列夫很忙 第1集 门捷列夫不知道",
-     "url": "https://www.bilibili.com/video/BV1Shht6CEd1",
-     "hot": 290115
-    },
-    {
-     "title": "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
-     "url": "https://www.bilibili.com/video/BV1Uppw6yEMr",
-     "hot": 1383021
+     "title": "莫言的同学，《水浒传》编剧，竟是灭门案凶手？万字解析《悬案：旅馆案》上",
+     "url": "https://www.bilibili.com/video/BV1CXH66yECC",
+     "hot": 303706
     },
     {
      "title": "VCTCN冠军赛单曲《朝天门·改》【bilibili次元干杯】",
      "url": "https://www.bilibili.com/video/BV1hvpc6mELd",
-     "hot": 1458318
+     "hot": 1899066
+    },
+    {
+     "title": "《要是我能快点长大就好了》",
+     "url": "https://www.bilibili.com/video/BV1x1Hf6AE5V",
+     "hot": 509518
+    },
+    {
+     "title": "当道士下山上大学",
+     "url": "https://www.bilibili.com/video/BV17Kpw64EMX",
+     "hot": 1856376
+    },
+    {
+     "title": "【科学史】那些年，科学家用光遗传做的鬼畜实验……",
+     "url": "https://www.bilibili.com/video/BV1aMpu6MEdc",
+     "hot": 512873
     },
     {
      "title": "反向旅游 陕西铜川！这次我要把铜川拍透…",
      "url": "https://www.bilibili.com/video/BV1QuHx6mE4e",
-     "hot": 1643439
+     "hot": 2325507
     },
     {
-     "title": "带三个姑娘相亲，现场真炸裂，这就是乡村爱情故事吗？",
-     "url": "https://www.bilibili.com/video/BV1ZfHs6sEHf",
-     "hot": 1168289
+     "title": "在大山支教 学校宿舍水太小又冷，已经半个月没洗澡了，扛不住了抓住假期的尾巴出山进城开房洗澡 买菜 拿物资..",
+     "url": "https://www.bilibili.com/video/BV1aWHC6wEP5",
+     "hot": 203087
     },
     {
-     "title": "动态视频｜把硬币丢进杯子里赢得10000元！",
-     "url": "https://www.bilibili.com/video/BV175Hp6mE6c",
-     "hot": 918091
+     "title": "【数据删除】54名干员慨然赴死，以遗志刺破停滞的时间——《k-96时停对策雷》",
+     "url": "https://www.bilibili.com/video/BV1Zypw68EaG",
+     "hot": 550838
     },
     {
-     "title": "自从买了二手车修车技术直线提升",
-     "url": "https://www.bilibili.com/video/BV1k4HW6tE9e",
-     "hot": 897873
+     "title": "【完整版】纪录片《缅北电诈覆灭纪实》第三集《共筑天网》",
+     "url": "https://www.bilibili.com/video/BV1EDHC6CEDJ",
+     "hot": 306792
     },
     {
-     "title": "当我用莫奈的眼睛看长白山，才发现那些细节也太惊艳了！",
-     "url": "https://www.bilibili.com/video/BV1QgHZ6TEei",
-     "hot": 800575
+     "title": "去台湾地区管辖的马祖列岛旅行...",
+     "url": "https://www.bilibili.com/video/BV1XGpF6CEwq",
+     "hot": 1889869
     },
     {
-     "title": "烧 心 大 赛 ！【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1xNH46gEkv",
-     "hot": 2798341
+     "title": "吃了不烧心是什么梗【梗指南】",
+     "url": "https://www.bilibili.com/video/BV1N2pc6gErK",
+     "hot": 1185918
     }
    ]
   }
@@ -748,6 +748,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "传小米MIUI战略合作负责人李楠离职",
+   "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniumcqf4560610.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "美团：2026国庆长线游预订同比增25%，超三成用户在目的地停留至少3天",
    "url": "https://finance.sina.com.cn/roll/2026-10-07/doc-iniukxfz8108415.shtml",
    "source": "新浪科技"
@@ -770,11 +775,6 @@ var WB_DATA = {
   {
    "title": "美国政府关联钱包转移逾1亿美元加密货币 尚未确认出售",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksyf4959809.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "耐克资深高管推动中国市场转型",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuksyc8158559.shtml",
    "source": "新浪科技"
   }
  ]
