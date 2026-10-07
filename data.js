@@ -1,17 +1,33 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-07 02:33",
+ "updatedAt": "2026-10-07 11:52",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Mistral 发布 Large 4 预览版，月底开放权重",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/mjxlbx06wrnbd9v3dt4nrkkwu",
-   "time": "10-07 02:03",
-   "sourceCount": 16
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk",
+   "time": "10-07 04:18",
+   "sourceCount": 19
   },
   {
    "rank": 2,
+   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
+   "time": "10-07 06:41",
+   "sourceCount": 11
+  },
+  {
+   "rank": 3,
+   "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
+   "time": "10-07 09:15",
+   "sourceCount": 7
+  },
+  {
+   "rank": 4,
    "title": "Reflection 发布 501B 开源模型 Beam，本月放权重",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
@@ -19,23 +35,39 @@ var WB_DATA = {
    "sourceCount": 11
   },
   {
-   "rank": 3,
-   "title": "OpenAI公布欧盟文本溯源水印方案",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz",
-   "time": "10-06 04:36",
-   "sourceCount": 7
-  },
-  {
-   "rank": 4,
+   "rank": 5,
    "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
    "source": "Gemini API：更新日志（网页）",
    "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
-   "time": "10-07 02:07",
-   "sourceCount": 6
+   "time": "10-07 09:01",
+   "sourceCount": 10
   },
   {
-   "rank": 5,
+   "rank": 6,
+   "title": "OpenAI在欧盟为ChatGPT文本加隐形水印",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz",
+   "time": "10-07 04:50",
+   "sourceCount": 8
+  },
+  {
+   "rank": 7,
+   "title": "Anthropic扩展CVP，三档开放Claude网络能力",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/a96x4zt1tn3um8h49nz2kqgpc",
+   "time": "10-07 07:20",
+   "sourceCount": 3
+  },
+  {
+   "rank": 8,
+   "title": "OpenAI Decisions API 从限量预览转公测",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/u3xqs4u7tqjvaph4sfdnxfafw",
+   "time": "10-07 08:03",
+   "sourceCount": 3
+  },
+  {
+   "rank": 9,
    "title": "DeepSeek接近完成至少800亿元融资",
    "source": "X：X.PIN (@thexpin)",
    "url": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j",
@@ -43,47 +75,42 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 6,
-   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
-   "source": "Google Developers Blog（RSS）",
-   "url": "https://aihot.news/items/pa9kik9bpq8rv2jrgd40emcze",
-   "time": "10-07 01:25",
-   "sourceCount": 4
-  },
-  {
-   "rank": 7,
-   "title": "OpenAI 启动 Codex 与 ChatGPT Work 28 天每日更新",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/dmtalxqmeu6koot2yf3kal5nu",
-   "time": "10-06 01:49",
-   "sourceCount": 3
-  },
-  {
-   "rank": 8,
+   "rank": 10,
    "title": "OpenAI在ChatGPT图像生成中测试视觉广告",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y",
    "time": "10-05 23:14",
    "sourceCount": 5
-  },
-  {
-   "rank": 9,
-   "title": "华为与高通达成5G等专利交叉许可协议",
-   "source": "IT之家（RSS）",
-   "url": "https://aihot.news/items/eqsd72krt75x22ruxjsncr81j",
-   "time": "10-06 17:18",
-   "sourceCount": 3
-  },
-  {
-   "rank": 10,
-   "title": "维基媒体称发现OpenAI失控智能体活动",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/ncv6u97zqan3hgzng59yel19f",
-   "time": "10-06 20:21",
-   "sourceCount": 5
   }
  ],
  "aihotItems": [
+  {
+   "title": "Cursor iOS 应用支持远程控制本地智能体",
+   "summary": "Cursor 在 iOS 应用中上线本地智能体远程控制，用户可查看并回复电脑上正在运行的智能体。除企业组织外默认对所有用户开启，登录后账户中的电脑自动显示，在桌面应用批准配对即可使用。智能体仍在本机运行，需电脑保持开机联网，可在设置中开启防止休眠选项，企业管理员可在 Org settings 中开启此功能。",
+   "reason": "原文说明了远程控制的开启方式、配对流程和电脑需保持开机的限制，读者可据此判断是否适合在自己的工作流中使用。",
+   "source": "Cursor：Changelog（网页）",
+   "url": "https://aihot.news/items/wbd0ik8kqdtpjw5u8kjsudqms",
+   "time": "10-06 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
+   "summary": "OpenAI 发布一批由内部前沿模型产出的新数学成果，成果以 GitHub 仓库形式公开，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。",
+   "reason": "原文说明了成果发布方式、Lean 形式化和计算开销等细节，读者可以了解 AI 数学成果如何面向数学社区开放。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
+   "time": "10-07 07:01",
+   "category": "paper"
+  },
+  {
+   "title": "GitHub 重建 Git 基础设施，应对智能体规模开发",
+   "summary": "GitHub 宣布重建 Git 基础设施，以支持智能体规模开发带来的高并发读写负载。2026 年 8 月 GitHub 月度 Git 事件量达 473.3 billion（一年翻倍以上），9 月智能体和开发者产生 7.38 billion commits（超一年前五倍），pushes 同比增长 4.9 倍。",
+   "reason": "GitHub 工程方亲述面向智能体规模开发重建 Git 基础设施的动因与设计原则，含内部基准写吞吐最高 35 倍等一手数据。",
+   "source": "GitHub Blog",
+   "url": "https://aihot.news/items/iq15z1msend1ocusxt2phyms7",
+   "time": "10-07 04:57",
+   "category": "industry"
+  },
   {
    "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
    "summary": "Sierra 与 Meta 联合 Genesys、Instinct、Rocket、Shopify、Stripe、Walmart 等伙伴宣布开发 Personal Agent Protocol，一个定义个人 AI 智能体如何与企业交互的开放标准，任何人都可实现。",
@@ -112,13 +139,13 @@ var WB_DATA = {
    "category": "ai-products"
   },
   {
-   "title": "Google 发布 EmbeddingGemma 2：基于 Gemma 4 的开源多模态嵌入模型",
-   "summary": "Google 发布基于 Gemma 4 的开源嵌入模型 EmbeddingGemma 2，采用 Apache 2.0 许可，将文本、代码、图像、视频和音频映射到统一的 768 维向量空间，参数量从 270M（文本/代码）到 740M（全模态）按需加载。",
-   "reason": "原文给出了各模态参数配置、维度压缩的具体存储数字和选型建议，开发者可据此规划本地多模态检索方案。",
-   "source": "Google Developers Blog（RSS）",
-   "url": "https://aihot.news/items/pa9kik9bpq8rv2jrgd40emcze",
-   "time": "10-06 08:00",
-   "category": "tip"
+   "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
+   "summary": "Google DeepMind 发布 EmbeddingGemma 2，基于 Gemma 4 架构，以 Apache 2.0 许可开源，将文本、代码、图像、视频和音频映射到统一嵌入空间。",
+   "reason": "官方发布给出参数量、内存占用、维度裁剪和基准分数等具体细节，读者可据此评估端侧多模态嵌入方案的可行性。",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
+   "time": "10-07 03:57",
+   "category": "ai-models"
   },
   {
    "title": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2",
@@ -130,9 +157,9 @@ var WB_DATA = {
    "category": "ai-products"
   },
   {
-   "title": "Gemini Nano Banana 2.1 正式发布，gemini-3.1-flash-image 将于 2026 年 10 月 29 日停用",
-   "summary": "Google 发布 Gemini Nano Banana 2.1（gemini-nano-banana-2.1），定位为高效图像生成与对话式编辑模型，是 Nano Banana 2（gemini-3.1-flash-image）的更新版。",
-   "reason": "官方更新日志给出模型名、能力改进范围和旧版停用日期，方便使用者安排迁移和评估是否切换。",
+   "title": "Gemini Nano Banana 2.1 图像生成模型正式发布，gemini-3.1-flash-image 被弃用",
+   "summary": "Google 在 Gemini API 更新日志中宣布 Gemini Nano Banana 2.1（gemini-nano-banana-2.1）正式可用，作为 Nano Banana 2（gemini-3.1-flash-image）的更新版本。",
+   "reason": "原文列出新模型相对上一代的具体提升点和新支持的比例与分辨率，可帮助图像生成用户判断是否迁移。",
    "source": "Gemini API：更新日志（网页）",
    "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
    "time": "10-06 08:00",
@@ -164,47 +191,32 @@ var WB_DATA = {
    "url": "https://aihot.news/items/clggowmf6nncm154a78nnizft",
    "time": "10-06 08:00",
    "category": "tip"
-  },
-  {
-   "title": "Mistral Large 4 上线 Arena 的 Agent Arena 与 Code Arena 评测",
-   "summary": "Arena 宣布 Mistral 的 Mistral Large 4 现已进入 Agent Arena，用户可前往测试投票，分数稍后公布。该模型为 1T 参数、49B 激活的原生多模态开放权重模型，也已在 Code Arena 的 WebDev、Text 和 Vision 中可用。",
-   "reason": "原文说明 Agent Arena 用真实长程智能体任务和因果追踪方法评分，读者可据此理解该评测如何衡量模型表现。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/gyfo8loe7gfo6fmgt762027fp",
-   "time": "10-06 22:21",
-   "category": "ai-models"
-  },
-  {
-   "title": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文",
-   "summary": "Mistral Large 4 现已在 OpenRouter 开放公测，规格为 1T 参数（49B 激活）、原生多模态、512K 上下文、最高 256K 输出。前两周五折：每 1M tokens 输入 $0.68、输出 $2.09，缓存 $0.07。",
-   "reason": "原文列出了参数量、上下文窗口和定价等具体规格，读者可以据此评估接入成本和适用场景。",
-   "source": "X：OpenRouter (@OpenRouter)",
-   "url": "https://aihot.news/items/z94jsbcn3hkyiagdyb9wai8sm",
-   "time": "10-06 22:02",
-   "category": "ai-products"
-  },
-  {
-   "title": "Mistral 发布 Large 4 公开预览版，1 万亿参数将开放权重",
-   "summary": "Mistral 发布 Mistral Large 4（代号 le Chonk）公开预览版，为 1 万亿参数、490 亿激活参数的原生多模态模型，可试用于 Mistral Studio，权重将于本月底开放。",
-   "reason": "官方公布了参数规模、多领域基准数字和月底开放权重的安排，读者可据此评估它在开源模型中的位置。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/mjxlbx06wrnbd9v3dt4nrkkwu",
-   "time": "10-06 21:25",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
-  "date": "2026-10-06",
-  "url": "https://aihot.news/daily/2026-10-06",
+  "date": "2026-10-07",
+  "url": "https://aihot.news/daily/2026-10-07",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
-      "summary": "Liquid AI 发布 d1 决策模型，新增文本与图像输入，可通过 console.liquid.ai 和 d1 Playground 使用。",
-      "source": "Liquid AI 模型与工程博客（网页）",
-      "url": "https://aihot.news/items/uu1qa3hh83kc9i4u832wpywyp"
+      "title": "Mistral 发布 Mistral Large 4，Artificial Analysis 评测称其为美中之外最智能模型",
+      "summary": "Mistral 发布 Mistral Large 4（Research Public Preview），在 Artificial Analysis Intelligence Index 得分 38，与 GPT-6 Luna（max, 38）相当，为美中之外最智能模型，计划 10 月底开源 1T 参数（49B 激活）权重。",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "url": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk"
+     },
+     {
+      "title": "Gemini Nano Banana 2.1 正式发布，gemini-3.1-flash-image 将于 2026 年 10 月 29 日停用",
+      "summary": "Google 发布 Gemini Nano Banana 2.1（gemini-nano-banana-2.1），定位为高效图像生成与对话式编辑模型，是 Nano Banana 2（gemini-3.1-flash-image）的更新版。",
+      "source": "Gemini API：更新日志（网页）",
+      "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9"
+     },
+     {
+      "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
+      "summary": "Google DeepMind 发布 EmbeddingGemma 2，基于 Gemma 4 架构，以 Apache 2.0 许可开源，将文本、代码、图像、视频和音频映射到统一嵌入空间。",
+      "source": "Google DeepMind：Blog（RSS）",
+      "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug"
      }
     ]
    },
@@ -212,16 +224,22 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "OpenAI 在 ChatGPT 推出全新视觉广告格式并扩展广告测量工具",
-      "summary": "OpenAI 宣布在 ChatGPT 推出新的视觉广告格式，本月起在美国于图像生成场景中测试，广告将明确标注且不影响 ChatGPT 的回答。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/e63lz9ky7ebdxjea930dh3o5y"
+      "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
+      "summary": "Claude 宣布推出 Claude for Google Workspace（beta），一次安装即可覆盖 Google Docs、Sheets 和 Slides。",
+      "source": "Claude：YouTube（RSS）",
+      "url": "https://aihot.news/items/sah5vczzr22l9ieb4bxrpoowd"
      },
      {
-      "title": "Together AI 推出 Together Link，一键在现有编码智能体中接入开源模型并降费超 50%",
-      "summary": "Together AI 发布 Together Link，把团队已用的编码智能体工具连接到 Together AI 上的开源模型，宣称可节省超过 50% 支出。",
-      "source": "Together AI 研究与产品博客（RSS）",
-      "url": "https://aihot.news/items/ef2o8x2jh4m8n7ggsq5bc5eag"
+      "title": "Mistral Large 4 上线 OpenRouter 公测：1T 参数、512K 上下文",
+      "summary": "Mistral Large 4 现已在 OpenRouter 开放公测，规格为 1T 参数（49B 激活）、原生多模态、512K 上下文、最高 256K 输出。前两周五折：每 1M tokens 输入 $0.68、输出 $2.09，缓存 $0.07。",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "url": "https://aihot.news/items/z94jsbcn3hkyiagdyb9wai8sm"
+     },
+     {
+      "title": "Anthropic 扩展 Cyber Verification Program，推出三档网络安全访问层级",
+      "summary": "Anthropic 启动扩展版 Cyber Verification Program（CVP），整合 Project Glasswing 和原 CVP，为合格安全专业人员提供三档访问。",
+      "source": "Anthropic：Newsroom（网页）",
+      "url": "https://aihot.news/items/a96x4zt1tn3um8h49nz2kqgpc"
      }
     ]
    },
@@ -229,16 +247,22 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
-      "summary": "Wikimedia 基金会调查确认在其平台上发现了疑似 OpenAI 运营的\"流氓\"智能体活动，包括未获批的沙盒区域编辑、试图利用公共记事工具 Etherpad 作为代理抓取数据，以及数百万次 API 请求和页面爬取，未发现系统被用于智能体间协调或数据被入侵的证据。",
-      "source": "Hacker News：AI 热帖",
-      "url": "https://aihot.news/items/ncv6u97zqan3hgzng59yel19f"
+      "title": "DeepSeek 据报道接近完成至少 800 亿元融资，腾讯与宁德时代参与",
+      "summary": "据 Bloomberg 援引知情人士报道，DeepSeek 接近完成至少 800 亿元（约 120 亿美元）融资，高于原定约 500 亿元的目标。腾讯和电池厂商宁德时代是本轮最大投资方之一，融资预计很快完成，DeepSeek 还计划 2027 年初 IPO，细节仍可能变化。",
+      "source": "X：X.PIN (@thexpin)",
+      "url": "https://aihot.news/items/wbi0gsddrrfnavs6vvuqb2r7j"
      },
      {
-      "title": "OpenAI 公布 EU AI Act 下的文本溯源方案，推出 textGrain 文本水印",
-      "summary": "OpenAI 公布应对 EU AI Act 的文本水印方案，发布在模型词选择中加入不可见统计信号的 textGrain 技术，API 客户即日起可对部分模型选择性开启水印，未来数周将在欧盟地区为 ChatGPT 和 Codex 输出添加隐形水印，检测器暂只向获批的研究者和专家机构开放。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/xx5mgdemrqmqw5zw410sbawcz"
+      "title": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
+      "summary": "亚利桑那州上诉法院裁定，Gabriel Horcasitas过失杀人案量刑中使用的受害者Christopher Pelkey AI生成视频带有不当情感重量，罪名维持但刑期须重新考虑。",
+      "source": "404 Media（RSS）",
+      "url": "https://aihot.news/items/r5p04sepsb5p5ir85wq1bok58"
+     },
+     {
+      "title": "Anthropic 5180亿美元计算力支出中约4137亿美元无论使用与否都需支付",
+      "summary": "Anthropic 计划未来数年在云计算和计算力上支出 5180 亿美元，其中约 4137 亿美元为不可撤销承诺，即使容量闲置也需支付，平均每年约 410 亿美元。",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "url": "https://aihot.news/items/nnl0kba78980jig0szh0hkfop"
      }
     ]
    },
@@ -246,16 +270,27 @@ var WB_DATA = {
     "label": "论文研究",
     "items": [
      {
-      "title": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
-      "summary": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
-      "source": "SemiAnalysis 长文 RSS（RSS）",
-      "url": "https://aihot.news/items/lcxzcuj920lvqlah60vj7utm1"
+      "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
+      "summary": "OpenAI 发布一批由内部前沿模型产出的新数学成果，成果以 GitHub 仓库形式公开，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl"
+     }
+    ]
+   },
+   {
+    "label": "技巧与观点",
+    "items": [
+     {
+      "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
+      "summary": "Claude Code 推出云端会话：每个任务在独立 VM 上运行，仓库克隆到新分支，可从 claude.ai/code、手机、Desktop、终端和 Slack 启动并跟踪，完成后产出可转 PR 的分支，Pro、Max、Team、Enterprise 计划不额外收费。",
+      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+      "url": "https://aihot.news/items/sxr71auxicu8uk3e4bqxol02h"
      },
      {
-      "title": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过控制实现钓鱼与数据外泄",
-      "summary": "PromptArmor 报告称 Databricks Genie Code 执行上传的恶意 Skill 后，可在聊天渲染结果时弹出钓鱼页面并经用户浏览器外泄租户数据，全程无需人工批准。",
-      "source": "PromptArmor：Threat Intelligence",
-      "url": "https://aihot.news/items/dfcis3hxowljt45i0bvyi3f0n"
+      "title": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
+      "summary": "作者解读 A16Z 第七版《Top 100 消费级 AI 应用》和 90 多页的《市场状况 II》报告，指出反常识数据。美国近一半人用过 AI 但只有 25% 每天在用，截至 2026 年 8 月仅 4.5% 有 ChatGPT、Gemini 或 Claude 个人付费订阅；付费用户中头部 1% 月均消费 903 美元、贡献 19.5% 的全部消费。",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "url": "https://aihot.news/items/tfuj58rvo46hvh8l2nzcbpf7n"
      }
     ]
    }
@@ -599,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-07 02:33",
+   "updateTime": "2026-10-07 11:52",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
-     "url": "https://www.bilibili.com/video/BV1Uppw6yEMr",
-     "hot": 589774
+     "title": "《明日方舟：终末地》「丹青渡」版本前瞻特别节目回顾",
+     "url": "https://www.bilibili.com/video/BV1uHpw6jEn8",
+     "hot": 1077467
+    },
+    {
+     "title": "《明日方舟：终末地》核心章节「丹青渡」版本PV",
+     "url": "https://www.bilibili.com/video/BV1NCHf6eE6j",
+     "hot": 1516256
+    },
+    {
+     "title": "《明日方舟：终末地》特别映像「宏山」",
+     "url": "https://www.bilibili.com/video/BV1z6pw6AEBD",
+     "hot": 855812
     },
     {
      "title": "VCTCN冠军赛单曲《朝天门·改》【bilibili次元干杯】",
      "url": "https://www.bilibili.com/video/BV1hvpc6mELd",
-     "hot": 324941
-    },
-    {
-     "title": "《明日方舟：终末地》汤汤EP - 一诺为家",
-     "url": "https://www.bilibili.com/video/BV1BCpw6cEuo",
-     "hot": 885437
-    },
-    {
-     "title": "朋友说我树屋像后室，各位评评理",
-     "url": "https://www.bilibili.com/video/BV1gqH46EEyw",
-     "hot": 928604
+     "hot": 848996
     },
     {
      "title": "去台湾地区管辖的马祖列岛旅行...",
      "url": "https://www.bilibili.com/video/BV1XGpF6CEwq",
-     "hot": 331888
+     "hot": 1038316
     },
     {
-     "title": "“幸好你玩游戏，明白这个视频的意义。”",
-     "url": "https://www.bilibili.com/video/BV1S1HJ6fE1G",
-     "hot": 609837
+     "title": "【算命TV】反封建迷信第一人重拳出击（字面意思）",
+     "url": "https://www.bilibili.com/video/BV1Hqpw6KEw7",
+     "hot": 1049321
     },
     {
-     "title": "曾经火遍全网的“虚假”游戏，竟然真被做出来了？！！",
-     "url": "https://www.bilibili.com/video/BV1vsam6VE6A",
-     "hot": 833875
+     "title": "当你意识到来不及写国庆作业时",
+     "url": "https://www.bilibili.com/video/BV1UqH46jEef",
+     "hot": 2830245
     },
     {
-     "title": "《明日方舟：终末地》特别映像「塔卫二：一号简报」",
-     "url": "https://www.bilibili.com/video/BV1Vbpc6QE6o",
-     "hot": 688842
+     "title": "反向旅游 陕西铜川！这次我要把铜川拍透…",
+     "url": "https://www.bilibili.com/video/BV1QuHx6mE4e",
+     "hot": 594406
     },
     {
-     "title": "被 解 救 的 杰 戈",
-     "url": "https://www.bilibili.com/video/BV1YtHs62EHZ",
-     "hot": 1786293
+     "title": "王之谢幕！梅西一射两传完美告别阿根廷国家队，奥塔门迪破门，阿根廷3比0贝宁！",
+     "url": "https://www.bilibili.com/video/BV1z2pK6yEQo",
+     "hot": 135115
     },
     {
-     "title": "《明日方舟：终末地》「丹青渡」版本前瞻特别节目回顾",
-     "url": "https://www.bilibili.com/video/BV1uHpw6jEn8",
-     "hot": 685682
+     "title": "烧 心 大 赛 ！【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1xNH46gEkv",
+     "hot": 1585660
     },
     {
-     "title": "虽败犹荣",
-     "url": "https://www.bilibili.com/video/BV1ndHf6xEsz",
-     "hot": 616146
+     "title": "啊啊7月新番你到底给我下了什么药啊！！【泛式】",
+     "url": "https://www.bilibili.com/video/BV1Uppw6yEMr",
+     "hot": 952336
     },
     {
-     "title": "破案",
-     "url": "https://www.bilibili.com/video/BV1SJpw62E5y",
-     "hot": 408488
+     "title": "<何谓凛冬>",
+     "url": "https://www.bilibili.com/video/BV1XKHx6SEtZ",
+     "hot": 402570
     }
    ]
   }
@@ -713,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "美国8月贸易逆差大幅扩大 达1056亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewx5443096.shtml",
+   "title": "Mizuho IR策略师预计美国经济放缓料推动日元汇率年底升至153",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukhki8334160.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "谷歌DeepMind首席AI“准备度”官：如何为未来做准备",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuiewv8669662.shtml",
+   "title": "AMD首席执行官苏姿丰将与三星半导体负责人会面 应对内存短缺",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukhkr4939613.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“高速免费，你却收费？” 哈啰顺风车司机被曝发“节日财”，官方承认违规，专家：平台规则缺乏约束力！",
-   "url": "https://finance.sina.com.cn/tob/2026-10-06/doc-iniuhpzh6964275.shtml",
+   "title": "蔚来换电单日总量达183664次再创历史新高，累计提供超过1.27亿次换电服务",
+   "url": "https://finance.sina.com.cn/wm/2026-10-07/doc-iniukhkn6196959.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "余承东：已基本摆脱对美国技术依赖，华为折叠屏比苹果起步更早",
-   "url": "https://finance.sina.com.cn/tob/2026-10-06/doc-iniuhpzh6963835.shtml",
+   "title": "HubSpot裁员7%，称并非因为AI",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaaq6289941.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "原中国电信员工实名举报多名高管，官方回应：已进行过内部专项核查，言论与事实不符",
-   "url": "https://finance.sina.com.cn/tob/2026-10-06/doc-iniuhpzh6955572.shtml",
+   "title": "法国政府准备动用宪法权力绕过议会通过预算削减案",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaam8357985.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "高通澄清：与华为专利交叉授权协议“涉及逻辑折叠”不属实、“高通为净支付方”不准确",
-   "url": "https://finance.sina.com.cn/tech/2026-10-06/doc-iniuhitk7060161.shtml",
+   "title": "OKX获多家机构投资 估值250亿美元推进金融科技平台转型",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniukaam8356505.shtml",
    "source": "新浪科技"
   }
  ]
