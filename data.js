@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-08 19:31",
+ "updatedAt": "2026-10-09 02:58",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,7 +8,7 @@ var WB_DATA = {
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
    "time": "10-08 06:26",
-   "sourceCount": 15
+   "sourceCount": 14
   },
   {
    "rank": 2,
@@ -28,6 +28,14 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "Google 全球开放 SynthID 水印检测器",
+   "source": "X：Google (@Google)",
+   "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo",
+   "time": "10-08 22:53",
+   "sourceCount": 6
+  },
+  {
+   "rank": 5,
    "title": "马斯克称 Grok Bot 将按任务调用外部最佳模型",
    "source": "X：Testing Catalog (@testingcatalog)",
    "url": "https://aihot.news/items/dbhowpb183i256684uz2527i1",
@@ -35,162 +43,154 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 5,
-   "title": "Google 全球开放 SynthID 水印检测器",
-   "source": "X：Google (@Google)",
-   "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo",
-   "time": "10-08 01:50",
-   "sourceCount": 5
-  },
-  {
    "rank": 6,
-   "title": "Mistral 发布 Large 4 预览版，月底开放权重",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk",
-   "time": "10-07 22:12",
-   "sourceCount": 16
-  },
-  {
-   "rank": 7,
-   "title": "微软 Surface RTX Spark Dev Box 预售，5999 美元",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/ch5nswnlsumj70hzjgqf6hvjj",
-   "time": "10-08 08:00",
-   "sourceCount": 3
-  },
-  {
-   "rank": 8,
    "title": "Grok Bot 新增原生 X 搜索与监控能力",
    "source": "X：Grok Bot (@bot)",
    "url": "https://aihot.news/items/a7mmcpxrh1xnobyqhj43shxwh",
-   "time": "10-08 13:59",
+   "time": "10-09 00:25",
    "sourceCount": 6
   },
   {
+   "rank": 7,
+   "title": "微软预售 5999 美元 Surface RTX Spark 开发主机",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/ieihnedlxfb5l05mlnt6cvc7f",
+   "time": "10-08 04:22",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
+   "title": "谷歌云发布通用工作智能体 Gemini Agent",
+   "source": "X：Sundar Pichai (@sundarpichai)",
+   "url": "https://aihot.news/items/jc7t120lhn6aio590tcmhgua7",
+   "time": "10-09 02:05",
+   "sourceCount": 4
+  },
+  {
    "rank": 9,
-   "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
-   "source": "Gemini API：更新日志（网页）",
-   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
-   "time": "10-07 11:47",
-   "sourceCount": 10
+   "title": "Anthropic 发布 Claude Haiku 5.5 并上线 Cursor",
+   "source": "Claude Code：GitHub Releases（RSS）",
+   "url": "https://aihot.news/items/vd2lvzvjz4tujiqupl30ifq3k",
+   "time": "10-08 21:48",
+   "sourceCount": 4
   },
   {
    "rank": 10,
-   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
-   "time": "10-07 23:20",
-   "sourceCount": 10
+   "title": "Manus母公司蝴蝶效应完成超5亿美元融资",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/abl60kstec339fmr35yrcmw6w",
+   "time": "10-08 21:20",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
   {
-   "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
-   "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
-   "reason": "原文给出了攻击工具、所用模型和泄露规模等具体细节，可帮助读者认识AI驱动的渗透测试如何放大单人攻击能力。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/br6vb46mhi9mkv2pxiq59k8z7",
-   "time": "10-08 17:24",
-   "category": "industry"
-  },
-  {
-   "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
-   "summary": "ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。",
-   "reason": "原文给出了完整基准数据和兼容性测试结果，读者可以据此评估这个 Rust 版 TypeScript 检查器是否适合接入现有项目。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/yyba9bpxdtqdpqmv739d26ftg",
-   "time": "10-08 08:46",
-   "category": "ai-products"
-  },
-  {
-   "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
-   "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
-   "reason": null,
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/zdgw2hhfjitur1qmeuminh3lm",
-   "time": "10-08 11:44",
-   "category": "industry"
-  },
-  {
-   "title": "Google Research 三个月专利起草实验发现AI辅助未必能培养初级律师的专业判断",
-   "summary": "Google Research 在 NBER 发表的论文报告了一项三个月随机田野实验，向11家知识产权律所的133名律师随机开放当时未发布的 AI 专利写作助手（现属 Gemini Notebook）。",
-   "reason": "原文用三个月随机田野实验区分了AI辅助产出与独立能力变化，给出初级与资深律师分化的具体证据。",
-   "source": "Google Research：Blog（网页）",
-   "url": "https://aihot.news/items/tyhn4y95ez3mvj0p7xovpaq61",
-   "time": "10-07 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "GPT-6 Luna Decisions 上架 OpenRouter",
-   "summary": "OpenRouter 宣布 GPT-6 Luna Decisions 上线。OpenAI 的 Decisions API 可让应用选择合适的模型、工具或动作，支持发送文本、JSON 或图片并返回带概率的类型化答案。定价为输入 $0.10/M、输出免费，上下文 1M；引用 OpenAI 开发者账号称其决策速度比通过 Responses API 的 GPT-6 Luna 最快 10 倍。",
-   "reason": "原文给出 Decisions API 的定价、上下文长度和调用方式，开发者可以直接评估接入成本与场景。",
-   "source": "X：OpenRouter (@OpenRouter)",
-   "url": "https://aihot.news/items/x40bi9csoomsdaflejehop22y",
-   "time": "10-08 04:21",
-   "category": "ai-products"
-  },
-  {
-   "title": "vLLM 详解 DeepSeek-V4.1-Flash 优化：Agent 场景吞吐提升 5 倍",
-   "summary": "Inferact 与 vLLM 社区在 DeepSeek-V4.1-Flash 发布三周内完成优化，低并发速度提升 1.9 倍，150 TPS 约束下吞吐提升 5.3 倍。",
-   "reason": "vLLM 团队拆解了 SWA bounded replay 和一系列内核优化，说明五倍吞吐提升具体来自哪里，方法可复用于其他 Agent 服务场景。",
-   "source": "vLLM 官方博客（RSS）",
-   "url": "https://aihot.news/items/h8ldh8orhiz1tbad38w4e6cpn",
-   "time": "10-07 08:00",
+   "title": "NVIDIA KGMON 团队分享 KDD Cup 2026 数据分析智能体的构建经验",
+   "summary": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
+   "reason": "NVIDIA KGMON 团队复盘 KDD Cup 2026 数据智能体赛题的九项实践，给出在固定小模型上构建可验证 agent harness 的可迁移方法。",
+   "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+   "url": "https://aihot.news/items/j6n1853qowosk0pks0y39o3eq",
+   "time": "10-08 00:00",
    "category": "tip"
   },
   {
-   "title": "Google 发布 Developer Knowledge API 生态，为 AI 智能体提供官方文档检索",
-   "summary": "Google 推出 Developer Knowledge API 生态，作为 Google Cloud、Firebase、Android 等开发者文档的官方程序化来源，用结构化 API 和 Markdown 格式文档取代网页抓取，支持语义与关键词搜索、文档分块和有依据的问答。",
-   "reason": "官方为自己的开发者文档检索 API 提供了 CLI、agent skill、客户端库等多入口，可对照选型接入现有工作流。",
+   "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+   "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+   "reason": "材料汇集了数学界对 OpenAI 批量发布 AI 证明的抵制声明与 Tao、Aaronson 等多方反应，便于了解争议全貌与社区分歧。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/wf099r75jv1tzyhxa2j2o8n1p",
+   "time": "10-09 02:17",
+   "category": "industry"
+  },
+  {
+   "title": "Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障",
+   "summary": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。",
+   "reason": "原文给出五阶段流水线、验证机制和实测修复数据，读者可了解生产环境智能体质量监控如何落地。",
    "source": "Google Developers Blog（RSS）",
-   "url": "https://aihot.news/items/tuqbedzhrouuxwobb1pldbiyd",
-   "time": "10-07 08:00",
+   "url": "https://aihot.news/items/col84h6b3pdq383v6iuju3a9v",
+   "time": "10-08 08:00",
    "category": "ai-products"
   },
   {
-   "title": "LangChain 重构 Deep Agents 的 Skills 支持，新增工具绑定、固定技能与线程内重载",
-   "summary": "LangChain 重构 Deep Agents 的 Skills 支持，针对企业技能库增至数千个技能的场景推出三项更新：工具可绑定到技能、仅在该技能被读取时加载，用户可通过 /meeting-prep 之类的显式请求固定技能以在首次模型调用前加载，长线程可通过将 skills_metadata 设为 None 重载新增或变更的技能。",
-   "reason": "原文详解了 Deep Agents 技能机制的三项升级和加载原理，读者可以据此评估大规模技能库的上下文管理方案。",
-   "source": "LangChain：Blog（RSS）",
-   "url": "https://aihot.news/items/m3vyz2bex4i58vffqfx586u3h",
-   "time": "10-08 02:49",
-   "category": "ai-products"
+   "title": "Anthropic 发布 2026 年使用政策更新，11 月 12 日生效",
+   "summary": "Anthropic 发布新版使用政策，将于 11 月 12 日生效，多数变化是对既有规则的澄清。更新包括新设禁止欺骗性活动章节、收窄选举条款、明确武器软件与无人机武装禁令、更精确的监控与执法限制、补充高风险用例及自主物理操作的 human in the loop 要求，并新增禁止对模型的持续无端虐待行为。",
+   "reason": "官方逐条说明新版使用政策的实际变化，读者可以据此了解 Claude 在选举、武器、监控等场景的边界如何调整。",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj",
+   "time": "10-08 00:00",
+   "category": "industry"
   },
   {
-   "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台并宣布 MXC 让 AI Agent 落地 Windows PC",
-   "summary": "NVIDIA 与 Microsoft 在旧金山活动上宣布为 Windows PC 共同打造 AI Agent 软硬件。",
-   "reason": "原文给出 RTX Spark 的具体规格、预购时间与 MXC 的系统级细节，读者可据此评估本地跑 Agent 的硬件路线。",
-   "source": "NVIDIA Blog（RSS）",
-   "url": "https://aihot.news/items/t02toac3ii8mp1lxzl4blewdd",
-   "time": "10-08 02:45",
-   "category": "ai-products"
-  },
-  {
-   "title": "Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 评测得分 43",
-   "summary": "Anthropic 发布 Claude Haiku 5.5，在 Artificial Analysis Intelligence Index 得 43 分，较上一代 Haiku 一年内提升 26 分，是首个支持 effort 设置与 adaptive thinking 的 Haiku 模型。",
-   "reason": "原文给出 Haiku 5.5 的跑分、token 消耗与分层定价细节，并指出 token 用量偏高和拒绝率问题，可作为选型参考。",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/ms4yfg2a6aiqlzrqm0u4eedyh",
-   "time": "10-07 00:00",
+   "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+   "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
+   "reason": "原文给出 Nano Banana 2.1 在两个图像评测榜上的具体排名、价格和提升幅度，读者可据此比较它与其他模型的性价比。",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/dsbzfsw2pdaw0ikh67cyxmlss",
+   "time": "10-09 00:42",
    "category": "ai-models"
   },
   {
-   "title": "Cursor 公布 Claude Haiku 5.5 定价并下调 Claude Sonnet 5.5 缓存读取价格",
-   "summary": "Cursor 公布 Claude Haiku 5.5 定价为每 M 输入 token $0.10、输出 token $0.50，输入超过 100k token 时为 $0.50/M 和 $2.50/M。Claude Sonnet 5.5 缓存读取价格也从 $0.20/M 降至 $0.10/M，用户可在 cursor.com/evals 上通过 CursorBench 对比 Haiku 5.5 的表现。",
-   "reason": "原文给出了 Claude Haiku 5.5 具体定价和 Sonnet 5.5 缓存读取降价，可帮助开发者评估在 Cursor 上的使用成本。",
-   "source": "X：Cursor (@cursor_ai)",
-   "url": "https://aihot.news/items/vk1sotxx6v25hhgn55mwgv4nv",
-   "time": "10-08 02:14",
-   "category": "ai-products"
+   "title": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
+   "summary": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
+   "reason": "原文给出了完整的智能体支付架构与凭证隔离做法，读者可以复用到任何需要花钱的智能体场景。",
+   "source": "LangChain：Blog（RSS）",
+   "url": "https://aihot.news/items/l846t7ycr11aqcasu45nowosp",
+   "time": "10-09 00:21",
+   "category": "tip"
   },
   {
-   "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
-   "summary": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
-   "reason": "官方说明了 Intelligent UI 的组件库与编译器机制，并给出 GPT-6 与 GPT-5.6 的具体对比数据，读者可了解交互形态与响应速度的实际变化。",
+   "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+   "summary": "OpenAI 封禁了两个隐蔽影响行动，俄罗斯来源的 Dark Clark 通过假 persona Mia Clark 控制拉美智库 Social Research Center，评分达 Category 5，是报告以来首个 Category 5；伊朗来源的 Bogus Bylines 用 7 个假记者身份在全球十几家中小媒体投放近 100 篇长文，评分 Category 4。",
+   "reason": "报告基于封禁账号的第一手分析，披露了两个虚假前臆影响行动的手法与分级，读者可了解 AI 加持下隐蔽宣传的真实运作方式。",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/uir31g728myjry383z17txvrw",
-   "time": "10-08 02:00",
-   "category": "ai-products"
+   "url": "https://aihot.news/items/b33i6chgxghls2v7bng0wr0nr",
+   "time": "10-08 08:00",
+   "category": "industry"
+  },
+  {
+   "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
+   "summary": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建基于激活探针加 LLM judge 的监控级联，并部署到生产推理栈。",
+   "reason": "原文给出监控级联的完整数据、成本和部署细节，读者可以据此评估实时监控开放模型智能体的可行做法。",
+   "source": "Goodfire Research（网页）",
+   "url": "https://aihot.news/items/ja19mtm89yojd9w2u67qp1gqv",
+   "time": "10-08 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+   "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+   "reason": "文章把定时智能体自动化拆成可复用的六个组件，并给出书签、台账和权限等可直接迁移的防错规则。",
+   "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+   "url": "https://aihot.news/items/gq8yjkqlcdbpy0l5uc8ch2sj8",
+   "time": "10-08 20:00",
+   "category": "tip"
+  },
+  {
+   "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+   "summary": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。",
+   "reason": "原文给出 Arena 的融资额、估值和社区规模数字，可帮读者了解这家 AI 评测公司的业务量级和新推出的 Alignment Index。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/p95hk44dfpkogo2v4rgwvxq30",
+   "time": "10-09 01:08",
+   "category": "industry"
+  },
+  {
+   "title": "Tessl 工程博客：AI 不是笨，是瞎——企业级 Agent 记忆的三个关键设计决策",
+   "summary": "作者基于为跨公司工作的 Agent 构建记忆系统一年的经验指出，AI 失败的常见原因不是模型推理差，而是它看不到关键决策上下文，多数 agent memory 只是给瞎子更大的档案柜。",
+   "reason": "作者以自建系统的一手实测数据说明为何该把记忆当受治理的记录而非存储，三个设计决策和成本数字可直接迁移。",
+   "source": "Tessl：产品与工程博客",
+   "url": "https://aihot.news/items/l31ksvzhwir1pf51leqxjeh07",
+   "time": "10-08 00:00",
+   "category": "tip"
+  },
+  {
+   "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+   "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+   "reason": "原文梳理了 Zenity 演示的完整攻击链和 AWS 此后的权限收紧，读者可以据此评估自己云端智能体的隔离与最小权限配置。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/cal34hameqt3bh6d52vaqt58v",
+   "time": "10-08 21:01",
+   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-08 19:31",
+   "updateTime": "2026-10-09 02:58",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《我到底要怎么救你》",
-     "url": "https://www.bilibili.com/video/BV1TZH26iEj3",
-     "hot": 912417
+     "title": "超市生存挑战后续！4人吃完整个超市赢100万美金！",
+     "url": "https://www.bilibili.com/video/BV1VeHQ6tEaS",
+     "hot": 446603
     },
     {
-     "title": "矿山上的铜火锅？！特厨来一个沉浸式吃播！",
-     "url": "https://www.bilibili.com/video/BV1S9H26MEAT",
-     "hot": 638904
+     "title": "《阴阳师》咲耶CG丨拾此一瞬（CV：小泽亚李）",
+     "url": "https://www.bilibili.com/video/BV1BsHQ6YEQy",
+     "hot": 803736
     },
     {
-     "title": "有用版新植物：情敌双发",
-     "url": "https://www.bilibili.com/video/BV1oqHW6DEGi",
-     "hot": 2671933
+     "title": "【男巫ZachKing】2026最佳魔术！",
+     "url": "https://www.bilibili.com/video/BV1BuHC6rEuX",
+     "hot": 1116060
+    },
+    {
+     "title": "【独家】时光代理人 第三季 PartOne 第10集 错位的救赎【8月国创】",
+     "url": "https://www.bilibili.com/video/BV1mXak6UEea",
+     "hot": 547035
+    },
+    {
+     "title": "听完通透了！上饶天选之子《升本后醒来》“好的本科他不会比专科差”",
+     "url": "https://www.bilibili.com/video/BV1mbHC6ZEkv",
+     "hot": 352545
+    },
+    {
+     "title": "《要是我能快点长大就好了》",
+     "url": "https://www.bilibili.com/video/BV1x1Hf6AE5V",
+     "hot": 987760
     },
     {
      "title": "以前真是白活了",
      "url": "https://www.bilibili.com/video/BV1GLHE6hEJd",
-     "hot": 3624981
+     "hot": 4064373
     },
     {
-     "title": "这是一个人吗？？？超强换头术！",
-     "url": "https://www.bilibili.com/video/BV1sgpA6kEhf",
-     "hot": 331241
+     "title": "崔永元自述：冯小刚乱，徐帆也很乱！范冰冰恬不知耻！我就是要他们完蛋！但葛优我可以忍！",
+     "url": "https://www.bilibili.com/video/BV1NDpA6LE6L",
+     "hot": 455112
     },
     {
-     "title": "带班主任体验黄毛的一天",
-     "url": "https://www.bilibili.com/video/BV1X6Hk6hE8v",
-     "hot": 669285
-    },
-    {
-     "title": "超市生存挑战后续！4人吃完整个超市赢100万美金！",
-     "url": "https://www.bilibili.com/video/BV1VeHQ6tEaS",
-     "hot": 70380
-    },
-    {
-     "title": "王老菊教你消费goat",
-     "url": "https://www.bilibili.com/video/BV1yGHQ6rES8",
-     "hot": 75076
-    },
-    {
-     "title": "妈妈是个超人",
-     "url": "https://www.bilibili.com/video/BV1tLHv6vEXV",
-     "hot": 332799
+     "title": "迈克尔·高启强 世界巡演【AI MV大赛】",
+     "url": "https://www.bilibili.com/video/BV1m7Hx6GE6N",
+     "hot": 503343
     },
     {
      "title": "【剧情】长生契（2026）20【方逸伦 / 谢可寅】",
      "url": "https://www.bilibili.com/video/BV13Dem6VEp5",
-     "hot": 581016
+     "hot": 710694
     },
     {
-     "title": "替你们试了网上各种干巴酸奶过滤效果,还是.....",
-     "url": "https://www.bilibili.com/video/BV16SpM6nE4k",
-     "hot": 240444
+     "title": "耗时一年，改造善良老人晚年，完整后续来了！",
+     "url": "https://www.bilibili.com/video/BV1pMH46MEmw",
+     "hot": 1252093
     },
     {
-     "title": "《原神》过场动画-「生与死的流速」",
-     "url": "https://www.bilibili.com/video/BV1rgap62Ez5",
-     "hot": 397133
+     "title": "妈妈是个超人",
+     "url": "https://www.bilibili.com/video/BV1tLHv6vEXV",
+     "hot": 743891
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "受AI热潮推动 芬兰数据中心项目总投资超670亿欧元",
-   "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnz4322824.shtml",
+   "title": "圣路易斯联储行长暗示未来六到九个月可能上调利率",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqcsp7352807.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "策略师：AI泡沫或将引发标普500指数出现2008年以来最严重崩盘",
-   "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphpf7615691.shtml",
+   "title": "美国CBO负责人质疑贝森特理论 称单靠经济增长难以解决高债务问题",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqcsp7349958.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "中国一汽、丰田汽车、广汽集团签署全新战略合作框架协议",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniuphpf3660556.shtml",
+   "title": "欧洲股市连续第二天下跌 银行股触及四个月低点",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx7412657.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "王建宙撰文：手机的“AI时刻”",
-   "url": "https://finance.sina.com.cn/tech/it/2026-10-08/doc-iniupafc4371507.shtml",
+   "title": "调查显示OPEC上月原油产量回升 受沙特带动",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkt4237871.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "滴滴十一出行报告：国内打车订单数同比增长7%，异地打车需求较平日增长54%",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniupaez7581038.shtml",
+   "title": "拉加德：欧洲央行有工具应对缺乏正当理由的市场波动",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkr7465096.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "行业百科丨第一期03：行业的趋同性波动特征",
-   "url": "https://video.sina.com.cn/p/tech/2026-10-08/detail-iniupafi3748985.d.html",
+   "title": "微软回应移民用工争议 称去年80%的H-1B签证申请并非招聘新人",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkt4225414.shtml",
    "source": "新浪科技"
   }
  ]
