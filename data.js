@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-08 12:05",
+ "updatedAt": "2026-10-08 19:31",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,14 +12,6 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
-   "time": "10-08 11:31",
-   "sourceCount": 10
-  },
-  {
-   "rank": 3,
    "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/uir31g728myjry383z17txvrw",
@@ -27,15 +19,15 @@ var WB_DATA = {
    "sourceCount": 10
   },
   {
-   "rank": 4,
-   "title": "Mistral 发布 Large 4 预览版，月底开放权重",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk",
-   "time": "10-07 22:12",
-   "sourceCount": 16
+   "rank": 3,
+   "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
+   "time": "10-08 11:31",
+   "sourceCount": 10
   },
   {
-   "rank": 5,
+   "rank": 4,
    "title": "马斯克称 Grok Bot 将按任务调用外部最佳模型",
    "source": "X：Testing Catalog (@testingcatalog)",
    "url": "https://aihot.news/items/dbhowpb183i256684uz2527i1",
@@ -43,31 +35,23 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 6,
-   "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
-   "source": "Gemini API：更新日志（网页）",
-   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
-   "time": "10-07 11:47",
-   "sourceCount": 10
-  },
-  {
-   "rank": 7,
-   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
-   "time": "10-07 23:20",
-   "sourceCount": 10
-  },
-  {
-   "rank": 8,
-   "title": "Grok Bot 新增原生 X 搜索与监控能力",
-   "source": "X：Grok Bot (@bot)",
-   "url": "https://aihot.news/items/a7mmcpxrh1xnobyqhj43shxwh",
-   "time": "10-08 07:40",
+   "rank": 5,
+   "title": "Google 全球开放 SynthID 水印检测器",
+   "source": "X：Google (@Google)",
+   "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo",
+   "time": "10-08 01:50",
    "sourceCount": 5
   },
   {
-   "rank": 9,
+   "rank": 6,
+   "title": "Mistral 发布 Large 4 预览版，月底开放权重",
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/rmc5fz5rbcwzsr7cdl5jo1ojk",
+   "time": "10-07 22:12",
+   "sourceCount": 16
+  },
+  {
+   "rank": 7,
    "title": "微软 Surface RTX Spark Dev Box 预售，5999 美元",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/ch5nswnlsumj70hzjgqf6hvjj",
@@ -75,15 +59,58 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
+   "rank": 8,
+   "title": "Grok Bot 新增原生 X 搜索与监控能力",
+   "source": "X：Grok Bot (@bot)",
+   "url": "https://aihot.news/items/a7mmcpxrh1xnobyqhj43shxwh",
+   "time": "10-08 13:59",
+   "sourceCount": 6
+  },
+  {
+   "rank": 9,
+   "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元",
+   "source": "Gemini API：更新日志（网页）",
+   "url": "https://aihot.news/items/d17jcexm93lo85zkz3iil08c9",
+   "time": "10-07 11:47",
+   "sourceCount": 10
+  },
+  {
    "rank": 10,
-   "title": "Google 全球开放 SynthID 水印检测器",
-   "source": "X：Google (@Google)",
-   "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo",
-   "time": "10-08 01:50",
-   "sourceCount": 5
+   "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/g1k2ragppm8j4apj75qu1k4ug",
+   "time": "10-07 23:20",
+   "sourceCount": 10
   }
  ],
  "aihotItems": [
+  {
+   "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
+   "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
+   "reason": "原文给出了攻击工具、所用模型和泄露规模等具体细节，可帮助读者认识AI驱动的渗透测试如何放大单人攻击能力。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/br6vb46mhi9mkv2pxiq59k8z7",
+   "time": "10-08 17:24",
+   "category": "industry"
+  },
+  {
+   "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+   "summary": "ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。",
+   "reason": "原文给出了完整基准数据和兼容性测试结果，读者可以据此评估这个 Rust 版 TypeScript 检查器是否适合接入现有项目。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/yyba9bpxdtqdpqmv739d26ftg",
+   "time": "10-08 08:46",
+   "category": "ai-products"
+  },
+  {
+   "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
+   "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
+   "reason": null,
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/zdgw2hhfjitur1qmeuminh3lm",
+   "time": "10-08 11:44",
+   "category": "industry"
+  },
   {
    "title": "Google Research 三个月专利起草实验发现AI辅助未必能培养初级律师的专业判断",
    "summary": "Google Research 在 NBER 发表的论文报告了一项三个月随机田野实验，向11家知识产权律所的133名律师随机开放当时未发布的 AI 专利写作助手（现属 Gemini Notebook）。",
@@ -164,33 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/uir31g728myjry383z17txvrw",
    "time": "10-08 02:00",
    "category": "ai-products"
-  },
-  {
-   "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
-   "summary": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
-   "reason": "发布说明列出了新增默认 Haiku 模型、脚本接口扩展和大量稳定性修复，读者可据此判断是否升级及影响现有工作流。",
-   "source": "Claude Code：GitHub Releases（RSS）",
-   "url": "https://aihot.news/items/vd2lvzvjz4tujiqupl30ifq3k",
-   "time": "10-08 02:10",
-   "category": "ai-products"
-  },
-  {
-   "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
-   "summary": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
-   "reason": "原文给出了 Max 和 Team 套餐的月度 API 额度金额与适用范围，读者可据此判断是否值得调整现有订阅。",
-   "source": "X：Claude Devs (@ClaudeDevs)",
-   "url": "https://aihot.news/items/ponkn6n046yorr5pg1yv3yjm5",
-   "time": "10-08 02:08",
-   "category": "ai-products"
-  },
-  {
-   "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
-   "summary": "Anthropic 发布 Claude Haiku 5.5，定位为迄今最便宜、最快的小模型，适合摘要、压缩、数据库查询、分类等高吞吐任务，并可搭配 Opus 5.5 和 Sonnet 5.5 担任编码子智能体。",
-   "reason": "官方发布了定价、基准成绩与订阅 API 额度变化，读者可以据此评估小模型在低成本智能体任务中的适用场景。",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/lqyhqdf0u7iksn5ydnpyhk81x",
-   "time": "10-07 00:00",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-08 12:05",
+   "updateTime": "2026-10-08 19:31",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "3台尊界V800  刹车踏板支架断裂",
-     "url": "https://www.bilibili.com/video/BV1XXHU62EHm",
-     "hot": 313074
+     "title": "《我到底要怎么救你》",
+     "url": "https://www.bilibili.com/video/BV1TZH26iEj3",
+     "hot": 912417
     },
     {
-     "title": "【春物语】我的婚后生活果然有问题 第3话：雪之下雪乃说，要做就正式地做。",
-     "url": "https://www.bilibili.com/video/BV1f5pM65EE6",
-     "hot": 519378
+     "title": "矿山上的铜火锅？！特厨来一个沉浸式吃播！",
+     "url": "https://www.bilibili.com/video/BV1S9H26MEAT",
+     "hot": 638904
     },
     {
-     "title": "你敢信？我在太平洋赶海竟然发现上百斤重的巨型砗磲！这么大的家伙，吃起来什么味道？",
-     "url": "https://www.bilibili.com/video/BV1zTar6hEZo",
-     "hot": 11226654
+     "title": "有用版新植物：情敌双发",
+     "url": "https://www.bilibili.com/video/BV1oqHW6DEGi",
+     "hot": 2671933
     },
     {
-     "title": "在大山支教 学校宿舍水太小又冷，已经半个月没洗澡了，扛不住了抓住假期的尾巴出山进城开房洗澡 买菜 拿物资..",
-     "url": "https://www.bilibili.com/video/BV1aWHC6wEP5",
-     "hot": 666763
+     "title": "以前真是白活了",
+     "url": "https://www.bilibili.com/video/BV1GLHE6hEJd",
+     "hot": 3624981
     },
     {
-     "title": "【EPL表演赛】当CS的最强教练们再次进入服务器",
-     "url": "https://www.bilibili.com/video/BV1PxH26tENo",
-     "hot": 186814
-    },
-    {
-     "title": "当我用莫奈的眼睛看长白山，才发现那些细节也太惊艳了！",
-     "url": "https://www.bilibili.com/video/BV1QgHZ6TEei",
-     "hot": 1046349
-    },
-    {
-     "title": "史蒂夫 单人JT8-3 ?!",
-     "url": "https://www.bilibili.com/video/BV1FKpP6NEcu",
-     "hot": 551701
-    },
-    {
-     "title": "【完整版】纪录片《缅北电诈覆灭纪实》第三集《共筑天网》",
-     "url": "https://www.bilibili.com/video/BV1EDHC6CEDJ",
-     "hot": 497686
-    },
-    {
-     "title": "感觉不到我能赢的情况下，我是绝对不会发力的",
-     "url": "https://www.bilibili.com/video/BV11dHk6nEyr",
-     "hot": 156075
+     "title": "这是一个人吗？？？超强换头术！",
+     "url": "https://www.bilibili.com/video/BV1sgpA6kEhf",
+     "hot": 331241
     },
     {
      "title": "带班主任体验黄毛的一天",
      "url": "https://www.bilibili.com/video/BV1X6Hk6hE8v",
-     "hot": 252157
+     "hot": 669285
     },
     {
-     "title": "莫言的同学，《水浒传》编剧，竟是灭门案凶手？万字解析《悬案：旅馆案》上",
-     "url": "https://www.bilibili.com/video/BV1CXH66yECC",
-     "hot": 633040
+     "title": "超市生存挑战后续！4人吃完整个超市赢100万美金！",
+     "url": "https://www.bilibili.com/video/BV1VeHQ6tEaS",
+     "hot": 70380
     },
     {
-     "title": "「此剑为誓」——《少女前线2：追放》针角色PV公开",
-     "url": "https://www.bilibili.com/video/BV1U4pP6SEf3",
-     "hot": 463951
+     "title": "王老菊教你消费goat",
+     "url": "https://www.bilibili.com/video/BV1yGHQ6rES8",
+     "hot": 75076
+    },
+    {
+     "title": "妈妈是个超人",
+     "url": "https://www.bilibili.com/video/BV1tLHv6vEXV",
+     "hot": 332799
+    },
+    {
+     "title": "【剧情】长生契（2026）20【方逸伦 / 谢可寅】",
+     "url": "https://www.bilibili.com/video/BV13Dem6VEp5",
+     "hot": 581016
+    },
+    {
+     "title": "替你们试了网上各种干巴酸奶过滤效果,还是.....",
+     "url": "https://www.bilibili.com/video/BV16SpM6nE4k",
+     "hot": 240444
+    },
+    {
+     "title": "《原神》过场动画-「生与死的流速」",
+     "url": "https://www.bilibili.com/video/BV1rgap62Ez5",
+     "hot": 397133
     }
    ]
   }
@@ -733,48 +733,48 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "马斯克：Grok Bot 不再只认自家模型，按用户任务择优用 Claude 等最佳 AI",
-   "url": "https://finance.sina.com.cn/tech/digi/2026-10-08/doc-iniunezp4471901.shtml",
+   "title": "江淮汽车回应尊界V800刹车踏板断裂：正在调查和测试",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniupafi7736971.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "三星电子利润再创新高 AI热潮带来持续旺盛的芯片需求",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunezq5356441.shtml",
+   "title": "光芯片板块大幅下挫，三家上市公司回应：未获悉降价相关消息",
+   "url": "https://finance.sina.com.cn/stock/2026-10-08/doc-iniunrrf7677711.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "特朗普将于周四向马斯克颁发科学成就奖",
-   "url": "https://finance.sina.com.cn/7x24/2026-10-08/doc-iniumumr7862596.shtml",
+   "title": "耗资123亿元安踏正式成为彪马大股东 暂时浮亏45亿元",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-08/doc-iniunvxm7817812.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "交易员：印度央行持续抛售美元支撑卢比",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniunrrf7653422.shtml",
+   "title": "受AI热潮推动 芬兰数据中心项目总投资超670亿欧元",
+   "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphnz4322824.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "四川电信员工举报公司强制中秋国庆加班，公司却称是自愿？",
-   "url": "https://finance.sina.com.cn/tob/2026-10-08/doc-iniunrrp3920669.shtml",
+   "title": "策略师：AI泡沫或将引发标普500指数出现2008年以来最严重崩盘",
+   "url": "https://finance.sina.com.cn/world/2026-10-08/doc-iniuphpf7615691.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "设计缺陷？尊界V800被曝测试中刹车踏板支架断裂",
-   "url": "https://finance.sina.com.cn/tob/2026-10-08/doc-iniunrrk5180364.shtml",
+   "title": "中国一汽、丰田汽车、广汽集团签署全新战略合作框架协议",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniuphpf3660556.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "我国首个深水油田二次开发项目累产原油突破200万吨",
-   "url": "https://finance.sina.com.cn/tob/2026-10-08/doc-iniunrrp3900010.shtml",
+   "title": "王建宙撰文：手机的“AI时刻”",
+   "url": "https://finance.sina.com.cn/tech/it/2026-10-08/doc-iniupafc4371507.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“顶流”复兴岛，全球创客新乐园丨解码杨浦",
-   "url": "https://finance.sina.com.cn/wm/2026-10-08/doc-iniunrrk5172760.shtml",
+   "title": "滴滴十一出行报告：国内打车订单数同比增长7%，异地打车需求较平日增长54%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniupaez7581038.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "大模型原生智能体手机STEPX Neo将于10月13日正式发布",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-08/doc-iniunmim4467070.shtml",
+   "title": "行业百科丨第一期03：行业的趋同性波动特征",
+   "url": "https://video.sina.com.cn/p/tech/2026-10-08/detail-iniupafi3748985.d.html",
    "source": "新浪科技"
   }
  ]
