@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-09 12:10",
+ "updatedAt": "2026-10-09 19:26",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,14 +12,6 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/uir31g728myjry383z17txvrw",
-   "time": "10-08 10:22",
-   "sourceCount": 10
-  },
-  {
-   "rank": 3,
    "title": "Anthropic 新政策首次禁止虐待模型",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj",
@@ -27,36 +19,44 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 4,
-   "title": "OpenAI 数学成果引验证争议",
-   "source": "X：马东锡 NLP (@dongxi_nlp)",
-   "url": "https://aihot.news/items/i66buy8nl2n5fy63kgf9zr1v5",
-   "time": "10-09 09:40",
-   "sourceCount": 9
+   "rank": 3,
+   "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/uir31g728myjry383z17txvrw",
+   "time": "10-08 10:22",
+   "sourceCount": 10
   },
   {
-   "rank": 5,
-   "title": "谷歌云发布通用工作智能体 Gemini Agent",
+   "rank": 4,
+   "title": "谷歌云发布企业通用工作智能体 Gemini Agent",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/x4s3jss6ofplyvimq6213cv41",
-   "time": "10-09 02:55",
-   "sourceCount": 5
-  },
-  {
-   "rank": 6,
-   "title": "Google 全球开放 SynthID 水印检测器",
-   "source": "X：Google (@Google)",
-   "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo",
-   "time": "10-08 22:53",
+   "time": "10-09 14:47",
    "sourceCount": 6
   },
   {
+   "rank": 5,
+   "title": "OpenAI解雇3名研究员，双方就指控各执一词",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/a1s641znzieiiyaoqnm2pf4x8",
+   "time": "10-09 17:48",
+   "sourceCount": 6
+  },
+  {
+   "rank": 6,
+   "title": "Claude 上线 Dashboards 与 Motion 两项测试功能",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/winsvtlfubhjfi0wnone83j5c",
+   "time": "10-09 14:57",
+   "sourceCount": 7
+  },
+  {
    "rank": 7,
-   "title": "马斯克称 Grok Bot 将按任务调用外部最佳模型",
-   "source": "X：Testing Catalog (@testingcatalog)",
-   "url": "https://aihot.news/items/dbhowpb183i256684uz2527i1",
-   "time": "10-08 07:47",
-   "sourceCount": 4
+   "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
+   "time": "10-09 11:11",
+   "sourceCount": 3
   },
   {
    "rank": 8,
@@ -68,22 +68,31 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
-   "time": "10-08 11:31",
-   "sourceCount": 3
+   "title": "OpenAI 数学成果引验证争议",
+   "source": "X：马东锡 NLP (@dongxi_nlp)",
+   "url": "https://aihot.news/items/i66buy8nl2n5fy63kgf9zr1v5",
+   "time": "10-09 09:40",
+   "sourceCount": 7
   },
   {
    "rank": 10,
-   "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
-   "time": "10-09 11:11",
-   "sourceCount": 3
+   "title": "Google 全球开放 SynthID 水印检测器",
+   "source": "X：Google (@Google)",
+   "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo",
+   "time": "10-08 22:53",
+   "sourceCount": 6
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 研究负责人发声明回应三名员工离职争议",
+   "summary": "OpenAI 研究负责人发声明，称上周在调查发现 Jasmine、Mikita 和 Tomek 违反敏感信息处理政策后终止其雇佣，并表示内部调查发现超出三人公开信所述的重大信任违规。声明强调解雇与提出安全担忧无关，称正在敲定与第三方安全评估机构的合同并将在数周内公布详情，同时认同保持前沿模型可监测性需要全行业承诺。",
+   "reason": "OpenAI 官方回应离职争议，澄清解雇与提出安全担忧无关，并公布第三方安全评估合作进展。",
+   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+   "url": "https://aihot.news/items/uceike4yt1on0k7sj37f9nfeh",
+   "time": "10-09 14:17",
+   "category": "industry"
+  },
   {
    "title": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
    "summary": "Arena 宣布 Mistral Large 4 进入 Agent Arena 前十五实验室，基于超 5000 个真实智能体会话，该预览版净改进分为 -6.6%，总排名第 43，比前代 Mistral Medium 3.5（-12.60%）高出 11 位。",
@@ -94,22 +103,13 @@ var WB_DATA = {
    "category": "ai-models"
   },
   {
-   "title": "Tibo 宣布发布 ChatGPT",
-   "summary": "Tibo 宣布 ChatGPT 发布，并给出访问地址 https://chatgpt.com/。推文本身仅含发布声明和链接，未提供更多功能或细节。",
-   "reason": null,
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/f3doqdpq8n9mpmqc95jdyaxq0",
-   "time": "10-09 08:12",
-   "category": "ai-products"
-  },
-  {
    "title": "Block 如何用 Claude Fable 编排数千个 pull request 的代码迁移",
    "summary": "Anthropic 发表对 Block AI capabilities 负责人 Bradley Axen 的访谈，介绍 Block 用 Claude Fable 5 编排大规模代码迁移：Fable 做数据模型、API 规格等高层设计，再调度数十个更小的 Opus 或 Sonnet 模型执行文件修改和测试，一次迁移可能合并上千个 pull request。",
    "reason": "Block 负责 AI 能力的负责人详述 Fable 编排多模型跑大规模迁移的做法与双审批安全机制，读者可对照自身团队的智能体工程实践。",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/myoe16r78gjt87vu92995zsae",
    "time": "10-08 08:00",
-   "category": "tip"
+   "category": "opinion"
   },
   {
    "title": "Hugging Face 工程师用 ML Intern 以约 103 美元自制 7 个小模型",
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-09 12:10",
+   "updateTime": "2026-10-09 19:27",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "2026英雄联盟全球总决赛主题曲《KNOW MY NAME》（以我之名）",
-     "url": "https://www.bilibili.com/video/BV1DRHU6LELy",
-     "hot": 1111864
+     "title": "极极极极，极限战场👉🏻首曝极首测，所见极所玩",
+     "url": "https://www.bilibili.com/video/BV1PTHS6MEC5",
+     "hot": 3586331
     },
     {
-     "title": "皮卡月刊「怪奇实验室」实机展示",
-     "url": "https://www.bilibili.com/video/BV1qLH16LEFZ",
-     "hot": 322226
+     "title": "2026英雄联盟全球总决赛主题曲《KNOW MY NAME》（以我之名）",
+     "url": "https://www.bilibili.com/video/BV1DRHU6LELy",
+     "hot": 2480237
     },
     {
      "title": "超市生存挑战后续！4人吃完整个超市赢100万美金！",
      "url": "https://www.bilibili.com/video/BV1VeHQ6tEaS",
-     "hot": 1487760
+     "hot": 2584983
     },
     {
      "title": "【独家】时光代理人 第三季 PartOne 第10集 错位的救赎【8月国创】",
      "url": "https://www.bilibili.com/video/BV1mXak6UEea",
-     "hot": 663486
+     "hot": 900215
+    },
+    {
+     "title": "法国最近太烧心了",
+     "url": "https://www.bilibili.com/video/BV1gTHd6aE5e",
+     "hot": 748306
+    },
+    {
+     "title": "成功埋下机车种子，弥补曾经对年少不可得之物的遗憾",
+     "url": "https://www.bilibili.com/video/BV1b4HC6FEBD",
+     "hot": 656518
+    },
+    {
+     "title": "影视飓风的直升机？怪东西分享9.0",
+     "url": "https://www.bilibili.com/video/BV1gHps6yEHL",
+     "hot": 237494
     },
     {
      "title": "《阴阳师》咲耶CG丨拾此一瞬（CV：小泽亚李）",
      "url": "https://www.bilibili.com/video/BV1BsHQ6YEQy",
-     "hot": 1095144
+     "hot": 1706510
     },
     {
-     "title": "2026英雄联盟全球总决赛主题曲《KNOW MY NAME》（以我之名）",
-     "url": "https://www.bilibili.com/video/BV12NHQ6jEU3",
-     "hot": 183036
+     "title": "三年之期已到，恭迎世一上归位！【第13集】",
+     "url": "https://www.bilibili.com/video/BV12gpt6UER4",
+     "hot": 341782
     },
     {
-     "title": "来纽约，拍到了些怪东西",
-     "url": "https://www.bilibili.com/video/BV1x2HS66E96",
-     "hot": 1312043
+     "title": "神仙也要办破地狱仪式？“无人可葬”的诡异葬礼，竟然藏着惊天阴谋！【提瓦特说书人·璃月篇】",
+     "url": "https://www.bilibili.com/video/BV1y3HQ6GEaf",
+     "hot": 175316
     },
     {
      "title": "“我穿越成了一棵树。”",
      "url": "https://www.bilibili.com/video/BV1qsHQ6YEs4",
-     "hot": 321206
+     "hot": 609494
     },
     {
-     "title": "《和樱花妹互换身体の日常》第五集【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1eWHm6mEH9",
-     "hot": 653122
-    },
-    {
-     "title": "【剧情】长生契（2026）20【方逸伦 / 谢可寅】",
-     "url": "https://www.bilibili.com/video/BV13Dem6VEp5",
-     "hot": 750508
-    },
-    {
-     "title": "【EPL表演赛】全明星大乱斗2.0",
-     "url": "https://www.bilibili.com/video/BV1GpHR6aEQz",
-     "hot": 259888
-    },
-    {
-     "title": "中国屌丝用7千块花掉印度人半年的薪资，体验婆罗门生活，富人生活到底有多奢侈？",
-     "url": "https://www.bilibili.com/video/BV1ehHQ6bErB",
-     "hot": 461833
+     "title": "史上最大现金收购案 富二代如何正确拼爹",
+     "url": "https://www.bilibili.com/video/BV1FCps68EGf",
+     "hot": 116621
     }
    ]
   }
@@ -728,48 +728,48 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "尊界和懂车帝就“踏板断裂”事件作出回应，尊界所提适用标准或犯“乌龙”",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniupxkt4199365.shtml",
+   "title": "懂车帝已被立案调查并内部整顿？公司回应：纯属谣言，将坚决维权",
+   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-09/doc-iniurmnf6866073.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "马斯克放大招：Grok Bot免费用Opus 5.5和X全部功能！",
-   "url": "https://finance.sina.com.cn/stock/t/2026-10-09/doc-iniuqiym7319451.shtml",
+   "title": "iPhone 18 Pro系列被曝削减零部件产量 供应链人士回应",
+   "url": "https://finance.sina.com.cn/roll/2026-10-09/doc-iniurfei6946112.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "能跟阿迪耐克掰手腕的PUMA 被安踏豪掷113亿元收购了",
-   "url": "https://finance.sina.com.cn/tech/discovery/2026-10-09/doc-iniuqiym7336202.shtml",
+   "title": "中文在线巨额定增心虚？8天后紧急撤回 主业造血差拿A股当提款机？",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-10-09/doc-iniurfep7909400.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "飓风伊赛亚斯逼近美国墨西哥湾，原油产量大幅锐减",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqywm6970352.shtml",
+   "title": "供应链共创与电池自主质控：宝马如何在中国建立高端制造护城河",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurrui7790121.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "福瑞泰克获澳新出口车型项目定点，覆盖高速与城区驾驶场景",
-   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuqywr7842701.shtml",
+   "title": "分析师：英伟达或将在2028年下半年采用英特尔Foveros封装技术",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurrui7830395.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "内涵尊界踏板支架断裂？岚图汽车董事长卢放晒自家刹车踏板：采用多层高强度钢板主梁",
-   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuqywm3002953.shtml",
+   "title": "马化腾与姚顺雨罕见同框，座谈会现场相邻而坐",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurrui7828410.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "第二届RED LAND收官：5天超20万人登岛，人数较去年翻倍",
-   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuquqp7076901.shtml",
+   "title": "超20万年轻人登岛“做主角”，复兴岛成青年文化新地标",
+   "url": "https://finance.sina.com.cn/wm/2026-10-09/doc-iniurrui7826581.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "余承东朋友圈转发尊界声明，头像为与尊界V800合影",
-   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuquqp3106699.shtml",
+   "title": "张雪机车用户进ICU要退款，真相大反转",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-10-09/doc-iniurruc6767322.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "尊界刹车踏板支架断裂风波后，懂车帝测试人员遭遇短信轰炸",
-   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuquqf7200414.shtml",
+   "title": "英伟达支持的Firmus据悉考虑通过私募融资方式筹集至多30亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurruc6754676.shtml",
    "source": "新浪科技"
   }
  ]
