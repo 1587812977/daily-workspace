@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-09 02:58",
+ "updatedAt": "2026-10-09 12:10",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
-   "time": "10-08 06:26",
-   "sourceCount": 14
+   "time": "10-09 04:04",
+   "sourceCount": 13
   },
   {
    "rank": 2,
@@ -20,14 +20,30 @@ var WB_DATA = {
   },
   {
    "rank": 3,
-   "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
-   "time": "10-08 11:31",
-   "sourceCount": 10
+   "title": "Anthropic 新政策首次禁止虐待模型",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj",
+   "time": "10-09 11:10",
+   "sourceCount": 7
   },
   {
    "rank": 4,
+   "title": "OpenAI 数学成果引验证争议",
+   "source": "X：马东锡 NLP (@dongxi_nlp)",
+   "url": "https://aihot.news/items/i66buy8nl2n5fy63kgf9zr1v5",
+   "time": "10-09 09:40",
+   "sourceCount": 9
+  },
+  {
+   "rank": 5,
+   "title": "谷歌云发布通用工作智能体 Gemini Agent",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/x4s3jss6ofplyvimq6213cv41",
+   "time": "10-09 02:55",
+   "sourceCount": 5
+  },
+  {
+   "rank": 6,
    "title": "Google 全球开放 SynthID 水印检测器",
    "source": "X：Google (@Google)",
    "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo",
@@ -35,7 +51,7 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 5,
+   "rank": 7,
    "title": "马斯克称 Grok Bot 将按任务调用外部最佳模型",
    "source": "X：Testing Catalog (@testingcatalog)",
    "url": "https://aihot.news/items/dbhowpb183i256684uz2527i1",
@@ -43,209 +59,164 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 6,
-   "title": "Grok Bot 新增原生 X 搜索与监控能力",
-   "source": "X：Grok Bot (@bot)",
-   "url": "https://aihot.news/items/a7mmcpxrh1xnobyqhj43shxwh",
-   "time": "10-09 00:25",
+   "rank": 8,
+   "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/mjcipkmcvo0ofbl2tegerkjvi",
+   "time": "10-09 08:04",
    "sourceCount": 6
   },
   {
-   "rank": 7,
-   "title": "微软预售 5999 美元 Surface RTX Spark 开发主机",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/ieihnedlxfb5l05mlnt6cvc7f",
-   "time": "10-08 04:22",
-   "sourceCount": 2
-  },
-  {
-   "rank": 8,
-   "title": "谷歌云发布通用工作智能体 Gemini Agent",
-   "source": "X：Sundar Pichai (@sundarpichai)",
-   "url": "https://aihot.news/items/jc7t120lhn6aio590tcmhgua7",
-   "time": "10-09 02:05",
-   "sourceCount": 4
-  },
-  {
    "rank": 9,
-   "title": "Anthropic 发布 Claude Haiku 5.5 并上线 Cursor",
-   "source": "Claude Code：GitHub Releases（RSS）",
-   "url": "https://aihot.news/items/vd2lvzvjz4tujiqupl30ifq3k",
-   "time": "10-08 21:48",
-   "sourceCount": 4
+   "title": "OpenAI 公开内部模型数学成果与 Lean 证明",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/zvw2i4tg1gnqq72t596vpqoyl",
+   "time": "10-08 11:31",
+   "sourceCount": 3
   },
   {
    "rank": 10,
-   "title": "Manus母公司蝴蝶效应完成超5亿美元融资",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/abl60kstec339fmr35yrcmw6w",
-   "time": "10-08 21:20",
-   "sourceCount": 2
+   "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
+   "time": "10-09 11:11",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
   {
-   "title": "NVIDIA KGMON 团队分享 KDD Cup 2026 数据分析智能体的构建经验",
-   "summary": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
-   "reason": "NVIDIA KGMON 团队复盘 KDD Cup 2026 数据智能体赛题的九项实践，给出在固定小模型上构建可验证 agent harness 的可迁移方法。",
-   "source": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-   "url": "https://aihot.news/items/j6n1853qowosk0pks0y39o3eq",
-   "time": "10-08 00:00",
+   "title": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
+   "summary": "Arena 宣布 Mistral Large 4 进入 Agent Arena 前十五实验室，基于超 5000 个真实智能体会话，该预览版净改进分为 -6.6%，总排名第 43，比前代 Mistral Medium 3.5（-12.60%）高出 11 位。",
+   "reason": "Arena 用 Agent Arena 实测数据给出 Mistral Large 4 的排名与分数，可对照其官方发布信息核实模型实际表现。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/y9clkoyn1giula1pc7pkb9qxd",
+   "time": "10-09 11:53",
+   "category": "ai-models"
+  },
+  {
+   "title": "Tibo 宣布发布 ChatGPT",
+   "summary": "Tibo 宣布 ChatGPT 发布，并给出访问地址 https://chatgpt.com/。推文本身仅含发布声明和链接，未提供更多功能或细节。",
+   "reason": null,
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/f3doqdpq8n9mpmqc95jdyaxq0",
+   "time": "10-09 08:12",
+   "category": "ai-products"
+  },
+  {
+   "title": "Block 如何用 Claude Fable 编排数千个 pull request 的代码迁移",
+   "summary": "Anthropic 发表对 Block AI capabilities 负责人 Bradley Axen 的访谈，介绍 Block 用 Claude Fable 5 编排大规模代码迁移：Fable 做数据模型、API 规格等高层设计，再调度数十个更小的 Opus 或 Sonnet 模型执行文件修改和测试，一次迁移可能合并上千个 pull request。",
+   "reason": "Block 负责 AI 能力的负责人详述 Fable 编排多模型跑大规模迁移的做法与双审批安全机制，读者可对照自身团队的智能体工程实践。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/myoe16r78gjt87vu92995zsae",
+   "time": "10-08 08:00",
    "category": "tip"
   },
   {
-   "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
-   "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
-   "reason": "材料汇集了数学界对 OpenAI 批量发布 AI 证明的抵制声明与 Tao、Aaronson 等多方反应，便于了解争议全貌与社区分歧。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/wf099r75jv1tzyhxa2j2o8n1p",
-   "time": "10-09 02:17",
+   "title": "Hugging Face 工程师用 ML Intern 以约 103 美元自制 7 个小模型",
+   "summary": "Hugging Face 工程师 yuvraj sharma 用 HuggingChat 的 ML Intern 模式在几天内做出 7 个模型，包括可在 CPU 运行、99.7% 有效输出的 0.8B 提示词重写器，以及将柑橘病害识别准确率从 14.9% 提升到 52.8% 的 Qwen3.5-2B 微调模型等，全部计算成本约 103 美元。",
+   "reason": "作者总结了预算控制、基线评测和冒烟测试等提示词写法，让 agent 自主完成数据构建、训练与发布，方法可直接迁移复用。",
+   "source": "Hugging Face 官方团队博客",
+   "url": "https://aihot.news/items/ylkp4aqm4r5fn7aul2l9kfmxw",
+   "time": "10-08 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名",
+   "summary": "Arena 公布 Anthropic Claude Haiku 5.5 (High) 的真实评测结果，在 Code Arena: WebDev 以 1587 分首秀排名第 30，略在 Pareto 前沿之外。",
+   "reason": "榜单方给出 Haiku 5.5 在 Code Arena 的实际得分与各档 Claude 模型的成本分差，便于横向权衡性价比。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/jxxgoidojk52fkcs2fz0fkjzy",
+   "time": "10-09 04:02",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 推出 Cyber Mission，发布 Critical Infrastructure Defense Program 和 OSS Scanner",
+   "summary": "Anthropic 推出 Anthropic Cyber Mission，长期支持关键基础设施和开源软件的防御方，首期包括 Critical Infrastructure Defense Program（CIDP）和免费的 OSS Scanner。",
+   "reason": "原文详述 CIDP 与 OSS Scanner 的运作方式、合作方和已知局限，读者可以了解 Anthropic 如何用模型支持关键基础设施和开源防御。",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/i6n4yv4zs813h6lvir1el1es2",
+   "time": "10-08 00:00",
    "category": "industry"
   },
   {
-   "title": "Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障",
-   "summary": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。",
-   "reason": "原文给出五阶段流水线、验证机制和实测修复数据，读者可了解生产环境智能体质量监控如何落地。",
-   "source": "Google Developers Blog（RSS）",
-   "url": "https://aihot.news/items/col84h6b3pdq383v6iuju3a9v",
+   "title": "Anthropic 推出开源漏洞扫描服务 OSS Scanner，免费面向开源项目",
+   "summary": "Anthropic 发布 OSS Scanner，一个可选加入的开源漏洞扫描服务，用其最强模型（包括 Claude Mythos）定期免费扫描开源项目，输出为全模型生成、无人工复核的报告。",
+   "reason": "原文给出扫描准确率、人工验证数据和维护者反馈，读者可评估这个免费开源安全扫描服务的实际信号质量与参与方式。",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/xfch7s2npl8a4651n2ymips4k",
+   "time": "10-08 00:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解功能",
+   "summary": "Anthropic 发布 Claude Dashboards 和 Claude Motion 两项 beta 功能。",
+   "reason": "官方发布给出了两个新功能的连接对象、使用方式和开放计划范围，读者可以据此判断是否纳入现有数据分析和演示流程。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/winsvtlfubhjfi0wnone83j5c",
    "time": "10-08 08:00",
    "category": "ai-products"
   },
   {
-   "title": "Anthropic 发布 2026 年使用政策更新，11 月 12 日生效",
-   "summary": "Anthropic 发布新版使用政策，将于 11 月 12 日生效，多数变化是对既有规则的澄清。更新包括新设禁止欺骗性活动章节、收窄选举条款、明确武器软件与无人机武装禁令、更精确的监控与执法限制、补充高风险用例及自主物理操作的 human in the loop 要求，并新增禁止对模型的持续无端虐待行为。",
-   "reason": "官方逐条说明新版使用政策的实际变化，读者可以据此了解 Claude 在选举、武器、监控等场景的边界如何调整。",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj",
-   "time": "10-08 00:00",
-   "category": "industry"
-  },
-  {
-   "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
-   "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
-   "reason": "原文给出 Nano Banana 2.1 在两个图像评测榜上的具体排名、价格和提升幅度，读者可据此比较它与其他模型的性价比。",
-   "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/dsbzfsw2pdaw0ikh67cyxmlss",
-   "time": "10-09 00:42",
-   "category": "ai-models"
-  },
-  {
-   "title": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
-   "summary": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
-   "reason": "原文给出了完整的智能体支付架构与凭证隔离做法，读者可以复用到任何需要花钱的智能体场景。",
-   "source": "LangChain：Blog（RSS）",
-   "url": "https://aihot.news/items/l846t7ycr11aqcasu45nowosp",
-   "time": "10-09 00:21",
+   "title": "如何在单张 RTX 5090 上用 MiniMax H3 生成实时视频",
+   "summary": "ComfyUI 博客作者用智能体搜集各类优化，把 MiniMax H3 实时视频生成压缩到单张 RTX 5090（32 GB 显存）上运行，生成 30 秒视频耗时 23.51 秒，达 1.28 倍实时吞吐。",
+   "reason": "原文给出单张 RTX 5090 实现实时直播视频生成的完整优化清单和开源节点，读者可复现这套压成本思路。",
+   "source": "Comfy Blog",
+   "url": "https://aihot.news/items/xc7shuv3raxyv5xvh59ez8hjf",
+   "time": "10-09 03:01",
    "category": "tip"
   },
   {
-   "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
-   "summary": "OpenAI 封禁了两个隐蔽影响行动，俄罗斯来源的 Dark Clark 通过假 persona Mia Clark 控制拉美智库 Social Research Center，评分达 Category 5，是报告以来首个 Category 5；伊朗来源的 Bogus Bylines 用 7 个假记者身份在全球十几家中小媒体投放近 100 篇长文，评分 Category 4。",
-   "reason": "报告基于封禁账号的第一手分析，披露了两个虚假前臆影响行动的手法与分级，读者可了解 AI 加持下隐蔽宣传的真实运作方式。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/b33i6chgxghls2v7bng0wr0nr",
-   "time": "10-08 08:00",
-   "category": "industry"
-  },
-  {
-   "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
-   "summary": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建基于激活探针加 LLM judge 的监控级联，并部署到生产推理栈。",
-   "reason": "原文给出监控级联的完整数据、成本和部署细节，读者可以据此评估实时监控开放模型智能体的可行做法。",
-   "source": "Goodfire Research（网页）",
-   "url": "https://aihot.news/items/ja19mtm89yojd9w2u67qp1gqv",
-   "time": "10-08 00:00",
-   "category": "paper"
-  },
-  {
-   "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
-   "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
-   "reason": "文章把定时智能体自动化拆成可复用的六个组件，并给出书签、台账和权限等可直接迁移的防错规则。",
-   "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-   "url": "https://aihot.news/items/gq8yjkqlcdbpy0l5uc8ch2sj8",
-   "time": "10-08 20:00",
-   "category": "tip"
-  },
-  {
-   "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
-   "summary": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。",
-   "reason": "原文给出 Arena 的融资额、估值和社区规模数字，可帮读者了解这家 AI 评测公司的业务量级和新推出的 Alignment Index。",
+   "title": "Arena 获 Lightspeed 领投 2 亿美元 B 轮融资，估值 31 亿美元并推出 Alignment Index",
+   "summary": "Arena 宣布完成由 Lightspeed 领投的 2 亿美元 B 轮融资，估值 31 亿美元。引用内容称其年化收入已超 1 亿美元，数百万用户通过真实使用帮助评估前沿模型；Arena 同时推出 Alignment Index，衡量 AI 行为在真实场景中与人类价值的契合程度。",
+   "reason": "融资信息附带营收规模和新发布的 Alignment Index，读者可以据此了解模型评测赛道的资本动向。",
    "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/p95hk44dfpkogo2v4rgwvxq30",
-   "time": "10-09 01:08",
+   "url": "https://aihot.news/items/qtsvk3wzyp2aab3vi62vjyold",
+   "time": "10-09 02:51",
    "category": "industry"
   },
   {
-   "title": "Tessl 工程博客：AI 不是笨，是瞎——企业级 Agent 记忆的三个关键设计决策",
-   "summary": "作者基于为跨公司工作的 Agent 构建记忆系统一年的经验指出，AI 失败的常见原因不是模型推理差，而是它看不到关键决策上下文，多数 agent memory 只是给瞎子更大的档案柜。",
-   "reason": "作者以自建系统的一手实测数据说明为何该把记忆当受治理的记录而非存储，三个设计决策和成本数字可直接迁移。",
-   "source": "Tessl：产品与工程博客",
-   "url": "https://aihot.news/items/l31ksvzhwir1pf51leqxjeh07",
-   "time": "10-08 00:00",
-   "category": "tip"
+   "title": "Google 开源 ML Drift 端侧 GPU 推理引擎，接替 TFLite GPU delegate",
+   "summary": "Google AI Edge 团队以 Apache 2.0 许可开源 ML Drift，一个跨平台端侧 GPU 推理计算引擎，作为 LiteRT 的核心 GPU 加速层。",
+   "reason": "原文给出跨平台 GPU 推理引擎的架构升级、性能数据和生产落地案例，端侧 AI 开发者可据此评估迁移路径。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/vemmtcq70ojxkk343dse8qfuc",
+   "time": "10-08 08:00",
+   "category": "ai-products"
   },
   {
-   "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
-   "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
-   "reason": "原文梳理了 Zenity 演示的完整攻击链和 AWS 此后的权限收紧，读者可以据此评估自己云端智能体的隔离与最小权限配置。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/cal34hameqt3bh6d52vaqt58v",
-   "time": "10-08 21:01",
-   "category": "paper"
+   "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+   "summary": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元，由 Lightspeed 和 Khosla Ventures 联合领投，a16z、Felicis、Salesforce Ventures、The House Fund 等参投。自 A 轮以来，Arena 年化收入超 1 亿美元，平台累计 3.5 亿场次会话，约 5 个月内产生 700 万次 Agent Arena 会话，覆盖文本、视觉、代码、搜索、图像和视频的投票达 6200 万，用户遍布 150 多个国家。融资同时，Arena 发布基于真实智能体轨迹构建的 Alignment Index，对 20 多个前沿模型从 Unauthorized Action、False Attribution 和 Deceptive Completion 三个信号进行评估。Arena 于 2023 年作为 UC Berkeley 研究项目启动，2025 年成为公司。",
+   "reason": "原文披露 Arena 融资金额、估值和运营数据，并介绍基于真实智能体轨迹的 Alignment Index 三个信号。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/rs34l7aa23mk54jutma8f7g3r",
+   "time": "10-09 05:36",
+   "category": "industry"
   }
  ],
  "aiDaily": {
-  "date": "2026-10-08",
-  "url": "https://aihot.news/daily/2026-10-08",
+  "date": "2026-10-09",
+  "url": "https://aihot.news/daily/2026-10-09",
   "sections": [
-   {
-    "label": "模型发布/更新",
-    "items": [
-     {
-      "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
-      "summary": "Anthropic 发布 Claude Haiku 5.5，定位为迄今最便宜、最快的小模型，适合摘要、压缩、数据库查询、分类等高吞吐任务，并可搭配 Opus 5.5 和 Sonnet 5.5 担任编码子智能体。",
-      "source": "Anthropic：Newsroom（网页）",
-      "url": "https://aihot.news/items/lqyhqdf0u7iksn5ydnpyhk81x"
-     }
-    ]
-   },
    {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
-      "summary": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/uir31g728myjry383z17txvrw"
+      "title": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解功能",
+      "summary": "Anthropic 发布 Claude Dashboards 和 Claude Motion 两项 beta 功能。",
+      "source": "Claude：Blog（网页）",
+      "url": "https://aihot.news/items/winsvtlfubhjfi0wnone83j5c"
      },
      {
-      "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
-      "summary": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "url": "https://aihot.news/items/ponkn6n046yorr5pg1yv3yjm5"
+      "title": "Anthropic 推出开源漏洞扫描服务 OSS Scanner，免费面向开源项目",
+      "summary": "Anthropic 发布 OSS Scanner，一个可选加入的开源漏洞扫描服务，用其最强模型（包括 Claude Mythos）定期免费扫描开源项目，输出为全模型生成、无人工复核的报告。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "url": "https://aihot.news/items/xfch7s2npl8a4651n2ymips4k"
      },
      {
-      "title": "OpenAI Decisions API 公测上线",
-      "summary": "OpenAI 推出 Decisions API 公开测试版，向所有开发者开放，可让应用在接近实时的速度下选择合适的模型、工具或动作。官方称其决策速度最高比通过 Responses API 的 GPT-6 Luna 快 10 倍，作者表示团队将自用该 API 以多种方式改进体验。",
-      "source": "X：Tibo (@thsottiaux)",
-      "url": "https://aihot.news/items/u3xqs4u7tqjvaph4sfdnxfafw"
-     },
-     {
-      "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
-      "summary": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "url": "https://aihot.news/items/vd2lvzvjz4tujiqupl30ifq3k"
-     },
-     {
-      "title": "NVIDIA 与 Microsoft 发布 RTX Spark 及 DGX Station for Windows，推动 AI Agent 落地 Windows PC",
-      "summary": "NVIDIA 与 Microsoft 在旧金山 Windows AI 和 Surface 活动上宣布为 Windows PC 引入 AI Agent 硬件与软件。",
-      "source": "NVIDIA Blog（RSS）",
-      "url": "https://aihot.news/items/t02toac3ii8mp1lxzl4blewdd"
-     },
-     {
-      "title": "Google 推出实验性游戏平台 Playground，用提示词即可创建游戏",
-      "summary": "Google 推出实验性游戏平台 Playground，用户通过文本提示词即可创建、游玩和分享自定义游戏，无需编程经验。",
-      "source": "Google Blog：AI（RSS）",
-      "url": "https://aihot.news/items/f6gwhhu7370v7h37gkrncldvf"
+      "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+      "summary": "ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。",
+      "source": "Hacker News：AI 热帖",
+      "url": "https://aihot.news/items/yyba9bpxdtqdpqmv739d26ftg"
      }
     ]
    },
@@ -253,10 +224,46 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "亚利桑那州法院裁定 AI 生成受害者视频带有不当情感分量 将重新量刑",
-      "summary": "亚利桑那州上诉法院裁定，Gabriel Horcasitas 2021 年路怒枪杀 Christopher Pelkey 一案维持过失杀人定罪，但因量刑听证中播放的 AI 生成受害者视频带有不当情感分量，法官须重新考虑刑期。",
-      "source": "404 Media（RSS）",
-      "url": "https://aihot.news/items/iz93flwr7h9m7po4wnu8sm4hy"
+      "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
+      "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
+      "source": "The Decoder：AI News（RSS）",
+      "url": "https://aihot.news/items/br6vb46mhi9mkv2pxiq59k8z7"
+     },
+     {
+      "title": "OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元",
+      "summary": "据金融时报报道，OpenAI 向投资者披露截至 9 月底年化营收逼近 500 亿美元，大幅低于此前外界估算的 700 亿美元，缺口约 200 亿美元。差异源于统计口径不同，Anthropic 计入 AWS 和谷歌云等合作方销售收入，而 OpenAI 剔除该部分。报道发布后美股科技股下跌，纳斯达克 100 指数收跌 1.4%，英伟达跌 2.9%，甲骨文跌 5.5%。",
+      "source": "IT之家·人工智能",
+      "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti"
+     },
+     {
+      "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+      "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+      "source": "The Decoder：AI News（RSS）",
+      "url": "https://aihot.news/items/wf099r75jv1tzyhxa2j2o8n1p"
+     },
+     {
+      "title": "Anthropic 发布 2026 年使用政策更新，11 月 12 日生效",
+      "summary": "Anthropic 发布新版使用政策，将于 11 月 12 日生效，多数变化是对既有规则的澄清。更新包括新设禁止欺骗性活动章节、收窄选举条款、明确武器软件与无人机武装禁令、更精确的监控与执法限制、补充高风险用例及自主物理操作的 human in the loop 要求，并新增禁止对模型的持续无端虐待行为。",
+      "source": "Anthropic：Newsroom（网页）",
+      "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj"
+     },
+     {
+      "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
+      "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
+      "source": "X：Tibo (@thsottiaux)",
+      "url": "https://aihot.news/items/zdgw2hhfjitur1qmeuminh3lm"
+     },
+     {
+      "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+      "summary": "OpenAI 封禁了两个隐蔽影响行动，俄罗斯来源的 Dark Clark 通过假 persona Mia Clark 控制拉美智库 Social Research Center，评分达 Category 5，是报告以来首个 Category 5；伊朗来源的 Bogus Bylines 用 7 个假记者身份在全球十几家中小媒体投放近 100 篇长文，评分 Category 4。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/b33i6chgxghls2v7bng0wr0nr"
+     },
+     {
+      "title": "Waymo 完成 50 亿美元债务融资，加速业务扩张",
+      "summary": "Waymo 宣布完成 50 亿美元定期贷款，这是其首次债务融资。PIMCO、Blackstone 和 Sixth Street 担任牵头银团贷方，Goldman Sachs 担任独家主账簿管理人；资金将用于加速其全自动驾驶打车服务在美国及国际市场的扩张。此前今年早些时候 Waymo 完成了 160 亿美元股权融资，上个月刚在第十五个美国城市启动服务。",
+      "source": "Waymo：Blog（网页）",
+      "url": "https://aihot.news/items/pl2oa5clmf0gp3t7x3qsn71kc"
      }
     ]
    },
@@ -264,16 +271,10 @@ var WB_DATA = {
     "label": "论文研究",
     "items": [
      {
-      "title": "Google Research 三个月专利起草实验发现AI辅助未必能培养初级律师的专业判断",
-      "summary": "Google Research 在 NBER 发表的论文报告了一项三个月随机田野实验，向11家知识产权律所的133名律师随机开放当时未发布的 AI 专利写作助手（现属 Gemini Notebook）。",
-      "source": "Google Research：Blog（网页）",
-      "url": "https://aihot.news/items/tyhn4y95ez3mvj0p7xovpaq61"
-     },
-     {
-      "title": "Microsoft Research Asia 开源 Agent Lightning v1.0：3,500 行代码的真实 harness 智能体 RL 训练框架",
-      "summary": "Microsoft Research Asia 提出 Harnessed Agentic RL 训练范式并开源重建的 Agent Lightning v1.0，让部署时使用的同一 agent harness 直接参与强化学习，无需在训练框架内重写 agent。",
-      "source": "Microsoft Research 博客（RSS）",
-      "url": "https://aihot.news/items/t9wypjd9cbb42ttuq7vrpp07l"
+      "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
+      "summary": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建基于激活探针加 LLM judge 的监控级联，并部署到生产推理栈。",
+      "source": "Goodfire Research（网页）",
+      "url": "https://aihot.news/items/ja19mtm89yojd9w2u67qp1gqv"
      }
     ]
    },
@@ -281,16 +282,10 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "Google 开放 SynthID Detector 门户，可检测图片、视频和音频是否由 AI 生成",
-      "summary": "Google 介绍检测媒体是否由 AI 生成的方法：访问 https://synthid.com 上传图片、视频或音频文件，门户会扫描文件是否包含来自 Google 或其合作伙伴的 SynthID 水印。",
-      "source": "X：Google (@Google)",
-      "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo"
-     },
-     {
-      "title": "a16z 解析德州为何让数据中心排队等电",
-      "summary": "a16z 的 Ryan McEntush 分析德州电网暂停审批数据中心的原因：并网队列从 2024 年底的 63 GW 激增到今年 6 月的 474 GW，约 90% 是数据中心，开发商大量投机性申请且社区沟通不足。",
-      "source": "a16z：News（RSS）",
-      "url": "https://aihot.news/items/yk3grmalszldrwd1p8bxk0cki"
+      "title": "Hugging Face 工程师用 ML Intern 以约 103 美元自制 7 个小模型",
+      "summary": "Hugging Face 工程师 yuvraj sharma 用 HuggingChat 的 ML Intern 模式在几天内做出 7 个模型，包括可在 CPU 运行、99.7% 有效输出的 0.8B 提示词重写器，以及将柑橘病害识别准确率从 14.9% 提升到 52.8% 的 Qwen3.5-2B 微调模型等，全部计算成本约 103 美元。",
+      "source": "Hugging Face 官方团队博客",
+      "url": "https://aihot.news/items/ylkp4aqm4r5fn7aul2l9kfmxw"
      }
     ]
    }
@@ -634,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-09 02:58",
+   "updateTime": "2026-10-09 12:10",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "2026英雄联盟全球总决赛主题曲《KNOW MY NAME》（以我之名）",
+     "url": "https://www.bilibili.com/video/BV1DRHU6LELy",
+     "hot": 1111864
+    },
+    {
+     "title": "皮卡月刊「怪奇实验室」实机展示",
+     "url": "https://www.bilibili.com/video/BV1qLH16LEFZ",
+     "hot": 322226
+    },
+    {
      "title": "超市生存挑战后续！4人吃完整个超市赢100万美金！",
      "url": "https://www.bilibili.com/video/BV1VeHQ6tEaS",
-     "hot": 446603
-    },
-    {
-     "title": "《阴阳师》咲耶CG丨拾此一瞬（CV：小泽亚李）",
-     "url": "https://www.bilibili.com/video/BV1BsHQ6YEQy",
-     "hot": 803736
-    },
-    {
-     "title": "【男巫ZachKing】2026最佳魔术！",
-     "url": "https://www.bilibili.com/video/BV1BuHC6rEuX",
-     "hot": 1116060
+     "hot": 1487760
     },
     {
      "title": "【独家】时光代理人 第三季 PartOne 第10集 错位的救赎【8月国创】",
      "url": "https://www.bilibili.com/video/BV1mXak6UEea",
-     "hot": 547035
+     "hot": 663486
     },
     {
-     "title": "听完通透了！上饶天选之子《升本后醒来》“好的本科他不会比专科差”",
-     "url": "https://www.bilibili.com/video/BV1mbHC6ZEkv",
-     "hot": 352545
+     "title": "《阴阳师》咲耶CG丨拾此一瞬（CV：小泽亚李）",
+     "url": "https://www.bilibili.com/video/BV1BsHQ6YEQy",
+     "hot": 1095144
     },
     {
-     "title": "《要是我能快点长大就好了》",
-     "url": "https://www.bilibili.com/video/BV1x1Hf6AE5V",
-     "hot": 987760
+     "title": "2026英雄联盟全球总决赛主题曲《KNOW MY NAME》（以我之名）",
+     "url": "https://www.bilibili.com/video/BV12NHQ6jEU3",
+     "hot": 183036
     },
     {
-     "title": "以前真是白活了",
-     "url": "https://www.bilibili.com/video/BV1GLHE6hEJd",
-     "hot": 4064373
+     "title": "来纽约，拍到了些怪东西",
+     "url": "https://www.bilibili.com/video/BV1x2HS66E96",
+     "hot": 1312043
     },
     {
-     "title": "崔永元自述：冯小刚乱，徐帆也很乱！范冰冰恬不知耻！我就是要他们完蛋！但葛优我可以忍！",
-     "url": "https://www.bilibili.com/video/BV1NDpA6LE6L",
-     "hot": 455112
+     "title": "“我穿越成了一棵树。”",
+     "url": "https://www.bilibili.com/video/BV1qsHQ6YEs4",
+     "hot": 321206
     },
     {
-     "title": "迈克尔·高启强 世界巡演【AI MV大赛】",
-     "url": "https://www.bilibili.com/video/BV1m7Hx6GE6N",
-     "hot": 503343
+     "title": "《和樱花妹互换身体の日常》第五集【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1eWHm6mEH9",
+     "hot": 653122
     },
     {
      "title": "【剧情】长生契（2026）20【方逸伦 / 谢可寅】",
      "url": "https://www.bilibili.com/video/BV13Dem6VEp5",
-     "hot": 710694
+     "hot": 750508
     },
     {
-     "title": "耗时一年，改造善良老人晚年，完整后续来了！",
-     "url": "https://www.bilibili.com/video/BV1pMH46MEmw",
-     "hot": 1252093
+     "title": "【EPL表演赛】全明星大乱斗2.0",
+     "url": "https://www.bilibili.com/video/BV1GpHR6aEQz",
+     "hot": 259888
     },
     {
-     "title": "妈妈是个超人",
-     "url": "https://www.bilibili.com/video/BV1tLHv6vEXV",
-     "hot": 743891
+     "title": "中国屌丝用7千块花掉印度人半年的薪资，体验婆罗门生活，富人生活到底有多奢侈？",
+     "url": "https://www.bilibili.com/video/BV1ehHQ6bErB",
+     "hot": 461833
     }
    ]
   }
@@ -718,63 +713,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "千亿级计划曝光！马斯克，又有大动作→",
-   "url": "https://finance.sina.com.cn/wm/2026-10-08/doc-iniumumx4289614.shtml",
+   "title": "特朗普表彰六位美国科技巨头",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqqhm3994516.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "三星财报：同比翻8倍 1个季度利润超800亿美元！",
-   "url": "https://finance.sina.com.cn/tech/discovery/2026-10-08/doc-iniunezm7686096.shtml",
+   "title": "尊界和懂车帝就“踏板断裂”事件作出回应",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniupxkt4199365.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OpenAI全面上线GPT6！",
-   "url": "https://finance.sina.com.cn/tech/discovery/2026-10-08/doc-iniunezm7675937.shtml",
+   "title": "美“龙”飞船载4名宇航员返回地球",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniupxkx7403159.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "江淮汽车回应尊界V800刹车踏板断裂：正在调查和测试",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-08/doc-iniupafi7736971.shtml",
+   "title": "尊界和懂车帝就“踏板断裂”事件作出回应，尊界所提适用标准或犯“乌龙”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniupxkt4199365.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "光芯片板块大幅下挫，三家上市公司回应：未获悉降价相关消息",
-   "url": "https://finance.sina.com.cn/stock/2026-10-08/doc-iniunrrf7677711.shtml",
+   "title": "马斯克放大招：Grok Bot免费用Opus 5.5和X全部功能！",
+   "url": "https://finance.sina.com.cn/stock/t/2026-10-09/doc-iniuqiym7319451.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "耗资123亿元安踏正式成为彪马大股东 暂时浮亏45亿元",
-   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-08/doc-iniunvxm7817812.shtml",
+   "title": "能跟阿迪耐克掰手腕的PUMA 被安踏豪掷113亿元收购了",
+   "url": "https://finance.sina.com.cn/tech/discovery/2026-10-09/doc-iniuqiym7336202.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "圣路易斯联储行长暗示未来六到九个月可能上调利率",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqcsp7352807.shtml",
+   "title": "飓风伊赛亚斯逼近美国墨西哥湾，原油产量大幅锐减",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqywm6970352.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国CBO负责人质疑贝森特理论 称单靠经济增长难以解决高债务问题",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqcsp7349958.shtml",
+   "title": "福瑞泰克获澳新出口车型项目定点，覆盖高速与城区驾驶场景",
+   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuqywr7842701.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧洲股市连续第二天下跌 银行股触及四个月低点",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkx7412657.shtml",
+   "title": "内涵尊界踏板支架断裂？岚图汽车董事长卢放晒自家刹车踏板：采用多层高强度钢板主梁",
+   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuqywm3002953.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "调查显示OPEC上月原油产量回升 受沙特带动",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkt4237871.shtml",
+   "title": "第二届RED LAND收官：5天超20万人登岛，人数较去年翻倍",
+   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuquqp7076901.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "拉加德：欧洲央行有工具应对缺乏正当理由的市场波动",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkr7465096.shtml",
+   "title": "余承东朋友圈转发尊界声明，头像为与尊界V800合影",
+   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuquqp3106699.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "微软回应移民用工争议 称去年80%的H-1B签证申请并非招聘新人",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniupxkt4225414.shtml",
+   "title": "尊界刹车踏板支架断裂风波后，懂车帝测试人员遭遇短信轰炸",
+   "url": "https://finance.sina.com.cn/tob/2026-10-09/doc-iniuquqf7200414.shtml",
    "source": "新浪科技"
   }
  ]
