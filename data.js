@@ -1,30 +1,30 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-09 19:26",
+ "updatedAt": "2026-10-10 02:28",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
-   "time": "10-09 04:04",
-   "sourceCount": 13
-  },
-  {
-   "rank": 2,
    "title": "Anthropic 新政策首次禁止虐待模型",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj",
    "time": "10-09 11:10",
-   "sourceCount": 7
+   "sourceCount": 6
+  },
+  {
+   "rank": 2,
+   "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
+   "time": "10-09 04:04",
+   "sourceCount": 11
   },
   {
    "rank": 3,
-   "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/uir31g728myjry383z17txvrw",
-   "time": "10-08 10:22",
-   "sourceCount": 10
+   "title": "OpenAI解雇3名研究员，双方就指控各执一词",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/qi3wpj7l1sqi28okj1xttkzse",
+   "time": "10-09 19:45",
+   "sourceCount": 7
   },
   {
    "rank": 4,
@@ -36,14 +36,22 @@ var WB_DATA = {
   },
   {
    "rank": 5,
-   "title": "OpenAI解雇3名研究员，双方就指控各执一词",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/a1s641znzieiiyaoqnm2pf4x8",
-   "time": "10-09 17:48",
-   "sourceCount": 6
+   "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/uir31g728myjry383z17txvrw",
+   "time": "10-08 10:22",
+   "sourceCount": 8
   },
   {
    "rank": 6,
+   "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
+   "time": "10-09 20:19",
+   "sourceCount": 3
+  },
+  {
+   "rank": 7,
    "title": "Claude 上线 Dashboards 与 Motion 两项测试功能",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/winsvtlfubhjfi0wnone83j5c",
@@ -51,15 +59,15 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 7,
-   "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
-   "time": "10-09 11:11",
-   "sourceCount": 3
+   "rank": 8,
+   "title": "OpenAI 数学成果引验证争议",
+   "source": "X：马东锡 NLP (@dongxi_nlp)",
+   "url": "https://aihot.news/items/i66buy8nl2n5fy63kgf9zr1v5",
+   "time": "10-09 09:40",
+   "sourceCount": 5
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/mjcipkmcvo0ofbl2tegerkjvi",
@@ -67,23 +75,33 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 9,
-   "title": "OpenAI 数学成果引验证争议",
-   "source": "X：马东锡 NLP (@dongxi_nlp)",
-   "url": "https://aihot.news/items/i66buy8nl2n5fy63kgf9zr1v5",
-   "time": "10-09 09:40",
-   "sourceCount": 7
-  },
-  {
    "rank": 10,
-   "title": "Google 全球开放 SynthID 水印检测器",
-   "source": "X：Google (@Google)",
-   "url": "https://aihot.news/items/don06si59xc143ed92gdmlnvo",
-   "time": "10-08 22:53",
-   "sourceCount": 6
+   "title": "Anthropic推出免费开源漏洞扫描服务OSS Scanner",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/xfch7s2npl8a4651n2ymips4k",
+   "time": "10-09 14:08",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 年化收入约 500 亿美元并寻求 300 亿美元新融资",
+   "summary": "OpenAI 9 月底年化收入率约 500 亿美元，此前近 700 亿美元的数字源于与 Anthropic 不同的合作方销售入账方式，两者均符合美国 GAAP。公司正洽谈至少 300 亿美元新融资，目标投前估值 1.4 万亿美元，企业业务推动 Q3 总收入增长 77%，FT 报告发布后芯片股曾下跌数个百分点。",
+   "reason": "报道梳理了 OpenAI 收入口径争议与融资进展，也解释了为何一份收入报告能引发芯片股下跌。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/auy2exatk0u5kr1c1ydmaajws",
+   "time": "10-10 01:20",
+   "category": "industry"
+  },
+  {
+   "title": "ARC Prize 2026：TUFA Labs 以 88.06% 登顶 ARC-AGI-2 高分榜",
+   "summary": "ARC Prize 公布 2026 赛季 ARC-AGI-2 高分榜，TUFA Labs 以 88.06% 排名第一。10 万美元之外另设的 15 万美元 Bonus Prize 将由所有得分超过 85% 的团队分享；榜单第 2 至第 5 名分别为 Rabbithole（80.56%）、Yi-Chia Chen（77.22%）、Nubanana（77.08%）和 _hans（67.64%）。",
+   "reason": "ARC Prize 官方公布 2026 赛季 ARC-AGI-2 高分赛况，88.06% 登顶并触发超过 85% 团队共享的 15 万美元奖金。",
+   "source": "X：ARC Prize (@arcprize)",
+   "url": "https://aihot.news/items/o8tu2a2i9r2roqh7un9l5grq2",
+   "time": "10-09 23:19",
+   "category": "ai-models"
+  },
   {
    "title": "OpenAI 研究负责人发声明回应三名员工离职争议",
    "summary": "OpenAI 研究负责人发声明，称上周在调查发现 Jasmine、Mikita 和 Tomek 违反敏感信息处理政策后终止其雇佣，并表示内部调查发现超出三人公开信所述的重大信任违规。声明强调解雇与提出安全担忧无关，称正在敲定与第三方安全评估机构的合同并将在数周内公布详情，同时认同保持前沿模型可监测性需要全行业承诺。",
@@ -172,24 +190,6 @@ var WB_DATA = {
    "source": "X：Arena (@arena)",
    "url": "https://aihot.news/items/qtsvk3wzyp2aab3vi62vjyold",
    "time": "10-09 02:51",
-   "category": "industry"
-  },
-  {
-   "title": "Google 开源 ML Drift 端侧 GPU 推理引擎，接替 TFLite GPU delegate",
-   "summary": "Google AI Edge 团队以 Apache 2.0 许可开源 ML Drift，一个跨平台端侧 GPU 推理计算引擎，作为 LiteRT 的核心 GPU 加速层。",
-   "reason": "原文给出跨平台 GPU 推理引擎的架构升级、性能数据和生产落地案例，端侧 AI 开发者可据此评估迁移路径。",
-   "source": "Google Developers Blog（RSS）",
-   "url": "https://aihot.news/items/vemmtcq70ojxkk343dse8qfuc",
-   "time": "10-08 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
-   "summary": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元，由 Lightspeed 和 Khosla Ventures 联合领投，a16z、Felicis、Salesforce Ventures、The House Fund 等参投。自 A 轮以来，Arena 年化收入超 1 亿美元，平台累计 3.5 亿场次会话，约 5 个月内产生 700 万次 Agent Arena 会话，覆盖文本、视觉、代码、搜索、图像和视频的投票达 6200 万，用户遍布 150 多个国家。融资同时，Arena 发布基于真实智能体轨迹构建的 Alignment Index，对 20 多个前沿模型从 Unauthorized Action、False Attribution 和 Deceptive Completion 三个信号进行评估。Arena 于 2023 年作为 UC Berkeley 研究项目启动，2025 年成为公司。",
-   "reason": "原文披露 Arena 融资金额、估值和运营数据，并介绍基于真实智能体轨迹的 Alignment Index 三个信号。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/rs34l7aa23mk54jutma8f7g3r",
-   "time": "10-09 05:36",
    "category": "industry"
   }
  ],
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-09 19:27",
+   "updateTime": "2026-10-10 02:28",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "极极极极，极限战场👉🏻首曝极首测，所见极所玩",
      "url": "https://www.bilibili.com/video/BV1PTHS6MEC5",
-     "hot": 3586331
+     "hot": 5625239
+    },
+    {
+     "title": "自己喂的猪，才有这个家乡味，这大油，这肥膘，这颜色",
+     "url": "https://www.bilibili.com/video/BV1XWpM6MECx",
+     "hot": 1453828
     },
     {
      "title": "2026英雄联盟全球总决赛主题曲《KNOW MY NAME》（以我之名）",
      "url": "https://www.bilibili.com/video/BV1DRHU6LELy",
-     "hot": 2480237
+     "hot": 3078705
+    },
+    {
+     "title": "【手术TV】先生！我知道这很荒诞，但人还得往前看......",
+     "url": "https://www.bilibili.com/video/BV1Xdps6nEhe",
+     "hot": 506300
     },
     {
      "title": "超市生存挑战后续！4人吃完整个超市赢100万美金！",
      "url": "https://www.bilibili.com/video/BV1VeHQ6tEaS",
-     "hot": 2584983
-    },
-    {
-     "title": "【独家】时光代理人 第三季 PartOne 第10集 错位的救赎【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1mXak6UEea",
-     "hot": 900215
-    },
-    {
-     "title": "法国最近太烧心了",
-     "url": "https://www.bilibili.com/video/BV1gTHd6aE5e",
-     "hot": 748306
-    },
-    {
-     "title": "成功埋下机车种子，弥补曾经对年少不可得之物的遗憾",
-     "url": "https://www.bilibili.com/video/BV1b4HC6FEBD",
-     "hot": 656518
+     "hot": 3364631
     },
     {
      "title": "影视飓风的直升机？怪东西分享9.0",
      "url": "https://www.bilibili.com/video/BV1gHps6yEHL",
-     "hot": 237494
+     "hot": 653712
     },
     {
-     "title": "《阴阳师》咲耶CG丨拾此一瞬（CV：小泽亚李）",
-     "url": "https://www.bilibili.com/video/BV1BsHQ6YEQy",
-     "hot": 1706510
+     "title": "法国最近太烧心了",
+     "url": "https://www.bilibili.com/video/BV1gTHd6aE5e",
+     "hot": 1150970
+    },
+    {
+     "title": "deepseek 翻唱《人是猫》完整版，大肥鱼觉得人和猫一样可爱,所以人是猫",
+     "url": "https://www.bilibili.com/video/BV1XXHD6sEe7",
+     "hot": 223818
     },
     {
      "title": "三年之期已到，恭迎世一上归位！【第13集】",
      "url": "https://www.bilibili.com/video/BV12gpt6UER4",
-     "hot": 341782
-    },
-    {
-     "title": "神仙也要办破地狱仪式？“无人可葬”的诡异葬礼，竟然藏着惊天阴谋！【提瓦特说书人·璃月篇】",
-     "url": "https://www.bilibili.com/video/BV1y3HQ6GEaf",
-     "hot": 175316
+     "hot": 735922
     },
     {
      "title": "“我穿越成了一棵树。”",
      "url": "https://www.bilibili.com/video/BV1qsHQ6YEs4",
-     "hot": 609494
+     "hot": 853318
     },
     {
-     "title": "史上最大现金收购案 富二代如何正确拼爹",
-     "url": "https://www.bilibili.com/video/BV1FCps68EGf",
-     "hot": 116621
+     "title": "全网首发《银松镇》正式版 高质量生化危机+寂静岭风格恐怖游戏 全收集 全结局",
+     "url": "https://www.bilibili.com/video/BV1fkHD6wEXt",
+     "hot": 615349
+    },
+    {
+     "title": "《柯洁围棋入门课2:切断和连接》",
+     "url": "https://www.bilibili.com/video/BV1qMp46wE1n",
+     "hot": 329266
     }
    ]
   }
@@ -748,6 +748,21 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "“FSD”变“TAD” 特斯拉弃用自动驾驶命名 以争取欧洲监管批准",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurruc2841994.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "播放量超百亿的短剧接连从这里诞生！西岸这个基地免费“拎包入住”叠加“一站式”服务",
+   "url": "https://finance.sina.com.cn/wm/2026-10-09/doc-iniurvzz2713286.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "网易有道龙虾：腾讯QClaw关停，欢迎用户搬家",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurruc2834265.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "分析师：英伟达或将在2028年下半年采用英特尔Foveros封装技术",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurrui7830395.shtml",
    "source": "新浪科技"
@@ -755,21 +770,6 @@ var WB_DATA = {
   {
    "title": "马化腾与姚顺雨罕见同框，座谈会现场相邻而坐",
    "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurrui7828410.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "超20万年轻人登岛“做主角”，复兴岛成青年文化新地标",
-   "url": "https://finance.sina.com.cn/wm/2026-10-09/doc-iniurrui7826581.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "张雪机车用户进ICU要退款，真相大反转",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-10-09/doc-iniurruc6767322.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "英伟达支持的Firmus据悉考虑通过私募融资方式筹集至多30亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniurruc6754676.shtml",
    "source": "新浪科技"
   }
  ]
