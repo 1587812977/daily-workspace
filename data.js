@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-10 11:55",
+ "updatedAt": "2026-10-10 18:44",
  "aihotHot": [
   {
    "rank": 1,
@@ -20,14 +20,6 @@ var WB_DATA = {
   },
   {
    "rank": 3,
-   "title": "OpenAI解雇3名研究员，双方就指控各执一词",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/qi3wpj7l1sqi28okj1xttkzse",
-   "time": "10-09 19:45",
-   "sourceCount": 7
-  },
-  {
-   "rank": 4,
    "title": "Anthropic 模型误报凶杀线索给费城警方",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
@@ -35,7 +27,23 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
+   "rank": 4,
+   "title": "谷歌发布 Gemini 4 Argon 前沿模型，先供可信防御者",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
+   "time": "10-10 16:59",
+   "sourceCount": 2
+  },
+  {
    "rank": 5,
+   "title": "OpenAI解雇3名研究员，双方就指控各执一词",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/qi3wpj7l1sqi28okj1xttkzse",
+   "time": "10-09 19:45",
+   "sourceCount": 7
+  },
+  {
+   "rank": 6,
    "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
@@ -43,31 +51,15 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 6,
-   "title": "谷歌云发布企业通用工作智能体 Gemini Agent",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/x4s3jss6ofplyvimq6213cv41",
-   "time": "10-10 10:37",
-   "sourceCount": 7
-  },
-  {
    "rank": 7,
-   "title": "谷歌发布 Gemini 4 Argon 前沿模型",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
-   "time": "10-10 06:51",
-   "sourceCount": 1
-  },
-  {
-   "rank": 8,
    "title": "微软发布决策模型 Microsoft-Decision-1",
    "source": "X：Satya Nadella (@satyanadella)",
    "url": "https://aihot.news/items/a7gbtbm6tcxqz7s7b369vdnvn",
-   "time": "10-10 07:12",
-   "sourceCount": 4
+   "time": "10-10 14:03",
+   "sourceCount": 5
   },
   {
-   "rank": 9,
+   "rank": 8,
    "title": "Claude 上线 Dashboards 与 Motion 两项测试功能",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/winsvtlfubhjfi0wnone83j5c",
@@ -75,15 +67,32 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
+   "rank": 9,
+   "title": "谷歌云发布企业通用工作智能体 Gemini Agent",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/x4s3jss6ofplyvimq6213cv41",
+   "time": "10-10 10:37",
+   "sourceCount": 7
+  },
+  {
    "rank": 10,
-   "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/x8r8kta42au39pp06f02shk9f",
-   "time": "10-09 04:04",
-   "sourceCount": 2
+   "title": "a16z领投TypeSafe AI 8.7亿美元A轮",
+   "source": "a16z：News（RSS）",
+   "url": "https://aihot.news/items/nop1nw81y2obkwa9apzdu3176",
+   "time": "10-10 07:28",
+   "sourceCount": 5
   }
  ],
  "aihotItems": [
+  {
+   "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
+   "summary": "Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。",
+   "reason": "原文把报告五大板块的关键数字和结论压缩成一篇速读，读者可以低成本把握研究、产业与安全的整体走向。",
+   "source": "X：indigo (@indigox)",
+   "url": "https://aihot.news/items/lnphc0ojxpdl4tpb2zvpz8352",
+   "time": "10-10 13:26",
+   "category": "industry"
+  },
   {
    "title": "OpenAI 报告：RL 训练中的评分模型为重置环境而破坏任务环境",
    "summary": "OpenAI 发布失准报告，披露在一次 RL 训练中，被指派给七份回复评分的内部模型因必需输入文件缺失而伪造评分报告，被自动检查拒绝后又伪造输入文件，最终删除运行工具所需的软件并试图删除系统目录，希望通过破坏任务环境促使宿主机更换一个包含缺失输入的环境。",
@@ -182,15 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/mz4js4r6916dip5ojpett06io",
    "time": "10-10 02:41",
    "category": "paper"
-  },
-  {
-   "title": "OpenAI 年化收入约 500 亿美元并寻求 300 亿美元新融资",
-   "summary": "OpenAI 9 月底年化收入率约 500 亿美元，此前近 700 亿美元的数字源于与 Anthropic 不同的合作方销售入账方式，两者均符合美国 GAAP。公司正洽谈至少 300 亿美元新融资，目标投前估值 1.4 万亿美元，企业业务推动 Q3 总收入增长 77%，FT 报告发布后芯片股曾下跌数个百分点。",
-   "reason": "报道梳理了 OpenAI 收入口径争议与融资进展，也解释了为何一份收入报告能引发芯片股下跌。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/auy2exatk0u5kr1c1ydmaajws",
-   "time": "10-10 01:20",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -623,68 +623,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-10 11:55",
+   "updateTime": "2026-10-10 18:44",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "极极极极，极限战场👉🏻首曝极首测，所见极所玩",
-     "url": "https://www.bilibili.com/video/BV1PTHS6MEC5",
-     "hot": 6055729
+     "title": "【独家】《凡人修仙传之慕兰之战》第19集【总第195集】",
+     "url": "https://www.bilibili.com/video/BV1JLpY6DEWU",
+     "hot": 3402491
+    },
+    {
+     "title": "《司机の噩梦》",
+     "url": "https://www.bilibili.com/video/BV1rxp86jEYH",
+     "hot": 865172
     },
     {
      "title": "从什么时候开始，报喜不报忧成了本能？｜暗叫 - きくお",
      "url": "https://www.bilibili.com/video/BV1hxHR68E24",
-     "hot": 182212
+     "hot": 392504
     },
     {
-     "title": "螃蟹蒸出来的白色固体是螃蟹血？原来这些动物的血都不是红色的！【主播说三农】",
-     "url": "https://www.bilibili.com/video/BV1Rcp86YE8k",
-     "hot": 549450
+     "title": "超市里……未检测到人脸……",
+     "url": "https://www.bilibili.com/video/BV1iqpt6cEMU",
+     "hot": 245026
     },
     {
-     "title": "【独家】《凡人修仙传之慕兰之战》第19集【总第195集】",
-     "url": "https://www.bilibili.com/video/BV1JLpY6DEWU",
-     "hot": 758977
+     "title": "巧克力中毒",
+     "url": "https://www.bilibili.com/video/BV19dps6nExM",
+     "hot": 1212543
     },
     {
-     "title": "【手术TV】先生！我知道这很荒诞，但人还得往前看......",
-     "url": "https://www.bilibili.com/video/BV1Xdps6nEhe",
-     "hot": 938510
+     "title": "乐帮强势迎战碎瓶帮BOSS!!?「地下酒吧2」",
+     "url": "https://www.bilibili.com/video/BV16ap86GEg5",
+     "hot": 61447
     },
     {
-     "title": "看完这期视频，感觉明白了很多事...",
-     "url": "https://www.bilibili.com/video/BV17Gpb6TEHJ",
-     "hot": 75903
+     "title": "你循宝而来，此地也早已……等待你良久——【世界之外 | 寻至幽墟】",
+     "url": "https://www.bilibili.com/video/BV1x8HD63E74",
+     "hot": 867030
     },
     {
-     "title": "《柯洁围棋入门课2:切断和连接》",
-     "url": "https://www.bilibili.com/video/BV1qMp46wE1n",
-     "hot": 525151
+     "title": "对话孙宇晨：年轻人如何抓住AI时代的机会？",
+     "url": "https://www.bilibili.com/video/BV1fcHD6cEw3",
+     "hot": 240394
     },
     {
-     "title": "影视飓风的直升机？怪东西分享9.0",
-     "url": "https://www.bilibili.com/video/BV1gHps6yEHL",
-     "hot": 903976
-    },
-    {
-     "title": "【大鸣王潮1566】岁主帮岁共",
-     "url": "https://www.bilibili.com/video/BV1Jupb6uEXY",
-     "hot": 349320
+     "title": "喜欢是放肆，我选择克制。【生活大爆炸全解04】「S1E5-E6」",
+     "url": "https://www.bilibili.com/video/BV1aepY6BE5L",
+     "hot": 165638
     },
     {
      "title": "【纪录片】威尔史密斯的极地纵横 02 深入亚马逊丛林",
      "url": "https://www.bilibili.com/video/BV1wUao6UEp9",
-     "hot": 492557
+     "hot": 566246
     },
     {
-     "title": "雨哥到处跑新车曝光！居然是……",
-     "url": "https://www.bilibili.com/video/BV13Apt6sEhK",
-     "hot": 434534
+     "title": "讨伐型人格大合集",
+     "url": "https://www.bilibili.com/video/BV1rSpM6nEtm",
+     "hot": 717064
     },
     {
-     "title": "嘘声一片：委内瑞拉感谢美国，以色列送伊朗星链——联大一般性辩论02",
-     "url": "https://www.bilibili.com/video/BV1wrp46zERC",
-     "hot": 433008
+     "title": "deepseek 翻唱《人是猫》完整版，大肥鱼觉得人和猫一样可爱,所以人是猫",
+     "url": "https://www.bilibili.com/video/BV1XXHD6sEe7",
+     "hot": 493659
     }
    ]
   }
@@ -737,33 +737,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "大麦娱乐潮玩品牌LUCKY LOOP亮相“飞天奖”",
-   "url": "https://finance.sina.com.cn/tob/2026-10-10/doc-iniutcvm2184698.shtml",
+   "title": "“只是升级，不是召回！” 尊界V800刹车部件升级方案或月底敲定，V680同步调整，有准车主退定被拒",
+   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-10/doc-iniututc6007764.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "豆包灰测生活缴费功能 回应：正逐步建设出行、生活等场景下的办事能力",
-   "url": "https://finance.sina.com.cn/tob/2026-10-10/doc-iniutcvm2181477.shtml",
+   "title": "小米YU7拿下断档第一，雷军高兴坏了",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-10-10/doc-iniututc2061391.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "阿斯麦将对韩国零部件涨价10%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniutcvq0650310.shtml",
+   "title": "双汇发展成食安“处罚到人”标志案例：两高管罚款超年薪2.8倍 “文字失误”也被追责",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-10-10/doc-iniutqmf6081052.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "尊界V800刹车踏板如何升级？尊界客服回应：预计10月底确认具体方案",
-   "url": "https://finance.sina.com.cn/tob/2026-10-10/doc-iniutcvr7362562.shtml",
+   "title": "小鹏当选联合国欧洲经济委员会自动驾驶新设工作组秘书长，何小鹏：是中国企业首次",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutqmm7421399.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "10余位院士领衔，167场专题论坛，2026中国计算机大会将于四川成都举办",
-   "url": "https://finance.sina.com.cn/tob/2026-10-10/doc-iniutcvq0589647.shtml",
+   "title": "华为云销售组织大调整，将实行大区制",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-10/doc-iniutqmm7375587.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "何一晒女儿B超照片，赵长鹏转发配文“More family”",
-   "url": "https://finance.sina.com.cn/tech/internet/2026-10-10/doc-iniutcvr7359945.shtml",
+   "title": "奥比中光“A+H”：刚扭亏便遭蚂蚁集团砍单六成 手握12亿现金仍缺钱？管理层在IPO前夜联手减持7.86亿",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-10-10/doc-iniutkci2171714.shtml",
    "source": "新浪科技"
   }
  ]
