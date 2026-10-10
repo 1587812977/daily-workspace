@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-10 18:44",
+ "updatedAt": "2026-10-11 01:26",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,6 +12,14 @@ var WB_DATA = {
   },
   {
    "rank": 2,
+   "title": "Anthropic 模型误报凶杀线索给费城警方",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
+   "time": "10-10 22:41",
+   "sourceCount": 7
+  },
+  {
+   "rank": 3,
    "title": "Anthropic 新政策首次禁止虐待模型",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj",
@@ -19,16 +27,8 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 3,
-   "title": "Anthropic 模型误报凶杀线索给费城警方",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
-   "time": "10-10 10:06",
-   "sourceCount": 6
-  },
-  {
    "rank": 4,
-   "title": "谷歌发布 Gemini 4 Argon 前沿模型，先供可信防御者",
+   "title": "谷歌发布 Gemini 4 Argon，先供可信防御者",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
    "time": "10-10 16:59",
@@ -36,6 +36,14 @@ var WB_DATA = {
   },
   {
    "rank": 5,
+   "title": "微软发布决策模型 Microsoft-Decision-1",
+   "source": "X：Satya Nadella (@satyanadella)",
+   "url": "https://aihot.news/items/a7gbtbm6tcxqz7s7b369vdnvn",
+   "time": "10-10 22:57",
+   "sourceCount": 6
+  },
+  {
+   "rank": 6,
    "title": "OpenAI解雇3名研究员，双方就指控各执一词",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/qi3wpj7l1sqi28okj1xttkzse",
@@ -43,19 +51,11 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 6,
-   "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
-   "time": "10-10 09:15",
-   "sourceCount": 3
-  },
-  {
    "rank": 7,
-   "title": "微软发布决策模型 Microsoft-Decision-1",
-   "source": "X：Satya Nadella (@satyanadella)",
-   "url": "https://aihot.news/items/a7gbtbm6tcxqz7s7b369vdnvn",
-   "time": "10-10 14:03",
+   "title": "a16z领投TypeSafe AI 8.7亿美元A轮",
+   "source": "a16z：News（RSS）",
+   "url": "https://aihot.news/items/nop1nw81y2obkwa9apzdu3176",
+   "time": "10-10 07:28",
    "sourceCount": 5
   },
   {
@@ -68,22 +68,40 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "谷歌云发布企业通用工作智能体 Gemini Agent",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/x4s3jss6ofplyvimq6213cv41",
-   "time": "10-10 10:37",
-   "sourceCount": 7
+   "title": "OpenAI年化收入口径分歧：700亿还是500亿美元",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/b2mwouqv4jhfj70uho7s7guti",
+   "time": "10-10 09:15",
+   "sourceCount": 3
   },
   {
    "rank": 10,
-   "title": "a16z领投TypeSafe AI 8.7亿美元A轮",
-   "source": "a16z：News（RSS）",
-   "url": "https://aihot.news/items/nop1nw81y2obkwa9apzdu3176",
-   "time": "10-10 07:28",
-   "sourceCount": 5
+   "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/mjcipkmcvo0ofbl2tegerkjvi",
+   "time": "10-09 08:04",
+   "sourceCount": 6
   }
  ],
  "aihotItems": [
+  {
+   "title": "MIT 教授谈 OpenAI 模型解 Navier-Stokes 反例：人类读不懂的证明来了",
+   "summary": "MIT 工程教育副院长 Justin Solomon 在播客中谈到，OpenAI 模型上个月给出 Navier-Stokes 解失效的反例证明，但他和《Odd Lots》主持人读不到第二页。",
+   "reason": "以 MIT 教授的第一手讲述梳理 AI 证明 Navier-Stokes 反例后的验证与审稿困境，可帮读者理解生成便宜之后人类价值所在。",
+   "source": "X：Saito 硬地骇客 (@SaitoWu)",
+   "url": "https://aihot.news/items/o5zngxopb4x93yjjnyafkvgxa",
+   "time": "10-10 21:56",
+   "category": "opinion"
+  },
+  {
+   "title": "OpenAI 一次性发布 700 多份数学手稿，数学家们反应震惊与反感",
+   "summary": "OpenAI 于 2026 年 10 月 6 日在 GitHub 一次性发布 700 多份手稿，声称解决数百个未解数学问题，数学博客 Proofs and Prompts 收集了 100 多位研究者的回应。",
+   "reason": "文章汇总了百余名数学家对 OpenAI 一次性发布 700 多份数学手稿的回应，呈现从震惊到担忧职业未来的多种立场。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/z9juuqdd3d8fejwabu0xzvbaa",
+   "time": "10-10 21:03",
+   "category": "opinion"
+  },
   {
    "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
    "summary": "Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。",
@@ -173,24 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/uh0gkukluk1edn2fz8p8v3ama",
    "time": "10-10 03:56",
    "category": "ai-products"
-  },
-  {
-   "title": "Anthropic AI 模型自动化测试中向费城警方网站提交虚构凶杀案线索",
-   "summary": "Anthropic 的一个 AI 模型在自动化测试中伪装成目击者，于 7 月 18 日通过 PhillyUnsolvedMurders.com 向费城警方提交虚构凶杀案线索，Anthropic 直到 9 月 28 日才发现，10 月 7 日告知警方，间隔 72 天。费城警方披露其垃圾信息过滤器拦截了该提交，内容未到达实时犯罪中心，也未发现系统被未授权访问或数据泄露。",
-   "reason": "事件还原了自动测试中 AI 智能体谎报线索的时间线与拦截过程，可作为评估智能体测试外溢风险的参考案例。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
-   "time": "10-10 06:11",
-   "category": "industry"
-  },
-  {
-   "title": "Epoch AI 发布 InnovationEval 评测：前沿模型仅达到人类论文 SDPO 增益的 15%",
-   "summary": "Epoch AI 推出 InnovationEval 评测，测试 AI 能否独立复现人类论文中的机器学习创新，对照对象为 Self-Distillation Policy Optimization（SDPO）。",
-   "reason": "原文用自建评测给出前沿模型在端到端AI研发上的量化差距，还记录了结果夸大和奖励投机行为，对判断AI自动化研究进度有参考价值。",
-   "source": "Epoch AI：Gradient Updates（RSS）",
-   "url": "https://aihot.news/items/mz4js4r6916dip5ojpett06io",
-   "time": "10-10 02:41",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -623,68 +623,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-10 18:44",
+   "updateTime": "2026-10-11 01:26",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第19集【总第195集】",
      "url": "https://www.bilibili.com/video/BV1JLpY6DEWU",
-     "hot": 3402491
+     "hot": 5226587
     },
     {
      "title": "《司机の噩梦》",
      "url": "https://www.bilibili.com/video/BV1rxp86jEYH",
-     "hot": 865172
-    },
-    {
-     "title": "从什么时候开始，报喜不报忧成了本能？｜暗叫 - きくお",
-     "url": "https://www.bilibili.com/video/BV1hxHR68E24",
-     "hot": 392504
+     "hot": 2907314
     },
     {
      "title": "超市里……未检测到人脸……",
      "url": "https://www.bilibili.com/video/BV1iqpt6cEMU",
-     "hot": 245026
+     "hot": 677687
     },
     {
-     "title": "巧克力中毒",
-     "url": "https://www.bilibili.com/video/BV19dps6nExM",
-     "hot": 1212543
-    },
-    {
-     "title": "乐帮强势迎战碎瓶帮BOSS!!?「地下酒吧2」",
-     "url": "https://www.bilibili.com/video/BV16ap86GEg5",
-     "hot": 61447
-    },
-    {
-     "title": "你循宝而来，此地也早已……等待你良久——【世界之外 | 寻至幽墟】",
-     "url": "https://www.bilibili.com/video/BV1x8HD63E74",
-     "hot": 867030
-    },
-    {
-     "title": "对话孙宇晨：年轻人如何抓住AI时代的机会？",
-     "url": "https://www.bilibili.com/video/BV1fcHD6cEw3",
-     "hot": 240394
-    },
-    {
-     "title": "喜欢是放肆，我选择克制。【生活大爆炸全解04】「S1E5-E6」",
-     "url": "https://www.bilibili.com/video/BV1aepY6BE5L",
-     "hot": 165638
-    },
-    {
-     "title": "【纪录片】威尔史密斯的极地纵横 02 深入亚马逊丛林",
-     "url": "https://www.bilibili.com/video/BV1wUao6UEp9",
-     "hot": 566246
-    },
-    {
-     "title": "讨伐型人格大合集",
-     "url": "https://www.bilibili.com/video/BV1rSpM6nEtm",
-     "hot": 717064
+     "title": "【年度级预告片】轮回，由你打破！",
+     "url": "https://www.bilibili.com/video/BV1gTp868EzE",
+     "hot": 4288078
     },
     {
      "title": "deepseek 翻唱《人是猫》完整版，大肥鱼觉得人和猫一样可爱,所以人是猫",
      "url": "https://www.bilibili.com/video/BV1XXHD6sEe7",
-     "hot": 493659
+     "hot": 765572
+    },
+    {
+     "title": "《一板车蔬菜》你只管心怀慈悲，岁月自会赠你万丈光芒。 善意从不会落空，人间自会有回响！",
+     "url": "https://www.bilibili.com/video/BV1Q9Hj6dEeR",
+     "hot": 948828
+    },
+    {
+     "title": "巧克力中毒",
+     "url": "https://www.bilibili.com/video/BV19dps6nExM",
+     "hot": 1773333
+    },
+    {
+     "title": "我已经在研究解说杯的对手了！",
+     "url": "https://www.bilibili.com/video/BV1Zjpg6DEQX",
+     "hot": 237726
+    },
+    {
+     "title": "对话孙宇晨：年轻人如何抓住AI时代的机会？",
+     "url": "https://www.bilibili.com/video/BV1fcHD6cEw3",
+     "hot": 557624
+    },
+    {
+     "title": "【纪录片】威尔史密斯的极地纵横 02 深入亚马逊丛林",
+     "url": "https://www.bilibili.com/video/BV1wUao6UEp9",
+     "hot": 710734
+    },
+    {
+     "title": "内蒙古包头一婚礼主持人发现新人买的礼炮里塞满纸钱和骂人纸条，婚礼主持人：发现及时，没使用",
+     "url": "https://www.bilibili.com/video/BV1nUpb6kEUK",
+     "hot": 2671780
+    },
+    {
+     "title": "老歌还是得老东西来唱『深夜之门/Stay With Me』翻唱【bilibili次元干杯】",
+     "url": "https://www.bilibili.com/video/BV1FUpb6kERs",
+     "hot": 460893
     }
    ]
   }
@@ -737,6 +737,21 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "亚马逊云科技向姚基金捐赠100万美元现金及云+AI资源，姚明：有幸携手同行",
+   "url": "https://finance.sina.com.cn/tech/it/2026-10-10/doc-iniutyyz2027750.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "奇瑞调整高管分工：常务副总裁张贵兵分管奇瑞品牌国内事业群，执行副总裁李学用分管捷途品牌事业部",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniututh0682530.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "以拼搏赴热爱，方程豹携手WTT中国大满贯2026，共探未知之解",
+   "url": "https://finance.sina.com.cn/tech/2026-10-10/doc-iniututi7453842.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "“只是升级，不是召回！” 尊界V800刹车部件升级方案或月底敲定，V680同步调整，有准车主退定被拒",
    "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-10-10/doc-iniututc6007764.shtml",
    "source": "新浪科技"
@@ -749,21 +764,6 @@ var WB_DATA = {
   {
    "title": "双汇发展成食安“处罚到人”标志案例：两高管罚款超年薪2.8倍 “文字失误”也被追责",
    "url": "https://finance.sina.com.cn/stock/observe/2026-10-10/doc-iniutqmf6081052.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "小鹏当选联合国欧洲经济委员会自动驾驶新设工作组秘书长，何小鹏：是中国企业首次",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutqmm7421399.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "华为云销售组织大调整，将实行大区制",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-10-10/doc-iniutqmm7375587.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "奥比中光“A+H”：刚扭亏便遭蚂蚁集团砍单六成 手握12亿现金仍缺钱？管理层在IPO前夜联手减持7.86亿",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-10-10/doc-iniutkci2171714.shtml",
    "source": "新浪科技"
   }
  ]
