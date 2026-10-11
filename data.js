@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-11 18:56",
+ "updatedAt": "2026-10-12 01:45",
  "aihotHot": [
   {
    "rank": 1,
@@ -28,14 +28,6 @@ var WB_DATA = {
   },
   {
    "rank": 4,
-   "title": "Grok Bot 新增专属邮箱功能",
-   "source": "X：Grok (@grok)",
-   "url": "https://aihot.news/items/m77leauczmowax4odp8ql7dkl",
-   "time": "10-10 08:10",
-   "sourceCount": 6
-  },
-  {
-   "rank": 5,
    "title": "谷歌发布 Gemini 4 Argon，先供可信防御者",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
@@ -43,31 +35,15 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
+   "rank": 5,
+   "title": "Grok Bot 新增专属邮箱功能",
+   "source": "X：Grok (@grok)",
+   "url": "https://aihot.news/items/m77leauczmowax4odp8ql7dkl",
+   "time": "10-10 08:10",
+   "sourceCount": 3
+  },
+  {
    "rank": 6,
-   "title": "微软发布决策模型 Microsoft-Decision-1",
-   "source": "X：Satya Nadella (@satyanadella)",
-   "url": "https://aihot.news/items/a7gbtbm6tcxqz7s7b369vdnvn",
-   "time": "10-10 22:57",
-   "sourceCount": 6
-  },
-  {
-   "rank": 7,
-   "title": "a16z领投TypeSafe AI 8.7亿美元A轮",
-   "source": "a16z：News（RSS）",
-   "url": "https://aihot.news/items/nop1nw81y2obkwa9apzdu3176",
-   "time": "10-10 07:28",
-   "sourceCount": 5
-  },
-  {
-   "rank": 8,
-   "title": "Grok Bot 拍照下单功能引安全质疑",
-   "source": "X：Elon Musk (@elonmusk, xAI)",
-   "url": "https://aihot.news/items/kak0tj4uwb1311sr1tb328pkv",
-   "time": "10-11 15:39",
-   "sourceCount": 2
-  },
-  {
-   "rank": 9,
    "title": "马斯克确认SpaceXAI更名SpaceXSI",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/ol0knd3cpgss7eue91y4kj5vz",
@@ -75,11 +51,35 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
+   "rank": 7,
+   "title": "微软发布决策模型 Microsoft-Decision-1",
+   "source": "X：Satya Nadella (@satyanadella)",
+   "url": "https://aihot.news/items/a7gbtbm6tcxqz7s7b369vdnvn",
+   "time": "10-10 22:57",
+   "sourceCount": 6
+  },
+  {
+   "rank": 8,
+   "title": "Grok Bot 拍照下单功能引安全质疑",
+   "source": "X：Elon Musk (@elonmusk, xAI)",
+   "url": "https://aihot.news/items/dcr5jgm4psy1hqi0bplj2t5h3",
+   "time": "10-11 20:11",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
+   "title": "a16z领投TypeSafe AI 8.7亿美元A轮",
+   "source": "a16z：News（RSS）",
+   "url": "https://aihot.news/items/nop1nw81y2obkwa9apzdu3176",
+   "time": "10-10 07:28",
+   "sourceCount": 2
+  },
+  {
    "rank": 10,
-   "title": "Anthropic 新政策首次禁止虐待模型",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj",
-   "time": "10-11 08:08",
+   "title": "高通 CEO 称 AI 公司要求 2028 年手机常驻运行 100B 模型",
+   "source": "X：Alex Heath (@alexeheath)",
+   "url": "https://aihot.news/items/lahuztqitfbro4kg9otro2kpe",
+   "time": "10-11 00:47",
    "sourceCount": 1
   }
  ],
@@ -92,24 +92,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/q4nihovltk9ofbhq1jn47lcgp",
    "time": "10-11 05:30",
    "category": "industry"
-  },
-  {
-   "title": "MIT 教授谈 OpenAI 模型解 Navier-Stokes 反例：人类读不懂的证明来了",
-   "summary": "MIT 工程教育副院长 Justin Solomon 在播客中谈到，OpenAI 模型上个月给出 Navier-Stokes 解失效的反例证明，但他和《Odd Lots》主持人读不到第二页。",
-   "reason": "以 MIT 教授的第一手讲述梳理 AI 证明 Navier-Stokes 反例后的验证与审稿困境，可帮读者理解生成便宜之后人类价值所在。",
-   "source": "X：Saito 硬地骇客 (@SaitoWu)",
-   "url": "https://aihot.news/items/o5zngxopb4x93yjjnyafkvgxa",
-   "time": "10-10 21:56",
-   "category": "opinion"
-  },
-  {
-   "title": "OpenAI 一次性发布 700 多份数学手稿，数学家们反应震惊与反感",
-   "summary": "OpenAI 于 2026 年 10 月 6 日在 GitHub 一次性发布 700 多份手稿，声称解决数百个未解数学问题，数学博客 Proofs and Prompts 收集了 100 多位研究者的回应。",
-   "reason": "文章汇总了百余名数学家对 OpenAI 一次性发布 700 多份数学手稿的回应，呈现从震惊到担忧职业未来的多种立场。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/z9juuqdd3d8fejwabu0xzvbaa",
-   "time": "10-10 21:03",
-   "category": "opinion"
   }
  ],
  "aiDaily": {
@@ -513,68 +495,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-11 18:57",
+   "updateTime": "2026-10-12 01:45",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "《阴阳师》十周年丨永恒印象美学双人舞·特别演绎",
      "url": "https://www.bilibili.com/video/BV1D9pu6qECf",
-     "hot": 747147
-    },
-    {
-     "title": "“上大学该谈个女朋友了”。我呀？我去谈恋爱啊？！那无敌了……",
-     "url": "https://www.bilibili.com/video/BV1uvpg6zEdw",
-     "hot": 1045686
-    },
-    {
-     "title": "也是当上外卖大法官了",
-     "url": "https://www.bilibili.com/video/BV1Vtpg65EnA",
-     "hot": 1840492
-    },
-    {
-     "title": "【独家】牧神记 第104集 龙王有请",
-     "url": "https://www.bilibili.com/video/BV1P2pY68EDr",
-     "hot": 1441022
-    },
-    {
-     "title": "虽然命还在，但是鱼没了啊！！！【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1xTpG6iEbV",
-     "hot": 1893056
-    },
-    {
-     "title": "我赶了中缅边境最野的集！第一次体验缅甸洗头，真的会上头吗？",
-     "url": "https://www.bilibili.com/video/BV1kwp765Ec3",
-     "hot": 381327
-    },
-    {
-     "title": "12个脑洞大开的做饭方式！",
-     "url": "https://www.bilibili.com/video/BV1Jjpg6QEkh",
-     "hot": 757736
-    },
-    {
-     "title": "有人说一台苹果18的钱能在山东大集买到多少东西和多少人快乐，咱们一起来挑战和数数！",
-     "url": "https://www.bilibili.com/video/BV1Tfpu6PEKq",
-     "hot": 423018
-    },
-    {
-     "title": "“和公主，在荒岛求生。”",
-     "url": "https://www.bilibili.com/video/BV16Rpg6REVH",
-     "hot": 807928
-    },
-    {
-     "title": "新人第1次编曲耶",
-     "url": "https://www.bilibili.com/video/BV1oQHR6rEBB",
-     "hot": 236212
+     "hot": 1508027
     },
     {
      "title": "【邓肯】新发恐怖事件！女企业家被儿子雇人送入老年护理中心丨诡异的五亿高中生坠楼谜案！",
      "url": "https://www.bilibili.com/video/BV1wAp76yEu1",
-     "hot": 285314
+     "hot": 859994
     },
     {
-     "title": "《结账是你的谎言》",
-     "url": "https://www.bilibili.com/video/BV1yTpg6ZEHs",
-     "hot": 959952
+     "title": "12个脑洞大开的做饭方式！",
+     "url": "https://www.bilibili.com/video/BV1Jjpg6QEkh",
+     "hot": 1415034
+    },
+    {
+     "title": "【独家】牧神记 第104集 龙王有请",
+     "url": "https://www.bilibili.com/video/BV1P2pY68EDr",
+     "hot": 1927071
+    },
+    {
+     "title": "“这波秒开仙人，直接把六小龄童看呆了！”",
+     "url": "https://www.bilibili.com/video/BV1Fspj66E66",
+     "hot": 486234
+    },
+    {
+     "title": "“上大学该谈个女朋友了”。我呀？我去谈恋爱啊？！那无敌了……",
+     "url": "https://www.bilibili.com/video/BV1uvpg6zEdw",
+     "hot": 1952066
+    },
+    {
+     "title": "礼花炸响那一刻 又有个家庭蒸蒸日上",
+     "url": "https://www.bilibili.com/video/BV1YhpY66E3p",
+     "hot": 436631
+    },
+    {
+     "title": "有人说一台苹果18的钱能在山东大集买到多少东西和多少人快乐，咱们一起来挑战和数数！",
+     "url": "https://www.bilibili.com/video/BV1Tfpu6PEKq",
+     "hot": 965853
+    },
+    {
+     "title": "虽然命还在，但是鱼没了啊！！！【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1xTpG6iEbV",
+     "hot": 2716122
+    },
+    {
+     "title": "在 学 校 最 害 怕 的 声 音？",
+     "url": "https://www.bilibili.com/video/BV1cjpv6fEgz",
+     "hot": 678942
+    },
+    {
+     "title": "慎点！可能是你见过最变态最猎奇尺度最大的游戏！！！！《克里夫·巴克的养鬼吃人》究竟讲了什么？？？",
+     "url": "https://www.bilibili.com/video/BV16opg6WEcD",
+     "hot": 411121
+    },
+    {
+     "title": "我们来到了地中海，重走《奥德赛》十年回家路！",
+     "url": "https://www.bilibili.com/video/BV1mopE6xEqv",
+     "hot": 590435
     }
    ]
   }
