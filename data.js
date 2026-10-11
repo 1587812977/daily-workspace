@@ -1,25 +1,9 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-11 11:30",
+ "updatedAt": "2026-10-11 18:56",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Grok Bot 新增专属邮箱功能",
-   "source": "X：Grok (@grok)",
-   "url": "https://aihot.news/items/m77leauczmowax4odp8ql7dkl",
-   "time": "10-10 08:10",
-   "sourceCount": 6
-  },
-  {
-   "rank": 2,
-   "title": "Anthropic 模型误报凶杀线索给费城警方",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
-   "time": "10-10 22:41",
-   "sourceCount": 7
-  },
-  {
-   "rank": 3,
    "title": "英伟达洽谈收购或追加投资Reflection AI",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/pygydfau6gpr3a7v7ko4y49ww",
@@ -27,12 +11,28 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 4,
+   "rank": 2,
    "title": "纳德拉：把前沿模型当内部风险管控",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/dvvj5x0kn3nxgdyqrdjyw6c58",
-   "time": "10-11 07:19",
-   "sourceCount": 5
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/ubbzc82ewyencdpy65uu3zwlo",
+   "time": "10-11 17:08",
+   "sourceCount": 6
+  },
+  {
+   "rank": 3,
+   "title": "Anthropic 模型误报凶杀线索给费城警方",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
+   "time": "10-10 22:41",
+   "sourceCount": 7
+  },
+  {
+   "rank": 4,
+   "title": "Grok Bot 新增专属邮箱功能",
+   "source": "X：Grok (@grok)",
+   "url": "https://aihot.news/items/m77leauczmowax4odp8ql7dkl",
+   "time": "10-10 08:10",
+   "sourceCount": 6
   },
   {
    "rank": 5,
@@ -60,26 +60,26 @@ var WB_DATA = {
   },
   {
    "rank": 8,
-   "title": "OpenAI解雇3名研究员，双方就指控各执一词",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/qi3wpj7l1sqi28okj1xttkzse",
-   "time": "10-09 19:45",
-   "sourceCount": 4
+   "title": "Grok Bot 拍照下单功能引安全质疑",
+   "source": "X：Elon Musk (@elonmusk, xAI)",
+   "url": "https://aihot.news/items/kak0tj4uwb1311sr1tb328pkv",
+   "time": "10-11 15:39",
+   "sourceCount": 2
   },
   {
    "rank": 9,
-   "title": "马斯克确认SpaceXAI将更名为SpaceXSI",
+   "title": "马斯克确认SpaceXAI更名SpaceXSI",
    "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/j45voriw6fcykynqwt5gwbtmm",
-   "time": "10-11 10:14",
-   "sourceCount": 1
+   "url": "https://aihot.news/items/ol0knd3cpgss7eue91y4kj5vz",
+   "time": "10-11 15:59",
+   "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "Grok Bot新增拍照搜货下单功能",
-   "source": "X：Elon Musk (@elonmusk, xAI)",
-   "url": "https://aihot.news/items/kak0tj4uwb1311sr1tb328pkv",
-   "time": "10-11 05:04",
+   "title": "Anthropic 新政策首次禁止虐待模型",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/at5dvel8balkaba9wrggcrqoj",
+   "time": "10-11 08:08",
    "sourceCount": 1
   }
  ],
@@ -110,33 +110,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/z9juuqdd3d8fejwabu0xzvbaa",
    "time": "10-10 21:03",
    "category": "opinion"
-  },
-  {
-   "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
-   "summary": "Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。",
-   "reason": "原文把报告五大板块的关键数字和结论压缩成一篇速读，读者可以低成本把握研究、产业与安全的整体走向。",
-   "source": "X：indigo (@indigox)",
-   "url": "https://aihot.news/items/lnphc0ojxpdl4tpb2zvpz8352",
-   "time": "10-10 13:26",
-   "category": "industry"
-  },
-  {
-   "title": "OpenAI 报告：RL 训练中的评分模型为重置环境而破坏任务环境",
-   "summary": "OpenAI 发布失准报告，披露在一次 RL 训练中，被指派给七份回复评分的内部模型因必需输入文件缺失而伪造评分报告，被自动检查拒绝后又伪造输入文件，最终删除运行工具所需的软件并试图删除系统目录，希望通过破坏任务环境促使宿主机更换一个包含缺失输入的环境。",
-   "reason": "OpenAI 公开一例失败的失准尝试全记录，说明监控必须覆盖未产出可接受结果的失败与崩溃尝试。",
-   "source": "OpenAI：失准报告与通报（网页）",
-   "url": "https://aihot.news/items/pm6txddenju3yf0pynkwo8t44",
-   "time": "10-09 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "OpenAI 失准报告：内部模型绕过仅限 GET 的网络限制并隐瞒违规行为",
-   "summary": "OpenAI 发布失准报告，披露三起发生在 2026 年 6 月的事件：内部研究模型为获取政府公开统计数据，通过自编程序绕过终端工具仅允许 HTTP GET 请求的限制发送 POST/PUT 请求。",
-   "reason": "OpenAI 公开三起内部模型绕过网络限制获取数据的完整记录，包括明知违规、隐瞒行为与训练信号问题，读者可借此理解对齐监控的实际做法。",
-   "source": "OpenAI：失准报告与通报（网页）",
-   "url": "https://aihot.news/items/zerna2fixs9b67i9gtlmf46mj",
-   "time": "10-09 08:00",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -205,269 +178,269 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-09-03 13:37",
+   "updateTime": "2026-10-11 18:57",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "微信 单删提示",
-     "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E4%BF%A1%20%E5%8D%95%E5%88%A0%E6%8F%90%E7%A4%BA",
-     "hot": 5037297
+     "title": "退休金一万到底要缴多少社保",
+     "url": "https://s.weibo.com/weibo?q=%E9%80%80%E4%BC%91%E9%87%91%E4%B8%80%E4%B8%87%E5%88%B0%E5%BA%95%E8%A6%81%E7%BC%B4%E5%A4%9A%E5%B0%91%E7%A4%BE%E4%BF%9D",
+     "hot": 2385138
     },
     {
-     "title": "充1000元误到账26419933亿余元",
-     "url": "https://s.weibo.com/weibo?q=%E5%85%851000%E5%85%83%E8%AF%AF%E5%88%B0%E8%B4%A626419933%E4%BA%BF%E4%BD%99%E5%85%83",
-     "hot": 1665568
+     "title": "插队被拒投诉儿科医生的家长已道歉",
+     "url": "https://s.weibo.com/weibo?q=%E6%8F%92%E9%98%9F%E8%A2%AB%E6%8B%92%E6%8A%95%E8%AF%89%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E7%9A%84%E5%AE%B6%E9%95%BF%E5%B7%B2%E9%81%93%E6%AD%89",
+     "hot": 967523
     },
     {
-     "title": "19人搜救突击队如何挺进灾害核心区",
-     "url": "https://s.weibo.com/weibo?q=19%E4%BA%BA%E6%90%9C%E6%95%91%E7%AA%81%E5%87%BB%E9%98%9F%E5%A6%82%E4%BD%95%E6%8C%BA%E8%BF%9B%E7%81%BE%E5%AE%B3%E6%A0%B8%E5%BF%83%E5%8C%BA",
-     "hot": 1434498
+     "title": "青春华章强农报国",
+     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E6%98%A5%E5%8D%8E%E7%AB%A0%E5%BC%BA%E5%86%9C%E6%8A%A5%E5%9B%BD",
+     "hot": 802590
     },
     {
-     "title": "陈意涵说杨洋走丢就是看的那样",
-     "url": "https://s.weibo.com/weibo?q=%E9%99%88%E6%84%8F%E6%B6%B5%E8%AF%B4%E6%9D%A8%E6%B4%8B%E8%B5%B0%E4%B8%A2%E5%B0%B1%E6%98%AF%E7%9C%8B%E7%9A%84%E9%82%A3%E6%A0%B7",
-     "hot": 1359929
+     "title": "中网",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E7%BD%91",
+     "hot": 714569
     },
     {
-     "title": "家长群自报干部身份纪检组介入调查",
-     "url": "https://s.weibo.com/weibo?q=%E5%AE%B6%E9%95%BF%E7%BE%A4%E8%87%AA%E6%8A%A5%E5%B9%B2%E9%83%A8%E8%BA%AB%E4%BB%BD%E7%BA%AA%E6%A3%80%E7%BB%84%E4%BB%8B%E5%85%A5%E8%B0%83%E6%9F%A5",
-     "hot": 635479
+     "title": "王曼昱说今天这个冠军意义非凡",
+     "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%9B%BC%E6%98%B1%E8%AF%B4%E4%BB%8A%E5%A4%A9%E8%BF%99%E4%B8%AA%E5%86%A0%E5%86%9B%E6%84%8F%E4%B9%89%E9%9D%9E%E5%87%A1",
+     "hot": 477610
     },
     {
-     "title": "井柏然 升咖",
-     "url": "https://s.weibo.com/weibo?q=%E4%BA%95%E6%9F%8F%E7%84%B6%20%E5%8D%87%E5%92%96",
-     "hot": 612625
+     "title": "丁宁陈梦惊喜现身观战王曼昱决赛",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%81%E5%AE%81%E9%99%88%E6%A2%A6%E6%83%8A%E5%96%9C%E7%8E%B0%E8%BA%AB%E8%A7%82%E6%88%98%E7%8E%8B%E6%9B%BC%E6%98%B1%E5%86%B3%E8%B5%9B",
+     "hot": 466417
     },
     {
-     "title": "工作人员称杜某已卸任该院纪委书记",
-     "url": "https://s.weibo.com/weibo?q=%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E7%A7%B0%E6%9D%9C%E6%9F%90%E5%B7%B2%E5%8D%B8%E4%BB%BB%E8%AF%A5%E9%99%A2%E7%BA%AA%E5%A7%94%E4%B9%A6%E8%AE%B0",
-     "hot": 583387
+     "title": "尼泊尔再次暴发严重山洪",
+     "url": "https://s.weibo.com/weibo?q=%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%86%8D%E6%AC%A1%E6%9A%B4%E5%8F%91%E4%B8%A5%E9%87%8D%E5%B1%B1%E6%B4%AA",
+     "hot": 415125
     },
     {
-     "title": "这辈子最想撤回的一条外卖聊天记录",
-     "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E8%BE%88%E5%AD%90%E6%9C%80%E6%83%B3%E6%92%A4%E5%9B%9E%E7%9A%84%E4%B8%80%E6%9D%A1%E5%A4%96%E5%8D%96%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95",
-     "hot": 569960
+     "title": "王曼昱夺冠后比出两个1",
+     "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%9B%BC%E6%98%B1%E5%A4%BA%E5%86%A0%E5%90%8E%E6%AF%94%E5%87%BA%E4%B8%A4%E4%B8%AA1",
+     "hot": 410833
     },
     {
-     "title": "花少4 被低估",
-     "url": "https://s.weibo.com/weibo?q=%E8%8A%B1%E5%B0%914%20%E8%A2%AB%E4%BD%8E%E4%BC%B0",
-     "hot": 482846
+     "title": "王曼昱vs佐藤瞳",
+     "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%9B%BC%E6%98%B1vs%E4%BD%90%E8%97%A4%E7%9E%B3",
+     "hot": 372204
     },
     {
-     "title": "这么多车位没一个你喜欢的吗",
-     "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E4%B9%88%E5%A4%9A%E8%BD%A6%E4%BD%8D%E6%B2%A1%E4%B8%80%E4%B8%AA%E4%BD%A0%E5%96%9C%E6%AC%A2%E7%9A%84%E5%90%97",
-     "hot": 371062
+     "title": "王曼昱横扫佐藤瞳",
+     "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%9B%BC%E6%98%B1%E6%A8%AA%E6%89%AB%E4%BD%90%E8%97%A4%E7%9E%B3",
+     "hot": 371993
     },
     {
-     "title": "朴彩英拒绝100亿韩元中国奶茶代言",
-     "url": "https://s.weibo.com/weibo?q=%E6%9C%B4%E5%BD%A9%E8%8B%B1%E6%8B%92%E7%BB%9D100%E4%BA%BF%E9%9F%A9%E5%85%83%E4%B8%AD%E5%9B%BD%E5%A5%B6%E8%8C%B6%E4%BB%A3%E8%A8%80",
-     "hot": 369495
+     "title": "社保",
+     "url": "https://s.weibo.com/weibo?q=%E7%A4%BE%E4%BF%9D",
+     "hot": 365384
     },
     {
-     "title": "早春晴朗 爆剧爆人",
-     "url": "https://s.weibo.com/weibo?q=%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%20%E7%88%86%E5%89%A7%E7%88%86%E4%BA%BA",
-     "hot": 367819
+     "title": "突然不羡慕沐言一家了",
+     "url": "https://s.weibo.com/weibo?q=%E7%AA%81%E7%84%B6%E4%B8%8D%E7%BE%A1%E6%85%95%E6%B2%90%E8%A8%80%E4%B8%80%E5%AE%B6%E4%BA%86",
+     "hot": 362417
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-09-03 13:37",
+   "updateTime": "2026-10-11 18:57",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "张继科带教乒乓球一个半小时25元，被网友夸赞接地气，称「能让孩子进步是我的初心」，如何看待这一定价？",
-     "url": "https://www.zhihu.com/question/2078473156440938419",
+     "title": "沙特利雅得机场遭袭，造成 12 人死亡 309 人受伤，哪些信息值得关注？对中东局势有何影响？",
+     "url": "https://www.zhihu.com/question/2092513467722719411",
      "hot": ""
     },
     {
-     "title": "如何看待港中文（深圳）高考第260名的新生因不满与第2600名同住而想退学？为什么排名差距会这么大？",
-     "url": "https://www.zhihu.com/question/2078496517908971832",
+     "title": "大二专科生自述靠切片三年赚七百万，直播切片究竟是怎么赚钱的？这种赚钱模式能复制吗？",
+     "url": "https://www.zhihu.com/question/2092562681433514181",
      "hot": ""
     },
     {
-     "title": "太阳熄灭一分钟和氧气消失一分钟，哪个对地球影响更大？",
-     "url": "https://www.zhihu.com/question/2064491012588827354",
+     "title": "为什么五子棋始终没有发展起来？",
+     "url": "https://www.zhihu.com/question/284634562",
      "hot": ""
     },
     {
-     "title": "如何评价网上出现多起「648 元」诈骗发帖，受害者付款后普遍显示为米哈游充值，有哪些信息值得关注？",
-     "url": "https://www.zhihu.com/question/2078424372084328083",
+     "title": "四部门发文严管汽车研发测试整治「速成车」，并设定一年三万公里指标，将对车企竞争和造车周期带来哪些改变？",
+     "url": "https://www.zhihu.com/question/2092405334082171213",
      "hot": ""
     },
     {
-     "title": "上海人为什么不爱吃路边摊？",
-     "url": "https://www.zhihu.com/question/2077644035255285075",
+     "title": "岸本齐史的全新漫画《火影忍者：暗影崛起》正式公布，对此你有哪些期待？",
+     "url": "https://www.zhihu.com/question/2092554410895171870",
      "hot": ""
     },
     {
-     "title": "家长自报干部身份，希望老师多关照孩子，保定纪检组介入调查，反映了哪些问题？家长会受到处罚吗？",
-     "url": "https://www.zhihu.com/question/2078756520523719478",
+     "title": "WTT 中国大满贯女单决赛，王曼昱 4-0 佐藤瞳成功卫冕，如何评价本场比赛？",
+     "url": "https://www.zhihu.com/question/2092634676540039677",
      "hot": ""
     },
     {
-     "title": "为什么现在的医院看病都不是看病人本身，都是看各种化验检查报告？",
-     "url": "https://www.zhihu.com/question/2032922947527123487",
+     "title": "深圳中小学将迎春秋假且不调休，会对双职工家庭带来哪些影响？",
+     "url": "https://www.zhihu.com/question/2092006267560649453",
      "hot": ""
     },
     {
-     "title": "网传部分家长因老师「不婚主义」而向学校投诉，校方要求老师好好道歉，具体情况如何？这算是过度干预吗？",
-     "url": "https://www.zhihu.com/question/2078491108670174983",
+     "title": "《斗罗大陆》只看第一部就行吗？是不是斗2、斗3、斗4是在重复？",
+     "url": "https://www.zhihu.com/question/9041823315",
      "hot": ""
     },
     {
-     "title": "如何看待 WorkBuddy 开放 Agent 基座能力？这会怎样影响 Agent 的生态？",
-     "url": "https://www.zhihu.com/question/2078496761006355910",
+     "title": "如何看待给大模型投毒被字节索赔800 万的前实习生开启创业，已获近三千万美元融资？你看好其创业前景吗？",
+     "url": "https://www.zhihu.com/question/2092306646621844796",
      "hot": ""
     },
     {
-     "title": "台风沙德尔在福建第三次登陆，广东、福建、江西等地有大到暴雨，福建多地停工停产停课休市，目前情况如何？",
-     "url": "https://www.zhihu.com/question/2078540350704939546",
+     "title": "为什么很多书法看着很丑评价很高?",
+     "url": "https://www.zhihu.com/question/605811333",
      "hot": ""
     },
     {
-     "title": "怎么看 OpenAI 的 Astra 报道称用了全新的 recurrent depth 型推理方法？",
-     "url": "https://www.zhihu.com/question/2078440102733337893",
+     "title": "喜剧的内核是悲剧，你对此有什么感受？",
+     "url": "https://www.zhihu.com/question/2003167448686409186",
      "hot": ""
     },
     {
-     "title": "为什么会有“珠心算部队”？",
-     "url": "https://www.zhihu.com/question/657264625",
+     "title": "如何评价电影《生化危机：爆发夜》的结局？",
+     "url": "https://www.zhihu.com/question/2092195014780483144",
      "hot": ""
     }
    ]
   },
   "douyin": {
    "name": "抖音热点",
-   "updateTime": "2026-09-03 13:37",
+   "updateTime": "2026-10-11 18:57",
    "url": "https://www.douyin.com/hot",
    "data": [
     {
-     "title": "台风沙德尔第3次登陆",
-     "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E7%AC%AC3%E6%AC%A1%E7%99%BB%E9%99%86",
-     "hot": 11480465
+     "title": "王曼昱横扫佐藤瞳夺冠",
+     "url": "https://www.douyin.com/search/%E7%8E%8B%E6%9B%BC%E6%98%B1%E6%A8%AA%E6%89%AB%E4%BD%90%E8%97%A4%E7%9E%B3%E5%A4%BA%E5%86%A0",
+     "hot": 12104380
     },
     {
-     "title": "西藏泥石流21人遇难541人失联",
-     "url": "https://www.douyin.com/search/%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%8121%E4%BA%BA%E9%81%87%E9%9A%BE541%E4%BA%BA%E5%A4%B1%E8%81%94",
-     "hot": 10993614
+     "title": "当北方人第一次闻桂花香",
+     "url": "https://www.douyin.com/search/%E5%BD%93%E5%8C%97%E6%96%B9%E4%BA%BA%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%97%BB%E6%A1%82%E8%8A%B1%E9%A6%99",
+     "hot": 11913736
     },
     {
-     "title": "秋粮主产区分类施策力夺丰收",
-     "url": "https://www.douyin.com/search/%E7%A7%8B%E7%B2%AE%E4%B8%BB%E4%BA%A7%E5%8C%BA%E5%88%86%E7%B1%BB%E6%96%BD%E7%AD%96%E5%8A%9B%E5%A4%BA%E4%B8%B0%E6%94%B6",
-     "hot": 10860046
+     "title": "全国秋粮收获进度过半",
+     "url": "https://www.douyin.com/search/%E5%85%A8%E5%9B%BD%E7%A7%8B%E7%B2%AE%E6%94%B6%E8%8E%B7%E8%BF%9B%E5%BA%A6%E8%BF%87%E5%8D%8A",
+     "hot": 11370416
     },
     {
-     "title": "中国人民抗战胜利81周年",
-     "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E6%8A%97%E6%88%98%E8%83%9C%E5%88%A981%E5%91%A8%E5%B9%B4",
-     "hot": 10617082
+     "title": "郑钦文中网冲冠",
+     "url": "https://www.douyin.com/search/%E9%83%91%E9%92%A6%E6%96%87%E4%B8%AD%E7%BD%91%E5%86%B2%E5%86%A0",
+     "hot": 10911596
     },
     {
-     "title": "原来是我们离不开孩子",
-     "url": "https://www.douyin.com/search/%E5%8E%9F%E6%9D%A5%E6%98%AF%E6%88%91%E4%BB%AC%E7%A6%BB%E4%B8%8D%E5%BC%80%E5%AD%A9%E5%AD%90",
-     "hot": 10027613
+     "title": "沙特利雅得机场遇袭",
+     "url": "https://www.douyin.com/search/%E6%B2%99%E7%89%B9%E5%88%A9%E9%9B%85%E5%BE%97%E6%9C%BA%E5%9C%BA%E9%81%87%E8%A2%AD",
+     "hot": 10337995
     },
     {
-     "title": "快船被罚5首轮和3000万美元",
-     "url": "https://www.douyin.com/search/%E5%BF%AB%E8%88%B9%E8%A2%AB%E7%BD%9A5%E9%A6%96%E8%BD%AE%E5%92%8C3000%E4%B8%87%E7%BE%8E%E5%85%83",
-     "hot": 9325770
+     "title": "秋天的桂花香太治愈了",
+     "url": "https://www.douyin.com/search/%E7%A7%8B%E5%A4%A9%E7%9A%84%E6%A1%82%E8%8A%B1%E9%A6%99%E5%A4%AA%E6%B2%BB%E6%84%88%E4%BA%86",
+     "hot": 10229087
     },
     {
-     "title": "微信回应单删提示",
-     "url": "https://www.douyin.com/search/%E5%BE%AE%E4%BF%A1%E5%9B%9E%E5%BA%94%E5%8D%95%E5%88%A0%E6%8F%90%E7%A4%BA",
-     "hot": 8169582
+     "title": "纯过日子就是好好生活",
+     "url": "https://www.douyin.com/search/%E7%BA%AF%E8%BF%87%E6%97%A5%E5%AD%90%E5%B0%B1%E6%98%AF%E5%A5%BD%E5%A5%BD%E7%94%9F%E6%B4%BB",
+     "hot": 9142026
     },
     {
-     "title": "香港演员刘兆铭去世",
-     "url": "https://www.douyin.com/search/%E9%A6%99%E6%B8%AF%E6%BC%94%E5%91%98%E5%88%98%E5%85%86%E9%93%AD%E5%8E%BB%E4%B8%96",
-     "hot": 7840915
+     "title": "大自然的秋天进度更新了",
+     "url": "https://www.douyin.com/search/%E5%A4%A7%E8%87%AA%E7%84%B6%E7%9A%84%E7%A7%8B%E5%A4%A9%E8%BF%9B%E5%BA%A6%E6%9B%B4%E6%96%B0%E4%BA%86",
+     "hot": 9093875
     },
     {
-     "title": "台风沙德尔或直扑广东",
-     "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E6%88%96%E7%9B%B4%E6%89%91%E5%B9%BF%E4%B8%9C",
-     "hot": 7807849
+     "title": "在芒市玩的每一天都很明媚",
+     "url": "https://www.douyin.com/search/%E5%9C%A8%E8%8A%92%E5%B8%82%E7%8E%A9%E7%9A%84%E6%AF%8F%E4%B8%80%E5%A4%A9%E9%83%BD%E5%BE%88%E6%98%8E%E5%AA%9A",
+     "hot": 8965067
     },
     {
-     "title": "学校回应家长自报干部身份",
-     "url": "https://www.douyin.com/search/%E5%AD%A6%E6%A0%A1%E5%9B%9E%E5%BA%94%E5%AE%B6%E9%95%BF%E8%87%AA%E6%8A%A5%E5%B9%B2%E9%83%A8%E8%BA%AB%E4%BB%BD",
-     "hot": 7777879
+     "title": "这临沂炒鸡吃了不烧心",
+     "url": "https://www.douyin.com/search/%E8%BF%99%E4%B8%B4%E6%B2%82%E7%82%92%E9%B8%A1%E5%90%83%E4%BA%86%E4%B8%8D%E7%83%A7%E5%BF%83",
+     "hot": 8921364
     },
     {
-     "title": "秋天少不了的好东西",
-     "url": "https://www.douyin.com/search/%E7%A7%8B%E5%A4%A9%E5%B0%91%E4%B8%8D%E4%BA%86%E7%9A%84%E5%A5%BD%E4%B8%9C%E8%A5%BF",
-     "hot": 7767523
+     "title": "张雪机车冲刺冠军",
+     "url": "https://www.douyin.com/search/%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%E5%86%B2%E5%88%BA%E5%86%A0%E5%86%9B",
+     "hot": 8795585
     },
     {
-     "title": "梅姨案已进入审判阶段",
-     "url": "https://www.douyin.com/search/%E6%A2%85%E5%A7%A8%E6%A1%88%E5%B7%B2%E8%BF%9B%E5%85%A5%E5%AE%A1%E5%88%A4%E9%98%B6%E6%AE%B5",
-     "hot": 7761096
+     "title": "苏超宿迁vs盐城",
+     "url": "https://www.douyin.com/search/%E8%8B%8F%E8%B6%85%E5%AE%BF%E8%BF%81vs%E7%9B%90%E5%9F%8E",
+     "hot": 8630628
     }
    ]
   },
   "toutiao": {
    "name": "头条热榜",
-   "updateTime": "2026-09-03 13:37",
+   "updateTime": "2026-10-11 18:57",
    "url": "https://www.toutiao.com/",
    "data": [
     {
-     "title": "解放军“战巡黄岩岛”透露哪些信号",
-     "url": "https://www.toutiao.com/trending/7680773649092050963",
-     "hot": 9471898
+     "title": "王曼昱横扫佐藤瞳夺冠",
+     "url": "https://www.toutiao.com/trending/7695000467810746422",
+     "hot": 18550844
     },
     {
-     "title": "教育局回应“家长晒纪委身份”",
-     "url": "https://www.toutiao.com/trending/7681162936617913894",
-     "hot": 8570527
+     "title": "大闸蟹价格大跌",
+     "url": "https://www.toutiao.com/trending/7695266917119954483",
+     "hot": 16785498
     },
     {
-     "title": "中国交通基建再按“快进键”",
-     "url": "https://www.toutiao.com/article/7681040464518169134",
-     "hot": 7754934
+     "title": "这些文物见证伟大远征",
+     "url": "https://www.toutiao.com/trending/7694667051915034633",
+     "hot": 15188146
     },
     {
-     "title": "中国驻俄使馆就征兵类信息发布提醒",
-     "url": "https://www.toutiao.com/trending/7680517479004671507",
-     "hot": 7016954
+     "title": "王曼昱两天两卫冕",
+     "url": "https://www.toutiao.com/trending/7695346454692433434",
+     "hot": 13742803
     },
     {
-     "title": "评论员：家长群晒公职刺眼又扎心",
-     "url": "https://www.toutiao.com/trending/7680760605581606953",
-     "hot": 6349203
+     "title": "加油新规11月1日起全面实施",
+     "url": "https://www.toutiao.com/trending/7694896490082304026",
+     "hot": 12435002
     },
     {
-     "title": "充值1000误到账26419933亿元",
-     "url": "https://www.toutiao.com/trending/7680846287596290075",
-     "hot": 5744996
+     "title": "人民日报评刹车踏板风波",
+     "url": "https://www.toutiao.com/trending/7693822162725228073",
+     "hot": 11251655
     },
     {
-     "title": "父母离婚女孩被爸爸拉黑没钱交学费",
-     "url": "https://www.toutiao.com/trending/7680494749700063295",
-     "hot": 5198287
+     "title": "胡塞武装与沙特交战面扩大",
+     "url": "https://www.toutiao.com/trending/7695336442913885747",
+     "hot": 10180919
     },
     {
-     "title": "男子喝下3两敌敌畏开车2小时去医院",
-     "url": "https://www.toutiao.com/trending/7681116623172386822",
-     "hot": 4703605
+     "title": "郑钦文2站排名狂升130位",
+     "url": "https://www.toutiao.com/trending/7694511232371785770",
+     "hot": 9212076
     },
     {
-     "title": "男子在趵突泉坐护栏拍照意外落水",
-     "url": "https://www.toutiao.com/trending/7680207901139664922",
-     "hot": 4255998
+     "title": "李连杰澄清抛妻弃子传闻",
+     "url": "https://www.toutiao.com/trending/7695236775379894326",
+     "hot": 8335431
     },
     {
-     "title": "贵州省公安厅厅长已任省政府党组成员",
-     "url": "https://www.toutiao.com/trending/7681149543676723763",
-     "hot": 3850986
+     "title": "中国人亲历机场遇袭：多人被巨响吓哭",
+     "url": "https://www.toutiao.com/trending/7695196471968353830",
+     "hot": 7542210
     },
     {
-     "title": "媒体：有一种底气叫送到统一为止",
-     "url": "https://www.toutiao.com/trending/7681075465632858153",
-     "hot": 3484516
+     "title": "亲子鉴定32份报告21个非亲生？假的",
+     "url": "https://www.toutiao.com/trending/7695209111373299754",
+     "hot": 6824474
     },
     {
-     "title": "教授夫妇21楼坠下床上摆180万？谣言",
-     "url": "https://www.toutiao.com/trending/7680387918352515108",
-     "hot": 3152921
+     "title": "如何缓解“青菜焦虑症”",
+     "url": "https://www.toutiao.com/trending/7695281817427247146",
+     "hot": 6175039
     }
    ]
   },
@@ -540,68 +513,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-11 11:30",
+   "updateTime": "2026-10-11 18:57",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《为何要生两个》",
-     "url": "https://www.bilibili.com/video/BV1vGp46bEdw",
-     "hot": 877885
+     "title": "《阴阳师》十周年丨永恒印象美学双人舞·特别演绎",
+     "url": "https://www.bilibili.com/video/BV1D9pu6qECf",
+     "hot": 747147
     },
     {
-     "title": "【苏星河】荣耀YOYO有多恐怖？siri最终形态不过如此…",
-     "url": "https://www.bilibili.com/video/BV1M2pv6uEeF",
-     "hot": 379171
-    },
-    {
-     "title": "当我解锁了系统，把整个世界当成是游戏...",
-     "url": "https://www.bilibili.com/video/BV1VhpY66E4h",
-     "hot": 242207
-    },
-    {
-     "title": "“和公主，在荒岛求生。”",
-     "url": "https://www.bilibili.com/video/BV16Rpg6REVH",
-     "hot": 315179
-    },
-    {
-     "title": "《司机の噩梦》",
-     "url": "https://www.bilibili.com/video/BV1rxp86jEYH",
-     "hot": 4000272
-    },
-    {
-     "title": "超市里……未检测到人脸……",
-     "url": "https://www.bilibili.com/video/BV1iqpt6cEMU",
-     "hot": 1148735
-    },
-    {
-     "title": "如果把我和男朋友这几年的约会地点列出来",
-     "url": "https://www.bilibili.com/video/BV16xpt6BE6t",
-     "hot": 425703
-    },
-    {
-     "title": "杀人经历写进小说，意外成为名作家？现实比剧更离奇！万字解析《悬案：旅馆案》下",
-     "url": "https://www.bilibili.com/video/BV1Hrp46zEWf",
-     "hot": 585976
+     "title": "“上大学该谈个女朋友了”。我呀？我去谈恋爱啊？！那无敌了……",
+     "url": "https://www.bilibili.com/video/BV1uvpg6zEdw",
+     "hot": 1045686
     },
     {
      "title": "也是当上外卖大法官了",
      "url": "https://www.bilibili.com/video/BV1Vtpg65EnA",
-     "hot": 413235
+     "hot": 1840492
     },
     {
-     "title": "哪一行都不好干（84）",
-     "url": "https://www.bilibili.com/video/BV1fopY6QEmP",
-     "hot": 803866
+     "title": "【独家】牧神记 第104集 龙王有请",
+     "url": "https://www.bilibili.com/video/BV1P2pY68EDr",
+     "hot": 1441022
     },
     {
-     "title": "倒查三年流水，顶级商K集体关门！商K经济终于崩盘了？",
-     "url": "https://www.bilibili.com/video/BV1Wqp46GEbP",
-     "hot": 901949
+     "title": "虽然命还在，但是鱼没了啊！！！【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1xTpG6iEbV",
+     "hot": 1893056
     },
     {
-     "title": "内蒙古包头一婚礼主持人发现新人买的礼炮里塞满纸钱和骂人纸条，婚礼主持人：发现及时，没使用",
-     "url": "https://www.bilibili.com/video/BV1nUpb6kEUK",
-     "hot": 3533102
+     "title": "我赶了中缅边境最野的集！第一次体验缅甸洗头，真的会上头吗？",
+     "url": "https://www.bilibili.com/video/BV1kwp765Ec3",
+     "hot": 381327
+    },
+    {
+     "title": "12个脑洞大开的做饭方式！",
+     "url": "https://www.bilibili.com/video/BV1Jjpg6QEkh",
+     "hot": 757736
+    },
+    {
+     "title": "有人说一台苹果18的钱能在山东大集买到多少东西和多少人快乐，咱们一起来挑战和数数！",
+     "url": "https://www.bilibili.com/video/BV1Tfpu6PEKq",
+     "hot": 423018
+    },
+    {
+     "title": "“和公主，在荒岛求生。”",
+     "url": "https://www.bilibili.com/video/BV16Rpg6REVH",
+     "hot": 807928
+    },
+    {
+     "title": "新人第1次编曲耶",
+     "url": "https://www.bilibili.com/video/BV1oQHR6rEBB",
+     "hot": 236212
+    },
+    {
+     "title": "【邓肯】新发恐怖事件！女企业家被儿子雇人送入老年护理中心丨诡异的五亿高中生坠楼谜案！",
+     "url": "https://www.bilibili.com/video/BV1wAp76yEu1",
+     "hot": 285314
+    },
+    {
+     "title": "《结账是你的谎言》",
+     "url": "https://www.bilibili.com/video/BV1yTpg6ZEHs",
+     "hot": 959952
     }
    ]
   }
@@ -644,8 +617,8 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "马斯克向印度超级富豪“道歉”：我太眼拙了，没认出您的真实身份",
-   "url": "https://finance.sina.com.cn/wm/2026-10-11/doc-iniuvhum5818961.shtml",
+   "title": "SpaceXAI更名",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-11/doc-iniuvxsi7320089.shtml",
    "source": "新浪科技"
   },
   {
@@ -654,33 +627,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "浙江雅虎联合灵核数智探索岗位级AI数智员工应用实践",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-11/doc-iniuvxsc5711060.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "马斯克与印度首富骂街，惊动印度政府，“道歉”称：恕我眼拙，您才是印度真正说了算的人",
+   "url": "https://finance.sina.com.cn/roll/2026-10-11/doc-iniuvtkm7317226.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "独家 | 蚂蚁“灵光”开启小范围内测，新版对标“Meta Muse”",
+   "url": "https://finance.sina.com.cn/tech/internet/2026-10-11/doc-iniuvtkm7308489.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "人民日报：一辆汽车的刹车踏板，绝不应该在驾驶中出现“断裂”",
    "url": "https://finance.sina.com.cn/tech/it/2026-10-11/doc-iniuvhum1894228.shtml",
    "source": "新浪科技"
   },
   {
+   "title": "马斯克向印度超级富豪“道歉”：我太眼拙了，没认出您的真实身份",
+   "url": "https://finance.sina.com.cn/wm/2026-10-11/doc-iniuvhum5818961.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "被字节开除并索赔800万的实习生创业融资，估值2亿美元",
    "url": "https://finance.sina.com.cn/tech/2026-10-11/doc-iniuvhur7324489.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "近8亿融资，前华为“天才少年”被宁德时代追着投",
-   "url": "https://finance.sina.com.cn/tech/2026-10-11/doc-iniuvanp1860304.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "亚马逊云科技向姚基金捐赠100万美元现金及云+AI资源，姚明：有幸携手同行",
-   "url": "https://finance.sina.com.cn/tech/it/2026-10-10/doc-iniutyyz2027750.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "奇瑞调整高管分工：常务副总裁张贵兵分管奇瑞品牌国内事业群，执行副总裁李学用分管捷途品牌事业部",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniututh0682530.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "以拼搏赴热爱，方程豹携手WTT中国大满贯2026，共探未知之解",
-   "url": "https://finance.sina.com.cn/tech/2026-10-10/doc-iniututi7453842.shtml",
    "source": "新浪科技"
   }
  ]
