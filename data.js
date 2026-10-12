@@ -1,17 +1,33 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-12 20:18",
+ "updatedAt": "2026-10-13 05:22",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Karpathy：LLM 能力认知鸿沟扩大为漏斗",
-   "source": "X：Andrej Karpathy (@karpathy)",
-   "url": "https://aihot.news/items/f572f90oc11zg6w7s815vz6m4",
-   "time": "10-12 09:40",
-   "sourceCount": 7
+   "title": "Meta 发布 Muse Wonder 系列前沿智能体模型",
+   "source": "Meta AI：Research Blog（网页）",
+   "url": "https://aihot.news/items/cvd92y8um4bchrk0rrug5d0fv",
+   "time": "10-13 02:48",
+   "sourceCount": 14
   },
   {
    "rank": 2,
+   "title": "微软发布 Maia 300，2027 年扩至多吉瓦级部署",
+   "source": "X：Satya Nadella (@satyanadella)",
+   "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q",
+   "time": "10-12 23:24",
+   "sourceCount": 6
+  },
+  {
+   "rank": 3,
+   "title": "Karpathy：LLM 能力认知鸿沟扩大为漏斗",
+   "source": "X：Andrej Karpathy (@karpathy)",
+   "url": "https://aihot.news/items/f572f90oc11zg6w7s815vz6m4",
+   "time": "10-12 20:51",
+   "sourceCount": 8
+  },
+  {
+   "rank": 4,
    "title": "亚马逊洽谈约70亿美元收购Decart",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/yq7wqt5vmvcc23uv52ol3dt53",
@@ -19,23 +35,15 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 3,
-   "title": "纳德拉：把前沿模型当内部风险管控",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/ubbzc82ewyencdpy65uu3zwlo",
-   "time": "10-11 17:08",
-   "sourceCount": 6
-  },
-  {
-   "rank": 4,
-   "title": "英伟达洽谈收购或追加投资Reflection AI",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/pygydfau6gpr3a7v7ko4y49ww",
-   "time": "10-11 06:51",
-   "sourceCount": 4
-  },
-  {
    "rank": 5,
+   "title": "微软总裁称AI监管不如牛奶洗衣机，呼吁业界担责",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/uc0nso7voc9sgagnk82c0se5n",
+   "time": "10-12 23:31",
+   "sourceCount": 2
+  },
+  {
+   "rank": 6,
    "title": "GPT-6.1 Sol 默认上下文提至 500k 并取消订阅长上下文费",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
@@ -43,47 +51,93 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 6,
-   "title": "微软发布决策模型 Microsoft-Decision-1",
-   "source": "X：Satya Nadella (@satyanadella)",
-   "url": "https://aihot.news/items/a7gbtbm6tcxqz7s7b369vdnvn",
-   "time": "10-10 22:57",
+   "rank": 7,
+   "title": "AMD发布Helion机架方案，面向代理式AI",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/d2forcea0e42m8ux4wnlf9g9r",
+   "time": "10-12 22:17",
    "sourceCount": 1
   },
   {
-   "rank": 7,
-   "title": "阶跃 Step 5 Preview 上线腾讯 WorkBuddy 限免",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/t84ku2v7k47stcgnoguw0jgra",
-   "time": "10-12 12:34",
-   "sourceCount": 2
-  },
-  {
    "rank": 8,
-   "title": "王兴兴：最大错误是对AI不够相信",
+   "title": "谷歌正式发布 Fitbit Edge 健康手环",
    "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/ifb7jnvz2xvy1atz9v2mzk432",
-   "time": "10-12 12:15",
+   "url": "https://aihot.news/items/a4u0jvjubwovt8s4dte0o5r8n",
+   "time": "10-13 03:55",
    "sourceCount": 1
   },
   {
    "rank": 9,
-   "title": "无问芯穹完成23亿元C轮融资",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/bir8i91toko2odq1m8nqkaj0q",
-   "time": "10-12 12:08",
+   "title": "SubQ 发布 384K 上下文决策模型 Snap",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/ttzjdmgrt0vozxx3f9tmmpo35",
+   "time": "10-13 02:30",
    "sourceCount": 1
   },
   {
    "rank": 10,
-   "title": "马斯克确认SpaceXAI更名SpaceXSI",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/ol0knd3cpgss7eue91y4kj5vz",
-   "time": "10-11 15:59",
-   "sourceCount": 2
+   "title": "纳德拉：把前沿模型当内部风险管控",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/ubbzc82ewyencdpy65uu3zwlo",
+   "time": "10-11 17:08",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
+   "summary": "Anthropic 发文评估小型模型在无数据中心条件下自主复制（ARA）的可行性，作者实验显示 9B 模型可在测试的 9 类硬件中 8 类上跑通推理，30B 及以下模型已能完成复制的多数单步。",
+   "reason": "Anthropic 用自购的 15 台廉价电视盒实测小模型分布式推理与复制链路，读者可据此评估 AI 蠕虫这类威胁的近期可行性。",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l",
+   "time": "10-12 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
+   "summary": "一位 Linux (WSL2) 用户报告，Codex CLI 0.157.0 起打开交互式会话即默认启动持久后台守护进程 codex app-server --managed-daemon，窗口关闭后仍驻留。",
+   "reason": "作者实测 Codex CLI 0.157.0 的守护进程默认行为，给出复制目录、自更新、代理污染等细节和完整关闭步骤。",
+   "source": "Codex：GitHub Releases（RSS）",
+   "url": "https://aihot.news/items/amjmxvrvj57q7752kgihp9p9q",
+   "time": "10-13 03:25",
+   "category": "industry"
+  },
+  {
+   "title": "Meta Muse Wonder 系列上线 Agent Arena，分数即将公布",
+   "summary": "Arena 宣布 Meta 的 Muse Wonder 系列模型上线 Agent Arena，用户可实测，分数即将公布。",
+   "reason": "Meta 新模型刚上架 Arena，分数尚未公布，读者可先在 Agent Arena 实测其智能体任务表现。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/lj23e9c9bhqwm2dee2hbgcmor",
+   "time": "10-13 02:04",
+   "category": "ai-models"
+  },
+  {
+   "title": "AWS 提出 priming 方法，可将预训练 Transformer 改造成混合状态空间架构",
+   "summary": "AWS 团队发布论文《Priming: Hybrid state space models from pre-trained Transformers》，提出 priming 方法，复用预训练 Transformer 权重构建混合架构，将预训练成本降低逾 99%，全流程消耗不足源模型 0.5% 的 token 预算。",
+   "reason": "AWS 团队提出 priming 方法，把预训练 Transformer 改造成混合架构的预训练成本降低逾 99%，并开源了 8B 和 32B 模型与代码。",
+   "source": "Amazon Science（RSS）",
+   "url": "https://aihot.news/items/w2408fxlrc7tc7nt3ivrzh9ys",
+   "time": "10-13 01:36",
+   "category": "paper"
+  },
+  {
+   "title": "Meta 发布 Muse Wonder 与 Muse Wonder Full 模型，主打个人与专业智能体能力",
+   "summary": "Meta 发布 Muse Wonder 系列模型，称其在个人与专业智能体任务上达到 SOTA 性能。Muse Wonder 现已通过 Meta Model API 和 Muse Code 提供，Muse Wonder Full 面向 Muse Code 订阅者开放。",
+   "reason": null,
+   "source": "Meta AI：Research Blog（网页）",
+   "url": "https://aihot.news/items/cvd92y8um4bchrk0rrug5d0fv",
+   "time": "10-13 01:33",
+   "category": "ai-models"
+  },
+  {
+   "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
+   "summary": "微软宣布明年起将 Maia 芯片家族扩展到多吉瓦级部署，作为自家产品和服务的首选推理系统，并发布 Maia 300，每瓦 token 产出比主流 GPU 系统高 40%。Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7x。",
+   "reason": "作者本人官宣自研芯片路线，给出了 Maia 300 与 Maia 200 的能效数字和部署范围，可对比主流 GPU 方案的取舍。",
+   "source": "X：Satya Nadella (@satyanadella)",
+   "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q",
+   "time": "10-12 21:03",
+   "category": "ai-products"
+  },
   {
    "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
    "summary": "QGIS 通过 QEP428 提案，将 AI 政策改为严格的 NOT ALLOWED，由 nyalldawson 提交并于 2026 年 10 月 7 日合并进 QGIS-Enhancement-Proposals 仓库。",
@@ -137,15 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/u9f1ozdbs5nobwugj3yss3z0e",
    "time": "10-12 08:26",
    "category": "opinion"
-  },
-  {
-   "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
-   "summary": "Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务；用户仍可自行覆盖设置，模型最大上下文长度为 1M。",
-   "reason": "官方说明了上下文窗口提升的幅度、原因和可覆盖设置，Coding 用户可据此调整长任务工作流。",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
-   "time": "10-12 07:45",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -503,68 +548,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-12 20:18",
+   "updateTime": "2026-10-13 05:22",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "那个卖菱角的小贩想要弄伤我的鳞片",
-     "url": "https://www.bilibili.com/video/BV1uopn6NEMR",
-     "hot": 1447256
-    },
-    {
-     "title": "你 坐 不 过 我 你 信 吗 ？",
-     "url": "https://www.bilibili.com/video/BV1nYpn6DEzp",
-     "hot": 737179
+     "title": "【A2O】A2O LITE 'NEON' Official Video",
+     "url": "https://www.bilibili.com/video/BV1VVpo6gEYg",
+     "hot": 369326
     },
     {
      "title": "“我酒桶有自己的想法！”369、Karsa重聊纳尔往事【LPL视频播客丨把TA叫过来ep2】",
      "url": "https://www.bilibili.com/video/BV1KJpn68E2b",
-     "hot": 512829
+     "hot": 842780
     },
     {
-     "title": "荷包蛋",
-     "url": "https://www.bilibili.com/video/BV1D9pn6KE9p",
-     "hot": 900716
+     "title": "deepseek 翻唱《人是猫》真完整版，大肥鱼觉得人和猫一样可爱,所以人是猫",
+     "url": "https://www.bilibili.com/video/BV1fYpn6SEk9",
+     "hot": 549544
     },
     {
-     "title": "每个生命都值得被善待",
-     "url": "https://www.bilibili.com/video/BV1DCpj64Emi",
-     "hot": 785422
-    },
-    {
-     "title": "那些无法解释的瞬间心理感受。。。又一次把我心里的画面拍了出来，这次你中了几个？",
-     "url": "https://www.bilibili.com/video/BV179p76zEZR",
-     "hot": 1091146
-    },
-    {
-     "title": "女孩错将告白巧克力送给了辣妹学姐？对方还同意交往？！",
-     "url": "https://www.bilibili.com/video/BV1VypE6vEQC",
-     "hot": 395190
-    },
-    {
-     "title": "来到中国最辣的城市！1天吃12家，我彻底服了！！",
-     "url": "https://www.bilibili.com/video/BV1oEpJ63Eoj",
-     "hot": 585428
-    },
-    {
-     "title": "逃离闪电侠黄金费德熊！你好邻居Mod",
-     "url": "https://www.bilibili.com/video/BV1QmpE6aEA7",
-     "hot": 1749971
-    },
-    {
-     "title": "我们来到了地中海，重走《奥德赛》十年回家路！",
-     "url": "https://www.bilibili.com/video/BV1mopE6xEqv",
-     "hot": 2162041
+     "title": "《不该存在的访客》继续用爱发电，耗费10000分钟制作，花费1000块",
+     "url": "https://www.bilibili.com/video/BV1ZSp46AEF8",
+     "hot": 990308
     },
     {
      "title": "史上最固执大爷-珍爱生命，远离牌桌6.0",
      "url": "https://www.bilibili.com/video/BV1v5pL6tEYw",
-     "hot": 507424
+     "hot": 892175
     },
     {
-     "title": "【花小烙】蚰蜒：不就是腿多了点嘛，我们真没那么恐怖！",
-     "url": "https://www.bilibili.com/video/BV1CapR6JEAM",
-     "hot": 100923
+     "title": "亏损千万，无以为继，赛雷图书组正式解散",
+     "url": "https://www.bilibili.com/video/BV1UFpd6cETJ",
+     "hot": 140061
+    },
+    {
+     "title": "精神小妹误闯天家",
+     "url": "https://www.bilibili.com/video/BV1A4pR6XEeK",
+     "hot": 599569
+    },
+    {
+     "title": "《生》生命是什么",
+     "url": "https://www.bilibili.com/video/BV1zVpJ6yEi3",
+     "hot": 1059857
+    },
+    {
+     "title": "特朗普为何“大撒币”？中期选举究竟有多重要？【纸牌屋现实版】",
+     "url": "https://www.bilibili.com/video/BV14LpE6sEx6",
+     "hot": 644768
+    },
+    {
+     "title": "原创动画《我到底穿了个什么东西？！》大合集",
+     "url": "https://www.bilibili.com/video/BV1jupi6pEyo",
+     "hot": 550619
+    },
+    {
+     "title": "你 坐 不 过 我 你 信 吗 ？",
+     "url": "https://www.bilibili.com/video/BV1nYpn6DEzp",
+     "hot": 1477327
+    },
+    {
+     "title": "玩家变成魔王，魔王却成了勇者，这款27年前的游戏竟有隐藏结局！",
+     "url": "https://www.bilibili.com/video/BV1yfpj6jEk5",
+     "hot": 588933
     }
    ]
   }
@@ -617,33 +662,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "泽连斯基称若普京拒绝能源停火 乌克兰将继续对俄远程打击",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfc7281471.shtml",
+   "title": "曝梁文锋密集接触具身智能创业者，DeepSeek拟入局具身智能",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuytnv5205606.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "比亚迪第15万台新能源商用车下线，正加快攻坚干线重卡电动化",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuypfa0494397.shtml",
+   "title": "微软准备在数据中心大规模部署自研芯片 规模达数吉瓦",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuytnv5199652.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "沙特着眼将原油管道输送能力提高至每日1000万桶",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfa0490833.shtml",
+   "title": "美联储进入10月会议静默期前 美债市场紧盯沃什讲话与通胀报告",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypex5313117.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Firmus上市搁浅凸显投资者转趋谨慎 亚太AI领域IPO交易门槛料被抬高",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypex5226449.shtml",
+   "title": "星巴克否认收购Chipotle的传闻：无意收购这家墨西哥餐饮连锁巨头",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypex5306686.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "尊界放弃SUV计划？江淮汽车相关人士回应：不实消息",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuyhwz5346396.shtml",
+   "title": "十年深耕到全链孵化： 库克再次现身北京 点赞中国新一代开发者",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-12/doc-iniuypff8437699.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "极智嘉拟出资5000万入股深诣，战略持股20%",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuyhxi8489409.shtml",
+   "title": "DeepSeek拟领投前腾讯科学家创办的机器人AI初创公司 估值约4亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfc7325635.shtml",
    "source": "新浪科技"
   }
  ]
