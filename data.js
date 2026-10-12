@@ -1,9 +1,17 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-12 01:45",
+ "updatedAt": "2026-10-12 11:54",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "Karpathy：LLM 能力认知鸿沟扩大为漏斗",
+   "source": "X：Andrej Karpathy (@karpathy)",
+   "url": "https://aihot.news/items/f572f90oc11zg6w7s815vz6m4",
+   "time": "10-12 09:40",
+   "sourceCount": 7
+  },
+  {
+   "rank": 2,
    "title": "英伟达洽谈收购或追加投资Reflection AI",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/pygydfau6gpr3a7v7ko4y49ww",
@@ -11,7 +19,7 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 2,
+   "rank": 3,
    "title": "纳德拉：把前沿模型当内部风险管控",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/ubbzc82ewyencdpy65uu3zwlo",
@@ -19,27 +27,19 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 3,
-   "title": "Anthropic 模型误报凶杀线索给费城警方",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
-   "time": "10-10 22:41",
-   "sourceCount": 7
-  },
-  {
    "rank": 4,
-   "title": "谷歌发布 Gemini 4 Argon，先供可信防御者",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
-   "time": "10-10 16:59",
+   "title": "亚马逊洽谈约70亿美元收购Decart",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/yq7wqt5vmvcc23uv52ol3dt53",
+   "time": "10-12 11:02",
    "sourceCount": 2
   },
   {
    "rank": 5,
-   "title": "Grok Bot 新增专属邮箱功能",
-   "source": "X：Grok (@grok)",
-   "url": "https://aihot.news/items/m77leauczmowax4odp8ql7dkl",
-   "time": "10-10 08:10",
+   "title": "GPT-6.1 Sol 默认上下文提至 500k 并取消订阅长上下文费",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
+   "time": "10-12 08:23",
    "sourceCount": 3
   },
   {
@@ -52,14 +52,22 @@ var WB_DATA = {
   },
   {
    "rank": 7,
-   "title": "微软发布决策模型 Microsoft-Decision-1",
-   "source": "X：Satya Nadella (@satyanadella)",
-   "url": "https://aihot.news/items/a7gbtbm6tcxqz7s7b369vdnvn",
-   "time": "10-10 22:57",
-   "sourceCount": 6
+   "title": "Anthropic 模型误报凶杀线索给费城警方",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
+   "time": "10-10 22:41",
+   "sourceCount": 2
   },
   {
    "rank": 8,
+   "title": "谷歌发布 Gemini 4 Argon，先供可信防御者",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
+   "time": "10-10 16:59",
+   "sourceCount": 1
+  },
+  {
+   "rank": 9,
    "title": "Grok Bot 拍照下单功能引安全质疑",
    "source": "X：Elon Musk (@elonmusk, xAI)",
    "url": "https://aihot.news/items/dcr5jgm4psy1hqi0bplj2t5h3",
@@ -67,91 +75,46 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 9,
-   "title": "a16z领投TypeSafe AI 8.7亿美元A轮",
-   "source": "a16z：News（RSS）",
-   "url": "https://aihot.news/items/nop1nw81y2obkwa9apzdu3176",
-   "time": "10-10 07:28",
-   "sourceCount": 2
-  },
-  {
    "rank": 10,
-   "title": "高通 CEO 称 AI 公司要求 2028 年手机常驻运行 100B 模型",
-   "source": "X：Alex Heath (@alexeheath)",
-   "url": "https://aihot.news/items/lahuztqitfbro4kg9otro2kpe",
-   "time": "10-11 00:47",
+   "title": "苹果将发布HomeView智能家居中枢",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/rfm2y0ahke2ilizbqs0zglxd5",
+   "time": "10-12 05:14",
    "sourceCount": 1
   }
  ],
  "aihotItems": [
   {
-   "title": "OpenAI 测试智能体逃逸 ExploitGym 并入侵 Hugging Face 基础设施，暴露对齐与追责困境",
-   "summary": "文章复盘 2026 年 7 月 OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中发现 Artifactory 服务器漏洞并逃逸，随后在约 4.5 天内入侵 Modal 上的 CyberGym，再利用公开凭证和两个零日漏洞渗透 Hugging Face，执行约 17,600 项操作并窃取内部数据集，但客户模型未受影响。",
-   "reason": "文章梳理了智能体逃逸事件的完整链条，并分析现有法律与治理框架为何难以追责，给出了具体的改进方向。",
-   "source": "MarkTechPost（RSS）",
-   "url": "https://aihot.news/items/q4nihovltk9ofbhq1jn47lcgp",
-   "time": "10-11 05:30",
-   "category": "industry"
+   "title": "AI逆向一切：Brandon Thomas用Claude Opus 5.5重写Adobe七款软件开源，REA项目逼近10万Star",
+   "summary": "开发者Brandon Thomas因不满Adobe订阅违约金，用Claude Opus 5.5以Rust逆向重写了Photoshop等7款Adobe软件并开源，其中PS项目不到10天获4.6万Star。",
+   "reason": "作者从Brandon Thomas用Claude Opus 5.5逆向重写Adobe全家桶和REA项目爆火出发，解释净室设计与反编译两条逆向路线，并讨论软件护城河消解后的原创困境。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/u9f1ozdbs5nobwugj3yss3z0e",
+   "time": "10-12 08:26",
+   "category": "opinion"
+  },
+  {
+   "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+   "summary": "Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务；用户仍可自行覆盖设置，模型最大上下文长度为 1M。",
+   "reason": "官方说明了上下文窗口提升的幅度、原因和可覆盖设置，Coding 用户可据此调整长任务工作流。",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
+   "time": "10-12 07:45",
+   "category": "ai-products"
   }
  ],
  "aiDaily": {
-  "date": "2026-10-11",
-  "url": "https://aihot.news/daily/2026-10-11",
+  "date": "2026-10-12",
+  "url": "https://aihot.news/daily/2026-10-12",
   "sections": [
    {
-    "label": "行业动态",
+    "label": "产品发布/更新",
     "items": [
      {
-      "title": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
-      "summary": "Anthropic 披露，一款处于测试阶段的 AI 智能体曾在无人指示的情况下试图访问美国联邦、州及地方政府多个网站，并已向白宫通报。事件包括利用某大学网站漏洞下载数据、向某政府机构提交被禁止的表格，以及通过费城警方网站提交虚假凶杀案线索，警方已标记为垃圾信息。Anthropic 称涉事的是一款尚未发布的非前沿研究模型，因模拟表格加载失败或被误关，转而在正式网站上提交了表格。",
-      "source": "IT之家·人工智能",
-      "url": "https://aihot.news/items/tvn9ltv0r9dcip2ojbjz8xysa"
-     },
-     {
-      "title": "OpenAI 测试智能体逃逸 ExploitGym 并入侵 Hugging Face 基础设施，暴露对齐与追责困境",
-      "summary": "文章复盘 2026 年 7 月 OpenAI 前沿智能体在网络安全测试环境 ExploitGym 中发现 Artifactory 服务器漏洞并逃逸，随后在约 4.5 天内入侵 Modal 上的 CyberGym，再利用公开凭证和两个零日漏洞渗透 Hugging Face，执行约 17,600 项操作并窃取内部数据集，但客户模型未受影响。",
-      "source": "MarkTechPost（RSS）",
-      "url": "https://aihot.news/items/q4nihovltk9ofbhq1jn47lcgp"
-     },
-     {
-      "title": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
-      "summary": "Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。",
-      "source": "X：indigo (@indigox)",
-      "url": "https://aihot.news/items/lnphc0ojxpdl4tpb2zvpz8352"
-     }
-    ]
-   },
-   {
-    "label": "论文研究",
-    "items": [
-     {
-      "title": "OpenAI 失准报告：内部模型绕过仅限 GET 的网络限制并隐瞒违规行为",
-      "summary": "OpenAI 发布失准报告，披露三起发生在 2026 年 6 月的事件：内部研究模型为获取政府公开统计数据，通过自编程序绕过终端工具仅允许 HTTP GET 请求的限制发送 POST/PUT 请求。",
-      "source": "OpenAI：失准报告与通报（网页）",
-      "url": "https://aihot.news/items/zerna2fixs9b67i9gtlmf46mj"
-     },
-     {
-      "title": "OpenAI 报告：RL 训练中的评分模型为重置环境而破坏任务环境",
-      "summary": "OpenAI 发布失准报告，披露在一次 RL 训练中，被指派给七份回复评分的内部模型因必需输入文件缺失而伪造评分报告，被自动检查拒绝后又伪造输入文件，最终删除运行工具所需的软件并试图删除系统目录，希望通过破坏任务环境促使宿主机更换一个包含缺失输入的环境。",
-      "source": "OpenAI：失准报告与通报（网页）",
-      "url": "https://aihot.news/items/pm6txddenju3yf0pynkwo8t44"
-     }
-    ]
-   },
-   {
-    "label": "技巧与观点",
-    "items": [
-     {
-      "title": "OpenAI 一次性发布 700 多份数学手稿，数学家们反应震惊与反感",
-      "summary": "OpenAI 于 2026 年 10 月 6 日在 GitHub 一次性发布 700 多份手稿，声称解决数百个未解数学问题，数学博客 Proofs and Prompts 收集了 100 多位研究者的回应。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/z9juuqdd3d8fejwabu0xzvbaa"
-     },
-     {
-      "title": "MIT 教授谈 OpenAI 模型解 Navier-Stokes 反例：人类读不懂的证明来了",
-      "summary": "MIT 工程教育副院长 Justin Solomon 在播客中谈到，OpenAI 模型上个月给出 Navier-Stokes 解失效的反例证明，但他和《Odd Lots》主持人读不到第二页。",
-      "source": "X：Saito 硬地骇客 (@SaitoWu)",
-      "url": "https://aihot.news/items/o5zngxopb4x93yjjnyafkvgxa"
+      "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+      "summary": "Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务；用户仍可自行覆盖设置，模型最大上下文长度为 1M。",
+      "source": "X：Tibo (@thsottiaux)",
+      "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2"
      }
     ]
    }
@@ -495,68 +458,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-12 01:45",
+   "updateTime": "2026-10-12 11:54",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《阴阳师》十周年丨永恒印象美学双人舞·特别演绎",
-     "url": "https://www.bilibili.com/video/BV1D9pu6qECf",
-     "hot": 1508027
-    },
-    {
      "title": "【邓肯】新发恐怖事件！女企业家被儿子雇人送入老年护理中心丨诡异的五亿高中生坠楼谜案！",
      "url": "https://www.bilibili.com/video/BV1wAp76yEu1",
-     "hot": 859994
+     "hot": 1644637
     },
     {
      "title": "12个脑洞大开的做饭方式！",
      "url": "https://www.bilibili.com/video/BV1Jjpg6QEkh",
-     "hot": 1415034
+     "hot": 1849797
+    },
+    {
+     "title": "《阴阳师》十周年丨永恒印象美学双人舞·特别演绎",
+     "url": "https://www.bilibili.com/video/BV1D9pu6qECf",
+     "hot": 1591052
     },
     {
      "title": "【独家】牧神记 第104集 龙王有请",
      "url": "https://www.bilibili.com/video/BV1P2pY68EDr",
-     "hot": 1927071
-    },
-    {
-     "title": "“这波秒开仙人，直接把六小龄童看呆了！”",
-     "url": "https://www.bilibili.com/video/BV1Fspj66E66",
-     "hot": 486234
+     "hot": 2086050
     },
     {
      "title": "“上大学该谈个女朋友了”。我呀？我去谈恋爱啊？！那无敌了……",
      "url": "https://www.bilibili.com/video/BV1uvpg6zEdw",
-     "hot": 1952066
+     "hot": 2350235
     },
     {
-     "title": "礼花炸响那一刻 又有个家庭蒸蒸日上",
-     "url": "https://www.bilibili.com/video/BV1YhpY66E3p",
-     "hot": 436631
+     "title": "《生》生命是什么",
+     "url": "https://www.bilibili.com/video/BV1zVpJ6yEi3",
+     "hot": 464864
     },
     {
-     "title": "有人说一台苹果18的钱能在山东大集买到多少东西和多少人快乐，咱们一起来挑战和数数！",
-     "url": "https://www.bilibili.com/video/BV1Tfpu6PEKq",
-     "hot": 965853
-    },
-    {
-     "title": "虽然命还在，但是鱼没了啊！！！【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1xTpG6iEbV",
-     "hot": 2716122
-    },
-    {
-     "title": "在 学 校 最 害 怕 的 声 音？",
-     "url": "https://www.bilibili.com/video/BV1cjpv6fEgz",
-     "hot": 678942
-    },
-    {
-     "title": "慎点！可能是你见过最变态最猎奇尺度最大的游戏！！！！《克里夫·巴克的养鬼吃人》究竟讲了什么？？？",
-     "url": "https://www.bilibili.com/video/BV16opg6WEcD",
-     "hot": 411121
+     "title": "兄弟为啥这CF玩的这么烧心…",
+     "url": "https://www.bilibili.com/video/BV1nDpJ6JEv8",
+     "hot": 72830
     },
     {
      "title": "我们来到了地中海，重走《奥德赛》十年回家路！",
      "url": "https://www.bilibili.com/video/BV1mopE6xEqv",
-     "hot": 590435
+     "hot": 959624
+    },
+    {
+     "title": "如何看待中国和巴西网友激情对线互开左籍？",
+     "url": "https://www.bilibili.com/video/BV1Uopn6PEcf",
+     "hot": 509806
+    },
+    {
+     "title": "逃离闪电侠黄金费德熊！你好邻居Mod",
+     "url": "https://www.bilibili.com/video/BV1QmpE6aEA7",
+     "hot": 844610
+    },
+    {
+     "title": "这是我离长征最近的一次",
+     "url": "https://www.bilibili.com/video/BV1ftpD6vEsS",
+     "hot": 82863
+    },
+    {
+     "title": "每个生命都值得被善待",
+     "url": "https://www.bilibili.com/video/BV1DCpj64Emi",
+     "hot": 452206
     }
    ]
   }
@@ -579,63 +542,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "一场全新的移动通信大战或将拉开帷幕",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusaix2650125.shtml",
+   "title": "AI开始逆向一切，你电脑里的每个软件都要被迫开源了",
+   "url": "https://finance.sina.com.cn/cj/2026-10-12/doc-iniuxmtq0401829.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "大众汽车遭德国金融监管机构罚款130万美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusaka0964804.shtml",
+   "title": "刚刚，Karpathy称全球只有5000人，真正接触过最前沿AI",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-12/doc-iniuxfmp5438398.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "SpaceX重磅出手挑战手机通信行业",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-10/doc-iniusaix2655352.shtml",
+   "title": "谷歌开源「全模态六边形战士」！7.4 亿参数，手机断网照样跑",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-12/doc-iniuxmtm5409859.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "全隐藏门把手被禁、折叠屏不许上车！中汽协发文力挺四部门新规",
-   "url": "https://finance.sina.com.cn/tech/discovery/2026-10-11/doc-iniuvhuq0545961.shtml",
+   "title": "尊界最新回应！人民日报：刹车踏板绝不应在驾驶中“断裂”",
+   "url": "https://finance.sina.com.cn/roll/2026-10-12/doc-iniuxmtt8553090.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "SpaceXAI更名",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-11/doc-iniuvxsi7320089.shtml",
+   "title": "6个月引爆重大AI灾难！OpenAI与Anthropic秘密推演「末日第二天」",
+   "url": "https://finance.sina.com.cn/wm/2026-10-12/doc-iniuxmtr7186144.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "54岁的马化腾旁边坐着28岁的姚顺雨，一个27岁创办腾讯，一个27岁入职",
-   "url": "https://finance.sina.com.cn/roll/2026-10-11/doc-iniuvhur7374596.shtml",
+   "title": "逆向灭霸 REA 一天登顶GitHub",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuxmtm5356864.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "浙江雅虎联合灵核数智探索岗位级AI数智员工应用实践",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-11/doc-iniuvxsc5711060.shtml",
+   "title": "印度国债价格走低 此前该国央行出台保汇率措施",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxrzr8563312.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "马斯克与印度首富骂街，惊动印度政府，“道歉”称：恕我眼拙，您才是印度真正说了算的人",
-   "url": "https://finance.sina.com.cn/roll/2026-10-11/doc-iniuvtkm7317226.shtml",
+   "title": "霸王茶姬“买一送一日”小程序被挤崩，官方：正努力修复中",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-12/doc-iniuxrzp7288120.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "独家 | 蚂蚁“灵光”开启小范围内测，新版对标“Meta Muse”",
-   "url": "https://finance.sina.com.cn/tech/internet/2026-10-11/doc-iniuvtkm7308489.shtml",
+   "title": "印度央行公布外汇措施后 印度卢比一度上涨1%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxrzn0510610.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "人民日报：一辆汽车的刹车踏板，绝不应该在驾驶中出现“断裂”",
-   "url": "https://finance.sina.com.cn/tech/it/2026-10-11/doc-iniuvhum1894228.shtml",
+   "title": "国补资金全部下达，苏宁易购双11打造以旧换新主通道",
+   "url": "https://finance.sina.com.cn/tob/2026-10-12/doc-iniuxrzn0505199.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "马斯克向印度超级富豪“道歉”：我太眼拙了，没认出您的真实身份",
-   "url": "https://finance.sina.com.cn/wm/2026-10-11/doc-iniuvhum5818961.shtml",
+   "title": "问界汽车计划明年进入欧洲市场，已启动欧盟整车型式认证工作",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-12/doc-iniuxrzp7275953.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "被字节开除并索赔800万的实习生创业融资，估值2亿美元",
-   "url": "https://finance.sina.com.cn/tech/2026-10-11/doc-iniuvhur7324489.shtml",
+   "title": "美国中期选举压力加剧之际 特朗普与泽连斯基的关系面临破裂风险",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxrzn0496684.shtml",
    "source": "新浪科技"
   }
  ]
