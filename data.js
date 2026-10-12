@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-12 11:54",
+ "updatedAt": "2026-10-12 20:18",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,11 +12,11 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "英伟达洽谈收购或追加投资Reflection AI",
+   "title": "亚马逊洽谈约70亿美元收购Decart",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/pygydfau6gpr3a7v7ko4y49ww",
-   "time": "10-11 06:51",
-   "sourceCount": 4
+   "url": "https://aihot.news/items/yq7wqt5vmvcc23uv52ol3dt53",
+   "time": "10-12 11:02",
+   "sourceCount": 2
   },
   {
    "rank": 3,
@@ -28,62 +28,107 @@ var WB_DATA = {
   },
   {
    "rank": 4,
-   "title": "亚马逊洽谈约70亿美元收购Decart",
+   "title": "英伟达洽谈收购或追加投资Reflection AI",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/yq7wqt5vmvcc23uv52ol3dt53",
-   "time": "10-12 11:02",
-   "sourceCount": 2
+   "url": "https://aihot.news/items/pygydfau6gpr3a7v7ko4y49ww",
+   "time": "10-11 06:51",
+   "sourceCount": 4
   },
   {
    "rank": 5,
    "title": "GPT-6.1 Sol 默认上下文提至 500k 并取消订阅长上下文费",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
-   "time": "10-12 08:23",
-   "sourceCount": 3
+   "time": "10-12 15:13",
+   "sourceCount": 4
   },
   {
    "rank": 6,
+   "title": "微软发布决策模型 Microsoft-Decision-1",
+   "source": "X：Satya Nadella (@satyanadella)",
+   "url": "https://aihot.news/items/a7gbtbm6tcxqz7s7b369vdnvn",
+   "time": "10-10 22:57",
+   "sourceCount": 1
+  },
+  {
+   "rank": 7,
+   "title": "阶跃 Step 5 Preview 上线腾讯 WorkBuddy 限免",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/t84ku2v7k47stcgnoguw0jgra",
+   "time": "10-12 12:34",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
+   "title": "王兴兴：最大错误是对AI不够相信",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/ifb7jnvz2xvy1atz9v2mzk432",
+   "time": "10-12 12:15",
+   "sourceCount": 1
+  },
+  {
+   "rank": 9,
+   "title": "无问芯穹完成23亿元C轮融资",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/bir8i91toko2odq1m8nqkaj0q",
+   "time": "10-12 12:08",
+   "sourceCount": 1
+  },
+  {
+   "rank": 10,
    "title": "马斯克确认SpaceXAI更名SpaceXSI",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/ol0knd3cpgss7eue91y4kj5vz",
    "time": "10-11 15:59",
    "sourceCount": 2
-  },
-  {
-   "rank": 7,
-   "title": "Anthropic 模型误报凶杀线索给费城警方",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/atyp08chrii2nxc0vrxvjxv0y",
-   "time": "10-10 22:41",
-   "sourceCount": 2
-  },
-  {
-   "rank": 8,
-   "title": "谷歌发布 Gemini 4 Argon，先供可信防御者",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
-   "time": "10-10 16:59",
-   "sourceCount": 1
-  },
-  {
-   "rank": 9,
-   "title": "Grok Bot 拍照下单功能引安全质疑",
-   "source": "X：Elon Musk (@elonmusk, xAI)",
-   "url": "https://aihot.news/items/dcr5jgm4psy1hqi0bplj2t5h3",
-   "time": "10-11 20:11",
-   "sourceCount": 2
-  },
-  {
-   "rank": 10,
-   "title": "苹果将发布HomeView智能家居中枢",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/rfm2y0ahke2ilizbqs0zglxd5",
-   "time": "10-12 05:14",
-   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
+   "summary": "QGIS 通过 QEP428 提案，将 AI 政策改为严格的 NOT ALLOWED，由 nyalldawson 提交并于 2026 年 10 月 7 日合并进 QGIS-Enhancement-Proposals 仓库。",
+   "reason": "原文呈现社区内部对禁令理由、措辞模糊处和后续放宽路径的直接讨论，读者可以借此理解开源项目应对 AI 贡献压力的真实权衡。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/t0gnehm6pcbj4xyn5f3txv1ge",
+   "time": "10-12 19:22",
+   "category": "industry"
+  },
+  {
+   "title": "如何只用自己拥有的文件约束编码智能体",
+   "summary": "Tessl 博客文章介绍用四个可拥有的文件杠杆约束编码智能体：CLAUDE.md 指令、.claude/rules/ 路径级规则、.claude/ 下的能力配置和 .claude/hooks/ 钩子。",
+   "reason": "作者用同一工单三次实测对比 charter 各文件杠杆的效果，方法可迁移到自己的仓库，并指出机器可查与需人审的边界。",
+   "source": "Tessl：产品与工程博客",
+   "url": "https://aihot.news/items/twhuaks920iaqd2y7frq8bgbw",
+   "time": "10-12 00:00",
+   "category": "tip"
+  },
+  {
+   "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
+   "summary": "Science 新研究显示，Google DeepMind 的 AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个，其中 2 个悬置 56 年。",
+   "reason": "这条报道把系统架构和同行评审安排都讲清了，读者可以据此理解形式化证明工作流的可行性与验证方式。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/wzxf68r0rchangmvwm48qqhfk",
+   "time": "10-12 17:35",
+   "category": "paper"
+  },
+  {
+   "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+   "summary": "一篇教程介绍用 Claude Opus 5.5 配合 Claude Code、Blender、Unreal Engine 5 和 Meshy 构建游戏的方法。核心思路是给每个工具分配单一职责：通过 MCP 连接 Blender 和 Meshy，由 Meshy 生成道具和角色、Blender 清理和放置、Unreal 负责光照物理和游戏本身、Opus 在一个对话里调度三者。流程为先让 Opus 头脑风暴 5 个游戏点子再展开，告知 GPU 以便压满画面性能，首个完整构建约花 4 小时和约 19% 的每周 Max plan 用量，之后因素材复用会快很多。",
+   "reason": "原文给出七步工具分工流程和实际耗时与费用，读者可以直接照搬搭建游戏的工作流。",
+   "source": "X：Meshy (@MeshyAI)",
+   "url": "https://aihot.news/items/svvvhr5j2nnywgdw29pso7o49",
+   "time": "10-12 15:44",
+   "category": "tip"
+  },
+  {
+   "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
+   "summary": "数字生命卡兹克撰文分析AI驱动逆向工程热潮：开发者Brandon Thomas因不满Adobe订阅规则，用Claude Opus 5.5以Rust逆向重写了Photoshop、Illustrator等7款软件的开源替代品PhotoCraft、VectorCraft等，不到10天单PS项目获4.6万Star。",
+   "reason": "文章以ArtCraft开源Adobe逆向项目为切口，分析AI如何大幅降低逆向工程成本，并追问原创软件在复制时代的护城河问题。",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz",
+   "time": "10-12 12:29",
+   "category": "opinion"
+  },
   {
    "title": "AI逆向一切：Brandon Thomas用Claude Opus 5.5重写Adobe七款软件开源，REA项目逼近10万Star",
    "summary": "开发者Brandon Thomas因不满Adobe订阅违约金，用Claude Opus 5.5以Rust逆向重写了Photoshop等7款Adobe软件并开源，其中PS项目不到10天获4.6万Star。",
@@ -458,68 +503,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-12 11:54",
+   "updateTime": "2026-10-12 20:18",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【邓肯】新发恐怖事件！女企业家被儿子雇人送入老年护理中心丨诡异的五亿高中生坠楼谜案！",
-     "url": "https://www.bilibili.com/video/BV1wAp76yEu1",
-     "hot": 1644637
+     "title": "那个卖菱角的小贩想要弄伤我的鳞片",
+     "url": "https://www.bilibili.com/video/BV1uopn6NEMR",
+     "hot": 1447256
     },
     {
-     "title": "12个脑洞大开的做饭方式！",
-     "url": "https://www.bilibili.com/video/BV1Jjpg6QEkh",
-     "hot": 1849797
+     "title": "你 坐 不 过 我 你 信 吗 ？",
+     "url": "https://www.bilibili.com/video/BV1nYpn6DEzp",
+     "hot": 737179
     },
     {
-     "title": "《阴阳师》十周年丨永恒印象美学双人舞·特别演绎",
-     "url": "https://www.bilibili.com/video/BV1D9pu6qECf",
-     "hot": 1591052
+     "title": "“我酒桶有自己的想法！”369、Karsa重聊纳尔往事【LPL视频播客丨把TA叫过来ep2】",
+     "url": "https://www.bilibili.com/video/BV1KJpn68E2b",
+     "hot": 512829
     },
     {
-     "title": "【独家】牧神记 第104集 龙王有请",
-     "url": "https://www.bilibili.com/video/BV1P2pY68EDr",
-     "hot": 2086050
-    },
-    {
-     "title": "“上大学该谈个女朋友了”。我呀？我去谈恋爱啊？！那无敌了……",
-     "url": "https://www.bilibili.com/video/BV1uvpg6zEdw",
-     "hot": 2350235
-    },
-    {
-     "title": "《生》生命是什么",
-     "url": "https://www.bilibili.com/video/BV1zVpJ6yEi3",
-     "hot": 464864
-    },
-    {
-     "title": "兄弟为啥这CF玩的这么烧心…",
-     "url": "https://www.bilibili.com/video/BV1nDpJ6JEv8",
-     "hot": 72830
-    },
-    {
-     "title": "我们来到了地中海，重走《奥德赛》十年回家路！",
-     "url": "https://www.bilibili.com/video/BV1mopE6xEqv",
-     "hot": 959624
-    },
-    {
-     "title": "如何看待中国和巴西网友激情对线互开左籍？",
-     "url": "https://www.bilibili.com/video/BV1Uopn6PEcf",
-     "hot": 509806
-    },
-    {
-     "title": "逃离闪电侠黄金费德熊！你好邻居Mod",
-     "url": "https://www.bilibili.com/video/BV1QmpE6aEA7",
-     "hot": 844610
-    },
-    {
-     "title": "这是我离长征最近的一次",
-     "url": "https://www.bilibili.com/video/BV1ftpD6vEsS",
-     "hot": 82863
+     "title": "荷包蛋",
+     "url": "https://www.bilibili.com/video/BV1D9pn6KE9p",
+     "hot": 900716
     },
     {
      "title": "每个生命都值得被善待",
      "url": "https://www.bilibili.com/video/BV1DCpj64Emi",
-     "hot": 452206
+     "hot": 785422
+    },
+    {
+     "title": "那些无法解释的瞬间心理感受。。。又一次把我心里的画面拍了出来，这次你中了几个？",
+     "url": "https://www.bilibili.com/video/BV179p76zEZR",
+     "hot": 1091146
+    },
+    {
+     "title": "女孩错将告白巧克力送给了辣妹学姐？对方还同意交往？！",
+     "url": "https://www.bilibili.com/video/BV1VypE6vEQC",
+     "hot": 395190
+    },
+    {
+     "title": "来到中国最辣的城市！1天吃12家，我彻底服了！！",
+     "url": "https://www.bilibili.com/video/BV1oEpJ63Eoj",
+     "hot": 585428
+    },
+    {
+     "title": "逃离闪电侠黄金费德熊！你好邻居Mod",
+     "url": "https://www.bilibili.com/video/BV1QmpE6aEA7",
+     "hot": 1749971
+    },
+    {
+     "title": "我们来到了地中海，重走《奥德赛》十年回家路！",
+     "url": "https://www.bilibili.com/video/BV1mopE6xEqv",
+     "hot": 2162041
+    },
+    {
+     "title": "史上最固执大爷-珍爱生命，远离牌桌6.0",
+     "url": "https://www.bilibili.com/video/BV1v5pL6tEYw",
+     "hot": 507424
+    },
+    {
+     "title": "【花小烙】蚰蜒：不就是腿多了点嘛，我们真没那么恐怖！",
+     "url": "https://www.bilibili.com/video/BV1CapR6JEAM",
+     "hot": 100923
     }
    ]
   }
@@ -572,33 +617,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "印度国债价格走低 此前该国央行出台保汇率措施",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxrzr8563312.shtml",
+   "title": "泽连斯基称若普京拒绝能源停火 乌克兰将继续对俄远程打击",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfc7281471.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "霸王茶姬“买一送一日”小程序被挤崩，官方：正努力修复中",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-12/doc-iniuxrzp7288120.shtml",
+   "title": "比亚迪第15万台新能源商用车下线，正加快攻坚干线重卡电动化",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuypfa0494397.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "印度央行公布外汇措施后 印度卢比一度上涨1%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxrzn0510610.shtml",
+   "title": "沙特着眼将原油管道输送能力提高至每日1000万桶",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfa0490833.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "国补资金全部下达，苏宁易购双11打造以旧换新主通道",
-   "url": "https://finance.sina.com.cn/tob/2026-10-12/doc-iniuxrzn0505199.shtml",
+   "title": "Firmus上市搁浅凸显投资者转趋谨慎 亚太AI领域IPO交易门槛料被抬高",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypex5226449.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "问界汽车计划明年进入欧洲市场，已启动欧盟整车型式认证工作",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-12/doc-iniuxrzp7275953.shtml",
+   "title": "尊界放弃SUV计划？江淮汽车相关人士回应：不实消息",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuyhwz5346396.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国中期选举压力加剧之际 特朗普与泽连斯基的关系面临破裂风险",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxrzn0496684.shtml",
+   "title": "极智嘉拟出资5000万入股深诣，战略持股20%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuyhxi8489409.shtml",
    "source": "新浪科技"
   }
  ]
