@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-13 05:22",
+ "updatedAt": "2026-10-13 13:04",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Meta 发布 Muse Wonder 系列前沿智能体模型",
-   "source": "Meta AI：Research Blog（网页）",
-   "url": "https://aihot.news/items/cvd92y8um4bchrk0rrug5d0fv",
-   "time": "10-13 02:48",
-   "sourceCount": 14
+   "title": "Meta 发布 Muse Wonder 系列前沿模型",
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8",
+   "time": "10-13 10:39",
+   "sourceCount": 16
   },
   {
    "rank": 2,
@@ -20,6 +20,14 @@ var WB_DATA = {
   },
   {
    "rank": 3,
+   "title": "xAI 推出 The X Subscription，Cursor 并入其中",
+   "source": "xAI：News（网页）",
+   "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn",
+   "time": "10-13 09:18",
+   "sourceCount": 6
+  },
+  {
+   "rank": 4,
    "title": "Karpathy：LLM 能力认知鸿沟扩大为漏斗",
    "source": "X：Andrej Karpathy (@karpathy)",
    "url": "https://aihot.news/items/f572f90oc11zg6w7s815vz6m4",
@@ -27,7 +35,15 @@ var WB_DATA = {
    "sourceCount": 8
   },
   {
-   "rank": 4,
+   "rank": 5,
+   "title": "Anthropic发布防御蒸馏攻击新方法",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/lwchujhujmc1tdor61dn39irl",
+   "time": "10-13 11:32",
+   "sourceCount": 2
+  },
+  {
+   "rank": 6,
    "title": "亚马逊洽谈约70亿美元收购Decart",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/yq7wqt5vmvcc23uv52ol3dt53",
@@ -35,23 +51,15 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 5,
-   "title": "微软总裁称AI监管不如牛奶洗衣机，呼吁业界担责",
+   "rank": 7,
+   "title": "阿里千问将发布Personal Agent“千问Go！”",
    "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/uc0nso7voc9sgagnk82c0se5n",
-   "time": "10-12 23:31",
+   "url": "https://aihot.news/items/pc4l0dux8k9y1hsapoizv75zi",
+   "time": "10-13 12:03",
    "sourceCount": 2
   },
   {
-   "rank": 6,
-   "title": "GPT-6.1 Sol 默认上下文提至 500k 并取消订阅长上下文费",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
-   "time": "10-12 15:13",
-   "sourceCount": 4
-  },
-  {
-   "rank": 7,
+   "rank": 8,
    "title": "AMD发布Helion机架方案，面向代理式AI",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/d2forcea0e42m8ux4wnlf9g9r",
@@ -59,31 +67,59 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 8,
-   "title": "谷歌正式发布 Fitbit Edge 健康手环",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/a4u0jvjubwovt8s4dte0o5r8n",
-   "time": "10-13 03:55",
-   "sourceCount": 1
-  },
-  {
    "rank": 9,
-   "title": "SubQ 发布 384K 上下文决策模型 Snap",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/ttzjdmgrt0vozxx3f9tmmpo35",
-   "time": "10-13 02:30",
-   "sourceCount": 1
+   "title": "微软总裁称AI监管不如牛奶洗衣机，呼吁业界担责",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/uc0nso7voc9sgagnk82c0se5n",
+   "time": "10-12 23:31",
+   "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "纳德拉：把前沿模型当内部风险管控",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/ubbzc82ewyencdpy65uu3zwlo",
-   "time": "10-11 17:08",
+   "title": "GPT-6.1 Sol 默认上下文提至 500k 并取消订阅长上下文费",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
+   "time": "10-12 15:13",
    "sourceCount": 4
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 强化针对蒸馏攻击的防御， reasoning token 提取量下降 10 到 100 倍",
+   "summary": "Anthropic 发布博客，介绍其针对 Claude 蒸馏攻击的新防御方法，早期证据显示这些方法使蒸馏者获取的数据减少约 90% 到 99%。",
+   "reason": "Anthropic 公开其反蒸馏防御的具体做法和效果数据，读者可以据此了解这类防御的成本、权衡和对整个行业的借鉴意义。",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/lwchujhujmc1tdor61dn39irl",
+   "time": "10-12 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "xAI 推出 The X Subscription 整合 Grok、Grok Bot、Cursor 与 X Premium",
+   "summary": "xAI 推出 The X Subscription 订阅，将 Grok、Grok Bot、Cursor 和 X Premium 合入一个计划，未来几天内向全球用户开放。",
+   "reason": "官方公布四合一订阅的档位价格与共享用量规则，读者可据此对比现有单独订阅的实际成本变化。",
+   "source": "xAI：News（网页）",
+   "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn",
+   "time": "10-12 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Epic Games 转向 AI 先行开发模式，与迪士尼合作射击游戏无限期延期",
+   "summary": "据 Bloomberg 报道，Epic Games 在与迪士尼 15 亿美元合作项目中转向 AI 先行开发，由 Anthropic 的 Claude 等模型编写全部代码并指导全部美术，人类开发者负责管理和引导生成内容。",
+   "reason": "原文援引 Bloomberg 报道和 Tim Sweeney 回应，交代了 AI 先行开发模式的具体做法与项目延期，信息相对完整。",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/kcwro19vl7dr5jgcjgec7mive",
+   "time": "10-13 04:59",
+   "category": "industry"
+  },
+  {
+   "title": "Vapi 自研代码审查机器人如何将 PR 合并时间缩短一半",
+   "summary": "Vapi 工程师 Lat Ware 自研 Pedantic Review Bot，使 PR 从开到合并的平均时间从 130 多小时降到 65 小时。机器人会运行测试和小复现来验证发现，分析和发评论分属两个 job，只能评论不能批准或推送；2026 年 9 月 2 日至 10 月 2 日审查了 1,694 个 PR，在 276 个中提出 363 个 blocker 发现。",
+   "reason": "作者基于自家代码库做了提示词版本、多跑对比和范围指令等实验，给出可直接迁移的代码审查智能体实践结论。",
+   "source": "Vapi 产品与 Agent 方法",
+   "url": "https://aihot.news/items/byijxcheeait7w4okuw9ebnh2",
+   "time": "10-12 08:00",
+   "category": "tip"
+  },
   {
    "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
    "summary": "Anthropic 发文评估小型模型在无数据中心条件下自主复制（ARA）的可行性，作者实验显示 9B 模型可在测试的 9 类硬件中 8 类上跑通推理，30B 及以下模型已能完成复制的多数单步。",
@@ -121,12 +157,12 @@ var WB_DATA = {
    "category": "paper"
   },
   {
-   "title": "Meta 发布 Muse Wonder 与 Muse Wonder Full 模型，主打个人与专业智能体能力",
-   "summary": "Meta 发布 Muse Wonder 系列模型，称其在个人与专业智能体任务上达到 SOTA 性能。Muse Wonder 现已通过 Meta Model API 和 Muse Code 提供，Muse Wonder Full 面向 Muse Code 订阅者开放。",
-   "reason": null,
-   "source": "Meta AI：Research Blog（网页）",
-   "url": "https://aihot.news/items/cvd92y8um4bchrk0rrug5d0fv",
-   "time": "10-13 01:33",
+   "title": "Meta 发布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 实测智能水平较前代显著提升",
+   "summary": "Meta 发布 Muse Wonder 和 Muse Wonder Full 两款模型，在 Artificial Analysis Intelligence Index v4.3 上分别得 52 和 56 分（max reasoning effort）。",
+   "reason": "Artificial Analysis 独立实测了两款新模型的智能指数、token 用量和成本，读者可据此对比它们在同类模型中的位置。",
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8",
+   "time": "10-12 00:00",
    "category": "ai-models"
   },
   {
@@ -155,56 +191,106 @@ var WB_DATA = {
    "url": "https://aihot.news/items/twhuaks920iaqd2y7frq8bgbw",
    "time": "10-12 00:00",
    "category": "tip"
-  },
-  {
-   "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
-   "summary": "Science 新研究显示，Google DeepMind 的 AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个，其中 2 个悬置 56 年。",
-   "reason": "这条报道把系统架构和同行评审安排都讲清了，读者可以据此理解形式化证明工作流的可行性与验证方式。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/wzxf68r0rchangmvwm48qqhfk",
-   "time": "10-12 17:35",
-   "category": "paper"
-  },
-  {
-   "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
-   "summary": "一篇教程介绍用 Claude Opus 5.5 配合 Claude Code、Blender、Unreal Engine 5 和 Meshy 构建游戏的方法。核心思路是给每个工具分配单一职责：通过 MCP 连接 Blender 和 Meshy，由 Meshy 生成道具和角色、Blender 清理和放置、Unreal 负责光照物理和游戏本身、Opus 在一个对话里调度三者。流程为先让 Opus 头脑风暴 5 个游戏点子再展开，告知 GPU 以便压满画面性能，首个完整构建约花 4 小时和约 19% 的每周 Max plan 用量，之后因素材复用会快很多。",
-   "reason": "原文给出七步工具分工流程和实际耗时与费用，读者可以直接照搬搭建游戏的工作流。",
-   "source": "X：Meshy (@MeshyAI)",
-   "url": "https://aihot.news/items/svvvhr5j2nnywgdw29pso7o49",
-   "time": "10-12 15:44",
-   "category": "tip"
-  },
-  {
-   "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
-   "summary": "数字生命卡兹克撰文分析AI驱动逆向工程热潮：开发者Brandon Thomas因不满Adobe订阅规则，用Claude Opus 5.5以Rust逆向重写了Photoshop、Illustrator等7款软件的开源替代品PhotoCraft、VectorCraft等，不到10天单PS项目获4.6万Star。",
-   "reason": "文章以ArtCraft开源Adobe逆向项目为切口，分析AI如何大幅降低逆向工程成本，并追问原创软件在复制时代的护城河问题。",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz",
-   "time": "10-12 12:29",
-   "category": "opinion"
-  },
-  {
-   "title": "AI逆向一切：Brandon Thomas用Claude Opus 5.5重写Adobe七款软件开源，REA项目逼近10万Star",
-   "summary": "开发者Brandon Thomas因不满Adobe订阅违约金，用Claude Opus 5.5以Rust逆向重写了Photoshop等7款Adobe软件并开源，其中PS项目不到10天获4.6万Star。",
-   "reason": "作者从Brandon Thomas用Claude Opus 5.5逆向重写Adobe全家桶和REA项目爆火出发，解释净室设计与反编译两条逆向路线，并讨论软件护城河消解后的原创困境。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/u9f1ozdbs5nobwugj3yss3z0e",
-   "time": "10-12 08:26",
-   "category": "opinion"
   }
  ],
  "aiDaily": {
-  "date": "2026-10-12",
-  "url": "https://aihot.news/daily/2026-10-12",
+  "date": "2026-10-13",
+  "url": "https://aihot.news/daily/2026-10-13",
   "sections": [
+   {
+    "label": "模型发布/更新",
+    "items": [
+     {
+      "title": "Meta 发布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 实测智能水平较前代显著提升",
+      "summary": "Meta 发布 Muse Wonder 和 Muse Wonder Full 两款模型，在 Artificial Analysis Intelligence Index v4.3 上分别得 52 和 56 分（max reasoning effort）。",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8"
+     }
+    ]
+   },
    {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
-      "summary": "Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务；用户仍可自行覆盖设置，模型最大上下文长度为 1M。",
-      "source": "X：Tibo (@thsottiaux)",
-      "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2"
+      "title": "xAI 推出 The X Subscription 整合 Grok、Grok Bot、Cursor 与 X Premium",
+      "summary": "xAI 推出 The X Subscription 订阅，将 Grok、Grok Bot、Cursor 和 X Premium 合入一个计划，未来几天内向全球用户开放。",
+      "source": "xAI：News（网页）",
+      "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn"
+     },
+     {
+      "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
+      "summary": "微软宣布明年起将 Maia 芯片家族扩展到多吉瓦级部署，作为自家产品和服务的首选推理系统，并发布 Maia 300，每瓦 token 产出比主流 GPU 系统高 40%。Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7x。",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q"
+     }
+    ]
+   },
+   {
+    "label": "行业动态",
+    "items": [
+     {
+      "title": "Epic Games 转向 AI 先行开发模式，与迪士尼合作射击游戏无限期延期",
+      "summary": "据 Bloomberg 报道，Epic Games 在与迪士尼 15 亿美元合作项目中转向 AI 先行开发，由 Anthropic 的 Claude 等模型编写全部代码并指导全部美术，人类开发者负责管理和引导生成内容。",
+      "source": "Ars Technica：AI（RSS）",
+      "url": "https://aihot.news/items/kcwro19vl7dr5jgcjgec7mive"
+     },
+     {
+      "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
+      "summary": "QGIS 通过 QEP428 提案，将 AI 政策改为严格的 NOT ALLOWED，由 nyalldawson 提交并于 2026 年 10 月 7 日合并进 QGIS-Enhancement-Proposals 仓库。",
+      "source": "Hacker News：AI 热帖",
+      "url": "https://aihot.news/items/t0gnehm6pcbj4xyn5f3txv1ge"
+     },
+     {
+      "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
+      "summary": "一位 Linux (WSL2) 用户报告，Codex CLI 0.157.0 起打开交互式会话即默认启动持久后台守护进程 codex app-server --managed-daemon，窗口关闭后仍驻留。",
+      "source": "Codex：GitHub Releases（RSS）",
+      "url": "https://aihot.news/items/amjmxvrvj57q7752kgihp9p9q"
+     }
+    ]
+   },
+   {
+    "label": "论文研究",
+    "items": [
+     {
+      "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
+      "summary": "Anthropic 发文评估小型模型在无数据中心条件下自主复制（ARA）的可行性，作者实验显示 9B 模型可在测试的 9 类硬件中 8 类上跑通推理，30B 及以下模型已能完成复制的多数单步。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l"
+     },
+     {
+      "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
+      "summary": "Science 新研究显示，Google DeepMind 的 AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个，其中 2 个悬置 56 年。",
+      "source": "The Decoder：AI News（RSS）",
+      "url": "https://aihot.news/items/wzxf68r0rchangmvwm48qqhfk"
+     }
+    ]
+   },
+   {
+    "label": "技巧与观点",
+    "items": [
+     {
+      "title": "Vapi 自研代码审查机器人如何将 PR 合并时间缩短一半",
+      "summary": "Vapi 工程师 Lat Ware 自研 Pedantic Review Bot，使 PR 从开到合并的平均时间从 130 多小时降到 65 小时。机器人会运行测试和小复现来验证发现，分析和发评论分属两个 job，只能评论不能批准或推送；2026 年 9 月 2 日至 10 月 2 日审查了 1,694 个 PR，在 276 个中提出 363 个 blocker 发现。",
+      "source": "Vapi 产品与 Agent 方法",
+      "url": "https://aihot.news/items/byijxcheeait7w4okuw9ebnh2"
+     },
+     {
+      "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+      "summary": "一篇教程介绍用 Claude Opus 5.5 配合 Claude Code、Blender、Unreal Engine 5 和 Meshy 构建游戏的方法。核心思路是给每个工具分配单一职责：通过 MCP 连接 Blender 和 Meshy，由 Meshy 生成道具和角色、Blender 清理和放置、Unreal 负责光照物理和游戏本身、Opus 在一个对话里调度三者。流程为先让 Opus 头脑风暴 5 个游戏点子再展开，告知 GPU 以便压满画面性能，首个完整构建约花 4 小时和约 19% 的每周 Max plan 用量，之后因素材复用会快很多。",
+      "source": "X：Meshy (@MeshyAI)",
+      "url": "https://aihot.news/items/svvvhr5j2nnywgdw29pso7o49"
+     },
+     {
+      "title": "如何只用自己拥有的文件约束编码智能体",
+      "summary": "Tessl 博客文章介绍用四个可拥有的文件杠杆约束编码智能体：CLAUDE.md 指令、.claude/rules/ 路径级规则、.claude/ 下的能力配置和 .claude/hooks/ 钩子。",
+      "source": "Tessl：产品与工程博客",
+      "url": "https://aihot.news/items/twhuaks920iaqd2y7frq8bgbw"
+     },
+     {
+      "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
+      "summary": "数字生命卡兹克撰文分析AI驱动逆向工程热潮：开发者Brandon Thomas因不满Adobe订阅规则，用Claude Opus 5.5以Rust逆向重写了Photoshop、Illustrator等7款软件的开源替代品PhotoCraft、VectorCraft等，不到10天单PS项目获4.6万Star。",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz"
      }
     ]
    }
@@ -548,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-13 05:22",
+   "updateTime": "2026-10-13 13:04",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【A2O】A2O LITE 'NEON' Official Video",
-     "url": "https://www.bilibili.com/video/BV1VVpo6gEYg",
-     "hot": 369326
+     "title": "苏联版“空中监狱”是什么？【神奇组织55】",
+     "url": "https://www.bilibili.com/video/BV1Cgpd6pEBR",
+     "hot": 354180
     },
     {
-     "title": "“我酒桶有自己的想法！”369、Karsa重聊纳尔往事【LPL视频播客丨把TA叫过来ep2】",
-     "url": "https://www.bilibili.com/video/BV1KJpn68E2b",
-     "hot": 842780
+     "title": "盾山·一塔千年皮肤CG《光阴的旅程》| 天柱地轴",
+     "url": "https://www.bilibili.com/video/BV18RpR6eExi",
+     "hot": 282236
     },
     {
-     "title": "deepseek 翻唱《人是猫》真完整版，大肥鱼觉得人和猫一样可爱,所以人是猫",
-     "url": "https://www.bilibili.com/video/BV1fYpn6SEk9",
-     "hot": 549544
+     "title": "“轮回百世，嘴硬百世。”",
+     "url": "https://www.bilibili.com/video/BV1Sap968Efp",
+     "hot": 667263
     },
     {
-     "title": "《不该存在的访客》继续用爱发电，耗费10000分钟制作，花费1000块",
-     "url": "https://www.bilibili.com/video/BV1ZSp46AEF8",
-     "hot": 990308
+     "title": "50块钱可以在熟食店卖那些东西？",
+     "url": "https://www.bilibili.com/video/BV1oBpX6iEMA",
+     "hot": 1010721
     },
     {
-     "title": "史上最固执大爷-珍爱生命，远离牌桌6.0",
-     "url": "https://www.bilibili.com/video/BV1v5pL6tEYw",
-     "hot": 892175
+     "title": "AI操作+多屏互动，我们离下一代智能系统还有多远？",
+     "url": "https://www.bilibili.com/video/BV12vpQ6SEYu",
+     "hot": 341923
     },
     {
-     "title": "亏损千万，无以为继，赛雷图书组正式解散",
-     "url": "https://www.bilibili.com/video/BV1UFpd6cETJ",
-     "hot": 140061
+     "title": "《小 时 候 最 刺 激 的 一 集》",
+     "url": "https://www.bilibili.com/video/BV1FYpR6UEZw",
+     "hot": 514358
     },
     {
-     "title": "精神小妹误闯天家",
-     "url": "https://www.bilibili.com/video/BV1A4pR6XEeK",
-     "hot": 599569
+     "title": "纽北二刷！SU7Ultra能成为第一台BTG 7分内的中国车吗？",
+     "url": "https://www.bilibili.com/video/BV1cPpb6CEZT",
+     "hot": 503629
     },
     {
-     "title": "《生》生命是什么",
-     "url": "https://www.bilibili.com/video/BV1zVpJ6yEi3",
-     "hot": 1059857
-    },
-    {
-     "title": "特朗普为何“大撒币”？中期选举究竟有多重要？【纸牌屋现实版】",
-     "url": "https://www.bilibili.com/video/BV14LpE6sEx6",
-     "hot": 644768
-    },
-    {
-     "title": "原创动画《我到底穿了个什么东西？！》大合集",
-     "url": "https://www.bilibili.com/video/BV1jupi6pEyo",
-     "hot": 550619
+     "title": "乌铜走银",
+     "url": "https://www.bilibili.com/video/BV1Bjp966EA8",
+     "hot": 436421
     },
     {
      "title": "你 坐 不 过 我 你 信 吗 ？",
      "url": "https://www.bilibili.com/video/BV1nYpn6DEzp",
-     "hot": 1477327
+     "hot": 2139375
     },
     {
-     "title": "玩家变成魔王，魔王却成了勇者，这款27年前的游戏竟有隐藏结局！",
-     "url": "https://www.bilibili.com/video/BV1yfpj6jEk5",
-     "hot": 588933
+     "title": "赵露思亲友自嗨神作《我不是npc》",
+     "url": "https://www.bilibili.com/video/BV1VmpR6uEfg",
+     "hot": 377734
+    },
+    {
+     "title": "西（部）游记  闪身步vs哆嗦毛",
+     "url": "https://www.bilibili.com/video/BV1P4pR6XEaj",
+     "hot": 305721
+    },
+    {
+     "title": "今年诺奖颁给了“大脑的开关”：光遗传学到底是什么",
+     "url": "https://www.bilibili.com/video/BV1Fbpt6qEPq",
+     "hot": 409253
     }
    ]
   }
@@ -632,13 +718,13 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "AI开始逆向一切，你电脑里的每个软件都要被迫开源了",
-   "url": "https://finance.sina.com.cn/cj/2026-10-12/doc-iniuxmtq0401829.shtml",
+   "title": "宁王的资本局  神似英伟达",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-13/doc-iniuzqsm5110631.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "刚刚，Karpathy称全球只有5000人，真正接触过最前沿AI",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-10-12/doc-iniuxfmp5438398.shtml",
+   "title": "刚刚，Meta最强旗舰多项屠榜！智能水平仅落后Opus 5.5两分",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-13/doc-iniuzqsq0351978.shtml",
    "source": "新浪科技"
   },
   {
@@ -647,8 +733,8 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "尊界最新回应！人民日报：刹车踏板绝不应在驾驶中“断裂”",
-   "url": "https://finance.sina.com.cn/roll/2026-10-12/doc-iniuxmtt8553090.shtml",
+   "title": "刚刚，Meta最强旗舰碾压GPT-6和Opus，一夜杀回世界前三",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-13/doc-iniuzqst8206217.shtml",
    "source": "新浪科技"
   },
   {
@@ -657,38 +743,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "逆向灭霸 REA 一天登顶GitHub",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuxmtm5356864.shtml",
+   "title": "老内存涨疯了！DDR4合约价反超DDR5：三个月飙升24%",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-13/doc-iniuzuyp7204627.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "曝梁文锋密集接触具身智能创业者，DeepSeek拟入局具身智能",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuytnv5205606.shtml",
+   "title": "英国前首相苏纳克：科技巨头长期债券发行规模将超过美国政府",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhk0515121.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "微软准备在数据中心大规模部署自研芯片 规模达数吉瓦",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuytnv5199652.shtml",
+   "title": "科威特设定 11 月出口原油官方价，较基准贴水 6.75 美元 / 桶",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhk0507088.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美联储进入10月会议静默期前 美债市场紧盯沃什讲话与通胀报告",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypex5313117.shtml",
+   "title": "新西兰储备银行暂停数字现金方案研发",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhf5026320.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "星巴克否认收购Chipotle的传闻：无意收购这家墨西哥餐饮连锁巨头",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypex5306686.shtml",
+   "title": "澳大利亚伊斯兰教领袖否认与迪拜航空副驾驶有关联",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhf5020764.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "十年深耕到全链孵化： 库克再次现身北京 点赞中国新一代开发者",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-12/doc-iniuypff8437699.shtml",
+   "title": "英国央行格林称英国增长上调证明有必要加息",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhm7251897.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "DeepSeek拟领投前腾讯科学家创办的机器人AI初创公司 估值约4亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuypfc7325635.shtml",
+   "title": "美债长周末后恢复交易 避险需求推动价格上涨",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhm7247415.shtml",
    "source": "新浪科技"
   }
  ]
