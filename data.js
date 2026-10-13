@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-13 13:04",
+ "updatedAt": "2026-10-13 20:01",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,6 +12,14 @@ var WB_DATA = {
   },
   {
    "rank": 2,
+   "title": "xAI 推出 The X Subscription，Cursor 并入其中",
+   "source": "xAI：News（网页）",
+   "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn",
+   "time": "10-13 17:32",
+   "sourceCount": 8
+  },
+  {
+   "rank": 3,
    "title": "微软发布 Maia 300，2027 年扩至多吉瓦级部署",
    "source": "X：Satya Nadella (@satyanadella)",
    "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q",
@@ -19,15 +27,23 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 3,
-   "title": "xAI 推出 The X Subscription，Cursor 并入其中",
-   "source": "xAI：News（网页）",
-   "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn",
-   "time": "10-13 09:18",
-   "sourceCount": 6
+   "rank": 4,
+   "title": "Anthropic发布防蒸馏攻击新方法",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/lwchujhujmc1tdor61dn39irl",
+   "time": "10-13 19:06",
+   "sourceCount": 3
   },
   {
-   "rank": 4,
+   "rank": 5,
+   "title": "Anthropic研究：小模型或可在IoT设备自我复制",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l",
+   "time": "10-13 18:33",
+   "sourceCount": 3
+  },
+  {
+   "rank": 6,
    "title": "Karpathy：LLM 能力认知鸿沟扩大为漏斗",
    "source": "X：Andrej Karpathy (@karpathy)",
    "url": "https://aihot.news/items/f572f90oc11zg6w7s815vz6m4",
@@ -35,15 +51,15 @@ var WB_DATA = {
    "sourceCount": 8
   },
   {
-   "rank": 5,
-   "title": "Anthropic发布防御蒸馏攻击新方法",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/lwchujhujmc1tdor61dn39irl",
-   "time": "10-13 11:32",
+   "rank": 7,
+   "title": "Character.AI申请破产 迪士尼2000万美元牵头竞购",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/tusbrzz9718b9rzgrvjuren63",
+   "time": "10-13 18:32",
    "sourceCount": 2
   },
   {
-   "rank": 6,
+   "rank": 8,
    "title": "亚马逊洽谈约70亿美元收购Decart",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/yq7wqt5vmvcc23uv52ol3dt53",
@@ -51,39 +67,41 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 7,
-   "title": "阿里千问将发布Personal Agent“千问Go！”",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/pc4l0dux8k9y1hsapoizv75zi",
-   "time": "10-13 12:03",
-   "sourceCount": 2
-  },
-  {
-   "rank": 8,
-   "title": "AMD发布Helion机架方案，面向代理式AI",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/d2forcea0e42m8ux4wnlf9g9r",
-   "time": "10-12 22:17",
-   "sourceCount": 1
-  },
-  {
    "rank": 9,
-   "title": "微软总裁称AI监管不如牛奶洗衣机，呼吁业界担责",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/uc0nso7voc9sgagnk82c0se5n",
-   "time": "10-12 23:31",
-   "sourceCount": 2
+   "title": "面壁智能发布MiniCPM-V 4.7并登陆Mac端侧",
+   "source": "公众号：面壁智能（MiniCPM）",
+   "url": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b",
+   "time": "10-13 18:29",
+   "sourceCount": 3
   },
   {
    "rank": 10,
-   "title": "GPT-6.1 Sol 默认上下文提至 500k 并取消订阅长上下文费",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/z54sznsd0r2teb6gqyvwu4nc2",
-   "time": "10-12 15:13",
-   "sourceCount": 4
+   "title": "Anthropic 洽谈在大阪建首座日本数据中心",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/rsq1f3ypz6q4t00v2mphgdxec",
+   "time": "10-13 14:18",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "千问发布AI眼镜N1/N1 Pro及首款AI耳夹式耳机并现货开售",
+   "summary": "千问发布三款硬件新品：AI眼镜N1、N1 Pro和AI耳夹式耳机，今日在淘宝、天猫、京东、抖音等平台现货开售，眼镜到手价2218元起，耳机1099元起。",
+   "reason": "官方发布三款AI穿戴硬件，原文给出具体功能差异与到手价格，读者可据此判断是否值得入手。",
+   "source": "公众号：千问APP（阿里）",
+   "url": "https://aihot.news/items/bnwd1psqg66c268n4i1mal2pi",
+   "time": "10-13 16:06",
+   "category": "ai-products"
+  },
+  {
+   "title": "Character.AI 申请 Chapter 11 破产，Disney 以 2000 万美元牵头竞购部分资产",
+   "summary": "Character.AI 已在美国申请 Chapter 11 破产保护，以推进出售公司及资产，负债估计在 5000 万至 1 亿美元之间。",
+   "reason": "原文交代了破产原因、Disney 竞标细节和平台存续条件，读者可以了解这起交易的完整结构。",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/tusbrzz9718b9rzgrvjuren63",
+   "time": "10-13 18:32",
+   "category": "industry"
+  },
   {
    "title": "Anthropic 强化针对蒸馏攻击的防御， reasoning token 提取量下降 10 到 100 倍",
    "summary": "Anthropic 发布博客，介绍其针对 Claude 蒸馏攻击的新防御方法，早期证据显示这些方法使蒸馏者获取的数据减少约 90% 到 99%。",
@@ -157,6 +175,15 @@ var WB_DATA = {
    "category": "paper"
   },
   {
+   "title": "面壁智能开源 MiniCPM-V 4.7，35B-A3B MoE 模型 3GB 内存端侧流畅运行",
+   "summary": "面壁智能联合 OpenBMB 社区于10月13日发布并开源 MiniCPM-V 4.7，包含 35B-A3B 和 1B 两个版本，称其为全球首个可在端侧无损流畅运行的开源 MoE 多模态大模型。",
+   "reason": "原文详解了 LES 专家调度、权重布局优化和视觉 token 压缩等技术细节，读者可以了解 MoE 模型在 3GB 内存端侧设备上的实现路径。",
+   "source": "公众号：面壁智能（MiniCPM）",
+   "url": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b",
+   "time": "10-13 18:29",
+   "category": "ai-models"
+  },
+  {
    "title": "Meta 发布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 实测智能水平较前代显著提升",
    "summary": "Meta 发布 Muse Wonder 和 Muse Wonder Full 两款模型，在 Artificial Analysis Intelligence Index v4.3 上分别得 52 和 56 分（max reasoning effort）。",
    "reason": "Artificial Analysis 独立实测了两款新模型的智能指数、token 用量和成本，读者可据此对比它们在同类模型中的位置。",
@@ -164,33 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8",
    "time": "10-12 00:00",
    "category": "ai-models"
-  },
-  {
-   "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
-   "summary": "微软宣布明年起将 Maia 芯片家族扩展到多吉瓦级部署，作为自家产品和服务的首选推理系统，并发布 Maia 300，每瓦 token 产出比主流 GPU 系统高 40%。Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7x。",
-   "reason": "作者本人官宣自研芯片路线，给出了 Maia 300 与 Maia 200 的能效数字和部署范围，可对比主流 GPU 方案的取舍。",
-   "source": "X：Satya Nadella (@satyanadella)",
-   "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q",
-   "time": "10-12 21:03",
-   "category": "ai-products"
-  },
-  {
-   "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
-   "summary": "QGIS 通过 QEP428 提案，将 AI 政策改为严格的 NOT ALLOWED，由 nyalldawson 提交并于 2026 年 10 月 7 日合并进 QGIS-Enhancement-Proposals 仓库。",
-   "reason": "原文呈现社区内部对禁令理由、措辞模糊处和后续放宽路径的直接讨论，读者可以借此理解开源项目应对 AI 贡献压力的真实权衡。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/t0gnehm6pcbj4xyn5f3txv1ge",
-   "time": "10-12 19:22",
-   "category": "industry"
-  },
-  {
-   "title": "如何只用自己拥有的文件约束编码智能体",
-   "summary": "Tessl 博客文章介绍用四个可拥有的文件杠杆约束编码智能体：CLAUDE.md 指令、.claude/rules/ 路径级规则、.claude/ 下的能力配置和 .claude/hooks/ 钩子。",
-   "reason": "作者用同一工单三次实测对比 charter 各文件杠杆的效果，方法可迁移到自己的仓库，并指出机器可查与需人审的边界。",
-   "source": "Tessl：产品与工程博客",
-   "url": "https://aihot.news/items/twhuaks920iaqd2y7frq8bgbw",
-   "time": "10-12 00:00",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-13 13:04",
+   "updateTime": "2026-10-13 20:01",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "苏联版“空中监狱”是什么？【神奇组织55】",
      "url": "https://www.bilibili.com/video/BV1Cgpd6pEBR",
-     "hot": 354180
+     "hot": 922591
     },
     {
-     "title": "盾山·一塔千年皮肤CG《光阴的旅程》| 天柱地轴",
-     "url": "https://www.bilibili.com/video/BV18RpR6eExi",
-     "hot": 282236
+     "title": "向上自成高枝，向下常怀温良。一生匠人-刘欢。",
+     "url": "https://www.bilibili.com/video/BV1qLpb6NEvu",
+     "hot": 1806977
     },
     {
-     "title": "“轮回百世，嘴硬百世。”",
-     "url": "https://www.bilibili.com/video/BV1Sap968Efp",
-     "hot": 667263
+     "title": "土豆减肥降血压？土豆真能代替米饭面条吗？【主播说三农】",
+     "url": "https://www.bilibili.com/video/BV1doWc6xEjL",
+     "hot": 614721
+    },
+    {
+     "title": "【干货】不小心拿到诺贝尔奖怎么办？（保姆级）",
+     "url": "https://www.bilibili.com/video/BV1MgpE6ZEXi",
+     "hot": 857813
+    },
+    {
+     "title": "住手 你们不要再摇花手了",
+     "url": "https://www.bilibili.com/video/BV1wQp96mEs7",
+     "hot": 869767
     },
     {
      "title": "50块钱可以在熟食店卖那些东西？",
      "url": "https://www.bilibili.com/video/BV1oBpX6iEMA",
-     "hot": 1010721
-    },
-    {
-     "title": "AI操作+多屏互动，我们离下一代智能系统还有多远？",
-     "url": "https://www.bilibili.com/video/BV12vpQ6SEYu",
-     "hot": 341923
-    },
-    {
-     "title": "《小 时 候 最 刺 激 的 一 集》",
-     "url": "https://www.bilibili.com/video/BV1FYpR6UEZw",
-     "hot": 514358
-    },
-    {
-     "title": "纽北二刷！SU7Ultra能成为第一台BTG 7分内的中国车吗？",
-     "url": "https://www.bilibili.com/video/BV1cPpb6CEZT",
-     "hot": 503629
+     "hot": 1483211
     },
     {
      "title": "乌铜走银",
      "url": "https://www.bilibili.com/video/BV1Bjp966EA8",
-     "hot": 436421
+     "hot": 860151
     },
     {
-     "title": "你 坐 不 过 我 你 信 吗 ？",
-     "url": "https://www.bilibili.com/video/BV1nYpn6DEzp",
-     "hot": 2139375
-    },
-    {
-     "title": "赵露思亲友自嗨神作《我不是npc》",
-     "url": "https://www.bilibili.com/video/BV1VmpR6uEfg",
-     "hot": 377734
-    },
-    {
-     "title": "西（部）游记  闪身步vs哆嗦毛",
-     "url": "https://www.bilibili.com/video/BV1P4pR6XEaj",
-     "hot": 305721
+     "title": "超级“干净”的巴基斯坦汽水工厂，是一代人永远无法磨灭的伤痛",
+     "url": "https://www.bilibili.com/video/BV1VKpR6TEa7",
+     "hot": 1037389
     },
     {
      "title": "今年诺奖颁给了“大脑的开关”：光遗传学到底是什么",
      "url": "https://www.bilibili.com/video/BV1Fbpt6qEPq",
-     "hot": 409253
+     "hot": 623504
+    },
+    {
+     "title": "《异环》明音凛EP丨晨星与海",
+     "url": "https://www.bilibili.com/video/BV18pp46QEv8",
+     "hot": 597409
+    },
+    {
+     "title": "《向地球和大自然发誓》",
+     "url": "https://www.bilibili.com/video/BV1Lspg6jEA6",
+     "hot": 941456
+    },
+    {
+     "title": "传奇历史人物志——普朗克",
+     "url": "https://www.bilibili.com/video/BV1EKWc6hEmQ",
+     "hot": 323112
     }
    ]
   }
@@ -728,6 +728,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "STEPX Neo大模型原生智能体手机发布",
+   "url": "https://zhibo.sina.com.cn/tech/ty50052871",
+   "source": "新浪科技"
+  },
+  {
    "title": "谷歌开源「全模态六边形战士」！7.4 亿参数，手机断网照样跑",
    "url": "https://finance.sina.com.cn/tech/roll/2026-10-12/doc-iniuxmtm5409859.shtml",
    "source": "新浪科技"
@@ -748,33 +753,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "英国前首相苏纳克：科技巨头长期债券发行规模将超过美国政府",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhk0515121.shtml",
+   "title": "阶跃Step 5 Preview接入腾讯WorkBuddy，限时免费体验",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-13/doc-inivasei8834603.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "科威特设定 11 月出口原油官方价，较基准贴水 6.75 美元 / 桶",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhk0507088.shtml",
+   "title": "发布100天后，阶跃STEPX Neo智能体手机亮相，印奇首提“复古未来美学”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-13/doc-inivasea0583353.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "新西兰储备银行暂停数字现金方案研发",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhf5026320.shtml",
+   "title": "AI巨头发债虹吸全球资本 新兴市场债券发行面临挤出效应",
+   "url": "https://finance.sina.com.cn/world/2026-10-13/doc-inivasef8052891.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "澳大利亚伊斯兰教领袖否认与迪拜航空副驾驶有关联",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhf5020764.shtml",
+   "title": "AI板块遭抛售 印度IT股创17个月最大单日涨幅",
+   "url": "https://finance.sina.com.cn/world/2026-10-13/doc-inivasec7276455.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "英国央行格林称英国增长上调证明有必要加息",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhm7251897.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "美债长周末后恢复交易 避险需求推动价格上涨",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuzzhm7247415.shtml",
+   "title": "星尘智能拿下10亿融资，CEO来杰：机器人是非常容易挣钱的行业",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-10-13/doc-inivasec7295719.shtml",
    "source": "新浪科技"
   }
  ]
