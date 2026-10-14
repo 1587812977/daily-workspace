@@ -1,49 +1,65 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-14 03:28",
+ "updatedAt": "2026-10-14 11:11",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Google 发布 Gemini 4 Argon，仅付费用户可用",
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
-   "time": "10-14 02:57",
-   "sourceCount": 17
+   "time": "10-14 07:54",
+   "sourceCount": 18
   },
   {
    "rank": 2,
-   "title": "Meta 发布 Muse Wonder 系列前沿模型",
+   "title": "Meta 发布首批前沿模型 Muse Wonder 系列",
    "source": "Artificial Analysis 完整文章（网页）",
    "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8",
-   "time": "10-13 10:39",
-   "sourceCount": 15
+   "time": "10-14 06:53",
+   "sourceCount": 17
   },
   {
    "rank": 3,
+   "title": "OpenAI工程师涉装窃听装置被捕",
+   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+   "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
+   "time": "10-14 07:54",
+   "sourceCount": 4
+  },
+  {
+   "rank": 4,
    "title": "苹果发布 HomeView 智能家居中枢",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/kjcq4dywmvs5xijl4emac5o40",
    "time": "10-13 22:26",
-   "sourceCount": 5
-  },
-  {
-   "rank": 4,
-   "title": "xAI 推出 The X Subscription，整合 Grok、Cursor 与 X Premium",
-   "source": "xAI：News（网页）",
-   "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn",
-   "time": "10-13 21:50",
-   "sourceCount": 10
+   "sourceCount": 4
   },
   {
    "rank": 5,
-   "title": "Character.AI申请破产 迪士尼2000万美元牵头竞购",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc",
-   "time": "10-14 02:23",
-   "sourceCount": 5
+   "title": "Anthropic自研Scion替换git并分享经验",
+   "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+   "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
+   "time": "10-14 09:49",
+   "sourceCount": 6
   },
   {
    "rank": 6,
+   "title": "xAI 推 The X Subscription，整合 Grok、Cursor 与 X Premium",
+   "source": "xAI：News（网页）",
+   "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn",
+   "time": "10-13 21:50",
+   "sourceCount": 9
+  },
+  {
+   "rank": 7,
+   "title": "Character.AI申请破产 迪士尼2000万美元牵头竞购",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc",
+   "time": "10-14 04:06",
+   "sourceCount": 7
+  },
+  {
+   "rank": 8,
    "title": "微软发布 Maia 300，2027 年扩至多吉瓦级部署",
    "source": "X：Satya Nadella (@satyanadella)",
    "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q",
@@ -51,39 +67,86 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 7,
-   "title": "Anthropic发布防蒸馏攻击新方法",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/lwchujhujmc1tdor61dn39irl",
-   "time": "10-13 21:38",
-   "sourceCount": 4
-  },
-  {
-   "rank": 8,
-   "title": "苹果发布内置 Siri AI 的新款 Apple TV 4K",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/fi6ahpxthdbszqij928xydgj0",
-   "time": "10-13 20:58",
-   "sourceCount": 1
-  },
-  {
    "rank": 9,
    "title": "Anthropic研究：小模型或可在IoT设备自我复制",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l",
-   "time": "10-13 22:03",
-   "sourceCount": 3
+   "time": "10-14 10:27",
+   "sourceCount": 4
   },
   {
    "rank": 10,
-   "title": "Anthropic自研Scion替代git并分享经验",
-   "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-   "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
-   "time": "10-14 02:48",
-   "sourceCount": 3
+   "title": "谷歌 Gemini 4 Argon 从定向开放走向全面上线",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
+   "time": "10-14 09:02",
+   "sourceCount": 8
   }
  ],
  "aihotItems": [
+  {
+   "title": "Gemini 4 Argon 全面开放，作者实测后认为难以撼动 Claude Opus 5.5 和 GPT-6 Astra",
+   "summary": "Google 于10月14日全面开放 Gemini 4 Argon，作者实测后认为其很难冲击 Claude Opus 5.5 和 GPT-6 Astra 的地位。",
+   "reason": "作者实测了新开放模型在编程、写作和产品体验上的真实表现，读者可据此判断是否值得为它订阅付费。",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/e8516i4snh2ut9d6zedoc9jsv",
+   "time": "10-14 09:02",
+   "category": "ai-models"
+  },
+  {
+   "title": "Visual Studio Copilot 与 SSMS 远程代码执行漏洞（CVE-2026-103572）技术分析",
+   "summary": "Johann Rehberger 披露 Visual Studio Copilot 与 SQL Server Management Studio 中的远程代码执行漏洞 CVE-2026-103572，根因是利用文件名末尾多加一个点绕过路径校验，写入 .mcp. 或 settings.VisualStudio. 等受保护配置文件，实现任意命令执行。",
+   "reason": "作者亲述漏洞原理与利用链，读者可学到 Windows 路径规范化缺陷如何绕过 AI 智能体安全检查的可迁移方法。",
+   "source": "Johann Rehberger / Embrace The Red（RSS）",
+   "url": "https://aihot.news/items/o8h7g7pscq0qrlenoadabbb96",
+   "time": "10-14 06:00",
+   "category": "paper"
+  },
+  {
+   "title": "实测Gemini 4 Argon：知识工作强劲但体验糟糕，卡兹克称难撼Claude Opus 5.5与GPT-6 Astra",
+   "summary": "Gemini 4 Argon于10月13日全面开放，Pro会员可在Gemini APP使用，Antigravity需100刀Ultra会员。作者实测认为其知识类专业能力强，Vals Index综合第一（68.9）且单次成本仅15.68美元，但CUA-bench仅4.83%排倒数第二；前端效果不及GPT-6 Astra，额度消耗快，中文写作味道重，整体体验糟糕，不建议订阅Ultra。",
+   "reason": "作者以100刀Ultra会员实测Argon的额度、前端与中文写作表现，并给出与GPT-6 Astra、Claude Opus 5.5的对比结论，可作订阅参考。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/oxaap1c1cvxi9ngybxks1gngi",
+   "time": "10-14 06:56",
+   "category": "opinion"
+  },
+  {
+   "title": "Meta Muse Wonder (Max) 进入 Arena 榜单：WebDev 第15、文本第2",
+   "summary": "Arena 宣布 Meta 的 Muse Wonder (Max) 进入 Code Arena: WebDev 榜单第15名（1651分），与 Kimi K3 (Max) 的 1655 分相差 4 分。",
+   "reason": "榜单给出了 Muse Wonder (Max) 与邻近模型的分差和名次变化，读者可以据此比较它在编码与文本上的实际位置。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/ob6ryetyialrnqhyjusr2s1iz",
+   "time": "10-14 05:27",
+   "category": "ai-models"
+  },
+  {
+   "title": "Character.ai 破产文件显示 AI 商业模式难以为继",
+   "summary": "Character.ai 进入破产程序，法院文件显示其商业模式难以支撑开支。公司 2024 年每月 AI 算力支出 1380 万美元、2025 年为 1000 万美元，订阅收入峰值仅每月 280 万美元，含广告的全部收入峰值 530 万美元；2026 年 1 至 8 月算力支出 5610 万美元，8 月时每月仍亏损约 800-900 万美元。",
+   "reason": "破产文件披露了收入与算力开支的具体数字，让读者能据此衡量二线 AI 公司商业模式的真实成本。",
+   "source": "404 Media（RSS）",
+   "url": "https://aihot.news/items/pjy8fk8cfl1qvwex08y6kdau8",
+   "time": "10-14 04:06",
+   "category": "industry"
+  },
+  {
+   "title": "ComfyUI 上线 NVIDIA VFX 节点，支持视频超分、补帧与 SDR 转 HDR",
+   "summary": "NVIDIA 的 RTX 视频特效模型以自定义节点形式登陆 ComfyUI，模型随节点分发并在本地 RTX GPU 上运行。",
+   "reason": "原文完整给出三个节点的能力参数、推荐串联顺序和 EXR 改进细节，VFX 从业者可据此评估是否接入现有 ComfyUI 工作流。",
+   "source": "Comfy Blog",
+   "url": "https://aihot.news/items/uy1d8e2pcm6sked0p57flawpq",
+   "time": "10-14 03:41",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI 办公室发现窃密录音装置，涉事员工被捕",
+   "summary": "OpenAI 宣布在办公室内发现一个隐蔽的录音装置，利用自家模型分析该设备及其来源，确认是一名员工几天前安放。OpenAI 已将此事移交 FBI，FBI 已迅速逮捕相关人员，调查仍在进行中。OpenAI 表示目前没有迹象显示该员工不当访问或外泄模型权重、源代码或客户数据，该员工已被解雇，并将此案视为 AI 协助应对复杂安全威胁的实例。",
+   "reason": "原文给出事件经过、FBI 处理结果和数据安全排查结论，读者可以据此了解该安全事件的完整脉络。",
+   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+   "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
+   "time": "10-14 03:48",
+   "category": "industry"
+  },
   {
    "title": "Prime Intellect 收购 Moondream，联合创始人加入主导推理与多模态",
    "summary": "Prime Intellect 宣布收购 Moondream，创始人 Vik Korrapati 和 Jay Allen 加入并负责推理业务及视觉、computer use 等多模态模型工作。",
@@ -112,12 +175,12 @@ var WB_DATA = {
    "category": "opinion"
   },
   {
-   "title": "Greg Brockman 转述 XBOW 用 GPT-5.6 Sol 花 6 天和 4 万美元算力拿下 Chrome 全链漏洞赏金",
-   "summary": "Greg Brockman 转述 XBOW 团队借助 OpenAI 的 GPT-5.6 Sol，用 6 天和 40000 美元算力找到 Chrome 关键漏洞，获 Google 2026 年规则下首笔 250000 美元全链漏洞赏金，影响约 10 亿 Windows Chrome 用户。被引用的原文称有情报机构老兵的团队过去需约 6 个月做同类漏洞，作者认为攻防双方发现关键漏洞的成本都在坍缩，防守方可先用这些工具测试自己的代码。",
-   "reason": "原文给出攻破 Chrome 全链漏洞所需的实际天数与算力成本，读者可以据此评估 AI 工具对攻防双方成本结构的影响。",
-   "source": "X：Greg Brockman (@gdb)",
-   "url": "https://aihot.news/items/b2f3h454qou5v2v6y0x1i7xhe",
-   "time": "10-14 01:43",
+   "title": "XBOW 团队借助 OpenAI GPT-5.6 Sol 获 Google Chrome 25 万美元全链漏洞赏金",
+   "summary": "XBOW 团队使用 OpenAI 的 GPT-5.6 Sol 辅助，在 6 天内以 4 万美元算力构建出 Chrome 全链漏洞，获得 Google 25 万美元赏金，这是 Google 第二次就 Chrome 全链漏洞发放赏金，也是 2026 年新规则下的首次。受影响范围为 Windows 上的 Chrome，作者称过去类似漏洞需约 6 个月构建，并提醒用户在出现 Update 按钮时及时重启 Chrome。",
+   "reason": "原文给出赏金金额、6 天构建周期和 4 万美元算力等具体细节，可帮助读者理解 AI 辅助漏洞挖掘成本变化的实际案例。",
+   "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
+   "url": "https://aihot.news/items/ekphiltd4fdsskdlueleul8qa",
+   "time": "10-14 03:15",
    "category": "industry"
   },
   {
@@ -128,83 +191,32 @@ var WB_DATA = {
    "url": "https://aihot.news/items/j0hjfg7ioz2gs0s8msqnafpjj",
    "time": "10-13 08:00",
    "category": "ai-models"
-  },
-  {
-   "title": "Google 用 Gemini 4 Argon 无人值守优化 20 万行 Python 代码库 ADK",
-   "summary": "Google 工程师用 Gemini 4 Argon 在 google/adk-python 上无人值守跑 11 小时，提出 6 项优化、审查后合并 2 项，使长会话内存会话准备时间降低约 40%，包导入加快 21%。",
-   "reason": "作者复盘了让模型无人值守跑通真实大仓库的完整工作流，含被否决的改动和可复用的 .agents/skills 设置方法。",
-   "source": "Google Developers Blog（RSS）",
-   "url": "https://aihot.news/items/z371wogdvjh86jh8s6v6vlrui",
-   "time": "10-13 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "Google DeepMind 的 Gemini 4 Argon 上线 OpenRouter",
-   "summary": "Gemini 4 Argon 已上线 OpenRouter，可通过 Google AI Studio 和 Google Cloud 调用。该模型在 AutomationBench 拿到 51.3%、LVBench 拿到 91.7%，并以 68% 并列 CWE-bench v1 第一； introductory 定价为输入 $2/M、输出 $10/M。试用入口：https://openrouter.ai/google/gemini-4-argon",
-   "reason": "原文给出定价和几项基准成绩，读者可据此评估该模型在 OpenRouter 上的可用性和性价比。",
-   "source": "X：OpenRouter (@OpenRouter)",
-   "url": "https://aihot.news/items/d4oyzg3qte4pt0ywsonolctwf",
-   "time": "10-14 00:26",
-   "category": "ai-products"
-  },
-  {
-   "title": "Google 发布 Gemini 4 Argon 并逐步推送至 Gemini 应用",
-   "summary": "Google Gemini 宣布新前沿模型 Gemini 4 Argon 正在 Gemini 应用中逐步推出，定位是把复杂想法变为现实。作者还预告将以推文串介绍 Gemini 4 Argon 及应用内最新更新如何提升每条提示词的效果。",
-   "reason": "官方宣布前沿模型上线 Gemini 应用，并预告后续应用内更新的详细内容。",
-   "source": "X：Gemini (@GeminiApp)",
-   "url": "https://aihot.news/items/togu0fgnc2t2ghpnzlg61ev4o",
-   "time": "10-14 00:05",
-   "category": "ai-models"
-  },
-  {
-   "title": "Google DeepMind 发布 Gemini 4 Argon 机器人模型，ERQA 基准得分 87%",
-   "summary": "Google DeepMind 发布 Gemini 4 Argon，定位为通用物理推理模型，在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%，超过其他前沿模型。",
-   "reason": "官方发布了在机器人控制、Real2Sim 和自我改进等环节的具体示例，读者可以据此判断它在具身工作流中的实际用法。",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/op2q1wocmlbuvauflpfdb7u0f",
-   "time": "10-14 00:01",
-   "category": "ai-models"
-  },
-  {
-   "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
-   "summary": "Anthropic 发布工程复盘，因 Claude 使日均合并代码量从 2026 年 5 月约 2,500 增至 9 月超 30,000，五个月内自研版本控制系统 Scion 并完全替代 git，同时推出代码评审工具 Antique。",
-   "reason": "Anthropic 自建版本控制系统 Scion 的完整复盘，给出面向智能体规模负载的设计原则、架构细节和实测收益，可迁移到其他大规模仓库场景。",
-   "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-   "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
-   "time": "10-13 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
-   "summary": "Google 发布 Gemini 4 Argon，面向开发者、企业、科学家和消费者全球开放，可经 Gemini API、AI Studio、Google Antigravity。",
-   "reason": "官方发布带来定价、1M token 上下文、基准成绩和多领域落地案例，读者可以据此评估它在工程与科研工作流中的可用性。",
-   "source": "Google Blog：AI（RSS）",
-   "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
-   "time": "10-14 00:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "ElevenLabs AI 重建嗓音助力 Baroness Campbell 在英国上议院发表演讲",
-   "summary": "ElevenLabs 宣布，Baroness Campbell of Surbiton 今日在英国上议院使用由其构建的 AI 重建嗓音发表演讲，为英国议会首次。Baroness 患有脊髓性肌萎缩症影响说话，AI 嗓音复刻了她原声的音调、节奏和音高。ElevenLabs 称其技术已帮助超过 11,000 名因伤病失声者恢复嗓音，并承诺帮助全球 100 万失声人群。",
-   "reason": "由当事方宣布英国上议院首次有议员用 AI 重建嗓音演讲，读者可从中了解语音 AI 在医疗辅助场景的实际落地。",
-   "source": "X：ElevenLabs (@elevenlabs)",
-   "url": "https://aihot.news/items/tggiswcje6mz1ti081jfbro43",
-   "time": "10-13 23:58",
-   "category": "industry"
   }
  ],
  "aiDaily": {
-  "date": "2026-10-13",
-  "url": "https://aihot.news/daily/2026-10-13",
+  "date": "2026-10-14",
+  "url": "https://aihot.news/daily/2026-10-14",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "Meta 发布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 实测智能水平较前代显著提升",
-      "summary": "Meta 发布 Muse Wonder 和 Muse Wonder Full 两款模型，在 Artificial Analysis Intelligence Index v4.3 上分别得 52 和 56 分（max reasoning effort）。",
-      "source": "Artificial Analysis 完整文章（网页）",
-      "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8"
+      "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
+      "summary": "Google 发布 Gemini 4 Argon，面向开发者、企业、科学家和消费者全球开放，可经 Gemini API、AI Studio、Google Antigravity。",
+      "source": "Google Blog：AI（RSS）",
+      "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf"
+     },
+     {
+      "title": "面壁智能开源 MiniCPM-V 4.7，35B-A3B MoE 模型 3GB 内存端侧流畅运行",
+      "summary": "面壁智能联合 OpenBMB 社区于10月13日发布并开源 MiniCPM-V 4.7，包含 35B-A3B 和 1B 两个版本，称其为全球首个可在端侧无损流畅运行的开源 MoE 多模态大模型。",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "url": "https://aihot.news/items/fidy0y9chlgs0puyn96qkmj1b"
+     },
+     {
+      "title": "Liquid AI 发布 LFM2.5-24B-A2B 端侧推理模型",
+      "summary": "Liquid AI 发布开源权重模型 LFM2.5-24B-A2B，总参数 24B、每 token 激活 2B，定位端侧快速智能体。",
+      "source": "Liquid AI 模型与工程博客（网页）",
+      "url": "https://aihot.news/items/j0hjfg7ioz2gs0s8msqnafpjj"
      }
     ]
    },
@@ -212,16 +224,28 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "xAI 推出 The X Subscription 整合 Grok、Grok Bot、Cursor 与 X Premium",
-      "summary": "xAI 推出 The X Subscription 订阅，将 Grok、Grok Bot、Cursor 和 X Premium 合入一个计划，未来几天内向全球用户开放。",
-      "source": "xAI：News（网页）",
-      "url": "https://aihot.news/items/uy4hvoyz7fwtyycpu0p62dudn"
+      "title": "Google DeepMind 的 Gemini 4 Argon 上线 OpenRouter",
+      "summary": "Gemini 4 Argon 已上线 OpenRouter，可通过 Google AI Studio 和 Google Cloud 调用。该模型在 AutomationBench 拿到 51.3%、LVBench 拿到 91.7%，并以 68% 并列 CWE-bench v1 第一； introductory 定价为输入 $2/M、输出 $10/M。试用入口：https://openrouter.ai/google/gemini-4-argon",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "url": "https://aihot.news/items/d4oyzg3qte4pt0ywsonolctwf"
      },
      {
-      "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
-      "summary": "微软宣布明年起将 Maia 芯片家族扩展到多吉瓦级部署，作为自家产品和服务的首选推理系统，并发布 Maia 300，每瓦 token 产出比主流 GPU 系统高 40%。Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7x。",
-      "source": "X：Satya Nadella (@satyanadella)",
-      "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q"
+      "title": "Apple 发布 7 英寸智能音箱 HomeView，售价 299 美元并搭载 Siri AI",
+      "summary": "Apple 发布配备 7 英寸 Liquid Retina 显示屏的 HomeView，集娱乐、FaceTime、家庭监控和语音自动化于一体，标准版与壁挂版均定价 299 美元，11 月 13 日起在美英加澳等市场发售。",
+      "source": "Apple：Newsroom（RSS）",
+      "url": "https://aihot.news/items/kjcq4dywmvs5xijl4emac5o40"
+     },
+     {
+      "title": "NVIDIA 官宣 RTX Spark 软件生态就绪，10 月 16 日笔记本上市",
+      "summary": "NVIDIA 介绍 RTX Spark 平台生态就绪情况，RTX Spark 笔记本将于 10 月 16 日（周五）上市，搭载最高 128GB 统一内存和 1 petaflop AI 算力。",
+      "source": "NVIDIA Blog（RSS）",
+      "url": "https://aihot.news/items/ug7g6psicfobnnft0ebgpyl10"
+     },
+     {
+      "title": "千问发布AI眼镜N1/N1 Pro及首款AI耳夹式耳机并现货开售",
+      "summary": "千问发布三款硬件新品：AI眼镜N1、N1 Pro和AI耳夹式耳机，今日在淘宝、天猫、京东、抖音等平台现货开售，眼镜到手价2218元起，耳机1099元起。",
+      "source": "公众号：千问APP（阿里）",
+      "url": "https://aihot.news/items/bnwd1psqg66c268n4i1mal2pi"
      }
     ]
    },
@@ -229,16 +253,22 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "Epic Games 转向 AI 先行开发模式，与迪士尼合作射击游戏无限期延期",
-      "summary": "据 Bloomberg 报道，Epic Games 在与迪士尼 15 亿美元合作项目中转向 AI 先行开发，由 Anthropic 的 Claude 等模型编写全部代码并指导全部美术，人类开发者负责管理和引导生成内容。",
-      "source": "Ars Technica：AI（RSS）",
-      "url": "https://aihot.news/items/kcwro19vl7dr5jgcjgec7mive"
+      "title": "Character.AI 成立五年后申请 Chapter 11 破产，部分资产以 2000 万美元出售给 Disney",
+      "summary": "Character.AI 已申请 Chapter 11 破产，法院文件显示其资产和负债在 5000 万至 1 亿美元之间，并同意以 2000 万美元向 Disney 出售部分资产及技术非独占永久许可。出售过程预计 11 月底或 12 月初完成，期间平台继续运营，但尚无竞购方，若无买家平台将关停；此前公司因未成年用户诉讼、德州调查等困境，曾尝试 AI 视频生成、社交信息流和微短剧等转型未果。",
+      "source": "TechCrunch：AI（RSS）",
+      "url": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc"
      },
      {
-      "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
-      "summary": "一位 Linux (WSL2) 用户报告，Codex CLI 0.157.0 起打开交互式会话即默认启动持久后台守护进程 codex app-server --managed-daemon，窗口关闭后仍驻留。",
-      "source": "Codex：GitHub Releases（RSS）",
-      "url": "https://aihot.news/items/amjmxvrvj57q7752kgihp9p9q"
+      "title": "OpenAI 办公室发现窃密录音装置，涉事员工被捕",
+      "summary": "OpenAI 宣布在办公室内发现一个隐蔽的录音装置，利用自家模型分析该设备及其来源，确认是一名员工几天前安放。OpenAI 已将此事移交 FBI，FBI 已迅速逮捕相关人员，调查仍在进行中。OpenAI 表示目前没有迹象显示该员工不当访问或外泄模型权重、源代码或客户数据，该员工已被解雇，并将此案视为 AI 协助应对复杂安全威胁的实例。",
+      "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+      "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov"
+     },
+     {
+      "title": "XBOW 团队借助 OpenAI GPT-5.6 Sol 获 Google Chrome 25 万美元全链漏洞赏金",
+      "summary": "XBOW 团队使用 OpenAI 的 GPT-5.6 Sol 辅助，在 6 天内以 4 万美元算力构建出 Chrome 全链漏洞，获得 Google 25 万美元赏金，这是 Google 第二次就 Chrome 全链漏洞发放赏金，也是 2026 年新规则下的首次。受影响范围为 Windows 上的 Chrome，作者称过去类似漏洞需约 6 个月构建，并提醒用户在出现 Update 按钮时及时重启 Chrome。",
+      "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
+      "url": "https://aihot.news/items/ekphiltd4fdsskdlueleul8qa"
      }
     ]
    },
@@ -246,16 +276,10 @@ var WB_DATA = {
     "label": "论文研究",
     "items": [
      {
-      "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
-      "summary": "Anthropic 发文评估小型模型在无数据中心条件下自主复制（ARA）的可行性，作者实验显示 9B 模型可在测试的 9 类硬件中 8 类上跑通推理，30B 及以下模型已能完成复制的多数单步。",
+      "title": "Anthropic 强化针对蒸馏攻击的防御， reasoning token 提取量下降 10 到 100 倍",
+      "summary": "Anthropic 发布博客，介绍其针对 Claude 蒸馏攻击的新防御方法，早期证据显示这些方法使蒸馏者获取的数据减少约 90% 到 99%。",
       "source": "Anthropic：Research（发表成果 · 网页）",
-      "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l"
-     },
-     {
-      "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
-      "summary": "Science 新研究显示，Google DeepMind 的 AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个，其中 2 个悬置 56 年。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/wzxf68r0rchangmvwm48qqhfk"
+      "url": "https://aihot.news/items/lwchujhujmc1tdor61dn39irl"
      }
     ]
    },
@@ -263,28 +287,10 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "Vapi 自研代码审查机器人如何将 PR 合并时间缩短一半",
-      "summary": "Vapi 工程师 Lat Ware 自研 Pedantic Review Bot，使 PR 从开到合并的平均时间从 130 多小时降到 65 小时。机器人会运行测试和小复现来验证发现，分析和发评论分属两个 job，只能评论不能批准或推送；2026 年 9 月 2 日至 10 月 2 日审查了 1,694 个 PR，在 276 个中提出 363 个 blocker 发现。",
-      "source": "Vapi 产品与 Agent 方法",
-      "url": "https://aihot.news/items/byijxcheeait7w4okuw9ebnh2"
-     },
-     {
-      "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
-      "summary": "一篇教程介绍用 Claude Opus 5.5 配合 Claude Code、Blender、Unreal Engine 5 和 Meshy 构建游戏的方法。核心思路是给每个工具分配单一职责：通过 MCP 连接 Blender 和 Meshy，由 Meshy 生成道具和角色、Blender 清理和放置、Unreal 负责光照物理和游戏本身、Opus 在一个对话里调度三者。流程为先让 Opus 头脑风暴 5 个游戏点子再展开，告知 GPU 以便压满画面性能，首个完整构建约花 4 小时和约 19% 的每周 Max plan 用量，之后因素材复用会快很多。",
-      "source": "X：Meshy (@MeshyAI)",
-      "url": "https://aihot.news/items/svvvhr5j2nnywgdw29pso7o49"
-     },
-     {
-      "title": "如何只用自己拥有的文件约束编码智能体",
-      "summary": "Tessl 博客文章介绍用四个可拥有的文件杠杆约束编码智能体：CLAUDE.md 指令、.claude/rules/ 路径级规则、.claude/ 下的能力配置和 .claude/hooks/ 钩子。",
-      "source": "Tessl：产品与工程博客",
-      "url": "https://aihot.news/items/twhuaks920iaqd2y7frq8bgbw"
-     },
-     {
-      "title": "从Brandon Thomas用Claude Opus 5.5开源重写Adobe全家桶看AI逆向一切趋势",
-      "summary": "数字生命卡兹克撰文分析AI驱动逆向工程热潮：开发者Brandon Thomas因不满Adobe订阅规则，用Claude Opus 5.5以Rust逆向重写了Photoshop、Illustrator等7款软件的开源替代品PhotoCraft、VectorCraft等，不到10天单PS项目获4.6万Star。",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "url": "https://aihot.news/items/hvxwaxeyj6i82xv44ef4ce6fz"
+      "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
+      "summary": "Anthropic 发布工程复盘，因 Claude 使日均合并代码量从 2026 年 5 月约 2,500 增至 9 月超 30,000，五个月内自研版本控制系统 Scion 并完全替代 git，同时推出代码评审工具 Antique。",
+      "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+      "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i"
      }
     ]
    }
@@ -628,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-14 03:28",
+   "updateTime": "2026-10-14 11:11",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "或许在某个平行宇宙中，他们的故事是这样展开的.....",
-     "url": "https://www.bilibili.com/video/BV1qPpo6jEqk",
-     "hot": 932548
-    },
-    {
-     "title": "63小时？疯狂就在当下！！面包车直达新疆！赛里木湖！没白活！",
-     "url": "https://www.bilibili.com/video/BV1FBpR6jEz1",
-     "hot": 747342
-    },
-    {
-     "title": "今天的飞拉达不简单啊，上来就是悬崖小飞车！",
-     "url": "https://www.bilibili.com/video/BV14Kpv6vE8p",
-     "hot": 920381
-    },
-    {
-     "title": "苏联版“空中监狱”是什么？【神奇组织55】",
-     "url": "https://www.bilibili.com/video/BV1Cgpd6pEBR",
-     "hot": 1352266
-    },
-    {
-     "title": "在冬夜，一块蛋糕，两个冻人",
-     "url": "https://www.bilibili.com/video/BV1uYWA6DEVV",
-     "hot": 220891
+     "title": "我去当司机大家觉得有搞头嘛！",
+     "url": "https://www.bilibili.com/video/BV1kKWA6uEyr",
+     "hot": 928666
     },
     {
      "title": "再访",
      "url": "https://www.bilibili.com/video/BV149WF6zEw2",
-     "hot": 354525
+     "hot": 729461
     },
     {
-     "title": "拍个小品",
-     "url": "https://www.bilibili.com/video/BV1dhp56oESQ",
-     "hot": 724050
+     "title": "印度排位对局👳🏽绝活天残脚vs丝滑半截山！😱从来没有见过这等招式！",
+     "url": "https://www.bilibili.com/video/BV1ezWw6oETf",
+     "hot": 400559
     },
     {
-     "title": "2026诺贝尔物理学奖，冰立方中微子",
-     "url": "https://www.bilibili.com/video/BV1XWp76FEZR",
-     "hot": 251424
+     "title": "或许在某个平行宇宙中，他们的故事是这样展开的.....",
+     "url": "https://www.bilibili.com/video/BV1qPpo6jEqk",
+     "hot": 1309929
     },
     {
-     "title": "《复联5》前必看！《复联4》后到底发生了啥？",
-     "url": "https://www.bilibili.com/video/BV1xZWw6yEix",
-     "hot": 327244
+     "title": "在冬夜，一块蛋糕，两个冻人",
+     "url": "https://www.bilibili.com/video/BV1uYWA6DEVV",
+     "hot": 372532
     },
     {
-     "title": "【目标是最强共鸣者】第一话 流浪骑士卡提希娅，参上！",
-     "url": "https://www.bilibili.com/video/BV1W8pp6hEHs",
-     "hot": 764395
+     "title": "传奇历史人物志——普朗克",
+     "url": "https://www.bilibili.com/video/BV1EKWc6hEmQ",
+     "hot": 730589
     },
     {
-     "title": "住手 你们不要再摇花手了",
-     "url": "https://www.bilibili.com/video/BV1wQp96mEs7",
-     "hot": 1454574
+     "title": "我问你话呢回答我",
+     "url": "https://www.bilibili.com/video/BV1hrWF6mE1m",
+     "hot": 348628
     },
     {
-     "title": "50块钱可以在熟食店卖那些东西？",
-     "url": "https://www.bilibili.com/video/BV1oBpX6iEMA",
-     "hot": 1875787
+     "title": "睁眼就是豪赌！炒股买房婚恋整容，韩国普通人的人生只能有一种答案？｜地球观察局EP03【视频播客】",
+     "url": "https://www.bilibili.com/video/BV1NGpx66EBh",
+     "hot": 371689
+    },
+    {
+     "title": "苏联版“空中监狱”是什么？【神奇组织55】",
+     "url": "https://www.bilibili.com/video/BV1Cgpd6pEBR",
+     "hot": 1515102
+    },
+    {
+     "title": "皮莱是谁？2026诺贝尔和平奖背后的政治博弈",
+     "url": "https://www.bilibili.com/video/BV1gaWA6HE7S",
+     "hot": 451072
+    },
+    {
+     "title": "当你和百万人一起挤景区【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1F2Wc6PE5X",
+     "hot": 340119
+    },
+    {
+     "title": "曼波：最速降线",
+     "url": "https://www.bilibili.com/video/BV1YepZ6yEYq",
+     "hot": 785289
     }
    ]
   }
@@ -747,28 +753,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "苹果智能家居系列亮相 核心产品HomeView挑战亚马逊和谷歌",
-   "url": "https://finance.sina.com.cn/world/2026-10-13/doc-inivcatx7302024.shtml",
+   "title": "嘀嗒出行发布国庆顺风出行报告：假期场站接驳订单占比升至24.5%，顺风车成大交通的重要补充",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefr8539152.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "比亚迪大汉正式上市：纯电续航1008公里，售价23.59万-27.59万元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-13/doc-inivcauc8696900.shtml",
+   "title": "企业微信与WorkBuddy深度联合发布新版本",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefm7246446.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "STEPX发布首款大模型原生智能体手机STEPX Neo 为“人机共生”而生",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-13/doc-inivcatz7960384.shtml",
+   "title": "徐汇本土AI产品跑出亮眼成绩！商汤小浣熊多项指标位居行业前列",
+   "url": "https://finance.sina.com.cn/wm/2026-10-14/doc-iniveefk0480496.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“各类新云服务商”厂商Prime Intellect收购初创公司 加速推理业务",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-inivcatw0487274.shtml",
+   "title": "星尘智能宣布完成10亿元规模新一轮融资，公司估值达150亿元",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefk0456696.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Applied Intuition获得投资邀约 估值达300亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-inivawmz7335464.shtml",
+   "title": "破晓智能发布全身全模态数据采集系统SeePhys Hub",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefm7225771.shtml",
    "source": "新浪科技"
   }
  ]
