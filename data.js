@@ -1,17 +1,25 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-14 11:11",
+ "updatedAt": "2026-10-14 17:38",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Google 发布 Gemini 4 Argon，仅付费用户可用",
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
-   "time": "10-14 07:54",
-   "sourceCount": 18
+   "time": "10-14 15:39",
+   "sourceCount": 20
   },
   {
    "rank": 2,
+   "title": "OpenAI工程师涉在会议室装窃听装置被捕",
+   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+   "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
+   "time": "10-14 12:21",
+   "sourceCount": 4
+  },
+  {
+   "rank": 3,
    "title": "Meta 发布首批前沿模型 Muse Wonder 系列",
    "source": "Artificial Analysis 完整文章（网页）",
    "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8",
@@ -19,28 +27,20 @@ var WB_DATA = {
    "sourceCount": 17
   },
   {
-   "rank": 3,
-   "title": "OpenAI工程师涉装窃听装置被捕",
-   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
-   "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
-   "time": "10-14 07:54",
-   "sourceCount": 4
+   "rank": 4,
+   "title": "Anthropic自研Scion替换git并分享经验",
+   "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+   "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
+   "time": "10-14 14:23",
+   "sourceCount": 7
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "苹果发布 HomeView 智能家居中枢",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/kjcq4dywmvs5xijl4emac5o40",
    "time": "10-13 22:26",
    "sourceCount": 4
-  },
-  {
-   "rank": 5,
-   "title": "Anthropic自研Scion替换git并分享经验",
-   "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-   "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
-   "time": "10-14 09:49",
-   "sourceCount": 6
   },
   {
    "rank": 6,
@@ -175,12 +175,12 @@ var WB_DATA = {
    "category": "opinion"
   },
   {
-   "title": "XBOW 团队借助 OpenAI GPT-5.6 Sol 获 Google Chrome 25 万美元全链漏洞赏金",
-   "summary": "XBOW 团队使用 OpenAI 的 GPT-5.6 Sol 辅助，在 6 天内以 4 万美元算力构建出 Chrome 全链漏洞，获得 Google 25 万美元赏金，这是 Google 第二次就 Chrome 全链漏洞发放赏金，也是 2026 年新规则下的首次。受影响范围为 Windows 上的 Chrome，作者称过去类似漏洞需约 6 个月构建，并提醒用户在出现 Update 按钮时及时重启 Chrome。",
-   "reason": "原文给出赏金金额、6 天构建周期和 4 万美元算力等具体细节，可帮助读者理解 AI 辅助漏洞挖掘成本变化的实际案例。",
-   "source": "X：Vaibhav Srivastav（OpenAI）(@reach_vb)",
-   "url": "https://aihot.news/items/ekphiltd4fdsskdlueleul8qa",
-   "time": "10-14 03:15",
+   "title": "Xbow 用 GPT-5.6 挖出 Chrome 三个漏洞，获 Google 25 万美元全链奖励",
+   "summary": "Xbow 工程师 Brendan Dolan-Gavitt 用 OpenAI 的 gpt-5.6-sol 分析 Chrome 源码，历时六天、花费约 4 万美元算力，找到三个独立漏洞组成漏洞链，使标签页内普通 JavaScript 代码穿越两个防护边界、逃出所有沙箱。",
+   "reason": "原文给出算力成本、人工分工和漏洞链细节，读者可以据此评估 AI 智能体在真实漏洞挖掘中的实际投入产出。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/w0kr5nvs73elhfd23vj0vm8hi",
+   "time": "10-14 10:58",
    "category": "industry"
   },
   {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-14 11:11",
+   "updateTime": "2026-10-14 17:38",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "我去当司机大家觉得有搞头嘛！",
-     "url": "https://www.bilibili.com/video/BV1kKWA6uEyr",
-     "hot": 928666
+     "title": "【萌黄一槽】是谁“电眼逼人”？迪鲁达全技能爆料！",
+     "url": "https://www.bilibili.com/video/BV1phpC6nEjG",
+     "hot": 257792
     },
     {
-     "title": "再访",
-     "url": "https://www.bilibili.com/video/BV149WF6zEw2",
-     "hot": 729461
+     "title": "《明日方舟：终末地》干员叙事 [祀：洒扫庭除]",
+     "url": "https://www.bilibili.com/video/BV1fspq6cEty",
+     "hot": 900748
     },
     {
      "title": "印度排位对局👳🏽绝活天残脚vs丝滑半截山！😱从来没有见过这等招式！",
      "url": "https://www.bilibili.com/video/BV1ezWw6oETf",
-     "hot": 400559
+     "hot": 1016125
     },
     {
-     "title": "或许在某个平行宇宙中，他们的故事是这样展开的.....",
-     "url": "https://www.bilibili.com/video/BV1qPpo6jEqk",
-     "hot": 1309929
+     "title": "2026全球总决赛LPL赛区出征片《风起今朝》",
+     "url": "https://www.bilibili.com/video/BV132pr6aEXS",
+     "hot": 353513
     },
     {
-     "title": "在冬夜，一块蛋糕，两个冻人",
-     "url": "https://www.bilibili.com/video/BV1uYWA6DEVV",
-     "hot": 372532
+     "title": "【亚某爆料时间】王者十一周年限定盾山传说皮限时活动免费换",
+     "url": "https://www.bilibili.com/video/BV1CUpy6oEiY",
+     "hot": 364207
     },
     {
-     "title": "传奇历史人物志——普朗克",
-     "url": "https://www.bilibili.com/video/BV1EKWc6hEmQ",
-     "hot": 730589
+     "title": "《异环》明音凛角色PV丨Letters to me",
+     "url": "https://www.bilibili.com/video/BV1hJp469Eo4",
+     "hot": 1066361
     },
     {
-     "title": "我问你话呢回答我",
-     "url": "https://www.bilibili.com/video/BV1hrWF6mE1m",
-     "hot": 348628
+     "title": "原来502胶水是这么来的！致敬伟大的科研人员！",
+     "url": "https://www.bilibili.com/video/BV1mRWw62ErA",
+     "hot": 636764
+    },
+    {
+     "title": "“这波秒开仙人，直接把六小龄童看呆了！”",
+     "url": "https://www.bilibili.com/video/BV1Fspj66E66",
+     "hot": 1404208
     },
     {
      "title": "睁眼就是豪赌！炒股买房婚恋整容，韩国普通人的人生只能有一种答案？｜地球观察局EP03【视频播客】",
      "url": "https://www.bilibili.com/video/BV1NGpx66EBh",
-     "hot": 371689
+     "hot": 599557
     },
     {
-     "title": "苏联版“空中监狱”是什么？【神奇组织55】",
-     "url": "https://www.bilibili.com/video/BV1Cgpd6pEBR",
-     "hot": 1515102
+     "title": "再访",
+     "url": "https://www.bilibili.com/video/BV149WF6zEw2",
+     "hot": 1161830
     },
     {
-     "title": "皮莱是谁？2026诺贝尔和平奖背后的政治博弈",
-     "url": "https://www.bilibili.com/video/BV1gaWA6HE7S",
-     "hot": 451072
+     "title": "我去当司机大家觉得有搞头嘛！",
+     "url": "https://www.bilibili.com/video/BV1kKWA6uEyr",
+     "hot": 1744791
     },
     {
-     "title": "当你和百万人一起挤景区【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1F2Wc6PE5X",
-     "hot": 340119
-    },
-    {
-     "title": "曼波：最速降线",
-     "url": "https://www.bilibili.com/video/BV1YepZ6yEYq",
-     "hot": 785289
+     "title": "在冬夜，一块蛋糕，两个冻人",
+     "url": "https://www.bilibili.com/video/BV1uYWA6DEVV",
+     "hot": 583830
     }
    ]
   }
@@ -718,13 +718,13 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "宁王的资本局  神似英伟达",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-10-13/doc-iniuzqsm5110631.shtml",
+   "title": "AI短剧不烧心，烧的是短剧公司的钱",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivekps4417270.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "刚刚，Meta最强旗舰多项屠榜！智能水平仅落后Opus 5.5两分",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-10-13/doc-iniuzqsq0351978.shtml",
+   "title": "大厂醒悟了，卷模型不如卖芯片",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-10-14/doc-iniveqvq4545543.shtml",
    "source": "新浪科技"
   },
   {
@@ -733,48 +733,48 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "谷歌开源「全模态六边形战士」！7.4 亿参数，手机断网照样跑",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-10-12/doc-iniuxmtm5409859.shtml",
+   "title": "谷歌重回前沿模型竞争，Gemini4 Argon能打吗？",
+   "url": "https://finance.sina.com.cn/stock/t/2026-10-14/doc-inivekpm7815829.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "刚刚，Meta最强旗舰碾压GPT-6和Opus，一夜杀回世界前三",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-13/doc-iniuzqst8206217.shtml",
+   "title": "微信上线“绿泡泡短剧”：以小程序形态嵌入微信，剧集全部免费观看",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefw1227612.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "6个月引爆重大AI灾难！OpenAI与Anthropic秘密推演「末日第二天」",
-   "url": "https://finance.sina.com.cn/wm/2026-10-12/doc-iniuxmtr7186144.shtml",
+   "title": "黄仁勋回忆中国之行：吃过的餐馆都拿我当“代言人”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-iniveqvq4409153.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "老内存涨疯了！DDR4合约价反超DDR5：三个月飙升24%",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-10-13/doc-iniuzuyp7204627.shtml",
+   "title": "乌克兰在俄罗斯袭击期间因星链限制和情报缺口而措手不及",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-iniveqvq4551880.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "嘀嗒出行发布国庆顺风出行报告：假期场站接驳订单占比升至24.5%，顺风车成大交通的重要补充",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefr8539152.shtml",
+   "title": "宝马集团董事长聂科维：坚定支持开放市场和自由贸易，唯有公平竞争才能推动技术进步",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-iniveqvm8549709.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "企业微信与WorkBuddy深度联合发布新版本",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefm7246446.shtml",
+   "title": "铭芯启睿完成首款高密度、大容量1T4R 1Gb RRAM芯片流片，正在推进验证",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-iniveqvq4538991.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "徐汇本土AI产品跑出亮眼成绩！商汤小浣熊多项指标位居行业前列",
-   "url": "https://finance.sina.com.cn/wm/2026-10-14/doc-iniveefk0480496.shtml",
+   "title": "当逻辑折叠重构SoC：麒麟9050系列，跳出摩尔赛道的新答案",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-14/doc-iniveqvi7809494.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "星尘智能宣布完成10亿元规模新一轮融资，公司估值达150亿元",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefk0456696.shtml",
+   "title": "德国因北溪破坏事件将乌克兰前军官推上被告席",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-iniveqvq4498427.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "破晓智能发布全身全模态数据采集系统SeePhys Hub",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-14/doc-iniveefm7225771.shtml",
+   "title": "阿斯麦称AI需求超过供应还将持续两年",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-iniveqvi7785652.shtml",
    "source": "新浪科技"
   }
  ]
