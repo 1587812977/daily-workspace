@@ -1,22 +1,22 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-14 17:38",
+ "updatedAt": "2026-10-15 01:30",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Google 发布 Gemini 4 Argon，仅付费用户可用",
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
-   "time": "10-14 15:39",
-   "sourceCount": 20
+   "time": "10-15 01:22",
+   "sourceCount": 21
   },
   {
    "rank": 2,
    "title": "OpenAI工程师涉在会议室装窃听装置被捕",
    "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
    "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
-   "time": "10-14 12:21",
-   "sourceCount": 4
+   "time": "10-14 20:37",
+   "sourceCount": 5
   },
   {
    "rank": 3,
@@ -24,11 +24,11 @@ var WB_DATA = {
    "source": "Artificial Analysis 完整文章（网页）",
    "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8",
    "time": "10-14 06:53",
-   "sourceCount": 17
+   "sourceCount": 11
   },
   {
    "rank": 4,
-   "title": "Anthropic自研Scion替换git并分享经验",
+   "title": "Anthropic 自研 Scion 替换 git 并分享经验",
    "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
    "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
    "time": "10-14 14:23",
@@ -60,30 +60,66 @@ var WB_DATA = {
   },
   {
    "rank": 8,
-   "title": "微软发布 Maia 300，2027 年扩至多吉瓦级部署",
-   "source": "X：Satya Nadella (@satyanadella)",
-   "url": "https://aihot.news/items/zqlqer8tnl7ejg2ow3xoq7b9q",
-   "time": "10-12 23:24",
+   "title": "Anthropic研究：小模型或可在IoT设备自我复制",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l",
+   "time": "10-14 23:19",
    "sourceCount": 6
   },
   {
    "rank": 9,
-   "title": "Anthropic研究：小模型或可在IoT设备自我复制",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/emc0djmqlomn6b5whge285x7l",
-   "time": "10-14 10:27",
-   "sourceCount": 4
-  },
-  {
-   "rank": 10,
    "title": "谷歌 Gemini 4 Argon 从定向开放走向全面上线",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
    "time": "10-14 09:02",
-   "sourceCount": 8
+   "sourceCount": 7
+  },
+  {
+   "rank": 10,
+   "title": "Google Play 支持私人 AI 生成应用直接运行",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/nelk76tb1b6ah25bcwabilx1o",
+   "time": "10-14 21:01",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
+  {
+   "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查",
+   "summary": "Google 公开发布智能体审阅系统 Deep Review，可对复杂技术文档提供反馈与验证，最初面向计算机科学论文，现已扩展到法律、金融等领域。",
+   "reason": "原文介绍了系统由来、四阶段智能体审阅流程和公开使用条件，读者可以了解其适用范围与接入方式。",
+   "source": "Google Research：Blog（网页）",
+   "url": "https://aihot.news/items/enqtz3wtz6khvf0m44z5a5jaz",
+   "time": "10-14 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "MIT团队用机器学习修正误差，将两到六周天气预报准确率翻倍",
+   "summary": "MIT研究人员团队在Nature发表论文，提出一个机器学习后处理层，通过从历史数据中学习现有预报模型的错误并修正其输出，将两周到六周范围的预报准确率翻倍。该模型在ECMWF的季节间预报竞赛中获第一名，首次在该时间范围内稳定超过气候学平均值，并显著改善洪水、寒潮等极端天气事件的预测；模型开源、低成本、可附加于任意预报模型，肯尼亚气象部门已接洽用于改进季风季预报。",
+   "reason": "原文介绍了Nature论文的方法与实测结果，读者可了解AI误差修正如何让两周到六周的天气预报首次稳定超过气候平均值。",
+   "source": "MIT News（RSS）",
+   "url": "https://aihot.news/items/pqpqgxyiu4qyu86fbljd726v9",
+   "time": "10-14 23:00",
+   "category": "paper"
+  },
+  {
+   "title": "Modal 年化收入突破 10 亿美元并完成 7.5 亿美元 D 轮融资",
+   "summary": "Modal 宣布年化收入突破 10 亿美元，并完成 7.5 亿美元 D 轮融资，投后估值 157.5 亿美元，由 Accel 领投，Kleiner Perkins 及现有投资方跟投。",
+   "reason": "作者作为当事方给出融资规模、估值和业务数据，并说明自研底层技术栈与新产品线，读者可据此了解 Modal 的增长轨迹。",
+   "source": "Modal 官方工程博客（RSS）",
+   "url": "https://aihot.news/items/x5umoaa0xhd8n76uysjppz2fa",
+   "time": "10-14 08:00",
+   "category": "industry"
+  },
+  {
+   "title": "Lovable 推出增长工具，从同一聊天窗口帮你获客投广告和做 SEO",
+   "summary": "Lovable 推出增长工具，在原有建应用聊天窗口中提供增长计划、广告投放和 SEO 能力。用户设定目标后，Lovable 依据应用上下文生成可执行计划；可连接 Google Ads 和 Meta 账号在 Google。",
+   "reason": "官方介绍了增长功能的实际运作方式，包括广告投放前的审批机制和不加价的计费方式，读者可据此评估对自有产品的适用性。",
+   "source": "Lovable Blog",
+   "url": "https://aihot.news/items/ooiqiluy56g21ir2u4phxjqu7",
+   "time": "10-14 20:50",
+   "category": "ai-products"
+  },
   {
    "title": "Gemini 4 Argon 全面开放，作者实测后认为难以撼动 Claude Opus 5.5 和 GPT-6 Astra",
    "summary": "Google 于10月14日全面开放 Gemini 4 Argon，作者实测后认为其很难冲击 Claude Opus 5.5 和 GPT-6 Astra 的地位。",
@@ -155,42 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/rruqd7cz78jq6l889kjp56jlz",
    "time": "10-13 00:00",
    "category": "industry"
-  },
-  {
-   "title": "Gemini 4 Argon 正式 GA，智能指数追平 GPT-6 Astra，Cost per Task 仅为 60%",
-   "summary": "Gemini 4 Argon 正式进入 GA，在 Artificial Analysis Intelligence Index 上与 GPT-6 Astra 排名持平，Cost per Task 为后者的 60%。",
-   "reason": "原文给出 Gemini 4 Argon 与 GPT-6 Astra 的智能指数对比及折扣期定价细节，可用于评估模型的性价比选择。",
-   "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/w2fkb8pssvuc0mtttxnufchc9",
-   "time": "10-14 02:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "Pydantic AI 创始人 Samuel Colvin：图库是个错误，代码本身就是图",
-   "summary": "Pydantic AI 创始人 Samuel Colvin 发文认为图库是个错误，代码本身就是图，通过类型提示获得类型安全、通过 async 获得并行执行。他提出图 API 存在类似 CAP 定理的取舍，类型安全、并行与快照三者不可兼得，并以此解释为何在 pydantic-graph V2 移除持久化、将持久执行交给 Temporal。",
-   "reason": "作者以自建图库的亲历论证代码即图，并给出类型安全、并行与快照三者不可兼得的具体分析。",
-   "source": "Pydantic AI 官方文章",
-   "url": "https://aihot.news/items/tmj0de0vmzpezz0o5j67nqskj",
-   "time": "10-13 17:00",
-   "category": "opinion"
-  },
-  {
-   "title": "Xbow 用 GPT-5.6 挖出 Chrome 三个漏洞，获 Google 25 万美元全链奖励",
-   "summary": "Xbow 工程师 Brendan Dolan-Gavitt 用 OpenAI 的 gpt-5.6-sol 分析 Chrome 源码，历时六天、花费约 4 万美元算力，找到三个独立漏洞组成漏洞链，使标签页内普通 JavaScript 代码穿越两个防护边界、逃出所有沙箱。",
-   "reason": "原文给出算力成本、人工分工和漏洞链细节，读者可以据此评估 AI 智能体在真实漏洞挖掘中的实际投入产出。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/w0kr5nvs73elhfd23vj0vm8hi",
-   "time": "10-14 10:58",
-   "category": "industry"
-  },
-  {
-   "title": "Liquid AI 发布 LFM2.5-24B-A2B 端侧推理模型",
-   "summary": "Liquid AI 发布开源权重模型 LFM2.5-24B-A2B，总参数 24B、每 token 激活 2B，定位端侧快速智能体。",
-   "reason": "原文给出完整基准对比、端侧推理速度和开源权重入口，读者可据此评估该模型在本地智能体场景的适用性。",
-   "source": "Liquid AI 模型与工程博客（网页）",
-   "url": "https://aihot.news/items/j0hjfg7ioz2gs0s8msqnafpjj",
-   "time": "10-13 08:00",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-14 17:38",
+   "updateTime": "2026-10-15 01:31",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【萌黄一槽】是谁“电眼逼人”？迪鲁达全技能爆料！",
-     "url": "https://www.bilibili.com/video/BV1phpC6nEjG",
-     "hot": 257792
-    },
-    {
-     "title": "《明日方舟：终末地》干员叙事 [祀：洒扫庭除]",
-     "url": "https://www.bilibili.com/video/BV1fspq6cEty",
-     "hot": 900748
-    },
-    {
-     "title": "印度排位对局👳🏽绝活天残脚vs丝滑半截山！😱从来没有见过这等招式！",
-     "url": "https://www.bilibili.com/video/BV1ezWw6oETf",
-     "hot": 1016125
-    },
-    {
-     "title": "2026全球总决赛LPL赛区出征片《风起今朝》",
-     "url": "https://www.bilibili.com/video/BV132pr6aEXS",
-     "hot": 353513
-    },
-    {
-     "title": "【亚某爆料时间】王者十一周年限定盾山传说皮限时活动免费换",
-     "url": "https://www.bilibili.com/video/BV1CUpy6oEiY",
-     "hot": 364207
-    },
-    {
-     "title": "《异环》明音凛角色PV丨Letters to me",
-     "url": "https://www.bilibili.com/video/BV1hJp469Eo4",
-     "hot": 1066361
+     "title": "在中国最年轻的县城开店！我挣到了人生第一桶金？",
+     "url": "https://www.bilibili.com/video/BV1J4pz6qE1o",
+     "hot": 416666
     },
     {
      "title": "原来502胶水是这么来的！致敬伟大的科研人员！",
      "url": "https://www.bilibili.com/video/BV1mRWw62ErA",
-     "hot": 636764
+     "hot": 1166964
     },
     {
-     "title": "“这波秒开仙人，直接把六小龄童看呆了！”",
-     "url": "https://www.bilibili.com/video/BV1Fspj66E66",
-     "hot": 1404208
+     "title": "【Karsa】终于跟RNG老队友重逢了🥺｜上海VLOG EP2",
+     "url": "https://www.bilibili.com/video/BV1E4pq6fE8A",
+     "hot": 347105
     },
     {
-     "title": "睁眼就是豪赌！炒股买房婚恋整容，韩国普通人的人生只能有一种答案？｜地球观察局EP03【视频播客】",
-     "url": "https://www.bilibili.com/video/BV1NGpx66EBh",
-     "hot": 599557
+     "title": "【Re:从零开始的AI学习】第一季总集篇｜从入门到用好 AI",
+     "url": "https://www.bilibili.com/video/BV1VZWc6dECG",
+     "hot": 330832
     },
     {
-     "title": "再访",
-     "url": "https://www.bilibili.com/video/BV149WF6zEw2",
-     "hot": 1161830
+     "title": "这下可好了！收养一只咪，迎来一大群！",
+     "url": "https://www.bilibili.com/video/BV1cApB6NEPq",
+     "hot": 562221
     },
     {
-     "title": "我去当司机大家觉得有搞头嘛！",
-     "url": "https://www.bilibili.com/video/BV1kKWA6uEyr",
-     "hot": 1744791
+     "title": "2026全球总决赛LPL赛区出征片《风起今朝》",
+     "url": "https://www.bilibili.com/video/BV132pr6aEXS",
+     "hot": 922831
     },
     {
-     "title": "在冬夜，一块蛋糕，两个冻人",
-     "url": "https://www.bilibili.com/video/BV1uYWA6DEVV",
-     "hot": 583830
+     "title": "大庆，一座孤独的城市",
+     "url": "https://www.bilibili.com/video/BV1Pupy6sExt",
+     "hot": 361305
+    },
+    {
+     "title": "77天1400公里独自横穿羌塘，杨柳松与北方的空地",
+     "url": "https://www.bilibili.com/video/BV14JpC6ZE3U",
+     "hot": 419240
+    },
+    {
+     "title": "印度排位对局👳🏽绝活天残脚vs丝滑半截山！😱从来没有见过这等招式！",
+     "url": "https://www.bilibili.com/video/BV1ezWw6oETf",
+     "hot": 1735225
+    },
+    {
+     "title": "能玩这游戏十年的人做什么都会成功的",
+     "url": "https://www.bilibili.com/video/BV1tvp96tEZN",
+     "hot": 1711920
+    },
+    {
+     "title": "咦？2045年的霍格沃茨，已经是一所国际魔法学校了？｜广东插班生｜第一章",
+     "url": "https://www.bilibili.com/video/BV1VpWA6tE8P",
+     "hot": 166916
+    },
+    {
+     "title": "《异环》明音凛角色PV丨Letters to me",
+     "url": "https://www.bilibili.com/video/BV1hJp469Eo4",
+     "hot": 1401024
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "乌克兰在俄罗斯袭击期间因星链限制和情报缺口而措手不及",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-iniveqvq4551880.shtml",
+   "title": "网易自研游戏《燕云十六声》11月下旬率先接入英伟达DLSS 5技术",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivffth4558073.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "宝马集团董事长聂科维：坚定支持开放市场和自由贸易，唯有公平竞争才能推动技术进步",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-iniveqvm8549709.shtml",
+   "title": "阅文短剧《首辅娇娘》国庆档霸榜，第二季预约量突破300万",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivffth4548954.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "铭芯启睿完成首款高密度、大容量1T4R 1Gb RRAM芯片流片，正在推进验证",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-iniveqvq4538991.shtml",
+   "title": "美团发布2026北极星医美榜，全国181家机构、269位医生上榜",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivffth4545402.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "当逻辑折叠重构SoC：麒麟9050系列，跳出摩尔赛道的新答案",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-14/doc-iniveqvi7809494.shtml",
+   "title": "155款应用拒绝接入豆包手机助手，覆盖腾讯、阿里、快手、美团系",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivffth4457105.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "德国因北溪破坏事件将乌克兰前军官推上被告席",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-iniveqvq4498427.shtml",
+   "title": "美国9月实际平均周薪同比下降0.1%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-inivezmn1310368.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "阿斯麦称AI需求超过供应还将持续两年",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-iniveqvi7785652.shtml",
+   "title": "贾跃亭：FFR正式合并FF机器人并独立上市，完成1000万美元融资",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivezmc7676000.shtml",
    "source": "新浪科技"
   }
  ]
