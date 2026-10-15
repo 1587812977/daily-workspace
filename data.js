@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-15 10:50",
+ "updatedAt": "2026-10-15 17:17",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,10 +12,10 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "OpenAI工程师涉在会议室装录音设备被捕",
+   "title": "OpenAI工程师涉装录音设备被捕",
    "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
    "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
-   "time": "10-15 03:07",
+   "time": "10-15 16:45",
    "sourceCount": 6
   },
   {
@@ -28,6 +28,30 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "DeepSeek网页与API中断近5小时后恢复",
+   "source": "X：邵猛 (@shao__meng)",
+   "url": "https://aihot.news/items/vo248l7ock6kltan370y7gmcd",
+   "time": "10-15 15:05",
+   "sourceCount": 2
+  },
+  {
+   "rank": 5,
+   "title": "八州起诉OpenAI称ChatGPT对儿童不安全",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/v5sbitu4hw1bozz0nlopcl3t8",
+   "time": "10-15 07:39",
+   "sourceCount": 2
+  },
+  {
+   "rank": 6,
+   "title": "Anthropic收入增速被指放缓，Q3约168亿美元",
+   "source": "X：Oran Ge (@oran_ge)",
+   "url": "https://aihot.news/items/m3g8ouj0aocvboaot9bd2uta6",
+   "time": "10-15 13:13",
+   "sourceCount": 1
+  },
+  {
+   "rank": 7,
    "title": "苹果发布 HomeView 智能家居中枢",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/kjcq4dywmvs5xijl4emac5o40",
@@ -35,7 +59,7 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 5,
+   "rank": 8,
    "title": "苹果诉OpenAI窃密，法官令OpenAI交招聘材料",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/g69dhqcydsst57wd512xudr1d",
@@ -43,47 +67,77 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 6,
+   "rank": 9,
+   "title": "xAI 发布 Grok Voice 3.0，登顶语音评测榜",
+   "source": "xAI：News（网页）",
+   "url": "https://aihot.news/items/qld0z3p2gztpolbmviizsm66u",
+   "time": "10-15 13:18",
+   "sourceCount": 6
+  },
+  {
+   "rank": 10,
    "title": "Meta 发布首批前沿模型 Muse Wonder 系列",
    "source": "Artificial Analysis 完整文章（网页）",
    "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8",
    "time": "10-15 07:46",
    "sourceCount": 3
-  },
-  {
-   "rank": 7,
-   "title": "Character.AI申请破产，迪士尼2000万美元牵头竞购",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc",
-   "time": "10-15 02:47",
-   "sourceCount": 7
-  },
-  {
-   "rank": 8,
-   "title": "xAI 发布 Grok Voice 3.0 语音模型",
-   "source": "xAI：News（网页）",
-   "url": "https://aihot.news/items/qld0z3p2gztpolbmviizsm66u",
-   "time": "10-15 07:35",
-   "sourceCount": 5
-  },
-  {
-   "rank": 9,
-   "title": "谷歌 Gemini 4 Argon 从定向开放走向全面上线",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/uob3jvsb97uh5achwaggjrhqh",
-   "time": "10-15 01:51",
-   "sourceCount": 8
-  },
-  {
-   "rank": 10,
-   "title": "Epic 转向 AI 优先开发，Disney 游戏延期",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.news/items/kcwro19vl7dr5jgcjgec7mive",
-   "time": "10-15 05:15",
-   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "Payload 集成 Figma Make，支持在 Figma 内构建、托管和管理数据驱动网站",
+   "summary": "Figma 宣布开源内容框架 Payload 集成到 Figma Make，用提示词创建应用时自动配套数据库、文件存储、用户登录和管理面板。Payload 加入 Figma 一年内下载量增长 6x，成为 NPM 上增长最快的开源 CMS；面向所有计划开放，托管基础设施目前处于 beta 且免费，定价将在生效前公布。",
+   "reason": "原文交代了 Payload 集成到 Figma Make 后的后端能力、托管现状和开放计划，读者可据此判断对建站工作流的改变。",
+   "source": "Figma AI / Agent / Make",
+   "url": "https://aihot.news/items/f9mfexmd1udr4ehzn5t6pawi5",
+   "time": "10-15 12:50",
+   "category": "ai-products"
+  },
+  {
+   "title": "卡兹克实测开源Skill Anatomy，一句话让AI生成原理科普视频",
+   "summary": "作者卡兹克分享实测开源Skill Anatomy（GitHub：https://github.com/wheresryan22/anatomy/tree/main），它能把抽象原理做成可交互的机械模型动画，在其基础上还能让AI一轮直出带讲解配音的科普视频。",
+   "reason": "作者实测开源Skill Anatomy并给出成本、耗时和适用模型的数字，可帮读者判断是否值得装来生成科普视频。",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/kg6bx3goagkn4k8kt7jl9lqgd",
+   "time": "10-15 12:24",
+   "category": "tip"
+  },
+  {
+   "title": "阶跃星辰开放 Step 5 Preview 权重并发布技术博客",
+   "summary": "阶跃星辰正式开放 Step 5 Preview 模型权重，提供 BF16 与 FP8 版本，已上线 Hugging Face 和 ModelScope。",
+   "reason": "官方开放权重的同一天给出架构与训练细节，开发者可据此评估部署成本与长程 Agent 任务的适配性。",
+   "source": "公众号：阶跃星辰（Step）",
+   "url": "https://aihot.news/items/k8xyrz2we9s3o7wcn9sdzmvgi",
+   "time": "10-15 11:02",
+   "category": "ai-models"
+  },
+  {
+   "title": "自媒体作者实测开源 Skill Anatomy：一句话让 AI 生成原理科普动画和讲解视频",
+   "summary": "作者数字生命卡兹克分享开源 Skill Anatomy，其理念是\"物体本身，就是解释\"，可将抽象原理做成可交互的机械模型动画，还能在其上生成带讲解配音的科普视频。",
+   "reason": "作者实测了开源 Anatomy Skill 生成原理科普视频的效果，还给出额度消耗、耗时和模型配置等一手数据，方便读者评估是否上手。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/alrar23ypkk6umkz50eirp35h",
+   "time": "10-15 08:26",
+   "category": "tip"
+  },
+  {
+   "title": "八州总检察长起诉 OpenAI 指控 ChatGPT 诱导青少年自伤",
+   "summary": "八个州的总检察长周三分别在州法院起诉 OpenAI，指控 ChatGPT 强化用户妄想、提供危险医疗建议并协助策划暴力行为。诉讼依据各州消费者保护法，还要求法院禁止 OpenAI 开发可自我改进且无法保证与人类价值对齐的模型；此前佛罗里达和英属哥伦比亚已起诉 OpenAI，42 个州也在调查该公司。",
+   "reason": "文章梳理了八个州诉讼的起诉路径和 Meta 案先例，读者可以据此理解平台设计责任理论如何扩展到 AI 产品。",
+   "source": "Platformer（热点 RSS）",
+   "url": "https://aihot.news/items/trizfjs72gs1tbggnxydmvfvm",
+   "time": "10-15 08:52",
+   "category": "industry"
+  },
+  {
+   "title": "昆仑万维发布并开源单张 RTX 5090 实时运行的视频大模型游戏 Matrix-Game 4.0",
+   "summary": "昆仑万维于2026年10月15日发布 Matrix-Game 4.0，称其为第一款运行在单张消费级显卡上的视频大模型游戏，并同步开源。",
+   "reason": "原文给出具体硬指标与三模块架构，还对比了同类方案的延迟和算力门槛，读者可据此评估这条实时世界模型路线的落地价值。",
+   "source": "公众号：昆仑万维（天工）",
+   "url": "https://aihot.news/items/eg7f0ohfzuyjux9ndx2ggk72s",
+   "time": "10-15 08:00",
+   "category": "ai-models"
+  },
   {
    "title": "Databricks 讲解如何在 AI Runtime 上将 Qwen 3.8 27B 微调时间缩短 6 倍",
    "summary": "Databricks 演示通过系统性性能优化，将 Qwen 3.8 27B 在 AI Runtime 上的微调时间从 7 小时 44 分钟降至 1 小时 17 分钟，提速 6 倍。",
@@ -94,9 +148,9 @@ var WB_DATA = {
    "category": "tip"
   },
   {
-   "title": "OpenAI 团队分享如何用 GPT-6 系列模型维护大型代码库",
-   "summary": "OpenAI Core Experimentation 团队发文介绍用 GPT-6 Astra 和 GPT-6.1 Sol 配合 Codex 做代码维护，包括清理无用代码和陈旧实验、修复 flaky 测试等。",
-   "reason": "OpenAI 团队亲述用 GPT-6 系列在 Codex 里清理死代码和陈旧实验，附带 Prompt 思路和成本对比数据，方法可直接迁移到自己的代码库。",
+   "title": "OpenAI 工程师分享用 GPT-6 系列模型清理代码库的实践与提示词",
+   "summary": "OpenAI Core Experimentation 团队工程师分享用 GPT-6 Astra 和 GPT-6.1 Sol 在 Codex 中做代码维护的实践，团队已合并超过 1,400 个维护 PR，删除逾 80 万行代码。",
+   "reason": "作者以一手实践给出可直接复用的 Codex 提示词和模型成本对比，读者可按小任务起步迁移到自己的代码库维护。",
    "source": "OpenAI Developers：Blog（网页）",
    "url": "https://aihot.news/items/wn2lwzshkg8gt2sbjuj1qxd8y",
    "time": "10-14 15:00",
@@ -137,60 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/whbmvotra7659u98jmj00oegi",
    "time": "10-15 05:36",
    "category": "tip"
-  },
-  {
-   "title": "美国 8 州起诉 OpenAI，指控 ChatGPT 指导青少年自伤或伤害他人",
-   "summary": "当地时间 14 日，美国 8 个州的总检察长分别在州法院起诉 OpenAI，指控 ChatGPT 指导包括青少年在内的用户伤害自己或他人，并刻意迎合用户以获取信任。",
-   "reason": "诉讼细节和法院诉求都有具体内容，读者可以了解各州对 ChatGPT 安全性的指控重点和可能的产品影响。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/v5sbitu4hw1bozz0nlopcl3t8",
-   "time": "10-15 07:39",
-   "category": "industry"
-  },
-  {
-   "title": "Meta 的 Muse Wonder (Max) 以 +6.4% 净提升进入 Agent Arena 第12名",
-   "summary": "Arena 发布基于超过 5000 次真实智能体会话的评测结果，Meta 的 Muse Wonder (Max) 进入 Agent Arena 第12名，净提升 +6.4%，比 Muse Spark 1.3 (Max) 高 +2.8 分并上升四位。",
-   "reason": "原文基于5000多个真实智能体会话给出排名和成本对比，读者可据此衡量 Muse Wonder (Max) 的性价比变化。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/uceolgbpttfw4cgmkqc8cvyw5",
-   "time": "10-15 04:19",
-   "category": "ai-models"
-  },
-  {
-   "title": "40 位总检察长介入 Character.AI 破产案，要求保护用户对话数据",
-   "summary": "纽约总检察长 Letitia James 联合 40 位两党总检察长在 Character.AI 破产案中提交利益通知，要求任何资产出售方落实用户数据保护。",
-   "reason": "报道披露多州总检察长在 Character.AI 破产案中要求对用户数据设保护条件，读者可借此了解资产出售与儿童数据安全的交集。",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/gpgj8ws42xbs5zhbxfzvn2g6i",
-   "time": "10-15 02:47",
-   "category": "industry"
-  },
-  {
-   "title": "LangChain 详解 Deep Agents 的上下文工程：如何记住信息而不塞满上下文窗口",
-   "summary": "LangChain 发布博客，介绍其开源 Agent 框架 Deep Agents 如何用 middleware 做上下文工程，应对长任务中的 context rot。",
-   "reason": "LangChain 以竞争分析 Agent 为例，讲清 offloading、summarization、skills、subagents 和长期记忆五类上下文管理技术如何通过 middleware 落地。",
-   "source": "LangChain：Blog（RSS）",
-   "url": "https://aihot.news/items/za03v9avbq4fpb2y5b1ql1t27",
-   "time": "10-15 01:00",
-   "category": "tip"
-  },
-  {
-   "title": "Musk 称 Grok Voice 3.0 登顶 Artificial Analysis 语音模型评测",
-   "summary": "Musk 发文称 Grok Voice 3.0 已是全球领先的对话语音模型，并引用 Artificial Analysis 的评测：Grok Voice 3.0 以 86.9 分登顶 Speech to Speech Index，领先 GPT-Live-1（Astra, medium）的 83.2 和 Gemini 3.8 Live 的 82.6，较 Grok Voice 2.0 的 81.3 提升 5.6 分。该模型通过 Realtime API 提供，价格 $0.08 每分钟，Big Bench Audio 平均首音频延迟 0.81 秒，任务成功率 94.8% 居榜首。",
-   "reason": "作者引用第三方评测数据，读者可以据此对比 Grok Voice 3.0 与同类语音模型在评分、延迟和价格上的差异。",
-   "source": "X：Elon Musk (@elonmusk, xAI)",
-   "url": "https://aihot.news/items/yp2h3luqmkip3si23h4pnfmvb",
-   "time": "10-15 05:32",
-   "category": "ai-models"
-  },
-  {
-   "title": "xAI 发布 Grok Voice 3.0 语音模型",
-   "summary": "xAI 发布 speech-to-speech 模型 Grok Voice 3.0，在 Artificial Analysis 的 Speech-to-Speech Index 以 86.9 分排名第一，时延低于一秒。",
-   "reason": "官方发布给出多项第三方基准分数、时延和 API 定价，读者可以据此评估它在语音智能体场景的性价比。",
-   "source": "xAI：News（网页）",
-   "url": "https://aihot.news/items/qld0z3p2gztpolbmviizsm66u",
-   "time": "10-14 08:00",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-15 10:50",
+   "updateTime": "2026-10-15 17:17",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "《异环》剧情过场丨「God Knows…（异环Cover ver.）」特别动画",
+     "url": "https://www.bilibili.com/video/BV1gHp46pER8",
+     "hot": 769645
+    },
+    {
+     "title": "《绿梦：时空之声》公测PV | 时序的回响",
+     "url": "https://www.bilibili.com/video/BV1d4p26SE5n",
+     "hot": 978666
+    },
+    {
+     "title": "《明日方舟：终末地》祀EP - 花祀时 & 何处山海万象生",
+     "url": "https://www.bilibili.com/video/BV19ZJ66sEYZ",
+     "hot": 566027
+    },
+    {
      "title": "也是当上外卖大法官了【第二集】",
      "url": "https://www.bilibili.com/video/BV1d4p26SExE",
-     "hot": 674443
+     "hot": 1496106
+    },
+    {
+     "title": "泽连斯基有牌打了",
+     "url": "https://www.bilibili.com/video/BV1nyJ66PEPQ",
+     "hot": 564386
     },
     {
      "title": "百斤玉米 擒巨物",
      "url": "https://www.bilibili.com/video/BV1Nppn6tEhW",
-     "hot": 350231
+     "hot": 932318
     },
     {
-     "title": "常用医学小技能，才不是武术什么的呢",
-     "url": "https://www.bilibili.com/video/BV18Bpd6PEu3",
-     "hot": 1571110
+     "title": "《最有耐心の杀手》",
+     "url": "https://www.bilibili.com/video/BV1SMJC6sE6R",
+     "hot": 304747
     },
     {
-     "title": "【抢先版】温柔刀天花板！没有生离狗血，只有跨物种安静又心碎的告别！",
-     "url": "https://www.bilibili.com/video/BV15pWA6tEYd",
-     "hot": 1636243
+     "title": "【祀】全方位首发攻略 可C可辅 冰火全能型干员 角色定位/技能解析/配队推荐/装备养成/潜能提升/抽取建议",
+     "url": "https://www.bilibili.com/video/BV1eCJC6hEKN",
+     "hot": 246978
     },
     {
-     "title": "咦？2045年的霍格沃茨，已经是一所国际魔法学校了？｜广东插班生｜第一章",
-     "url": "https://www.bilibili.com/video/BV1VpWA6tE8P",
-     "hot": 296313
+     "title": "《复联5》前必看！《复联4》后到底发生了啥？",
+     "url": "https://www.bilibili.com/video/BV1xZWw6yEix",
+     "hot": 1264303
     },
     {
-     "title": "这下可好了！收养一只咪，迎来一大群！",
-     "url": "https://www.bilibili.com/video/BV1cApB6NEPq",
-     "hot": 789671
+     "title": "“天 凉 瑕 混”",
+     "url": "https://www.bilibili.com/video/BV1ttp46EEWU",
+     "hot": 446057
     },
     {
-     "title": "“什么情况？杀不死？”“月君，笔记的储备还充足吗？”",
-     "url": "https://www.bilibili.com/video/BV1Sepk6bEZC",
-     "hot": 1138923
+     "title": "祀：冰火第四人，锦上添花还是画龙点睛？干员实战攻略，武器装备潜能配队全面测评",
+     "url": "https://www.bilibili.com/video/BV1rCpS6iESY",
+     "hot": 201297
     },
     {
-     "title": "2026全球总决赛LPL赛区出征片《风起今朝》",
-     "url": "https://www.bilibili.com/video/BV132pr6aEXS",
-     "hot": 1100156
-    },
-    {
-     "title": "大庆，一座孤独的城市",
-     "url": "https://www.bilibili.com/video/BV1Pupy6sExt",
-     "hot": 481619
-    },
-    {
-     "title": "谣言就是这样传开的吗...",
-     "url": "https://www.bilibili.com/video/BV1kAWc6YEge",
-     "hot": 737031
-    },
-    {
-     "title": "豆奶噬之殇【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1zXpk6jE1R",
-     "hot": 405276
-    },
-    {
-     "title": "《明日方舟：终末地》干员叙事 [祀：洒扫庭除]",
-     "url": "https://www.bilibili.com/video/BV1fspq6cEty",
-     "hot": 2152793
+     "title": "主播你晚上还能睡得着吗？",
+     "url": "https://www.bilibili.com/video/BV1Z6pC65Ek9",
+     "hot": 479015
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "宝马集团董事长聂科维：中国是宝马创新和产业化的重要阵地，到2030年国产车型比例将提升至95%以上",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-15/doc-inivhiew1371641.shtml",
+   "title": "台积电确认讨论与马斯克的Terafab计划进行合作 但必须控制芯片工厂",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyai8094218.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "宝马第六代动力电池正式量产，华晨宝马总裁：每一辆宝马都坚持最高标准，从不走捷径",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-15/doc-inivhieu4576144.shtml",
+   "title": "美的加入英伟达MGX生态链，探索“液冷”相关合作",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-inivhyai8076331.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "天猫双11将于10月20日晚8点正式开卖",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-15/doc-inivhieu4573551.shtml",
+   "title": "跃然创新奥特曼AI互动对话器开售：售价599元，具备持续进化能力",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-inivhyaf7321495.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "寅家电子港股IPO：突击搭建员工持股架构却刻意隐去全部细节 奇瑞订单逐年缩水、经营现金流急剧恶化",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-10-15/doc-inivhier8177596.shtml",
+   "title": "荣耀提前公布荣耀WIN2价格，12+512GB版本国补价5499元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-inivhyai8052375.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "ROG XBOX 掌机 X 20周年版套装开箱：黑透金全家桶 一眼帅爆",
-   "url": "https://finance.sina.com.cn/tech/notebook/test/2026-10-15/doc-inivekpp8539277.shtml",
+   "title": "红魔12 Pro+ 开箱上手：流动水冷做成“电竞之光”",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-10-15/doc-iniveefr8532307.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“名创优品YOYO”号顺利入轨",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-15/doc-inivhier8145042.shtml",
+   "title": "京东服务发布“333”计划，聚焦隐形收费、服务参差、售后缺失三大行业痛点",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-inivhyai8045992.shtml",
    "source": "新浪科技"
   }
  ]
