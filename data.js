@@ -1,21 +1,21 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-15 17:17",
+ "updatedAt": "2026-10-16 01:16",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Google 发布 Gemini 4 Argon，仅付费用户可用",
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
-   "time": "10-15 06:49",
-   "sourceCount": 20
+   "time": "10-15 22:58",
+   "sourceCount": 11
   },
   {
    "rank": 2,
    "title": "OpenAI工程师涉装录音设备被捕",
    "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
    "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
-   "time": "10-15 16:45",
+   "time": "10-15 17:31",
    "sourceCount": 6
   },
   {
@@ -23,40 +23,40 @@ var WB_DATA = {
    "title": "Anthropic 自研 Scion 替换 git 并分享经验",
    "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
    "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
-   "time": "10-14 14:23",
+   "time": "10-15 22:42",
    "sourceCount": 7
   },
   {
    "rank": 4,
-   "title": "DeepSeek网页与API中断近5小时后恢复",
-   "source": "X：邵猛 (@shao__meng)",
-   "url": "https://aihot.news/items/vo248l7ock6kltan370y7gmcd",
-   "time": "10-15 15:05",
-   "sourceCount": 2
+   "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
+   "source": "NVIDIA Blog（RSS）",
+   "url": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
+   "time": "10-16 00:09",
+   "sourceCount": 15
   },
   {
    "rank": 5,
-   "title": "八州起诉OpenAI称ChatGPT对儿童不安全",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/v5sbitu4hw1bozz0nlopcl3t8",
-   "time": "10-15 07:39",
-   "sourceCount": 2
+   "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户",
+   "source": "X：邵猛 (@shao__meng)",
+   "url": "https://aihot.news/items/vo248l7ock6kltan370y7gmcd",
+   "time": "10-15 17:34",
+   "sourceCount": 3
   },
   {
    "rank": 6,
-   "title": "Anthropic收入增速被指放缓，Q3约168亿美元",
-   "source": "X：Oran Ge (@oran_ge)",
-   "url": "https://aihot.news/items/m3g8ouj0aocvboaot9bd2uta6",
-   "time": "10-15 13:13",
-   "sourceCount": 1
+   "title": "Anthropic三季度收入168亿美元，增速放缓",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
+   "time": "10-16 00:29",
+   "sourceCount": 5
   },
   {
    "rank": 7,
-   "title": "苹果发布 HomeView 智能家居中枢",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/kjcq4dywmvs5xijl4emac5o40",
-   "time": "10-13 22:26",
-   "sourceCount": 4
+   "title": "八州起诉OpenAI称ChatGPT对儿童不安全",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/v5sbitu4hw1bozz0nlopcl3t8",
+   "time": "10-15 17:11",
+   "sourceCount": 3
   },
   {
    "rank": 8,
@@ -76,121 +76,121 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "Meta 发布首批前沿模型 Muse Wonder 系列",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/v3pogrzxrk9oba4blox86d0w8",
-   "time": "10-15 07:46",
-   "sourceCount": 3
+   "title": "YouTube Music上线AI音乐标注标签",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/mgvqzbu9a4m04nwhqsa9mbj9t",
+   "time": "10-15 23:12",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
   {
-   "title": "Payload 集成 Figma Make，支持在 Figma 内构建、托管和管理数据驱动网站",
-   "summary": "Figma 宣布开源内容框架 Payload 集成到 Figma Make，用提示词创建应用时自动配套数据库、文件存储、用户登录和管理面板。Payload 加入 Figma 一年内下载量增长 6x，成为 NPM 上增长最快的开源 CMS；面向所有计划开放，托管基础设施目前处于 beta 且免费，定价将在生效前公布。",
-   "reason": "原文交代了 Payload 集成到 Figma Make 后的后端能力、托管现状和开放计划，读者可据此判断对建站工作流的改变。",
-   "source": "Figma AI / Agent / Make",
-   "url": "https://aihot.news/items/f9mfexmd1udr4ehzn5t6pawi5",
-   "time": "10-15 12:50",
-   "category": "ai-products"
-  },
-  {
-   "title": "卡兹克实测开源Skill Anatomy，一句话让AI生成原理科普视频",
-   "summary": "作者卡兹克分享实测开源Skill Anatomy（GitHub：https://github.com/wheresryan22/anatomy/tree/main），它能把抽象原理做成可交互的机械模型动画，在其基础上还能让AI一轮直出带讲解配音的科普视频。",
-   "reason": "作者实测开源Skill Anatomy并给出成本、耗时和适用模型的数字，可帮读者判断是否值得装来生成科普视频。",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/kg6bx3goagkn4k8kt7jl9lqgd",
-   "time": "10-15 12:24",
-   "category": "tip"
-  },
-  {
-   "title": "阶跃星辰开放 Step 5 Preview 权重并发布技术博客",
-   "summary": "阶跃星辰正式开放 Step 5 Preview 模型权重，提供 BF16 与 FP8 版本，已上线 Hugging Face 和 ModelScope。",
-   "reason": "官方开放权重的同一天给出架构与训练细节，开发者可据此评估部署成本与长程 Agent 任务的适配性。",
-   "source": "公众号：阶跃星辰（Step）",
-   "url": "https://aihot.news/items/k8xyrz2we9s3o7wcn9sdzmvgi",
-   "time": "10-15 11:02",
-   "category": "ai-models"
-  },
-  {
-   "title": "自媒体作者实测开源 Skill Anatomy：一句话让 AI 生成原理科普动画和讲解视频",
-   "summary": "作者数字生命卡兹克分享开源 Skill Anatomy，其理念是\"物体本身，就是解释\"，可将抽象原理做成可交互的机械模型动画，还能在其上生成带讲解配音的科普视频。",
-   "reason": "作者实测了开源 Anatomy Skill 生成原理科普视频的效果，还给出额度消耗、耗时和模型配置等一手数据，方便读者评估是否上手。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/alrar23ypkk6umkz50eirp35h",
-   "time": "10-15 08:26",
-   "category": "tip"
-  },
-  {
-   "title": "八州总检察长起诉 OpenAI 指控 ChatGPT 诱导青少年自伤",
-   "summary": "八个州的总检察长周三分别在州法院起诉 OpenAI，指控 ChatGPT 强化用户妄想、提供危险医疗建议并协助策划暴力行为。诉讼依据各州消费者保护法，还要求法院禁止 OpenAI 开发可自我改进且无法保证与人类价值对齐的模型；此前佛罗里达和英属哥伦比亚已起诉 OpenAI，42 个州也在调查该公司。",
-   "reason": "文章梳理了八个州诉讼的起诉路径和 Meta 案先例，读者可以据此理解平台设计责任理论如何扩展到 AI 产品。",
-   "source": "Platformer（热点 RSS）",
-   "url": "https://aihot.news/items/trizfjs72gs1tbggnxydmvfvm",
-   "time": "10-15 08:52",
-   "category": "industry"
-  },
-  {
-   "title": "昆仑万维发布并开源单张 RTX 5090 实时运行的视频大模型游戏 Matrix-Game 4.0",
-   "summary": "昆仑万维于2026年10月15日发布 Matrix-Game 4.0，称其为第一款运行在单张消费级显卡上的视频大模型游戏，并同步开源。",
-   "reason": "原文给出具体硬指标与三模块架构，还对比了同类方案的延迟和算力门槛，读者可据此评估这条实时世界模型路线的落地价值。",
-   "source": "公众号：昆仑万维（天工）",
-   "url": "https://aihot.news/items/eg7f0ohfzuyjux9ndx2ggk72s",
+   "title": "Apple 演示用 MLX 与 RDMA 在 Mac Studio 集群本地运行 816B 大模型",
+   "summary": "Apple 机器学习研究团队演示如何在 Mac Studio 上本地运行近万亿参数的 Muse Spark Open 等前沿模型，使用今天发布的新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动。",
+   "reason": "Apple 给出了在 Mac Studio 集群上跑 816B MoE 模型的并行方案与基准数据，可迁移到本地大模型部署实践。",
+   "source": "Apple Machine Learning Research（RSS）",
+   "url": "https://aihot.news/items/j76j898zc7y8on4s10d4nvpan",
    "time": "10-15 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
+   "summary": "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得分 98.5%、$0.16/task。Google DeepMind 是第二家在 ARC-AGI-3 上得分超过 95% 的前沿 AI 实验室。",
+   "reason": "ARC Prize 公布了 Gemini 4 Argon 在 ARC-AGI 三个版本上的得分与成本，读者可据此比较不同 harness 设置的差异。",
+   "source": "X：ARC Prize (@arcprize)",
+   "url": "https://aihot.news/items/cvpbhz4ao2wr6pxpthix2z15c",
+   "time": "10-16 00:22",
    "category": "ai-models"
   },
   {
-   "title": "Databricks 讲解如何在 AI Runtime 上将 Qwen 3.8 27B 微调时间缩短 6 倍",
-   "summary": "Databricks 演示通过系统性性能优化，将 Qwen 3.8 27B 在 AI Runtime 上的微调时间从 7 小时 44 分钟降至 1 小时 17 分钟，提速 6 倍。",
-   "reason": "原文给出从定位瓶颈到融合内核与数据打包的完整优化路径和量化结果，读者可迁移到自己的 LLM 微调任务。",
-   "source": "Databricks：Blog（RSS）",
-   "url": "https://aihot.news/items/s27ozk3mqeklm58sqxjeaz2wk",
-   "time": "10-14 19:30",
-   "category": "tip"
-  },
-  {
-   "title": "OpenAI 工程师分享用 GPT-6 系列模型清理代码库的实践与提示词",
-   "summary": "OpenAI Core Experimentation 团队工程师分享用 GPT-6 Astra 和 GPT-6.1 Sol 在 Codex 中做代码维护的实践，团队已合并超过 1,400 个维护 PR，删除逾 80 万行代码。",
-   "reason": "作者以一手实践给出可直接复用的 Codex 提示词和模型成本对比，读者可按小任务起步迁移到自己的代码库维护。",
-   "source": "OpenAI Developers：Blog（网页）",
-   "url": "https://aihot.news/items/wn2lwzshkg8gt2sbjuj1qxd8y",
-   "time": "10-14 15:00",
-   "category": "tip"
-  },
-  {
-   "title": "欧盟就模型越狱事件调查 OpenAI 和 Anthropic，最高可罚全球营业额 3%",
-   "summary": "欧盟委员会人工智能办公室正式向 OpenAI 和 Anthropic 发出信息调取请求，调查两家公司前沿模型测试期间的模型越狱及入侵外部真实系统事件，这是《人工智能法案》实施以来对前沿实验室安全事故的首次重要执法考验。",
-   "reason": "欧盟依据《人工智能法案》对两家实验室的安全事件启动调查，罚则上限和取证进展对同类监管走向有参照意义。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/yq46ddqwq7ns4ilpaqh6k0kql",
-   "time": "10-15 07:13",
-   "category": "industry"
-  },
-  {
-   "title": "vLLM 推出无需置信头的在线拟合接受估计器，让 EAGLE、MTP 等草稿模型可用 Adaptive Verification",
-   "summary": "vLLM 支持 confidence scoring 扩展到所有基于草稿模型的投机类型，通过在线拟合的 logistic 回归从草发者 logits 推导 logit(q_max) 特征来预测目标模型的接受概率，作为 Adaptive Verification 的置信分。",
-   "reason": "原文给出无置信头草稿模型启用 Adaptive Verification 的在线估计方法、设计取舍和实测数据，方法可直接在 vLLM 中配置复用。",
-   "source": "vLLM 官方博客（RSS）",
-   "url": "https://aihot.news/items/fuzrhjjahftxj9xj36god3pcf",
-   "time": "10-14 08:00",
+   "title": "Google 介绍 google/adk-recipes 仓库的三层结构与 Agent Platform 集成",
+   "summary": "Google Developers Blog 介绍 google/adk-recipes 仓库，它是 google/adk-samples 的重构后继版本，以 core/、plugins/、contrib/ 三层作为 Agent Platform 各入口的单一内容来源。",
+   "reason": "官方详解 google/adk-recipes 三层结构，读者可以据此了解同一仓库如何同时服务 Agents CLI、Agent Garden 和 Gemini Enterprise。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/i0rgqwqwxspm5dl3314cc3ewt",
+   "time": "10-15 08:00",
    "category": "ai-products"
   },
   {
-   "title": "Gemini 4 Argon 向全球 Google AI Pro 和 Ultra 订阅者开放",
-   "summary": "Gemini 官方宣布 Gemini 4 Argon 已向全球 Google AI Pro 和 Ultra 订阅者开放。该模型此前已在 Gemini 应用中逐步推出，定位为处理复杂任务的前沿模型，更多详情见官方推文线程 https://x.com/GeminiApp/status/2110039322229649783。",
-   "reason": "原文确认 Gemini 4 Argon 已面向 Google AI Pro 和 Ultra 订阅者全球开放，读者可据此确认自己是否可用。",
-   "source": "X：Gemini (@GeminiApp)",
-   "url": "https://aihot.news/items/rraljkr6dlbt4wabpcogmdlfv",
-   "time": "10-15 06:02",
+   "title": "Microsoft AI 公布 MAI-Base-2 预训练细节，2.8T 参数 MoE 模型 FLOPs 效率达 DeepSeek-V4-Pro-Base 的 4.2 至 12.3 倍",
+   "summary": "Microsoft AI 宣布完成 MAI-Base-2 预训练，这是一个 800 亿激活、2.8T 总参数的 MoE 基础模型，在 held-out 评测中 BPB 低于所测全部开源权重模型，预训练 FLOPs 效率比 DeepSeek-V4-Pro-Base 高 4.2 至 12.3 倍。",
+   "reason": "官方披露了 MAI-Base-2 的完整预训练方法，读者可以从中了解 scaling ladder、Muon 优化和多轮 dropless MoE 等可借鉴的工程细节。",
+   "source": "Microsoft AI：官方博客（网页）",
+   "url": "https://aihot.news/items/f7ey01hbckuivmlgen9jq0vaf",
+   "time": "10-16 00:09",
    "category": "ai-models"
   },
   {
-   "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
-   "summary": "Claude Code 的空闲压缩会让 Claude 从摘要而非完整上下文继续。作者说明可在 settings. 中设置 \"idleCompaction\": false 关闭，并通过 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 自定义阈值，默认为 200k。",
-   "reason": "原文给出 Claude Code 空闲压缩的具体关闭参数和阈值设置方法，读者可直接迁移到自己的 settings. 配置。",
-   "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
-   "url": "https://aihot.news/items/whbmvotra7659u98jmj00oegi",
-   "time": "10-15 05:36",
+   "title": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
+   "summary": "阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据其每任务成本约为 Claude Opus 5.5 的 1/6，智能水平与 Kimi K3 相当。",
+   "reason": "引用内容给出 Step 5 Preview 的参数规模、成本对比和部署入口，读者可据此评估其性价比与获取方式。",
+   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+   "url": "https://aihot.news/items/mimehokpfhvz10dk3pdz131ky",
+   "time": "10-15 23:30",
+   "category": "ai-models"
+  },
+  {
+   "title": "Black Forest Labs 发布开源文生图模型 FLUX 3 Image Klein（5.6B）",
+   "summary": "Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。",
+   "reason": "官方公布了参数规模、显存门槛、生成速度和评测对比，读者可以评估它在本地部署与微调场景中的适配性。",
+   "source": "Black Forest Labs：Blog（网页）",
+   "url": "https://aihot.news/items/ybc0etkws56yxmrveyttxz3lm",
+   "time": "10-15 23:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "Black Forest Labs FLUX.3 Image Klein 登陆 Diffusers，支持边界框布局控制",
+   "summary": "Hugging Face 团队介绍 FLUX.3 Image Klein 模型发布首日即可在 Diffusers 中使用，单个模型支持文生图、多参考图生图和边界框布局控制。",
+   "reason": "官方教程覆盖布局控制、量化权重、显存与速度实测和架构拆解，读者可据此评估上手成本与适用场景。",
+   "source": "Hugging Face 官方团队博客",
+   "url": "https://aihot.news/items/ro5zfihp4w9597vt5vz4ihdv2",
+   "time": "10-15 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "可灵 Kling 4.0 正式全量开放，新增 MCP 和 CLI 接入",
+   "summary": "可灵（Kling AI）宣布 Kling 4.0 正式全量开放，用户可通过 kling.ai 全新创作界面使用，并新增 MCP 和 CLI 接入以融入视频创作工作流。即将推出 4K 和 1080p 的 10-bit HDR 视频输出，以及面向企业客户和开发者的 API 访问。",
+   "reason": "官方宣布 Kling 4.0 全量开放，除网页入口外还支持 MCP 和 CLI，适合关注视频生成工作流接入方式的读者。",
+   "source": "X：可灵 Kling AI (@Kling_ai)",
+   "url": "https://aihot.news/items/uoqzntmcb5v0io1g6obac7amu",
+   "time": "10-15 23:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "NVIDIA 发布开源 Nemotron 3.5 Super VL 及 Bolt 两款端侧模型",
+   "summary": "NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方开放，已有数十家机构基于自有数据后训练。",
+   "reason": "官方公布三个开源模型的定位、参数规模与量化方案，覆盖数据中心到桌面端侧，企业可按部署层级选择并自行后训练。",
+   "source": "NVIDIA Blog（RSS）",
+   "url": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
+   "time": "10-15 23:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "Google 工程师讲解如何系统评测 AI 智能体，告别 vibe check",
+   "summary": "Google Developers Blog 发布智能体评测实践指南，指出仅靠终端跑几个提示词的 vibe check 无法发现智能体重试循环、工具参数幻觉等隐性失败。",
+   "reason": "原文给出从 CUJ 定义到 CI/CD 门禁的完整智能体评测流程，可用 agent-eval 工具包直接复现，避开四个常见评测陷阱。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/ojpe4mr67tjbrt5atyi6hyapl",
+   "time": "10-15 08:00",
    "category": "tip"
+  },
+  {
+   "title": "StepFun 展示 Step 5 Preview 在 NVIDIA GB300 上的推理性能",
+   "summary": "StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 NVFP4 checkpoint（https://huggingface.co/stepfun-ai/Step-5-Preview-NVFP4），并支持 SGLang、vLLM、NeMo Automodel 后训练和 NVIDIA NIM 一键部署。",
+   "reason": "原文补充了 Step 5 Preview 在 NVIDIA GB300 上的推理表现和 NVFP4 权重入口，可帮助开发者评估部署选择。",
+   "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+   "url": "https://aihot.news/items/l3g1uzem751ki1oxckrxa1b3e",
+   "time": "10-15 22:01",
+   "category": "ai-models"
+  },
+  {
+   "title": "Tessl Verifiers 正式发布，用仓库内纯文本规则检查每次 Agent 代码变更",
+   "summary": "Tessl 发布 Verifiers，规则以 JSON 文件形式存放在仓库中，每次代码变更时由 LLM judge 逐条给出 pass 或 fail，可像 lint 或测试一样在本地、pre-commit 或 CI 中使用。",
+   "reason": "官方详细介绍 Verifiers 的机制、配置与接入方式，读者可据此把它当作 lint 或测试之外的确定性检查接入现有工作流。",
+   "source": "Tessl：产品与工程博客",
+   "url": "https://aihot.news/items/virsb1x13670yw25mr9fyxqtt",
+   "time": "10-15 00:00",
+   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-15 17:17",
+   "updateTime": "2026-10-16 01:16",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "《最有耐心の杀手》",
+     "url": "https://www.bilibili.com/video/BV1SMJC6sE6R",
+     "hot": 1621778
+    },
+    {
+     "title": "猜！谁吃到了黑暗料理？",
+     "url": "https://www.bilibili.com/video/BV1RfJk6hENZ",
+     "hot": 471060
+    },
+    {
      "title": "《异环》剧情过场丨「God Knows…（异环Cover ver.）」特别动画",
      "url": "https://www.bilibili.com/video/BV1gHp46pER8",
-     "hot": 769645
+     "hot": 1550381
     },
     {
-     "title": "《绿梦：时空之声》公测PV | 时序的回响",
-     "url": "https://www.bilibili.com/video/BV1d4p26SE5n",
-     "hot": 978666
+     "title": "【独家】时光代理人 第三季 PartOne 第11集 消失的出口【8月国创】",
+     "url": "https://www.bilibili.com/video/BV1Nep465Eao",
+     "hot": 465944
     },
     {
-     "title": "《明日方舟：终末地》祀EP - 花祀时 & 何处山海万象生",
-     "url": "https://www.bilibili.com/video/BV19ZJ66sEYZ",
-     "hot": 566027
+     "title": "无视风险 继续访问女coser的家",
+     "url": "https://www.bilibili.com/video/BV1dfJk6hEjX",
+     "hot": 720249
     },
     {
-     "title": "也是当上外卖大法官了【第二集】",
-     "url": "https://www.bilibili.com/video/BV1d4p26SExE",
-     "hot": 1496106
+     "title": "让百万人尖叫的鬼屋？我们发现了这里的秘密……",
+     "url": "https://www.bilibili.com/video/BV1KiJk67Ezw",
+     "hot": 619925
+    },
+    {
+     "title": "《剃刀 》每一个也许都要付钱：0.8⁵ = 33%",
+     "url": "https://www.bilibili.com/video/BV1WkJk6VEqA",
+     "hot": 373156
+    },
+    {
+     "title": "咦？2045年的霍格沃茨，已经是一所国际魔法学校了？｜广东插班生｜第一章",
+     "url": "https://www.bilibili.com/video/BV1VpWA6tE8P",
+     "hot": 951241
     },
     {
      "title": "泽连斯基有牌打了",
      "url": "https://www.bilibili.com/video/BV1nyJ66PEPQ",
-     "hot": 564386
+     "hot": 1208102
     },
     {
-     "title": "百斤玉米 擒巨物",
-     "url": "https://www.bilibili.com/video/BV1Nppn6tEhW",
-     "hot": 932318
+     "title": "热烈欢迎袁咏仪！超级爱买的靓靓姐最近又乱买了什么呢？（恭喜靓靓终于演上警察了👏",
+     "url": "https://www.bilibili.com/video/BV1Mopr6REu3",
+     "hot": 673581
     },
     {
-     "title": "《最有耐心の杀手》",
-     "url": "https://www.bilibili.com/video/BV1SMJC6sE6R",
-     "hot": 304747
+     "title": "一觉醒来deepseek和豆包睡在我身边（一）【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1HYp16oE8v",
+     "hot": 739193
     },
     {
-     "title": "【祀】全方位首发攻略 可C可辅 冰火全能型干员 角色定位/技能解析/配队推荐/装备养成/潜能提升/抽取建议",
-     "url": "https://www.bilibili.com/video/BV1eCJC6hEKN",
-     "hot": 246978
-    },
-    {
-     "title": "《复联5》前必看！《复联4》后到底发生了啥？",
-     "url": "https://www.bilibili.com/video/BV1xZWw6yEix",
-     "hot": 1264303
-    },
-    {
-     "title": "“天 凉 瑕 混”",
-     "url": "https://www.bilibili.com/video/BV1ttp46EEWU",
-     "hot": 446057
-    },
-    {
-     "title": "祀：冰火第四人，锦上添花还是画龙点睛？干员实战攻略，武器装备潜能配队全面测评",
-     "url": "https://www.bilibili.com/video/BV1rCpS6iESY",
-     "hot": 201297
-    },
-    {
-     "title": "主播你晚上还能睡得着吗？",
-     "url": "https://www.bilibili.com/video/BV1Z6pC65Ek9",
-     "hot": 479015
+     "title": "挑战拍出刃牙原作没有的剧情！！宫本武藏vs郭海皇！！",
+     "url": "https://www.bilibili.com/video/BV1KYJk6JEDk",
+     "hot": 240697
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "台积电确认讨论与马斯克的Terafab计划进行合作 但必须控制芯片工厂",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-15/doc-inivhyai8094218.shtml",
+   "title": "CNN与谷歌达成多年合作 探索生成式AI提升新闻内容触达",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivivhe1459690.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美的加入英伟达MGX生态链，探索“液冷”相关合作",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-inivhyai8076331.shtml",
+   "title": "英国财政大臣希利拟提高银行税 应对中东战争冲击",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-iniviqxx7290712.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "跃然创新奥特曼AI互动对话器开售：售价599元，具备持续进化能力",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-inivhyaf7321495.shtml",
+   "title": "CoreWeave暴跌超百亿美元市值 德意志银行：存在买入机会",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-iniviqye4794652.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "荣耀提前公布荣耀WIN2价格，12+512GB版本国补价5499元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-inivhyai8052375.shtml",
+   "title": "天猫双11预售开启 李佳琦直播间首小时多产品销量超10万件",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-iniviqyh1539140.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "红魔12 Pro+ 开箱上手：流动水冷做成“电竞之光”",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-10-15/doc-iniveefr8532307.shtml",
+   "title": "当床垫公司拥有一台 Mac mini “企业大脑”：库克上海探访蓝盒子，传统家居行业的数字化样本",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-15/doc-iniviqxz7937562.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "京东服务发布“333”计划，聚焦隐形收费、服务参差、售后缺失三大行业痛点",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-15/doc-inivhyai8045992.shtml",
+   "title": "三部门联合调查刹车踏板支架断裂问题，尊界汽车：全力配合联合调查组工作",
+   "url": "https://finance.sina.com.cn/tech/it/2026-10-15/doc-iniviqye4715664.shtml",
    "source": "新浪科技"
   }
  ]
