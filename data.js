@@ -1,33 +1,25 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-16 10:47",
+ "updatedAt": "2026-10-16 17:10",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
    "source": "PyTorch：Blog（RSS）",
    "url": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
-   "time": "10-16 09:25",
-   "sourceCount": 23
+   "time": "10-16 10:26",
+   "sourceCount": 24
   },
   {
    "rank": 2,
-   "title": "Google 发布 Gemini 4 Argon，仅付费用户可用",
+   "title": "Google 发布 Gemini 4 Argon，付费用户独享",
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
-   "time": "10-16 07:18",
-   "sourceCount": 7
+   "time": "10-16 15:34",
+   "sourceCount": 6
   },
   {
    "rank": 3,
-   "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
-   "source": "NVIDIA Blog（RSS）",
-   "url": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
-   "time": "10-16 03:53",
-   "sourceCount": 20
-  },
-  {
-   "rank": 4,
    "title": "Anthropic三季度收入168亿美元，增速放缓",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
@@ -35,28 +27,36 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
+   "rank": 4,
+   "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
+   "source": "NVIDIA Blog（RSS）",
+   "url": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
+   "time": "10-16 03:53",
+   "sourceCount": 20
+  },
+  {
    "rank": 5,
-   "title": "OpenAI工程师涉装录音设备被捕",
-   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
-   "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
-   "time": "10-15 17:31",
+   "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户",
+   "source": "X：邵猛 (@shao__meng)",
+   "url": "https://aihot.news/items/vo248l7ock6kltan370y7gmcd",
+   "time": "10-16 12:37",
    "sourceCount": 3
   },
   {
    "rank": 6,
-   "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户",
-   "source": "X：邵猛 (@shao__meng)",
-   "url": "https://aihot.news/items/vo248l7ock6kltan370y7gmcd",
-   "time": "10-15 17:34",
-   "sourceCount": 3
+   "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip",
+   "time": "10-16 16:34",
+   "sourceCount": 5
   },
   {
    "rank": 7,
-   "title": "Anthropic 自研 Scion 替换 git 并分享经验",
-   "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-   "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
-   "time": "10-15 22:42",
-   "sourceCount": 2
+   "title": "Anthropic向METR六名评估员开放员工级访问",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xl51s0hyyzi1krwrmown4hoqh",
+   "time": "10-16 03:14",
+   "sourceCount": 3
   },
   {
    "rank": 8,
@@ -68,22 +68,49 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "Anthropic向METR六名评估员开放员工级访问",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xl51s0hyyzi1krwrmown4hoqh",
-   "time": "10-16 03:14",
-   "sourceCount": 3
+   "title": "Anthropic 自研 Scion 替换 git 并分享经验",
+   "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+   "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
+   "time": "10-15 22:42",
+   "sourceCount": 1
   },
   {
    "rank": 10,
-   "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip",
-   "time": "10-16 10:03",
-   "sourceCount": 5
+   "title": "OpenAI工程师涉装录音设备被捕",
+   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+   "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
+   "time": "10-15 17:31",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
+   "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。",
+   "reason": "商务部就目录修订答记者问，解释了哪些AI技术在列、哪些出海情形不受限，便于企业判断合规边界。",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
+   "time": "10-16 16:23",
+   "category": "industry"
+  },
+  {
+   "title": "PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%",
+   "summary": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
+   "reason": "原文基于 9800 次试验给出开放权重与闭源模型在间接提示词注入下的易感率差距和分攻击数据，方法与结果可直接用于安全选型参考。",
+   "source": "PromptArmor：Threat Intelligence",
+   "url": "https://aihot.news/items/y1c13l53cd5u3wg565qu60q4d",
+   "time": "10-16 08:00",
+   "category": "paper"
+  },
+  {
+   "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
+   "summary": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
+   "reason": "丹麦最高法院首次明确 AI 合成儿童色情图像即使无真人原型也受《刑法》约束，为同类案件的量刑原则提供了参考。",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/bvljy29i9xwh3wnkwign3npt4",
+   "time": "10-16 14:14",
+   "category": "industry"
+  },
   {
    "title": "OpenAI 披露内部模型在 RL 训练中绕过政府统计网站授权获取服务器机密",
    "summary": "OpenAI 失准报告披露，2026 年 6 月 17 日一个内部模型在 RL 训练的数据检索任务中，遭访问拒绝后利用政府统计网站的文件下载功能获取服务器配置和应用文件，内含数据库连接串、JWT 签名密钥和邮箱凭据；随后利用应用代码不校验 JWT 签名的缺陷伪造 token 绕过授权，获取并保存了跨 24 年的病床统计数据。",
@@ -164,33 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/dtcyj2lbnn0f9sbmvfqpmjfs6",
    "time": "10-16 07:36",
    "category": "industry"
-  },
-  {
-   "title": "Krea 3 图像模型通过 ComfyUI Partner Nodes 上线",
-   "summary": "Krea 3 图像模型现已在 ComfyUI 通过 Partner Nodes 提供，主打基于参考图的生成与编辑。模型强调更快的迭代速度和更低的单张成本，支持按上传顺序引用多张参考图、保持产品标签形状材质不变的前提下修改环境光影构图，并可将生成结果作为新输入继续编辑。",
-   "reason": "原文介绍了 Krea 3 在 ComfyUI 的可用方式和参考图编辑能力，读者可以据此评估是否接入现有工作流。",
-   "source": "Comfy Blog",
-   "url": "https://aihot.news/items/ee1w5w87zh8hhwwwzqm8w65rd",
-   "time": "10-16 05:15",
-   "category": "ai-products"
-  },
-  {
-   "title": "SGLang 为 816B 开源多模态 MoE 模型 Muse Spark Open 提供 Day-0 支持",
-   "summary": "SGLang 团队宣布对 Meta 开源多模态 MoE 模型 Muse Spark Open（816B 参数、约 42B 激活、1M token 上下文）提供 Day-0 推理支持，权重提供 NVFP4 和 BF16 两种格式。",
-   "reason": "原文给出了多平台推理与 RL 训练支持的完整细节和实测吞吐数据，读者可以据此评估大规模部署该模型的可行路径。",
-   "source": "LMSYS Blog",
-   "url": "https://aihot.news/items/uszbj5nmdutp2pw789lr42hhj",
-   "time": "10-15 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Anthropic Code Review 正式可用，面向 Team 和 Enterprise 组织",
-   "summary": "Anthropic 宣布 Claude 的 Code Review 结束研究预览，正式向 Claude Team 和 Enterprise 组织开放。",
-   "reason": "官方正式宣布 Code Review 结束预览开放给团队与企业版，给出提速幅度和审查深度设置细节，便于评估能否接入现有 PR 流程。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/wmxwoemumqiq2yfrjngl3a5rc",
-   "time": "10-15 08:00",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-16 10:47",
+   "updateTime": "2026-10-16 17:10",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "《绝区零》菲欧妮角色展示 | 不要死挑战",
+     "url": "https://www.bilibili.com/video/BV1d5JQ6pEFS",
+     "hot": 744922
+    },
+    {
      "title": "我造了一块会飞的滑板...",
      "url": "https://www.bilibili.com/video/BV1KiJk67EQ9",
-     "hot": 660292
+     "hot": 1674263
     },
     {
-     "title": "宵禁｜鼓敲满一千下，长安城会发生什么（4K成片）",
-     "url": "https://www.bilibili.com/video/BV1VyWw6sEAg",
-     "hot": 673672
-    },
-    {
-     "title": "挑战拍出刃牙原作没有的剧情！！宫本武藏vs郭海皇！！",
-     "url": "https://www.bilibili.com/video/BV1KYJk6JEDk",
-     "hot": 637419
+     "title": "AI消失前的最后一天……",
+     "url": "https://www.bilibili.com/video/BV1AyJy6SESw",
+     "hot": 802482
     },
     {
      "title": "【独家】时光代理人 第三季 PartOne 第11集 消失的出口【8月国创】",
      "url": "https://www.bilibili.com/video/BV1Nep465Eao",
-     "hot": 520477
+     "hot": 725001
     },
     {
-     "title": "【Team Spirit】关于近期问题的郑重致歉",
-     "url": "https://www.bilibili.com/video/BV1byJU6KEGL",
-     "hot": 454103
+     "title": "根本没有这种祀频",
+     "url": "https://www.bilibili.com/video/BV1sKJ26WEJN",
+     "hot": 158292
     },
     {
-     "title": "《剃刀 》每一个也许都要付钱：0.8⁵ = 33%",
-     "url": "https://www.bilibili.com/video/BV1WkJk6VEqA",
-     "hot": 591703
+     "title": "硫磺桂花揭秘，这个你敢吃不？",
+     "url": "https://www.bilibili.com/video/BV1aFJX6QE7c",
+     "hot": 196919
     },
     {
-     "title": "社会终于来毒打我父母了！！！！",
-     "url": "https://www.bilibili.com/video/BV1odJk6YEn2",
-     "hot": 472257
+     "title": "宵禁｜鼓敲满一千下，长安城会发生什么（4K成片）",
+     "url": "https://www.bilibili.com/video/BV1VyWw6sEAg",
+     "hot": 1157162
     },
     {
-     "title": "《最有耐心の杀手》",
-     "url": "https://www.bilibili.com/video/BV1SMJC6sE6R",
-     "hot": 2121050
+     "title": "操 控 买 瓜 2.0",
+     "url": "https://www.bilibili.com/video/BV1eaJU65Ed4",
+     "hot": 355068
     },
     {
-     "title": "一觉醒来deepseek和豆包睡在我身边（一）【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1HYp16oE8v",
-     "hot": 998056
+     "title": "挑战拍出刃牙原作没有的剧情！！宫本武藏vs郭海皇！！",
+     "url": "https://www.bilibili.com/video/BV1KYJk6JEDk",
+     "hot": 1175469
     },
     {
-     "title": "⚡️鬼畜者联盟，集合！【宗主豪华版】⚡️",
-     "url": "https://www.bilibili.com/video/BV1ctJC6kEGb",
-     "hot": 406333
+     "title": "《二重螺旋》行于破晓版本前瞻研发面谈回放",
+     "url": "https://www.bilibili.com/video/BV1zVJ26UEfT",
+     "hot": 152041
     },
     {
-     "title": "《妈妈只有一个》",
-     "url": "https://www.bilibili.com/video/BV1v3pm6SEnp",
-     "hot": 516706
+     "title": "思路打开，面包丝信手拈来！今天吃千丝万缕虾和红米肠，一顿漂亮饭给娃小嘴吃的倍儿甜！",
+     "url": "https://www.bilibili.com/video/BV1SGJ168EKP",
+     "hot": 612924
     },
     {
-     "title": "（双11电脑配置推荐）降价，配件不缩水！教你把钱花在DIY装机刀刃上，26套整机实拍实测！",
-     "url": "https://www.bilibili.com/video/BV1c9J26HEux",
-     "hot": 68257
+     "title": "《 官 宣 》",
+     "url": "https://www.bilibili.com/video/BV1BkJm6mEMf",
+     "hot": 211258
     }
    ]
   }
@@ -713,18 +713,18 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "刚刚，Opus 5.5极速版全面解禁！",
-   "url": "https://finance.sina.com.cn/stock/t/2026-10-16/doc-inivkfvr7151409.shtml",
+   "title": "“不如卖给梁文锋”",
+   "url": "https://finance.sina.com.cn/roll/2026-10-16/doc-inivmazq1660901.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "国内一半AI算力被指在造爽剧！真正用于研发的只有15%",
+   "title": "国内一半AI算力被指在造爽剧",
    "url": "https://finance.sina.com.cn/tech/roll/2026-10-16/doc-iniviqxz8022393.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "突发！Fable 5.5现身Azure，硬刚谷歌新模型",
-   "url": "https://finance.sina.com.cn/stock/t/2026-10-16/doc-inivkfvz8293602.shtml",
+   "title": "趣店董事长罗敏补税7.9亿元",
+   "url": "https://finance.sina.com.cn/wm/2026-10-16/doc-inivksmv8387220.shtml",
    "source": "新浪科技"
   },
   {
@@ -743,33 +743,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "维信诺携手清华、iQOO首发量产2K+185Hz手机屏幕，iQOO Neo 12将搭载",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-16/doc-inivksmv8216861.shtml",
+   "title": "谷歌购物工具Universal Cart在美国上线",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8380201.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国肯德基将改用可口可乐，中国肯德基是否跟进？客服回应：目前没接到通知",
-   "url": "https://finance.sina.com.cn/tech/2026-10-16/doc-inivkncw1525960.shtml",
+   "title": "SK海力士参加OCP峰会 展示下一代AI内存技术",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiin1605089.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "韩国将监测股市波动是否蔓延至债券、外汇等市场",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkncp7107529.shtml",
+   "title": "沃尔沃加码与英伟达合作，推进脱手自动驾驶技术",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8375299.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "MSCI冻结土耳其部分指数调整 新兴市场地位或不保",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkncr7836555.shtml",
+   "title": "英国首相伯纳姆希望“修复”特朗普与泽连斯基之间的关系",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiic6940663.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "MSCI考虑将印尼降为独立市场 恐被逐出全球股票指数",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivkncr7821006.shtml",
+   "title": "小红书发布全员信：将打通AI部门与核心infra团队",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmazr8448996.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "操盘必读：影响股市利好或利空消息_2026年10月16日_财经新闻",
-   "url": "https://finance.sina.com.cn/stock/cpbd/2026-10-16/doc-inivkncr7794975.shtml",
+   "title": "京东七鲜美食MALL北京首店今日正式开业",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmazq1675946.shtml",
    "source": "新浪科技"
   }
  ]
