@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-16 17:10",
+ "updatedAt": "2026-10-17 00:52",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,7 +8,7 @@ var WB_DATA = {
    "source": "PyTorch：Blog（RSS）",
    "url": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
    "time": "10-16 10:26",
-   "sourceCount": 24
+   "sourceCount": 23
   },
   {
    "rank": 2,
@@ -16,7 +16,7 @@ var WB_DATA = {
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
    "time": "10-16 15:34",
-   "sourceCount": 6
+   "sourceCount": 5
   },
   {
    "rank": 3,
@@ -32,7 +32,7 @@ var WB_DATA = {
    "source": "NVIDIA Blog（RSS）",
    "url": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
    "time": "10-16 03:53",
-   "sourceCount": 20
+   "sourceCount": 17
   },
   {
    "rank": 5,
@@ -47,43 +47,97 @@ var WB_DATA = {
    "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
    "source": "X：卡兹克 (@Khazix0918)",
    "url": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip",
-   "time": "10-16 16:34",
+   "time": "10-16 23:00",
    "sourceCount": 5
   },
   {
    "rank": 7,
-   "title": "Anthropic向METR六名评估员开放员工级访问",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xl51s0hyyzi1krwrmown4hoqh",
-   "time": "10-16 03:14",
-   "sourceCount": 3
+   "title": "商务部拟增列AI技术出口管制并答问",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
+   "time": "10-16 21:48",
+   "sourceCount": 2
   },
   {
    "rank": 8,
-   "title": "八州起诉OpenAI称ChatGPT对儿童不安全",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/v5sbitu4hw1bozz0nlopcl3t8",
-   "time": "10-15 17:11",
-   "sourceCount": 3
+   "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
+   "source": "Reflection Blog",
+   "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
+   "time": "10-16 22:22",
+   "sourceCount": 9
   },
   {
    "rank": 9,
-   "title": "Anthropic 自研 Scion 替换 git 并分享经验",
-   "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-   "url": "https://aihot.news/items/fpyjwv3o9zwxc9zs7j1bmnw8i",
-   "time": "10-15 22:42",
-   "sourceCount": 1
+   "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
+   "source": "NVIDIA：Newsroom（RSS）",
+   "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
+   "time": "10-16 23:00",
+   "sourceCount": 3
   },
   {
    "rank": 10,
-   "title": "OpenAI工程师涉装录音设备被捕",
-   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
-   "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
-   "time": "10-15 17:31",
-   "sourceCount": 3
+   "title": "Anthropic向METR六名评估员开放员工级访问",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xl51s0hyyzi1krwrmown4hoqh",
+   "time": "10-16 21:11",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
+  {
+   "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
+   "summary": "a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。",
+   "reason": "原文汇集 Cloudflare、Similarweb 等数据，指出智能体购物正遭遇电商封禁与消费者信任不足的双重阻力。",
+   "source": "a16z：News（RSS）",
+   "url": "https://aihot.news/items/j5vlb3dn14h2b4xy1hbdschyc",
+   "time": "10-16 22:00",
+   "category": "opinion"
+  },
+  {
+   "title": "vLLM 实现 Reflection Beam 501B MoE 模型 Day 0 支持",
+   "summary": "vLLM 宣布从 Day 0 支持 Reflection 的 Beam 模型，这是一个 501B 参数、每 token 激活 23B 的 MoE 模型，在 NVIDIA Blackwell 上完成优化。",
+   "reason": "原文给出了 Beam 在 vLLM 上的具体优化数据和部署命令，读者可以直接评估落地配置与吞吐收益。",
+   "source": "vLLM 官方博客（RSS）",
+   "url": "https://aihot.news/items/d0pow9b93paydjtg2i76ang83",
+   "time": "10-16 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Reflection 发布首个开源权重模型 Beam，Artificial Analysis 评测得分 30 居美国开源模型第二",
+   "summary": "Artificial Analysis 评测 Reflection 首个模型 Beam，其在 Artificial Analysis Intelligence Index 得 30 分，在美国开源权重模型中排第二，仅次于 Meta 的 Muse Spark Open（39）。",
+   "reason": "第三方评测给出 Beam 在美国开源权重模型中的位置与 token 效率数据，可用于横向比较其智能体与编码能力。",
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/a3roan35e4kghyxdjffek1hop",
+   "time": "10-16 00:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "SGLang 原生支持 Reflection 的 Beam 并驱动其生产 API",
+   "summary": "SGLang 团队宣布原生支持 Reflection 的 Beam 1.0（501B 参数 MoE、每 token 激活 23B），并以其驱动 Reflection 的生产 API。",
+   "reason": "原文给出 SGLang 对 Beam 的原生支持细节与实测吞吐数据，读者可据此评估该推理栈在智能体负载下的服务性能。",
+   "source": "LMSYS Blog",
+   "url": "https://aihot.news/items/i6u3av7zg8n3gfy6g7ynhns56",
+   "time": "10-16 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用",
+   "summary": "Reflection 首个开源权重模型 Beam 发布，Ollama 作为 day-zero 合作方在 Ollama Cloud 上限时免费提供，且全程零数据保留（ZDR）。",
+   "reason": "Ollama 作为首发合作方介绍 Beam 的参数结构、上下文窗口和 ZDR 云端接入方式，读者可以据此评估在本机或云端运行该模型的可行性。",
+   "source": "Ollama：Blog（RSS）",
+   "url": "https://aihot.news/items/f14brdupsvks0k2hoang4lx6w",
+   "time": "10-16 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
+   "summary": "Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。",
+   "reason": "官方宣布进入加拿大市场的节奏与本地合作细节，读者可了解自动驾驶服务落地的分阶段做法。",
+   "source": "Waymo：Blog（网页）",
+   "url": "https://aihot.news/items/xwgy3mhme6nur9kndswxlu0es",
+   "time": "10-16 15:00",
+   "category": "industry"
+  },
   {
    "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
    "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。",
@@ -136,60 +190,6 @@ var WB_DATA = {
    "source": "OpenAI：失准报告与通报（网页）",
    "url": "https://aihot.news/items/gltyk3cw7d1qb6tvp83ticoba",
    "time": "10-15 08:00",
-   "category": "industry"
-  },
-  {
-   "title": "vLLM 解析 Kimi K3 在 AMD Instinct MI355X 上的推理优化，单 GPU 吞吐超 NVIDIA HGX B300 24.4%",
-   "summary": "AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。",
-   "reason": "原文拆解了 50 多个 PR 背后的缓存、MoE、内核融合与投机解码优化思路，读者可迁移到自己的推理栈排查瓶颈。",
-   "source": "vLLM 官方博客（RSS）",
-   "url": "https://aihot.news/items/jc7pyt619xhznn9j28apoedto",
-   "time": "10-16 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "Claude Code 团队如何做代码审查",
-   "summary": "Anthropic 团队介绍 Claude Code 的代码审查流程，机器承担大部分阅读，人类注意力集中在高风险决策。6 月至 9 月合并 PR 翻倍以上，回退率下降超过 40%；monorepo 每日变更量从 5 月约 2,500 增至 9 月超过 30,000。",
-   "reason": "Claude Code 团队亲述自家六层代码审查流程与衡量指标，读者可对照调整自己团队的 AI 审查与人工介入方式。",
-   "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-   "url": "https://aihot.news/items/x02vc0ewajam37hjrbpwsfnre",
-   "time": "10-15 20:00",
-   "category": "tip"
-  },
-  {
-   "title": "Artificial Analysis 发布 NVIDIA Vera Rubin NVL72 首批 AA-AgentPerf 智能体推理评测",
-   "summary": "Artificial Analysis 公布首批 AA-AgentPerf 结果，测试 NVIDIA Vera Rubin NVL72 在智能体编码工作负载下的服务效率，对比 GB300 NVL72。",
-   "reason": "Artificial Analysis 实测四种模型在 Vera Rubin NVL72 与 GB300 上的每瓦吞吐，读者可据此评估新硬件对智能体推理服务成本的影响。",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/cfa00lfy4h5vywbpnf1ixt6m0",
-   "time": "10-15 00:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元",
-   "summary": "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。",
-   "reason": "路透社消息披露了 Anthropic 估值预期下调与营收增速放缓的具体数字，可帮助读者判断 AI 上市潮与基建投资情绪的走向。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/ldwt1jervkxlsh99322u661fc",
-   "time": "10-16 08:54",
-   "category": "industry"
-  },
-  {
-   "title": "可灵 Kling 4.0 上线：支持30秒一镜到底，作者实测动态与全能参考",
-   "summary": "可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10-bit 4K HDR输出。",
-   "reason": "作者实测后给出价格、积分成本和多场景样例，读者可据此评估 Kling 4.0 是否值得用在创作流程里。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/m4lwilxklwi3f3ctdlvxmzlxw",
-   "time": "10-16 08:18",
-   "category": "ai-models"
-  },
-  {
-   "title": "Musk 称 xAI 2027 年底算力目标可能超过 10GW",
-   "summary": "Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。",
-   "reason": "黄仁勋访谈把 SpaceX 列入 Nvidia 云客户，并透露双方合作设计太空服务器，Musk 追加算力规模可能超 10GW。",
-   "source": "X：Elon Musk (@elonmusk, xAI)",
-   "url": "https://aihot.news/items/dtcyj2lbnn0f9sbmvfqpmjfs6",
-   "time": "10-16 07:36",
    "category": "industry"
   }
  ],
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-16 17:10",
+   "updateTime": "2026-10-17 00:52",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "“以善为饵，比恶更恶”",
+     "url": "https://www.bilibili.com/video/BV1q3pS6tE4J",
+     "hot": 1665671
+    },
+    {
      "title": "《绝区零》菲欧妮角色展示 | 不要死挑战",
      "url": "https://www.bilibili.com/video/BV1d5JQ6pEFS",
-     "hot": 744922
+     "hot": 1800738
+    },
+    {
+     "title": "【侦探TV】真好…每个人都有自己忙的事……",
+     "url": "https://www.bilibili.com/video/BV1czJS6bEG1",
+     "hot": 512404
+    },
+    {
+     "title": "肾里长的石头，医生是怎么取出来的？",
+     "url": "https://www.bilibili.com/video/BV17YJX6FE6F",
+     "hot": 466411
+    },
+    {
+     "title": "“这波秒开仙人，直接把六小龄童看呆了！”",
+     "url": "https://www.bilibili.com/video/BV1Fspj66E66",
+     "hot": 3468946
+    },
+    {
+     "title": "【侯绿萝】更新了一条视频，快来围观！",
+     "url": "https://www.bilibili.com/video/BV1RLJ968Edj",
+     "hot": 511753
     },
     {
      "title": "我造了一块会飞的滑板...",
      "url": "https://www.bilibili.com/video/BV1KiJk67EQ9",
-     "hot": 1674263
+     "hot": 3394764
     },
     {
-     "title": "AI消失前的最后一天……",
-     "url": "https://www.bilibili.com/video/BV1AyJy6SESw",
-     "hot": 802482
+     "title": "欠钱不还却有钱出道？是谁又在给老赖之女洗白？深扒李秀满新女团成员盛艾敬！",
+     "url": "https://www.bilibili.com/video/BV1s7JX6gELt",
+     "hot": 243481
     },
     {
-     "title": "【独家】时光代理人 第三季 PartOne 第11集 消失的出口【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1Nep465Eao",
-     "hot": 725001
+     "title": "“闪身哆嗦毛”",
+     "url": "https://www.bilibili.com/video/BV1ocJm61ERF",
+     "hot": 1776905
     },
     {
-     "title": "根本没有这种祀频",
-     "url": "https://www.bilibili.com/video/BV1sKJ26WEJN",
-     "hot": 158292
+     "title": "【纪录片】威尔史密斯的极地纵横 03 厄瓜多尔搜寻水蚺",
+     "url": "https://www.bilibili.com/video/BV1J9ao6LE9U",
+     "hot": 670956
     },
     {
-     "title": "硫磺桂花揭秘，这个你敢吃不？",
-     "url": "https://www.bilibili.com/video/BV1aFJX6QE7c",
-     "hot": 196919
+     "title": "【昨日海】YW-EX-1至YW-EX-8突袭 摆完挂机 简单好抄",
+     "url": "https://www.bilibili.com/video/BV1dvJX6ZEde",
+     "hot": 747693
     },
     {
-     "title": "宵禁｜鼓敲满一千下，长安城会发生什么（4K成片）",
-     "url": "https://www.bilibili.com/video/BV1VyWw6sEAg",
-     "hot": 1157162
-    },
-    {
-     "title": "操 控 买 瓜 2.0",
-     "url": "https://www.bilibili.com/video/BV1eaJU65Ed4",
-     "hot": 355068
-    },
-    {
-     "title": "挑战拍出刃牙原作没有的剧情！！宫本武藏vs郭海皇！！",
-     "url": "https://www.bilibili.com/video/BV1KYJk6JEDk",
-     "hot": 1175469
-    },
-    {
-     "title": "《二重螺旋》行于破晓版本前瞻研发面谈回放",
-     "url": "https://www.bilibili.com/video/BV1zVJ26UEfT",
-     "hot": 152041
-    },
-    {
-     "title": "思路打开，面包丝信手拈来！今天吃千丝万缕虾和红米肠，一顿漂亮饭给娃小嘴吃的倍儿甜！",
-     "url": "https://www.bilibili.com/video/BV1SGJ168EKP",
-     "hot": 612924
-    },
-    {
-     "title": "《 官 宣 》",
-     "url": "https://www.bilibili.com/video/BV1BkJm6mEMf",
-     "hot": 211258
+     "title": "⚡️鬼畜者联盟，集合！【宗主豪华版】⚡️",
+     "url": "https://www.bilibili.com/video/BV1ctJC6kEGb",
+     "hot": 1148604
     }
    ]
   }
@@ -743,33 +743,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "谷歌购物工具Universal Cart在美国上线",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8380201.shtml",
+   "title": "双11 iPhone Duo平台大战：预售秒罄，首批现货最高溢价超7000元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmyff8339502.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "SK海力士参加OCP峰会 展示下一代AI内存技术",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiin1605089.shtml",
+   "title": "京东集团：坚决维护员工合法权益，法务部将支持员工提起反诉",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmtwx6846554.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "沃尔沃加码与英伟达合作，推进脱手自动驾驶技术",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiip8375299.shtml",
+   "title": "“疯狂小杨哥”注册新账号“庆杨”复播",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmtxi8387744.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "英国首相伯纳姆希望“修复”特朗普与泽连斯基之间的关系",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmiic6940663.shtml",
+   "title": "AI担忧情绪终结债市抛售潮，美债有望创2月以来最佳单周表现",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmtwx6833752.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "小红书发布全员信：将打通AI部门与核心infra团队",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmazr8448996.shtml",
+   "title": "英国拟小幅下调电动汽车销售目标 降幅不及车企预期",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-16/doc-inivmtxh1585977.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "京东七鲜美食MALL北京首店今日正式开业",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmazq1675946.shtml",
+   "title": "清华大学无穹书院联合阿里巴巴启动“AI原生人才培养计划”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-16/doc-inivmtwx6820112.shtml",
    "source": "新浪科技"
   }
  ]
