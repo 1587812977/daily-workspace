@@ -1,17 +1,25 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-17 16:43",
+ "updatedAt": "2026-10-17 23:51",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
-   "source": "PyTorch：Blog（RSS）",
-   "url": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
-   "time": "10-17 06:22",
-   "sourceCount": 17
+   "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
+   "source": "DeepSeek：API 更新日志",
+   "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
+   "time": "10-17 20:55",
+   "sourceCount": 14
   },
   {
    "rank": 2,
+   "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
+   "source": "PyTorch：Blog（RSS）",
+   "url": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
+   "time": "10-17 22:15",
+   "sourceCount": 17
+  },
+  {
+   "rank": 3,
    "title": "商务部拟增列23项AI技术出口管制并答问",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
@@ -19,20 +27,12 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
    "source": "NVIDIA：Newsroom（RSS）",
    "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
-   "time": "10-17 07:54",
-   "sourceCount": 6
-  },
-  {
-   "rank": 4,
-   "title": "Anthropic三季度收入168亿美元，增速放缓",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
-   "time": "10-16 08:54",
-   "sourceCount": 5
+   "time": "10-17 18:19",
+   "sourceCount": 7
   },
   {
    "rank": 5,
@@ -40,26 +40,10 @@ var WB_DATA = {
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
    "time": "10-16 15:34",
-   "sourceCount": 4
+   "sourceCount": 3
   },
   {
    "rank": 6,
-   "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip",
-   "time": "10-16 23:00",
-   "sourceCount": 5
-  },
-  {
-   "rank": 7,
-   "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
-   "source": "NVIDIA Blog（RSS）",
-   "url": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
-   "time": "10-16 03:53",
-   "sourceCount": 14
-  },
-  {
-   "rank": 8,
    "title": "OpenAI 将 computer use 能力引入 Chrome",
    "source": "X：ChatGPT (@ChatGPT)",
    "url": "https://aihot.news/items/bme0mytjnlk0d2lk8hf7srzoh",
@@ -67,23 +51,57 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
+   "rank": 7,
+   "title": "Claude 查明 NIST 椭圆曲线种子来源",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v",
+   "time": "10-17 22:42",
+   "sourceCount": 4
+  },
+  {
+   "rank": 8,
+   "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip",
+   "time": "10-16 23:00",
+   "sourceCount": 4
+  },
+  {
    "rank": 9,
+   "title": "Anthropic三季度收入168亿美元，增速放缓",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
+   "time": "10-16 08:54",
+   "sourceCount": 2
+  },
+  {
+   "rank": 10,
    "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
    "source": "Reflection Blog",
    "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
    "time": "10-17 02:30",
    "sourceCount": 9
-  },
-  {
-   "rank": 10,
-   "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户",
-   "source": "X：邵猛 (@shao__meng)",
-   "url": "https://aihot.news/items/vo248l7ock6kltan370y7gmcd",
-   "time": "10-16 12:37",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
+   "summary": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。",
+   "reason": "作者用一周实测讲清了如何在128G统一内存的RTX Spark笔记本上部署本地模型，并给出可复用的WorkBuddy专家整合流程。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/ffpkck4k06le4smuaz4slhvcz",
+   "time": "10-17 18:19",
+   "category": "tip"
+  },
+  {
+   "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
+   "summary": "WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。",
+   "reason": "作者以官方身份说明 WorkBuddy Intl 已同步最新 DeepSeek 模型并限期免费，读者可直接试用体验。",
+   "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+   "url": "https://aihot.news/items/xgj246drlw70qbgypibz6atla",
+   "time": "10-17 18:29",
+   "category": "ai-products"
+  },
   {
    "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
    "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
@@ -164,33 +182,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/jn8i9j3ppsb0f79mrtldd43h8",
    "time": "10-16 00:00",
    "category": "paper"
-  },
-  {
-   "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
-   "summary": "a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。",
-   "reason": "原文汇集 Cloudflare、Similarweb 等数据，指出智能体购物正遭遇电商封禁与消费者信任不足的双重阻力。",
-   "source": "a16z：News（RSS）",
-   "url": "https://aihot.news/items/j5vlb3dn14h2b4xy1hbdschyc",
-   "time": "10-16 22:00",
-   "category": "opinion"
-  },
-  {
-   "title": "vLLM 实现 Reflection Beam 501B MoE 模型 Day 0 支持",
-   "summary": "vLLM 宣布从 Day 0 支持 Reflection 的 Beam 模型，这是一个 501B 参数、每 token 激活 23B 的 MoE 模型，在 NVIDIA Blackwell 上完成优化。",
-   "reason": "原文给出了 Beam 在 vLLM 上的具体优化数据和部署命令，读者可以直接评估落地配置与吞吐收益。",
-   "source": "vLLM 官方博客（RSS）",
-   "url": "https://aihot.news/items/d0pow9b93paydjtg2i76ang83",
-   "time": "10-16 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Reflection 发布首个开源权重模型 Beam，Artificial Analysis 评测得分 30 居美国开源模型第二",
-   "summary": "Artificial Analysis 评测 Reflection 首个模型 Beam，其在 Artificial Analysis Intelligence Index 得 30 分，在美国开源权重模型中排第二，仅次于 Meta 的 Muse Spark Open（39）。",
-   "reason": "第三方评测给出 Beam 在美国开源权重模型中的位置与 token 效率数据，可用于横向比较其智能体与编码能力。",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/a3roan35e4kghyxdjffek1hop",
-   "time": "10-16 00:00",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -629,68 +620,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-17 16:43",
+   "updateTime": "2026-10-17 23:51",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第20集【总第196集】",
      "url": "https://www.bilibili.com/video/BV1YXJ46nEY9",
-     "hot": 3097102
+     "hot": 4739968
+    },
+    {
+     "title": "花费上万！真人版弹丸论破开庭！",
+     "url": "https://www.bilibili.com/video/BV1Y2Je6BEDr",
+     "hot": 324117
+    },
+    {
+     "title": "【使命召唤23：现代战争4】4K 最高画质 全战役 全剧情流程通关攻略 战役模式 COD23-Call of Duty：Modern Warfare 4【完结】",
+     "url": "https://www.bilibili.com/video/BV1seJb63ENu",
+     "hot": 1361766
     },
     {
      "title": "科学家们用物理智斗爱因斯坦？",
      "url": "https://www.bilibili.com/video/BV1fZJ26mEiY",
-     "hot": 1283482
+     "hot": 2351932
+    },
+    {
+     "title": "我是人类",
+     "url": "https://www.bilibili.com/video/BV1gKJ86JEuP",
+     "hot": 1000540
+    },
+    {
+     "title": "洗衣机如何演奏《雨爱》？",
+     "url": "https://www.bilibili.com/video/BV1fNJQ6bEAj",
+     "hot": 843198
     },
     {
      "title": "一口气看完故宫角楼建造全过程",
      "url": "https://www.bilibili.com/video/BV1t9pr6oE2i",
-     "hot": 575450
+     "hot": 1111195
     },
     {
-     "title": "重卡维修刹车太麻烦了",
-     "url": "https://www.bilibili.com/video/BV1fsJt6tEUJ",
-     "hot": 310657
+     "title": "《遗忘之海》“歌丝莉”剧作者角色PV ——采风记",
+     "url": "https://www.bilibili.com/video/BV1TdJX65ENW",
+     "hot": 456737
     },
     {
      "title": "“优秀的作品都在讲同一件事”",
      "url": "https://www.bilibili.com/video/BV1wbpR6HE1g",
-     "hot": 6531126
-    },
-    {
-     "title": "【微电影】星河外卖员：规则诡域",
-     "url": "https://www.bilibili.com/video/BV19pJY6NEuz",
-     "hot": 130169
-    },
-    {
-     "title": "【毕导】不做诺奖科普的第一年，科普博主我还会做多久？",
-     "url": "https://www.bilibili.com/video/BV1cpJ86BEys",
-     "hot": 437107
-    },
-    {
-     "title": "【千万不要买】从万米高空到万痘公主，水星睡眠密码让你入睡快睡得深！",
-     "url": "https://www.bilibili.com/video/BV142Jt6GEqE",
-     "hot": 272981
-    },
-    {
-     "title": "美国最肥披萨店！全球第一大50斤70000千卡有多离谱？",
-     "url": "https://www.bilibili.com/video/BV19LJQ6QEa2",
-     "hot": 676983
+     "hot": 7358230
     },
     {
      "title": "【纪录片】威尔史密斯的极地纵横 03 厄瓜多尔搜寻水蚺",
      "url": "https://www.bilibili.com/video/BV1J9ao6LE9U",
-     "hot": 1117015
+     "hot": 1303849
     },
     {
-     "title": "英国菜究竟是一种什么刑罚？英国人还有味觉吗？",
-     "url": "https://www.bilibili.com/video/BV18NJX6EE7w",
-     "hot": 567631
+     "title": "当代福尔摩斯让我找到了",
+     "url": "https://www.bilibili.com/video/BV17tJD6REUb",
+     "hot": 978845
     },
     {
-     "title": "历经一个月！我们做到了！！",
-     "url": "https://www.bilibili.com/video/BV1dWJv6GEoH",
-     "hot": 113983
+     "title": "震撼世界！当《黑神话·钟馗》走进现实，中式美学天花板在此！",
+     "url": "https://www.bilibili.com/video/BV18XJC6sE7i",
+     "hot": 944937
     }
    ]
   }
@@ -743,33 +734,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "半夜排队也买不到！iPhone Duo首发不支持线下抢购现货",
-   "url": "https://finance.sina.com.cn/tech/discovery/2026-10-17/doc-inivnzsm7258804.shtml",
+   "title": "抖音：针对京东“左琦”制造和传播谣言的行为坚决维权到底",
+   "url": "https://finance.sina.com.cn/roll/2026-10-17/doc-inivpsqk1389568.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "iPhone Duo下单发货已排到明年1月，首批现货二手平台最高涨7143元",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-10-17/doc-inivnvkm6621901.shtml",
+   "title": "云顶产业与华为达成战略合作，将共建430英亩旗舰智慧园区",
+   "url": "https://finance.sina.com.cn/roll/2026-10-17/doc-inivpspz6375351.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "苹果称首款折叠屏iPhone需求异常强劲 部分订单预计明年交付",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivnvkp7293062.shtml",
+   "title": "库克时隔三年再访米哈游，创始人刘伟带队迎接",
+   "url": "https://finance.sina.com.cn/roll/2026-10-17/doc-inivpnhn1440333.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "特斯拉跑车完成空中特技 引发与SpaceX合并猜想",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivnvku1419220.shtml",
+   "title": "欧洲央行行长拉加德：能源冲击规模巨大，不可忽视",
+   "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyr8177344.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Anthropic在最新一轮芯片融资中向黑石提供两位数收益率",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivnvkm6549846.shtml",
+   "title": "IMFC第54次会议主席声明：经济韧性可持续“不能想当然”",
+   "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyi7214566.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "晨星：梅洛尼在意大利推行的财政紧缩政策或将延续",
-   "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivnraw1506717.shtml",
+   "title": "厄尔尼诺气候损害作物 印度停止将糖用于乙醇生产",
+   "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyf6462171.shtml",
    "source": "新浪科技"
   }
  ]
