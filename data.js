@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-17 10:38",
+ "updatedAt": "2026-10-17 16:43",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,14 +12,6 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
-   "source": "NVIDIA：Newsroom（RSS）",
-   "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
-   "time": "10-17 07:54",
-   "sourceCount": 6
-  },
-  {
-   "rank": 3,
    "title": "商务部拟增列23项AI技术出口管制并答问",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
@@ -27,7 +19,23 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
+   "rank": 3,
+   "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
+   "source": "NVIDIA：Newsroom（RSS）",
+   "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
+   "time": "10-17 07:54",
+   "sourceCount": 6
+  },
+  {
    "rank": 4,
+   "title": "Anthropic三季度收入168亿美元，增速放缓",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
+   "time": "10-16 08:54",
+   "sourceCount": 5
+  },
+  {
+   "rank": 5,
    "title": "Google 发布 Gemini 4 Argon，付费用户独享",
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
@@ -35,15 +43,15 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 5,
-   "title": "Anthropic三季度收入168亿美元，增速放缓",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
-   "time": "10-16 08:54",
-   "sourceCount": 6
+   "rank": 6,
+   "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip",
+   "time": "10-16 23:00",
+   "sourceCount": 5
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型",
    "source": "NVIDIA Blog（RSS）",
    "url": "https://aihot.news/items/l9jgzg24ei3a7m8xu1xfhy9n7",
@@ -51,7 +59,7 @@ var WB_DATA = {
    "sourceCount": 14
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "OpenAI 将 computer use 能力引入 Chrome",
    "source": "X：ChatGPT (@ChatGPT)",
    "url": "https://aihot.news/items/bme0mytjnlk0d2lk8hf7srzoh",
@@ -59,7 +67,7 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
    "source": "Reflection Blog",
    "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
@@ -67,23 +75,33 @@ var WB_DATA = {
    "sourceCount": 9
   },
   {
-   "rank": 9,
+   "rank": 10,
    "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户",
    "source": "X：邵猛 (@shao__meng)",
    "url": "https://aihot.news/items/vo248l7ock6kltan370y7gmcd",
    "time": "10-16 12:37",
-   "sourceCount": 3
-  },
-  {
-   "rank": 10,
-   "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip",
-   "time": "10-16 23:00",
-   "sourceCount": 5
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+   "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
+   "reason": "原文列出各基准分数并说明 API 调用与价格不变，读者可直接评估新版模型是否值得切换。",
+   "source": "DeepSeek：API 更新日志",
+   "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
+   "time": "10-17 00:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "DeepSeek 开放自研搜索 API",
+   "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
+   "reason": "原文给出开放入口、索引规模与过滤机制，接入 RAG 或智能体的开发者可据此评估是否纳入现有工作流。",
+   "source": "DeepSeek：API 更新日志",
+   "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
+   "time": "10-17 00:00",
+   "category": "ai-products"
+  },
   {
    "title": "Anthropic 报告：AI 如何改变公司内部的雇佣与工作组织",
    "summary": "Anthropic 发布基于内部数据的技术报告，研究 AI 对自身雇佣与工作组织的影响。到 2026 年 8 月，交互式 AI agent 工时已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。",
@@ -173,24 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/a3roan35e4kghyxdjffek1hop",
    "time": "10-16 00:00",
    "category": "ai-models"
-  },
-  {
-   "title": "SGLang 原生支持 Reflection 的 Beam 并驱动其生产 API",
-   "summary": "SGLang 团队宣布原生支持 Reflection 的 Beam 1.0（501B 参数 MoE、每 token 激活 23B），并以其驱动 Reflection 的生产 API。",
-   "reason": "原文给出 SGLang 对 Beam 的原生支持细节与实测吞吐数据，读者可据此评估该推理栈在智能体负载下的服务性能。",
-   "source": "LMSYS Blog",
-   "url": "https://aihot.news/items/i6u3av7zg8n3gfy6g7ynhns56",
-   "time": "10-16 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用",
-   "summary": "Reflection 首个开源权重模型 Beam 发布，Ollama 作为 day-zero 合作方在 Ollama Cloud 上限时免费提供，且全程零数据保留（ZDR）。",
-   "reason": "Ollama 作为首发合作方介绍 Beam 的参数结构、上下文窗口和 ZDR 云端接入方式，读者可以据此评估在本机或云端运行该模型的可行性。",
-   "source": "Ollama：Blog（RSS）",
-   "url": "https://aihot.news/items/f14brdupsvks0k2hoang4lx6w",
-   "time": "10-16 08:00",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-17 10:38",
+   "updateTime": "2026-10-17 16:43",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "朱棣：“我的侄子走丢了，有好心人能帮帮我吗？”",
-     "url": "https://www.bilibili.com/video/BV1HCpS6iEXh",
-     "hot": 605671
+     "title": "【独家】《凡人修仙传之慕兰之战》第20集【总第196集】",
+     "url": "https://www.bilibili.com/video/BV1YXJ46nEY9",
+     "hot": 3097102
     },
     {
-     "title": "再给我一个好吗",
-     "url": "https://www.bilibili.com/video/BV1g2JX6HEHX",
-     "hot": 528601
+     "title": "科学家们用物理智斗爱因斯坦？",
+     "url": "https://www.bilibili.com/video/BV1fZJ26mEiY",
+     "hot": 1283482
     },
     {
-     "title": "欠钱不还却有钱出道？是谁又在给老赖之女洗白？深扒李秀满新女团成员盛艾敬！",
-     "url": "https://www.bilibili.com/video/BV1s7JX6gELt",
-     "hot": 583763
+     "title": "一口气看完故宫角楼建造全过程",
+     "url": "https://www.bilibili.com/video/BV1t9pr6oE2i",
+     "hot": 575450
     },
     {
-     "title": "营销噱头还是黑科技?Roadster 2造车门槛是什么？专利、商业解读",
-     "url": "https://www.bilibili.com/video/BV15BJX6dEoR",
-     "hot": 793197
+     "title": "重卡维修刹车太麻烦了",
+     "url": "https://www.bilibili.com/video/BV1fsJt6tEUJ",
+     "hot": 310657
     },
     {
-     "title": "真让她成气候了？这可能是全网最通透的⚡️‌雨 爱⚡️‌！",
-     "url": "https://www.bilibili.com/video/BV1mmJt6kEYW",
-     "hot": 611724
+     "title": "“优秀的作品都在讲同一件事”",
+     "url": "https://www.bilibili.com/video/BV1wbpR6HE1g",
+     "hot": 6531126
     },
     {
-     "title": "当我每次操作，都会同步改变世界所有区块！",
-     "url": "https://www.bilibili.com/video/BV1AfJD6eE3W",
-     "hot": 783544
+     "title": "【微电影】星河外卖员：规则诡域",
+     "url": "https://www.bilibili.com/video/BV19pJY6NEuz",
+     "hot": 130169
     },
     {
-     "title": "【侦探TV】真好…每个人都有自己忙的事……",
-     "url": "https://www.bilibili.com/video/BV1czJS6bEG1",
-     "hot": 989835
+     "title": "【毕导】不做诺奖科普的第一年，科普博主我还会做多久？",
+     "url": "https://www.bilibili.com/video/BV1cpJ86BEys",
+     "hot": 437107
     },
     {
-     "title": "“这波秒开仙人，直接把六小龄童看呆了！”",
-     "url": "https://www.bilibili.com/video/BV1Fspj66E66",
-     "hot": 3918680
+     "title": "【千万不要买】从万米高空到万痘公主，水星睡眠密码让你入睡快睡得深！",
+     "url": "https://www.bilibili.com/video/BV142Jt6GEqE",
+     "hot": 272981
     },
     {
-     "title": "想停在黄河与海的交汇线上，竟然这么难",
-     "url": "https://www.bilibili.com/video/BV1XoHD6QEw4",
-     "hot": 463386
+     "title": "美国最肥披萨店！全球第一大50斤70000千卡有多离谱？",
+     "url": "https://www.bilibili.com/video/BV19LJQ6QEa2",
+     "hot": 676983
     },
     {
      "title": "【纪录片】威尔史密斯的极地纵横 03 厄瓜多尔搜寻水蚺",
      "url": "https://www.bilibili.com/video/BV1J9ao6LE9U",
-     "hot": 934743
+     "hot": 1117015
     },
     {
-     "title": "国产muse和dots来了！个人智能体是怎么抢着帮我干活的？",
-     "url": "https://www.bilibili.com/video/BV1BSJQ6bE6q",
-     "hot": 355452
+     "title": "英国菜究竟是一种什么刑罚？英国人还有味觉吗？",
+     "url": "https://www.bilibili.com/video/BV18NJX6EE7w",
+     "hot": 567631
     },
     {
-     "title": "让人生理性厌恶的两口子黄子韬徐艺洋",
-     "url": "https://www.bilibili.com/video/BV1ukJD6LE2P",
-     "hot": 505537
+     "title": "历经一个月！我们做到了！！",
+     "url": "https://www.bilibili.com/video/BV1dWJv6GEoH",
+     "hot": 113983
     }
    ]
   }
@@ -743,6 +743,16 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "半夜排队也买不到！iPhone Duo首发不支持线下抢购现货",
+   "url": "https://finance.sina.com.cn/tech/discovery/2026-10-17/doc-inivnzsm7258804.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "iPhone Duo下单发货已排到明年1月，首批现货二手平台最高涨7143元",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-17/doc-inivnvkm6621901.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "苹果称首款折叠屏iPhone需求异常强劲 部分订单预计明年交付",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivnvkp7293062.shtml",
    "source": "新浪科技"
@@ -753,11 +763,6 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "特朗普豁免《格雷厄姆法案》中多项对俄制裁、限制措施及关税",
-   "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivnvkm6552060.shtml",
-   "source": "新浪科技"
-  },
-  {
    "title": "Anthropic在最新一轮芯片融资中向黑石提供两位数收益率",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-17/doc-inivnvkm6549846.shtml",
    "source": "新浪科技"
@@ -765,11 +770,6 @@ var WB_DATA = {
   {
    "title": "晨星：梅洛尼在意大利推行的财政紧缩政策或将延续",
    "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivnraw1506717.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "伊尔汗·奥马尔在新函件中反击住宅搜查",
-   "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivnrap6637421.shtml",
    "source": "新浪科技"
   }
  ]
