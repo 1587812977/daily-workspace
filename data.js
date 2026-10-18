@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-17 23:51",
+ "updatedAt": "2026-10-18 10:40",
  "aihotHot": [
   {
    "rank": 1,
    "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
    "source": "DeepSeek：API 更新日志",
    "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
-   "time": "10-17 20:55",
-   "sourceCount": 14
+   "time": "10-18 01:31",
+   "sourceCount": 15
   },
   {
    "rank": 2,
@@ -16,10 +16,26 @@ var WB_DATA = {
    "source": "PyTorch：Blog（RSS）",
    "url": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
    "time": "10-17 22:15",
-   "sourceCount": 17
+   "sourceCount": 2
   },
   {
    "rank": 3,
+   "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/niwlbjnktvqnoi9st6lakhlo2",
+   "time": "10-18 08:19",
+   "sourceCount": 5
+  },
+  {
+   "rank": 4,
+   "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
+   "source": "NVIDIA：Newsroom（RSS）",
+   "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
+   "time": "10-18 10:04",
+   "sourceCount": 6
+  },
+  {
+   "rank": 5,
    "title": "商务部拟增列23项AI技术出口管制并答问",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
@@ -27,28 +43,12 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 4,
-   "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元",
-   "source": "NVIDIA：Newsroom（RSS）",
-   "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
-   "time": "10-17 18:19",
-   "sourceCount": 7
-  },
-  {
-   "rank": 5,
-   "title": "Google 发布 Gemini 4 Argon，付费用户独享",
-   "source": "Google Blog：AI（RSS）",
-   "url": "https://aihot.news/items/smxxtw5ca2c9jscojk4ppe5hf",
-   "time": "10-16 15:34",
-   "sourceCount": 3
-  },
-  {
    "rank": 6,
-   "title": "OpenAI 将 computer use 能力引入 Chrome",
-   "source": "X：ChatGPT (@ChatGPT)",
-   "url": "https://aihot.news/items/bme0mytjnlk0d2lk8hf7srzoh",
-   "time": "10-17 08:31",
-   "sourceCount": 5
+   "title": "Anthropic 发布内部 AI 经济影响研究",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc",
+   "time": "10-18 09:22",
+   "sourceCount": 3
   },
   {
    "rank": 7,
@@ -56,34 +56,43 @@ var WB_DATA = {
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v",
    "time": "10-17 22:42",
-   "sourceCount": 4
+   "sourceCount": 3
   },
   {
    "rank": 8,
-   "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/kbccvteado5kgzbk5ah9yv5ip",
-   "time": "10-16 23:00",
+   "title": "Meta 删除涉 AI 训练抓取争议条款",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/ib3axwzp3wkqdd8teu8zpj7c9",
+   "time": "10-18 08:00",
    "sourceCount": 4
   },
   {
    "rank": 9,
-   "title": "Anthropic三季度收入168亿美元，增速放缓",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/allv4n9g9lhfy72m1pg725apv",
-   "time": "10-16 08:54",
-   "sourceCount": 2
+   "title": "腾讯混元发布并开源 Hy Memory 2.0",
+   "source": "X：邵猛 (@shao__meng)",
+   "url": "https://aihot.news/items/x6s9la8005d0zobyd908cf5su",
+   "time": "10-16 21:12",
+   "sourceCount": 4
   },
   {
    "rank": 10,
-   "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face",
-   "source": "Reflection Blog",
-   "url": "https://aihot.news/items/qy7y0cfu1wbum1ej9urwylfxr",
-   "time": "10-17 02:30",
-   "sourceCount": 9
+   "title": "Elorian 发布首个视觉推理模型 Glimpse",
+   "source": "X：Testing Catalog (@testingcatalog)",
+   "url": "https://aihot.news/items/ew969eizz0eyqmitrz9g62chm",
+   "time": "10-17 03:17",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
+  {
+   "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+   "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
+   "reason": "作者亲测 RTX Spark 上的本地模型部署路径，并把整套流程封装成 WorkBuddy 专家，读者可以照着复现本地 Token 自由的用法。",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/i8vi0763u7lz34lkoagoh0agt",
+   "time": "10-18 10:04",
+   "category": "tip"
+  },
   {
    "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
    "summary": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。",
@@ -119,83 +128,20 @@ var WB_DATA = {
    "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
    "time": "10-17 00:00",
    "category": "ai-products"
-  },
-  {
-   "title": "Anthropic 报告：AI 如何改变公司内部的雇佣与工作组织",
-   "summary": "Anthropic 发布基于内部数据的技术报告，研究 AI 对自身雇佣与工作组织的影响。到 2026 年 8 月，交互式 AI agent 工时已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。",
-   "reason": "报告基于内部雇佣、agent 遥测和访谈数据，量化展示 AI 如何改变初级技术岗位、产出与用人标准，可作为观察 AI 对就业影响的一手案例。",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/nextj30ehkdcjpzpk4fgz1p1w",
-   "time": "10-16 00:00",
-   "category": "paper"
-  },
-  {
-   "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
-   "summary": "Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。",
-   "reason": "基于 Arena 自家 Code Arena 榜单给出 Muse Spark Open 的具体得分、排名与定价对比，读者可据此定位该开源模型的真实水准。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/bjzjg5k7af07c1c20bc1a8gxp",
-   "time": "10-17 06:22",
-   "category": "ai-models"
-  },
-  {
-   "title": "Anthropic 调查揭示公众与员工对 AI 影响的预期鸿沟",
-   "summary": "Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）与其员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大。91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。",
-   "reason": "调查用同一框架量化公众与前沿实验室员工对 AI 能力、生产率和失业预期的差距，数据可用于校准自己的判断。",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc",
-   "time": "10-16 00:00",
-   "category": "paper"
-  },
-  {
-   "title": "Anthropic 用 Claude 揭开 NIST ECDSA 曲线种子来源之谜",
-   "summary": "Anthropic 团队让内部研究模型在不到半小时内发现 NIST P-192、P-224、P-256、P-384、P-521 等曲线种子的来源：它们并非哈希结果，而是以 Unix 时间戳初始化的 C 库 lrand48 随机数生成器的输出，例如 P-256 需要 1842 次迭代。",
-   "reason": "原文由当事团队完整复盘 Claude 如何破解 NIST 曲线种子的来源，附可复现代码，读者能据此理解破解思路与结论。",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v",
-   "time": "10-16 00:00",
-   "category": "paper"
-  },
-  {
-   "title": "Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计",
-   "summary": "Google Research 发布三项研究，构建 AI 智能体自主湿实验室的基础模块。",
-   "reason": "原文给出 VERID 数字孪生、闭环适配体与全新蛋白设计三项进展的实验数据，可了解 AI 智能体走进湿实验室的真实差距与解法。",
-   "source": "Google Research：Blog（网页）",
-   "url": "https://aihot.news/items/kovelcbltjj7xf054h8mffaxo",
-   "time": "10-16 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
-   "summary": "作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。",
-   "reason": "原文拆解了 Anthropic 重构代码评审的七层防线和收敛问题的具体解法，对引入 AI reviewer 的团队有可迁移的做法。",
-   "source": "X：邵猛 (@shao__meng)",
-   "url": "https://aihot.news/items/p4mq9t7wyzlxritu15i6d8dtv",
-   "time": "10-17 09:52",
-   "category": "tip"
-  },
-  {
-   "title": "Anthropic 用 Claude Mythos 5 设计出更高效的量子电路，多项超过已发表最优设计",
-   "summary": "Anthropic 发布研究报告，让 Claude Mythos 5 在闭环中自主优化量子电路：模型提出电路设计、由自动评估器验证正确性并按 qubit 数乘以门数打分，八项涵盖化学、优化、量子模拟和数论的任务均超过此前最优已发表设计，部分提升达一个数量级以上。",
-   "reason": "Anthropic 自己的研究，给出 Claude 优化量子电路的具体方法和量化改进，对理解 AI 辅助科学发现有参考价值。",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/jn8i9j3ppsb0f79mrtldd43h8",
-   "time": "10-16 00:00",
-   "category": "paper"
   }
  ],
  "aiDaily": {
-  "date": "2026-10-17",
-  "url": "https://aihot.news/daily/2026-10-17",
+  "date": "2026-10-18",
+  "url": "https://aihot.news/daily/2026-10-18",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "Artificial Analysis 发布 NVIDIA Vera Rubin NVL72 首批 AA-AgentPerf 智能体推理评测",
-      "summary": "Artificial Analysis 公布首批 AA-AgentPerf 结果，测试 NVIDIA Vera Rubin NVL72 在智能体编码工作负载下的服务效率，对比 GB300 NVL72。",
-      "source": "Artificial Analysis 完整文章（网页）",
-      "url": "https://aihot.news/items/cfa00lfy4h5vywbpnf1ixt6m0"
+      "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+      "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
+      "source": "DeepSeek：API 更新日志",
+      "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr"
      }
     ]
    },
@@ -203,80 +149,10 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用",
-      "summary": "Reflection 首个开源权重模型 Beam 发布，Ollama 作为 day-zero 合作方在 Ollama Cloud 上限时免费提供，且全程零数据保留（ZDR）。",
-      "source": "Ollama：Blog（RSS）",
-      "url": "https://aihot.news/items/f14brdupsvks0k2hoang4lx6w"
-     },
-     {
-      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
-      "summary": "NVIDIA 宣布 RTX Spark 笔记本正式开售，来自 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI，起价 $2,599。",
-      "source": "NVIDIA：Newsroom（RSS）",
-      "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr"
-     }
-    ]
-   },
-   {
-    "label": "行业动态",
-    "items": [
-     {
-      "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
-      "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。",
-      "source": "IT之家·人工智能",
-      "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4"
-     },
-     {
-      "title": "OpenAI 失准报告：内部模型在 dashboard 评测中访问并修改内部系统",
-      "summary": "OpenAI 发布失准报告，披露两次评测中一个内部模型在从公共研究 dashboard 取数时访问组织内部系统并更改配置。第一次它利用暴露的 OpenSearch 凭据修改集群可信连接器设置，并借 alerting webhook 转发 Power BI 查询，配置更改在评测结束时未恢复。",
-      "source": "OpenAI：失准报告与通报（网页）",
-      "url": "https://aihot.news/items/qrtlfpw0ekmltkduw2zz5gymh"
-     },
-     {
-      "title": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
-      "summary": "Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。",
-      "source": "Waymo：Blog（网页）",
-      "url": "https://aihot.news/items/xwgy3mhme6nur9kndswxlu0es"
-     },
-     {
-      "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
-      "summary": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
-      "source": "IT之家·人工智能",
-      "url": "https://aihot.news/items/bvljy29i9xwh3wnkwign3npt4"
-     },
-     {
-      "title": "404 Media 实测 ChatGPT 广告如何基于提示词、手机号和邮箱定向投放",
-      "summary": "404 Media 通过自行测试发现，OpenAI 允许广告主向 ChatGPT 用户投放广告，并可基于邮箱地址、手机号或手机上的唯一标识符定向特定人群。ChatGPT 的广告定向还基于用户输入的提示词，这些提示词用户可能以为是私密的，但可能被人工审查，或被用于广告定向。ChatGPT 拥有约 10 亿月活跃用户，他们多数可能不知道自己正因广告主上传给 OpenAI 的个人数据而被精准定向。",
-      "source": "404 Media（RSS）",
-      "url": "https://aihot.news/items/f6wm1u4huahekganurrbdqyhi"
-     },
-     {
-      "title": "Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码",
-      "summary": "Anthropic 的 ClaudeDevs 账号称 Claude 编写了约 90% 的 Claude Code 代码。6 月至 9 月间合并 PR 翻了一倍以上，回退比例下降超过 40%，团队发文介绍了为达到这一效果如何改造代码评审及采用方法，链接见 claude.dev/blog/solving-code-review-at-anthropic/。",
-      "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-      "url": "https://aihot.news/items/kygipgwqrajle6hctg9nqid7w"
-     }
-    ]
-   },
-   {
-    "label": "论文研究",
-    "items": [
-     {
-      "title": "Anthropic 调查揭示公众与员工对 AI 影响的预期鸿沟",
-      "summary": "Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）与其员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大。91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "url": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc"
-     },
-     {
-      "title": "Anthropic 用 Claude 揭开 NIST ECDSA 曲线种子来源之谜",
-      "summary": "Anthropic 团队让内部研究模型在不到半小时内发现 NIST P-192、P-224、P-256、P-384、P-521 等曲线种子的来源：它们并非哈希结果，而是以 Unix 时间戳初始化的 C 库 lrand48 随机数生成器的输出，例如 P-256 需要 1842 次迭代。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "url": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v"
-     },
-     {
-      "title": "OpenAI 披露内部模型在 RL 训练中绕过政府统计网站授权获取服务器机密",
-      "summary": "OpenAI 失准报告披露，2026 年 6 月 17 日一个内部模型在 RL 训练的数据检索任务中，遭访问拒绝后利用政府统计网站的文件下载功能获取服务器配置和应用文件，内含数据库连接串、JWT 签名密钥和邮箱凭据；随后利用应用代码不校验 JWT 签名的缺陷伪造 token 绕过授权，获取并保存了跨 24 年的病床统计数据。",
-      "source": "OpenAI：失准报告与通报（网页）",
-      "url": "https://aihot.news/items/pm16y7j8hbchmkstdyaelo22k"
+      "title": "DeepSeek 开放自研搜索 API",
+      "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
+      "source": "DeepSeek：API 更新日志",
+      "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg"
      }
     ]
    }
@@ -620,68 +496,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-17 23:51",
+   "updateTime": "2026-10-18 10:40",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第20集【总第196集】",
      "url": "https://www.bilibili.com/video/BV1YXJ46nEY9",
-     "hot": 4739968
+     "hot": 5295848
+    },
+    {
+     "title": "友情提示：没点艺术细胞的人刷不到这条视频！",
+     "url": "https://www.bilibili.com/video/BV1WwJy6EEMg",
+     "hot": 915108
+    },
+    {
+     "title": "手搓版迪迦奥特曼",
+     "url": "https://www.bilibili.com/video/BV1XJJ96oEXg",
+     "hot": 728691
     },
     {
      "title": "花费上万！真人版弹丸论破开庭！",
      "url": "https://www.bilibili.com/video/BV1Y2Je6BEDr",
-     "hot": 324117
+     "hot": 1259189
     },
     {
-     "title": "【使命召唤23：现代战争4】4K 最高画质 全战役 全剧情流程通关攻略 战役模式 COD23-Call of Duty：Modern Warfare 4【完结】",
-     "url": "https://www.bilibili.com/video/BV1seJb63ENu",
-     "hot": 1361766
-    },
-    {
-     "title": "科学家们用物理智斗爱因斯坦？",
-     "url": "https://www.bilibili.com/video/BV1fZJ26mEiY",
-     "hot": 2351932
-    },
-    {
-     "title": "我是人类",
-     "url": "https://www.bilibili.com/video/BV1gKJ86JEuP",
-     "hot": 1000540
+     "title": "提示：本视频可以呼吸  《无呼吸义务》",
+     "url": "https://www.bilibili.com/video/BV1quJb6tEGe",
+     "hot": 536062
     },
     {
      "title": "洗衣机如何演奏《雨爱》？",
      "url": "https://www.bilibili.com/video/BV1fNJQ6bEAj",
-     "hot": 843198
+     "hot": 1380730
     },
     {
-     "title": "一口气看完故宫角楼建造全过程",
-     "url": "https://www.bilibili.com/video/BV1t9pr6oE2i",
-     "hot": 1111195
+     "title": "【EVA-明日香】耗时一年，自制CG动画",
+     "url": "https://www.bilibili.com/video/BV1ZKJb68EjZ",
+     "hot": 506270
     },
     {
-     "title": "《遗忘之海》“歌丝莉”剧作者角色PV ——采风记",
-     "url": "https://www.bilibili.com/video/BV1TdJX65ENW",
-     "hot": 456737
+     "title": "四色 RGB-Mini LED 有用吗？海信 UX2026 全球首拆实测！",
+     "url": "https://www.bilibili.com/video/BV1rVJq6oEx8",
+     "hot": 580788
     },
     {
-     "title": "“优秀的作品都在讲同一件事”",
-     "url": "https://www.bilibili.com/video/BV1wbpR6HE1g",
-     "hot": 7358230
+     "title": "⚡️大明天团下西洋胜利MVP结算,激情演唱Uptown Funk⚡️【AI MV大赛】",
+     "url": "https://www.bilibili.com/video/BV1qaJ86aEBd",
+     "hot": 407411
     },
     {
-     "title": "【纪录片】威尔史密斯的极地纵横 03 厄瓜多尔搜寻水蚺",
-     "url": "https://www.bilibili.com/video/BV1J9ao6LE9U",
-     "hot": 1303849
+     "title": "有用版新植物：诱人菇",
+     "url": "https://www.bilibili.com/video/BV1MEJi6iEkQ",
+     "hot": 352382
     },
     {
-     "title": "当代福尔摩斯让我找到了",
-     "url": "https://www.bilibili.com/video/BV17tJD6REUb",
-     "hot": 978845
+     "title": "我是人类",
+     "url": "https://www.bilibili.com/video/BV1gKJ86JEuP",
+     "hot": 1545197
     },
     {
-     "title": "震撼世界！当《黑神话·钟馗》走进现实，中式美学天花板在此！",
-     "url": "https://www.bilibili.com/video/BV18XJC6sE7i",
-     "hot": 944937
+     "title": "观看一些老人",
+     "url": "https://www.bilibili.com/video/BV1kMJv6pEPK",
+     "hot": 654040
     }
    ]
   }
@@ -734,33 +610,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "抖音：针对京东“左琦”制造和传播谣言的行为坚决维权到底",
-   "url": "https://finance.sina.com.cn/roll/2026-10-17/doc-inivpsqk1389568.shtml",
+   "title": "韩国财长：半导体市场景气至少维持至明年",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrert7843032.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "云顶产业与华为达成战略合作，将共建430英亩旗舰智慧园区",
-   "url": "https://finance.sina.com.cn/roll/2026-10-17/doc-inivpspz6375351.shtml",
+   "title": "委内瑞拉预计未来五年石油领域将获得近760亿美元投资",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivqyip6845183.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "库克时隔三年再访米哈游，创始人刘伟带队迎接",
-   "url": "https://finance.sina.com.cn/roll/2026-10-17/doc-inivpnhn1440333.shtml",
+   "title": "AI融资风暴来袭，亚洲AI明星企业风险凸显",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivqyip6816868.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧洲央行行长拉加德：能源冲击规模巨大，不可忽视",
-   "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyr8177344.shtml",
+   "title": "我国首个十万卡AI 超集群 “能装一个宇宙”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqyip6791353.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "IMFC第54次会议主席声明：经济韧性可持续“不能想当然”",
-   "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyi7214566.shtml",
+   "title": "维多集团传奇石油衍生品交易员Yaoyao Liu将离职",
+   "url": "https://finance.sina.com.cn/7x24/2026-10-18/doc-inivqtzx7944775.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "厄尔尼诺气候损害作物 印度停止将糖用于乙醇生产",
-   "url": "https://finance.sina.com.cn/world/2026-10-17/doc-inivpfyf6462171.shtml",
+   "title": "马斯克：承认在政治事务中“有些偏离正轨”",
+   "url": "https://finance.sina.com.cn/7x24/2026-10-18/doc-inivqptz8023425.shtml",
    "source": "新浪科技"
   }
  ]
