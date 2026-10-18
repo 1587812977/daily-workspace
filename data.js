@@ -1,25 +1,17 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-18 10:40",
+ "updatedAt": "2026-10-18 16:58",
  "aihotHot": [
   {
    "rank": 1,
    "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
    "source": "DeepSeek：API 更新日志",
    "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
-   "time": "10-18 01:31",
+   "time": "10-18 10:53",
    "sourceCount": 15
   },
   {
    "rank": 2,
-   "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
-   "source": "PyTorch：Blog（RSS）",
-   "url": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
-   "time": "10-17 22:15",
-   "sourceCount": 2
-  },
-  {
-   "rank": 3,
    "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/niwlbjnktvqnoi9st6lakhlo2",
@@ -27,7 +19,7 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 4,
+   "rank": 3,
    "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
    "source": "NVIDIA：Newsroom（RSS）",
    "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
@@ -35,20 +27,28 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 5,
-   "title": "商务部拟增列23项AI技术出口管制并答问",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
-   "time": "10-17 09:30",
-   "sourceCount": 5
-  },
-  {
-   "rank": 6,
+   "rank": 4,
    "title": "Anthropic 发布内部 AI 经济影响研究",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc",
-   "time": "10-18 09:22",
-   "sourceCount": 3
+   "time": "10-18 14:27",
+   "sourceCount": 4
+  },
+  {
+   "rank": 5,
+   "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
+   "source": "PyTorch：Blog（RSS）",
+   "url": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
+   "time": "10-17 22:15",
+   "sourceCount": 2
+  },
+  {
+   "rank": 6,
+   "title": "OpenAI API短暂出现三个aurora模型引用后移除",
+   "source": "X：Testing Catalog (@testingcatalog)",
+   "url": "https://aihot.news/items/bhawxaabotw0ecxenp7uujfbo",
+   "time": "10-18 15:42",
+   "sourceCount": 1
   },
   {
    "rank": 7,
@@ -60,26 +60,26 @@ var WB_DATA = {
   },
   {
    "rank": 8,
-   "title": "Meta 删除涉 AI 训练抓取争议条款",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/ib3axwzp3wkqdd8teu8zpj7c9",
-   "time": "10-18 08:00",
-   "sourceCount": 4
+   "title": "Anthropic 联创称 AI 到 2030 年可推高美国 GDP 近 50%",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/noioo6ectkhpxnngwsnks37vv",
+   "time": "10-18 12:27",
+   "sourceCount": 1
   },
   {
    "rank": 9,
-   "title": "腾讯混元发布并开源 Hy Memory 2.0",
-   "source": "X：邵猛 (@shao__meng)",
-   "url": "https://aihot.news/items/x6s9la8005d0zobyd908cf5su",
-   "time": "10-16 21:12",
-   "sourceCount": 4
+   "title": "DeepSeek开放自研搜索API",
+   "source": "DeepSeek：API 更新日志",
+   "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
+   "time": "10-17 00:00",
+   "sourceCount": 1
   },
   {
    "rank": 10,
-   "title": "Elorian 发布首个视觉推理模型 Glimpse",
-   "source": "X：Testing Catalog (@testingcatalog)",
-   "url": "https://aihot.news/items/ew969eizz0eyqmitrz9g62chm",
-   "time": "10-17 03:17",
+   "title": "商务部拟增列23项AI技术出口管制并答问",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
+   "time": "10-17 09:30",
    "sourceCount": 4
   }
  ],
@@ -109,24 +109,6 @@ var WB_DATA = {
    "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
    "url": "https://aihot.news/items/xgj246drlw70qbgypibz6atla",
    "time": "10-17 18:29",
-   "category": "ai-products"
-  },
-  {
-   "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
-   "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
-   "reason": "原文列出各基准分数并说明 API 调用与价格不变，读者可直接评估新版模型是否值得切换。",
-   "source": "DeepSeek：API 更新日志",
-   "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
-   "time": "10-17 00:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "DeepSeek 开放自研搜索 API",
-   "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
-   "reason": "原文给出开放入口、索引规模与过滤机制，接入 RAG 或智能体的开发者可据此评估是否纳入现有工作流。",
-   "source": "DeepSeek：API 更新日志",
-   "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
-   "time": "10-17 00:00",
    "category": "ai-products"
   }
  ],
@@ -496,68 +478,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-18 10:40",
+   "updateTime": "2026-10-18 16:58",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【独家】《凡人修仙传之慕兰之战》第20集【总第196集】",
-     "url": "https://www.bilibili.com/video/BV1YXJ46nEY9",
-     "hot": 5295848
+     "title": "长乐夜未央丨全新主题区域「未央城」即将上线",
+     "url": "https://www.bilibili.com/video/BV186Jq6uEFu",
+     "hot": 1733458
+    },
+    {
+     "title": "为什么GTR被叫做战神？？？",
+     "url": "https://www.bilibili.com/video/BV1JBng6SEqF",
+     "hot": 156354
+    },
+    {
+     "title": "一念起落 //  遐思英雄预告 - 无畏契约",
+     "url": "https://www.bilibili.com/video/BV1M4J661Exa",
+     "hot": 478203
+    },
+    {
+     "title": "【独家】牧神记 第105集 屈山神殿",
+     "url": "https://www.bilibili.com/video/BV1WwJY6SEug",
+     "hot": 1180284
+    },
+    {
+     "title": "强迫法老在工地玩说唱，结果做出了一首......",
+     "url": "https://www.bilibili.com/video/BV1cxJa65EEJ",
+     "hot": 659069
     },
     {
      "title": "友情提示：没点艺术细胞的人刷不到这条视频！",
      "url": "https://www.bilibili.com/video/BV1WwJy6EEMg",
-     "hot": 915108
+     "hot": 2050332
     },
     {
-     "title": "手搓版迪迦奥特曼",
-     "url": "https://www.bilibili.com/video/BV1XJJ96oEXg",
-     "hot": 728691
+     "title": "《鸣潮》共鸣者战斗演示 | 锁暝",
+     "url": "https://www.bilibili.com/video/BV1NsnM6DEz5",
+     "hot": 672171
     },
     {
-     "title": "花费上万！真人版弹丸论破开庭！",
-     "url": "https://www.bilibili.com/video/BV1Y2Je6BEDr",
-     "hot": 1259189
+     "title": "【微电影】星河外卖员：规则诡域",
+     "url": "https://www.bilibili.com/video/BV19pJY6NEuz",
+     "hot": 901433
     },
     {
-     "title": "提示：本视频可以呼吸  《无呼吸义务》",
-     "url": "https://www.bilibili.com/video/BV1quJb6tEGe",
-     "hot": 536062
+     "title": "⚡我发明了根治艾滋病的药物，能获得诺贝尔奖吗？⚡",
+     "url": "https://www.bilibili.com/video/BV1RhJt6WECR",
+     "hot": 1401681
     },
     {
      "title": "洗衣机如何演奏《雨爱》？",
      "url": "https://www.bilibili.com/video/BV1fNJQ6bEAj",
-     "hot": 1380730
+     "hot": 2324794
     },
     {
-     "title": "【EVA-明日香】耗时一年，自制CG动画",
-     "url": "https://www.bilibili.com/video/BV1ZKJb68EjZ",
-     "hot": 506270
+     "title": "手搓版迪迦奥特曼",
+     "url": "https://www.bilibili.com/video/BV1XJJ96oEXg",
+     "hot": 1593031
     },
     {
-     "title": "四色 RGB-Mini LED 有用吗？海信 UX2026 全球首拆实测！",
-     "url": "https://www.bilibili.com/video/BV1rVJq6oEx8",
-     "hot": 580788
-    },
-    {
-     "title": "⚡️大明天团下西洋胜利MVP结算,激情演唱Uptown Funk⚡️【AI MV大赛】",
-     "url": "https://www.bilibili.com/video/BV1qaJ86aEBd",
-     "hot": 407411
-    },
-    {
-     "title": "有用版新植物：诱人菇",
-     "url": "https://www.bilibili.com/video/BV1MEJi6iEkQ",
-     "hot": 352382
-    },
-    {
-     "title": "我是人类",
-     "url": "https://www.bilibili.com/video/BV1gKJ86JEuP",
-     "hot": 1545197
-    },
-    {
-     "title": "观看一些老人",
-     "url": "https://www.bilibili.com/video/BV1kMJv6pEPK",
-     "hot": 654040
+     "title": "不是 AI 特效！这才是《中国功夫》的魅力！",
+     "url": "https://www.bilibili.com/video/BV1MHJB63Emv",
+     "hot": 209016
     }
    ]
   }
@@ -610,33 +592,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "韩国财长：半导体市场景气至少维持至明年",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrert7843032.shtml",
+   "title": "埃安Ray7开启预售：纯电续航最高702公里，预售价12.88万元起",
+   "url": "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrvpk0993664.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "委内瑞拉预计未来五年石油领域将获得近760亿美元投资",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivqyip6845183.shtml",
+   "title": "马斯克造了台会飞的车",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-10-18/doc-inivrrfr6644188.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "AI融资风暴来袭，亚洲AI明星企业风险凸显",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivqyip6816868.shtml",
+   "title": "高通孟樸：终端侧AI正发挥重要作用，智能体的发展进一步加速这一趋势",
+   "url": "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrrfn1068767.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "我国首个十万卡AI 超集群 “能装一个宇宙”",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqyip6791353.shtml",
+   "title": "微软取消AI相关合作，英国本土数据中心先锋企业遭遇重大挫折",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrft7315033.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "维多集团传奇石油衍生品交易员Yaoyao Liu将离职",
-   "url": "https://finance.sina.com.cn/7x24/2026-10-18/doc-inivqtzx7944775.shtml",
+   "title": "厄尔尼诺影响 甘蔗减产 印度禁令或抑制糖价上涨",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfn1008034.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "马斯克：承认在政治事务中“有些偏离正轨”",
-   "url": "https://finance.sina.com.cn/7x24/2026-10-18/doc-inivqptz8023425.shtml",
+   "title": "StoneX将微软目标价从450美元上调至600美元，看好AI芯片、智能体及Azure业务进展",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfr6575781.shtml",
    "source": "新浪科技"
   }
  ]
