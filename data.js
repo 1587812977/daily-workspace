@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-18 16:58",
+ "updatedAt": "2026-10-19 00:05",
  "aihotHot": [
   {
    "rank": 1,
@@ -20,14 +20,6 @@ var WB_DATA = {
   },
   {
    "rank": 3,
-   "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
-   "source": "NVIDIA：Newsroom（RSS）",
-   "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
-   "time": "10-18 10:04",
-   "sourceCount": 6
-  },
-  {
-   "rank": 4,
    "title": "Anthropic 发布内部 AI 经济影响研究",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/oetmf0o04av0c4h7yrgfkb4zc",
@@ -35,12 +27,20 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
+   "rank": 4,
+   "title": "DeepSeek开放自研搜索API并按次计费",
+   "source": "DeepSeek：API 更新日志",
+   "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
+   "time": "10-18 19:59",
+   "sourceCount": 1
+  },
+  {
    "rank": 5,
-   "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行",
-   "source": "PyTorch：Blog（RSS）",
-   "url": "https://aihot.news/items/s80tw5g2v22j1se4bmqejyaq4",
-   "time": "10-17 22:15",
-   "sourceCount": 2
+   "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一",
+   "source": "NVIDIA：Newsroom（RSS）",
+   "url": "https://aihot.news/items/rq32az1hr7zpbipiyega9ehjr",
+   "time": "10-18 10:04",
+   "sourceCount": 5
   },
   {
    "rank": 6,
@@ -52,6 +52,22 @@ var WB_DATA = {
   },
   {
    "rank": 7,
+   "title": "微软终止与Nscale数据中心合作",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/zdr1iocr9utx4dpu6qqhfj6r6",
+   "time": "10-18 18:42",
+   "sourceCount": 1
+  },
+  {
+   "rank": 8,
+   "title": "Google Research 开源 Harness² 智能体优化框架",
+   "source": "MarkTechPost（RSS）",
+   "url": "https://aihot.news/items/dx71nlu9cfqru07lmiqaiqu9d",
+   "time": "10-18 16:15",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
    "title": "Claude 查明 NIST 椭圆曲线种子来源",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/ckrtcqc9dnngil5ev7m60ns4v",
@@ -59,31 +75,33 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 8,
+   "rank": 10,
    "title": "Anthropic 联创称 AI 到 2030 年可推高美国 GDP 近 50%",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/noioo6ectkhpxnngwsnks37vv",
    "time": "10-18 12:27",
    "sourceCount": 1
-  },
-  {
-   "rank": 9,
-   "title": "DeepSeek开放自研搜索API",
-   "source": "DeepSeek：API 更新日志",
-   "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
-   "time": "10-17 00:00",
-   "sourceCount": 1
-  },
-  {
-   "rank": 10,
-   "title": "商务部拟增列23项AI技术出口管制并答问",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/p11tj593iq5nrtiotvoxllop4",
-   "time": "10-17 09:30",
-   "sourceCount": 4
   }
  ],
  "aihotItems": [
+  {
+   "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+   "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
+   "reason": "两起德国法院判例指向同一法律逻辑，文章还分析了 Google 以和解回避判例对 AI 搜索商业模式的潜在影响。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f",
+   "time": "10-18 18:52",
+   "category": "industry"
+  },
+  {
+   "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+   "summary": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。",
+   "reason": "Anthropic 内部数据显示初级技术岗位占比明显下降而 Agent 工时升至人力六倍，报道还保留了研究自身对数据局限性的说明。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0",
+   "time": "10-18 21:22",
+   "category": "industry"
+  },
   {
    "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
    "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
@@ -92,24 +110,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/i8vi0763u7lz34lkoagoh0agt",
    "time": "10-18 10:04",
    "category": "tip"
-  },
-  {
-   "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
-   "summary": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。",
-   "reason": "作者用一周实测讲清了如何在128G统一内存的RTX Spark笔记本上部署本地模型，并给出可复用的WorkBuddy专家整合流程。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/ffpkck4k06le4smuaz4slhvcz",
-   "time": "10-17 18:19",
-   "category": "tip"
-  },
-  {
-   "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
-   "summary": "WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。",
-   "reason": "作者以官方身份说明 WorkBuddy Intl 已同步最新 DeepSeek 模型并限期免费，读者可直接试用体验。",
-   "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-   "url": "https://aihot.news/items/xgj246drlw70qbgypibz6atla",
-   "time": "10-17 18:29",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -478,68 +478,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-18 16:58",
+   "updateTime": "2026-10-19 00:05",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "长乐夜未央丨全新主题区域「未央城」即将上线",
-     "url": "https://www.bilibili.com/video/BV186Jq6uEFu",
-     "hot": 1733458
+     "title": "“这才是许愿池真正的意义，每一枚硬币都藏着人间善意”",
+     "url": "https://www.bilibili.com/video/BV16GJv6SEeE",
+     "hot": 3503269
     },
     {
-     "title": "为什么GTR被叫做战神？？？",
-     "url": "https://www.bilibili.com/video/BV1JBng6SEqF",
-     "hot": 156354
+     "title": "这款游戏出现在21世纪还是太超前了",
+     "url": "https://www.bilibili.com/video/BV1nFJ66PE1K",
+     "hot": 703488
     },
     {
-     "title": "一念起落 //  遐思英雄预告 - 无畏契约",
-     "url": "https://www.bilibili.com/video/BV1M4J661Exa",
-     "hot": 478203
+     "title": "熊出没最巅峰的一个系列，四季篇",
+     "url": "https://www.bilibili.com/video/BV1WXJq6cE7Y",
+     "hot": 1512805
     },
     {
      "title": "【独家】牧神记 第105集 屈山神殿",
      "url": "https://www.bilibili.com/video/BV1WwJY6SEug",
-     "hot": 1180284
-    },
-    {
-     "title": "强迫法老在工地玩说唱，结果做出了一首......",
-     "url": "https://www.bilibili.com/video/BV1cxJa65EEJ",
-     "hot": 659069
-    },
-    {
-     "title": "友情提示：没点艺术细胞的人刷不到这条视频！",
-     "url": "https://www.bilibili.com/video/BV1WwJy6EEMg",
-     "hot": 2050332
-    },
-    {
-     "title": "《鸣潮》共鸣者战斗演示 | 锁暝",
-     "url": "https://www.bilibili.com/video/BV1NsnM6DEz5",
-     "hot": 672171
-    },
-    {
-     "title": "【微电影】星河外卖员：规则诡域",
-     "url": "https://www.bilibili.com/video/BV19pJY6NEuz",
-     "hot": 901433
-    },
-    {
-     "title": "⚡我发明了根治艾滋病的药物，能获得诺贝尔奖吗？⚡",
-     "url": "https://www.bilibili.com/video/BV1RhJt6WECR",
-     "hot": 1401681
-    },
-    {
-     "title": "洗衣机如何演奏《雨爱》？",
-     "url": "https://www.bilibili.com/video/BV1fNJQ6bEAj",
-     "hot": 2324794
-    },
-    {
-     "title": "手搓版迪迦奥特曼",
-     "url": "https://www.bilibili.com/video/BV1XJJ96oEXg",
-     "hot": 1593031
+     "hot": 1880733
     },
     {
      "title": "不是 AI 特效！这才是《中国功夫》的魅力！",
      "url": "https://www.bilibili.com/video/BV1MHJB63Emv",
-     "hot": 209016
+     "hot": 761802
+    },
+    {
+     "title": "每一位认真谋生的人都值得被仰望",
+     "url": "https://www.bilibili.com/video/BV1Jonu6mEwN",
+     "hot": 301446
+    },
+    {
+     "title": "芬兰小龙虾泛滥！现钓现吃小龙虾干爆桶太炸裂！中式小龙虾盛宴蒜蓉麻辣花式做法震碎芬兰人！",
+     "url": "https://www.bilibili.com/video/BV1Yqn36uEAQ",
+     "hot": 267902
+    },
+    {
+     "title": "震撼世界！当《黑神话·钟馗》走进现实，中式美学天花板在此！",
+     "url": "https://www.bilibili.com/video/BV18XJC6sE7i",
+     "hot": 1751830
+    },
+    {
+     "title": "长乐夜未央丨全新主题区域「未央城」即将上线",
+     "url": "https://www.bilibili.com/video/BV186Jq6uEFu",
+     "hot": 2995312
+    },
+    {
+     "title": "【盲人无障碍电影】冰雪奇缘第一部",
+     "url": "https://www.bilibili.com/video/BV1G5po6zECY",
+     "hot": 887529
+    },
+    {
+     "title": "【STN快报第8.5季23】在黎明行者之血2，你的家人可能死不了了",
+     "url": "https://www.bilibili.com/video/BV1rcn56hEoT",
+     "hot": 183917
+    },
+    {
+     "title": "《弟子不必不如师》",
+     "url": "https://www.bilibili.com/video/BV163Jv6nESE",
+     "hot": 781007
     }
    ]
   }
@@ -592,8 +592,18 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "埃安Ray7开启预售：纯电续航最高702公里，预售价12.88万元起",
-   "url": "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrvpk0993664.shtml",
+   "title": "乐道汽车携手户外运动产业大会，总裁沈斐：参与城市体育是品牌使命的自然延伸",
+   "url": "https://finance.sina.com.cn/tob/2026-10-18/doc-inivshce0924140.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "智界汽车将取得独立造车资质，未来计划独立上市",
+   "url": "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrzvh0962660.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "“无明细？无截图？无核查？” 山姆新会员章程悄然生效，消费者怒称“黄牛堵不住，自己卡却被封了”",
+   "url": "https://finance.sina.com.cn/tob/2026-10-18/doc-inivrvpp6557499.shtml",
    "source": "新浪科技"
   },
   {
@@ -609,16 +619,6 @@ var WB_DATA = {
   {
    "title": "微软取消AI相关合作，英国本土数据中心先锋企业遭遇重大挫折",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrft7315033.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "厄尔尼诺影响 甘蔗减产 印度禁令或抑制糖价上涨",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfn1008034.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "StoneX将微软目标价从450美元上调至600美元，看好AI芯片、智能体及Azure业务进展",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-18/doc-inivrrfr6575781.shtml",
    "source": "新浪科技"
   }
  ]
