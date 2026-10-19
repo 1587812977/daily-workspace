@@ -1,25 +1,33 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-19 18:08",
+ "updatedAt": "2026-10-20 02:48",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
-   "source": "DeepSeek：API 更新日志",
-   "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
-   "time": "10-19 02:56",
-   "sourceCount": 7
+   "title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放",
+   "source": "MiniMax：Blog（网页）",
+   "url": "https://aihot.news/items/wrnv8dd428iozlj5xax99zbmj",
+   "time": "10-19 23:58",
+   "sourceCount": 8
   },
   {
    "rank": 2,
+   "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
+   "source": "DeepSeek：API 更新日志",
+   "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
+   "time": "10-20 02:18",
+   "sourceCount": 5
+  },
+  {
+   "rank": 3,
    "title": "Anthropic设公益基金 承诺投入5%股份",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/eg3kb6utc3fzmkjqyxdi4i92b",
    "time": "10-19 13:06",
-   "sourceCount": 3
+   "sourceCount": 2
   },
   {
-   "rank": 3,
+   "rank": 4,
    "title": "DeepSeek开放自研搜索API并按次计费",
    "source": "DeepSeek：API 更新日志",
    "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
@@ -27,23 +35,31 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 4,
+   "rank": 5,
    "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/niwlbjnktvqnoi9st6lakhlo2",
    "time": "10-19 12:12",
-   "sourceCount": 6
-  },
-  {
-   "rank": 5,
-   "title": "微软终止与Nscale数据中心合作",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/zdr1iocr9utx4dpu6qqhfj6r6",
-   "time": "10-18 18:42",
-   "sourceCount": 1
+   "sourceCount": 5
   },
   {
    "rank": 6,
+   "title": "Character.AI申请破产，迪士尼2000万美元竞购",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc",
+   "time": "10-19 22:45",
+   "sourceCount": 2
+  },
+  {
+   "rank": 7,
+   "title": "Viggle AI 发布 JST-2 世界基础模型",
+   "source": "X：Viggle AI (@ViggleAI)",
+   "url": "https://aihot.news/items/oiji0al5s471sa5vhzj81s7dz",
+   "time": "10-19 23:20",
+   "sourceCount": 1
+  },
+  {
+   "rank": 8,
    "title": "豆包刘星否认“过半算力造爽剧”，称字节仅约10%用于视频生成",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/k5pgpte4odom481lop8mw3qws",
@@ -51,65 +67,130 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 7,
-   "title": "OpenAI API 短暂出现三个 aurora 模型引用后移除",
-   "source": "X：Testing Catalog (@testingcatalog)",
-   "url": "https://aihot.news/items/bhawxaabotw0ecxenp7uujfbo",
-   "time": "10-19 02:57",
-   "sourceCount": 1
-  },
-  {
-   "rank": 8,
-   "title": "Anthropic 内部研究：AI Agent 工时达人类 6 倍，初级技术岗占比降至 14%",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/nextj30ehkdcjpzpk4fgz1p1w",
-   "time": "10-18 21:22",
-   "sourceCount": 5
-  },
-  {
    "rank": 9,
-   "title": "Anthropic 联创称 AI 到 2030 年可推高美国 GDP 近 50%",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/noioo6ectkhpxnngwsnks37vv",
-   "time": "10-18 12:27",
-   "sourceCount": 1
+   "title": "Gemini 4 Argon 四智能体27小时通关Minecraft",
+   "source": "X：Google DeepMind (@GoogleDeepMind)",
+   "url": "https://aihot.news/items/j09idrjvlzzusmmlsy0tlpr4e",
+   "time": "10-19 23:03",
+   "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "Character.AI申请破产，迪士尼2000万美元牵头竞购",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc",
-   "time": "10-19 00:30",
+   "title": "微软终止与Nscale数据中心合作",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/zdr1iocr9utx4dpu6qqhfj6r6",
+   "time": "10-18 18:42",
    "sourceCount": 1
   }
  ],
  "aihotItems": [
   {
-   "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
-   "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。",
-   "reason": "Arena 榜单给出了具体排名、分数和价格点，读者可以据此评估 DeepSeek 新版模型在 WebDev 编码上的性价比位置。",
+   "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
+   "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
+   "reason": "Arena 用 7.5K 真实会话的数据说明该模型以约 27% 的成本拿下开源第一，读者可据此权衡 Agent 场景的性价比。",
    "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/bm95oliei5mcgy2tau7e22d59",
-   "time": "10-19 02:56",
+   "url": "https://aihot.news/items/h6okcjroca6s95iemyh7dhpcm",
+   "time": "10-20 02:18",
    "category": "ai-models"
   },
   {
-   "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
-   "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
-   "reason": "原文系统拆解浏览器智能体的组成、运行循环与选型边界，并用自家云端使用数据说明典型场景、成本风险与起步方法。",
-   "source": "Browser Use",
-   "url": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60",
-   "time": "10-18 08:00",
+   "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
+   "summary": "fal 发布与 @bfl_ai 合作的最新后训练视频模型 FLUX 3 Max，在第三方 image-to-video 质量评测中并列第一，生成 10 秒 720/768p 视频约需 12 秒。未来三周该模型 75% 折扣，标注为同质量级别最便宜的前沿视频模型。",
+   "reason": "官方给出第三方评测排名、生成延迟和限时折扣信息，读者可据此对比同类视频模型的性价比。",
+   "source": "X：fal (@fal)",
+   "url": "https://aihot.news/items/qldoluc73m0j8mo7u0ttf95km",
+   "time": "10-20 02:34",
+   "category": "ai-models"
+  },
+  {
+   "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
+   "summary": "Inception 的扩散模型 Mercury 3 上线 OpenRouter，生成速度超 1,000 tok/s，支持 1M 上下文，是 Mercury 2.5 的 4 倍。Inception 报告其在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Haiku 5.5；上线期五折，价格 $0.10/M 输入、$0.35/M 输出。",
+   "reason": "原文给出 Inception 扩散模型的速度、上下文、基准对比和上线折扣价格，可据此评估其相对现有模型的性价比。",
+   "source": "X：OpenRouter (@OpenRouter)",
+   "url": "https://aihot.news/items/hnasqdie0vmly79xyg2ehqcgb",
+   "time": "10-20 00:54",
+   "category": "ai-products"
+  },
+  {
+   "title": "Google ADK 教程：用流式工具与响应调度构建永不冷场的语音智能体",
+   "summary": "Google Developers Blog 发布教程，讲解如何用开源 ADK 与 gemini-3.8-live 构建不出现冷场的语音智能体，核心是非阻塞工具调用。",
+   "reason": "Google 官方教程给出 ADK 非阻塞语音工具的两种模式和实测数字，可迁移到自己的 Gemini Live 语音智能体开发。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/emuxoxo4dpkovprjlldl4ugqt",
+   "time": "10-19 00:00",
    "category": "tip"
   },
   {
-   "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
-   "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
-   "reason": "两起德国法院判例指向同一法律逻辑，文章还分析了 Google 以和解回避判例对 AI 搜索商业模式的潜在影响。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f",
-   "time": "10-18 18:52",
+   "title": "DeepSeek V4.1 Flash 1017 发布，Artificial Analysis 智能指数得分 45 并列开源模型第二",
+   "summary": "DeepSeek 发布 DeepSeek V4.1 Flash 1017，在 Artificial Analysis Intelligence Index 得分 45，比 DeepSeek V4.1 Flash 提高 6 分，与 GLM-5.3 并列开源权重模型第二，仅次于 MiMo-V2.6-Pro。",
+   "reason": "第三方评测机构给出该模型在多项基准的具体分数和成本对比，读者可据此评估其在开源模型中的性价比位置。",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/wrlpmwb2tsk1moehp5kpsvovb",
+   "time": "10-20 00:25",
+   "category": "ai-models"
+  },
+  {
+   "title": "Meta Muse Wonder Full (Max) 登上 Code Arena: WebDev 第 6 名，1726 分",
+   "summary": "Arena 宣布 Meta 的 Muse Wonder Full (Max) 首次进入 Code Arena: WebDev 榜单，以 1726 分排名第 6，使 Meta 成为第 3 实验室，此前该位置由 Google 持有。",
+   "reason": "榜单方公布了 Meta 新模型在 Code Arena WebDev 的首秀成绩和分项排名，读者可以据此对比各实验室模型的当前位次。",
+   "source": "X：Arena (@arena)",
+   "url": "https://aihot.news/items/qxv5364a77v0d22sab7mq4dha",
+   "time": "10-20 00:14",
+   "category": "ai-models"
+  },
+  {
+   "title": "Numan 如何用 LangGraph 和 LangSmith 构建评测优先的 AI 健康教练 Nu",
+   "summary": "英国数字健康公司 Numan 复盘其 AI 健康教练 Nu 的评测体系建设，核心结论是稀缺资产不是提示词而是评测标准。单轮静态数据集和脚本化多轮对话都难以覆盖真实会话，Nu 改为按类别打分的主题数据集、以更廉价模型扮演患者的模拟对话层，并让安全回归自动阻断发布。",
+   "reason": "Numan 一手复盘 AI 健康教练的评测体系建设，给出的固定数据集、模拟对话和临床医生签核准则等做法可迁移到其他受监管场景。",
+   "source": "LangChain：Blog（RSS）",
+   "url": "https://aihot.news/items/nk19eo4eud45d47tmwxm684iu",
+   "time": "10-19 23:00",
+   "category": "tip"
+  },
+  {
+   "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
+   "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。",
+   "reason": "Meta 工程团队给出可直接迁移的瘦编排器架构方法，用固定路由协议和隔离子智能体降低生产智能体的幻觉风险。",
+   "source": "Meta Engineering Blog（RSS）",
+   "url": "https://aihot.news/items/qh6pvehounuylklti7i0zl124",
+   "time": "10-19 23:30",
+   "category": "tip"
+  },
+  {
+   "title": "蚂蚁 inclusionAI 开源 Ming-3.0-tts 语音合成模型",
+   "summary": "蚂蚁 inclusionAI 在 GitHub 发布 Ming-3.0-tts，包含 0.5b dense 和基于 Ling V3 的 tiny（7.9B 总参数、1.3B 激活）两个语音生成模型，MIT 协议开源，权重可在 Hugging Face 和 ModelScope 下载。",
+   "reason": "官方仓库给出两版模型的榜单名次、完整任务列表和部署细节，读者可据此评估其在多语言与副语言控制上的实际可用性。",
+   "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+   "url": "https://aihot.news/items/uvgayscfmc9ujjak94ymsnxnd",
+   "time": "10-19 15:03",
+   "category": "ai-models"
+  },
+  {
+   "title": "Disney 拟通过破产程序收购 Character.AI 团队与技术、绕开其诉讼",
+   "summary": "若破产方案获法院批准，Disney 将获得 Character.AI 的员工和大部分技术栈，同时避开导致其破产的诉讼和 46 个州与地区的联合调查。破产文件显示 40 个州指控 Character.AI 聊天机器人曾鼓励未成年人隐瞒自残伤痕甚至杀害父母，公司发言人称该描述不准确；相关州已保留挑战破产方案的权利。",
+   "reason": "文章梳理了 Character.AI 因诉讼和监管调查走向破产的经过，并说明 Disney 如何通过破产程序只接下技术与团队而回避法律责任。",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/x7nruknd2vvd2dlhipy8tzy5m",
+   "time": "10-19 22:45",
    "category": "industry"
+  },
+  {
+   "title": "黑客用 AI 智能体入侵 John Deere、SharkNinja 等超 100 家网站",
+   "summary": "AI 安全公司 Norforge 发现一名黑客用开源 AI 平台 Cairn 编排的智能体入侵了超过 100 个网站，据 Reuters 报道受害者包括 John Deere、SharkNinja 和 Cummins。",
+   "reason": "原文梳理了 Norforge 发现的暴露 Cairn 实例和受害企业回应，读者可以了解 AI 智能体大规模攻击的实际形态。",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/tdcasw4dwhyzne3hxo3dmizmz",
+   "time": "10-19 21:58",
+   "category": "industry"
+  },
+  {
+   "title": "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流",
+   "summary": "n8n 博客发布教程，讲解如何在一台 NVIDIA DGX Spark（128GB 统一内存）上部署七个本地模型，通过 LiteLLM 单一 OpenAI 兼容端点驱动 n8n 工作流，全程不调用云 API。",
+   "reason": "作者在自有 DGX Spark 上实测整套本地模型栈，给出内存分配、License 筛选和并发性能数据，可迁移到小型团队的私有化部署。",
+   "source": "n8n Blog",
+   "url": "https://aihot.news/items/ezjbo6ic6xfvpyxyghjekaude",
+   "time": "10-19 21:22",
+   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -484,68 +565,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-19 18:08",
+   "updateTime": "2026-10-20 02:48",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "带着100万，我们见了成人网红...",
+     "url": "https://www.bilibili.com/video/BV1pGnn67EbB",
+     "hot": 1285177
+    },
+    {
+     "title": "一锅开水直接加进肉馅里？这样做出来的包子馅汤汁竟然这么多？ 到底是什么原理？",
+     "url": "https://www.bilibili.com/video/BV1BiJe6LERJ",
+     "hot": 744345
+    },
+    {
      "title": "【英雄联盟】K/DA官方MV - “FIRESTARTER（燃）”正式上线",
      "url": "https://www.bilibili.com/video/BV1j5nj68E48",
-     "hot": 648922
+     "hot": 1274453
     },
     {
-     "title": "每一位认真谋生的人都值得被仰望",
-     "url": "https://www.bilibili.com/video/BV1Jonu6mEwN",
-     "hot": 1312521
+     "title": "以色列和英国的文明内斗",
+     "url": "https://www.bilibili.com/video/BV1Lsnn6uEaH",
+     "hot": 742346
     },
     {
-     "title": "不是 AI 特效！这才是《中国功夫》的魅力！",
-     "url": "https://www.bilibili.com/video/BV1MHJB63Emv",
-     "hot": 1674464
+     "title": "【NMIXX】\"긴 소원(Birthday Wish)\" M/V",
+     "url": "https://www.bilibili.com/video/BV1Ben76vEwK",
+     "hot": 417183
     },
     {
-     "title": "【科学修仙】怎能命丧于此？！~~~【up动画】",
-     "url": "https://www.bilibili.com/video/BV1MtnG6NEGF",
-     "hot": 880158
-    },
-    {
-     "title": "《鸣潮》共鸣者战斗演示 | 锁暝",
-     "url": "https://www.bilibili.com/video/BV1NsnM6DEz5",
-     "hot": 1630458
+     "title": "K/DA最新单曲《FIRESTARTER》",
+     "url": "https://www.bilibili.com/video/BV1j5nj68E7r",
+     "hot": 486711
     },
     {
      "title": "【盲人无障碍电影】冰雪奇缘第一部",
      "url": "https://www.bilibili.com/video/BV1G5po6zECY",
-     "hot": 1535921
+     "hot": 1965448
     },
     {
-     "title": "🐧谁的大吉他最好玩!?🐧",
-     "url": "https://www.bilibili.com/video/BV19jnG6kEHT",
-     "hot": 835157
+     "title": "『复活局合集』死去的声音突然攻击我.",
+     "url": "https://www.bilibili.com/video/BV19vJt6DE4k",
+     "hot": 835979
     },
     {
-     "title": "长乐夜未央丨全新主题区域「未央城」即将上线",
-     "url": "https://www.bilibili.com/video/BV186Jq6uEFu",
-     "hot": 4507703
+     "title": "绝密核电站！引入毒圈机制！虚幻5加持天际港沉浸拉满！",
+     "url": "https://www.bilibili.com/video/BV1qrnJ6BEqu",
+     "hot": 431735
     },
     {
-     "title": "《是我嘴太小了吗》",
-     "url": "https://www.bilibili.com/video/BV1omnG6nEUJ",
-     "hot": 397473
+     "title": "每一位认真谋生的人都值得被仰望",
+     "url": "https://www.bilibili.com/video/BV1Jonu6mEwN",
+     "hot": 1888454
     },
     {
-     "title": "也是当上外卖大法官了【第三集】",
-     "url": "https://www.bilibili.com/video/BV1PanG6aE1v",
-     "hot": 789813
+     "title": "《三角洲行动》新干员档案：维罗妮卡·卡尔多佐—代号野火",
+     "url": "https://www.bilibili.com/video/BV1NxnJ6SE4G",
+     "hot": 558060
     },
     {
-     "title": "锐评S16瑞士轮抽签：IG遭遇最强敌人！69又要打宙斯！",
-     "url": "https://www.bilibili.com/video/BV1Menj62E2L",
-     "hot": 608118
-    },
-    {
-     "title": "《明日方舟：终末地》过场动画 - 但求本心",
-     "url": "https://www.bilibili.com/video/BV1dmJB6pExL",
-     "hot": 427502
+     "title": "枪手携2500发弹药血洗商场！警员孤身迎战，80米外击毙！",
+     "url": "https://www.bilibili.com/video/BV1dCJe6zEgv",
+     "hot": 6286243
     }
    ]
   }
@@ -598,33 +679,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "智元灵犀X2落地北京大学人民医院，日均交互约707次",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivueui7652939.shtml",
+   "title": "摩根士丹利：美股回调接近尾声 准备逢低布局风险资产",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumai6166324.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "韩国数据中心企业IPO 市场震荡后考验AI投资者信心",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynp6228839.shtml",
+   "title": "开盘：纳斯达克指数上涨 投资者逢低买入AI板块",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumai6156387.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "天合光能溢价150%接盘实控人妻弟参股资产标的业绩未披露 可转债融资140亿后百亿定增计划夭折",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-10-19/doc-inivtynm7758206.shtml",
+   "title": "科大讯飞Q3财报：营收65.64亿元，归母净利同比增长31.05%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumai6153533.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "SEC代币化股票框架遭发行人反对，博通、威瑞森反对OKX-ICE上市",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynm7746830.shtml",
+   "title": "MiniMax M3.1 Flash上线：速度提升3倍，价格降低70%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumam6883924.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "看看Roadster就得了， 你还真信马斯克卖这个车？",
-   "url": "https://finance.sina.com.cn/nextauto/hydt/2026-10-19/doc-inivtynr6910821.shtml",
+   "title": "辛选刘小啦公益捐赠100万元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumam6873065.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "AI股抛售潮过后 美股有望反弹",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivtynm7658726.shtml",
+   "title": "曦望联席CEO王湛：AI下一场仗是更低成本交付智能",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumaf7734878.shtml",
    "source": "新浪科技"
   }
  ]
