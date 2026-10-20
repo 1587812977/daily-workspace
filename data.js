@@ -1,33 +1,41 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-20 17:33",
+ "updatedAt": "2026-10-21 01:26",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放",
-   "source": "MiniMax：Blog（网页）",
-   "url": "https://aihot.news/items/wrnv8dd428iozlj5xax99zbmj",
-   "time": "10-20 11:29",
-   "sourceCount": 11
+   "title": "DeepSeek 开源内部推理框架 DeepInfer",
+   "source": "公众号：DeepSeek（深度求索）",
+   "url": "https://aihot.news/items/ckykonvith99q6hvd0utjdwfn",
+   "time": "10-20 22:31",
+   "sourceCount": 9
   },
   {
    "rank": 2,
-   "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
-   "source": "DeepSeek：API 更新日志",
-   "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
-   "time": "10-20 16:47",
-   "sourceCount": 6
+   "title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放",
+   "source": "MiniMax：Blog（网页）",
+   "url": "https://aihot.news/items/wrnv8dd428iozlj5xax99zbmj",
+   "time": "10-20 23:39",
+   "sourceCount": 12
   },
   {
    "rank": 3,
-   "title": "美国土安全部令文职机构移除DeepSeek及关联产品",
+   "title": "美国土安全部令联邦文职机构移除DeepSeek及关联产品",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
-   "time": "10-20 14:48",
-   "sourceCount": 3
+   "time": "10-20 21:07",
+   "sourceCount": 6
   },
   {
    "rank": 4,
+   "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API",
+   "source": "DeepSeek：API 更新日志",
+   "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
+   "time": "10-20 23:32",
+   "sourceCount": 7
+  },
+  {
+   "rank": 5,
    "title": "Anthropic设公益基金 承诺投入5%股份",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/eg3kb6utc3fzmkjqyxdi4i92b",
@@ -35,15 +43,15 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 5,
-   "title": "Viggle AI 发布 3D 原生世界模型 JST-2",
-   "source": "X：邵猛 (@shao__meng)",
-   "url": "https://aihot.news/items/i8s81ihzs5zl16pc3zgz4swkz",
-   "time": "10-20 11:52",
-   "sourceCount": 2
+   "rank": 6,
+   "title": "OpenAI 拟以超1.4万亿美元估值融资300亿美元",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/srgsfi8edabzrwgg6vjtgw3ya",
+   "time": "10-20 16:06",
+   "sourceCount": 1
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "Mercury 3 发布：速度与评测争议",
    "source": "Inception Labs：Blog（网页）",
    "url": "https://aihot.news/items/osk3jj5jltogwr6zpo09w80j8",
@@ -51,145 +59,137 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 7,
-   "title": "DeepSeek开放自研搜索API并按次计费",
-   "source": "DeepSeek：API 更新日志",
-   "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
-   "time": "10-18 19:59",
-   "sourceCount": 1
-  },
-  {
    "rank": 8,
-   "title": "AWS 发布 TorchNeuron：Trainium 原生 PyTorch 后端",
-   "source": "PyTorch：Blog（RSS）",
-   "url": "https://aihot.news/items/szf3v3re4888fzekwoohhu8b4",
-   "time": "10-20 04:09",
-   "sourceCount": 3
+   "title": "Viggle AI 发布 3D 原生世界模型 JST-2",
+   "source": "X：邵猛 (@shao__meng)",
+   "url": "https://aihot.news/items/i8s81ihzs5zl16pc3zgz4swkz",
+   "time": "10-20 11:52",
+   "sourceCount": 2
   },
   {
    "rank": 9,
-   "title": "OpenAI工程师涉装窃听器被捕，检方称获沙特支持",
-   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
-   "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
-   "time": "10-20 15:47",
+   "title": "Anthropic与Nscale洽谈第二笔450亿美元算力协议",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/w5ksj7eghzbmzpf6lwds0un12",
+   "time": "10-20 13:53",
    "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "蚂蚁开源 Ming-3.0 五款语音模型",
-   "source": "蚂蚁 inclusionAI：GitHub 新仓库",
-   "url": "https://aihot.news/items/uvgayscfmc9ujjak94ymsnxnd",
-   "time": "10-20 12:10",
-   "sourceCount": 5
+   "title": "AWS 开源 TorchNeuron，Trainium 原生支持 PyTorch",
+   "source": "PyTorch：Blog（RSS）",
+   "url": "https://aihot.news/items/szf3v3re4888fzekwoohhu8b4",
+   "time": "10-20 04:09",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
   {
-   "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
-   "summary": "DeepSeek 宣布将内部推理框架 DeepInfer 全面开源，并同步开源生产级 Token 编解码组件 deepseek-recipe。",
-   "reason": "DeepSeek 将内部推理框架全面开源，给出仓库地址和兼容平台，开发者可据此优化大规模推理的成本。",
-   "source": "公众号：DeepSeek（深度求索）",
-   "url": "https://aihot.news/items/ckykonvith99q6hvd0utjdwfn",
-   "time": "10-20 16:54",
+   "title": "Databricks 发布 MemCurrent 生产级 Agent 持久记忆架构",
+   "summary": "Databricks 介绍 MemCurrent，一种面向生产 Agent 的持久记忆架构，结合情景记忆与派生记忆，通过插件、工具调用和离线 dreaming 管线三种访问模式读写与整合记忆，已用于 Agent Bricks Memory 和 Genie。",
+   "reason": "原文给出完整设计、消融和成本数据，读者可以据此评估生产级 Agent 记忆架构的选型与收益。",
+   "source": "Databricks：Blog（RSS）",
+   "url": "https://aihot.news/items/v26pyuir21k0m4r02acyz6v4g",
+   "time": "10-20 08:00",
    "category": "ai-products"
   },
   {
-   "title": "路透：OpenAI 拟在 Anthropic 上市前加速融资约 300 亿美元，估值超 1.4 万亿美元",
-   "summary": "据 Reuters 报道，OpenAI 正赶在 Anthropic 上市前洽谈融资约 300 亿美元，估值超 1.4 万亿美元，比 3 月的 8520 亿美元至少高 64%。",
-   "reason": "原文梳理了融资节奏背后的竞争逻辑和两家收入口径差异，提供了理解估值分歧的具体依据。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/srgsfi8edabzrwgg6vjtgw3ya",
-   "time": "10-20 16:06",
-   "category": "industry"
+   "title": "Google 与 Meta 发布 TorchTPU：PyTorch 原生 TPU 后端",
+   "summary": "Google 与 Meta 发布开源项目 TorchTPU，为 Google TPU 提供原生 PyTorch 后端，模型迁移只需把 .to(\"cuda\") 改为 .to(\"tpu\")。",
+   "reason": "Google 与 Meta 官方详解 TorchTPU 的架构设计、精度策略和分布式支持，读者可据此评估把现有 PyTorch 工作流迁到 TPU 的改动成本。",
+   "source": "PyTorch：Blog（RSS）",
+   "url": "https://aihot.news/items/lh8vm7yp332xoffhqoscusss4",
+   "time": "10-21 00:00",
+   "category": "ai-products"
   },
   {
-   "title": "面壁智能解析前瞻专家调度 LES 如何让 35B MoE 在手机端侧实时无损运行",
-   "summary": "面壁智能 MiniCPM-V 团队介绍支撑 MiniCPM-V 4.7 端侧运行的前瞻专家调度（LES）技术，称首次实现 35B-A3B 规模 MoE 在端侧实时无损运行，iPhone 18 Pro Max 实测解码超 20 token/s。",
-   "reason": "原文拆解了 LES 在调度、存储、计算三层的具体设计，并给出消融数据，方法可迁移到其他 MoE 模型的端侧部署。",
-   "source": "公众号：面壁智能（MiniCPM）",
-   "url": "https://aihot.news/items/m2ylwtzb8x49c32spfl1wplqz",
-   "time": "10-20 14:22",
+   "title": "Tessl 团队分享：不再逐行审查 AI 生成代码，改为验证意图",
+   "summary": "Tessl 工程师 Ankit Jain 分享团队 PR 量翻四倍、代码几乎全部由 AI 生成后，放弃逐行 diff 审查、改为在代码生成前审查意图并逐条验证验收标准的做法。关键实践包括维护 offer-skill 技能理解代码变更，以及把重复出现最多的审查评论固化成机器自动执行的不变量规则，作者预计第二个月起审查负担明显缩小。",
+   "reason": "作者团队 PR 量翻四倍后放弃逐行审代码，改为事前审意图加可验证准则，给出了可直接照搬的做法和时间预期。",
+   "source": "Tessl：产品与工程博客",
+   "url": "https://aihot.news/items/xil73ls42cqpszvsiuq6u41mj",
+   "time": "10-20 00:00",
    "category": "tip"
   },
   {
-   "title": "Redact 调查：WhatsApp 帮助页面隐藏 LLM 指令，让 AI 不推荐监管机构、不提 GDPR",
-   "summary": "Redact 发现 WhatsApp 帮助中心页面向 LLM 发送用户看不到的隐藏指令，指示其支持聊天机器人不推荐数据保护监管机构，并在用户提到律师或法律行动后不引用 GDPR、LGPD 或 CCPA。",
-   "reason": "作者逐页核对了 WhatsApp 全部 545 页帮助文档并留档，还给出用 Internet Archive 自行验证的方法，事实与证据链都在原文里。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/apaky0ybxpb9uwt12jrwj954p",
-   "time": "10-20 00:00",
-   "category": "industry"
-  },
-  {
-   "title": "Apate.ai 用35万个AI反诈拖住骗子，国内年轻人用AI视频反制AI卖惨账号",
-   "summary": "作者讲述了两起用AI反制诈骗的案例。澳大利亚公司 Apate.ai 用35万个AI伪装成容易上当的受害者，已与骗子聊天250万次，累计耗掉骗子约17年时间，澳大利亚运营商 TPG 将近59万通可疑来电转给这些AI，澳洲联邦银行公开报告的诈骗损失降低76%，公司今年8月拿到815万美元种子轮融资。",
-   "reason": "文章复盘了用AI拖延骗子和反制AI卖惨账号的两个真实案例，可以看清攻防双方的成本结构差异。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/awmaqqunma83599eii4g3akgw",
-   "time": "10-20 08:26",
-   "category": "industry"
-  },
-  {
-   "title": "斯坦福 HAI 发布 MedHELM、PhysicianBench 与 HealthAdminBench，测出医疗 AI Agent 实际完成率不足一半",
-   "summary": "斯坦福团队总结三年构建医疗 AI 基准的成果，PhysicianBench 上最佳模型 GPT-5.5 单次仅完成 46% 任务，HealthAdminBench 上 Claude Opus 4.6 完成 36.3%。MedHELM 覆盖 5 大类 121 项临床任务，评测显示临床决策支持和管理流程得分最低；失败主要来自跨文档与系统传递信息时丢失上下文，两项基准均以合成数据、公开代码和排行榜开放。",
-   "reason": "斯坦福团队基于三年基准构建经验给出实测结论，最好的医疗 Agent 完成任务不足一半，失败多源于跨系统信息传递。",
-   "source": "Stanford HAI News（网页）",
-   "url": "https://aihot.news/items/dla37so34wcgznigffx3j6qko",
-   "time": "10-19 00:00",
+   "title": "Ai2 发布 FairStress 基准：测量 LLM 决策中被隐藏的公平性不对称",
+   "summary": "Ai2 发布 FairStress 基准，通过 300 个两候选决策场景和对抗前缀，测量 LLM 在面对说服性论据时改变决策的难易是否因候选人所属人口群体而不同，全部组合超过 1300 万测试用例，并已开放下载、集成进 Olmo-eval。",
+   "reason": "Ai2 用对抗前缀测出模型在人口群体之间的决策不对称，并发现多数去偏方法不可靠，提供了诊断与改进思路。",
+   "source": "Ai2 / Allen Institute for AI（RSS）",
+   "url": "https://aihot.news/items/cszm6fv1o99q04dbffzx8qqio",
+   "time": "10-20 16:00",
    "category": "paper"
   },
   {
-   "title": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力",
-   "summary": "OpenAI 宣布最新模型在 COBOL、Fortran、Visual Basic 等低资源编程语言上能力显著提升，并推出两项自建评测。",
-   "reason": "原文给出低资源语言的两套自建评测和逐语言数据，读者可据此评估新模型在遗留系统维护与迁移上的可用性。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/tzuiybo7a45sm87wj4rec2mvo",
-   "time": "10-19 20:00",
-   "category": "ai-models"
+   "title": "Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理",
+   "summary": "Perplexity CEO Aravind Srinivas 宣布，Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理，也不用 WiFi。模型和智能体都在本机运行，可操作 Mac 原生应用和本地文件，敏感数据不必发送到云端，现已在 Perplexity Mac 应用中可用。",
+   "reason": "Perplexity CEO 亲自宣布，Perplexity Computer 可完全本地运行，敏感数据无需上云，对关注隐私和离线使用的人有参考价值。",
+   "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+   "url": "https://aihot.news/items/zs3zvf51jl6pa35kn4npmoy7j",
+   "time": "10-21 00:34",
+   "category": "ai-products"
   },
   {
-   "title": "美国国土安全部下令所有联邦文职机构移除 DeepSeek 及基于其开发的产品",
-   "summary": "美国国土安全部依据 2018 年供应链法发布 2026-01 号命令，要求所有联邦文职机构立即停止采购 DeepSeek 及其关联公司产品，并从 IT 系统中移除相关产品，包括使用 DeepSeek 实现开发的第三方产品与服务。",
-   "reason": "禁令延伸到第三方 DeepSeek 魔改产品，给所有向美国联邦供货的 AI 厂商提出了溯源自家模型组件的新要求。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
-   "time": "10-19 23:05",
+   "title": "Google 发布 TorchTitan TPU 分叉并给出模型优化 Playbook",
+   "summary": "Google 推出 TorchTitan TPU 分叉（github.com/google-pytorch/torchtitan），配合 TorchTPU 原生后端在 Cloud TPU 上训练 PyTorch 模型，提供 SimpleFSDP、Graph Trainer、Pallas 内核和优化 Playbook。",
+   "reason": "原文给出从基准到编译、内核、内存的完整 TPU 优化顺序，以及 FLUX.1、Qwen3 235B 等实测数字，可迁移到自己的训练工作流。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/h4dx2g41nbw5jofprsfwr2xmq",
+   "time": "10-20 00:00",
+   "category": "tip"
+  },
+  {
+   "title": "Google 发布 vLLM 与 SGLang 的 TorchTPU 原生推理引擎",
+   "summary": "Google 在 PyTorch 相关公告中推出基于 TorchTPU 的 vLLM 和 SGLang 原生 PyTorch 推理引擎，分别与 Inferact、RadixArk 合作开发，让开发者用熟悉的 PyTorch 工具在 TPU 上部署模型。",
+   "reason": "原文给出两套 PyTorch 原生 TPU 推理引擎的功能清单、公开基准成本和开源入口，读者可据此评估把现有 PyTorch 服务栈迁到 TPU 的可行性。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/mlusnw9gi199uld4ixj58m2cz",
+   "time": "10-20 00:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "METR 评测 Anthropic 2026 年 8 月风险报告对齐章节，认可低风险结论但质疑评估方法",
+   "summary": "METR 发布对 Anthropic 2026 年 8 月风险报告“高风险场景中的错位”章节的独立外部审查，基本同意截至 2026 年 7 月 15 日 Mythos 5 和内部模型 Model 2 的灾难性错位风险为低，但认为这主要源于模型能力有限而非安全防护。",
+   "reason": "METR 独立审查了 Anthropic 风险报告的对齐章节，指出隐藏 CoT 评估无法覆盖 CoT 合理化攻击面，并给出监测系统红队测试建议。",
+   "source": "METR：Blog（网页）",
+   "url": "https://aihot.news/items/kvok7sv5ddw0i5n62gbtuwtt3",
+   "time": "10-20 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "Anthropic 用 Claude 设计出针对蝎子神经毒素的蛋白质迷你结合剂",
+   "summary": "Anthropic 让内部研究模型在 Claude Science 中主要自主运行 64 小时，设计针对五种蝎子神经毒素的蛋白质迷你结合剂，共生成 318,484 个设计、筛选出 180 个。",
+   "reason": "原文完整披露设计流程、筛选标准和实验数据，读者可以了解 AI 驱动蛋白质设计在被忽视疾病上的真实进展与局限。",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/oxl50pfymja6rgxkem3y0de9j",
+   "time": "10-20 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "美国陆军网络司令部 ECHOTRIBBLE 项目拟将 AI 智能体变成自主扩散的网络武器",
+   "summary": "据 The Intercept 获取的文件，美国陆军网络司令部（ARCYBER）正在开发代号 ECHOTRIBBLE 的平台，让 AI 智能体自主在网络间移动、识别并清除威胁目标，之后自毁，且须在极少人工监督下运行。",
+   "reason": "文件披露 ARCYBER 让 AI 智能体自主扩散和清除目标的计划，多位安全研究者指出了误伤和失控风险。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/u6kqfrgiqrhbpxn012nlisd66",
+   "time": "10-20 20:32",
    "category": "industry"
   },
   {
-   "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
-   "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
-   "reason": "Arena 用 7.5K 真实会话的数据说明该模型以约 27% 的成本拿下开源第一，读者可据此权衡 Agent 场景的性价比。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/h6okcjroca6s95iemyh7dhpcm",
-   "time": "10-20 02:18",
-   "category": "ai-models"
+   "title": "llm-d 1.0 发布：Kubernetes 原生分布式推理服务走向生产就绪",
+   "summary": "IBM、Red Hat 和 Google 等主导的开源推理项目 llm-d 在 PyTorch Conference North America 上发布 llm-d 1.0，这是一个 Kubernetes 原生的分布式推理服务框架，支持任意模型、任意加速器和任意云。",
+   "reason": "原文给出 llm-d 1.0 的具体能力变化和实测成本数据，读者可据此评估自建推理基础设施是否划算。",
+   "source": "IBM Research：AI",
+   "url": "https://aihot.news/items/b1pcaa7ceghor24vjgsjagqqd",
+   "time": "10-20 20:00",
+   "category": "ai-products"
   },
   {
-   "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
-   "summary": "fal 发布与 @bfl_ai 合作的最新后训练视频模型 FLUX 3 Max，在第三方 image-to-video 质量评测中并列第一，生成 10 秒 720/768p 视频约需 12 秒。未来三周该模型 75% 折扣，标注为同质量级别最便宜的前沿视频模型。",
-   "reason": "官方给出第三方评测排名、生成延迟和限时折扣信息，读者可据此对比同类视频模型的性价比。",
-   "source": "X：fal (@fal)",
-   "url": "https://aihot.news/items/qldoluc73m0j8mo7u0ttf95km",
-   "time": "10-20 02:34",
-   "category": "ai-models"
-  },
-  {
-   "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒",
-   "summary": "Inception Labs 发布扩散式大语言模型 Mercury 3，称其在多项基准上超过 GPT-6 Luna 和 Claude Haiku 5.5，速度达 1068 tokens/秒，参数量较 Mercury 1 扩大 40 倍以上。",
-   "reason": "官方发布给出扩散模型规模化的关键数据，包括速度、上下文和价格，可用作评估实时 AI 应用选型的参考。",
-   "source": "Inception Labs：Blog（网页）",
-   "url": "https://aihot.news/items/osk3jj5jltogwr6zpo09w80j8",
-   "time": "10-19 15:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "FBI 称前 OpenAI 工程师涉嫌窃密，手机中发现 Saudi Gov Docs 文件夹",
-   "summary": "美国法院批准羁押被指控在 OpenAI 会议室安装窃听器的前工程师 Abdulrahman Alfozan。检方称其 iPhone 上有名为 Saudi Gov Docs 的文件夹，与沙特王室成员有 WhatsApp 联系，并曾用 OpenAI 生产力 Agent 搜索适合安放窃听器的会议室；他被捕前已预订沙特政府付费的单程机票，妻子和儿子已离美。",
-   "reason": "法院文件披露了窃密手段与潜在动机等此前未公开的细节，读者可以借此了解美国对前沿实验室安全与外国政府渗透的担忧。",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.news/items/b80bl8763pqoqq8hdio0ew6t1",
-   "time": "10-20 04:21",
+   "title": "Waymo 宣布进军西班牙，2027 年在马德里大区迎接首批乘客",
+   "summary": "Waymo 宣布为在西班牙马德里大区推出全自动驾驶出行服务奠定基础，目标 2027 年迎来首批乘客。未来数日其电动 Jaguar I-PACE 车辆将现身当地街头，先以人工驾驶开始，再由当地受训的自动驾驶专家进行技术验证。Waymo 称已累计完成逾 2000 万次行程、400 万公里全自动驾驶里程，在其运营城市中涉及重伤或更严重事故的比例比人类司机低 95%。",
+   "reason": "Waymo 官方宣布进入西班牙市场，给出了落地时间表、分阶段部署方式和安全数据，读者可了解其全球扩张节奏。",
+   "source": "Waymo：Blog（网页）",
+   "url": "https://aihot.news/items/mnqboa5pusqz9brarpfutz57b",
+   "time": "10-20 15:00",
    "category": "industry"
   }
  ],
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-20 17:33",
+   "updateTime": "2026-10-21 01:26",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "我得到了，能看到表白率的超能力……",
+     "url": "https://www.bilibili.com/video/BV1ALnw6YE4S",
+     "hot": 616467
+    },
+    {
      "title": "《绝区零》菲欧妮EP | 1% Battery Girl 低电量女孩",
      "url": "https://www.bilibili.com/video/BV1SknF6KE5g",
-     "hot": 675079
+     "hot": 1476949
     },
     {
-     "title": "漫展按脚 生意真好",
-     "url": "https://www.bilibili.com/video/BV1tmn36aEAP",
-     "hot": 838893
+     "title": "【Codex × Maya】AI辅助三维建模实测！从几何体搭建到材质渲染，完整实操链路演示。该教程同样适配Claude code、Workbuddy等其他智能体",
+     "url": "https://www.bilibili.com/video/BV1bxnA6yE5h",
+     "hot": 23400
     },
     {
-     "title": "《是我嘴太小了吗》",
-     "url": "https://www.bilibili.com/video/BV1omnG6nEUJ",
-     "hot": 1530399
+     "title": "爱上纯血世家女孩的混血男孩【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1bKnw6zEsV",
+     "hot": 249605
     },
     {
-     "title": "带着100万，我们见了成人网红...",
-     "url": "https://www.bilibili.com/video/BV1pGnn67EbB",
-     "hot": 2634493
+     "title": "中文已死：为什么我们越来越不敢好好说话？",
+     "url": "https://www.bilibili.com/video/BV1Xdnc6jEbL",
+     "hot": 643685
+    },
+    {
+     "title": "PCL出事了？那MC下载和联机，我们先顶上了",
+     "url": "https://www.bilibili.com/video/BV1nCnA6AEYB",
+     "hot": 149879
     },
     {
      "title": "法国影响力最大的八卦是什么？【神奇组织56】",
      "url": "https://www.bilibili.com/video/BV1Vbnn6iEfG",
-     "hot": 647907
+     "hot": 1270112
     },
     {
-     "title": "iG出征单曲《仁川共鸣》",
-     "url": "https://www.bilibili.com/video/BV1F7nF6WEmD",
-     "hot": 289519
-    },
-    {
-     "title": "《鸣潮》共鸣者「锁暝」PV | 契阔",
-     "url": "https://www.bilibili.com/video/BV1R8nF65Eme",
-     "hot": 457679
-    },
-    {
-     "title": "赛博监考",
-     "url": "https://www.bilibili.com/video/BV12eJ967EQF",
-     "hot": 904485
-    },
-    {
-     "title": "\"早期的豺狼\"",
-     "url": "https://www.bilibili.com/video/BV1JFng61E3t",
-     "hot": 1719225
-    },
-    {
-     "title": "财神窦占龙 第12集 宿仇【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1UbJ96DEbP",
-     "hot": 230277
-    },
-    {
-     "title": "《现在的小孩 vs bro小时候》",
-     "url": "https://www.bilibili.com/video/BV1yJnL6TE3p",
-     "hot": 855805
+     "title": "《三过车门而不入》",
+     "url": "https://www.bilibili.com/video/BV1n7nF6WEco",
+     "hot": 683191
     },
     {
      "title": "特厨隋坡|排队超久的网红店？！今天我们来说实话！！",
      "url": "https://www.bilibili.com/video/BV1mCnF6vEYn",
-     "hot": 369143
+     "hot": 842640
+    },
+    {
+     "title": "财神窦占龙 第12集 宿仇【8月国创】",
+     "url": "https://www.bilibili.com/video/BV1UbJ96DEbP",
+     "hot": 257983
+    },
+    {
+     "title": "iG出征单曲《仁川共鸣》",
+     "url": "https://www.bilibili.com/video/BV1F7nF6WEmD",
+     "hot": 736420
+    },
+    {
+     "title": "社交媒体世界大战：泰韩法巴西已加入抗日全球统一战线",
+     "url": "https://www.bilibili.com/video/BV1AJnP6BEsa",
+     "hot": 309480
     }
    ]
   }
@@ -738,38 +738,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "沐曦股份陈维良：算力是新质生产力重要体现",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwith0926122.shtml",
+   "title": "SpaceX财报前瞻：华尔街押注首次季度盈利，即便大超预期也不意味着股价大涨",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivwuic7788695.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "43万部微短剧AI占九成，智象元一王科：AI视频生成已完成商业化验证",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-20/doc-inivwitm5752175.shtml",
+   "title": "陈靖出席2026可持续全球领导者大会并致辞",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwuii6458787.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "沐曦股份陈维良：筑牢算力底座，发展新质生产力",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwith0921267.shtml",
+   "title": "2026可持续全球领导者大会开幕：诺奖、图灵奖得主齐现身，集结全球300余位顶尖嘉宾共议绿色发展",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwuic7746703.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "蒋锡培发声：实体经济从来不是AI时代的旁观者",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwitm5739665.shtml",
+   "title": "跨界共话可持续未来，2026可持续全球领导者大会今日在沪开幕",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwuia0897852.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "远东控股蒋锡培：主动融入国家战略，以开放合作拥抱全球机遇",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwitm5737585.shtml",
+   "title": "东方航空阎非：以绿色飞行描绘美好出行新图景",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwpzm6519954.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "杨斌：亟需开展AI治理国际合作，不要等到“切尔诺贝利”发生",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwiti7638512.shtml",
+   "title": "新央企国家数据集团成立，它将干这些事",
+   "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivwpzm6482518.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "欧伦斯感慨：美国电动车价格高、效率低，应该跟中国合作",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwith0856885.shtml",
+   "title": "安踏集团：坚持共生共赢，构建可持续发展的全球竞争力",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-10-20/doc-inivwpzf7684146.shtml",
    "source": "新浪科技"
   }
  ]
