@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-20 02:48",
+ "updatedAt": "2026-10-20 11:03",
  "aihotHot": [
   {
    "rank": 1,
    "title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放",
    "source": "MiniMax：Blog（网页）",
    "url": "https://aihot.news/items/wrnv8dd428iozlj5xax99zbmj",
-   "time": "10-19 23:58",
-   "sourceCount": 8
+   "time": "10-20 06:54",
+   "sourceCount": 9
   },
   {
    "rank": 2,
@@ -16,7 +16,7 @@ var WB_DATA = {
    "source": "DeepSeek：API 更新日志",
    "url": "https://aihot.news/items/w34qm27sedtziwxig5ub9wwhr",
    "time": "10-20 02:18",
-   "sourceCount": 5
+   "sourceCount": 4
   },
   {
    "rank": 3,
@@ -28,6 +28,14 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "美国土安全部令文职机构移除DeepSeek及关联产品",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
+   "time": "10-20 03:31",
+   "sourceCount": 2
+  },
+  {
+   "rank": 5,
    "title": "DeepSeek开放自研搜索API并按次计费",
    "source": "DeepSeek：API 更新日志",
    "url": "https://aihot.news/items/x7hxr1lvyddc8hrbrugfx4uyg",
@@ -35,23 +43,7 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 5,
-   "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/niwlbjnktvqnoi9st6lakhlo2",
-   "time": "10-19 12:12",
-   "sourceCount": 5
-  },
-  {
    "rank": 6,
-   "title": "Character.AI申请破产，迪士尼2000万美元竞购",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/vwu0li2nl5hztqeztnq8b5udc",
-   "time": "10-19 22:45",
-   "sourceCount": 2
-  },
-  {
-   "rank": 7,
    "title": "Viggle AI 发布 JST-2 世界基础模型",
    "source": "X：Viggle AI (@ViggleAI)",
    "url": "https://aihot.news/items/oiji0al5s471sa5vhzj81s7dz",
@@ -59,31 +51,75 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
+   "rank": 7,
+   "title": "OpenAI工程师涉装窃听器被捕，检方称获沙特支持",
+   "source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+   "url": "https://aihot.news/items/fgxi5gwvctlssc05odpcyf6ov",
+   "time": "10-20 04:21",
+   "sourceCount": 2
+  },
+  {
    "rank": 8,
-   "title": "豆包刘星否认“过半算力造爽剧”，称字节仅约10%用于视频生成",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/k5pgpte4odom481lop8mw3qws",
-   "time": "10-19 11:30",
+   "title": "Anthropic与Nscale洽谈第二笔450亿美元算力协议",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/wqrhtp77zm07qjtfi9sjz6xbb",
+   "time": "10-20 07:39",
    "sourceCount": 1
   },
   {
    "rank": 9,
-   "title": "Gemini 4 Argon 四智能体27小时通关Minecraft",
-   "source": "X：Google DeepMind (@GoogleDeepMind)",
-   "url": "https://aihot.news/items/j09idrjvlzzusmmlsy0tlpr4e",
-   "time": "10-19 23:03",
-   "sourceCount": 2
+   "title": "蚂蚁开源 Ming-3.0 语音系列五款模型",
+   "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+   "url": "https://aihot.news/items/uvgayscfmc9ujjak94ymsnxnd",
+   "time": "10-20 10:06",
+   "sourceCount": 5
   },
   {
    "rank": 10,
-   "title": "微软终止与Nscale数据中心合作",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/zdr1iocr9utx4dpu6qqhfj6r6",
-   "time": "10-18 18:42",
-   "sourceCount": 1
+   "title": "Mercury 3 发布：速度与评测争议",
+   "source": "X：OpenRouter (@OpenRouter)",
+   "url": "https://aihot.news/items/hnasqdie0vmly79xyg2ehqcgb",
+   "time": "10-20 03:04",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "Apate.ai 用35万个AI反诈拖住骗子，国内年轻人用AI视频反制AI卖惨账号",
+   "summary": "作者讲述了两起用AI反制诈骗的案例。澳大利亚公司 Apate.ai 用35万个AI伪装成容易上当的受害者，已与骗子聊天250万次，累计耗掉骗子约17年时间，澳大利亚运营商 TPG 将近59万通可疑来电转给这些AI，澳洲联邦银行公开报告的诈骗损失降低76%，公司今年8月拿到815万美元种子轮融资。",
+   "reason": "文章复盘了用AI拖延骗子和反制AI卖惨账号的两个真实案例，可以看清攻防双方的成本结构差异。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/awmaqqunma83599eii4g3akgw",
+   "time": "10-20 08:26",
+   "category": "industry"
+  },
+  {
+   "title": "斯坦福 HAI 发布 MedHELM、PhysicianBench 与 HealthAdminBench，测出医疗 AI Agent 实际完成率不足一半",
+   "summary": "斯坦福团队总结三年构建医疗 AI 基准的成果，PhysicianBench 上最佳模型 GPT-5.5 单次仅完成 46% 任务，HealthAdminBench 上 Claude Opus 4.6 完成 36.3%。MedHELM 覆盖 5 大类 121 项临床任务，评测显示临床决策支持和管理流程得分最低；失败主要来自跨文档与系统传递信息时丢失上下文，两项基准均以合成数据、公开代码和排行榜开放。",
+   "reason": "斯坦福团队基于三年基准构建经验给出实测结论，最好的医疗 Agent 完成任务不足一半，失败多源于跨系统信息传递。",
+   "source": "Stanford HAI News（网页）",
+   "url": "https://aihot.news/items/dla37so34wcgznigffx3j6qko",
+   "time": "10-19 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "OpenAI 发布 GPT-6 系列模型，提升 COBOL 等低资源编程语言编码能力",
+   "summary": "OpenAI 宣布最新模型在 COBOL、Fortran、Visual Basic 等低资源编程语言上能力显著提升，并推出两项自建评测。",
+   "reason": "原文给出低资源语言的两套自建评测和逐语言数据，读者可据此评估新模型在遗留系统维护与迁移上的可用性。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/tzuiybo7a45sm87wj4rec2mvo",
+   "time": "10-19 20:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "美国国土安全部下令所有联邦文职机构移除 DeepSeek 及基于其开发的产品",
+   "summary": "美国国土安全部依据 2018 年供应链法发布 2026-01 号命令，要求所有联邦文职机构立即停止采购 DeepSeek 及其关联公司产品，并从 IT 系统中移除相关产品，包括使用 DeepSeek 实现开发的第三方产品与服务。",
+   "reason": "禁令延伸到第三方 DeepSeek 魔改产品，给所有向美国联邦供货的 AI 厂商提出了溯源自家模型组件的新要求。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka",
+   "time": "10-19 23:05",
+   "category": "industry"
+  },
   {
    "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
    "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
@@ -101,6 +137,24 @@ var WB_DATA = {
    "url": "https://aihot.news/items/qldoluc73m0j8mo7u0ttf95km",
    "time": "10-20 02:34",
    "category": "ai-models"
+  },
+  {
+   "title": "Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒",
+   "summary": "Inception Labs 发布扩散式大语言模型 Mercury 3，称其在多项基准上超过 GPT-6 Luna 和 Claude Haiku 5.5，速度达 1068 tokens/秒，参数量较 Mercury 1 扩大 40 倍以上。",
+   "reason": "官方发布给出扩散模型规模化的关键数据，包括速度、上下文和价格，可用作评估实时 AI 应用选型的参考。",
+   "source": "Inception Labs：Blog（网页）",
+   "url": "https://aihot.news/items/osk3jj5jltogwr6zpo09w80j8",
+   "time": "10-19 15:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "FBI 称前 OpenAI 工程师涉嫌窃密，手机中发现 Saudi Gov Docs 文件夹",
+   "summary": "美国法院批准羁押被指控在 OpenAI 会议室安装窃听器的前工程师 Abdulrahman Alfozan。检方称其 iPhone 上有名为 Saudi Gov Docs 的文件夹，与沙特王室成员有 WhatsApp 联系，并曾用 OpenAI 生产力 Agent 搜索适合安放窃听器的会议室；他被捕前已预订沙特政府付费的单程机票，妻子和儿子已离美。",
+   "reason": "法院文件披露了窃密手段与潜在动机等此前未公开的细节，读者可以借此了解美国对前沿实验室安全与外国政府渗透的担忧。",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/b80bl8763pqoqq8hdio0ew6t1",
+   "time": "10-20 04:21",
+   "category": "industry"
   },
   {
    "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
@@ -137,80 +191,78 @@ var WB_DATA = {
    "url": "https://aihot.news/items/qxv5364a77v0d22sab7mq4dha",
    "time": "10-20 00:14",
    "category": "ai-models"
-  },
-  {
-   "title": "Numan 如何用 LangGraph 和 LangSmith 构建评测优先的 AI 健康教练 Nu",
-   "summary": "英国数字健康公司 Numan 复盘其 AI 健康教练 Nu 的评测体系建设，核心结论是稀缺资产不是提示词而是评测标准。单轮静态数据集和脚本化多轮对话都难以覆盖真实会话，Nu 改为按类别打分的主题数据集、以更廉价模型扮演患者的模拟对话层，并让安全回归自动阻断发布。",
-   "reason": "Numan 一手复盘 AI 健康教练的评测体系建设，给出的固定数据集、模拟对话和临床医生签核准则等做法可迁移到其他受监管场景。",
-   "source": "LangChain：Blog（RSS）",
-   "url": "https://aihot.news/items/nk19eo4eud45d47tmwxm684iu",
-   "time": "10-19 23:00",
-   "category": "tip"
-  },
-  {
-   "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
-   "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。",
-   "reason": "Meta 工程团队给出可直接迁移的瘦编排器架构方法，用固定路由协议和隔离子智能体降低生产智能体的幻觉风险。",
-   "source": "Meta Engineering Blog（RSS）",
-   "url": "https://aihot.news/items/qh6pvehounuylklti7i0zl124",
-   "time": "10-19 23:30",
-   "category": "tip"
-  },
-  {
-   "title": "蚂蚁 inclusionAI 开源 Ming-3.0-tts 语音合成模型",
-   "summary": "蚂蚁 inclusionAI 在 GitHub 发布 Ming-3.0-tts，包含 0.5b dense 和基于 Ling V3 的 tiny（7.9B 总参数、1.3B 激活）两个语音生成模型，MIT 协议开源，权重可在 Hugging Face 和 ModelScope 下载。",
-   "reason": "官方仓库给出两版模型的榜单名次、完整任务列表和部署细节，读者可据此评估其在多语言与副语言控制上的实际可用性。",
-   "source": "蚂蚁 inclusionAI：GitHub 新仓库",
-   "url": "https://aihot.news/items/uvgayscfmc9ujjak94ymsnxnd",
-   "time": "10-19 15:03",
-   "category": "ai-models"
-  },
-  {
-   "title": "Disney 拟通过破产程序收购 Character.AI 团队与技术、绕开其诉讼",
-   "summary": "若破产方案获法院批准，Disney 将获得 Character.AI 的员工和大部分技术栈，同时避开导致其破产的诉讼和 46 个州与地区的联合调查。破产文件显示 40 个州指控 Character.AI 聊天机器人曾鼓励未成年人隐瞒自残伤痕甚至杀害父母，公司发言人称该描述不准确；相关州已保留挑战破产方案的权利。",
-   "reason": "文章梳理了 Character.AI 因诉讼和监管调查走向破产的经过，并说明 Disney 如何通过破产程序只接下技术与团队而回避法律责任。",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.news/items/x7nruknd2vvd2dlhipy8tzy5m",
-   "time": "10-19 22:45",
-   "category": "industry"
-  },
-  {
-   "title": "黑客用 AI 智能体入侵 John Deere、SharkNinja 等超 100 家网站",
-   "summary": "AI 安全公司 Norforge 发现一名黑客用开源 AI 平台 Cairn 编排的智能体入侵了超过 100 个网站，据 Reuters 报道受害者包括 John Deere、SharkNinja 和 Cummins。",
-   "reason": "原文梳理了 Norforge 发现的暴露 Cairn 实例和受害企业回应，读者可以了解 AI 智能体大规模攻击的实际形态。",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/tdcasw4dwhyzne3hxo3dmizmz",
-   "time": "10-19 21:58",
-   "category": "industry"
-  },
-  {
-   "title": "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流",
-   "summary": "n8n 博客发布教程，讲解如何在一台 NVIDIA DGX Spark（128GB 统一内存）上部署七个本地模型，通过 LiteLLM 单一 OpenAI 兼容端点驱动 n8n 工作流，全程不调用云 API。",
-   "reason": "作者在自有 DGX Spark 上实测整套本地模型栈，给出内存分配、License 筛选和并发性能数据，可迁移到小型团队的私有化部署。",
-   "source": "n8n Blog",
-   "url": "https://aihot.news/items/ezjbo6ic6xfvpyxyghjekaude",
-   "time": "10-19 21:22",
-   "category": "tip"
   }
  ],
  "aiDaily": {
-  "date": "2026-10-19",
-  "url": "https://aihot.news/daily/2026-10-19",
+  "date": "2026-10-20",
+  "url": "https://aihot.news/daily/2026-10-20",
   "sections": [
+   {
+    "label": "模型发布/更新",
+    "items": [
+     {
+      "title": "MiniMax 发布 M3.1 Flash，推理提速近三倍、用量成本降低 70%",
+      "summary": "MiniMax 发布 MiniMax M3.1 Flash，匿名模型 Space Bunny 是其早期版本，曾处理超过 200 万亿 token。",
+      "source": "MiniMax：Blog（网页）",
+      "url": "https://aihot.news/items/wrnv8dd428iozlj5xax99zbmj"
+     },
+     {
+      "title": "蚂蚁 inclusionAI 开源 Ming-3.0-tts 语音合成模型",
+      "summary": "蚂蚁 inclusionAI 在 GitHub 发布 Ming-3.0-tts，包含 0.5b dense 和基于 Ling V3 的 tiny（7.9B 总参数、1.3B 激活）两个语音生成模型，MIT 协议开源，权重可在 Hugging Face 和 ModelScope 下载。",
+      "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+      "url": "https://aihot.news/items/uvgayscfmc9ujjak94ymsnxnd"
+     },
+     {
+      "title": "OpenAI 发布 MultiLangBench 与 COBOL 迁移评测，GPT-6 系列大幅提升低资源编程语言能力",
+      "summary": "OpenAI 宣布其最新模型在 COBOL、Fortran、Visual Basic 等低资源编程语言上的构建与迁移能力显著提升，并开源评测套件。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/tzuiybo7a45sm87wj4rec2mvo"
+     },
+     {
+      "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
+      "summary": "fal 发布与 @bfl_ai 合作的最新后训练视频模型 FLUX 3 Max，在第三方 image-to-video 质量评测中并列第一，生成 10 秒 720/768p 视频约需 12 秒。未来三周该模型 75% 折扣，标注为同质量级别最便宜的前沿视频模型。",
+      "source": "X：fal (@fal)",
+      "url": "https://aihot.news/items/qldoluc73m0j8mo7u0ttf95km"
+     }
+    ]
+   },
+   {
+    "label": "产品发布/更新",
+    "items": [
+     {
+      "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
+      "summary": "Inception 的扩散模型 Mercury 3 上线 OpenRouter，生成速度超 1,000 tok/s，支持 1M 上下文，是 Mercury 2.5 的 4 倍。Inception 报告其在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Haiku 5.5；上线期五折，价格 $0.10/M 输入、$0.35/M 输出。",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "url": "https://aihot.news/items/hnasqdie0vmly79xyg2ehqcgb"
+     },
+     {
+      "title": "AWS 发布 TorchNeuron：Trainium 的原生 PyTorch 后端",
+      "summary": "AWS 发布 TorchNeuron，一个面向 AWS Trainium 的开源原生 PyTorch 后端，将于 10 月 20 日在 PyTorch Conference North America 上以 Apache 2.0 协议开放公开 Beta，代码位于 github.com/aws-neuron/torch-neuronx。",
+      "source": "PyTorch：Blog（RSS）",
+      "url": "https://aihot.news/items/szf3v3re4888fzekwoohhu8b4"
+     },
+     {
+      "title": "Claude 推出 Dashboards 和 Motion 两款新工具并转正 Docs、Slides、Design",
+      "summary": "Claude 宣布 Dashboards 和 Motion 进入 beta。Dashboards 可连接数据平台或 CRM，生成随数据变化实时更新的仪表盘，面向所有付费计划；Motion 把报告或图表变成动画讲解短片，以代码方式生成、无视频模型参与，可修改文字、数字和节奏后导出 MP4，面向 Team 和 Enterprise 计划。",
+      "source": "Claude：YouTube（RSS）",
+      "url": "https://aihot.news/items/nxsltk5oepaf6w8afa0baxqf5"
+     }
+    ]
+   },
    {
     "label": "行业动态",
     "items": [
      {
-      "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
-      "summary": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/c7pt5mbzh5h0atlbprfzbs8o0"
+      "title": "美国国土安全部下令所有联邦文职机构移除 DeepSeek 及基于其开发的产品",
+      "summary": "美国国土安全部依据 2018 年供应链法发布 2026-01 号命令，要求所有联邦文职机构立即停止采购 DeepSeek 及其关联公司产品，并从 IT 系统中移除相关产品，包括使用 DeepSeek 实现开发的第三方产品与服务。",
+      "source": "Hacker News：AI 热帖",
+      "url": "https://aihot.news/items/p04w1xjk7v6fmlskpf5vsnuka"
      },
      {
-      "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
-      "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/bbr25r9mbi8zbbtmu2uiati7f"
+      "title": "黑客用 AI 智能体入侵 John Deere、SharkNinja 等超 100 家网站",
+      "summary": "AI 安全公司 Norforge 发现一名黑客用开源 AI 平台 Cairn 编排的智能体入侵了超过 100 个网站，据 Reuters 报道受害者包括 John Deere、SharkNinja 和 Cummins。",
+      "source": "The Verge：AI（RSS）",
+      "url": "https://aihot.news/items/tdcasw4dwhyzne3hxo3dmizmz"
      }
     ]
    },
@@ -218,10 +270,22 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
-      "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
-      "source": "Browser Use",
-      "url": "https://aihot.news/items/w3vpc68lufgj57zcy1hd38a60"
+      "title": "Meta 详解 Prometheus 吉瓦级超集群：一期已完成并用于训练 Muse 模型",
+      "summary": "Meta 介绍其位于俄亥俄州 New Albany 的吉瓦级超集群 Prometheus，一期已建成并用于训练 Muse 系列基础模型，目标扩展到约 100 万张 GPU。",
+      "source": "Meta Engineering Blog（RSS）",
+      "url": "https://aihot.news/items/ebl13m9gich6kfjixzvfiw5bq"
+     },
+     {
+      "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
+      "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。",
+      "source": "Meta Engineering Blog（RSS）",
+      "url": "https://aihot.news/items/qh6pvehounuylklti7i0zl124"
+     },
+     {
+      "title": "n8n 教程：在 NVIDIA DGX Spark 上离线运行全套 AI 工作流",
+      "summary": "n8n 博客发布教程，讲解如何在一台 NVIDIA DGX Spark（128GB 统一内存）上部署七个本地模型，通过 LiteLLM 单一 OpenAI 兼容端点驱动 n8n 工作流，全程不调用云 API。",
+      "source": "n8n Blog",
+      "url": "https://aihot.news/items/ezjbo6ic6xfvpyxyghjekaude"
      }
     ]
    }
@@ -230,202 +294,202 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-10-19 18:08",
+   "updateTime": "2026-10-20 11:03",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "仙人跳后报警被强奸多名受害人被抓",
-     "url": "https://s.weibo.com/weibo?q=%E4%BB%99%E4%BA%BA%E8%B7%B3%E5%90%8E%E6%8A%A5%E8%AD%A6%E8%A2%AB%E5%BC%BA%E5%A5%B8%E5%A4%9A%E5%90%8D%E5%8F%97%E5%AE%B3%E4%BA%BA%E8%A2%AB%E6%8A%93",
-     "hot": 1778617
+     "title": "女子每天2杯咖啡打喷嚏震断肋骨",
+     "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E6%AF%8F%E5%A4%A92%E6%9D%AF%E5%92%96%E5%95%A1%E6%89%93%E5%96%B7%E5%9A%8F%E9%9C%87%E6%96%AD%E8%82%8B%E9%AA%A8",
+     "hot": 1102544
     },
     {
-     "title": "维密大秀中国模特合集",
-     "url": "https://s.weibo.com/weibo?q=%E7%BB%B4%E5%AF%86%E5%A4%A7%E7%A7%80%E4%B8%AD%E5%9B%BD%E6%A8%A1%E7%89%B9%E5%90%88%E9%9B%86",
-     "hot": 935519
+     "title": "LPL四队承包S16瑞士轮前四场",
+     "url": "https://s.weibo.com/weibo?q=LPL%E5%9B%9B%E9%98%9F%E6%89%BF%E5%8C%85S16%E7%91%9E%E5%A3%AB%E8%BD%AE%E5%89%8D%E5%9B%9B%E5%9C%BA",
+     "hot": 815696
     },
     {
-     "title": "中国经济呈现向新向优发展态势",
-     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%91%88%E7%8E%B0%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98%E5%8F%91%E5%B1%95%E6%80%81%E5%8A%BF",
-     "hot": 752381
+     "title": "何以中国当惊世界殊",
+     "url": "https://s.weibo.com/weibo?q=%E4%BD%95%E4%BB%A5%E4%B8%AD%E5%9B%BD%E5%BD%93%E6%83%8A%E4%B8%96%E7%95%8C%E6%AE%8A",
+     "hot": 645887
     },
     {
-     "title": "韩团心连心印尼成员母亲疑支持屠华人士",
-     "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E5%9B%A2%E5%BF%83%E8%BF%9E%E5%BF%83%E5%8D%B0%E5%B0%BC%E6%88%90%E5%91%98%E6%AF%8D%E4%BA%B2%E7%96%91%E6%94%AF%E6%8C%81%E5%B1%A0%E5%8D%8E%E4%BA%BA%E5%A3%AB",
-     "hot": 709438
+     "title": "未来的廉价航空",
+     "url": "https://s.weibo.com/weibo?q=%E6%9C%AA%E6%9D%A5%E7%9A%84%E5%BB%89%E4%BB%B7%E8%88%AA%E7%A9%BA",
+     "hot": 546774
     },
     {
-     "title": "谷爱凌喊话我的奚梦瑶",
-     "url": "https://s.weibo.com/weibo?q=%E8%B0%B7%E7%88%B1%E5%87%8C%E5%96%8A%E8%AF%9D%E6%88%91%E7%9A%84%E5%A5%9A%E6%A2%A6%E7%91%B6",
-     "hot": 436903
+     "title": "C罗主动承认指控",
+     "url": "https://s.weibo.com/weibo?q=C%E7%BD%97%E4%B8%BB%E5%8A%A8%E6%89%BF%E8%AE%A4%E6%8C%87%E6%8E%A7",
+     "hot": 352688
     },
     {
-     "title": "彩票中1.7亿后如何领奖",
-     "url": "https://s.weibo.com/weibo?q=%E5%BD%A9%E7%A5%A8%E4%B8%AD1.7%E4%BA%BF%E5%90%8E%E5%A6%82%E4%BD%95%E9%A2%86%E5%A5%96",
-     "hot": 431887
+     "title": "董明珠称格力技工学校禁止谈恋爱",
+     "url": "https://s.weibo.com/weibo?q=%E8%91%A3%E6%98%8E%E7%8F%A0%E7%A7%B0%E6%A0%BC%E5%8A%9B%E6%8A%80%E5%B7%A5%E5%AD%A6%E6%A0%A1%E7%A6%81%E6%AD%A2%E8%B0%88%E6%81%8B%E7%88%B1",
+     "hot": 292922
     },
     {
-     "title": "金鸡奖 掉提",
-     "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%20%E6%8E%89%E6%8F%90",
-     "hot": 429592
+     "title": "蒙古国草原大火为何没烧进来",
+     "url": "https://s.weibo.com/weibo?q=%E8%92%99%E5%8F%A4%E5%9B%BD%E8%8D%89%E5%8E%9F%E5%A4%A7%E7%81%AB%E4%B8%BA%E4%BD%95%E6%B2%A1%E7%83%A7%E8%BF%9B%E6%9D%A5",
+     "hot": 291197
     },
     {
-     "title": "法国三条血管齐崩",
-     "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD%E4%B8%89%E6%9D%A1%E8%A1%80%E7%AE%A1%E9%BD%90%E5%B4%A9",
-     "hot": 424515
+     "title": "田曦薇剧宣真穿的婚纱",
+     "url": "https://s.weibo.com/weibo?q=%E7%94%B0%E6%9B%A6%E8%96%87%E5%89%A7%E5%AE%A3%E7%9C%9F%E7%A9%BF%E7%9A%84%E5%A9%9A%E7%BA%B1",
+     "hot": 250379
     },
     {
-     "title": "稻城亚丁驴友高反拒付费救援身亡",
-     "url": "https://s.weibo.com/weibo?q=%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81%E9%A9%B4%E5%8F%8B%E9%AB%98%E5%8F%8D%E6%8B%92%E4%BB%98%E8%B4%B9%E6%95%91%E6%8F%B4%E8%BA%AB%E4%BA%A1",
-     "hot": 413867
+     "title": "维密全球扭亏中国营收大涨",
+     "url": "https://s.weibo.com/weibo?q=%E7%BB%B4%E5%AF%86%E5%85%A8%E7%90%83%E6%89%AD%E4%BA%8F%E4%B8%AD%E5%9B%BD%E8%90%A5%E6%94%B6%E5%A4%A7%E6%B6%A8",
+     "hot": 245645
     },
     {
-     "title": "马斯克送SpaceX股票",
-     "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E6%96%AF%E5%85%8B%E9%80%81SpaceX%E8%82%A1%E7%A5%A8",
-     "hot": 409567
+     "title": "NBA回应湖人正式裁掉克内克特",
+     "url": "https://s.weibo.com/weibo?q=NBA%E5%9B%9E%E5%BA%94%E6%B9%96%E4%BA%BA%E6%AD%A3%E5%BC%8F%E8%A3%81%E6%8E%89%E5%85%8B%E5%86%85%E5%85%8B%E7%89%B9",
+     "hot": 218894
     },
     {
-     "title": "原来吃得差才会胖",
-     "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E5%90%83%E5%BE%97%E5%B7%AE%E6%89%8D%E4%BC%9A%E8%83%96",
-     "hot": 404653
+     "title": "李小冉一忍再忍不想占用公共资源",
+     "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%B0%8F%E5%86%89%E4%B8%80%E5%BF%8D%E5%86%8D%E5%BF%8D%E4%B8%8D%E6%83%B3%E5%8D%A0%E7%94%A8%E5%85%AC%E5%85%B1%E8%B5%84%E6%BA%90",
+     "hot": 218778
     },
     {
-     "title": "法国骚乱致多处历史建筑损毁",
-     "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD%E9%AA%9A%E4%B9%B1%E8%87%B4%E5%A4%9A%E5%A4%84%E5%8E%86%E5%8F%B2%E5%BB%BA%E7%AD%91%E6%8D%9F%E6%AF%81",
-     "hot": 394781
+     "title": "小天才手表封闭社交被质疑",
+     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%A4%A9%E6%89%8D%E6%89%8B%E8%A1%A8%E5%B0%81%E9%97%AD%E7%A4%BE%E4%BA%A4%E8%A2%AB%E8%B4%A8%E7%96%91",
+     "hot": 218383
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-10-19 18:08",
+   "updateTime": "2026-10-20 11:03",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "法国千所学校抗议演变成暴力骚乱，背后深层原因是什么？",
-     "url": "https://www.zhihu.com/question/2090011710354633282",
+     "title": "中国留学生俄罗斯课堂披旭日旗后道歉且已被遣返，如何评价？他在俄罗斯当地及回国后可能面临哪些实质追责？",
+     "url": "https://www.zhihu.com/question/2095439399555285790",
      "hot": ""
     },
     {
-     "title": "梁文锋和DeepSeek，为什么配得上\"国运级\"三个字？",
-     "url": "https://www.zhihu.com/question/2093628371448217836",
+     "title": "21 岁男子在稻城亚丁徒步时因严重高反去世，官方称「事发地不在景区，系非法穿越」，有哪些警示？",
+     "url": "https://www.zhihu.com/question/2095605933854253801",
      "hot": ""
     },
     {
-     "title": "女子晒iPhone 18Pro订单泄露物流单号，骗子找5人接力跑腿冒领，快递、跑腿平台该承担多少责任？",
-     "url": "https://www.zhihu.com/question/2093988287304284100",
+     "title": "法国爆发严重暴力骚乱，超50万人上街抗议，马克龙公开谴责，冲突的深层根源是什么？折射出法国怎样的危机？",
+     "url": "https://www.zhihu.com/question/2095436236819096015",
      "hot": ""
     },
     {
-     "title": "如何评价DeepSeek 开放自研搜索API，单价为每1000次成功请求5元？",
-     "url": "https://www.zhihu.com/question/2094892066190915387",
+     "title": "我妈是1971年出生的，她是中专学历，请问在那个年代中专学历相当于什么水平？",
+     "url": "https://www.zhihu.com/question/1981378024705389846",
      "hot": ""
     },
     {
-     "title": "司美格鲁肽在美遭批量起诉，因患者用后患上可致盲的眼病，这真是GLP-1导致的吗？此类药物还有哪些风险？",
-     "url": "https://www.zhihu.com/question/2085486428255774078",
+     "title": "如何评价DeepSeek V4.1 Flash 1017登顶「史上最差AI模型名称排行榜」?",
+     "url": "https://www.zhihu.com/question/2095476625228019430",
      "hot": ""
     },
     {
-     "title": "前护士张水华破赛会纪录夺得西马冠军，如何评价她的表现？",
-     "url": "https://www.zhihu.com/question/2095160978170181329",
+     "title": "星巴克店员称 10 月 20 日起实施「消费入座」新规，你支持吗？落地难度大吗？",
+     "url": "https://www.zhihu.com/question/2095573616037573028",
      "hot": ""
     },
     {
-     "title": "陈奕迅开启重录旧唱片「现场录音式演唱会」，要求封存手机且禁止跟唱鼓掌，如何看待这一观演规定？",
-     "url": "https://www.zhihu.com/question/2094884581296162749",
+     "title": "为什么嘴吹燃着的木炭，木炭会加速燃烧，呼出来的不是二氧化碳吗?",
+     "url": "https://www.zhihu.com/question/1988229083155431753",
      "hot": ""
     },
     {
-     "title": "特朗普新任白宫发言人上任仅5天就被解雇，创下史上最短纪录，为什么会这样？",
-     "url": "https://www.zhihu.com/question/2094636010722411929",
+     "title": "如何看待C罗遭葡萄牙足协处罚停赛30天、罚款255欧，仍可入选下期大名单？你觉得处罚力度轻吗？",
+     "url": "https://www.zhihu.com/question/2095768080811148954",
      "hot": ""
     },
     {
-     "title": "Deepseek对传统搜索的冲击有多大？",
-     "url": "https://www.zhihu.com/question/13453602540",
+     "title": "长鑫科技股价跳水，市值跌破3万亿元，前三季度预赚 1300 多亿还推出回购，为什么股价反而大跌？",
+     "url": "https://www.zhihu.com/question/2095452033461511103",
      "hot": ""
     },
     {
-     "title": "有人说砍掉科研圈95%的研究和论文，完全不影响科学发展，这话对吗？",
-     "url": "https://www.zhihu.com/question/2092961269254971598",
+     "title": "退休后旅游有意义吗?",
+     "url": "https://www.zhihu.com/question/464519099",
      "hot": ""
     },
     {
-     "title": "汇源集团发布严正声明，宣布和「汇源」品牌切割、推出新品牌咱家果源，具体怎么回事？会带来哪些市场影响？",
-     "url": "https://www.zhihu.com/question/2095447353687815341",
+     "title": "如何评价美国国土安全部将 DeepSeek 及相关第三方产品排除出联邦文职采购？",
+     "url": "https://www.zhihu.com/question/2095646780692099465",
      "hot": ""
     },
     {
-     "title": "当面试被问「你手上还有其它 offer 吗」我们该如何应答？",
-     "url": "https://www.zhihu.com/question/5698418860",
+     "title": "MiniMax 发布新模型 M3.1-Flash，主打多模态编程，其实际性能表现如何？",
+     "url": "https://www.zhihu.com/question/2095590617426482384",
      "hot": ""
     }
    ]
   },
   "douyin": {
    "name": "抖音热点",
-   "updateTime": "2026-10-19 18:08",
+   "updateTime": "2026-10-20 11:03",
    "url": "https://www.douyin.com/hot",
    "data": [
     {
-     "title": "比冬天先来的是阿勒泰的回忆",
-     "url": "https://www.douyin.com/search/%E6%AF%94%E5%86%AC%E5%A4%A9%E5%85%88%E6%9D%A5%E7%9A%84%E6%98%AF%E9%98%BF%E5%8B%92%E6%B3%B0%E7%9A%84%E5%9B%9E%E5%BF%86",
-     "hot": 11752806
+     "title": "南北吃蟹大不同",
+     "url": "https://www.douyin.com/search/%E5%8D%97%E5%8C%97%E5%90%83%E8%9F%B9%E5%A4%A7%E4%B8%8D%E5%90%8C",
+     "hot": 12130871
     },
     {
-     "title": "非遗陶瓷有点东西",
-     "url": "https://www.douyin.com/search/%E9%9D%9E%E9%81%97%E9%99%B6%E7%93%B7%E6%9C%89%E7%82%B9%E4%B8%9C%E8%A5%BF",
-     "hot": 11356371
+     "title": "我关注的中国设计师都在抖音大秀",
+     "url": "https://www.douyin.com/search/%E6%88%91%E5%85%B3%E6%B3%A8%E7%9A%84%E4%B8%AD%E5%9B%BD%E8%AE%BE%E8%AE%A1%E5%B8%88%E9%83%BD%E5%9C%A8%E6%8A%96%E9%9F%B3%E5%A4%A7%E7%A7%80",
+     "hot": 11539553
     },
     {
      "title": "何以中国当惊世界殊",
      "url": "https://www.douyin.com/search/%E4%BD%95%E4%BB%A5%E4%B8%AD%E5%9B%BD%E5%BD%93%E6%83%8A%E4%B8%96%E7%95%8C%E6%AE%8A",
-     "hot": 11101220
+     "hot": 11291421
     },
     {
-     "title": "秦岭已进入最佳赏味期",
-     "url": "https://www.douyin.com/search/%E7%A7%A6%E5%B2%AD%E5%B7%B2%E8%BF%9B%E5%85%A5%E6%9C%80%E4%BD%B3%E8%B5%8F%E5%91%B3%E6%9C%9F",
-     "hot": 11092404
+     "title": "非遗陶瓷有点东西",
+     "url": "https://www.douyin.com/search/%E9%9D%9E%E9%81%97%E9%99%B6%E7%93%B7%E6%9C%89%E7%82%B9%E4%B8%9C%E8%A5%BF",
+     "hot": 11266981
     },
     {
-     "title": "LOUD夺冠深度解析",
-     "url": "https://www.douyin.com/search/LOUD%E5%A4%BA%E5%86%A0%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90",
-     "hot": 10492210
+     "title": "天黑了该我在乐园上场了",
+     "url": "https://www.douyin.com/search/%E5%A4%A9%E9%BB%91%E4%BA%86%E8%AF%A5%E6%88%91%E5%9C%A8%E4%B9%90%E5%9B%AD%E4%B8%8A%E5%9C%BA%E4%BA%86",
+     "hot": 10545755
     },
     {
-     "title": "S16瑞士轮首轮抽签结果",
-     "url": "https://www.douyin.com/search/S16%E7%91%9E%E5%A3%AB%E8%BD%AE%E9%A6%96%E8%BD%AE%E6%8A%BD%E7%AD%BE%E7%BB%93%E6%9E%9C",
-     "hot": 10492035
+     "title": "中国队夺拜仁青年杯冠军",
+     "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E9%98%9F%E5%A4%BA%E6%8B%9C%E4%BB%81%E9%9D%92%E5%B9%B4%E6%9D%AF%E5%86%A0%E5%86%9B",
+     "hot": 10544938
     },
     {
-     "title": "马克龙称骚乱根源是波斯湾冲突",
-     "url": "https://www.douyin.com/search/%E9%A9%AC%E5%85%8B%E9%BE%99%E7%A7%B0%E9%AA%9A%E4%B9%B1%E6%A0%B9%E6%BA%90%E6%98%AF%E6%B3%A2%E6%96%AF%E6%B9%BE%E5%86%B2%E7%AA%81",
-     "hot": 9385343
+     "title": "曼城或被巨额扣分确保降级",
+     "url": "https://www.douyin.com/search/%E6%9B%BC%E5%9F%8E%E6%88%96%E8%A2%AB%E5%B7%A8%E9%A2%9D%E6%89%A3%E5%88%86%E7%A1%AE%E4%BF%9D%E9%99%8D%E7%BA%A7",
+     "hot": 9431532
     },
     {
-     "title": "前三季度我国GDP同比增长4.6% ​",
-     "url": "https://www.douyin.com/search/%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E6%88%91%E5%9B%BDGDP%E5%90%8C%E6%AF%94%E5%A2%9E%E9%95%BF4.6%25%20%E2%80%8B",
-     "hot": 9312832
+     "title": "专家谈美日大规模联合军演",
+     "url": "https://www.douyin.com/search/%E4%B8%93%E5%AE%B6%E8%B0%88%E7%BE%8E%E6%97%A5%E5%A4%A7%E8%A7%84%E6%A8%A1%E8%81%94%E5%90%88%E5%86%9B%E6%BC%94",
+     "hot": 9215743
     },
     {
-     "title": "法国多地抗议引发骚乱",
-     "url": "https://www.douyin.com/search/%E6%B3%95%E5%9B%BD%E5%A4%9A%E5%9C%B0%E6%8A%97%E8%AE%AE%E5%BC%95%E5%8F%91%E9%AA%9A%E4%B9%B1",
-     "hot": 9217973
+     "title": "当东北人假装南方人",
+     "url": "https://www.douyin.com/search/%E5%BD%93%E4%B8%9C%E5%8C%97%E4%BA%BA%E5%81%87%E8%A3%85%E5%8D%97%E6%96%B9%E4%BA%BA",
+     "hot": 9208551
     },
     {
-     "title": "2026维密大秀",
-     "url": "https://www.douyin.com/search/2026%E7%BB%B4%E5%AF%86%E5%A4%A7%E7%A7%80",
-     "hot": 9085451
+     "title": "披旭日旗中国留学生已被遣返",
+     "url": "https://www.douyin.com/search/%E6%8A%AB%E6%97%AD%E6%97%A5%E6%97%97%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E5%B7%B2%E8%A2%AB%E9%81%A3%E8%BF%94",
+     "hot": 9176764
     },
     {
-     "title": "今年双11买啥不烧心",
-     "url": "https://www.douyin.com/search/%E4%BB%8A%E5%B9%B4%E5%8F%8C11%E4%B9%B0%E5%95%A5%E4%B8%8D%E7%83%A7%E5%BF%83",
-     "hot": 9007517
+     "title": "一口气梳理维秘大秀造型看点",
+     "url": "https://www.douyin.com/search/%E4%B8%80%E5%8F%A3%E6%B0%94%E6%A2%B3%E7%90%86%E7%BB%B4%E7%A7%98%E5%A4%A7%E7%A7%80%E9%80%A0%E5%9E%8B%E7%9C%8B%E7%82%B9",
+     "hot": 9147318
     },
     {
-     "title": "第39届金鸡奖提名名单公布",
-     "url": "https://www.douyin.com/search/%E7%AC%AC39%E5%B1%8A%E9%87%91%E9%B8%A1%E5%A5%96%E6%8F%90%E5%90%8D%E5%90%8D%E5%8D%95%E5%85%AC%E5%B8%83",
-     "hot": 8894746
+     "title": "社保基金会原副理事长王文灵被双开",
+     "url": "https://www.douyin.com/search/%E7%A4%BE%E4%BF%9D%E5%9F%BA%E9%87%91%E4%BC%9A%E5%8E%9F%E5%89%AF%E7%90%86%E4%BA%8B%E9%95%BF%E7%8E%8B%E6%96%87%E7%81%B5%E8%A2%AB%E5%8F%8C%E5%BC%80",
+     "hot": 9012653
     }
    ]
   },
@@ -565,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-20 02:48",
+   "updateTime": "2026-10-20 11:03",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "带着100万，我们见了成人网红...",
      "url": "https://www.bilibili.com/video/BV1pGnn67EbB",
-     "hot": 1285177
+     "hot": 1807446
     },
     {
-     "title": "一锅开水直接加进肉馅里？这样做出来的包子馅汤汁竟然这么多？ 到底是什么原理？",
-     "url": "https://www.bilibili.com/video/BV1BiJe6LERJ",
-     "hot": 744345
+     "title": "《现在的小孩 vs bro小时候》",
+     "url": "https://www.bilibili.com/video/BV1yJnL6TE3p",
+     "hot": 500256
+    },
+    {
+     "title": "刘诗诗杀进东北悬疑赛道？开场就是冻尸，一集死一人？！最新悬疑剧《醉梦》【以片概全】",
+     "url": "https://www.bilibili.com/video/BV1Y2nJ6NEQb",
+     "hot": 387601
+    },
+    {
+     "title": "“当人生变成曲线，你会看见谁一直陪着你”【把回忆拼好给你-DJ变速】【生命线の小曲】",
+     "url": "https://www.bilibili.com/video/BV1xmn36aEgv",
+     "hot": 519745
+    },
+    {
+     "title": "\"早期的豺狼\"",
+     "url": "https://www.bilibili.com/video/BV1JFng61E3t",
+     "hot": 1389979
+    },
+    {
+     "title": "上课同学穿披日本军旗戴侵略军帽怎么办？",
+     "url": "https://www.bilibili.com/video/BV1APJd62Esz",
+     "hot": 662276
     },
     {
      "title": "【英雄联盟】K/DA官方MV - “FIRESTARTER（燃）”正式上线",
      "url": "https://www.bilibili.com/video/BV1j5nj68E48",
-     "hot": 1274453
+     "hot": 1413917
     },
     {
-     "title": "以色列和英国的文明内斗",
-     "url": "https://www.bilibili.com/video/BV1Lsnn6uEaH",
-     "hot": 742346
+     "title": "王扁街头遇袭事件：前经纪人为何欲夺人性命？",
+     "url": "https://www.bilibili.com/video/BV1fgJd6rEkq",
+     "hot": 464202
     },
     {
      "title": "【NMIXX】\"긴 소원(Birthday Wish)\" M/V",
      "url": "https://www.bilibili.com/video/BV1Ben76vEwK",
-     "hot": 417183
+     "hot": 627459
     },
     {
-     "title": "K/DA最新单曲《FIRESTARTER》",
-     "url": "https://www.bilibili.com/video/BV1j5nj68E7r",
-     "hot": 486711
+     "title": "【Day 0】我是DeepSeek鲸鱼娘，这个B站账号现在归我了",
+     "url": "https://www.bilibili.com/video/BV1pGnn67EC2",
+     "hot": 408225
     },
     {
-     "title": "【盲人无障碍电影】冰雪奇缘第一部",
-     "url": "https://www.bilibili.com/video/BV1G5po6zECY",
-     "hot": 1965448
+     "title": "教妹妹开车，用我的声音，我成功了！",
+     "url": "https://www.bilibili.com/video/BV1YmnJ6eEKE",
+     "hot": 752631
     },
     {
-     "title": "『复活局合集』死去的声音突然攻击我.",
-     "url": "https://www.bilibili.com/video/BV19vJt6DE4k",
-     "hot": 835979
-    },
-    {
-     "title": "绝密核电站！引入毒圈机制！虚幻5加持天际港沉浸拉满！",
-     "url": "https://www.bilibili.com/video/BV1qrnJ6BEqu",
-     "hot": 431735
-    },
-    {
-     "title": "每一位认真谋生的人都值得被仰望",
-     "url": "https://www.bilibili.com/video/BV1Jonu6mEwN",
-     "hot": 1888454
-    },
-    {
-     "title": "《三角洲行动》新干员档案：维罗妮卡·卡尔多佐—代号野火",
-     "url": "https://www.bilibili.com/video/BV1NxnJ6SE4G",
-     "hot": 558060
-    },
-    {
-     "title": "枪手携2500发弹药血洗商场！警员孤身迎战，80米外击毙！",
-     "url": "https://www.bilibili.com/video/BV1dCJe6zEgv",
-     "hot": 6286243
+     "title": "房车自驾1500公里，去看看课本里的大兴安岭到底多美？",
+     "url": "https://www.bilibili.com/video/BV1jYJX6FEtw",
+     "hot": 354252
     }
    ]
   }
@@ -649,63 +713,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "“张雪机车”获制造商年度第三名",
-   "url": "https://finance.sina.com.cn/wm/2026-10-19/doc-inivtchu0812347.shtml",
+   "title": "当AI输出的文本，开始自带“水印”",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-20/doc-inivvhfu0846677.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“内幕”曝光！马斯克提议，特朗普同意",
-   "url": "https://finance.sina.com.cn/roll/2026-10-19/doc-inivtchv7537712.shtml",
+   "title": "韩路：汽车之家坑了韩路400万及更多",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-20/doc-inivuvry0899073.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "X字头列车来了！时速更高",
-   "url": "https://finance.sina.com.cn/wm/2026-10-19/doc-inivtchu0816137.shtml",
+   "title": "苹果授权店回应iPhone Duo库存：首销当天的现货只提供给已经预订的顾客",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-20/doc-inivvnpx6578036.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "豆包回应“国内超一半算力在造爽剧”：只有约10%算力用于视频生成模型",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivtuet6901708.shtml",
+   "title": "英伟达官宣新突破：创纪录量子容错计算模拟所需物理比特减少 90%",
+   "url": "https://finance.sina.com.cn/tech/digi/2026-10-20/doc-inivvnpx6594288.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "仁东控股押注80亿估值AI芯片，关联方无息输血背后有何考量",
-   "url": "https://finance.sina.com.cn/tob/2026-10-16/doc-inivmprm8362285.shtml",
+   "title": "57 亿美元赔款还不够，Taction 要求苹果支付 iPhone 与 Apple Watch 专利费至 2035 年",
+   "url": "https://finance.sina.com.cn/tech/digi/2026-10-20/doc-inivvnpt7593786.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "离开字节的人：36位创业者，带走了方法，也带走了边界",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivtpwq0822909.shtml",
+   "title": "剂泰科技与礼来达成战略合作，共同推进组织特异性LNP递送技术",
+   "url": "https://finance.sina.com.cn/roll/2026-10-20/doc-inivvsvv6608915.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "摩根士丹利：美股回调接近尾声 准备逢低布局风险资产",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumai6166324.shtml",
+   "title": "花旗澳大利亚CEO称美债作为对冲工具的吸引力在减弱",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivvnpx6643620.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "开盘：纳斯达克指数上涨 投资者逢低买入AI板块",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-19/doc-inivumai6156387.shtml",
+   "title": "AI可以替代专业心理治疗？",
+   "url": "https://finance.sina.com.cn/wm/2026-10-20/doc-inivvsvv6531480.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "科大讯飞Q3财报：营收65.64亿元，归母净利同比增长31.05%",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumai6153533.shtml",
+   "title": "原油价格大致持稳 市场权衡伊朗威胁与石油运输加速增长",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivvnpt7614899.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "MiniMax M3.1 Flash上线：速度提升3倍，价格降低70%",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumam6883924.shtml",
+   "title": "操盘必读：影响股市利好或利空消息_2026年10月20日_财经新闻",
+   "url": "https://finance.sina.com.cn/stock/cpbd/2026-10-20/doc-inivvnpv5869215.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "辛选刘小啦公益捐赠100万元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumam6873065.shtml",
+   "title": "股海导航_2026年10月20日_沪深股市公告与交易提示",
+   "url": "https://finance.sina.com.cn/stock/s/2026-10-20/doc-inivvnpt7556874.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "曦望联席CEO王湛：AI下一场仗是更低成本交付智能",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-19/doc-inivumaf7734878.shtml",
+   "title": "美国特使威特科夫将在就乌克兰的会谈后前往俄罗斯与普京会晤",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-20/doc-inivvnps0780823.shtml",
    "source": "新浪科技"
   }
  ]
