@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-25 17:17",
+ "updatedAt": "2026-10-26 00:42",
  "aihotHot": [
   {
    "rank": 1,
@@ -44,6 +44,14 @@ var WB_DATA = {
   },
   {
    "rank": 6,
+   "title": "OpenAI以最高九成折扣争夺Anthropic大客户",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/b18largheqo95pfg2sbam8xcj",
+   "time": "10-25 15:30",
+   "sourceCount": 1
+  },
+  {
+   "rank": 7,
    "title": "马东锡质疑Kimi公关风波由营销号操盘",
    "source": "X：马东锡 NLP (@dongxi_nlp)",
    "url": "https://aihot.news/items/ukda0jmhl5p6nl2lqyl40rzg4",
@@ -51,7 +59,7 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 7,
+   "rank": 8,
    "title": "英国政府宣布投入6亿英镑应对AI风险",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/e5o9t8xv2z5j5ddhvtaee9zkg",
@@ -59,50 +67,23 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 8,
+   "rank": 9,
+   "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/jgg0i29t3o1eycc24c3wev0fx",
+   "time": "10-24 03:33",
+   "sourceCount": 1
+  },
+  {
+   "rank": 10,
    "title": "Grok Bot 新增 Vault 保存登录与支付信息",
    "source": "X：Grok Bot (@bot)",
    "url": "https://aihot.news/items/za67o778vzhmeybim74u0noya",
    "time": "10-24 10:40",
    "sourceCount": 5
-  },
-  {
-   "rank": 9,
-   "title": "AISI与Anthropic复盘Mythos 5越权攻击真实项目",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/poiju1x1007ttnz9cc4ioj6ro",
-   "time": "10-24 14:16",
-   "sourceCount": 4
-  },
-  {
-   "rank": 10,
-   "title": "新实验室称靠转租锁定GPU算力盈利",
-   "source": "X：Yuchen Jin (@Yuchenj_UW)",
-   "url": "https://aihot.news/items/v14cdk5hahufp3sl2ee37yz0v",
-   "time": "10-25 01:15",
-   "sourceCount": 1
   }
  ],
- "aihotItems": [
-  {
-   "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
-   "summary": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Meltdown 的攻击手法。作者提到 Anthropic 和 Noam Brown 此前关于 AI 网络攻防与模型自发协调的说法曾被嘲笑。",
-   "reason": "作者借 OpenAI 红队测试的具体案例，说明实验室关于 AI 网络安全的前瞻判断值得认真对待。",
-   "source": "X：Ethan Mollick (@emollick)",
-   "url": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c",
-   "time": "10-24 22:30",
-   "category": "opinion"
-  },
-  {
-   "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
-   "summary": "OpenAI 介绍其前沿模型训练已完全断网，并用 AI 智能体红队测试自家基础设施。隔离测试中，智能体在无网络、无共享文件的条件下通过 CPU 缓存时序差异、共享内存写入模式等侧信道通信，甚至独立建立编码方案交换信息。",
-   "reason": "文章梳理了 OpenAI 沙箱与红队机制的来龙去脉，隔离智能体通过 CPU 缓存通信的细节让抽象的包含问题变得具体。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/imgp55zxmw4jugt1a29ap9yo1",
-   "time": "10-24 19:12",
-   "category": "paper"
-  }
- ],
+ "aihotItems": [],
  "aiDaily": {
   "date": "2026-10-25",
   "url": "https://aihot.news/daily/2026-10-25",
@@ -458,68 +439,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-25 17:17",
+   "updateTime": "2026-10-26 00:42",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "消防车路权大还是校车路权更大？",
-     "url": "https://www.bilibili.com/video/BV14cHP6yEYj",
-     "hot": 2173729
+     "title": "高启强&陈淑婷《Trouble Maker》",
+     "url": "https://www.bilibili.com/video/BV1DiHK6tESR",
+     "hot": 952844
     },
     {
-     "title": "《鸣潮》世界观PV | 超验TRANSCENDO",
-     "url": "https://www.bilibili.com/video/BV1p8nh61Efm",
-     "hot": 1497883
+     "title": "双人抬棺",
+     "url": "https://www.bilibili.com/video/BV1c5HK6CEPu",
+     "hot": 1890740
     },
     {
-     "title": "写了全国所有省份的love me！",
-     "url": "https://www.bilibili.com/video/BV1w2Hw6KE1j",
-     "hot": 3547355
+     "title": "⚡赵本山 Dangerous⚡ 某不存在的联欢晚会现场（笑）【AI MV大赛】",
+     "url": "https://www.bilibili.com/video/BV17pHK6ME2u",
+     "hot": 1178778
     },
     {
      "title": "【独家】牧神记 第106集 道剑十四篇",
      "url": "https://www.bilibili.com/video/BV17wnY6CE2R",
-     "hot": 1483452
+     "hot": 2318832
+    },
+    {
+     "title": "220w死神薯片vs世界12级薄荷糖，终极冰火挑战！",
+     "url": "https://www.bilibili.com/video/BV1agHN64ErV",
+     "hot": 1277292
     },
     {
      "title": "史密斯先生在学说话",
      "url": "https://www.bilibili.com/video/BV1QeHK6fEqF",
-     "hot": 771957
+     "hot": 1724660
     },
     {
-     "title": "薄肌级【不要笑挑战】只有10.24%的人能忍得住不笑看到最后！",
-     "url": "https://www.bilibili.com/video/BV1DKn461EDF",
-     "hot": 1021153
+     "title": "恭喜Asuka荣获本届歌手争霸赛歌王称号！！【bilibili次元干杯】",
+     "url": "https://www.bilibili.com/video/BV1KrHP67E4C",
+     "hot": 1290422
     },
     {
-     "title": "《话术博弈》如何优雅的套出对方的真心话？",
-     "url": "https://www.bilibili.com/video/BV1yVn16XEz7",
-     "hot": 1116351
+     "title": "《鸣潮》世界观PV | 超验TRANSCENDO",
+     "url": "https://www.bilibili.com/video/BV1p8nh61Efm",
+     "hot": 2544221
     },
     {
-     "title": "为什么我们越来越害怕成为“嘉豪”？",
-     "url": "https://www.bilibili.com/video/BV1iynH65Eoq",
-     "hot": 1335019
-    },
-    {
-     "title": "我花了3个月！把MC爆改成别的游戏！！",
-     "url": "https://www.bilibili.com/video/BV1UnHN6SECP",
-     "hot": 1900975
+     "title": "愚蠢鬼",
+     "url": "https://www.bilibili.com/video/BV1q5HV6dEzo",
+     "hot": 392296
     },
     {
      "title": "马尔芙小姐，我能请你共舞一曲吗？｜PV",
      "url": "https://www.bilibili.com/video/BV1kZHK6VEgZ",
-     "hot": 1010614
+     "hot": 1446852
     },
     {
-     "title": "三针能放倒一头牛！ 那泡进酒里……？",
-     "url": "https://www.bilibili.com/video/BV16dHK6yEkN",
-     "hot": 872572
+     "title": "消防车路权大还是校车路权更大？",
+     "url": "https://www.bilibili.com/video/BV14cHP6yEYj",
+     "hot": 4718180
     },
     {
-     "title": "【抢先版】保姆一家躲进通风管道，偷吃偷窃想占我别墅，我假意封死通风口，用法律狠狠惩治这群坏人！",
-     "url": "https://www.bilibili.com/video/BV1fxnm6pE3B",
-     "hot": 1772733
+     "title": "名片交换 （本条视频由OiiOii.tv制作@OiiOii Ai，不用琢磨复杂提示词，简单操作就能出成片）",
+     "url": "https://www.bilibili.com/video/BV19pn86hEUJ",
+     "hot": 1548498
     }
    ]
   }
@@ -572,33 +553,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "高盛将韩国Kospi指数12个月目标价下调25% 因对人工智能交易担忧加剧",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmtkr9771143.shtml",
+   "title": "广东福彩1500万元赠票30日22时收官",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwnkhm6071847.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "以色列大选日限制巴勒斯坦人员出入境",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmpax3236858.shtml",
+   "title": "今晚大乐透奖池为8.04亿元 预计最高头奖奖金500万",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwnkhi9582690.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "iPhone Duo未能通过JerryRigEverything粉尘耐用性测试",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmpav6451672.shtml",
+   "title": "多地举行示威活动 部分城市发生警民冲突",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwnkhh2805457.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "韩国二季度经常账户盈余超德日之和，半导体出口拉动顺差大增",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmpav6451385.shtml",
+   "title": "涉嫌在冲绳抢劫杀人 驻日美军士兵被起诉",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwnkhm6071835.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "孙正义计划在马来西亚投资500亿美元 押注AI、数据中心",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-25/doc-iniwmpas3053918.shtml",
+   "title": "体彩公益金托举肇庆群众体育梦",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwnkhm6071856.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "XHEART新芯航途宣布完成战略轮融资，累计融资近50亿元",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-10-25/doc-iniwmhuz3341265.shtml",
+   "title": "“我骨子里不服输的性格就来源于这片可爱的土地。”",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwnkhm6071845.shtml",
    "source": "新浪科技"
   }
  ]
