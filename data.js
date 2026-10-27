@@ -1,33 +1,41 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-27 17:57",
+ "updatedAt": "2026-10-28 02:11",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "10-27 11:09",
-   "sourceCount": 14
-  },
-  {
-   "rank": 2,
    "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
-   "time": "10-27 10:45",
+   "time": "10-28 00:11",
    "sourceCount": 12
   },
   {
+   "rank": 2,
+   "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "10-28 01:31",
+   "sourceCount": 14
+  },
+  {
    "rank": 3,
-   "title": "OpenAI 称 AI 取得三项科学发现，细节未公开",
+   "title": "OpenAI 称 AI 三项科学发现，物理证明未公开引呼吁",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
-   "time": "10-27 12:03",
-   "sourceCount": 6
+   "time": "10-28 01:08",
+   "sourceCount": 8
   },
   {
    "rank": 4,
+   "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+   "time": "10-28 01:25",
+   "sourceCount": 10
+  },
+  {
+   "rank": 5,
    "title": "微软向约六万员工发出自愿离职邀约",
    "source": "X：Oran Ge (@oran_ge)",
    "url": "https://aihot.news/items/m4l5hb0qhkn1zzgbqzxe6o510",
@@ -35,7 +43,7 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "Cohere称Qwen模型在沙箱中尝试外传探针文件",
    "source": "Hacker News：AI 热帖",
    "url": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen",
@@ -43,154 +51,146 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 6,
+   "rank": 7,
+   "title": "英伟达与Meta扩大Muse合作并投资30亿美元",
+   "source": "NVIDIA：Newsroom（RSS）",
+   "url": "https://aihot.news/items/j9n2v4vucqk9r4mzddueppd2v",
+   "time": "10-27 20:10",
+   "sourceCount": 4
+  },
+  {
+   "rank": 8,
+   "title": "蚂蚁发布灵光2.0，AI助理可跨会话持续办事",
+   "source": "X：卡尔的 AI 沃茨 (@aiwarts)",
+   "url": "https://aihot.news/items/t75a9cjsxenae5ubp1blnv92v",
+   "time": "10-27 21:22",
+   "sourceCount": 3
+  },
+  {
+   "rank": 9,
+   "title": "百度开源 Unlimited OCR 2 长文档识别模型",
+   "source": "X：百度 Baidu (@Baidu_Inc)",
+   "url": "https://aihot.news/items/g43csy4qvgx4ezf0475bmdglv",
+   "time": "10-27 20:57",
+   "sourceCount": 3
+  },
+  {
+   "rank": 10,
    "title": "债务市场收紧，200余家NeoCloud面临出清",
    "source": "X：indigo (@indigox)",
    "url": "https://aihot.news/items/ji19kgoq8nfbm48kstr7gbs4g",
    "time": "10-26 11:20",
    "sourceCount": 1
-  },
-  {
-   "rank": 7,
-   "title": "Apple发布新款iPad mini：OLED屏、A20 Pro、699美元起",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/bc44sjhr0zz2k4wv2d8wvn2sw",
-   "time": "10-26 00:00",
-   "sourceCount": 1
-  },
-  {
-   "rank": 8,
-   "title": "Meta 设无投票权 C 类股并拟融资至多 950 亿美元",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/el5ajsjzi2ya2wtygfxsp2iit",
-   "time": "10-27 02:40",
-   "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "蚂蚁发布灵光 2.0，AI 助理可跨会话持续办事",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/r410j9jdvp6oavqqfzgtr6t7q",
-   "time": "10-27 14:14",
-   "sourceCount": 2
-  },
-  {
-   "rank": 10,
-   "title": "Kimi为K3.1 Pro限流致歉并补偿订阅用户",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/qzp95at6fpxmnd251zsidaard",
-   "time": "10-26 16:05",
-   "sourceCount": 3
   }
  ],
  "aihotItems": [
   {
-   "title": "Latent Space 解读 Anthropic 提交 S-1：拟以代码 AN 上市纳斯达克，H1 2026 营收 16.3B 美元",
-   "summary": "Latent Space 汇总解读 Anthropic 公开提交的 S-1 文件，公司计划以代码 AN 上市纳斯达克，营收从 2023 年的 41M 美元增至 H1 2026 的 16.3B 美元，Q2 营收 11.6B 美元同比增长 1,368%，营业利润 974M 美元，H1 2026 毛利率达 85%。",
-   "reason": "原文梳理了 S-1 中的营收、毛利、现金与算力承诺等关键数字，并汇总多方的看多与质疑视角，方便读者快速理解这份文件的分歧点。",
-   "source": "Latent Space（RSS）",
-   "url": "https://aihot.news/items/nbvleghbxraalsahhggnc6qov",
-   "time": "10-27 15:24",
-   "category": "industry"
+   "title": "Azeem Azhar 图解 Anthropic S-1 财务数据",
+   "summary": "Azeem Azhar 图解 Anthropic 的 S-1 文件，指出公司已从实验室变成有现金流和资金的业务，看起来能走向可靠盈利。增长仍高但放缓，超过 80% 的营收来自发布不到六个月的模型；Q3 因向基金会付款可能出现边际亏损，客户集中度问题不大。",
+   "reason": "作者基于 S-1 图表数据拆解 Anthropic 从实验室转向盈利业务的路径，并指出增长放缓与新模式贡献 80% 营收等约束。",
+   "source": "Azeem Azhar：Exponential View（RSS）",
+   "url": "https://aihot.news/items/xhwtx8zwvvmyou5emtd3dbzbn",
+   "time": "10-28 01:31",
+   "category": "opinion"
   },
   {
-   "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
-   "summary": "作者总结 Anthropic IPO 招股书的 11 个细节，计划募资约 1000 亿美元、估值或达 1.5万亿～2万亿。收入五个季度涨 30 倍，今年二季度经营利润首次转正 9.74 亿美元，但上半年净亏 807 亿美元，主要来自可转换票据公允价值变动；调整后净利润为正 26.71 亿美元。",
-   "reason": "作者通读招股书后拆解了收入增速、算力合同、股权结构和公益机制等细节，读者可以借此低成本了解这份文件里不直观的关键信息。",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/t6evqsenxfytsi8wl7h1urjxr",
-   "time": "10-27 08:34",
-   "category": "industry"
+   "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
+   "summary": "Liquid AI 发布新一代 Liquid Foundation Models 家族 LFM3，首个版本包含六款约 2B 参数的模型，覆盖文本、视觉、音频、omni 和决策模态，全部基于 LFM3-1.7B-Base，预训练使用 22T tokens。",
+   "reason": "发布方给出了六款 2B 级模型的架构细节、基准对比和单卡微调路径，读者可据此评估边缘侧专用模型的选型。",
+   "source": "Liquid AI 模型与工程博客（网页）",
+   "url": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s",
+   "time": "10-27 00:00",
+   "category": "ai-models"
   },
   {
-   "title": "Anthropic IPO 招股书11个细节解读：千亿募资、807亿美元亏损与7美元控股权",
-   "summary": "作者梳理了 Anthropic 提交的 IPO 招股书中的11个细节。",
-   "reason": "作者通读招股书后梳理了11个细节，涵盖收入增速、算力合同、控制权结构和公益承诺，可作了解 Anthropic 经营全貌的参考。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/dw9465ajr0oz1vf6ricf2074f",
-   "time": "10-27 08:05",
-   "category": "industry"
-  },
-  {
-   "title": "SGLang 披露并修复 PD 分离服务中的跨请求 KVCache 竞态问题",
-   "summary": "SGLang 团队与 Cloudflare 协调披露 2026 年 8 月 27 日至 9 月 9 日影响 Workers AI 上 @cf/zai-org/glm-5.3 的跨请求 KVCache 暴露问题。",
-   "reason": "SGLang 团队复盘了异步 KVCache 传输中的跨请求泄漏机制、复现方法和修复方案，对运维长上下文 PD 部署有直接指导意义。",
-   "source": "LMSYS Blog",
-   "url": "https://aihot.news/items/bb39zcs7eu91fi0ze136tayg2",
-   "time": "10-26 00:00",
+   "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
+   "summary": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。",
+   "reason": "LangChain 复盘自研设计 agent 从早期差评到可用的过程，并开源了 harness，读者可借鉴其教品味、建环境和异步子代理的具体做法。",
+   "source": "LangChain：Blog（RSS）",
+   "url": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02",
+   "time": "10-28 00:45",
    "category": "tip"
   },
   {
-   "title": "OpenAI 宣布 AI 模型取得三项科学突破，涉及局部光滑猜想、指数时间假设与杨–米尔斯理论",
-   "summary": "OpenAI 于 10 月 27 日宣布其 AI 模型在数学、计算机科学和物理学领域取得三项研究突破。数学上给出了所有维度下局部光滑猜想的证明，从而解决挂谷猜想与斯坦因限制猜想；计算机科学上给出推翻指数时间假设（ETH）的证明，暗示相关计算任务可能有更快算法；物理学上提出量子色动力学及标准模型一种统一完备化的严格存在性证明，涉及杨–米尔斯千禧年难题的一部分。",
-   "reason": "原文梳理了三项成果的数学背景和验证方式，并注明仍待学术界独立确认，读者可据此把握证据强度。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
-   "time": "10-27 07:37",
-   "category": "ai-models"
+   "title": "OpenAI 扩大与 Oracle 合作，将 Oracle 应用与数据接入 ChatGPT",
+   "summary": "OpenAI 宣布扩大与 Oracle 的合作，将 Oracle 应用和数据接入 ChatGPT，并用 OpenAI 模型驱动 Oracle 新产品。",
+   "reason": "原文来自 OpenAI 官方宣布，列出了合作的具体产品和 Oracle 的使用数据，可了解企业级 Agent 集成的落地形态。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/zbp5qzehshqnvgimabeu27cb1",
+   "time": "10-27 15:00",
+   "category": "industry"
   },
   {
-   "title": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
-   "summary": "OpenAI 宣布其模型在调和分析、复杂度理论和量子场论方面取得三项成果，包括证明各维度的 local smoothing 猜想（进而解决 Kakeya 猜想与 Stein 限制猜想）、在 Lean 中验证 ETH 为假、以及给出 QCD 与纯 Yang–Mills 理论的严格存在性证明。",
-   "reason": "原文由当事方直接披露三项数学成果和三种外部协作发布模式，读者可据此了解其结果透明度与验证安排。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/x7jvppwrm1ldjd93v0jvsfd9c",
-   "time": "10-26 08:00",
+   "title": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
+   "summary": "Anthropic 计划通过长期受益信托和 Founder LLC 等独特治理结构上市，在公开市场融资的同时防止股东迫使公司削弱安全投入。信托的五名投票受托人可通过 Class T 股票任命七名董事中的四席，七位创始人则以 Founder LLC 掌握 50.1% 投票权。法学专家认为法律层面可隔绝逐利压力，但市场竞争、融资需求和创始人离开都可能侵蚀这些保障。",
+   "reason": "文章拆解了 Anthropic IPO 文件中的长期受益信托和 Founder LLC 等机制，并引用多位法学专家指出这些安全护盾的边界与隐患。",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/x9a9nhbuq2ncarw5i41jhryjc",
+   "time": "10-28 00:51",
+   "category": "industry"
+  },
+  {
+   "title": "Ai2 发布 Old Ideas, Novel Problems 研究与 benchmark，揭示 LLM 新颖性裁判不稳定",
+   "summary": "Ai2 发布研究 Old Ideas, Novel Problems、配套 benchmark、数据、代码和自动化流水线，测试 LLM 作为研究想法新颖性裁判的可靠性。",
+   "reason": "原文给出了跨六个 LLM 裁判的敏感性实验数据，读者可据此判断现有新颖性评估在 AI 生成想法上的可靠性边界。",
+   "source": "Ai2 / Allen Institute for AI（RSS）",
+   "url": "https://aihot.news/items/p92a4pkxkheznj9nmt50o08l6",
+   "time": "10-27 16:00",
    "category": "paper"
   },
   {
-   "title": "Greg Brockman 称 GPT-6.1 Terra 的电脑操作速度已超过他本人",
-   "summary": "Greg Brockman 表示 GPT-6.1 Terra 的电脑操作能力已跨过一个质变门槛，用起来比他不借助 AI 时更快。其引用的 OpenAI 介绍称 GPT-6.1 Terra 能理解屏幕内容、跨应用执行操作、自然书写，以更低价格提供快速且强大的 computer use，适合承担整个工作日的更多任务。",
-   "reason": "OpenAI 总裁以第一手体验称 GPT-6.1 Terra 的电脑操作速度已超过其本人，为该模型的实际体感提供了一个观察角度。",
-   "source": "X：Greg Brockman (@gdb)",
-   "url": "https://aihot.news/items/cccggvocxi7vdefusohq9tmdn",
-   "time": "10-27 04:21",
-   "category": "opinion"
-  },
-  {
-   "title": "Gamma 发布 Gamma 5 及 credits、导出、预览等多项更新",
-   "summary": "Gamma 发布 Gamma 5，宣称重建了思考、设计和编辑方式，支持输入句子、文档、PDF、图片或旧演示文稿，由智能体在几分钟内完成调研和设计，并可连接 Slack、Notion、Granola 等 20+ 工具引入上下文。",
-   "reason": "官方更新日志列出 Gamma 5 的生成与编辑能力变化，以及导出、预览等具体改进，便于用户判断是否升级使用。",
-   "source": "Gamma Changelog",
-   "url": "https://aihot.news/items/tckw64et369c0brghxzwke9qe",
-   "time": "10-27 03:14",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenAI GPT-6.1 Terra 上线 OpenRouter，定价 $1/M input、$5/M output",
-   "summary": "OpenRouter 宣布 OpenAI 的 GPT-6.1 Terra 上线。该模型在 Agents' Last Exam 上与 GPT-6 Astra 得分相当，每 token 价格约为其十分之一，平均完成任务速度比 Astra 和 GPT-6.1 Sol 快 3 倍以上。定价 $1/M input、$5/M output，上下文 1.05M，链接 https://openrouter.ai/openai/gpt-6.1-terra 。",
-   "reason": "发布方给出了 GPT-6.1 Terra 相对 GPT-6 Astra 的价格与速度对比和定价，便于评估 Agent 任务下的成本收益。",
-   "source": "X：OpenRouter (@OpenRouter)",
-   "url": "https://aihot.news/items/yims6bdgwsy052wrmjytgak8p",
-   "time": "10-27 02:49",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6.1 Terra，主打高效计算机操作与更低成本",
-   "summary": "OpenAI 发布 GPT-6.1 Terra，定位快速高效的计算机使用与视觉推理模型，标准 API 定价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%，为每百万输入 token $1、缓存输入 $0.05、输出 $5。",
-   "reason": "官方公布了 GPT-6.1 Terra 在电脑操作、编码和成本上的具体数据与定价，便于开发者评估高吞吐任务是否值得迁移。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/zogr3l33craxfj4s296npqpqc",
-   "time": "10-26 08:00",
+   "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
+   "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
+   "reason": "官方完整说明了 Genie 4 的实时交互、原生音频和与 Gemini 协作机制，也坦陈当前在长时一致性和物理精度上的局限。",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+   "time": "10-28 00:01",
    "category": "ai-models"
   },
   {
-   "title": "Evan Armstrong 解析 Anthropic S-1：2 万亿美元估值是否成立",
-   "summary": "The Leverage 创始人 Evan Armstrong 首次拆解 Anthropic 的 S-1 文件，评估其 2 万亿美元估值目标是否合理。核心数据包括累计融资 1411 亿美元、Q2 2026 收入 116 亿美元、约 900% 的净收入留存，以及 76% 的 2025 年收入来自约 1500 家年付费 10 万美元以上的企业客户。",
-   "reason": "作者基于 Anthropic S-1 数据拆解收入结构、毛利率口径与算力承诺，给出理解这家 2 万亿美元估值公司需相信什么的分析框架。",
-   "source": "Every：最新文章（网页）",
-   "url": "https://aihot.news/items/kh57nu0a8qoi2iv6zxa905pry",
-   "time": "10-26 00:00",
+   "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
+   "summary": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
+   "reason": "官方介绍 Cloud Agents 如何让非工程人员以经测试的 PR 参与公司代码库，含沙盒测试、skills 沉淀与共享环境等机制。",
+   "source": "Replit：Blog（RSS）",
+   "url": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d",
+   "time": "10-27 23:30",
+   "category": "ai-products"
+  },
+  {
+   "title": "Ben Horowitz 长文解析 Databricks 与智能体时代的公司形态",
+   "summary": "a16z 的 Ben Horowitz 发文解析 Databricks 如何成为智能体时代的公司基础设施，Databricks 已达到 70 亿美元收入运行率、同比增长 80%，估值 1900 亿美元。",
+   "reason": "作者是 Databricks 投资方 a16z 的联合创始人，从一手视角把数据库技术演进与 Coase、Burnham 的公司理论串起来，解释智能体为何需要新的系统记录。",
+   "source": "a16z：News（RSS）",
+   "url": "https://aihot.news/items/hfqjmlynoaqxrkyeg8qtsk9ap",
+   "time": "10-27 22:02",
    "category": "opinion"
   },
   {
-   "title": "Artificial Analysis 评测 GPT-6.1 Terra：以不到三分之一成本推进性价比前沿",
-   "summary": "Artificial Analysis 评测 OpenAI 发布的 GPT-6.1 Terra，称其在低中 effort 下达到智能与成本的 Pareto 前沿，价格为 GPT-5.6 Terra 的一半或更低（$1/$5 每百万输入/输出 token）。",
-   "reason": "评测方给出 GPT-6.1 Terra 在智能指数、幻觉率和编码代理基准上的具体得分与成本对比，读者可据此评估其性价比位置。",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/ub3gw75dlj8fpfm63er4k1xn2",
-   "time": "10-26 00:00",
-   "category": "ai-models"
+   "title": "Apple Creator Studio 推出更新：Final Cut Pro 集成 MotionVFX，Keynote、Pages、Numbers 新增智能助手与 MCP 支持",
+   "summary": "Apple 为 Creator Studio 推出更新，Final Cut Pro for Mac 内置 MotionVFX 视觉效果库并接入含视频素材的 Content Hub。",
+   "reason": "官方新闻稿列出 Final Cut Pro、Logic Pro 与 Keynote 等应用的 AI 能力变化，读者可据此评估对创作工作流的影响。",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/z7h3xpbyfp9laquaq2njijzfo",
+   "time": "10-27 00:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Apple 发布搭载 M6 芯片的 14 英寸 MacBook Pro，起售价 $1,999",
+   "summary": "Apple 发布搭载全新 M6 芯片的 14 英寸 MacBook Pro，配备 12 核 CPU 和 12 核 GPU，相比 M5 图形性能最高快 30%、端侧 AI 工作负载最高快 25%，电池续航最长 24 小时。新机支持 Wi-Fi 7 和蓝牙 6，可本地运行 LLM，10 月 28 日开启预购、11 月 6 日发售，起售价 $1,999（教育优惠 $1,899）。",
+   "reason": "官方发布稿给出 M6 相对 M5 和 M1 的具体性能数字、端侧 AI 能力与售价，读者可据此评估是否值得升级。",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/o0okltd585bcx5lh6bkq53n59",
+   "time": "10-27 00:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI 请外部专家核查其 AI 在数学、计算机科学和物理学领域产出的证明",
+   "summary": "The Decoder 报道 OpenAI 请外部专家担任\"shepherds\"核查其 AI 在计算机科学、数学和物理学领域的三项证明结果，并将部分证明翻译成 Lean 供计算机逐步验证。",
+   "reason": "文章梳理了三项数学级结果与专家核查安排，并点出 Lean 只能验证形式化陈述这一局限。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/xuhb122ijbtqkri3h6er2m21y",
+   "time": "10-27 20:37",
+   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-27 17:57",
+   "updateTime": "2026-10-28 02:11",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "旗舰手机芯片大横评：苹果高通发哥玄戒谁最强？",
      "url": "https://www.bilibili.com/video/BV1kMxM6FECM",
-     "hot": 308528
+     "hot": 1166274
     },
     {
-     "title": "循环歌单【致童年の小曲】“所以呢，你也成为苦瓜大王了吗？”",
-     "url": "https://www.bilibili.com/video/BV1nbnB68E3E",
-     "hot": 1074114
+     "title": "被人买凶杀死的自媒体人徽剑【热点详解01】",
+     "url": "https://www.bilibili.com/video/BV1mdxN68E7F",
+     "hot": 460472
     },
     {
-     "title": "灭霸与钢铁侠的校园生活",
-     "url": "https://www.bilibili.com/video/BV1bPno6bEBZ",
-     "hot": 305903
+     "title": "姆巴佩发表涉华不当言论！全网封杀！没有中国市场，姆巴佩会失去什么？",
+     "url": "https://www.bilibili.com/video/BV1XSxT6GEwQ",
+     "hot": 681520
     },
     {
      "title": "第9期（上）：收官高能局！阿瓦隆烧脑智斗对决【时差五小时3】",
      "url": "https://www.bilibili.com/video/BV1n4HG6fEXg",
-     "hot": 653162
+     "hot": 780171
     },
     {
-     "title": "【真实锐评】AL一号种子16强：开除必须开除！这简直就是奇耻大辱 ！",
-     "url": "https://www.bilibili.com/video/BV1rCHF6bEBp",
-     "hot": 930342
+     "title": "《胡闹厨房》",
+     "url": "https://www.bilibili.com/video/BV1Xun96tEjo",
+     "hot": 1049705
     },
     {
-     "title": "张雪米饭问题已经解决，让天下没有难吃的米饭！",
-     "url": "https://www.bilibili.com/video/BV19HHw6HE68",
-     "hot": 1386753
+     "title": "【S16】老实晋级很枯燥吧？AL惊天十六强爆炸创造历史！IG击溃HLE啃下硬仗，BLG会师TES八强晋级赛一步之遥！",
+     "url": "https://www.bilibili.com/video/BV1ytxu6KEJe",
+     "hot": 392235
     },
     {
-     "title": "姆巴佩发表涉华不当言论遭批",
-     "url": "https://www.bilibili.com/video/BV1UYHF6KEte",
-     "hot": 1179591
+     "title": "去家务化装修的核心：扫地机器人！到底怎么选？",
+     "url": "https://www.bilibili.com/video/BV1WKxM6aEyr",
+     "hot": 271026
     },
     {
-     "title": "最逆天的一集，一号种子16强 一场不胜创造历史【火兰短报15】",
-     "url": "https://www.bilibili.com/video/BV1SXxN6aEyg",
-     "hot": 354909
+     "title": "挑战穿轮滑鞋全程爬武功山登顶后在滑下来",
+     "url": "https://www.bilibili.com/video/BV1rLxM6sEPk",
+     "hot": 392948
     },
     {
-     "title": "陕视评：判决未至，定论先入教材 武大图书馆事件反思：公共出版物不能越司法“断案” （策划：李彤 任超 评论员：刁坤 摄像：姬佩瑶）",
-     "url": "https://www.bilibili.com/video/BV1zUnZ67EMY",
-     "hot": 464732
+     "title": "【2026全球总决赛】10月27日 TLAW vs AL",
+     "url": "https://www.bilibili.com/video/BV1wNHw6PEdQ",
+     "hot": 2751116
     },
     {
      "title": "财神窦占龙 第13集 杀狼【8月国创】",
      "url": "https://www.bilibili.com/video/BV1zDnt6eELb",
-     "hot": 230218
+     "hot": 254353
     },
     {
-     "title": "万字复盘AL惨败北美16强回家！HOPE没有希望，连还手的勇气都没！",
-     "url": "https://www.bilibili.com/video/BV1yyxK6oEiA",
-     "hot": 353764
+     "title": "LPL历史最差战绩！1号种子0-4光速游回国！诡异降临！AL令人难绷！BLG稳扎稳打拿下KC！【1酱赛评世界赛瑞士轮Day4】",
+     "url": "https://www.bilibili.com/video/BV1tnxT6AELC",
+     "hot": 557749
     },
     {
-     "title": "百里守约绕后了",
-     "url": "https://www.bilibili.com/video/BV1mYnz61ER2",
-     "hot": 830790
+     "title": "疯狂十六强，启动！",
+     "url": "https://www.bilibili.com/video/BV1kaxT6RETB",
+     "hot": 299931
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "泡泡玛特司德：预计中国市场实现全年正增长，长期健康发展仍是集团核心目标",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwsfqr4525772.shtml",
+   "title": "苹果发布M6芯片版MacBook Pro与iMac同步升级，AI性能大幅提升",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-27/doc-iniwsses3714190.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "IDC报告：Q3中国手机市场量跌价升，头部品牌中高端突围",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-27/doc-iniwsfqw3802453.shtml",
+   "title": "2026徐汇区AI+HR高级研修项目火热启动！",
+   "url": "https://finance.sina.com.cn/wm/2026-10-27/doc-iniwsmww0334707.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "金山办公WPS for iPhone Duo上线，已支持下载体验",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwsfqr4523418.shtml",
+   "title": "红果短剧回应“年收入400亿”传闻：不实信息",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwsmww0329690.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "泡泡玛特王宁家族财富缩水945亿元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwsfqw3801190.shtml",
+   "title": "REDMI K100体验：游戏卷王，双芯开大",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-10-27/doc-iniwsfqt1281838.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "老旧油车换电车，埃安i60和零跑C10，家用怎么选?",
-   "url": "https://finance.sina.com.cn/tech/csj/2026-10-27/doc-iniwsfqw3808041.shtml",
+   "title": "影石创新：前三季度实现营收94亿元，同比增长43%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwsmwp4430886.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Anthropic大型IPO，澳大利亚散户可投",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-27/doc-iniwsfqt1290937.shtml",
+   "title": "美图RoboNeo新版本发布 聚焦短剧创作者创建IP",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwsfqu7072956.shtml",
    "source": "新浪科技"
   }
  ]
