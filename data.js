@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-29 19:00",
+ "updatedAt": "2026-10-30 02:36",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,34 +8,50 @@ var WB_DATA = {
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
    "time": "10-29 06:30",
-   "sourceCount": 15
-  },
-  {
-   "rank": 2,
-   "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
-   "time": "10-28 15:34",
    "sourceCount": 13
   },
   {
-   "rank": 3,
+   "rank": 2,
    "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/urs0f8vvh3zel0gh18qvn8h09",
    "time": "10-29 08:31",
-   "sourceCount": 3
+   "sourceCount": 2
   },
   {
-   "rank": 4,
-   "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "10-29 01:51",
+   "rank": 3,
+   "title": "Mistral 开源万亿参数 Le Chonk，Unsloth 推 1-bit 量化版",
+   "source": "Hugging Face 官方团队博客",
+   "url": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi",
+   "time": "10-29 23:25",
    "sourceCount": 9
   },
   {
+   "rank": 4,
+   "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
+   "time": "10-28 15:34",
+   "sourceCount": 6
+  },
+  {
    "rank": 5,
+   "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "10-30 01:19",
+   "sourceCount": 7
+  },
+  {
+   "rank": 6,
+   "title": "Alphabet Q3营收增25%，AI搜索变现承压",
+   "source": "X：Sundar Pichai (@sundarpichai)",
+   "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
+   "time": "10-30 00:24",
+   "sourceCount": 4
+  },
+  {
+   "rank": 7,
    "title": "NVIDIA 发布开放权重语音模型 Nemotron 3.5 Transcribe",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/hb9hlobx48r7sz850swx62efv",
@@ -43,7 +59,7 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 6,
+   "rank": 8,
    "title": "微软首披Azure单季营收332亿美元，超预期",
    "source": "X：Satya Nadella (@satyanadella)",
    "url": "https://aihot.news/items/p2duc8iee22e74ooyyvuch32d",
@@ -51,146 +67,130 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 7,
+   "rank": 9,
+   "title": "OpenAI 将 Pro 与 Business Premium 用量上限翻倍",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
+   "time": "10-30 00:56",
+   "sourceCount": 1
+  },
+  {
+   "rank": 10,
    "title": "OpenAI 向 Pro 与 Business 订阅者发放 API 额度",
    "source": "X：OpenAI Developers (@OpenAIDevs)",
    "url": "https://aihot.news/items/s0x0m11ny4wsnv6aydm6oqy39",
    "time": "10-29 08:26",
    "sourceCount": 1
-  },
-  {
-   "rank": 8,
-   "title": "Anthropic公布药物研发合作，并传收购Mithril Medicine",
-   "source": "X：Anthropic (@AnthropicAI)",
-   "url": "https://aihot.news/items/s06bmy25gmrtj73ordbvi4q9e",
-   "time": "10-28 04:54",
-   "sourceCount": 2
-  },
-  {
-   "rank": 9,
-   "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
-   "time": "10-28 10:01",
-   "sourceCount": 3
-  },
-  {
-   "rank": 10,
-   "title": "Alphabet Q3营收增25%，云收入翻倍至307亿美元",
-   "source": "X：Sundar Pichai (@sundarpichai)",
-   "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
-   "time": "10-29 05:48",
-   "sourceCount": 3
   }
  ],
  "aihotItems": [
   {
-   "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
-   "summary": "Google 三季度搜索收入增长约 12%，低于分析师预期的 15%，市值一度缩水最多 10%。高管 Philipp Schindler 承认 AI mode 查询的强劲增长因变现率较低产生了影响，同时公司称搜索查询年增速达五年来最高，并计划在美国及国际市场扩大聊天机器人广告项目。",
-   "reason": "文章把 Google 财报数据与 AI 搜索变现压力联系起来，读者可以借此核对市场担忧与官方说法之间的差距。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/wry19y87ktlbmfwu581jjffj7",
-   "time": "10-29 18:16",
+   "title": "OpenAI 详解如何检测前沿模型失准行为",
+   "summary": "OpenAI 发布长文，详解其针对前沿模型失准行为的多层监测系统，包括激活探针、基于模型的审查、调查智能体和自动化调查四层架构，并对 GPT‑6 Astra 及以上模型的全部 RL 运行、评估和内部 Codex 流量进行监测。",
+   "reason": "原文详述了 OpenAI 多层失准监测系统的架构与真实响应案例，读者可以了解其覆盖范围、误报处理和独立红队测试结果。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/ck2bk0ns12i2hkg4ae0eoeabv",
+   "time": "10-29 17:00",
+   "category": "paper"
+  },
+  {
+   "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
+   "summary": "OpenAI 更新其公开的 Model Spec，将指导原则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。更新新增了关于上下文理解、监督和自主性的指导，调整了部分行为默认值，退出了大部分详细风格指南，并将模型称呼从 the assistant 改为 GPT。",
+   "reason": "原文列出五项核心价值观及新增与退出的具体章节，读者可据此比较对齐框架的实际变化。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/rccreyesa3aeph7jasj5spv29",
+   "time": "10-30 01:00",
    "category": "industry"
   },
   {
-   "title": "Addy Osmani 谈你可能对 Claude 过度提示了",
-   "summary": "Addy Osmani 撰文称新版 Claude 模型所需提示词比多数人习惯的更少，针对 Opus 5.5 建议用单一明确目标加验证条件让 Claude 自主工作，从 /effort medium 起步按需调整。",
-   "reason": "作者基于 Claude Code 团队实践给出减提示词的具体做法，包括 /doctor 审计、subagent 使用边界和 Projects 并行管理。",
-   "source": "X：Addy Osmani (@addyosmani)",
-   "url": "https://aihot.news/items/m1cx9dfhpep0da323x3tk7vht",
-   "time": "10-29 14:13",
-   "category": "tip"
-  },
-  {
-   "title": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局",
-   "summary": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。",
-   "reason": "原文给出长文本渲染与布局评测数字及开放权重部署路径，读者可以据此判断它在文字密集图像任务中的适用边界。",
-   "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI（网页）",
-   "url": "https://aihot.news/items/wykbrcxndw1zv255b9y2usj7v",
-   "time": "10-29 00:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "OpenRouter 重建默认路由算法：TTFT 降 16.9%、429 错误减少 67%",
-   "summary": "OpenRouter 宣布重建默认 provider 路由算法，从只按价格排序改为按 Routing Cost 综合 effective price、TTFT、吞吐、错误率和输出质量选路。",
-   "reason": "OpenRouter 自己公布的路由算法实测数据与机制细节，读者可据此评估默认路由切换对现有调用成本和延迟的实际影响。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/l4znfnzfs6rz6vorl1wyj90gb",
-   "time": "10-28 08:00",
+   "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
+   "summary": "腾讯混元发布 Hy-Nomas 开源交互式视频世界模型的技术报告（arXiv:2610.36729），并开源 Hy-Nomas-Bench 数据集用于可复现研究。官方还用 Hy-Nomas 重现 Genie 4 示例并放出对比视频，演示无需排队即可试用，地址为 https://hy-nomas.hy.tencent.com/。",
+   "reason": "官方补充技术报告和 Hy-Nomas-Bench 数据集，还放出与 Genie 4 的对比视频，便于研究者复现和评估该视频世界模型。",
+   "source": "X：腾讯混元 (@TencentHunyuan)",
+   "url": "https://aihot.news/items/nb40aoihhydhoo0acp0rcyaol",
+   "time": "10-30 01:00",
    "category": "ai-products"
   },
   {
-   "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
-   "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
-   "reason": "OpenRouter 用五份 PDF 实测了多条抽取路由，给出严格 JSON schema 写法、两类静默失败的检查和各路由成本对比。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
+   "title": "Gemini 新增文档、PDF、演示文稿和表格的直接生成、预览与编辑功能",
+   "summary": "Google Gemini 宣布可直接在应用内生成、预览和编辑文档、PDF、演示文稿、表格等多种文件。支持把手写笔记转成 PDF 学习指南、手动调整内容、高亮部分让 Gemini 修改文字或视觉元素，并可继续追问。",
+   "reason": "官方宣布文档、PDF、演示文稿等可直接在 Gemini 内生成、预览和编辑，读者可据此判断它能否替代部分办公工具流程。",
+   "source": "X：Gemini (@GeminiApp)",
+   "url": "https://aihot.news/items/nfbnpnzdrebu4kbq6uqxhkc2h",
+   "time": "10-30 00:36",
+   "category": "ai-products"
+  },
+  {
+   "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍",
+   "summary": "Tibo 宣布即日起将 Pro 100/200/500 档位与 Business Premium 的所有用量上限翻倍。Pro 200 的上限不会下调，Work 与 Codex 用量保持不变；dots 的扩展用量上限继续提供，且仍与默认用量分开计算，后续还会通过更好的模型和效率改进提升实际可用量。",
+   "reason": "作者以官方身份宣布用量上限调整的具体方案，涉及多个订阅档位，使用者可据此核对自身配额变化。",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
+   "time": "10-30 00:56",
+   "category": "ai-products"
+  },
+  {
+   "title": "Trakkr 研究：追踪 1285 条 AI 引用统计的溯源路径",
+   "summary": "Trakkr Research 向 ChatGPT、Perplexity、Gemini、Claude 和 Google AI Overviews 提出 200 个要求数字的问题，并追踪其中 1285 条统计的引用链路，结果只有 40% 到达说法一致的研究，8% 到达但数字或语境已变，40% 无法核查，11% 无处可溯。",
+   "reason": "Trakkr 追踪了 1285 条 AI 引用统计的溯源路径，给出各类引用页面的到达率和数字失真比例，可帮助读者判断 AI 数字引用的可靠程度。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/dmi67weoeety92021tvuyf1hs",
+   "time": "10-28 16:00",
+   "category": "paper"
+  },
+  {
+   "title": "Wiz 分析智能体攻击的七大指纹与发展趋势",
+   "summary": "Wiz 基于自身事件响应与公开披露案例，分析 AI 智能体参与真实入侵的现状与趋势，涉及 ARTEX、Hermes 等框架及韩国金融机构（约 67,000 人信息外泄）、泰国财政部、ConnectWise 供应链（尝试攻击超 2,250 个租户）等案例。",
+   "reason": "Wiz 结合自身三起案例与公开事件，提炼出七条可操作的智能体攻击指纹，对防御侧检测有直接参考价值。",
+   "source": "Wiz：Research（安全研究）",
+   "url": "https://aihot.news/items/mdcygre4ettjdbca7sq6vu7zx",
+   "time": "10-29 22:36",
+   "category": "paper"
+  },
+  {
+   "title": "vLLM 发布 Mistral Large 4 Day 0 支持",
+   "summary": "vLLM 团队宣布对 Mistral 新旗舰模型 Mistral Large 4 提供 Day 0 支持，该模型为 1T 参数、每 token 激活 49B 的原生多模态 MoE 模型，采用 MLA 稀疏注意力加 DSA top-k 索引器、跨层 KV 共享、NoPE、SSMax 和 LeRoPE 等新架构，并内置 DSpark 推测解码草稿器与 Pixtral 视觉编码器。",
+   "reason": "vLLM 团队详解支持 Mistral Large 4 所需的架构适配与量化、长上下文、推测解码等实测数据，可作部署参考。",
+   "source": "vLLM 官方博客（RSS）",
+   "url": "https://aihot.news/items/x6x8nkxn5mqc55umit3clj1tf",
    "time": "10-29 08:00",
-   "category": "tip"
+   "category": "ai-products"
   },
   {
-   "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
-   "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
-   "reason": "原文梳理了五条攻击链的关键数字和影响范围，读者可据此评估 AI 自主挖掘漏洞的实际能力边界。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn",
-   "time": "10-29 06:35",
-   "category": "paper"
+   "title": "Unsloth 发布 Mistral Le Chonk 1-bit GGUF 量化版，可本地运行 1T 参数模型",
+   "summary": "Unsloth 发布 Mistral Le Chonk（Mistral Large 4，1T 参数 MoE，52B 激活）的 Dynamic 1-bit GGUF，可在 Mac Studio 上本地运行，保留 91% top-1 准确率，体积约 233GB（较 1.1TB FP8 小 80%）。图为各量化档位给出硬件需求，1-bit 需 256-270GB 内存，最小 UD-IQ1_S 约占 233GB 磁盘，并支持文本与图像输入、1M 上下文和 160+ 语言。GGUF 与指南见 huggingface.co/unsloth/Mistral-Large-4-1T-A52B-GGUF 和 unsloth.ai/docs/models/mistral-large-4。",
+   "reason": "原文给出在 Mac Studio 上本地运行 1T 参数模型的量化方案和硬件需求表，读者可直接照做部署。",
+   "source": "X：Unsloth (@UnslothAI)",
+   "url": "https://aihot.news/items/rph54wkrnzjpvov4cv0mxqatl",
+   "time": "10-29 22:27",
+   "category": "ai-products"
   },
   {
-   "title": "Every 解读 Anthropic S-1：上线超过六个月的模型贡献收入不足 20%",
-   "summary": "Every 的 Context Window 通讯解读 Anthropic 周一提交的上市 S-1 文件，指出其重度依赖最新模型，发布超过六个月的模型收入占比不足 20%。",
-   "reason": "文章借 Anthropic S-1 数据点出模型六个月生命周期这一行业规律，读者可据此调整自己的模型选择习惯。",
-   "source": "Every：最新文章（网页）",
-   "url": "https://aihot.news/items/p24kw8c06nmy1hzs3spvr4aha",
-   "time": "10-28 00:00",
-   "category": "opinion"
+   "title": "Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型",
+   "summary": "Hugging Face 发布 Mistral Large 4（Le Chonk）的上线博客，模型为多模态多语言 MoE 架构，总参数约 1T、激活 49B、上下文窗口 1M token。",
+   "reason": "原文给出架构细节、网络安全能力分数和各硬件实测吞吐，读者可据此评估该开源权重大模型的部署门槛与适用场景。",
+   "source": "Hugging Face 官方团队博客",
+   "url": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi",
+   "time": "10-29 08:00",
+   "category": "ai-models"
   },
   {
-   "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
-   "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
-   "reason": "官方披露 Q3 财务与 AI 业务数据，可据此了解 Google Cloud 增速、模型 API token 处理量等一手经营指标。",
-   "source": "X：Sundar Pichai (@sundarpichai)",
-   "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
-   "time": "10-29 04:05",
+   "title": "纽约时报称中国情报人员瞄准英伟达 CEO 黄仁勋",
+   "summary": "据《纽约时报》报道，美国情报机构认为英伟达 CEO 黄仁勋身边一名高管为中国提供情报，此人是新加坡数据中心运营商 Megaspeed 的 Alice Huang（黄乐）。",
+   "reason": null,
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/lq97h52ctxw2nkri4qqxj5lbx",
+   "time": "10-29 21:42",
    "category": "industry"
   },
   {
-   "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
-   "summary": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
-   "reason": "两位 OpenAI 年轻管理者以亲身经历提出 AI 进入组织架构的三种情形，并讨论其对层级、企业规模和薪酬差距的影响。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr",
-   "time": "10-28 18:00",
+   "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
+   "summary": "The Verge Decoder 节目邀请 SemiAnalysis 分析师 Joey Brookhart 解读 Anthropic 提交的 S-1 招股书，公司拟在纳斯达克上市，估值区间 1.5 万亿至 2 万亿美元。",
+   "reason": "SemiAnalysis 分析师拆解 Anthropic S-1，给出了推理毛利、每兆瓦收入、客户支出结构等一手财务细节。",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/r9bmkfh02wkycc8zmhw87h4q9",
+   "time": "10-29 22:00",
    "category": "opinion"
-  },
-  {
-   "title": "Cartesia 发布 H-Net 扩缩律研究：字节级层级网络比 BPE 提升最高 3-5x 计算效率",
-   "summary": "Cartesia 发布系列博客第一篇，报告其层级网络（H-Net）在字节级语言建模上的扩缩律结果：与严格匹配的 BPE Transformer 相比，1-stage H-Net 在验证损失上节省 1.28x 计算，下游评测约 2x，代码任务中位数 2.04x、分布外编程语言中位数达 3.10x（如 Prolog 5.37x）。",
-   "reason": "Cartesia 原创研究给出 H-Net 替代 BPE 分词的对照实验与 3-5x 计算效率数据，可了解字节级学习的实际进展。",
-   "source": "Cartesia 产品与研究",
-   "url": "https://aihot.news/items/ctuk7r4h4qbyyligi680s7gtr",
-   "time": "10-27 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
-   "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
-   "reason": "作者基于 Anthropic S-1 逐项拆解其逾 4300 亿美元不可撤销算力承诺与收入结构风险，可用于对照招股书原文核实。",
-   "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
-   "url": "https://aihot.news/items/x2h1bp5shee6v508nw7pjtvas",
-   "time": "10-29 01:51",
-   "category": "opinion"
-  },
-  {
-   "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
-   "summary": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。",
-   "reason": "作者提供了犹他州为期四周试点的一手数据，读者可据此评估 Claude Code 在政府开发者中的上手速度与实际节省时间。",
-   "source": "X：Boris Cherny (@bcherny)",
-   "url": "https://aihot.news/items/fbxzb7x7fzbjn0dmf367ywxrm",
-   "time": "10-29 01:09",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-29 19:00",
+   "updateTime": "2026-10-30 02:37",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《崩坏：星穹铁道》千星纪游PV：「有关星空的寓言集•其三」",
-     "url": "https://www.bilibili.com/video/BV1JYsd6sE4k",
-     "hot": 2430416
-    },
-    {
-     "title": "【2026全球总决赛】10月29日 LYON vs IG",
-     "url": "https://www.bilibili.com/video/BV1Eas967EY9",
-     "hot": 4766472
-    },
-    {
-     "title": "环大露认领，刘冲斗娜娜，众星躲娜扎……【近期红毯爆笑盘点】",
-     "url": "https://www.bilibili.com/video/BV1FGso6ZE7x",
-     "hot": 642678
-    },
-    {
-     "title": "《原神》米提亚角色PV——「小小伎俩」",
-     "url": "https://www.bilibili.com/video/BV1dAxE6VErW",
-     "hot": 655607
+     "title": "重庆悬崖火锅自助 现实版饥饿站台？",
+     "url": "https://www.bilibili.com/video/BV1Y3sZ67Eat",
+     "hot": 618441
     },
     {
      "title": "忙着跟生活对线的你，有多久没上号了？谨以此片，致和游戏一起长大的我们。【AI全民制作人】",
      "url": "https://www.bilibili.com/video/BV1uGxj68EKt",
-     "hot": 669860
+     "hot": 1275214
     },
     {
-     "title": "【暗区突围手游版本PV】破局，「战火重燃」今日上线！",
-     "url": "https://www.bilibili.com/video/BV1zesd69EMw",
-     "hot": 740317
+     "title": "【4K】全网首发《影之刃零》 全支线 全收集 全流程实况解说",
+     "url": "https://www.bilibili.com/video/BV17zsd6nE1Y",
+     "hot": 1026651
     },
     {
-     "title": "⚡《新 三 国 FUNK》⚡",
-     "url": "https://www.bilibili.com/video/BV1iXxV6vEmP",
-     "hot": 1225568
+     "title": "【2026全球总决赛】10月29日 LYON vs IG",
+     "url": "https://www.bilibili.com/video/BV1Eas967EY9",
+     "hot": 5954992
     },
     {
-     "title": "喝可乐不打嗝小游戏~",
-     "url": "https://www.bilibili.com/video/BV1rvxE6HEPT",
-     "hot": 1271322
+     "title": "《崩坏：星穹铁道》千星纪游PV：「有关星空的寓言集•其三」",
+     "url": "https://www.bilibili.com/video/BV1JYsd6sE4k",
+     "hot": 3166445
     },
     {
-     "title": "奶奶的皱纹里，藏着我一生的甜与暖",
-     "url": "https://www.bilibili.com/video/BV1chxT6xEyo",
-     "hot": 1846317
+     "title": "露思闹笑话，刘冲斗娜娜，众星躲娜扎……【近期红毯爆笑盘点】",
+     "url": "https://www.bilibili.com/video/BV1FGso6ZE7x",
+     "hot": 1818966
     },
     {
-     "title": "《明日方舟》限定干员「塔露拉」前瞻PV",
-     "url": "https://www.bilibili.com/video/BV1eZsX66EfW",
-     "hot": 666960
+     "title": "王老菊教你影之刃01：破伤风刀法",
+     "url": "https://www.bilibili.com/video/BV1w7sf6AEVy",
+     "hot": 356517
     },
     {
-     "title": "【真实锐评】LPL四号种子IG晋级八强！打个欧美闹麻了 2级抓下闹麻了！",
-     "url": "https://www.bilibili.com/video/BV1FQsR6WEBZ",
-     "hot": 595285
+     "title": "《润魂子》1-5合集 纯享版【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1zRx76SEJQ",
+     "hot": 316636
     },
     {
-     "title": "三年之期已到，恭迎世一上归位！【第15集】",
-     "url": "https://www.bilibili.com/video/BV1Nwso6vEpi",
-     "hot": 635643
+     "title": "吴站长&梅姐《Trouble Maker》【AI MV大赛】",
+     "url": "https://www.bilibili.com/video/BV1dEsX6TEGx",
+     "hot": 495523
+    },
+    {
+     "title": "五年不见！人生一串4重磅回归",
+     "url": "https://www.bilibili.com/video/BV1Nrx76bEZ5",
+     "hot": 213219
+    },
+    {
+     "title": "贴脸特写，是每个野生动物摄影师的必备技能！",
+     "url": "https://www.bilibili.com/video/BV16nxg6fE3s",
+     "hot": 2529951
+    },
+    {
+     "title": "HONG KONG",
+     "url": "https://www.bilibili.com/video/BV1SVsd6MEGZ",
+     "hot": 352375
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "好未来公布截至2026年8月31日的2027财年第二季度未经审计财务报告",
-   "url": "https://finance.sina.com.cn/tech/it/2026-10-29/doc-iniwwyat8745928.shtml",
+   "title": "启元CEO田华：启元机器人接入WorkBuddy，加速AI走进物理世界",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwxekr8753469.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "永辉签约核心供应商锁定长期直供 黑猪全年采购量或创新高",
-   "url": "https://finance.sina.com.cn/tech/it/2026-10-29/doc-iniwwtuu2858290.shtml",
+   "title": "上纬新材前三季度营收12.09亿元，管理团队调整落地",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwxekq2766397.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "汤道生谈WorkBuddy组织模式：有优点也有缺点，仍在找可改善之处",
-   "url": "https://finance.sina.com.cn/tech/it/2026-10-29/doc-iniwwtuu2857953.shtml",
+   "title": "值得买科技：2026年前三季度营收8.28亿元，AI有关收入突破1亿元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwxekq2765516.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "科大讯飞回应高管薪资质疑：董事长与总裁主动降薪，两人均少领超2000万",
-   "url": "https://finance.sina.com.cn/tech/it/2026-10-29/doc-iniwwtuv8857316.shtml",
+   "title": "DoorDash将以170亿美元收购Instacart",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwxekq2761053.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Momenta预告R7 Ultra：模型参数规模扩大至原来5倍，安全性能表现提升5倍",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtuu2831249.shtml",
+   "title": "国产3A还能再造一个《黑神话》吗？《影之刃零》交卷",
+   "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwxekn5984254.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "WorkBuddy为何接入多个模型？腾讯汤道生：这是当前的竞争优势",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtus6040019.shtml",
+   "title": "一加Ace 7系列国补到手价2761.65元起，Ace系列全球累计销量超1900万台",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwxekr8720294.shtml",
    "source": "新浪科技"
   }
  ]
