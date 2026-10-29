@@ -1,9 +1,17 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-29 02:27",
+ "updatedAt": "2026-10-29 11:58",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
+   "time": "10-29 06:30",
+   "sourceCount": 15
+  },
+  {
+   "rank": 2,
    "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
@@ -11,39 +19,39 @@ var WB_DATA = {
    "sourceCount": 13
   },
   {
-   "rank": 2,
-   "title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
-   "time": "10-29 01:28",
-   "sourceCount": 9
-  },
-  {
    "rank": 3,
    "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
    "time": "10-29 01:51",
-   "sourceCount": 12
+   "sourceCount": 9
   },
   {
    "rank": 4,
+   "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
+   "source": "Apple：Newsroom（RSS）",
+   "url": "https://aihot.news/items/urs0f8vvh3zel0gh18qvn8h09",
+   "time": "10-29 08:31",
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
    "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
    "time": "10-28 10:01",
-   "sourceCount": 9
-  },
-  {
-   "rank": 5,
-   "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
-   "time": "10-28 04:48",
-   "sourceCount": 6
+   "sourceCount": 3
   },
   {
    "rank": 6,
+   "title": "微软首披Azure单季营收332亿美元，超预期",
+   "source": "X：Satya Nadella (@satyanadella)",
+   "url": "https://aihot.news/items/p2duc8iee22e74ooyyvuch32d",
+   "time": "10-29 06:53",
+   "sourceCount": 3
+  },
+  {
+   "rank": 7,
    "title": "Anthropic公布药物研发合作，并传收购Mithril Medicine",
    "source": "X：Anthropic (@AnthropicAI)",
    "url": "https://aihot.news/items/s06bmy25gmrtj73ordbvi4q9e",
@@ -51,23 +59,7 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 7,
-   "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/urs0f8vvh3zel0gh18qvn8h09",
-   "time": "10-28 00:00",
-   "sourceCount": 1
-  },
-  {
    "rank": 8,
-   "title": "Artificial Analysis 发布 v5 指数，开源模型排名下滑",
-   "source": "Artificial Analysis 完整文章（网页）",
-   "url": "https://aihot.news/items/dmseupm220mt9blyjyszid4em",
-   "time": "10-29 01:06",
-   "sourceCount": 4
-  },
-  {
-   "rank": 9,
    "title": "Anthropic 一团队取消编程面试，改看原型",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/hlzo912kzi3ltfvxlkandttt3",
@@ -75,15 +67,86 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
+   "rank": 9,
+   "title": "Artificial Analysis 发布 v5 指数，开源模型排名下滑",
+   "source": "Artificial Analysis 完整文章（网页）",
+   "url": "https://aihot.news/items/dmseupm220mt9blyjyszid4em",
+   "time": "10-29 01:06",
+   "sourceCount": 4
+  },
+  {
    "rank": 10,
-   "title": "OpenAI 拟采购谷歌 TPU 并招募工程师适配",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/jxc0l26zdfca6g34z6h20tfde",
-   "time": "10-28 09:59",
-   "sourceCount": 2
+   "title": "NVIDIA 发布开放权重语音模型 Nemotron 3.5 Transcribe",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/ew22p9w5yr881tzyzimraod2w",
+   "time": "10-28 23:49",
+   "sourceCount": 4
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局",
+   "summary": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。",
+   "reason": "原文给出长文本渲染与布局评测数字及开放权重部署路径，读者可以据此判断它在文字密集图像任务中的适用边界。",
+   "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI（网页）",
+   "url": "https://aihot.news/items/wykbrcxndw1zv255b9y2usj7v",
+   "time": "10-29 00:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "OpenRouter 重建默认路由算法：TTFT 降 16.9%、429 错误减少 67%",
+   "summary": "OpenRouter 宣布重建默认 provider 路由算法，从只按价格排序改为按 Routing Cost 综合 effective price、TTFT、吞吐、错误率和输出质量选路。",
+   "reason": "OpenRouter 自己公布的路由算法实测数据与机制细节，读者可据此评估默认路由切换对现有调用成本和延迟的实际影响。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/l4znfnzfs6rz6vorl1wyj90gb",
+   "time": "10-28 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+   "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+   "reason": "OpenRouter 用五份 PDF 实测了多条抽取路由，给出严格 JSON schema 写法、两类静默失败的检查和各路由成本对比。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
+   "time": "10-29 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+   "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
+   "reason": "原文梳理了五条攻击链的关键数字和影响范围，读者可据此评估 AI 自主挖掘漏洞的实际能力边界。",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn",
+   "time": "10-29 06:35",
+   "category": "paper"
+  },
+  {
+   "title": "Every 解读 Anthropic S-1：上线超过六个月的模型贡献收入不足 20%",
+   "summary": "Every 的 Context Window 通讯解读 Anthropic 周一提交的上市 S-1 文件，指出其重度依赖最新模型，发布超过六个月的模型收入占比不足 20%。",
+   "reason": "文章借 Anthropic S-1 数据点出模型六个月生命周期这一行业规律，读者可据此调整自己的模型选择习惯。",
+   "source": "Every：最新文章（网页）",
+   "url": "https://aihot.news/items/p24kw8c06nmy1hzs3spvr4aha",
+   "time": "10-28 00:00",
+   "category": "opinion"
+  },
+  {
+   "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+   "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
+   "reason": "官方披露 Q3 财务与 AI 业务数据，可据此了解 Google Cloud 增速、模型 API token 处理量等一手经营指标。",
+   "source": "X：Sundar Pichai (@sundarpichai)",
+   "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
+   "time": "10-29 04:05",
+   "category": "industry"
+  },
+  {
+   "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
+   "summary": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
+   "reason": "两位 OpenAI 年轻管理者以亲身经历提出 AI 进入组织架构的三种情形，并讨论其对层级、企业规模和薪酬差距的影响。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr",
+   "time": "10-28 18:00",
+   "category": "opinion"
+  },
   {
    "title": "Cartesia 发布 H-Net 扩缩律研究：字节级层级网络比 BPE 提升最高 3-5x 计算效率",
    "summary": "Cartesia 发布系列博客第一篇，报告其层级网络（H-Net）在字节级语言建模上的扩缩律结果：与严格匹配的 BPE Transformer 相比，1-stage H-Net 在验证损失上节省 1.28x 计算，下游评测约 2x，代码任务中位数 2.04x、分布外编程语言中位数达 3.10x（如 Prolog 5.37x）。",
@@ -128,89 +191,26 @@ var WB_DATA = {
    "url": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v",
    "time": "10-29 00:51",
    "category": "ai-products"
-  },
-  {
-   "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
-   "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
-   "reason": "原文整理了 IPO 文件中的现金规模与未生效租约义务数字，读者可以据此对照 Anthropic 资产与长期承诺的缺口。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/vidjbhx5bf45wdl488kst1wv8",
-   "time": "10-29 01:11",
-   "category": "industry"
-  },
-  {
-   "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
-   "summary": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
-   "reason": "原文给出 Gemini 4 Carbon 在多项基准的数字和分阶段开放安排，读者可以据此比较它与 Argon 及竞品的表现。",
-   "source": "X：Sundar Pichai (@sundarpichai)",
-   "url": "https://aihot.news/items/hoim4l9scskfj0obspicyucpw",
-   "time": "10-29 01:01",
-   "category": "ai-models"
-  },
-  {
-   "title": "a16z 调研 100 位 CISO：AI 如何改写 2027 年安全议程",
-   "summary": "a16z 发布对 100 名千人员以上企业 CISO 的调研，87% 预期 2027 年安全支出增长，主要受 AI 威胁和自身 AI 部署扩大攻击面驱动。2027 年最受关注的七项安全举措全部与 AI 相关，其中 SOC 自动化获最多首选票，内部 AI agent 安全、SOC 自动化和进攻性安全升幅最大，但 AI SOC 工具生产环境使用率仅 18%。",
-   "reason": "a16z 基于 100 位 CISO 调研给出 2027 安全预算与采购优先级变化，并点明初创公司切入的缺口在哪。",
-   "source": "a16z：News（RSS）",
-   "url": "https://aihot.news/items/ja57b43t7h52wid2g4zu6vw2t",
-   "time": "10-29 00:00",
-   "category": "opinion"
-  },
-  {
-   "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
-   "summary": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
-   "reason": "OpenRouter 实测了 Claude Code 走 API key 计费的真实成本，并提醒 Claude Code 自印的价格可能偏高。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo",
-   "time": "10-28 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
-   "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
-   "reason": "GitHub 用自家遥测数据量化了智能体参与开发的程度，从 PR 占比、模型轮换到行业分布都给出可核对的数字。",
-   "source": "GitHub Blog",
-   "url": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc",
-   "time": "10-29 00:07",
-   "category": "industry"
-  },
-  {
-   "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
-   "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
-   "reason": "原文是 GitHub 官方对 Universe 2026 新品的集中说明，给出各功能的定位和关键数据，便于读者评估对现有工作流的影响。",
-   "source": "GitHub Blog",
-   "url": "https://aihot.news/items/xonc43xgcx39303i40k8022rl",
-   "time": "10-29 00:09",
-   "category": "ai-products"
-  },
-  {
-   "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
-   "summary": "网络安全初创公司 Cathedral 通过第三方业务软件渗入 Anthropic 内部系统，称其 AI 智能体在不到十二小时内接触到会议记录、薪资数据和 Slack 消息，并借漏洞赏金计划披露问题。",
-   "reason": "安全公司用 AI 智能体渗透 Anthropic 内部系统，双方对影响范围各执一词，可用作观察第三方软件安全短板的案例。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg",
-   "time": "10-28 18:56",
-   "category": "industry"
   }
  ],
  "aiDaily": {
-  "date": "2026-10-28",
-  "url": "https://aihot.news/daily/2026-10-28",
+  "date": "2026-10-29",
+  "url": "https://aihot.news/daily/2026-10-29",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
-      "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
       "source": "Google DeepMind：Blog（RSS）",
-      "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs"
+      "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud"
      },
      {
-      "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
-      "summary": "Liquid AI 发布新一代 Liquid Foundation Models 家族 LFM3，首个版本包含六款约 2B 参数的模型，覆盖文本、视觉、音频、omni 和决策模态，全部基于 LFM3-1.7B-Base，预训练使用 22T tokens。",
-      "source": "Liquid AI 模型与工程博客（网页）",
-      "url": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s"
+      "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
+      "summary": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
+      "source": "公众号：面壁智能（MiniCPM）",
+      "url": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt"
      }
     ]
    },
@@ -218,22 +218,16 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
-      "summary": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
-      "source": "Replit：Blog（RSS）",
-      "url": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d"
+      "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
+      "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
+      "source": "GitHub Blog",
+      "url": "https://aihot.news/items/xonc43xgcx39303i40k8022rl"
      },
      {
-      "title": "Apple 发布搭载 M6 芯片的 14 英寸 MacBook Pro，起售价 $1,999",
-      "summary": "Apple 发布搭载全新 M6 芯片的 14 英寸 MacBook Pro，配备 12 核 CPU 和 12 核 GPU，相比 M5 图形性能最高快 30%、端侧 AI 工作负载最高快 25%，电池续航最长 24 小时。新机支持 Wi-Fi 7 和蓝牙 6，可本地运行 LLM，10 月 28 日开启预购、11 月 6 日发售，起售价 $1,999（教育优惠 $1,899）。",
-      "source": "Apple：Newsroom（RSS）",
-      "url": "https://aihot.news/items/o0okltd585bcx5lh6bkq53n59"
-     },
-     {
-      "title": "Apple Creator Studio 推出更新：Final Cut Pro 集成 MotionVFX，Keynote、Pages、Numbers 新增智能助手与 MCP 支持",
-      "summary": "Apple 为 Creator Studio 推出更新，Final Cut Pro for Mac 内置 MotionVFX 视觉效果库并接入含视频素材的 Content Hub。",
-      "source": "Apple：Newsroom（RSS）",
-      "url": "https://aihot.news/items/z7h3xpbyfp9laquaq2njijzfo"
+      "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+      "summary": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。",
+      "source": "Microsoft：Official Blog（RSS）",
+      "url": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v"
      }
     ]
    },
@@ -241,34 +235,28 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
-      "summary": "作者总结 Anthropic IPO 招股书的 11 个细节，计划募资约 1000 亿美元、估值或达 1.5万亿～2万亿。收入五个季度涨 30 倍，今年二季度经营利润首次转正 9.74 亿美元，但上半年净亏 807 亿美元，主要来自可转换票据公允价值变动；调整后净利润为正 26.71 亿美元。",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "url": "https://aihot.news/items/t6evqsenxfytsi8wl7h1urjxr"
-     },
-     {
-      "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
-      "summary": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。",
+      "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+      "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
       "source": "TechCrunch：AI（RSS）",
-      "url": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy"
+      "url": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9"
      },
      {
-      "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
-      "summary": "作者称 Verified AI 迎来标志性月份，Axiom 的 AI 智能体集群用 24 天完成数学史上最长证明的验证，将跨越 500 多篇论文的 15,000 页有限单群分类定理（CFSG）转化为 3800 万行以上机器验证代码，并发现已发表记录中的 34 处严重出入。引用内容补充称该形式化证明可能是最大的开源项目之一，图中显示 Axiom CFSG 达 43.0M 行，约每 37 天翻倍。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "url": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf"
+      "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+      "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
+      "source": "GitHub Blog",
+      "url": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc"
      },
      {
-      "title": "NVIDIA 与 Meta 扩大 Muse 模型合作并投资 30 亿美元",
-      "summary": "NVIDIA 与 Meta 宣布扩大围绕 Muse 及 Muse 系列模型的合作，优化推理与训练性能，并考虑在 NVIDIA OpenShell 参考架构和 NVIDIA Sentry 监控等方向继续合作。",
-      "source": "NVIDIA：Newsroom（RSS）",
-      "url": "https://aihot.news/items/j9n2v4vucqk9r4mzddueppd2v"
+      "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+      "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
+      "source": "X：Sundar Pichai (@sundarpichai)",
+      "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9"
      },
      {
-      "title": "Anthropic 扩大与 GSA 合作，政府机构购买 Claude 享 40% 折扣",
-      "summary": "Anthropic 与美国总务管理局（GSA）扩大合作，政府伙伴购买 Claude Enterprise、Claude for Government 和 Claude API 可享 40% 折扣，预计为政府节省 10 亿美元，且不设最低消费承诺。",
-      "source": "Anthropic：Newsroom（网页）",
-      "url": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok"
+      "title": "微软财报电话会：Microsoft Cloud 收入超 $63B，同比增长 30%",
+      "summary": "Satya Nadella 结束微软财报电话会，称财年开局强劲。Microsoft Cloud 收入超过 $63B，同比增长加快至 30%。他提到正围绕 agentic 浪潮构建新技术栈，有多项创新亮点。",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "url": "https://aihot.news/items/p2duc8iee22e74ooyyvuch32d"
      }
     ]
    },
@@ -276,10 +264,10 @@ var WB_DATA = {
     "label": "论文研究",
     "items": [
      {
-      "title": "Anthropic 研究：AI 智能体的隐性倾向如何影响 50 名专业分析师的判断决策",
-      "summary": "Anthropic 发表研究，让 50 名有因果推断经验的专业分析师用 Claude Code（Claude Opus 4.8）完成一项统计分析任务，并在分析师不知情的情况下用掷硬币随机设定智能体在四个分析决策上的倾向。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "url": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0"
+      "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+      "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
+      "source": "IT之家·人工智能",
+      "url": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn"
      }
     ]
    },
@@ -287,10 +275,22 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
-      "summary": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。",
-      "source": "LangChain：Blog（RSS）",
-      "url": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02"
+      "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
+      "summary": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo"
+     },
+     {
+      "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
+      "summary": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
+      "source": "X：Addy Osmani (@addyosmani)",
+      "url": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb"
+     },
+     {
+      "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
+      "summary": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr"
      }
     ]
    }
@@ -299,68 +299,68 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-10-29 02:27",
+   "updateTime": "2026-10-29 11:58",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "女子欠1700元被限高公开照片",
-     "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E6%AC%A01700%E5%85%83%E8%A2%AB%E9%99%90%E9%AB%98%E5%85%AC%E5%BC%80%E7%85%A7%E7%89%87",
-     "hot": 254843
+     "title": "三丽鸥致歉",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E4%B8%BD%E9%B8%A5%E8%87%B4%E6%AD%89",
+     "hot": 1931567
     },
     {
-     "title": "巴基斯坦对台湾航司关闭领空",
-     "url": "https://s.weibo.com/weibo?q=%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E5%AF%B9%E5%8F%B0%E6%B9%BE%E8%88%AA%E5%8F%B8%E5%85%B3%E9%97%AD%E9%A2%86%E7%A9%BA",
-     "hot": 140681
+     "title": "库里超远三分命中",
+     "url": "https://s.weibo.com/weibo?q=%E5%BA%93%E9%87%8C%E8%B6%85%E8%BF%9C%E4%B8%89%E5%88%86%E5%91%BD%E4%B8%AD",
+     "hot": 923598
     },
     {
-     "title": "数说中国经济澎湃动能",
-     "url": "https://s.weibo.com/weibo?q=%E6%95%B0%E8%AF%B4%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%BE%8E%E6%B9%83%E5%8A%A8%E8%83%BD",
-     "hot": 117198
+     "title": "中国经济新动能加速成长",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%96%B0%E5%8A%A8%E8%83%BD%E5%8A%A0%E9%80%9F%E6%88%90%E9%95%BF",
+     "hot": 764395
     },
     {
-     "title": "西班牙列车相撞已致68死",
-     "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E7%8F%AD%E7%89%99%E5%88%97%E8%BD%A6%E7%9B%B8%E6%92%9E%E5%B7%B2%E8%87%B468%E6%AD%BB",
-     "hot": 110856
+     "title": "S16八强已锁定四席",
+     "url": "https://s.weibo.com/weibo?q=S16%E5%85%AB%E5%BC%BA%E5%B7%B2%E9%94%81%E5%AE%9A%E5%9B%9B%E5%B8%AD",
+     "hot": 646931
     },
     {
-     "title": "开始推理吧官宣第五季",
-     "url": "https://s.weibo.com/weibo?q=%E5%BC%80%E5%A7%8B%E6%8E%A8%E7%90%86%E5%90%A7%E5%AE%98%E5%AE%A3%E7%AC%AC%E4%BA%94%E5%AD%A3",
-     "hot": 87830
+     "title": "你还会买三丽鸥吗",
+     "url": "https://s.weibo.com/weibo?q=%E4%BD%A0%E8%BF%98%E4%BC%9A%E4%B9%B0%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%90%97",
+     "hot": 534149
     },
     {
-     "title": "剑来",
-     "url": "https://s.weibo.com/weibo?q=%E5%89%91%E6%9D%A5",
-     "hot": 87820
+     "title": "长期吃西地那非的人嘴太严了",
+     "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%9C%9F%E5%90%83%E8%A5%BF%E5%9C%B0%E9%82%A3%E9%9D%9E%E7%9A%84%E4%BA%BA%E5%98%B4%E5%A4%AA%E4%B8%A5%E4%BA%86",
+     "hot": 534134
     },
     {
-     "title": "女子被蜱虫咬伤住ICU28天四肢瘫痪",
-     "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%A2%AB%E8%9C%B1%E8%99%AB%E5%92%AC%E4%BC%A4%E4%BD%8FICU28%E5%A4%A9%E5%9B%9B%E8%82%A2%E7%98%AB%E7%97%AA",
-     "hot": 87667
+     "title": "韩网热议iG晋级S16八强",
+     "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E7%BD%91%E7%83%AD%E8%AE%AEiG%E6%99%8B%E7%BA%A7S16%E5%85%AB%E5%BC%BA",
+     "hot": 529709
     },
     {
-     "title": "华为麒麟9050芯片发布",
-     "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E9%BA%92%E9%BA%9F9050%E8%8A%AF%E7%89%87%E5%8F%91%E5%B8%83",
-     "hot": 87652
+     "title": "三丽鸥未同步双语道歉",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E4%B8%BD%E9%B8%A5%E6%9C%AA%E5%90%8C%E6%AD%A5%E5%8F%8C%E8%AF%AD%E9%81%93%E6%AD%89",
+     "hot": 527829
     },
     {
-     "title": "理想i6首销挤爆APP",
-     "url": "https://s.weibo.com/weibo?q=%E7%90%86%E6%83%B3i6%E9%A6%96%E9%94%80%E6%8C%A4%E7%88%86APP",
-     "hot": 87492
+     "title": "西藏巴青地震夜的温暖守护",
+     "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E8%97%8F%E5%B7%B4%E9%9D%92%E5%9C%B0%E9%9C%87%E5%A4%9C%E7%9A%84%E6%B8%A9%E6%9A%96%E5%AE%88%E6%8A%A4",
+     "hot": 523562
     },
     {
-     "title": "刘延东同志逝世",
-     "url": "https://s.weibo.com/weibo?q=%E5%88%98%E5%BB%B6%E4%B8%9C%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96",
-     "hot": 87482
+     "title": "钓友钓58斤青鱼被拖入3米水中",
+     "url": "https://s.weibo.com/weibo?q=%E9%92%93%E5%8F%8B%E9%92%9358%E6%96%A4%E9%9D%92%E9%B1%BC%E8%A2%AB%E6%8B%96%E5%85%A53%E7%B1%B3%E6%B0%B4%E4%B8%AD",
+     "hot": 520152
     },
     {
-     "title": "三丽鸥将与抹黑中国日剧再次联名",
-     "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E4%B8%BD%E9%B8%A5%E5%B0%86%E4%B8%8E%E6%8A%B9%E9%BB%91%E4%B8%AD%E5%9B%BD%E6%97%A5%E5%89%A7%E5%86%8D%E6%AC%A1%E8%81%94%E5%90%8D",
-     "hot": 87336
+     "title": "现在的殡葬业都发展成这样了",
+     "url": "https://s.weibo.com/weibo?q=%E7%8E%B0%E5%9C%A8%E7%9A%84%E6%AE%A1%E8%91%AC%E4%B8%9A%E9%83%BD%E5%8F%91%E5%B1%95%E6%88%90%E8%BF%99%E6%A0%B7%E4%BA%86",
+     "hot": 517153
     },
     {
-     "title": "现在就出发5 金晨",
-     "url": "https://s.weibo.com/weibo?q=%E7%8E%B0%E5%9C%A8%E5%B0%B1%E5%87%BA%E5%8F%915%20%E9%87%91%E6%99%A8",
-     "hot": 87262
+     "title": "厉娜怒吼许飞我所有的经济损失呢",
+     "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E6%80%92%E5%90%BC%E8%AE%B8%E9%A3%9E%E6%88%91%E6%89%80%E6%9C%89%E7%9A%84%E7%BB%8F%E6%B5%8E%E6%8D%9F%E5%A4%B1%E5%91%A2",
+     "hot": 513574
     }
    ]
   },
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-29 02:27",
+   "updateTime": "2026-10-29 11:58",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "奶奶的皱纹里，藏着我一生的甜与暖",
-     "url": "https://www.bilibili.com/video/BV1chxT6xEyo",
-     "hot": 1438820
-    },
-    {
-     "title": "《阴阳师》UR大天狗·高天铁羽CG丨飞羽凌云（CV：前野智昭）",
-     "url": "https://www.bilibili.com/video/BV1KFxK6ZEUk",
-     "hot": 1563688
-    },
-    {
-     "title": "万万没想到！下完雨的小塘藏着这么大的货",
-     "url": "https://www.bilibili.com/video/BV1HunX6zEYa",
-     "hot": 1130452
-    },
-    {
-     "title": "【捉迷躲猫王】😱太阴了躲在粪坑下面？？大哥你无敌了啊？！废弃监狱超高难度捉迷藏~！",
-     "url": "https://www.bilibili.com/video/BV1KwxM6NESD",
-     "hot": 1324976
-    },
-    {
-     "title": "东北八大怪之大缸小缸腌酸菜",
-     "url": "https://www.bilibili.com/video/BV1VDxT6kEFL",
-     "hot": 1700117
+     "title": "【2026全球总决赛】10月29日 LYON vs IG",
+     "url": "https://www.bilibili.com/video/BV1Eas967EY9",
+     "hot": 2765858
     },
     {
      "title": "男生最怕的事也莫过于此",
      "url": "https://www.bilibili.com/video/BV1eyxj6qEjF",
-     "hot": 329440
+     "hot": 841161
     },
     {
-     "title": "“一丝温脉相牵，爱藏岁岁流年”【把回忆拼好给你DJ-变速】【母子连心の小曲】",
-     "url": "https://www.bilibili.com/video/BV1Bnxg6fEuq",
-     "hot": 526322
+     "title": "贴脸特写，是每个野生动物摄影师的必备技能！",
+     "url": "https://www.bilibili.com/video/BV16nxg6fE3s",
+     "hot": 971572
     },
     {
-     "title": "爸爸去哪儿 x Counting Stars",
-     "url": "https://www.bilibili.com/video/BV1HYnh6CEJc",
-     "hot": 1209294
+     "title": "【小黄人与大怪兽】小黄人逐梦演艺圈！",
+     "url": "https://www.bilibili.com/video/BV1QDxT6rE4y",
+     "hot": 700513
     },
     {
-     "title": "【究极佐菲格斗】第五集 危险的雄狮！佐菲机器人 雷欧 泰罗 超兽黑鸽子 黑暗星人巴巴尔 登场",
-     "url": "https://www.bilibili.com/video/BV1U3x56HE7v",
-     "hot": 525298
+     "title": "鲸鲸，跑起来吧",
+     "url": "https://www.bilibili.com/video/BV1Qwx56bEig",
+     "hot": 684289
     },
     {
-     "title": "做了一个错误的决定： 信了贵州辣卤不辣！",
-     "url": "https://www.bilibili.com/video/BV1fexT6pEQr",
-     "hot": 1290342
+     "title": "显卡价格大面积回调：11连涨被终结｜显卡日报10月29日",
+     "url": "https://www.bilibili.com/video/BV1mYsX6oEoN",
+     "hot": 468077
     },
     {
-     "title": "AL十六强单曲《游过太平洋》",
-     "url": "https://www.bilibili.com/video/BV1QSxT6GE64",
-     "hot": 899508
+     "title": "三年之期已到，恭迎世一上归位！【第15集】",
+     "url": "https://www.bilibili.com/video/BV1Nwso6vEpi",
+     "hot": 203158
     },
     {
-     "title": "王老菊教你童叟无欺",
-     "url": "https://www.bilibili.com/video/BV1jfxL6uEHJ",
-     "hot": 236160
+     "title": "⚡《新 三 国 FUNK》⚡",
+     "url": "https://www.bilibili.com/video/BV1iXxV6vEmP",
+     "hot": 501745
+    },
+    {
+     "title": "喝可乐不打嗝小游戏~",
+     "url": "https://www.bilibili.com/video/BV1rvxE6HEPT",
+     "hot": 559385
+    },
+    {
+     "title": "苹果的触屏MacBook Pro来了，你会买么？",
+     "url": "https://www.bilibili.com/video/BV1VqsQ6KEoy",
+     "hot": 492096
+    },
+    {
+     "title": "永远和你在一起",
+     "url": "https://www.bilibili.com/video/BV1hmx56oEPg",
+     "hot": 829537
+    },
+    {
+     "title": "【2026王者荣耀共创之夜】晚会完整回放",
+     "url": "https://www.bilibili.com/video/BV1zoxM64E9B",
+     "hot": 1197789
     }
    ]
   }
@@ -718,63 +718,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "Google发布Genie 4世界模型",
-   "url": "https://finance.sina.com.cn/world/2026-10-28/doc-iniwtiam9929133.shtml",
+   "title": "微软，业绩全面超预期",
+   "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwvwre2872750.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "SK海力士第三季度营业利润同比飙升632.1%",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwtpiz3959866.shtml",
+   "title": "宇树科技前三季度营收18亿元",
+   "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwvftk6392118.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "英伟达、甲骨文宣布：扩大合作",
-   "url": "https://finance.sina.com.cn/roll/2026-10-28/doc-iniwtpiz3961916.shtml",
+   "title": "谷歌推出Gemini 4 Carbon前沿人工智能模型",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwvftp9268662.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "史上最大IPO募资加码AI 北美科技巨头“狂飙”资本开支",
-   "url": "https://finance.sina.com.cn/roll/2026-10-28/doc-iniwswns0147581.shtml",
+   "title": "谷歌盘后暴跌超9%，微软大涨近3%，业绩冰火两重天",
+   "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwvwri5419889.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "做AI到底多烧钱？Anthropic掏出来一张8000亿的账单",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-10-28/doc-iniwswnn6929672.shtml",
+   "title": "Meta融资975亿美元强攻AI 英伟达循环融资争议不断",
+   "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwvsih2991563.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Anthropic冲刺超级IPO 接下来投资者需关注的五件事",
-   "url": "https://finance.sina.com.cn/world/2026-10-28/doc-iniwtiah6708679.shtml",
+   "title": "甲骨文股价飙升10%，长期营收预测和融资明确性缓解债务担忧",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-29/doc-iniwvsii9052791.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "苏宁易购发布三季报：前三季度净利润5411.7万元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-28/doc-iniwuzmr9355335.shtml",
+   "title": "抖音李亮：腾讯绿泡泡等同行发展很快 希望大家在阳光下竞争",
+   "url": "https://finance.sina.com.cn/tob/2026-10-29/doc-iniwwiew6040328.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Keep开放MoveBench题库：招募运动健康专家团，推动行业共建",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-28/doc-iniwuvct9426525.shtml",
+   "title": "智元发布WITA-OMNI具身全模态端到端交互大模型，支持100多种语言极速交互",
+   "url": "https://finance.sina.com.cn/tob/2026-10-29/doc-iniwwaxa2926175.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "主动风冷和2K 185Hz下放 iQOO Neo12与Pad Pro 8.8英寸同场发布",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-10-28/doc-iniwuvcs3296152.shtml",
+   "title": "iQOO Neo12 上手体验：游戏旗舰的 \"顶配\" 答卷，这次连屏幕都卷出新高度",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-10-29/doc-iniwwawy6138115.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "重磅IPO前夕 Anthropic七位创始人巩固控制权",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-28/doc-iniwuvcv5841002.shtml",
+   "title": "智元发布“精灵 G2 Max”安规级重载具身工业机器人",
+   "url": "https://finance.sina.com.cn/tob/2026-10-29/doc-iniwwaxc8972689.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "宇树科技披露上市后首份财报：前三季度营收同比增55.71%至18.17亿元，归母净利润大涨270.54%",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-28/doc-iniwuqvu3369685.shtml",
+   "title": "Airbnb爱彼迎推出全新捐赠模式：每笔住宿订单捐0.1美元，五年预计募集5亿美元",
+   "url": "https://finance.sina.com.cn/tob/2026-10-29/doc-iniwwaxc8971652.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "京东11.11：成立京东好木实料联盟，将推出“好木实料”生活馆",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-28/doc-iniwuqvu3349664.shtml",
+   "title": "一加 16 上手体验：全能直屏旗舰，把枪神体验拉满",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-10-29/doc-iniwwaxf5420246.shtml",
    "source": "新浪科技"
   }
  ]
