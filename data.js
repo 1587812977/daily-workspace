@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-30 18:57",
+ "updatedAt": "2026-10-31 02:08",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,18 +8,10 @@ var WB_DATA = {
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
    "time": "10-30 10:09",
-   "sourceCount": 14
+   "sourceCount": 9
   },
   {
    "rank": 2,
-   "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
-   "time": "10-30 08:34",
-   "sourceCount": 3
-  },
-  {
-   "rank": 3,
    "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版",
    "source": "Hugging Face 官方团队博客",
    "url": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi",
@@ -27,7 +19,31 @@ var WB_DATA = {
    "sourceCount": 11
   },
   {
+   "rank": 3,
+   "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
+   "time": "10-30 08:34",
+   "sourceCount": 3
+  },
+  {
    "rank": 4,
+   "title": "Reddit 转向登录优先，应对搜索流量流失",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/v4uwaucyf64u7bkzsyvri08w4",
+   "time": "10-31 01:15",
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
+   "title": "Alphabet Q3营收增25%，AI搜索变现承压",
+   "source": "X：Sundar Pichai (@sundarpichai)",
+   "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
+   "time": "10-30 22:50",
+   "sourceCount": 4
+  },
+  {
+   "rank": 6,
    "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/urs0f8vvh3zel0gh18qvn8h09",
@@ -35,55 +51,84 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 5,
-   "title": "Alphabet Q3营收增25%，AI搜索变现承压",
-   "source": "X：Sundar Pichai (@sundarpichai)",
-   "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
-   "time": "10-30 00:24",
-   "sourceCount": 4
-  },
-  {
-   "rank": 6,
+   "rank": 7,
    "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "10-30 09:28",
-   "sourceCount": 4
-  },
-  {
-   "rank": 7,
-   "title": "Reddit 转向登录优先，应对 AI 搜索流量下滑",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/op2kjf327vilvhbxkjicxg5ec",
-   "time": "10-30 14:59",
-   "sourceCount": 2
+   "time": "10-30 21:11",
+   "sourceCount": 3
   },
   {
    "rank": 8,
-   "title": "NVIDIA 发布开放权重语音模型 Nemotron 3.5 Transcribe",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/hb9hlobx48r7sz850swx62efv",
-   "time": "10-29 15:31",
-   "sourceCount": 6
+   "title": "OpenAI将Model Spec重组为五项核心价值观",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/rccreyesa3aeph7jasj5spv29",
+   "time": "10-31 01:44",
+   "sourceCount": 3
   },
   {
    "rank": 9,
+   "title": "SpaceX 三季度 AI 收入过半，Anthropic 成最大客户",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/ov4nfafvbhe7d8mj1uirkgsxb",
+   "time": "10-30 06:48",
+   "sourceCount": 1
+  },
+  {
+   "rank": 10,
    "title": "纽时称中国情报人员接近黄仁勋，英伟达否认",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/lq97h52ctxw2nkri4qqxj5lbx",
    "time": "10-30 02:29",
    "sourceCount": 4
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI 向 Pro 与 Business 订阅者发放 API 额度",
-   "source": "X：OpenAI Developers (@OpenAIDevs)",
-   "url": "https://aihot.news/items/s0x0m11ny4wsnv6aydm6oqy39",
-   "time": "10-30 06:48",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+   "summary": "BBC 报道称，因担忧企业对 AI 的巨额投资回报，美股科技股连续第二日大跌。",
+   "reason": "报道整合了本周多家巨头的股价、市值损失和支出数字，可看出市场对 AI 投入回报的担忧正在集中兑现。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/l7y0gkoqx56dt6jxv6x0mcl0h",
+   "time": "10-30 22:50",
+   "category": "industry"
+  },
+  {
+   "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
+   "summary": "Anthropic 将 Claude 订阅套餐更名：Max 5x 改为 Max，Max 20x 改为 Ultra，价格不变（Max 100 美元/月、Ultra 200 美元/月）。即日起多数老订阅者的认证 Ultra 账号取消 5 小时限制，新账号保留临时限制以防欺诈滥用，周限额不变。",
+   "reason": "Anthropic 员工确认订阅改名与 Ultra 取消 5 小时限制的细节，订阅者可据此确认是否受影响。",
+   "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+   "url": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj",
+   "time": "10-31 01:42",
+   "category": "ai-products"
+  },
+  {
+   "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
+   "summary": "Sierra 宣布本周 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元，从 2 亿到 4 亿仅用五个月，快于此前六个月的翻倍节奏。",
+   "reason": "公司官方披露 ARR 增长节奏和按结果计费、Poppy 开放标准等经营思路，读者可据此理解 Agent 商业化的一种路径。",
+   "source": "Sierra：Blog（RSS）",
+   "url": "https://aihot.news/items/hfhskyex3cjrs3huvpmi1z7bg",
+   "time": "10-30 20:50",
+   "category": "industry"
+  },
+  {
+   "title": "Gemini API 的 Computer Use 工具正式开放（GA）",
+   "summary": "Google 于 10 月 30 日宣布 Gemini API 的 Computer Use 工具正式可用（GA），覆盖 Interactions 和 GenerateContent 两套 API。",
+   "reason": "官方更新日志确认 Computer Use 结束预览进入正式可用，关注 Gemini API 智能体操作能力的读者可查此入口。",
+   "source": "Gemini API：更新日志（网页）",
+   "url": "https://aihot.news/items/qit1hgequ8pknedqqvuei5wfh",
+   "time": "10-30 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+   "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。",
+   "reason": "Epoch AI 用自建实验给出量化数据，展示开源权重模型如何在补丁窗口期内低成本复现漏洞利用，并给出缩短发布周期的防御建议。",
+   "source": "Epoch AI：Gradient Updates（RSS）",
+   "url": "https://aihot.news/items/nxkr9ex5tfbhfhw1gvj9wsjuz",
+   "time": "10-30 20:07",
+   "category": "paper"
+  },
   {
    "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
    "summary": "Cursor 发现通过其 IDE 扩展市场分发的 Claude Code VS Code 扩展被修改并植入恶意软件，最多影响 5000 用户，恶意版本并非 Anthropic 开发。Cursor 已于当日下午下线扩展市场，与相关提供方合作清除恶意软件并确认无进一步风险后重新上线，建议受影响用户参考博客说明排查，并升级到 Claude Code for VS Code 2.1.314。",
@@ -145,51 +190,6 @@ var WB_DATA = {
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/fxmexzrmo7pw52vc5j6ej17kl",
    "time": "10-30 07:42",
-   "category": "industry"
-  },
-  {
-   "title": "Factory 发布 Droid 1.0，以程序化工具调用构建企业级 Agent harness",
-   "summary": "Factory 发布 Droid 1.0，一个模型无关的 agent harness，主打程序化工具调用（PTC），模型通过编写 JavaScript 程序在沙箱中一次执行数百个工具调用。",
-   "reason": "原文给出 Droid 1.0 的基准对比数据和程序化工具调用设计细节，读者可以据此评估这个 Agent harness 的成本与质量取舍。",
-   "source": "Factory 研究 / 产品（RSS）",
-   "url": "https://aihot.news/items/gjz7lj8j6ojjyj80vkkhy786v",
-   "time": "10-29 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Figma 讲解如何训练专用画布编辑模型",
-   "summary": "Figma 介绍其为 agent 自研 Figma 编辑模型的训练方法，先用超过 25 万条合成样本做 SFT，让早期 Llama 3.3 70B 在编辑任务上接近当时顶级模型，后转向 RL 并结合确定性校验器与视觉评委做评测。",
-   "reason": "原文拆解了 Figma 自研编辑模型从 SFT 到 RL 的训练路径与内部评测维度，可作专业领域后训练的参考方法。",
-   "source": "Figma AI / Agent / Make",
-   "url": "https://aihot.news/items/z9kqlhsgiz11fvlk3aodm6seg",
-   "time": "10-30 05:00",
-   "category": "tip"
-  },
-  {
-   "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
-   "summary": "Reddit 在 Q3 财报中宣布将转向以登录为主的体验，以保护数据免受 AI 抓取并提升广告变现。10 月搜索流量平均每周减少超 100 万次引荐，Q3 全球日活为 1.303 亿，其中美国日活降至 5070 万，同比降 2%。Q3 收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元；该转变将先在美国以外市场测试，暂无全球上线时间表。",
-   "reason": "Reddit 财报披露搜索流量下滑与转向登录制策略，读者可以借此观察 AI 搜索对开放网络的商业冲击。",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/op2kjf327vilvhbxkjicxg5ec",
-   "time": "10-30 04:08",
-   "category": "industry"
-  },
-  {
-   "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
-   "summary": "Pika Labs 在 MiniMax H3 上做后训练，推出并开源 Pika H3 Flex，采样步数从 50 步压缩到 6 步，生成时间大幅降低且质量有所提升。",
-   "reason": "原文点出采样步数从50步压到6步且开源，本地视频生成玩家可据此评估实际收益。",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/eq47lph0rzobf8cr950saiu8r",
-   "time": "10-30 04:07",
-   "category": "ai-models"
-  },
-  {
-   "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
-   "summary": "作者通读 Anthropic 公开版 S-1 文件，认为公司财务状况好于预期：2026 年第二季度收入从一季度的 47 亿美元增至 116 亿美元，并录得首个运营利润，截至 6 月底现金储备仅次于 Google 和 Berkshire Hathaway。",
-   "reason": "作者通读 Anthropic 公开的 S-1 文件，用现金流和季度收入数据说明其财务状况与算力承诺之间的张力。",
-   "source": "Timothy B. Lee：Understanding AI（RSS）",
-   "url": "https://aihot.news/items/wb6emxuh5ob2wh96egtwawgfu",
-   "time": "10-30 03:10",
    "category": "industry"
   }
  ],
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-30 18:57",
+   "updateTime": "2026-10-31 02:09",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "白蚁豪宅被大象拿来擦屁股，没想到擦出了一个微观水世界！",
-     "url": "https://www.bilibili.com/video/BV14txF65Efd",
-     "hot": 1749624
-    },
-    {
-     "title": "奶龙＆豆包《Trouble Maker》token没啦【AI MV大赛】",
-     "url": "https://www.bilibili.com/video/BV1stsZ6iESz",
-     "hot": 985649
-    },
-    {
-     "title": "CPOPwave出海长红IP——《原神》让世界认识中国游戏",
-     "url": "https://www.bilibili.com/video/BV17sxY6xEWK",
-     "hot": 348202
-    },
-    {
-     "title": "【独家】《罗小黑战记》第41话 开始学习吧小黑同学【10月国创】",
-     "url": "https://www.bilibili.com/video/BV1CUso6AELi",
-     "hot": 2794001
-    },
-    {
-     "title": "【2026全球总决赛】10月30日 BLG vs TES",
-     "url": "https://www.bilibili.com/video/BV17XxP6CE7n",
-     "hot": 3611100
-    },
-    {
-     "title": "《此弟不宜久留》",
-     "url": "https://www.bilibili.com/video/BV1pzxw6yEMH",
-     "hot": 673970
-    },
-    {
-     "title": "锐评S16瑞士轮TES战胜BLG：命悬一线....",
-     "url": "https://www.bilibili.com/video/BV1quxe6sEqB",
-     "hot": 800208
-    },
-    {
-     "title": "“我本该命途齐天”【孙悟空＆新·与天齐】",
-     "url": "https://www.bilibili.com/video/BV1bnsZ6GEN3",
-     "hot": 259257
+     "title": "三阶段了 杀手一曲Golden Hour征服老哥",
+     "url": "https://www.bilibili.com/video/BV1nLsf6eESp",
+     "hot": 1772410
     },
     {
      "title": "透明的镜片居然有影子？观众的问题让我脑洞大开！",
      "url": "https://www.bilibili.com/video/BV15vxc6bEZz",
-     "hot": 521842
+     "hot": 1836925
     },
     {
-     "title": "【痴迷】我真的真的很爱你",
-     "url": "https://www.bilibili.com/video/BV1DKxj6YEZj",
-     "hot": 464759
+     "title": "白蚁豪宅被大象拿来擦屁股，没想到擦出了一个微观水世界！",
+     "url": "https://www.bilibili.com/video/BV14txF65Efd",
+     "hot": 3437371
     },
     {
-     "title": "我用Ai让AUDI和键盘侠打了一架",
-     "url": "https://www.bilibili.com/video/BV1UAsf6kEGw",
-     "hot": 239955
+     "title": "【独家】《罗小黑战记》第41话 开始学习吧小黑同学【10月国创】",
+     "url": "https://www.bilibili.com/video/BV1CUso6AELi",
+     "hot": 4657400
     },
     {
-     "title": "三阶段了 杀手一曲Golden Hour征服老哥",
-     "url": "https://www.bilibili.com/video/BV1nLsf6eESp",
-     "hot": 722596
+     "title": "《此弟不宜久留》",
+     "url": "https://www.bilibili.com/video/BV1pzxw6yEMH",
+     "hot": 1826237
+    },
+    {
+     "title": "《崩坏：星穹铁道》4.7版本「此刻，将群星付之一笑」前瞻特别节目",
+     "url": "https://www.bilibili.com/video/BV1wpxq6VEX5",
+     "hot": 878722
+    },
+    {
+     "title": "“我本该命途齐天”【孙悟空＆新·与天齐】",
+     "url": "https://www.bilibili.com/video/BV1bnsZ6GEN3",
+     "hot": 588818
+    },
+    {
+     "title": "《星游记》前传电影启动，方向黑洞，目标彩虹海！",
+     "url": "https://www.bilibili.com/video/BV18Kxv6jETs",
+     "hot": 488914
+    },
+    {
+     "title": "奶龙＆豆包《Trouble Maker》token没啦【AI MV大赛】",
+     "url": "https://www.bilibili.com/video/BV1stsZ6iESz",
+     "hot": 1873294
+    },
+    {
+     "title": "vibe知识大赏：秦始皇—嬴政",
+     "url": "https://www.bilibili.com/video/BV1kgxM6ZEo6",
+     "hot": 811110
+    },
+    {
+     "title": "《润魂子》1-5合集 纯享版【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1zRx76SEJQ",
+     "hot": 1534713
+    },
+    {
+     "title": "CPOPwave出海长红IP——《原神》让世界认识中国游戏",
+     "url": "https://www.bilibili.com/video/BV17sxY6xEWK",
+     "hot": 901187
     }
    ]
   }
@@ -758,23 +758,23 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "美团内部邮件公告年度人才发展结果，两位80后晋升副总裁",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwzazv4647091.shtml",
+   "title": "AI原生电力资产运营商Green Voltis完成数千万美元A轮融资",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwzprr4525729.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "迪哲医药前三季度营业收入47.70亿元，净利润36.34亿元",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwzazq5492974.shtml",
+   "title": "“AI+车”战略持续落地，千里科技前三季度营收与归母净利润双增长",
+   "url": "https://finance.sina.com.cn/tech/it/2026-10-30/doc-iniwzprp8040640.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "智元联席总裁姚卯青：具身智能真正走进产业现场，要具备“这三项”能力",
-   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwzazs2267724.shtml",
+   "title": "奇瑞汽车发布前三季度财报：营收2412.34亿元，同比增长12.29%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwziiq2226032.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "99.4%漏洞挖掘成功率，360图龙锋登顶CyberGym，超越OpenAI",
-   "url": "https://finance.sina.com.cn/tech/it/2026-10-30/doc-iniwzazt8154675.shtml",
+   "title": "赛力斯发布第三季度财报：营收280.8亿元，净利润14.2亿元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwziin5442757.shtml",
    "source": "新浪科技"
   }
  ]
