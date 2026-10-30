@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-30 11:59",
+ "updatedAt": "2026-10-30 18:57",
  "aihotHot": [
   {
    "rank": 1,
@@ -20,10 +20,10 @@ var WB_DATA = {
   },
   {
    "rank": 3,
-   "title": "Mistral 开源万亿参数 Le Chonk，Unsloth 推 1-bit 量化版",
+   "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版",
    "source": "Hugging Face 官方团队博客",
    "url": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi",
-   "time": "10-30 09:09",
+   "time": "10-30 17:48",
    "sourceCount": 11
   },
   {
@@ -36,14 +36,6 @@ var WB_DATA = {
   },
   {
    "rank": 5,
-   "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "10-30 09:28",
-   "sourceCount": 6
-  },
-  {
-   "rank": 6,
    "title": "Alphabet Q3营收增25%，AI搜索变现承压",
    "source": "X：Sundar Pichai (@sundarpichai)",
    "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
@@ -51,20 +43,28 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
+   "rank": 6,
+   "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "10-30 09:28",
+   "sourceCount": 4
+  },
+  {
    "rank": 7,
+   "title": "Reddit 转向登录优先，应对 AI 搜索流量下滑",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/op2kjf327vilvhbxkjicxg5ec",
+   "time": "10-30 14:59",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
    "title": "NVIDIA 发布开放权重语音模型 Nemotron 3.5 Transcribe",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/hb9hlobx48r7sz850swx62efv",
    "time": "10-29 15:31",
    "sourceCount": 6
-  },
-  {
-   "rank": 8,
-   "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
-   "time": "10-28 15:34",
-   "sourceCount": 1
   },
   {
    "rank": 9,
@@ -85,6 +85,42 @@ var WB_DATA = {
  ],
  "aihotItems": [
   {
+   "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
+   "summary": "Cursor 发现通过其 IDE 扩展市场分发的 Claude Code VS Code 扩展被修改并植入恶意软件，最多影响 5000 用户，恶意版本并非 Anthropic 开发。Cursor 已于当日下午下线扩展市场，与相关提供方合作清除恶意软件并确认无进一步风险后重新上线，建议受影响用户参考博客说明排查，并升级到 Claude Code for VS Code 2.1.314。",
+   "reason": "Cursor 官方披露扩展市场安全事件细节与处置过程，给出受影响范围和版本升级指引，受影响用户可按步骤自查。",
+   "source": "X：Cursor (@cursor_ai)",
+   "url": "https://aihot.news/items/iu7xvjx1c2c5wqrpn0rwfxcb5",
+   "time": "10-30 15:46",
+   "category": "industry"
+  },
+  {
+   "title": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响",
+   "summary": "Cursor 官方披露，其 VS Code 扩展市场中的 Anthropic.claude-code 2.1.313 为恶意篡改版本，并非 Anthropic 开发，在 10 月 29 日 2:27am PT 至 1:35pm PT 期间上架，最多影响 4100 名用户。",
+   "reason": "Cursor 官方披露恶意扩展事件细节，给出检测命令、修复脚本和完整 IOC，受影响用户可按步骤自查处置。",
+   "source": "Cursor Blog",
+   "url": "https://aihot.news/items/pg7avew3q9ekdp3ydzhiuh9y4",
+   "time": "10-29 20:00",
+   "category": "industry"
+  },
+  {
+   "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
+   "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
+   "reason": "原文梳理了 Google、Amazon、Microsoft 三家财报中 AI 投入与现金流变化的具体数字，读者可对比资本市场的不同反应。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/puushryi79v0flh2um3a70xnw",
+   "time": "10-30 05:29",
+   "category": "industry"
+  },
+  {
+   "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+   "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
+   "reason": "官方首次公开内部 3D 工作流程，覆盖建模方式、Harness 选择和 5 条可复用技巧，读者可按案例直接上手。",
+   "source": "公众号：月之暗面（Kimi）",
+   "url": "https://aihot.news/items/ykvaq4vx3ydt23josezzan62r",
+   "time": "10-30 12:04",
+   "category": "tip"
+  },
+  {
    "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
    "summary": "Casey Newton 分析 Google 与 Reddit 同日遭遇的股市重挫：Alphabet 股价跌 12.6%，蒸发约 $5000 亿市值，为史上第二大单日市值缩水；高管承认 AI Mode 变现能力低于传统搜索，尽管 AI Mode 月用户约 10 亿、搜索收入仍增长 12% 至 $633.5 亿。",
    "reason": "作者把 Google 和 Reddit 同日财报放在一起分析，指出 AI Mode 变现弱于传统搜索正在推动网站加门槛、让开放网络收缩。",
@@ -103,9 +139,9 @@ var WB_DATA = {
    "category": "tip"
   },
   {
-   "title": "Andy Jassy 称 AWS 将成为万亿美元营收业务，2026 年资本开支约 2200 亿美元",
-   "summary": "亚马逊财报电话会上，CEO Andy Jassy 重申 AWS 可在未来五到十年成为万亿美元年营收业务，预计 2026 年现金资本开支约 2200 亿美元，其中大部分投向 AWS，2027 年还将大幅增加。AWS 当季营收同比增长 39%，年化营收运行率达 1840 亿美元，Jassy 预测 2027 和 2028 年增速均可超 40%；财报后盘后交易中亚马逊股价下跌约 6%。",
-   "reason": "原文给出 AWS 的资本开支数字与增长预测，可帮读者判断云厂商 AI 基建投入与市场反应。",
+   "title": "Jassy 称 AWS 五到十年内将成为万亿美元营收业务，2026 年 capex 约 2200 亿美元",
+   "summary": "Amazon CEO Andy Jassy 在周四的季度财报电话会议上表示，AWS 未来五到十年内可以成为年营收万亿美元的业务，2026 年现金 capex 预计约 2200 亿美元，大部分投向 AWS，2027 年还将大幅增加。",
+   "reason": "原文给出 AWS 最新财报数字、2026 约 2200 亿美元 capex 计划和 Jassy 的万亿营收时间表，可帮助读者判断云厂商 AI 投入节奏。",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/fxmexzrmo7pw52vc5j6ej17kl",
    "time": "10-30 07:42",
@@ -155,42 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/wb6emxuh5ob2wh96egtwawgfu",
    "time": "10-30 03:10",
    "category": "industry"
-  },
-  {
-   "title": "OpenAI 详解如何检测前沿模型失准行为",
-   "summary": "OpenAI 发布长文，详解其针对前沿模型失准行为的多层监测系统，包括激活探针、基于模型的审查、调查智能体和自动化调查四层架构，并对 GPT‑6 Astra 及以上模型的全部 RL 运行、评估和内部 Codex 流量进行监测。",
-   "reason": "原文详述了 OpenAI 多层失准监测系统的架构与真实响应案例，读者可以了解其覆盖范围、误报处理和独立红队测试结果。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/ck2bk0ns12i2hkg4ae0eoeabv",
-   "time": "10-29 17:00",
-   "category": "paper"
-  },
-  {
-   "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
-   "summary": "OpenAI 更新其公开的 Model Spec，将指导原则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。更新新增了关于上下文理解、监督和自主性的指导，调整了部分行为默认值，退出了大部分详细风格指南，并将模型称呼从 the assistant 改为 GPT。",
-   "reason": "原文列出五项核心价值观及新增与退出的具体章节，读者可据此比较对齐框架的实际变化。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/rccreyesa3aeph7jasj5spv29",
-   "time": "10-30 01:00",
-   "category": "industry"
-  },
-  {
-   "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
-   "summary": "腾讯混元发布 Hy-Nomas 开源交互式视频世界模型的技术报告（arXiv:2610.36729），并开源 Hy-Nomas-Bench 数据集用于可复现研究。官方还用 Hy-Nomas 重现 Genie 4 示例并放出对比视频，演示无需排队即可试用，地址为 https://hy-nomas.hy.tencent.com/。",
-   "reason": "官方补充技术报告和 Hy-Nomas-Bench 数据集，还放出与 Genie 4 的对比视频，便于研究者复现和评估该视频世界模型。",
-   "source": "X：腾讯混元 (@TencentHunyuan)",
-   "url": "https://aihot.news/items/nb40aoihhydhoo0acp0rcyaol",
-   "time": "10-30 01:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Gemini 新增文档、PDF、演示文稿和表格的直接生成、预览与编辑功能",
-   "summary": "Google Gemini 宣布可直接在应用内生成、预览和编辑文档、PDF、演示文稿、表格等多种文件。支持把手写笔记转成 PDF 学习指南、手动调整内容、高亮部分让 Gemini 修改文字或视觉元素，并可继续追问。",
-   "reason": "官方宣布文档、PDF、演示文稿等可直接在 Gemini 内生成、预览和编辑，读者可据此判断它能否替代部分办公工具流程。",
-   "source": "X：Gemini (@GeminiApp)",
-   "url": "https://aihot.news/items/nfbnpnzdrebu4kbq6uqxhkc2h",
-   "time": "10-30 00:36",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -299,74 +299,74 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-10-30 12:00",
+   "updateTime": "2026-10-30 18:57",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "中共中央举行发布会",
-     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E4%B8%BE%E8%A1%8C%E5%8F%91%E5%B8%83%E4%BC%9A",
-     "hot": 1053088
+     "title": "LGDNBW对战EDGM",
+     "url": "https://s.weibo.com/weibo?q=LGDNBW%E5%AF%B9%E6%88%98EDGM",
+     "hot": 1033328
     },
     {
-     "title": "冰柜被仅退款买家称将起诉卖家",
-     "url": "https://s.weibo.com/weibo?q=%E5%86%B0%E6%9F%9C%E8%A2%AB%E4%BB%85%E9%80%80%E6%AC%BE%E4%B9%B0%E5%AE%B6%E7%A7%B0%E5%B0%86%E8%B5%B7%E8%AF%89%E5%8D%96%E5%AE%B6",
-     "hot": 1052847
+     "title": "披荆斩棘总决赛妆造",
+     "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%80%BB%E5%86%B3%E8%B5%9B%E5%A6%86%E9%80%A0",
+     "hot": 759048
     },
     {
-     "title": "绿色转型擦亮中国经济底色",
-     "url": "https://s.weibo.com/weibo?q=%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%93%A6%E4%BA%AE%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%BA%95%E8%89%B2",
-     "hot": 1043629
+     "title": "11月这些新规将施行",
+     "url": "https://s.weibo.com/weibo?q=11%E6%9C%88%E8%BF%99%E4%BA%9B%E6%96%B0%E8%A7%84%E5%B0%86%E6%96%BD%E8%A1%8C",
+     "hot": 615596
     },
     {
-     "title": "摆拍大体老师头骨学生被处分",
-     "url": "https://s.weibo.com/weibo?q=%E6%91%86%E6%8B%8D%E5%A4%A7%E4%BD%93%E8%80%81%E5%B8%88%E5%A4%B4%E9%AA%A8%E5%AD%A6%E7%94%9F%E8%A2%AB%E5%A4%84%E5%88%86",
-     "hot": 1033755
+     "title": "一台电车跑46万公里是什么水平",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%8F%B0%E7%94%B5%E8%BD%A6%E8%B7%9146%E4%B8%87%E5%85%AC%E9%87%8C%E6%98%AF%E4%BB%80%E4%B9%88%E6%B0%B4%E5%B9%B3",
+     "hot": 609930
     },
     {
-     "title": "张雪机车终于归张雪了",
-     "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%E7%BB%88%E4%BA%8E%E5%BD%92%E5%BC%A0%E9%9B%AA%E4%BA%86",
-     "hot": 1026989
+     "title": "小城良方里海豹是真的",
+     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E9%87%8C%E6%B5%B7%E8%B1%B9%E6%98%AF%E7%9C%9F%E7%9A%84",
+     "hot": 607717
     },
     {
-     "title": "王楚钦说勒布伦得让孙颖莎3到4分",
-     "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%A5%9A%E9%92%A6%E8%AF%B4%E5%8B%92%E5%B8%83%E4%BC%A6%E5%BE%97%E8%AE%A9%E5%AD%99%E9%A2%96%E8%8E%8E3%E5%88%B04%E5%88%86",
-     "hot": 1023724
+     "title": "女硕士走失十余年遭性侵一审将宣判",
+     "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E7%A1%95%E5%A3%AB%E8%B5%B0%E5%A4%B1%E5%8D%81%E4%BD%99%E5%B9%B4%E9%81%AD%E6%80%A7%E4%BE%B5%E4%B8%80%E5%AE%A1%E5%B0%86%E5%AE%A3%E5%88%A4",
+     "hot": 596661
     },
     {
-     "title": "BLG瑞士轮生死战现状",
-     "url": "https://s.weibo.com/weibo?q=BLG%E7%91%9E%E5%A3%AB%E8%BD%AE%E7%94%9F%E6%AD%BB%E6%88%98%E7%8E%B0%E7%8A%B6",
-     "hot": 1016240
+     "title": "小城良方告了白衣山猫",
+     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%91%8A%E4%BA%86%E7%99%BD%E8%A1%A3%E5%B1%B1%E7%8C%AB",
+     "hot": 596093
     },
     {
-     "title": "张雪90后专科生员工年薪五六十万",
-     "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E9%9B%AA90%E5%90%8E%E4%B8%93%E7%A7%91%E7%94%9F%E5%91%98%E5%B7%A5%E5%B9%B4%E8%96%AA%E4%BA%94%E5%85%AD%E5%8D%81%E4%B8%87",
-     "hot": 1008726
+     "title": "攻击21在四川舰成功起降",
+     "url": "https://s.weibo.com/weibo?q=%E6%94%BB%E5%87%BB21%E5%9C%A8%E5%9B%9B%E5%B7%9D%E8%88%B0%E6%88%90%E5%8A%9F%E8%B5%B7%E9%99%8D",
+     "hot": 585289
     },
     {
-     "title": "JackeyLove想再拿一次S冠",
-     "url": "https://s.weibo.com/weibo?q=JackeyLove%E6%83%B3%E5%86%8D%E6%8B%BF%E4%B8%80%E6%AC%A1S%E5%86%A0",
-     "hot": 996148
+     "title": "前台称涉事技师已离职不知去向",
+     "url": "https://s.weibo.com/weibo?q=%E5%89%8D%E5%8F%B0%E7%A7%B0%E6%B6%89%E4%BA%8B%E6%8A%80%E5%B8%88%E5%B7%B2%E7%A6%BB%E8%81%8C%E4%B8%8D%E7%9F%A5%E5%8E%BB%E5%90%91",
+     "hot": 580015
     },
     {
-     "title": "369 想赢就会兴奋怕输才会紧张",
-     "url": "https://s.weibo.com/weibo?q=369%20%E6%83%B3%E8%B5%A2%E5%B0%B1%E4%BC%9A%E5%85%B4%E5%A5%8B%E6%80%95%E8%BE%93%E6%89%8D%E4%BC%9A%E7%B4%A7%E5%BC%A0",
-     "hot": 991391
+     "title": "芒果台你想爆出怎样的人生",
+     "url": "https://s.weibo.com/weibo?q=%E8%8A%92%E6%9E%9C%E5%8F%B0%E4%BD%A0%E6%83%B3%E7%88%86%E5%87%BA%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BA%BA%E7%94%9F",
+     "hot": 575915
     },
     {
-     "title": "把大体老师遗骨当玩物配当医生吗",
-     "url": "https://s.weibo.com/weibo?q=%E6%8A%8A%E5%A4%A7%E4%BD%93%E8%80%81%E5%B8%88%E9%81%97%E9%AA%A8%E5%BD%93%E7%8E%A9%E7%89%A9%E9%85%8D%E5%BD%93%E5%8C%BB%E7%94%9F%E5%90%97",
-     "hot": 987222
+     "title": "妈妈称儿子要五次超长蛋挞没买",
+     "url": "https://s.weibo.com/weibo?q=%E5%A6%88%E5%A6%88%E7%A7%B0%E5%84%BF%E5%AD%90%E8%A6%81%E4%BA%94%E6%AC%A1%E8%B6%85%E9%95%BF%E8%9B%8B%E6%8C%9E%E6%B2%A1%E4%B9%B0",
+     "hot": 569431
     },
     {
-     "title": "厉娜吃5个菜许飞吃1个菜",
-     "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E5%90%835%E4%B8%AA%E8%8F%9C%E8%AE%B8%E9%A3%9E%E5%90%831%E4%B8%AA%E8%8F%9C",
-     "hot": 909760
+     "title": "证监会",
+     "url": "https://s.weibo.com/weibo?q=%E8%AF%81%E7%9B%91%E4%BC%9A",
+     "hot": 563850
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-10-30 12:00",
+   "updateTime": "2026-10-30 18:57",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
@@ -375,28 +375,8 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "如何看待中科大给学生提供每天一亿的token额度？",
-     "url": "https://www.zhihu.com/question/2098940094346433079",
-     "hot": ""
-    },
-    {
-     "title": "你认为影之刃零能达到黑猴的热度吗？",
-     "url": "https://www.zhihu.com/question/2098507381420319426",
-     "hot": ""
-    },
-    {
-     "title": "菜鸟驿站为什么那么多转让的？",
-     "url": "https://www.zhihu.com/question/458627547",
-     "hot": ""
-    },
-    {
-     "title": "女孩恳请学校取消周日返校，称其带来严重焦虑，甚至影响周六，学校应该取消吗？周日返校有什么意义？",
-     "url": "https://www.zhihu.com/question/2098745060527432814",
-     "hot": ""
-    },
-    {
-     "title": "谷歌美股开盘大跌超13%，创历史最大单日跌幅，总市值蒸发5000亿美元，为啥会这样？还会持续下跌吗？",
-     "url": "https://www.zhihu.com/question/2099258545564643597",
+     "title": "如何看待币安遭黑客攻击，数十亿美元资产被盗，或成历史金额最大被盗事件？",
+     "url": "https://www.zhihu.com/question/2099446310872900107",
      "hot": ""
     },
     {
@@ -405,28 +385,48 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "如何看待蒋方舟因论文抄袭被撤销学位后，时隔 107 天再发文《37岁才明白的事》？",
-     "url": "https://www.zhihu.com/question/2099233723589969810",
+     "title": "校方通报「学生摆拍大体老师头骨」一事，涉事学生被处分并取消年度评优资格，如何看待学校的处理？",
+     "url": "https://www.zhihu.com/question/2099465313452389327",
      "hot": ""
     },
     {
-     "title": "2026年一季度21.3万家理发店注销，10元快剪却排长队，理发行业怎么了？为啥越来越多人选择快剪？",
-     "url": "https://www.zhihu.com/question/2099409874731758206",
+     "title": "我军首型舰载察打一体隐身无人机「攻击-21」在四川舰成功起降，这意味着什么？哪些亮点值得关注？",
+     "url": "https://www.zhihu.com/question/2099547313488269586",
      "hot": ""
     },
     {
-     "title": "为何日式搬家这种标榜「极致体面」的高端服务，最终却让打工人陷入了「花钱买罪受」的狼狈？",
-     "url": "https://www.zhihu.com/question/2096916402720478019",
+     "title": "为什么BBA不进商场开店？",
+     "url": "https://www.zhihu.com/question/2001260067715044038",
      "hot": ""
     },
     {
-     "title": "如何评价开拓者官方已执行杨瀚森 486 万美元的 27-28 赛季球队选项？",
-     "url": "https://www.zhihu.com/question/2099389878379213233",
+     "title": "「X 教授」去世，享年 86 岁,《复仇者联盟 5：毁灭之日》成为遗作，他的离去对漫威宇宙意味着什么？",
+     "url": "https://www.zhihu.com/question/2099417874762879588",
      "hot": ""
     },
     {
-     "title": "大体老师骨骼被写「死了骨头还要被我玩」等轻浮文字，反映出哪些教育缺失？遗体捐献后应有怎样的管理措施？",
-     "url": "https://www.zhihu.com/question/2099145641355994025",
+     "title": "如何看待2026年10月30日A股集体收跌，双创指数月跌超23%，红利股逆势走强？",
+     "url": "https://www.zhihu.com/question/2098388759943422649",
+     "hot": ""
+    },
+    {
+     "title": "如何看待中科大给学生提供每天一亿的token额度？",
+     "url": "https://www.zhihu.com/question/2098940094346433079",
+     "hot": ""
+    },
+    {
+     "title": "为什么李白的书法作品只有《上阳台帖》流传下来了？",
+     "url": "https://www.zhihu.com/question/312800690",
+     "hot": ""
+    },
+    {
+     "title": "如何评价媒体锐评近期一些自媒体瞄准中青年群体，曲解社保制度，质疑养老金公平性？",
+     "url": "https://www.zhihu.com/question/2099265704436425632",
+     "hot": ""
+    },
+    {
+     "title": "Viper 直指 BLG 队内沟通已到不如不沟通水平，队伍沟通为何会出现如此严重的问题？",
+     "url": "https://www.zhihu.com/question/2099458637663925010",
      "hot": ""
     }
    ]
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-30 12:00",
+   "updateTime": "2026-10-30 18:57",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "白蚁豪宅被大象拿来擦屁股，没想到擦出了一个微观水世界！",
+     "url": "https://www.bilibili.com/video/BV14txF65Efd",
+     "hot": 1749624
+    },
+    {
+     "title": "奶龙＆豆包《Trouble Maker》token没啦【AI MV大赛】",
+     "url": "https://www.bilibili.com/video/BV1stsZ6iESz",
+     "hot": 985649
+    },
+    {
+     "title": "CPOPwave出海长红IP——《原神》让世界认识中国游戏",
+     "url": "https://www.bilibili.com/video/BV17sxY6xEWK",
+     "hot": 348202
+    },
+    {
+     "title": "【独家】《罗小黑战记》第41话 开始学习吧小黑同学【10月国创】",
+     "url": "https://www.bilibili.com/video/BV1CUso6AELi",
+     "hot": 2794001
+    },
+    {
      "title": "【2026全球总决赛】10月30日 BLG vs TES",
      "url": "https://www.bilibili.com/video/BV17XxP6CE7n",
-     "hot": 2018678
+     "hot": 3611100
     },
     {
-     "title": "公测定档PV | 《星布谷地》12月4日全球上线！",
-     "url": "https://www.bilibili.com/video/BV1Xasf6QEFF",
-     "hot": 145947
+     "title": "《此弟不宜久留》",
+     "url": "https://www.bilibili.com/video/BV1pzxw6yEMH",
+     "hot": 673970
     },
     {
-     "title": "吴站长&梅姐《Trouble Maker》【AI MV大赛】",
-     "url": "https://www.bilibili.com/video/BV1dEsX6TEGx",
-     "hot": 975876
+     "title": "锐评S16瑞士轮TES战胜BLG：命悬一线....",
+     "url": "https://www.bilibili.com/video/BV1quxe6sEqB",
+     "hot": 800208
     },
     {
-     "title": "贴脸特写，是每个野生动物摄影师的必备技能！",
-     "url": "https://www.bilibili.com/video/BV16nxg6fE3s",
-     "hot": 3211578
+     "title": "“我本该命途齐天”【孙悟空＆新·与天齐】",
+     "url": "https://www.bilibili.com/video/BV1bnsZ6GEN3",
+     "hot": 259257
     },
     {
-     "title": "当我cos亲友喜欢了十年的角色去找她，会是什么反应？",
-     "url": "https://www.bilibili.com/video/BV1Hxxj6DEZv",
-     "hot": 337102
+     "title": "透明的镜片居然有影子？观众的问题让我脑洞大开！",
+     "url": "https://www.bilibili.com/video/BV15vxc6bEZz",
+     "hot": 521842
     },
     {
-     "title": "重庆悬崖火锅自助 现实版饥饿站台？",
-     "url": "https://www.bilibili.com/video/BV1Y3sZ67Eat",
-     "hot": 1294408
+     "title": "【痴迷】我真的真的很爱你",
+     "url": "https://www.bilibili.com/video/BV1DKxj6YEZj",
+     "hot": 464759
     },
     {
-     "title": "《崩坏：星穹铁道》千星纪游PV：「有关星空的寓言集•其三」",
-     "url": "https://www.bilibili.com/video/BV1JYsd6sE4k",
-     "hot": 3352769
+     "title": "我用Ai让AUDI和键盘侠打了一架",
+     "url": "https://www.bilibili.com/video/BV1UAsf6kEGw",
+     "hot": 239955
     },
     {
-     "title": "《润魂子》1-5合集 纯享版【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1zRx76SEJQ",
-     "hot": 572573
-    },
-    {
-     "title": "城市大富翁（番外篇）",
-     "url": "https://www.bilibili.com/video/BV1ySsf6gE2C",
-     "hot": 928751
-    },
-    {
-     "title": "五年不见！人生一串4重磅回归",
-     "url": "https://www.bilibili.com/video/BV1Nrx76bEZ5",
-     "hot": 239505
-    },
-    {
-     "title": "《明日方舟》EP - A Necessary Message",
-     "url": "https://www.bilibili.com/video/BV16fsf6PEBH",
-     "hot": 622642
-    },
-    {
-     "title": "令人愤怒的“卖1元火鸡面”视频，炸出了多少被毁掉的中国小孩",
-     "url": "https://www.bilibili.com/video/BV1frn96iEKG",
-     "hot": 961145
+     "title": "三阶段了 杀手一曲Golden Hour征服老哥",
+     "url": "https://www.bilibili.com/video/BV1nLsf6eESp",
+     "hot": 722596
     }
    ]
   }
@@ -720,6 +720,11 @@ var WB_DATA = {
   {
    "title": "终于，亚马逊也把自由现金流“烧穿了”",
    "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwyfwc8319182.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "百融智能发布“百融声动” 诠释Voice AI如何进入企业服务流程",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwywtu2280397.shtml",
    "source": "新浪科技"
   },
   {
@@ -753,28 +758,23 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "今日宜休王腾谈商业构想：硬件之外，还要靠数据“加工token”",
-   "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwyncz8291241.shtml",
+   "title": "美团内部邮件公告年度人才发展结果，两位80后晋升副总裁",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwzazv4647091.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "今日宜休王腾回应“智商税”质疑：睡眠产品值不值，看科研支撑和用户口碑",
-   "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwynec4735093.shtml",
+   "title": "迪哲医药前三季度营业收入47.70亿元，净利润36.34亿元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwzazq5492974.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "比亚迪三季报出炉：三季度核心指标逆势大增",
-   "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwynec4722132.shtml",
+   "title": "智元联席总裁姚卯青：具身智能真正走进产业现场，要具备“这三项”能力",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwzazs2267724.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "茉莉奶白全新联名杯因“易碎”紧急下架，店员：后面不会再上，可以带订单截图到门店退款",
-   "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwyncy2306383.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "云途超充蕉岭站正式投运，搭载华为720kW液冷充电主机",
-   "url": "https://finance.sina.com.cn/roll/2026-10-30/doc-iniwyfwa2417508.shtml",
+   "title": "99.4%漏洞挖掘成功率，360图龙锋登顶CyberGym，超越OpenAI",
+   "url": "https://finance.sina.com.cn/tech/it/2026-10-30/doc-iniwzazt8154675.shtml",
    "source": "新浪科技"
   }
  ]
