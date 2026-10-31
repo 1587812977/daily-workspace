@@ -1,21 +1,21 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-10-31 11:44",
+ "updatedAt": "2026-10-31 18:30",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制",
-   "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-   "url": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj",
-   "time": "10-31 07:26",
-   "sourceCount": 3
-  },
-  {
-   "rank": 2,
    "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/lnc48gxlu5nv0he3mw57lzmc6",
    "time": "10-31 08:03",
+   "sourceCount": 3
+  },
+  {
+   "rank": 2,
+   "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制",
+   "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+   "url": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj",
+   "time": "10-31 07:26",
    "sourceCount": 3
   },
   {
@@ -28,11 +28,11 @@ var WB_DATA = {
   },
   {
    "rank": 4,
-   "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
-   "time": "10-31 08:01",
-   "sourceCount": 2
+   "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
+   "time": "10-30 08:34",
+   "sourceCount": 3
   },
   {
    "rank": 5,
@@ -44,14 +44,30 @@ var WB_DATA = {
   },
   {
    "rank": 6,
-   "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
-   "time": "10-30 08:34",
-   "sourceCount": 3
+   "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
+   "time": "10-31 08:01",
+   "sourceCount": 2
   },
   {
    "rank": 7,
+   "title": "Cursor 扩展市场现恶意 Claude Code 包",
+   "source": "X：Cursor (@cursor_ai)",
+   "url": "https://aihot.news/items/iu7xvjx1c2c5wqrpn0rwfxcb5",
+   "time": "10-31 13:36",
+   "sourceCount": 4
+  },
+  {
+   "rank": 8,
+   "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/qexf6est4uitwd71p3ugedxo6",
+   "time": "10-31 17:22",
+   "sourceCount": 3
+  },
+  {
+   "rank": 9,
    "title": "Reddit 转向登录优先，应对搜索流量流失",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/v4uwaucyf64u7bkzsyvri08w4",
@@ -59,31 +75,24 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 8,
-   "title": "Intel业绩展望不及预期，股价暴跌致美政府持股缩水120亿美元",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/gqwnd3g7cq03jlq6i7p8mrirs",
-   "time": "10-31 05:54",
-   "sourceCount": 1
-  },
-  {
-   "rank": 9,
+   "rank": 10,
    "title": "四家AI公司支持robots.txt统一退出信号",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/c0e1dz7rmmvy9vbujs0u6qmc8",
    "time": "10-31 04:26",
    "sourceCount": 2
-  },
-  {
-   "rank": 10,
-   "title": "Alphabet Q3营收增25%，AI搜索变现承压",
-   "source": "X：Sundar Pichai (@sundarpichai)",
-   "url": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
-   "time": "10-30 22:50",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
+   "summary": "Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美元负债和 1,120 亿美元现金，而租赁合同及数据中心、电力和 GPU 采购协议等表外义务未直接体现；Anthropic 计划通过增加收入和筹集资金支付这些负债。",
+   "reason": "报道披露了 Anthropic 招股文件中的表外债务细节，可帮助读者理解 AI 基建支出与资产负债表之间的差距。",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/yqblvh40gus1ssc0rjvawh6fu",
+   "time": "10-31 11:25",
+   "category": "industry"
+  },
   {
    "title": "OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News",
    "summary": "OpenRouter 发布教程，演示用 @openrouter/agent 0.11.0 在 TypeScript 中搭建定时运行的常驻 AI Agent，监控 Hacker News 并生成摘要。",
@@ -182,15 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/qit1hgequ8pknedqqvuei5wfh",
    "time": "10-30 08:00",
    "category": "ai-products"
-  },
-  {
-   "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
-   "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。",
-   "reason": "Epoch AI 用自建实验给出量化数据，展示开源权重模型如何在补丁窗口期内低成本复现漏洞利用，并给出缩短发布周期的防御建议。",
-   "source": "Epoch AI：Gradient Updates（RSS）",
-   "url": "https://aihot.news/items/nxkr9ex5tfbhfhw1gvj9wsjuz",
-   "time": "10-30 20:07",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -294,89 +294,79 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-10-31 11:44",
+   "updateTime": "2026-10-31 18:31",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "胃癌里最会伪装的印戒细胞癌",
-     "url": "https://s.weibo.com/weibo?q=%E8%83%83%E7%99%8C%E9%87%8C%E6%9C%80%E4%BC%9A%E4%BC%AA%E8%A3%85%E7%9A%84%E5%8D%B0%E6%88%92%E7%BB%86%E8%83%9E%E7%99%8C",
-     "hot": 1098476
+     "title": "全球最赚钱公司中国占七席",
+     "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E7%90%83%E6%9C%80%E8%B5%9A%E9%92%B1%E5%85%AC%E5%8F%B8%E4%B8%AD%E5%9B%BD%E5%8D%A0%E4%B8%83%E5%B8%AD",
+     "hot": 3318190
     },
     {
-     "title": "詹姆斯补篮杀死比赛",
-     "url": "https://s.weibo.com/weibo?q=%E8%A9%B9%E5%A7%86%E6%96%AF%E8%A1%A5%E7%AF%AE%E6%9D%80%E6%AD%BB%E6%AF%94%E8%B5%9B",
-     "hot": 823371
+     "title": "金价大跌现在买黄金合适吗",
+     "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7%E5%A4%A7%E8%B7%8C%E7%8E%B0%E5%9C%A8%E4%B9%B0%E9%BB%84%E9%87%91%E5%90%88%E9%80%82%E5%90%97",
+     "hot": 1135909
     },
     {
-     "title": "党的二十届五中全会学习手账",
-     "url": "https://s.weibo.com/weibo?q=%E5%85%9A%E7%9A%84%E4%BA%8C%E5%8D%81%E5%B1%8A%E4%BA%94%E4%B8%AD%E5%85%A8%E4%BC%9A%E5%AD%A6%E4%B9%A0%E6%89%8B%E8%B4%A6",
-     "hot": 652350
+     "title": "广交会亮出国货新风采",
+     "url": "https://s.weibo.com/weibo?q=%E5%B9%BF%E4%BA%A4%E4%BC%9A%E4%BA%AE%E5%87%BA%E5%9B%BD%E8%B4%A7%E6%96%B0%E9%A3%8E%E9%87%87",
+     "hot": 899978
     },
     {
-     "title": "文吉儿王子璇争议事件新反转",
-     "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E7%8E%8B%E5%AD%90%E7%92%87%E4%BA%89%E8%AE%AE%E4%BA%8B%E4%BB%B6%E6%96%B0%E5%8F%8D%E8%BD%AC",
-     "hot": 605466
+     "title": "胃癌早期难以发现原因",
+     "url": "https://s.weibo.com/weibo?q=%E8%83%83%E7%99%8C%E6%97%A9%E6%9C%9F%E9%9A%BE%E4%BB%A5%E5%8F%91%E7%8E%B0%E5%8E%9F%E5%9B%A0",
+     "hot": 551566
     },
     {
-     "title": "小米新SU7Ultra纽北无伪装实车",
-     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E6%96%B0SU7Ultra%E7%BA%BD%E5%8C%97%E6%97%A0%E4%BC%AA%E8%A3%85%E5%AE%9E%E8%BD%A6",
-     "hot": 432849
+     "title": "傅成玉被查",
+     "url": "https://s.weibo.com/weibo?q=%E5%82%85%E6%88%90%E7%8E%89%E8%A2%AB%E6%9F%A5",
+     "hot": 501577
     },
     {
-     "title": "厉娜要把秋裤脱给马天宇",
-     "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E8%A6%81%E6%8A%8A%E7%A7%8B%E8%A3%A4%E8%84%B1%E7%BB%99%E9%A9%AC%E5%A4%A9%E5%AE%87",
-     "hot": 431571
+     "title": "微博视界大会内场",
+     "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E5%8D%9A%E8%A7%86%E7%95%8C%E5%A4%A7%E4%BC%9A%E5%86%85%E5%9C%BA",
+     "hot": 499653
     },
     {
-     "title": "摆拍大体老师涉事学校最新回应",
-     "url": "https://s.weibo.com/weibo?q=%E6%91%86%E6%8B%8D%E5%A4%A7%E4%BD%93%E8%80%81%E5%B8%88%E6%B6%89%E4%BA%8B%E5%AD%A6%E6%A0%A1%E6%9C%80%E6%96%B0%E5%9B%9E%E5%BA%94",
-     "hot": 428234
+     "title": "微博视界大会节目单",
+     "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E5%8D%9A%E8%A7%86%E7%95%8C%E5%A4%A7%E4%BC%9A%E8%8A%82%E7%9B%AE%E5%8D%95",
+     "hot": 443833
     },
     {
-     "title": "曝offer8周沁瑶延毕",
-     "url": "https://s.weibo.com/weibo?q=%E6%9B%9Doffer8%E5%91%A8%E6%B2%81%E7%91%B6%E5%BB%B6%E6%AF%95",
-     "hot": 425809
+     "title": "卖650万捐赠房产要缴450万的税",
+     "url": "https://s.weibo.com/weibo?q=%E5%8D%96650%E4%B8%87%E6%8D%90%E8%B5%A0%E6%88%BF%E4%BA%A7%E8%A6%81%E7%BC%B4450%E4%B8%87%E7%9A%84%E7%A8%8E",
+     "hot": 443501
     },
     {
-     "title": "S16瑞士轮第五轮对阵",
-     "url": "https://s.weibo.com/weibo?q=S16%E7%91%9E%E5%A3%AB%E8%BD%AE%E7%AC%AC%E4%BA%94%E8%BD%AE%E5%AF%B9%E9%98%B5",
-     "hot": 421936
+     "title": "男子回家发现床上2只藏马熊",
+     "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E5%9B%9E%E5%AE%B6%E5%8F%91%E7%8E%B0%E5%BA%8A%E4%B8%8A2%E5%8F%AA%E8%97%8F%E9%A9%AC%E7%86%8A",
+     "hot": 434466
     },
     {
-     "title": "英特尔美股暴跌科技股同步大跌",
-     "url": "https://s.weibo.com/weibo?q=%E8%8B%B1%E7%89%B9%E5%B0%94%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C%E7%A7%91%E6%8A%80%E8%82%A1%E5%90%8C%E6%AD%A5%E5%A4%A7%E8%B7%8C",
-     "hot": 420512
+     "title": "刘诗诗 帅是一种感觉",
+     "url": "https://s.weibo.com/weibo?q=%E5%88%98%E8%AF%97%E8%AF%97%20%E5%B8%85%E6%98%AF%E4%B8%80%E7%A7%8D%E6%84%9F%E8%A7%89",
+     "hot": 428550
     },
     {
-     "title": "吾恩去世",
-     "url": "https://s.weibo.com/weibo?q=%E5%90%BE%E6%81%A9%E5%8E%BB%E4%B8%96",
-     "hot": 417796
+     "title": "厉娜评论区打脸来得太快",
+     "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E8%AF%84%E8%AE%BA%E5%8C%BA%E6%89%93%E8%84%B8%E6%9D%A5%E5%BE%97%E5%A4%AA%E5%BF%AB",
+     "hot": 422573
     },
     {
-     "title": "波兰政变",
-     "url": "https://s.weibo.com/weibo?q=%E6%B3%A2%E5%85%B0%E6%94%BF%E5%8F%98",
-     "hot": 413602
+     "title": "谭松韵刘学义红毯牵手",
+     "url": "https://s.weibo.com/weibo?q=%E8%B0%AD%E6%9D%BE%E9%9F%B5%E5%88%98%E5%AD%A6%E4%B9%89%E7%BA%A2%E6%AF%AF%E7%89%B5%E6%89%8B",
+     "hot": 412047
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-10-31 11:44",
+   "updateTime": "2026-10-31 18:31",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "英特尔股价暴跌28.58%创52年来最大日跌幅，市值蒸发近1500亿美元，怎样解读市场的反应？",
-     "url": "https://www.zhihu.com/question/2099621992160817192",
-     "hot": ""
-    },
-    {
-     "title": "BLG 抽中 HLE，最后一轮中韩大战谁输谁回家，如何评价瑞士轮的最后一轮抽签？",
-     "url": "https://www.zhihu.com/question/2099786388279505951",
-     "hot": ""
-    },
-    {
-     "title": "大学生用四年codex，每天进步一点，四年之后，与没用上codex的同学会有很大的差距么？",
-     "url": "https://www.zhihu.com/question/2097999293596620662",
+     "title": "四千元的冰柜被「仅退款」，买家称已销毁，商家跨千里发现商品仍在使用，买卖双方各执一词，责任该如何认定？",
+     "url": "https://www.zhihu.com/question/2098158094538883742",
      "hot": ""
     },
     {
@@ -385,23 +375,23 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "张雪机车90后专科生员工年薪五六十万，张雪对校招生直言「你们起点比他高」，现场学生真能年薪比他们高吗？",
-     "url": "https://www.zhihu.com/question/2099502093383852580",
+     "title": "红果短剧年营收超150亿，为什么有创作者称两个月11部剧只赚了9块6？",
+     "url": "https://www.zhihu.com/question/2099456582853605372",
      "hot": ""
     },
     {
-     "title": "四千元的冰柜被「仅退款」，买家称已销毁，商家跨千里发现商品仍在使用，买卖双方各执一词，责任该如何认定？",
-     "url": "https://www.zhihu.com/question/2098158094538883742",
+     "title": "接触过一些身居高位的领导，感觉到他们的情绪都很稳定，这种观察普遍成立吗？",
+     "url": "https://www.zhihu.com/question/2097963728851550643",
      "hot": ""
     },
     {
-     "title": "如何评价万科2026年1-9月亏损239.4亿元？",
-     "url": "https://www.zhihu.com/question/2099288272749052202",
+     "title": "人民锐评发文驳斥「中国 AI 跑偏论」，如何看待中美在 AI 落地路径上的差异？",
+     "url": "https://www.zhihu.com/question/2099418216976102291",
      "hot": ""
     },
     {
-     "title": "热度过后现在该如何评价《黑神话：悟空》这款游戏?",
-     "url": "https://www.zhihu.com/question/1905629150670229818",
+     "title": "为什么古代的食用油那么珍贵，老百姓们还能吃得起炸油条？",
+     "url": "https://www.zhihu.com/question/2078556614060253554",
      "hot": ""
     },
     {
@@ -410,18 +400,28 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "传统武术为什么会有“掌”这种离谱的攻击方式？",
-     "url": "https://www.zhihu.com/question/2099434281768637388",
+     "title": "如何看待 Viper 赛后采访称「有队友喊了潘森没大，结果潘森却跳大导致失利」？",
+     "url": "https://www.zhihu.com/question/2099474771435941950",
      "hot": ""
     },
     {
-     "title": "波兰司法控制权争端升级，总理被指对宪法法院发动政变，目前局势如何？前因后果是怎样的？",
-     "url": "https://www.zhihu.com/question/2099752942588912041",
+     "title": "如何评价理想、小米成欣旺达动力第二、第三大股东？",
+     "url": "https://www.zhihu.com/question/2099592453800182532",
+     "hot": ""
+    },
+    {
+     "title": "江苏教育的最大失败是什么？",
+     "url": "https://www.zhihu.com/question/2096329235552022533",
      "hot": ""
     },
     {
      "title": "这几天股市为啥下滑这么大？",
      "url": "https://www.zhihu.com/question/2099100677146518362",
+     "hot": ""
+    },
+    {
+     "title": "波兰司法控制权争端升级，总理被指对宪法法院发动政变，目前局势如何？前因后果是怎样的？",
+     "url": "https://www.zhihu.com/question/2099752942588912041",
      "hot": ""
     }
    ]
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-10-31 11:44",
+   "updateTime": "2026-10-31 18:31",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": " 【独家】《凡人修仙传之慕兰之战》第22集【总第198集】",
      "url": "https://www.bilibili.com/video/BV1vVxi68EWD",
-     "hot": 706487
+     "hot": 3316054
     },
     {
-     "title": "《派游记》南京赏秋",
-     "url": "https://www.bilibili.com/video/BV13kxv6QEFg",
-     "hot": 617596
+     "title": "全球笑点下降2000倍而我不变【第二集】",
+     "url": "https://www.bilibili.com/video/BV1TxxC6vEo4",
+     "hot": 358488
     },
     {
-     "title": "最逆天的一节课！！",
-     "url": "https://www.bilibili.com/video/BV1Z7xK6LE8i",
-     "hot": 747450
+     "title": "12月14日全球公测 |《白银之城》角色PV - 库拉蒂：愚者与勇者",
+     "url": "https://www.bilibili.com/video/BV1BJnR66Eij",
+     "hot": 1197113
     },
     {
-     "title": "【独家】《罗小黑战记》第41话 开始学习吧小黑同学【10月国创】",
-     "url": "https://www.bilibili.com/video/BV1CUso6AELi",
-     "hot": 5183855
+     "title": "假如主角身边全是奸臣(大合集)一次性看完!",
+     "url": "https://www.bilibili.com/video/BV11Txg6BEPe",
+     "hot": 3145599
     },
     {
-     "title": "三阶段了 杀手一曲Golden Hour征服老哥",
-     "url": "https://www.bilibili.com/video/BV1nLsf6eESp",
-     "hot": 2558462
+     "title": "灭建国的超能力",
+     "url": "https://www.bilibili.com/video/BV1ugxq6HEfH",
+     "hot": 3109125
     },
     {
-     "title": "“我本该命途齐天”【孙悟空＆新·与天齐】",
-     "url": "https://www.bilibili.com/video/BV1bnsZ6GEN3",
-     "hot": 856813
+     "title": "小时候直肠子就这样讲话",
+     "url": "https://www.bilibili.com/video/BV1QqxY6jEPY",
+     "hot": 2225695
     },
     {
-     "title": "白蚁豪宅被大象拿来擦屁股，没想到擦出了一个微观水世界！",
-     "url": "https://www.bilibili.com/video/BV14txF65Efd",
-     "hot": 4396555
+     "title": "纯黑《影之刃零》逆天者全程无伤一镜到底攻略解说 第一期",
+     "url": "https://www.bilibili.com/video/BV1Ntxr6xEjG",
+     "hot": 343302
     },
     {
-     "title": "《烂梗下桌》与其怪食客的嘴，不如让烂梗下桌",
-     "url": "https://www.bilibili.com/video/BV159xe6sE5C",
-     "hot": 348338
+     "title": "读 圣",
+     "url": "https://www.bilibili.com/video/BV13ExC6gEJR",
+     "hot": 146355
     },
     {
-     "title": "《此弟不宜久留》",
-     "url": "https://www.bilibili.com/video/BV1pzxw6yEMH",
-     "hot": 2498137
+     "title": "【逆水寒×中国歌剧舞剧院】再见仍是初遇的惊艳，国家队跳阿初祈月舞！",
+     "url": "https://www.bilibili.com/video/BV1ossf64EKA",
+     "hot": 1352344
     },
     {
-     "title": "透明的镜片居然有影子？观众的问题让我脑洞大开！",
-     "url": "https://www.bilibili.com/video/BV15vxc6bEZz",
-     "hot": 2831961
+     "title": "实在抱歉！我哥疯了  （阿晴教学篇op/ed）【28】",
+     "url": "https://www.bilibili.com/video/BV1Z8xv6fEx9",
+     "hot": 621666
     },
     {
-     "title": "【丧病中配】当2077的CV来配音《赛博朋克：边缘行者2》（第一话）",
-     "url": "https://www.bilibili.com/video/BV1VaxY6DE5v",
-     "hot": 502706
+     "title": "人生不只往上走，也可以往宽了过｜杨澜对话刘嘉铭",
+     "url": "https://www.bilibili.com/video/BV15Rxe69E1Z",
+     "hot": 1045052
     },
     {
-     "title": "原歌词越正，改成小调就越阴？你熟悉的童真歌曲变成小调后谁反差最大？",
-     "url": "https://www.bilibili.com/video/BV1KGxv6GEo4",
-     "hot": 429991
+     "title": "画了两万五千里笔，只为点燃的一瞬间",
+     "url": "https://www.bilibili.com/video/BV1kvxF6zEDu",
+     "hot": 1392657
     }
    ]
   }
@@ -753,23 +753,23 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "抗议者频繁现身其集会 特朗普已形成一套固定应对话术",
-   "url": "https://finance.sina.com.cn/world/2026-10-31/doc-inixarcc4096928.shtml",
+   "title": "千里科技：前三季度营业收入77.11亿元，同比增长11.00%",
+   "url": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixcfyv3852969.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "日本央行加快ETF出售节奏 或为高市早苗支出计划提供资金支持",
-   "url": "https://finance.sina.com.cn/world/2026-10-31/doc-inixaraz7642549.shtml",
+   "title": "TCL中环筹划发行股份收购控股子公司少数股权，深化半导体材料布局",
+   "url": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixcfyt7401742.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "法国总统马克龙将于11月16日至17日访问马来西亚",
-   "url": "https://finance.sina.com.cn/world/2026-10-31/doc-inixaraz7621082.shtml",
+   "title": "无锡联合阿里云共建千问办公创新中心",
+   "url": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixcfyq4799884.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Anthropic招股文件披露：未来“隐性债务”规模近9000亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixaraz7617421.shtml",
+   "title": "Spotify计划于明年初推出AI音乐混音服务",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-31/doc-inixazsu1656084.shtml",
    "source": "新浪科技"
   }
  ]
