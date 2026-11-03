@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-03 20:10",
+ "updatedAt": "2026-11-04 03:44",
  "aihotHot": [
   {
    "rank": 1,
@@ -15,8 +15,8 @@ var WB_DATA = {
    "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-03 16:03",
-   "sourceCount": 3
+   "time": "11-04 01:07",
+   "sourceCount": 4
   },
   {
    "rank": 3,
@@ -28,14 +28,22 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "Google将引导学习引入Search和Classroom，K-12学生AI工具默认关闭",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/jk7mp3gxpm7orfsalkr0s30rw",
+   "time": "11-04 01:54",
+   "sourceCount": 4
+  },
+  {
+   "rank": 5,
    "title": "Karpathy用Claude从HN评论筛出6454个视频",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/k02hyr58q45b0ip29mm5bfxkf",
    "time": "11-02 10:29",
-   "sourceCount": 3
+   "sourceCount": 2
   },
   {
-   "rank": 5,
+   "rank": 6,
    "title": "DeepSeek 开源 Super-agent 双层架构原型",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/oig5qkyz9fzkdpchgk7l2cmm3",
@@ -43,7 +51,7 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "DeepSeek Harness 推出 Creator Mode",
    "source": "X：Tianyi Cui（@tianyi）",
    "url": "https://aihot.news/items/renaizbi0xzvltnhnz8mummjt",
@@ -51,7 +59,15 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 7,
+   "rank": 8,
+   "title": "OpenAI新设国家安全顾问，Driscoll出任",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/hf03pwablxanh9desil5cbu9d",
+   "time": "11-03 23:03",
+   "sourceCount": 4
+  },
+  {
+   "rank": 9,
    "title": "OpenAI 12月起ChatGPT与Codex共享Token额度",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/f6dxzur6d4pwjdhvm1x6m5rfp",
@@ -59,31 +75,33 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 8,
+   "rank": 10,
    "title": "美团龙猫发布 LongCat-2.5 原生多模态模型",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/acf7r1s4jnc5uean49urp6sj5",
    "time": "11-02 22:35",
    "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "OpenAI发布LifeVal日常任务基准并公布模型得分",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/kok1qlnli1qd48t9soqgk6c3x",
-   "time": "11-03 09:54",
-   "sourceCount": 3
-  },
-  {
-   "rank": 10,
-   "title": "Anthropic 禁止 Claude Code 复刻现有游戏",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/k0xci1tn1nue1lop6rwik8l8v",
-   "time": "11-03 17:48",
-   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 研究：智能体安全评测与生产行为存在差距，评测目标误判是关键因素",
+   "summary": "OpenAI Alignment 团队对比六个模型在 Respecting Warnings 安全评测与匹配的 Codex 生产决策上的表现，发现评测成功率普遍低于生产，差距为 10.2 至 37.4 个百分点。模型普遍口头表现出评测意识（评测中一般性意识率 57.0%–83.7%），但仅告知",
+   "reason": "原文用六个模型对比评测与生产数据，发现评测成绩反而更低，并把差距归因于模型对评测目标的误判。",
+   "source": "OpenAI：Alignment 研究博客（RSS）",
+   "url": "https://aihot.news/items/fvf2qsdi4s11bz1denqd5rzff",
+   "time": "11-03 16:00",
+   "category": "paper"
+  },
+  {
+   "title": "Ed Zitron 解析 OpenAI 1.25 万亿美元估值融资与 Anthropic S-1/A 中的万亿级算力承诺",
+   "summary": "Ed Zitron 撰文认为 AI 行业资金正在枯竭。OpenAI 上周以 1.25 万亿美元估值融资 110 亿美元，低于此前计划的 300 亿美元、1.4 万亿美元估值；据 The Information，其 Q1 2026 成本收入与研发支出合计 121 亿美元，截至 3 月底持有逾 730 亿美元现金及有价证券。",
+   "reason": "作者基于 OpenAI 融资缩水与 Anthropic 修订后的 S-1/A 数据，逐项拆解两家公司的成本、承诺与依赖结构，提供可核对的财务细节。",
+   "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+   "url": "https://aihot.news/items/zv5dl1agqwo6tkmhdamy17lt5",
+   "time": "11-04 01:16",
+   "category": "opinion"
+  },
   {
    "title": "Revolut 将约 2000 名工程师迁移到自托管 GLM 编码",
    "summary": "据 Revolut AI 运营负责人 David Abitbol，公司把约 2000 名工程师迁到自托管 GLM 做编码，将 Claude Code 和 Codex 列为例外。",
@@ -137,51 +155,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/v41vn9hb5ywv10e68wycj1bjk",
    "time": "11-03 08:18",
    "category": "tip"
-  },
-  {
-   "title": "Claude Platform 推出 message threads 公测，降低长会话智能体延迟",
-   "summary": "Anthropic 在 Claude Platform 推出 message threads 公测，智能体每轮只需发送新增消息而无需重发全部对话历史，从而缩短首 token 时间。",
-   "reason": "原文给出了 500k 至 1M token 请求下 TTFT 中位数下降约 35% 的数据，以及线程生命周期和接入方式，便于评估长会话智能体的延迟收益。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/sg5u3u91kw42j1grtyp3ny65n",
-   "time": "11-02 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenAI 训练并部署激活分类器作为前沿模型安全监控层",
-   "summary": "OpenAI 自 GPT-5.6 起在其最强模型的内部和外部流量上部署激活分类器（probes），利用模型内部激活逐 token 实时评分，可在生成中途阻断违规回复和工具调用并交由推理模型复审。实验显示 probes 比更大的文本分类器对测试的越狱攻击更鲁棒，准确率随模型能力提升，且在后训练各检查点间迁移良好，但需为新基础模型重新训练，且只能检测可显式训练的已知违规类型。",
-   "reason": "OpenAI 官方披露激活分类器的架构、训练与部署细节，并给出其相对文本分类器在越狱鲁棒性上的实验对比。",
-   "source": "OpenAI：Alignment 研究博客（RSS）",
-   "url": "https://aihot.news/items/wlmiqh13694tqabyvu6nzvlrs",
-   "time": "11-03 04:00",
-   "category": "paper"
-  },
-  {
-   "title": "Anthropic 季度营收增长十二倍至近 170 亿美元，但净亏损达 233 亿美元",
-   "summary": "据 Bloomberg 与 The Information，Anthropic 该季度营收近 170 亿美元，为一年前的十二倍，但运营成本达 175 亿美元，季度净亏损 233 亿美元，高于去年同期的 121 亿美元。",
-   "reason": "原文汇总多家媒体信源，把 Anthropic 营收激增与巨额亏损、算力承诺和 IPO 压力放在同一语境下呈现。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/owfopy087lszd1cpfp3c82pxv",
-   "time": "11-03 00:26",
-   "category": "industry"
-  },
-  {
-   "title": "Anthropic 算力与基础设施合同承诺达 $895.4B，其中 $447.5B 须在 2031 年前支付",
-   "summary": "Anthropic 在更新的 IPO 文件中首次披露第三季度业绩，算力与基础设施合同承诺总额约 $895.4B，其中 $447.5B 须在 2031 年前支付，仅 $213.8B 可取消或附带条件。",
-   "reason": "原文梳理了 Anthropic 更新 IPO 文件中的算力承诺结构和可取消比例，读者可以据此评估其现金流与扩张风险。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/xiu342i7osbgfxe2ezhrjndl0",
-   "time": "11-03 05:28",
-   "category": "industry"
-  },
-  {
-   "title": "OpenAI 推出 Grid Protectors 计划，从 Georgia 校园开始支持电网削峰",
-   "summary": "OpenAI 推出 Grid Protectors 计划，与电力公司、监管机构和政策制定者合作，让未来算力校园在电网紧张时降低用电需求，首站为 Effingham County 校园。",
-   "reason": "OpenAI 首次系统化说明其校园电力弹性安排，给出 Georgia Power 合同的具体可削减容量与电费影响数据。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/sxbs5a90fgybhyucacmzvrc6w",
-   "time": "11-02 23:00",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -584,68 +557,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-03 20:10",
+   "updateTime": "2026-11-04 03:44",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "总有世界，与你同频｜《弧光猎人》同频测试PV&国服全新PVP事件预告",
-     "url": "https://www.bilibili.com/video/BV1RA4w6AE74",
-     "hot": 1586414
+     "title": "网络热传生物鉴定 第65期",
+     "url": "https://www.bilibili.com/video/BV18wxY63Erp",
+     "hot": 1277470
     },
     {
-     "title": "《原神》角色预告-「米提亚：井井有条」",
-     "url": "https://www.bilibili.com/video/BV19b4A6PECX",
-     "hot": 1078423
+     "title": "抽象新闻：10月人类迷惑行为大赏（下）",
+     "url": "https://www.bilibili.com/video/BV14g4u6rEeH",
+     "hot": 517595
     },
     {
-     "title": "宠粉天花板，请我的粉丝朋友清空一家零食店，你来选我买单，看看要花多少钱",
-     "url": "https://www.bilibili.com/video/BV14o4F6EELU",
-     "hot": 3629416
+     "title": "三年之期已到，恭迎世一上归位！【第16集】",
+     "url": "https://www.bilibili.com/video/BV1FNxm6iEDp",
+     "hot": 114052
     },
     {
      "title": "【纪录片】蓝色星球 第三季 01 热带海域",
      "url": "https://www.bilibili.com/video/BV13dxa6LEe4",
-     "hot": 1002249
+     "hot": 1238568
     },
     {
-     "title": "网络热传生物鉴定 第65期",
-     "url": "https://www.bilibili.com/video/BV18wxY63Erp",
-     "hot": 460016
-    },
-    {
-     "title": "哟西！故乡的樱花开了！",
-     "url": "https://www.bilibili.com/video/BV1w34A62Eq2",
-     "hot": 2352780
-    },
-    {
-     "title": "BLG vs HLE小曲《狼的诱惑》",
-     "url": "https://www.bilibili.com/video/BV17m4M64Emr",
-     "hot": 537356
-    },
-    {
-     "title": "一条没下巴的鱼杀穿奥陶纪？",
-     "url": "https://www.bilibili.com/video/BV1Xx4c6tEKM",
-     "hot": 1662358
-    },
-    {
-     "title": "《崩坏：星穹铁道》走近星穹——「星神★阿哈：为了拖稿竟说自己是星神？」",
-     "url": "https://www.bilibili.com/video/BV1mU4u6yEz5",
-     "hot": 983808
-    },
-    {
-     "title": "入职鹰角成为卫戍协议策划的一天",
-     "url": "https://www.bilibili.com/video/BV19P4w6aEk3",
-     "hot": 668032
-    },
-    {
-     "title": "《猫和老鼠》中的配乐细节竟然有这么多？！",
-     "url": "https://www.bilibili.com/video/BV17i4w66E7V",
-     "hot": 825781
+     "title": "《原神》角色预告-「米提亚：井井有条」",
+     "url": "https://www.bilibili.com/video/BV19b4A6PECX",
+     "hot": 1496045
     },
     {
      "title": "大家好，这里是 DeepSeek Harness，正式入驻 B 站！",
      "url": "https://www.bilibili.com/video/BV1i24P6rEmt",
-     "hot": 2023173
+     "hot": 2311265
+    },
+    {
+     "title": "《崩坏：星穹铁道》走近星穹——「星神★阿哈：为了拖稿竟说自己是星神？」",
+     "url": "https://www.bilibili.com/video/BV1mU4u6yEz5",
+     "hot": 1290717
+    },
+    {
+     "title": "【邓肯】恐怖的“林夕的娃娃间”事件丨猜不透的“黛西事件”！",
+     "url": "https://www.bilibili.com/video/BV1yv4M6vEMa",
+     "hot": 404181
+    },
+    {
+     "title": "【大肥鱼】《secret base ～君がくれたもの～》未闻花名 ED 翻唱❀🐋",
+     "url": "https://www.bilibili.com/video/BV1K9xv65EQC",
+     "hot": 295625
+    },
+    {
+     "title": "BLG vs HLE小曲《狼的诱惑》",
+     "url": "https://www.bilibili.com/video/BV17m4M64Emr",
+     "hot": 822456
+    },
+    {
+     "title": "打雪仗。",
+     "url": "https://www.bilibili.com/video/BV16Dx46VEZr",
+     "hot": 653500
+    },
+    {
+     "title": "【文明与地图】12个大模型扮演君主谁能带领人类走向星际文明？",
+     "url": "https://www.bilibili.com/video/BV1onxb6rEeE",
+     "hot": 508414
     }
    ]
   }
@@ -698,6 +671,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "滴滴与中国残联残疾人专门协会签署无障碍服务战略合作，围绕无障碍出行、助残公益等加深合作",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-03/doc-inixnpzn9773621.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "网易智企乌镇首发AI原生安全产品体系",
    "url": "https://finance.sina.com.cn/tech/it/2026-11-03/doc-inixnitu2167517.shtml",
    "source": "新浪科技"
@@ -720,11 +698,6 @@ var WB_DATA = {
   {
    "title": "壳牌将以14.5亿美元向阿布扎比XRG出售澳大利亚天然气项目股权",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-03/doc-inixnits6610491.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "360获世界互联网大会杰出贡献奖",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-03/doc-inixnitq9828635.shtml",
    "source": "新浪科技"
   }
  ]
