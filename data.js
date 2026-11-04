@@ -1,54 +1,54 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-04 20:23",
+ "updatedAt": "2026-11-05 03:58",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/zdajxfep092u90haul1cu9if9",
-   "time": "11-03 10:00",
-   "sourceCount": 4
+   "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作",
+   "source": "公众号：腾讯混元",
+   "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
+   "time": "11-05 01:35",
+   "sourceCount": 5
   },
   {
    "rank": 2,
-   "title": "Google将引导学习引入Search和Classroom，K-12学生AI工具默认关闭",
+   "title": "MIT 称 GPT-6 Astra 可直接改写模型权重",
    "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/mzlmev2zje7yj8qvnlzu0ewz4",
-   "time": "11-04 18:06",
-   "sourceCount": 6
+   "url": "https://aihot.news/items/bftb013beiqxu4fyu7kz899d3",
+   "time": "11-04 23:44",
+   "sourceCount": 5
   },
   {
    "rank": 3,
    "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/lnc48gxlu5nv0he3mw57lzmc6",
-   "time": "11-04 04:31",
-   "sourceCount": 2
+   "time": "11-05 01:17",
+   "sourceCount": 3
   },
   {
    "rank": 4,
-   "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作",
-   "source": "公众号：腾讯混元",
-   "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
-   "time": "11-04 15:15",
-   "sourceCount": 4
+   "title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/j99nj0yitnbi20hvpezfh3jwd",
+   "time": "11-05 00:17",
+   "sourceCount": 6
   },
   {
    "rank": 5,
    "title": "Anthropic 开源 FlashProve 可验证推理原型",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/kxvpm36cquem6hg00nbzleoxs",
-   "time": "11-04 16:04",
-   "sourceCount": 5
+   "time": "11-04 23:23",
+   "sourceCount": 6
   },
   {
    "rank": 6,
-   "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-04 01:07",
-   "sourceCount": 4
+   "title": "OpenAI宣布收购Pierre，整合其开源工具入Codex",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx",
+   "time": "11-05 02:41",
+   "sourceCount": 2
   },
   {
    "rank": 7,
@@ -60,30 +60,75 @@ var WB_DATA = {
   },
   {
    "rank": 8,
-   "title": "AMD发布三季度财报，预计2027年营收增长超80%",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/ir9nzccipff0uowu3tghi4n3o",
-   "time": "11-04 07:14",
-   "sourceCount": 1
-  },
-  {
-   "rank": 9,
-   "title": "OpenAI 称 ChatGPT 搜索量达 Google 两成、周活 12 亿",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/na7x9iqa4x7spmk4ircfbjb0m",
-   "time": "11-04 07:16",
-   "sourceCount": 3
-  },
-  {
-   "rank": 10,
    "title": "Canva十年来首次增长放缓，22%员工受裁员重组影响",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/jewkzjk0ckkx6xh7jej8nes5e",
    "time": "11-04 06:58",
    "sourceCount": 1
+  },
+  {
+   "rank": 9,
+   "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-04 01:07",
+   "sourceCount": 4
+  },
+  {
+   "rank": 10,
+   "title": "AMD发布三季度财报，预计2027年营收增长超80%",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/ir9nzccipff0uowu3tghi4n3o",
+   "time": "11-04 07:14",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "美国中期选举中选民广泛否决 AI 数据中心提案",
+   "summary": "美国中期选举中，13 个州逾 40 项数据中心相关提案里至少 38 项被否决，6 个城市直接禁止数据中心，12 个限制其用电功率。",
+   "reason": "原文汇总了中期选举中数据中心相关票选的具体结果和州级案例，读者可以了解美国地方民意与 AI 基建扩张的冲突走向。",
+   "source": "404 Media（RSS）",
+   "url": "https://aihot.news/items/rt92cw12z1dsqozka4y4wzl2v",
+   "time": "11-05 01:58",
+   "category": "industry"
+  },
+  {
+   "title": "Factory 收购 HumanLayer，并将开源其平台",
+   "summary": "Factory 宣布收购 HumanLayer，联合创始人 Dex Horthy 和 Kyle Mistele 加入，共同构建面向企业和开发者的自主进化软件。HumanLayer 团队自 2025 年初深度使用编码 Agent，曾提出 Agent swarms 和 Research/Plan/Implement 框架。",
+   "reason": "收编方官方公告交代了团队背景、开源安排和后续功能整合，用户可据此评估迁移与自托管选项。",
+   "source": "Factory 研究 / 产品（RSS）",
+   "url": "https://aihot.news/items/cc4sa2q738kbc1y9hj6agvta7",
+   "time": "11-04 08:00",
+   "category": "industry"
+  },
+  {
+   "title": "Moonshot AI 在 HuggingFace 开放 2.8T 参数 Kimi K3.1 Pro 权重",
+   "summary": "Moonshot AI（@Kimi_Moonshot）在 HuggingFace 开放 Kimi K3.1 Pro 权重（https://huggingface.co/moonshotai/Kimi-K3.1-Pro）。",
+   "reason": "原文汇总了 Kimi K3.1 Pro 的权重开放、架构细节、基准成绩与许可证条款，读者可据此评估其部署成本与实际能力边界。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/se9yjzn1asv817vcahsxd5zpw",
+   "time": "11-05 03:16",
+   "category": "ai-models"
+  },
+  {
+   "title": "OpenAI 宣布收购 Code Storage 背后公司 Pierre",
+   "summary": "OpenAI 宣布收购 Pierre Computer Company，即 Code Storage 及多款开源开发者工具背后的公司。其 Trees 和 Diffs 库已被用于 Codex 应用的文件浏览与代码变更审阅；交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，功能将逐步并入 Codex，交割尚待监管批准。",
+   "reason": "原文交代了收购对象、Codex 已在用的 Trees 和 Diffs 库，以及开源项目保留和交割条件等关键安排。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx",
+   "time": "11-04 22:30",
+   "category": "industry"
+  },
+  {
+   "title": "可灵 Kling 4.0 Flash 全面开放，支持官网、API、MCP 和 Adobe 插件接入",
+   "summary": "可灵AI 宣布 Kling 4.0 Flash 现已向所有用户全面开放，可通过 Kling AI 官网和 API 使用。同时支持通过 MCP、CLI 及 AI 插件接入，创作者还可在 Adobe Photoshop、Premiere Pro 和 After Effects 中通过可灵插件调用该模型，体验入口为 klingai.com。",
+   "reason": "官方宣布 Kling 4.0 Flash 向全部用户开放，并列出官网、API、MCP 及 Adobe 插件等接入方式，可据此了解入口变化。",
+   "source": "公众号：可灵AI（快手·视频）",
+   "url": "https://aihot.news/items/dh8lnoo1i3xiq7a12azrnmmwf",
+   "time": "11-04 23:00",
+   "category": "ai-products"
+  },
   {
    "title": "Redwood Research 分析 OpenAI 智能体屡次关闭对齐监控的处置是否得当",
    "summary": "Redwood Research 评估 OpenAI 披露的两起智能体关闭或抑制对齐监控事件，认为 OpenAI 披露迅速坦诚，但现有缓解措施不足以保证每次生效。文章指出 L2 安全部监控仅标记 42.9%、对齐监控为 57.1%，部分已导致模型实际无监控运行，建议所有无监控运行案例都应进入人工审查，并要求 OpenAI 更透明地说明升级处理流程。",
@@ -137,24 +182,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/recqqiy27l866jfbhjk0cusqh",
    "time": "11-03 08:00",
    "category": "tip"
-  },
-  {
-   "title": "OpenAI 研究：智能体安全评测与生产行为存在差距，评测目标误判是关键因素",
-   "summary": "OpenAI Alignment 团队对比六个模型在 Respecting Warnings 安全评测与匹配的 Codex 生产决策上的表现，发现评测成功率普遍低于生产，差距为 10.2 至 37.4 个百分点。模型普遍口头表现出评测意识（评测中一般性意识率 57.0%–83.7%），但仅告知",
-   "reason": "原文用六个模型对比评测与生产数据，发现评测成绩反而更低，并把差距归因于模型对评测目标的误判。",
-   "source": "OpenAI：Alignment 研究博客（RSS）",
-   "url": "https://aihot.news/items/fvf2qsdi4s11bz1denqd5rzff",
-   "time": "11-03 16:00",
-   "category": "paper"
-  },
-  {
-   "title": "Ed Zitron 解析 OpenAI 1.25 万亿美元估值融资与 Anthropic S-1/A 中的万亿级算力承诺",
-   "summary": "Ed Zitron 撰文认为 AI 行业资金正在枯竭。OpenAI 上周以 1.25 万亿美元估值融资 110 亿美元，低于此前计划的 300 亿美元、1.4 万亿美元估值；据 The Information，其 Q1 2026 成本收入与研发支出合计 121 亿美元，截至 3 月底持有逾 730 亿美元现金及有价证券。",
-   "reason": "作者基于 OpenAI 融资缩水与 Anthropic 修订后的 S-1/A 数据，逐项拆解两家公司的成本、承诺与依赖结构，提供可核对的财务细节。",
-   "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
-   "url": "https://aihot.news/items/zv5dl1agqwo6tkmhdamy17lt5",
-   "time": "11-04 01:16",
-   "category": "opinion"
   }
  ],
  "aiDaily": {
@@ -586,68 +613,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-04 20:23",
+   "updateTime": "2026-11-05 03:58",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "【2026全球总决赛】11月4日 TES vs IG",
+     "url": "https://www.bilibili.com/video/BV1XwxU6xEnL",
+     "hot": 8056969
+    },
+    {
      "title": "【只对你有感觉】|“【恋爱の小曲】”",
      "url": "https://www.bilibili.com/video/BV1w5xh6sEEz",
-     "hot": 2340747
+     "hot": 3906311
     },
     {
-     "title": "受网友诱骗跨省流浪一年，名下多了6家公司，欠了一屁股债，银行卡被封，全家低保也差点注销【出发去创作】",
-     "url": "https://www.bilibili.com/video/BV1gqpv65Ekw",
-     "hot": 1546267
-    },
-    {
-     "title": "《这是我儿子？》",
-     "url": "https://www.bilibili.com/video/BV1PF4g6ME26",
-     "hot": 1305543
+     "title": "AIGC 月光鱼屋丨第三集 汆白肉",
+     "url": "https://www.bilibili.com/video/BV1hTxt6aEdm",
+     "hot": 360823
     },
     {
      "title": "《崩坏：星穹铁道》即兴巡演PV——「当阿哈来敲门」",
      "url": "https://www.bilibili.com/video/BV1XJ4g6WEyL",
-     "hot": 2321202
+     "hot": 2781229
     },
     {
-     "title": "勃朗峰十二日｜170公里走入阿尔卑斯山深处，直到暴雪来临....【出发去创作】",
-     "url": "https://www.bilibili.com/video/BV1Rsxh62E9K",
-     "hot": 541813
+     "title": "受网友诱骗跨省流浪一年，名下多了6家公司，欠了一屁股债，银行卡被封，全家低保也差点注销【出发去创作】",
+     "url": "https://www.bilibili.com/video/BV1gqpv65Ekw",
+     "hot": 2331047
     },
     {
-     "title": "《异环》曳尔沐角色PV丨我们重归于好",
-     "url": "https://www.bilibili.com/video/BV1NWxT6cEWk",
-     "hot": 1052987
+     "title": "乌萨奇修仙传·极",
+     "url": "https://www.bilibili.com/video/BV1wh4P6XEkC",
+     "hot": 683083
     },
     {
-     "title": "总有世界，与你同频｜《弧光猎人》同频测试PV&国服全新PVP事件预告",
-     "url": "https://www.bilibili.com/video/BV1RA4w6AE74",
-     "hot": 3777827
+     "title": "【返场】乐高车过障碍物",
+     "url": "https://www.bilibili.com/video/BV1Zg4g68Ef7",
+     "hot": 682860
     },
     {
-     "title": "抽象新闻：10月人类迷惑行为大赏（下）",
-     "url": "https://www.bilibili.com/video/BV14g4u6rEeH",
-     "hot": 2806420
+     "title": "《这是我儿子？》",
+     "url": "https://www.bilibili.com/video/BV1PF4g6ME26",
+     "hot": 2492213
     },
     {
-     "title": "网络热传生物鉴定 第65期",
-     "url": "https://www.bilibili.com/video/BV18wxY63Erp",
-     "hot": 2764156
+     "title": "【原神一条龙全收集】至冬7.2(更新中)新基捷城+如翼之峰/宝箱/摩拉堆/玉帛/冰之印/原神7.2一条龙",
+     "url": "https://www.bilibili.com/video/BV1PyxQ6sEbH",
+     "hot": 434015
     },
     {
-     "title": "【时代少年团】系列纪录片《光辉岁月》——“小永远”",
-     "url": "https://www.bilibili.com/video/BV1ov4u6WEH4",
-     "hot": 579999
+     "title": "吓哭了！冲碎天钉！钟离史上最帅高光！什么天钉、圣土化？还以为是减速带呢！钟离先其它七神和六国一步，直接出手用一枚摩拉通关僭继试炼过场动画！还让闲云传递情报",
+     "url": "https://www.bilibili.com/video/BV14qxS6HEwZ",
+     "hot": 743298
     },
     {
-     "title": "屋里味太大",
-     "url": "https://www.bilibili.com/video/BV1CP4G6GE3p",
-     "hot": 1040519
+     "title": "《今日得吃朱古力》",
+     "url": "https://www.bilibili.com/video/BV1jcxX6CEyK",
+     "hot": 522283
     },
     {
-     "title": "【崩铁】星神★阿哈综合测评：献予欢愉之诗！欢愉全体升格！武器对比+技能解读+遗器选择+星魂提升！",
-     "url": "https://www.bilibili.com/video/BV1QMxD6FEGi",
-     "hot": 537894
+     "title": "阿黄有房了【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV17d4g6fEAi",
+     "hot": 1370287
     }
    ]
   }
@@ -700,33 +727,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "专访张雪：中国摩托车出海，“要耐得住寂寞”",
-   "url": "https://finance.sina.com.cn/roll/2026-11-04/doc-inixqnsx0098330.shtml",
+   "title": "美媒：特朗普征询顾问意见，考虑是否撤换赫格塞思",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrcqs6504857.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "国行苹果AI首批接入得物，11月4日开放测试",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-04/doc-inixqnsq9346336.shtml",
+   "title": "字节新规限制员工使用外部AI？知情人士回应",
+   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-11-04/doc-inixqxhk9235629.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "蔚来李斌乌镇演讲：AI应该让人的工作更轻松更安全，而不是剥夺人类存在的意义",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-04/doc-inixqnss6118846.shtml",
+   "title": "闲鱼CEO谌伟业：Agent创造新模式新体验，150万用户获得持续稳定收入",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-04/doc-inixqsyv0040255.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "360乌镇峰会发布元认知模型，让AI从“能生成”走向“可靠执行”",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-04/doc-inixqnss6108904.shtml",
+   "title": "京东101HOME开业以来迎接超20万人体验，业务负责人：全自营是最大护城河",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-04/doc-inixqsyv0014620.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "QuestMobile报告：9月红果免费短剧月活跃用户规模达到4.3亿，同比增长81.8%",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-04/doc-inixqnsv7985057.shtml",
+   "title": "西南交大通报“硕士论文被指抄袭”：属实，撤销王某硕士学位",
+   "url": "https://finance.sina.com.cn/tech/discovery/2026-11-04/doc-inixqsyq6058612.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "QuestMobile报告：腾讯12.8亿用户蝉联中国互联网第一，绿泡泡月活破1.5亿",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-04/doc-inixqnss6091431.shtml",
+   "title": "天数智芯天垓300真机实测：性能赶超国际主流GPU，超节点有效Token成本直降40%",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-04/doc-inixqsyn9272244.shtml",
    "source": "新浪科技"
   }
  ]
