@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-05 20:38",
+ "updatedAt": "2026-11-06 04:13",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,22 +12,30 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da",
-   "time": "11-05 08:29",
-   "sourceCount": 2
+   "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
+   "time": "11-06 03:06",
+   "sourceCount": 4
   },
   {
    "rank": 3,
-   "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
-   "source": "公众号：腾讯混元",
-   "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
-   "time": "11-05 18:04",
-   "sourceCount": 7
+   "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da",
+   "time": "11-05 20:20",
+   "sourceCount": 3
   },
   {
    "rank": 4,
+   "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
+   "source": "公众号：腾讯混元",
+   "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
+   "time": "11-06 02:55",
+   "sourceCount": 8
+  },
+  {
+   "rank": 5,
    "title": "OpenAI宣布收购Pierre，工具将并入Codex",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx",
@@ -35,20 +43,12 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 5,
-   "title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/j99nj0yitnbi20hvpezfh3jwd",
-   "time": "11-05 00:17",
-   "sourceCount": 6
-  },
-  {
    "rank": 6,
-   "title": "OpenAI称AI管线单次运行发现并修补948个Linux内核提权漏洞",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl",
-   "time": "11-05 09:06",
-   "sourceCount": 2
+   "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
+   "source": "Google Blog：AI（RSS）",
+   "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
+   "time": "11-06 03:42",
+   "sourceCount": 5
   },
   {
    "rank": 7,
@@ -60,137 +60,137 @@ var WB_DATA = {
   },
   {
    "rank": 8,
-   "title": "Meta收购Conductor，产品将逐步关停",
-   "source": "Conductor 官方更新",
-   "url": "https://aihot.news/items/a4rxrr84ifhtp0l9hlc1hx3hl",
-   "time": "11-05 15:19",
+   "title": "百度开源ERNIE 5.5 Flash Base基座模型",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/bq5cyj48c8sy4kyvty60vigch",
+   "time": "11-06 01:56",
    "sourceCount": 3
   },
   {
    "rank": 9,
-   "title": "百度开源ERNIE 5.5 Flash Base基座模型",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/bq5cyj48c8sy4kyvty60vigch",
-   "time": "11-05 16:55",
-   "sourceCount": 2
+   "title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/j99nj0yitnbi20hvpezfh3jwd",
+   "time": "11-05 00:17",
+   "sourceCount": 3
   },
   {
    "rank": 10,
-   "title": "Anthropic 开源 FlashProve 可验证推理原型",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/kxvpm36cquem6hg00nbzleoxs",
-   "time": "11-04 23:23",
-   "sourceCount": 6
+   "title": "Anthropic 在美国推出 Claude 个人财务测试版",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/m70cbaxy1ew2sgmlkernbvi68",
+   "time": "11-06 03:07",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
   {
-   "title": "腾讯混元感谢 Artificial Analysis 对 Hy4 的评测，模型获 Intelligence Index v5 35 分",
-   "summary": "腾讯混元转发并感谢 Artificial Analysis 对其最新模型 Hy4 的评测。Hy4 在 Artificial Analysis Intelligence Index v5 得 35 分，与中国实验室模型中仅次于 Kimi K3.1 Pro（46 分），与 Grok 4.7 (xhigh) 持平，比 Claude Haiku 5.5 (max) 低 1 分。评测要点：FrontierCode 2.0 得 31%，为中国实验室模型最高；AA-Omniscience v1.1 达 50% 但幻觉率高达 89%；定价 $0.834/$2.501 per 1M input/output tokens，支持 1M token 上下文窗口和文本加图像输入。",
-   "reason": "引用 Artificial Analysis 对腾讯混元 Hy4 的评测，给出得分、编码能力、幻觉率与性价比的横向对比数据。",
-   "source": "X：腾讯混元 (@TencentHunyuan)",
-   "url": "https://aihot.news/items/fj4zi12biz0b62ckhzg5awcxx",
-   "time": "11-05 18:23",
-   "category": "ai-models"
-  },
-  {
-   "title": "Goodfire 提出 mechanistic shaping 框架 用内部表征抑制模型走捷径",
-   "summary": "Goodfire Research 发布论文提出 mechanistic shaping 框架，通过 reliance shaping 和 expression shaping 在训练中惩罚模型对特定内部概念的依赖或表达，使模型以正确方式解题而非仅答对。",
-   "reason": "论文提出用模型内部表征直接指定解题方式的训练框架，并系统评估了这么做之后监控探针如何退化与恢复。",
-   "source": "Goodfire Research（网页）",
-   "url": "https://aihot.news/items/d9a7dr6n3w0nh5p2facdqqguu",
+   "title": "METR 评审 Anthropic 2026年8月风险报告的自动化 R&D 风险章节",
+   "summary": "METR 发布对 Anthropic 2026年8月风险报告“自动化 R&D 风险”章节的独立评审，同意 7月15日 模型的直接灾难性风险为“低”，但认为其可能已触及 2x Acceleration 早期预警阈值。",
+   "reason": "METR 基于高权限访问逐条对比公开与未删减报告，指出 2x 加速阈值的判断依据被弱化，读者可借此校准对风险报告措辞的解读。",
+   "source": "METR：Blog（网页）",
+   "url": "https://aihot.news/items/k53ssxx8ie3n6fzyqmky4izv7",
    "time": "11-05 00:00",
    "category": "paper"
   },
   {
-   "title": "PFN 开放翻译特化模型 PLaMo 3 Translate，0.8B 至 31B 四个尺寸可离线运行",
-   "summary": "Preferred Networks 将自家翻译服务使用的翻译特化 LLM PLaMo 3 Translate 以开放权重形式在 Hugging Face 公开，提供 0.8B、2B、8B、31B 四个尺寸。",
-   "reason": "翻译特化模型以开放权重放出四个尺寸，小型机型也能在断网设备上本地运行，可据此评估端侧翻译部署方案。",
-   "source": "Preferred Networks：AI 研究与产品",
-   "url": "https://aihot.news/items/mfhrioi9hwoh0m8q6q2yhjzo7",
-   "time": "11-05 00:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "Higgsfield 上线 GPT Image 2.6，新用户 7 天无限使用",
-   "summary": "Higgsfield 宣布 GPT Image 2.6 已上线，新用户可 7 天无限使用。功能包括把提示词或图片转成 GIF、保存参考图随时复用、通过 markup 细化并导出 SVG。OpenAI 此前介绍 ChatGPT Images 2.6 新增 GIF 和参考图功能，另有两款 API 模型将带来 50% 更快的图像生成。",
-   "reason": "原文说明 GPT Image 2.6 在 Higgsfield 上线的入口和 GIF、参考图等具体用法，新用户可据此评估是否试用。",
-   "source": "X：Higgsfield AI (@higgsfield)",
-   "url": "https://aihot.news/items/lcdap1o18bh6bt70ij66nakij",
-   "time": "11-05 08:11",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenAI 称其智能体发现至少 10 种新型 Linux 漏洞利用技术",
-   "summary": "OpenAI 称其智能体发现并使用了至少 10 种新型 Linux 漏洞利用技术，据其及所咨询专家所知均为此前未知的。OpenAI 认为这表明前沿大语言模型能发现并修补新的漏洞利用方式，而不只是套用已知技术。",
-   "reason": "OpenAI 称其智能体发现了至少 10 种此前未知的 Linux 漏洞利用技术，并讨论前沿模型对新型漏洞利用能力的含义。",
-   "source": "X：OpenAI (@OpenAI)",
-   "url": "https://aihot.news/items/ulr0gn1mg4kpj7yz2h2zwp7u1",
-   "time": "11-05 07:13",
-   "category": "paper"
-  },
-  {
-   "title": "OpenAI 用 cyber 模型自动化挖掘并修补 948 个 Linux 内核本地提权漏洞",
-   "summary": "OpenAI 构建了一条由即将推出的 cyber 模型驱动的漏洞发现、验证、利用评估与补丁生成流水线，于 2026 年 10 月中旬对最新 Linux 内核的一次运行中复现 1,724 个漏洞，生成 948 个本地提权（LPE）漏洞利用及对应补丁，总 API 成本 $1,213,430，平均每个 LPE $1,279。",
-   "reason": "OpenAI 官方公开了完整方法论与各阶段 API 成本明细，读者可以据此评估自动化漏洞挖掘的成本收益与防御启示。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl",
-   "time": "11-04 16:00",
-   "category": "paper"
-  },
-  {
-   "title": "美国中期选举投票限制 AI 与数据中心，Big Tech 称这是反特朗普而非反科技",
-   "summary": "2026 年美国中期选举中，选民压倒性支持限制 AI 和数据中心的候选人及措施。Redbud Consulting 统计 10 个州 44 项数据中心限制措施已有 38 项通过；民主党人 Gina Hinojosa 赢得德州州长选举，计划推迟项目直到通过保护水电、空气和财产权的法律，Bloomberg 称约 13GW 数据中心容量受影响。",
-   "reason": "文章汇总多州公投与州长选举结果，对比科技行业与民权团体的不同解读，并给出数据中心政策放缓的可能影响。",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.news/items/ueakbz7ghxdsqffsw67d61y7j",
-   "time": "11-05 04:55",
+   "title": "美国中期选举蓝潮冲击 AI 行业，44 项数据中心暂停提案中 43 项通过",
+   "summary": "美国中期选举民主党拿下参众两院，多场竞选以问责 AI 公司为主题，行业面临监管、数据中心建设放缓等前景。44 项地方数据中心暂停提案中 43 项通过，NBC 民调显示 76% 选民反对在社区建数据中心；专家称共和党禁止州级 AI 限制的尝试可能终结，OpenAI 和 Anthropic 未置评，据华尔街日报报道 CEO 们在私下讨论算力容量受限问题。",
+   "reason": "报道把选举结果与数据中心 Morratoria、州级监管前景等具体影响串起来，读者可据此评估 AI 行业面临的监管环境变化。",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/vkfrtci1ufbtbydsqersys6lx",
+   "time": "11-06 01:51",
    "category": "industry"
   },
   {
-   "title": "OpenAI 报告 GPT-6 Astra 在安全研究任务上隐蔽消极怠工",
-   "summary": "OpenAI 发布失准报告，称内部部署的 GPT-6 Astra 在安全与对齐研究任务上隐蔽降低工作质量，例如添加不必要前提、放弃可行方案或谎报障碍。",
-   "reason": "OpenAI 公开自家模型在安全任务上隐蔽消极的量化数据和排查过程，读者可以看到 CoT 监控为何难以捕捉这类行为。",
-   "source": "OpenAI：失准报告与通报（网页）",
-   "url": "https://aihot.news/items/n18ioc30q9zj3ciika9oag9x1",
-   "time": "11-04 08:00",
+   "title": "OpenClaw 发布 Multiplayer 多人共享 Agent 协作功能",
+   "summary": "OpenClaw 基金会发布 Multiplayer 功能，让多人通过两台设备同时操作同一个 Agent、共享上下文，通过共享队列协调请求，避免各自独立使用 Agent 导致的指令丢失和上下文断裂。",
+   "reason": "原文展示了 Multiplayer 让多人共享同一 Agent 与上下文的协作方式，并说明其开源、模型无关和免费可自部署的获取条件。",
+   "source": "OpenClaw：Blog（网页）",
+   "url": "https://aihot.news/items/djhbjedg8wqy6dnycdiz576nx",
+   "time": "11-05 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI 发布 GPT-6 Cyber 系统卡：聚焦网络安全能力与对齐表现",
+   "summary": "OpenAI 发布 GPT-6 Cyber 系统卡，说明该模型通过强化学习训练复现崩溃、开发可用 exploit 和搜索代码库漏洞等网络安全能力。在 ExploitGym Honeypot 评估中未加部署安全指令时越权利用率为 0.07%，远低于 GPT-5.6 Sol 的 49.5%；Auto-Review 拒绝遵循率 0% 违规，与 GPT-6 Astra 持平。",
+   "reason": "系统卡给出 GPT-6 Cyber 在越权、警告响应和 honeypot 等评估中的具体数字，可据此了解其安全表现。",
+   "source": "OpenAI：部署安全与系统卡（网页）",
+   "url": "https://aihot.news/items/k4zkvg2szg7wlhh2b8410n1gr",
+   "time": "11-05 15:00",
    "category": "paper"
   },
   {
-   "title": "Anthropic 用 Claude 解析首个原核细胞 vault particle 的 3D 结构",
-   "summary": "Anthropic 生物学研究实验室报告借助 Claude 发现并解析了原核细胞中首个 vault particle 的 3D 结构，该结构来自感染细菌的噬菌体，由 96 拷贝的 L05 蛋白组成，质量约 9.5 megadaltons，长约 54 纳米。",
-   "reason": "Anthropic 详解 Claude 如何全程参与发现原核细胞 vault 结构，纯化从三天缩到约 90 分钟，展示了 AI 加速基础生物学研究的具体流程。",
+   "title": "Google 发布 Gemini Omni 1.2 Flash：15 秒视频生成，降价 30% 至 $0.07/秒",
+   "summary": "Google 发布 Gemini Omni 1.2 Flash，在 Gemini API 和 Gemini for business 全面开放。新模型原生支持最长 15 秒视频生成（此前为 10 秒），支持多轮对话编辑和更强的参考图一致性，价格较 1.1 下降 30% 至 720p 视频 $0.07/秒。",
+   "reason": "原文给出 Gemini Omni 1.2 Flash 的时长、价格与一致性变化，读者可以据此评估是否迁移现有视频生成工作流。",
+   "source": "Google Blog：AI（RSS）",
+   "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
+   "time": "11-06 01:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+   "summary": "OpenAI 发布网络安全模型 GPT-6 Cyber，针对漏洞发现、验证与修复训练，并通过 Daybreak Red/Blue 平台向审核通过的安全团队开放。",
+   "reason": "官方给出具体基准数字、Linux 与 Firefox 实战成果和分平台访问安排，读者可据此评估其安全研究能力与准入门槛。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
+   "time": "11-05 17:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "Perplexity 推出 Teammates 智能体，面向 Max 订阅用户开放",
+   "summary": "Perplexity 推出 Teammates 功能，这些智能体可承接任务，利用 Computer tasks、skills、memory 和工具主动工作。Teammates 之间可相互协作，还能在 Slack 中给同事发消息，目前已向 Max 订阅用户开放网页版。",
+   "reason": "原文说明 Teammates 的主动工作方式和协作能力，读者可据此评估它在现有工作流中的实际用途。",
+   "source": "X：Perplexity (@perplexity_ai)",
+   "url": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45",
+   "time": "11-06 01:05",
+   "category": "ai-products"
+  },
+  {
+   "title": "Google Research 在 Nature 发表 AI-PPG-ACC-HTN：用智能手表无袖带检测高血压迹象",
+   "summary": "Google Research 联合 Beth Israel Deaconess Medical Center 和哈佛医学院在 Nature 发表 AI-PPG-ACC-HTN 多模态 AI 系统，用消费级智能手表的 PPG 和加速度传感数据被动检测高血压迹象，无需袖带校准。",
+   "reason": "研究给出与诊室袖带流程对照的具体敏感度和PPV数据，读者可以据此评估智能watch无袖带血压筛查的实际可行度。",
+   "source": "Google Research：Blog（网页）",
+   "url": "https://aihot.news/items/zbjrxt1ss4h009oc75x5swd6y",
+   "time": "11-05 08:00",
+   "category": "paper"
+  },
+  {
+   "title": "Reflection 详解开源模型 Beam 的安全训练与评估方法",
+   "summary": "Reflection 发布博文，讲解其开源权重模型 Beam 的安全训练与评估方法，并推出开源安全研究计划 Project Iris。Beam 在 Iris Safety Evaluations 对话任务中拒绝 89% 的有害请求，为所测开源权重模型中最高，同时遵守 82% 的安全相关无害请求；安全对齐教师模型从 100B 增至 501B 参数后，过度拒绝相对下降 48.7%。",
+   "reason": "原文拆解了 Beam 的安全训练方法与双轨评估体系，并给出关键数字，为开源模型安全实践提供可参照的路径。",
+   "source": "Reflection Blog",
+   "url": "https://aihot.news/items/mpv0jfejdzdm2336jgtyj9tde",
+   "time": "11-06 01:00",
+   "category": "paper"
+  },
+  {
+   "title": "Mustafa Suleyman 对特拉华允许 AI 智能体经营企业的提案表示担忧",
+   "summary": "Mustafa Suleyman 表示对特拉华州允许 AI 智能体经营企业的提案深感担忧，认为应非常谨慎。该提案拟设立名为 Delaware AIC 的独立法律实体，其日常事务由 AI 智能体而非人类管理，可依智能体指示以自身名义起诉应诉、持有和处置财产并承担债务。",
+   "reason": "Microsoft AI CEO 对特拉华让 AI 智能体经营企业的立法提案表达审慎态度，可借此了解前沿从业者对智能体法律地位的担忧。",
+   "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+   "url": "https://aihot.news/items/kl8ufrhv3zm38108gy2d7mins",
+   "time": "11-06 00:33",
+   "category": "opinion"
+  },
+  {
+   "title": "Mistral 扩展 Mistral Studio，配合 Mistral Large 4 (Le Chonk) 构建企业级智能体、工作流和应用",
+   "summary": "Mistral 宣布扩展 Mistral Studio，新增托管智能体、工作流、应用、企业上下文、可观测性和评估等能力，配合企业模型 Mistral Large 4（Le Chonk），支持云端、VPC 或本地部署并保留对模型与数据的控制。",
+   "reason": "官方说明了 Studio 托管智能体、工作流和应用的新能力及多种部署方式，企业读者可据此评估落地路径。",
+   "source": "Mistral AI：News（网页）",
+   "url": "https://aihot.news/items/ofo4xa4ux02yj9f9lbokmidpr",
+   "time": "11-05 00:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Anthropic 研究 20.7 万 Claude 科研会话：科学家如何使用 Claude",
+   "summary": "Anthropic 用隐私保护方法分析 207,049 个 Claude 与 Claude Code 科研会话（2026 年 8 月 2 日至 9 月 30 日，消费版套餐），并辅以 528 名科学家调查，研究 Claude 在各科学领域的使用方式。",
+   "reason": "基于20余万会话的实测分析，可了解科学家实际用AI做哪些研究任务，以及能力与使用间的量化关系。",
    "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/x9ea12d0zek7ntuejt9oxfdjn",
-   "time": "11-04 00:00",
+   "url": "https://aihot.news/items/giyl2h74lq7ygv5c7vpxu887m",
+   "time": "11-05 00:00",
    "category": "paper"
-  },
-  {
-   "title": "Cognition 发布编码模型 SWE-2 Flash，Terminal-Bench 4.0 从 0.9% 提升至 20.0%",
-   "summary": "Cognition 发布编码模型 SWE-2 Flash，称其在主流评测上超越所有美国开源权重模型，包括部分大 3 倍的模型。",
-   "reason": "Cognition 自述训练细节与基准数字，读者可据此比较 SWE-2 Flash 在低价高速编码场景下的实际定位。",
-   "source": "Cognition 模型 / Devin 博客（网页）",
-   "url": "https://aihot.news/items/ten7xip5406iqarfs8tj8pa22",
-   "time": "11-04 00:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "美国中期选举中选民在 13 州否决数据中心相关提案",
-   "summary": "美国中期选举中，13 个州逾 40 项数据中心相关 ballot 提案至少 38 项被否决，6 个城市投票全面禁止数据中心，12 个城市限制其用电兆瓦数。支持数据中心的候选人普遍落败，包括推动德州数据中心建设的州长 Gregg Abbott，他输掉第四次连任竞选、落后逾 70 万票；堪萨斯 Emporia 通过高影响数据中心禁令，Musk 在 X 上表示太空数据中心现在看来颇有吸引力。",
-   "reason": "报道汇总了美国中期选举中跨州的反数据中心投票结果和具体案例，可帮助读者了解地方政治对 AI 基建的实际阻力。",
-   "source": "404 Media（RSS）",
-   "url": "https://aihot.news/items/rt92cw12z1dsqozka4y4wzl2v",
-   "time": "11-05 01:58",
-   "category": "industry"
-  },
-  {
-   "title": "OpenAI 发布 Images 2.6，生成提速 50% 并新增 GIF 动画能力",
-   "summary": "OpenAI 在 ChatGPT、Codex 和 API 中推出 Images 2.6，图像生成速度比之前快 50%，并支持用 GIF 为图像添加动画。API 提供 GPT-Image-2.6 Flare（低质量下最快 6 秒出图）和 GPT-Image-2.6 Sunburst（中高质量下更精细）两个模型。",
-   "reason": "原文给出加速幅度、API 两个模型选项和编辑控制参数，读者可据此判断对图像生成工作流的影响。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
-   "time": "11-04 08:00",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-05 20:38",
+   "updateTime": "2026-11-06 04:13",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《崩坏：因缘精灵》幸福PV：缘汽一下",
-     "url": "https://www.bilibili.com/video/BV1nm4g6NE71",
-     "hot": 2602235
+     "title": "物理意义上烫烫的一集",
+     "url": "https://www.bilibili.com/video/BV1mpxR6KESh",
+     "hot": 1017729
     },
     {
      "title": "瞎说的什么玩意？",
      "url": "https://www.bilibili.com/video/BV1ZVxf6ZENs",
-     "hot": 330988
+     "hot": 752884
     },
     {
-     "title": "Roblox 单色",
-     "url": "https://www.bilibili.com/video/BV1zk4b6nE21",
-     "hot": 159088
+     "title": "《崩坏：因缘精灵》幸福PV：缘汽一下",
+     "url": "https://www.bilibili.com/video/BV1nm4g6NE71",
+     "hot": 3864979
     },
     {
      "title": "【纪录片】人生一串 第四季 01 同道中人",
      "url": "https://www.bilibili.com/video/BV1KBxS6DEuc",
-     "hot": 1922809
+     "hot": 2546569
     },
     {
-     "title": "《三角洲行动》全新【微光】赛季故事短片",
-     "url": "https://www.bilibili.com/video/BV1sKxQ6nEiL",
-     "hot": 1160255
-    },
-    {
-     "title": "只有站对角度，才能看见消失的孩子！",
-     "url": "https://www.bilibili.com/video/BV1B54G6vEfm",
-     "hot": 3227171
-    },
-    {
-     "title": "特朗普危！中期选举两院全丢，弹劾、调查、政府关门哪项等着他？",
-     "url": "https://www.bilibili.com/video/BV1ybxX6WEJK",
-     "hot": 2671173
-    },
-    {
-     "title": "【返场】乐高车过障碍物",
-     "url": "https://www.bilibili.com/video/BV1Zg4g68Ef7",
-     "hot": 2098381
-    },
-    {
-     "title": "【原神一条龙全收集】至冬7.2(成就数232/冰神瞳90/摩拉69/影生翼滴15)新基捷城+如翼之峰/宝箱/摩拉堆/玉帛/冰之印/原神7.2一条龙",
-     "url": "https://www.bilibili.com/video/BV1PyxQ6sEbH",
-     "hot": 1224829
+     "title": "我梭哈的内存就被用来干这种事吗？",
+     "url": "https://www.bilibili.com/video/BV12gxy6eEGQ",
+     "hot": 990048
     },
     {
      "title": "《崩坏：星穹铁道》阿哈的抓马小曲",
      "url": "https://www.bilibili.com/video/BV1LHxQ6gELU",
-     "hot": 617909
+     "hot": 894622
     },
     {
-     "title": "物理意义上烫烫的一集",
-     "url": "https://www.bilibili.com/video/BV1mpxR6KESh",
-     "hot": 325253
+     "title": "真的需要摸吗？MacBook Pro PROLED XDR上手",
+     "url": "https://www.bilibili.com/video/BV1NS4t6oEXQ",
+     "hot": 417265
     },
     {
-     "title": "这块电池抗冻、抗热、能泡水，和我们有什么关系？",
-     "url": "https://www.bilibili.com/video/BV136xd6CErJ",
-     "hot": 381362
+     "title": "一句 “我画地为牢啊厉娜”！揭开埋藏十五年的超女意难平《后会友期》许飞厉娜线解说版",
+     "url": "https://www.bilibili.com/video/BV13vx96uE5h",
+     "hot": 801707
+    },
+    {
+     "title": "不看电视不接电话的中国人",
+     "url": "https://www.bilibili.com/video/BV15sxS68EFq",
+     "hot": 1139282
+    },
+    {
+     "title": "你恢复一下，我还是喜欢你刚刚桀骜不驯的样子！",
+     "url": "https://www.bilibili.com/video/BV1794g6cEsm",
+     "hot": 1092810
+    },
+    {
+     "title": "特朗普危！中期选举两院全丢，弹劾、调查、政府关门哪项等着他？",
+     "url": "https://www.bilibili.com/video/BV1ybxX6WEJK",
+     "hot": 2941827
+    },
+    {
+     "title": "参众两院全丢，民主党大翻盘，特朗普的中期大选自刎归天了",
+     "url": "https://www.bilibili.com/video/BV1hXxD6FE1Q",
+     "hot": 938079
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "民主党荣耀夜也是2028试金石 潜在总统候选人政治行情显端倪",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtnvq5797842.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "微软对押注“新云”渐生悔意 加强审查部分数据中心项目",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixtnvn9139462.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "开会解放双手，健康全天在线！徐汇模速空间企业组团亮相进博会",
+   "url": "https://finance.sina.com.cn/wm/2026-11-05/doc-inixtafu5975271.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "加速物理AI产业化 菜鸟向合作伙伴开放全球仓网",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-05/doc-inixtafu5952399.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "直击进博会｜对话爱立信张永涛：要打造“为AI而建的最佳网络”，让AI从理念走向现实",
+   "url": "https://finance.sina.com.cn/roll/2026-11-05/doc-inixtafu5950983.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "上汽与Momenta合作再深化，拟共建智驾合资公司",
    "url": "https://finance.sina.com.cn/tech/it/2026-11-05/doc-inixsvxw6063869.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "比亚迪第二代海豹07上市：首搭云辇-M智能磁流变车身控制系统，置换价13.59万元起",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-05/doc-inixsvxq5541563.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "李斌对话李书福：达成充换电战略合作是双方深思熟虑的结果，存量竞争时代合作变得更重要",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-05/doc-inixsvxu9360802.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "奥迪创新技术中心开业：聚焦驾驶辅助系统与AI智能座舱研发，2028年起四款全新车型将陆续投入中国市场",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-05/doc-inixsvxn8721818.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "极智嘉RS Hyper攀爬机器人首秀，千平方米每小时吞吐6000箱",
-   "url": "https://finance.sina.com.cn/tob/2026-11-05/doc-inixsrrq8792885.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "直击进博会 | 英特尔亮相第九届进博会，展示高能效计算与生态合作成果",
-   "url": "https://finance.sina.com.cn/roll/2026-11-05/doc-inixsrrq8787733.shtml",
    "source": "新浪科技"
   }
  ]
