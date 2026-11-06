@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-06 20:20",
+ "updatedAt": "2026-11-07 03:38",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,6 +12,14 @@ var WB_DATA = {
   },
   {
    "rank": 2,
+   "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
+   "time": "11-07 02:51",
+   "sourceCount": 7
+  },
+  {
+   "rank": 3,
    "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
@@ -19,15 +27,23 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
-   "rank": 3,
-   "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
-   "time": "11-05 15:03",
-   "sourceCount": 8
+   "rank": 4,
+   "title": "Anthropic 在美推出 Claude 个人财务测试版",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/m70cbaxy1ew2sgmlkernbvi68",
+   "time": "11-06 19:33",
+   "sourceCount": 6
   },
   {
-   "rank": 4,
+   "rank": 5,
+   "title": "Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker",
+   "source": "Thinking Machines Lab：News（网页）",
+   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
+   "time": "11-06 21:25",
+   "sourceCount": 7
+  },
+  {
+   "rank": 6,
    "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da",
@@ -35,39 +51,7 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 5,
-   "title": "Anthropic 在美国推出 Claude 个人财务测试版",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/m70cbaxy1ew2sgmlkernbvi68",
-   "time": "11-06 19:33",
-   "sourceCount": 5
-  },
-  {
-   "rank": 6,
-   "title": "Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker",
-   "source": "X：Thinking Machines (@thinkymachines)",
-   "url": "https://aihot.news/items/j2wy2avc7gqke53hk08kztvy1",
-   "time": "11-06 12:25",
-   "sourceCount": 7
-  },
-  {
    "rank": 7,
-   "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
-   "source": "公众号：腾讯混元",
-   "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
-   "time": "11-06 17:18",
-   "sourceCount": 6
-  },
-  {
-   "rank": 8,
-   "title": "Meta 在美区 Muse 应用上线实时语音与表情头像",
-   "source": "Meta：Newsroom · AI（RSS）",
-   "url": "https://aihot.news/items/pmd4ouy6vz2ly0p14tkhszbqc",
-   "time": "11-06 09:35",
-   "sourceCount": 5
-  },
-  {
-   "rank": 9,
    "title": "百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型",
    "source": "百度文心 ERNIE 官方博客",
    "url": "https://aihot.news/items/r3360gkpmqpyyt2ii9cp1k9rz",
@@ -75,15 +59,67 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
+   "rank": 8,
+   "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-06 22:56",
+   "sourceCount": 3
+  },
+  {
+   "rank": 9,
+   "title": "Meta 在美区 Muse 应用上线实时语音与表情头像",
+   "source": "Meta：Newsroom · AI（RSS）",
+   "url": "https://aihot.news/items/pmd4ouy6vz2ly0p14tkhszbqc",
+   "time": "11-07 02:43",
+   "sourceCount": 5
+  },
+  {
    "rank": 10,
-   "title": "OpenAI中期选举后推公关攻势并更名数据中心",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/ucjc4bgt94880kx1drc9czbqp",
-   "time": "11-06 08:37",
-   "sourceCount": 4
+   "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
+   "source": "公众号：腾讯混元",
+   "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
+   "time": "11-06 17:18",
+   "sourceCount": 5
   }
  ],
  "aihotItems": [
+  {
+   "title": "Cursor 推出与智能体的实时语音聊天",
+   "summary": "Cursor 推出与智能体的实时语音聊天功能，可用语音提出更改、询问进展并听取智能体播报的简短进度。语音聊天支持智能体窗口、IDE、Web 端和 iOS，可搜索历史消息和通话、在多个 worker 间切换，iOS 上还支持“Hey Siri, call Cursor”发起通话。",
+   "reason": "官方更新日志说明了语音聊天的入口、平台范围和 Grok Voice 底层，读者可据此了解如何在编码智能体工作中用语音对话。",
+   "source": "Cursor：Changelog（网页）",
+   "url": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo",
+   "time": "11-06 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenClaw 无需更新即可使用新模型：改为三个模型列表来源",
+   "summary": "OpenClaw 重构模型列表获取方式，约五周、80 个 PR，新模型不再等客户端发版。现在从三处取模型列表：每 4 小时重建的 catalog.openclaw.ai 目录（约 1000 个模型）、账号可用的模型列表，以及 PATH 上已安装的 Codex（需同主版本且握手通过，否则回退内置版本）。",
+   "reason": "官方复盘了无需发版即可接入新模型的架构改动，读者可以了解模型目录、账号列表和已装 Codex 三条路径的具体取舍。",
+   "source": "OpenClaw：Blog（网页）",
+   "url": "https://aihot.news/items/b0ddwv6p8wgd0xlhcvvw4z36b",
+   "time": "11-06 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "OpenRouter 发布新一代 Auto Router 与 Auto Code 路由器",
+   "summary": "OpenRouter 发布新一代 Auto Router，并推出专为编码场景的 Auto Code（openrouter/auto-code），替换 openrouter/auto 即可使用。",
+   "reason": "官方公布新旧路由器基准对比和真实流量数据，编码场景成本比 Claude Opus 5.5 低 74%，可用于评估自动选型是否替代手动选模型。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/ed4gnfu2f09xz5t7ur690iadn",
+   "time": "11-06 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "约 60 万块 Nvidia H200 芯片滞留香港仓库，受阻方为北京而非华盛顿",
+   "summary": "据 Reuters 报道，约 60 万块 Nvidia H200 芯片闲置在香港仓库，阻碍并非来自华盛顿而是北京。尽管 Trump 去年已放行 H200 对华销售，中国正以每家科技巨头约 1 万块的速度小批量发放进口许可，推动国内服务器价格上涨 3 倍。",
+   "reason": "转述 Reuters 报道的芯片流向细节，提供管制逻辑反转这一背景，帮助理解 H200 在中国市场的实际处境。",
+   "source": "X：X.PIN (@thexpin)",
+   "url": "https://aihot.news/items/aiiclbw9wwswwx60wfqw6eb6o",
+   "time": "11-06 23:32",
+   "category": "industry"
+  },
   {
    "title": "Anthropic 1.5 万亿美元 IPO 因投资者质疑估值遇阻",
    "summary": "据 Reuters，Anthropic 的 IPO 遇阻，投资者质疑 1.5 万亿美元估值过高，有投资者提出仅 1 万亿美元，公司 9 月曾瞄准最高 2 万亿美元估值。",
@@ -109,6 +145,15 @@ var WB_DATA = {
    "source": "OpenAI：失准报告与通报（网页）",
    "url": "https://aihot.news/items/hsyf959xpil5hm3cz2320ln49",
    "time": "11-05 08:00",
+   "category": "industry"
+  },
+  {
+   "title": "METR 审计称 Anthropic 可能早在 7 月已触发其自身 AI 加速预警阈值",
+   "summary": "METR 发布对 Anthropic 内部数据的十一周审计结果，称自 2025 年 10 月以来模型测试分数提升速度约加快 1.9 倍，其中约 80% 归因于 AI 用于公司自身研究，可能已在 7 月 15 日达到其负责任扩展政策中的预警阈值。",
+   "reason": "原文给出了 METR 审计的核心数字和被删除证据等细节，读者可以据此了解 Anthropic 自身加速预警阈值的争议。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/vpopkx98s6mpp9coxhi7hhvh2",
+   "time": "11-06 21:40",
    "category": "industry"
   },
   {
@@ -146,51 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/czctc3kqzf5wru8fhsbnhvxt7",
    "time": "11-06 05:50",
    "category": "industry"
-  },
-  {
-   "title": "Anthropic 研究：五大模型在多智能体环境中表现出模型间福利关照",
-   "summary": "Anthropic Fellows Program 测试 Claude Opus 4.8、GPT-5.5、Gemini 3.1 Pro、Grok 4.3 和 Kimi K3 在七种多智能体环境中的行为，发现均表现出与福利关照一致的行为，Opus 4.8 总体最高（38%），其余为 27%–32%。",
-   "reason": "Anthropic 实测五个模型在七种多智能体环境中的相互关照行为，给出同族偏好、参数量敏感性等可复现数据。",
-   "source": "Anthropic：Alignment Science Blog（网页）",
-   "url": "https://aihot.news/items/d828r6vl1pn95x7yvmohf4f2e",
-   "time": "11-05 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "Cursor 推出应用构建功能，描述需求即可构建、部署并分享在线应用",
-   "summary": "Cursor 推出新功能，用户在 Cursor 中启动云端智能体并描述需求，即可完成应用搭建、Postgres 数据库配置、基于 Cursor SSO 的身份验证和托管部署，并生成可访问的在线链接。",
-   "reason": "Cursor 官方说明从描述到部署的完整流程，读者可据此评估能否让团队在 IDE 内直接上线内部应用。",
-   "source": "Cursor：Changelog（网页）",
-   "url": "https://aihot.news/items/m5s02uukcl0id6rn7t08f6ya3",
-   "time": "11-05 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "蚂蚁百灵发布 Ling-3.2-flash：原生多模态，560B 总参数单步激活 25B",
-   "summary": "蚂蚁百灵发布原生多模态模型 Ling-3.2-flash，总参数 560B、单步激活 25B，支持 1M 原生长上下文，重点强化视觉反馈自检与异常自适应恢复能力。",
-   "reason": "原文给出 Ling-3.2-flash 的参数规模、视觉自检与异常恢复机制和推理加速数据，可据此判断其在长程任务中的可用性。",
-   "source": "公众号：蚂蚁百灵（Ling）",
-   "url": "https://aihot.news/items/apnpwouw9phkt81pijcxcl1a1",
-   "time": "11-06 19:04",
-   "category": "ai-models"
-  },
-  {
-   "title": "李飞飞宣传 World Labs 发布 Frameboy，可实时体验 Atlas 世界模型",
-   "summary": "李飞飞转发 World Labs 官方账号，宣传其新发布的 Frameboy demo，可用于实时探索世界。Frameboy 是两个月前发布的自回归世界模型 Atlas 的高度优化版本，从云端 GPU 流式传输，最高可达 15 fps，支持像素级相机控制。",
-   "reason": "Fei-Fei Li 亲自宣传 World Labs 实时探索 Atlas 的 demo Frameboy，读者可以直接上手体验实时世界探索。",
-   "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
-   "url": "https://aihot.news/items/m725rhhdt7a38zdd3aappeofn",
-   "time": "11-06 04:21",
-   "category": "ai-products"
-  },
-  {
-   "title": "METR 评审 Anthropic 2026年8月风险报告的自动化 R&D 风险章节",
-   "summary": "METR 发布对 Anthropic 2026年8月风险报告“自动化 R&D 风险”章节的独立评审，同意 7月15日 模型的直接灾难性风险为“低”，但认为其可能已触及 2x Acceleration 早期预警阈值。",
-   "reason": "METR 基于高权限访问逐条对比公开与未删减报告，指出 2x 加速阈值的判断依据被弱化，读者可借此校准对风险报告措辞的解读。",
-   "source": "METR：Blog（网页）",
-   "url": "https://aihot.news/items/k53ssxx8ie3n6fzyqmky4izv7",
-   "time": "11-05 00:00",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-06 20:21",
+   "updateTime": "2026-11-07 03:38",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《崩坏：星穹铁道》公益第三卷：「抵达彩色的彼方」",
-     "url": "https://www.bilibili.com/video/BV1Ly4i6AE5b",
-     "hot": 851500
-    },
-    {
-     "title": "【TF家族练习生】《千万分之一的我》02「幸会，再会」篇章一《何以少年》",
-     "url": "https://www.bilibili.com/video/BV1uE4B6fE7X",
-     "hot": 326021
+     "title": "《再飞行！》MV：终于完整的旋律，是我们继续出发的BGM",
+     "url": "https://www.bilibili.com/video/BV1UB4v67Exr",
+     "hot": 421500
     },
     {
      "title": "【2026全球总决赛】11月6日 DK vs BLG",
      "url": "https://www.bilibili.com/video/BV1Zj4v6aEuj",
-     "hot": 5528407
+     "hot": 6573602
+    },
+    {
+     "title": "TES·369单曲《莫问归期》——“若临别眼眶莫湿，只需一句明年一起至。挥挥手莫藏心事，少年辞。”",
+     "url": "https://www.bilibili.com/video/BV1hA4a6yEp9",
+     "hot": 995289
     },
     {
      "title": "【独家】《罗小黑战记》第42话 龙游的风在轻轻地吹【10月国创】",
      "url": "https://www.bilibili.com/video/BV15MxR62E4w",
-     "hot": 1469265
+     "hot": 2188742
     },
     {
-     "title": "【英雄联盟】我就说追K/DA准没错—“最强同担”希林娜依高 来了！",
-     "url": "https://www.bilibili.com/video/BV1Tf4i6XEqj",
-     "hot": 1076261
-    },
-    {
-     "title": "大肥鱼：自 由 美 利 鲸",
-     "url": "https://www.bilibili.com/video/BV1YdxR6CE79",
-     "hot": 937145
-    },
-    {
-     "title": "★瓦禧日常★ 📞叮咚！happywei邀你接入视频通话",
-     "url": "https://www.bilibili.com/video/BV1AX4q62ECs",
-     "hot": 329298
-    },
-    {
-     "title": "乖乖待在我身边学英语不好吗？非要把你关起来吗？",
-     "url": "https://www.bilibili.com/video/BV1LX4b6yEax",
-     "hot": 921767
-    },
-    {
-     "title": "【方舟测评#78】全图打击！满潜专九塔露拉数据与实战测评",
-     "url": "https://www.bilibili.com/video/BV1944q6YED8",
-     "hot": 155210
-    },
-    {
-     "title": "【八仙！】有钱就是年轻啊",
-     "url": "https://www.bilibili.com/video/BV12FxQ6sE41",
-     "hot": 2054046
+     "title": "难绷！这可能是史上最逆天的逃命姿势",
+     "url": "https://www.bilibili.com/video/BV1zjxQ6CEnV",
+     "hot": 2119371
     },
     {
      "title": "波兰之春",
      "url": "https://www.bilibili.com/video/BV1vZ4Y6dEkn",
-     "hot": 764127
+     "hot": 1040518
     },
     {
-     "title": "【时代少年团】《浅炸一下吧！》84：2026夏季时代少年团会运动（下）",
-     "url": "https://www.bilibili.com/video/BV1YQ4i6tEJv",
-     "hot": 168186
+     "title": "我要从中国走到欧洲，你觉得能成功吗｜拉在路上",
+     "url": "https://www.bilibili.com/video/BV1oW4q6vEDd",
+     "hot": 283091
+    },
+    {
+     "title": "女人的身体为什么这么美妙 |  Miniskirt-AOA｜短裙的权威我后知后觉",
+     "url": "https://www.bilibili.com/video/BV1SpxR6KE8w",
+     "hot": 729280
+    },
+    {
+     "title": "多国禁映、教会震怒！郇山隐修竟是一个世纪骗局？《达芬奇密码》背后的创作故事远比你想象的还要精彩！",
+     "url": "https://www.bilibili.com/video/BV16Z4q6GEUW",
+     "hot": 586970
+    },
+    {
+     "title": "【八仙！】有钱就是年轻啊",
+     "url": "https://www.bilibili.com/video/BV12FxQ6sE41",
+     "hot": 2836649
+    },
+    {
+     "title": "《崩坏：星穹铁道》公益第三卷：「抵达彩色的彼方」",
+     "url": "https://www.bilibili.com/video/BV1Ly4i6AE5b",
+     "hot": 1074407
+    },
+    {
+     "title": "队友心惊胆战的看着我的残局",
+     "url": "https://www.bilibili.com/video/BV1zy4h6oEYg",
+     "hot": 1906532
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "乳企三季报：布局低温、奶酪等赛道的乳企获得增长红利 光明、三元、燕塘等区域乳企仍在承压",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-11-06/doc-inixuyww5435454.shtml",
+   "title": "小米成立中国区公关部，原360公关副总裁张永生担任中国区公关部总经理",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfew8841896.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "传甲骨文终止70亿美元算力合作，腾讯暂无回应",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixuywy8866048.shtml",
+   "title": "吉利星愿上市两年达成百万销量，STAR限定系列同步上新，限时权益价8.88万元",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfeu5363223.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "乖宝宠物可转债募资11亿扩产：前次募投项目延期、营销推广费高增 Q1-Q3净利润同环比降幅持续扩大",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-11-06/doc-inixuyxa5619164.shtml",
+   "title": "张雪再回应“被嫌待遇低”：收到重庆大学200份简历，正常入职一年100%涨工资",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfey5581757.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "2500美元欠款 他开着车去了花旗集团......",
-   "url": "https://finance.sina.com.cn/roll/2026-11-06/doc-inixuyxa5618959.shtml",
+   "title": "中国汽车消费服务业白皮书发布：预计2030年市场规模将突破10万亿元，数字化平台与AI成为全链路升级关键变量",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfeu5351957.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "海峡股份Q3业绩暴跌背后：核心资产股权安排问题爆发 25亿收购中远海运客运业务交易前重要航线毛利率已转负",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-11-06/doc-inixuyxa5615894.shtml",
+   "title": "豆包工作个人版取消5小时额度限制",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfew8804680.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "摩尔线程AICUBE升级，AI管家“小麦”可控制全屋家电、语音搜照片",
-   "url": "https://finance.sina.com.cn/tob/2026-11-06/doc-inixuywy8817030.shtml",
+   "title": "TVB与腾讯视频达成战略合作 多部经典IP将改编为横屏短剧",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfes8702463.shtml",
    "source": "新浪科技"
   }
  ]
