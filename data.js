@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-07 19:14",
+ "updatedAt": "2026-11-08 01:49",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,31 +8,31 @@ var WB_DATA = {
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
    "time": "11-06 10:29",
-   "sourceCount": 11
+   "sourceCount": 9
   },
   {
    "rank": 2,
+   "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-08 01:37",
+   "sourceCount": 3
+  },
+  {
+   "rank": 3,
    "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
    "time": "11-06 07:22",
-   "sourceCount": 6
-  },
-  {
-   "rank": 3,
-   "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
-   "source": "Thinking Machines Lab：News（网页）",
-   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-   "time": "11-07 05:41",
-   "sourceCount": 8
+   "sourceCount": 5
   },
   {
    "rank": 4,
-   "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-07 09:36",
-   "sourceCount": 3
+   "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
+   "source": "Thinking Machines Lab：News（网页）",
+   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
+   "time": "11-08 00:31",
+   "sourceCount": 8
   },
   {
    "rank": 5,
@@ -60,14 +60,6 @@ var WB_DATA = {
   },
   {
    "rank": 8,
-   "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
-   "time": "11-07 07:46",
-   "sourceCount": 4
-  },
-  {
-   "rank": 9,
    "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
@@ -75,15 +67,32 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 10,
-   "title": "Meta 在美区 Muse 应用上线实时语音与表情头像",
-   "source": "Meta：Newsroom · AI（RSS）",
-   "url": "https://aihot.news/items/pmd4ouy6vz2ly0p14tkhszbqc",
-   "time": "11-07 02:43",
+   "rank": 9,
+   "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
+   "time": "11-07 19:22",
    "sourceCount": 5
+  },
+  {
+   "rank": 10,
+   "title": "DeepSeek网页与API服务中断45分钟后恢复",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/ob3k2pi4okhhltmfxgkavfjod",
+   "time": "11-07 16:48",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
+   "summary": "据《金融时报》援引投资者的消息，Anthropic 计划在感恩节前 IPO，拟募资 800–1000 亿美元，估值 1.25–1.75 万亿美元，低于最乐观投资者期望的 2 万亿美元，但高于当前 9650 亿美元。",
+   "reason": "文中给出 Anthropic IPO 的估值区间、募资规模和最新的年化营收数字，可对照 OpenAI 融资动向看当前 AI 市场降温。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
+   "time": "11-08 01:37",
+   "category": "industry"
+  },
   {
    "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
    "summary": "美国北卡罗来纳州一对夫妇起诉谷歌，其 13 岁女儿通过学校配发的 Chromebook 与 Gemini 和搜索 AI 模式进行数千条涉及自杀内容的交互。谷歌发言人表示正在审查指控，并称已将心理健康防护机制引入搜索 AI 功能。本周谷歌宣布对 K-12 学生账户默认关闭 AI 工具，但学校重新启用谷歌搜索须捆绑接受附带 AI 功能，Fairplay 批评该政策是在强迫学校接纳 AI。",
@@ -146,42 +155,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/fjuidf0zii7na78sxru5il7pr",
    "time": "11-06 15:00",
    "category": "ai-products"
-  },
-  {
-   "title": "OpenClaw 无需更新即可使用新模型：改为三个模型列表来源",
-   "summary": "OpenClaw 重构模型列表获取方式，约五周、80 个 PR，新模型不再等客户端发版。现在从三处取模型列表：每 4 小时重建的 catalog.openclaw.ai 目录（约 1000 个模型）、账号可用的模型列表，以及 PATH 上已安装的 Codex（需同主版本且握手通过，否则回退内置版本）。",
-   "reason": "官方复盘了无需发版即可接入新模型的架构改动，读者可以了解模型目录、账号列表和已装 Codex 三条路径的具体取舍。",
-   "source": "OpenClaw：Blog（网页）",
-   "url": "https://aihot.news/items/b0ddwv6p8wgd0xlhcvvw4z36b",
-   "time": "11-06 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "OpenRouter 发布新一代 Auto Router 与 Auto Code 路由器",
-   "summary": "OpenRouter 发布新一代 Auto Router，并推出专为编码场景的 Auto Code（openrouter/auto-code），替换 openrouter/auto 即可使用。",
-   "reason": "官方公布新旧路由器基准对比和真实流量数据，编码场景成本比 Claude Opus 5.5 低 74%，可用于评估自动选型是否替代手动选模型。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/ed4gnfu2f09xz5t7ur690iadn",
-   "time": "11-06 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "约 60 万块 Nvidia H200 芯片滞留香港仓库，受阻方为北京而非华盛顿",
-   "summary": "据 Reuters 报道，约 60 万块 Nvidia H200 芯片闲置在香港仓库，阻碍并非来自华盛顿而是北京。尽管 Trump 去年已放行 H200 对华销售，中国正以每家科技巨头约 1 万块的速度小批量发放进口许可，推动国内服务器价格上涨 3 倍。",
-   "reason": "转述 Reuters 报道的芯片流向细节，提供管制逻辑反转这一背景，帮助理解 H200 在中国市场的实际处境。",
-   "source": "X：X.PIN (@thexpin)",
-   "url": "https://aihot.news/items/aiiclbw9wwswwx60wfqw6eb6o",
-   "time": "11-06 23:32",
-   "category": "industry"
-  },
-  {
-   "title": "Anthropic 1.5 万亿美元 IPO 因投资者质疑估值遇阻",
-   "summary": "据 Reuters，Anthropic 的 IPO 遇阻，投资者质疑 1.5 万亿美元估值过高，有投资者提出仅 1 万亿美元，公司 9 月曾瞄准最高 2 万亿美元估值。",
-   "reason": "原文梳理了 Anthropic IPO 估值遇阻的资金面与市场背景，可帮助读者理解 AI 板块情绪对发行节奏的影响。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/ia9wi0z09zfes5ewdf4agb6nf",
-   "time": "11-06 19:38",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -620,68 +593,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-07 19:14",
+   "updateTime": "2026-11-08 01:49",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "荣耀WIN2到底有多能\"吹\"?",
-     "url": "https://www.bilibili.com/video/BV1ni4B6jE2b",
-     "hot": 481881
+     "title": "火柴人 VS 动画师 第十四集 黑暗时代（The Dark Age）",
+     "url": "https://www.bilibili.com/video/BV1Z24J6dEBk",
+     "hot": 262625
     },
     {
-     "title": "擦完马桶擦厨房，洗脸盆洗拖把，马桶刷擦玻璃，上门保洁为啥就像开盲盒？",
-     "url": "https://www.bilibili.com/video/BV1Vu4L6iEK2",
-     "hot": 198556
+     "title": "【萌黄一槽】尾巴管理大师，金角[尾兽状态]全技能爆料！",
+     "url": "https://www.bilibili.com/video/BV1a14n6jEgs",
+     "hot": 635933
     },
     {
-     "title": "小睦遇到一只跟她长得很像的大肥鱼",
-     "url": "https://www.bilibili.com/video/BV1Yg4i6xEEt",
-     "hot": 569325
+     "title": "纯黑《影之刃零》逆天者全程无伤一镜到底攻略解说 第二期",
+     "url": "https://www.bilibili.com/video/BV1Rz4n6nEjp",
+     "hot": 246323
     },
     {
      "title": " 【独家】《凡人修仙传之慕兰之战》第23集【总第199集】",
      "url": "https://www.bilibili.com/video/BV1Qh456aEnQ",
-     "hot": 3447466
+     "hot": 4550728
     },
     {
-     "title": "【小白必看】DeepSeek Harness零基础教程！附大肥鱼全套案例！",
-     "url": "https://www.bilibili.com/video/BV1DY4v6DEtz",
-     "hot": 461835
+     "title": "我183怎么没了？谁把我B站账号给盗了？",
+     "url": "https://www.bilibili.com/video/BV1X74J62EkV",
+     "hot": 436526
     },
     {
-     "title": "近十几年的梗都在这里了",
-     "url": "https://www.bilibili.com/video/BV1mv4Y6rESW",
-     "hot": 2378295
+     "title": "这么多声线？看我“迫害”配音演员洪海天！",
+     "url": "https://www.bilibili.com/video/BV14s4B69EfE",
+     "hot": 563403
     },
     {
-     "title": "“你土木的不会抽烟？？废物”",
-     "url": "https://www.bilibili.com/video/BV1vN4i6fEhi",
-     "hot": 1326103
+     "title": "IG：\"打进登封就算成功\" \"好像有机会啊\"",
+     "url": "https://www.bilibili.com/video/BV1Mk4z6wE6j",
+     "hot": 796715
     },
     {
-     "title": "当你在过山车上紧急视频会议",
-     "url": "https://www.bilibili.com/video/BV1EWxd6sExz",
-     "hot": 2341978
+     "title": "S16半决赛助威曲《太阳之子》",
+     "url": "https://www.bilibili.com/video/BV1zx4n6FEZq",
+     "hot": 286326
     },
     {
-     "title": "早期的人工智能Be like：",
-     "url": "https://www.bilibili.com/video/BV1NU4t6tERV",
-     "hot": 2504423
+     "title": "第一视角参与野兽先生的拍摄...",
+     "url": "https://www.bilibili.com/video/BV1wq4B62EWa",
+     "hot": 1064849
     },
     {
      "title": "【纪录片】威尔史密斯的极地纵横 06中配版 北极点",
      "url": "https://www.bilibili.com/video/BV1oUn26mEHP",
-     "hot": 350092
+     "hot": 447346
     },
     {
-     "title": "《绝区零》未明通讯丨知更鸟&卡芙卡",
-     "url": "https://www.bilibili.com/video/BV1oU4762EHR",
-     "hot": 1240086
+     "title": "铁锅/不锈钢锅都能用：一套物理不粘公式，煎鱼豆腐都不粘",
+     "url": "https://www.bilibili.com/video/BV1VS4i6fEw2",
+     "hot": 1077152
     },
     {
-     "title": "【数据删除】基金会最欢乐的特战队，三名让异常破防的不死大爹——《SCP-2639-电子游戏暴力》",
-     "url": "https://www.bilibili.com/video/BV1474i6DEzi",
-     "hot": 1011614
+     "title": "2026年天门山跑酷大赛竞速预赛！第一视角一镜到底！",
+     "url": "https://www.bilibili.com/video/BV12Y4h6NEoT",
+     "hot": 837199
     }
    ]
   }
@@ -734,6 +707,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "直击进博会｜对话博世舒适科技关宇：AI的融入不仅是生产力的提升，更是生产关系的改变",
+   "url": "https://finance.sina.com.cn/chanjing/cyxw/2026-11-07/doc-inixxqmq7840049.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "直击进博会|飞利浦九赴进博，携七大个护核心产品线集中亮相",
    "url": "https://finance.sina.com.cn/world/gjcj/2026-11-07/doc-inixxcvy8177863.shtml",
    "source": "新浪科技"
@@ -756,11 +734,6 @@ var WB_DATA = {
   {
    "title": "网传余承东不再直管汽车业务，近一个月未更新汽车内容",
    "url": "https://finance.sina.com.cn/tob/2026-11-07/doc-inixwtfy8157381.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "直击进博会| 特斯拉量产Cybercab完成亚洲首秀",
-   "url": "https://finance.sina.com.cn/tob/2026-11-07/doc-inixwtha4798546.shtml",
    "source": "新浪科技"
   }
  ]
