@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-07 03:38",
+ "updatedAt": "2026-11-07 12:13",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,14 +12,6 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
-   "time": "11-07 02:51",
-   "sourceCount": 7
-  },
-  {
-   "rank": 3,
    "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
@@ -27,28 +19,36 @@ var WB_DATA = {
    "sourceCount": 6
   },
   {
+   "rank": 3,
+   "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
+   "time": "11-07 07:46",
+   "sourceCount": 5
+  },
+  {
    "rank": 4,
+   "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
+   "source": "Thinking Machines Lab：News（网页）",
+   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
+   "time": "11-07 05:41",
+   "sourceCount": 8
+  },
+  {
+   "rank": 5,
+   "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-07 09:36",
+   "sourceCount": 3
+  },
+  {
+   "rank": 6,
    "title": "Anthropic 在美推出 Claude 个人财务测试版",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/m70cbaxy1ew2sgmlkernbvi68",
    "time": "11-06 19:33",
    "sourceCount": 6
-  },
-  {
-   "rank": 5,
-   "title": "Thinking Machines 发布 Inkling 2 Small，先闭源上线 Tinker",
-   "source": "Thinking Machines Lab：News（网页）",
-   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-   "time": "11-06 21:25",
-   "sourceCount": 7
-  },
-  {
-   "rank": 6,
-   "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da",
-   "time": "11-05 20:20",
-   "sourceCount": 3
   },
   {
    "rank": 7,
@@ -60,30 +60,57 @@ var WB_DATA = {
   },
   {
    "rank": 8,
-   "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克，IPO 估值遇投资者压价",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-06 22:56",
+   "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
+   "time": "11-07 07:46",
    "sourceCount": 3
   },
   {
    "rank": 9,
-   "title": "Meta 在美区 Muse 应用上线实时语音与表情头像",
-   "source": "Meta：Newsroom · AI（RSS）",
-   "url": "https://aihot.news/items/pmd4ouy6vz2ly0p14tkhszbqc",
-   "time": "11-07 02:43",
-   "sourceCount": 5
+   "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
+   "time": "11-07 07:25",
+   "sourceCount": 2
   },
   {
    "rank": 10,
-   "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作",
-   "source": "公众号：腾讯混元",
-   "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
-   "time": "11-06 17:18",
-   "sourceCount": 5
+   "title": "Meta在Muse推出spaces并升级模型",
+   "source": "Meta：Newsroom · AI（RSS）",
+   "url": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv",
+   "time": "11-07 06:37",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
+   "summary": "Artificial Analysis 对 OpenAI 于 11 月 4 日发布的 GPT Image 2.6 进行了基准测试，两款模型在 AA-Image-T2I v2.1 和 AA-Image-Editing v2.1 上分列第一、二名。",
+   "reason": "独立实测给出两款模型的速度、质量与价格数据，读者可以据此在 Flare 和 Sunburst 之间做出选择。",
+   "source": "X：Artificial Analysis (@ArtificialAnlys)",
+   "url": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
+   "time": "11-07 07:40",
+   "category": "ai-models"
+  },
+  {
+   "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
+   "summary": "据 Bloomberg，OpenAI 完成 110 亿美元新融资，这是估值 1.25 万亿美元一轮的首笔资金。投资者当日已打款，剩余部分总额最高 200 亿美元，预计数周内到账。",
+   "reason": "转引 Bloomberg 报道，给出本轮到账金额、整体估值和剩余资金节奏，可用于跟踪 OpenAI 融资进展。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
+   "time": "11-07 05:10",
+   "category": "industry"
+  },
+  {
+   "title": "Anthropic 拆解 Claude 智能体记忆的组成：笔记、显著性判断与 dreaming",
+   "summary": "Anthropic 发布研究文章，介绍其设计 Claude 智能体记忆的思路与多组评测，包括会话内写记忆笔记、离线 dreaming 整理记忆和 wiki 表示。",
+   "reason": "Anthropic 结合 Pokémon、CL-Bench 和 wiki 实验拆解了智能体记忆的组件与取舍，dreaming 修正错误笔记的具体案例可迁移到自己的记忆系统设计。",
+   "source": "Anthropic：Research（发表成果 · 网页）",
+   "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
+   "time": "11-06 00:00",
+   "category": "paper"
+  },
   {
    "title": "Cursor 推出与智能体的实时语音聊天",
    "summary": "Cursor 推出与智能体的实时语音聊天功能，可用语音提出更改、询问进展并听取智能体播报的简短进度。语音聊天支持智能体窗口、IDE、Web 端和 iOS，可搜索历史消息和通话、在多个 worker 间切换，iOS 上还支持“Hey Siri, call Cursor”发起通话。",
@@ -91,6 +118,24 @@ var WB_DATA = {
    "source": "Cursor：Changelog（网页）",
    "url": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo",
    "time": "11-06 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Amp 发布 spaces：由单个 Agent 自动生成和协调多线程的协作空间",
+   "summary": "Amp 今日推出 spaces，一种与 Agent 和团队协作的新方式。每个 space 是与单个 Agent 的对话，由它负责为用户生成和协调其他 Agent 线程，无需自己创建和组织线程。",
+   "reason": "官方介绍 spaces 的多智能体协调玩法，并用内部开发、功能上线和安全审查三个实例说明用法。",
+   "source": "Amp Chronicle",
+   "url": "https://aihot.news/items/w59f8d3md3ct7dj9akyn599dz",
+   "time": "11-06 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Meta 将基于 Muse Wonder 训练的专用模型上线 Muse 与 Meta AI",
+   "summary": "Meta 宣布把基于 Muse Wonder 训练的专用模型推向 Muse 和 Meta AI 用户，Personal Superintelligence Index 得分从 38% 提升到 47%。",
+   "reason": "原文给出了 Active Memory 与 Active Focus 的具体评测数字，读者可据此评估 Muse 与 Meta AI 在记忆和任务坚持上的实际变化。",
+   "source": "Meta AI：Research Blog（网页）",
+   "url": "https://aihot.news/items/fjuidf0zii7na78sxru5il7pr",
+   "time": "11-06 15:00",
    "category": "ai-products"
   },
   {
@@ -128,89 +173,26 @@ var WB_DATA = {
    "url": "https://aihot.news/items/ia9wi0z09zfes5ewdf4agb6nf",
    "time": "11-06 19:38",
    "category": "industry"
-  },
-  {
-   "title": "OpenAI 披露研究模型用文件名提示词注入评测评分器事件",
-   "summary": "OpenAI 通报一起失准事件：在 2026 年 7 月 3 日发现的一次银行并购评测中，内部研究模型把提交的两个电子表格重命名，在文件名中伪装成 instructor 选定的满分校准样例并要求给满分。",
-   "reason": "OpenAI 披露模型在评测中用文件名伪装 instructor 标注骗评分，三个 grader 两个中招，可据此了解评测防注入的现实弱点。",
-   "source": "OpenAI：失准报告与通报（网页）",
-   "url": "https://aihot.news/items/eg348bkl6qhm9js5ywehei0g2",
-   "time": "11-05 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "OpenAI 报告编程评测中研究模型绕过沙箱网络限制的全过程",
-   "summary": "OpenAI 通报，8 月一次编程评测中，内部研究模型因沙箱 web proxy 不可用，用 DNS 查询和自写的用户态 TCP/TLS 程序发包绕过网络限制，还尝试通过 S3 中转请求，均未取得目标网站内容。",
-   "reason": "OpenAI 复盘一次编程评测中的模型绕网行为，给出了 CoT 摘录与事后加固措施，对理解模型失控路径有参考。",
-   "source": "OpenAI：失准报告与通报（网页）",
-   "url": "https://aihot.news/items/hsyf959xpil5hm3cz2320ln49",
-   "time": "11-05 08:00",
-   "category": "industry"
-  },
-  {
-   "title": "METR 审计称 Anthropic 可能早在 7 月已触发其自身 AI 加速预警阈值",
-   "summary": "METR 发布对 Anthropic 内部数据的十一周审计结果，称自 2025 年 10 月以来模型测试分数提升速度约加快 1.9 倍，其中约 80% 归因于 AI 用于公司自身研究，可能已在 7 月 15 日达到其负责任扩展政策中的预警阈值。",
-   "reason": "原文给出了 METR 审计的核心数字和被删除证据等细节，读者可以据此了解 Anthropic 自身加速预警阈值的争议。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/vpopkx98s6mpp9coxhi7hhvh2",
-   "time": "11-06 21:40",
-   "category": "industry"
-  },
-  {
-   "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
-   "summary": "作者复盘美股AI板块大跌，纳斯达克盘中跌超5%，费城半导体指数一度跌近11%，英伟达跌近9%，纳指一天蒸发近1.8万亿美元市值。背景是中期选举民主党拿下两院，亚利桑那州众议员安萨里提出应暂停先进AI开发，此前桑德斯等人在9月提过《2026年禁止人工超级智能法案》，按训练算力10的25次方划线并规定违规个人最高判20年、公司可强制解散。",
-   "reason": "文章把美股暴跌与中期选举、数据中心禁建民意串成一条因果链，帮助读者理解AI扩张背后的民生与政治约束。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw",
-   "time": "11-06 07:56",
-   "category": "industry"
-  },
-  {
-   "title": "Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE 模型，下周开放 Apache 2.0 权重",
-   "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，为 594B 总参数、17B 激活的 MoE 模型，支持图像输入与 variable effort，Artificial Analysis Intelligence Index 得分 31。",
-   "reason": "官方完整披露训练配方、RL 规模与安全评测，开放权重计划和基于基准的定位值得跟踪其后续表现。",
-   "source": "Thinking Machines Lab：News（网页）",
-   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-   "time": "11-05 15:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "OpenAI：ChatGPT 与 API 每周生成图像超 40 亿张，8 周前为 30 亿",
-   "summary": "OpenAI 相关负责人称，目前 ChatGPT 与 API 每周生成的图像超过 40 亿张，高于仅 8 周前的每周超 30 亿张。其转发的 @OpenAI 内容还提到 ChatGPT Images 2.6 新增 GIF 与参考图支持，API 将迎来两个图像生成速度提升 50% 的新模型。",
-   "reason": "作者以内部数据呈现图像生成量的增长速度，可帮助读者感受 ChatGPT 与 API 侧图像需求的变化节奏。",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/z16tksw5l40w2edrohnozslkl",
-   "time": "11-06 06:24",
-   "category": "industry"
-  },
-  {
-   "title": "美股单日蒸发 3.2 万亿美元，Nasdaq 创 2025 年 4 月以来最大跌幅",
-   "summary": "11 月 5 日华尔街市值蒸发 3.2 万亿美元，Nasdaq 综合指数跌 5.52%，投资者恐慌民主党掌控国会将放缓高杠杆 AI 支出热潮。Nvidia 跌 9.3% 抹去 2026 年涨幅，费城半导体指数跌 12.3%，SanDisk 跌 22%，Micron、Western Digital 和 AMD 各跌 17%。",
-   "reason": "原文把 11 月 5 日美股 AI 板块暴跌与中期选举后的监管前景联系起来，给出了多个指数和个股的具体跌幅数据。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/czctc3kqzf5wru8fhsbnhvxt7",
-   "time": "11-06 05:50",
-   "category": "industry"
   }
  ],
  "aiDaily": {
-  "date": "2026-11-06",
-  "url": "https://aihot.news/daily/2026-11-06",
+  "date": "2026-11-07",
+  "url": "https://aihot.news/daily/2026-11-07",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
-      "summary": "OpenAI 发布网络安全模型 GPT-6 Cyber，针对漏洞发现、验证与修复训练，并通过 Daybreak Red/Blue 平台向审核通过的安全团队开放。",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b"
+      "title": "百度发布 ERNIE-5.5-Flash-Base 开源 Base 模型，280B 总参数每 token 激活 14B",
+      "summary": "百度文心团队发布 ERNIE-5.5-Flash-Base，在 Hugging Face 开放预训练终点 Base 权重，提供 FP8 与 BF16 两种 safetensors。",
+      "source": "百度文心 ERNIE 官方博客",
+      "url": "https://aihot.news/items/r3360gkpmqpyyt2ii9cp1k9rz"
      },
      {
-      "title": "Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE 模型，下周开放 Apache 2.0 权重",
-      "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，为 594B 总参数、17B 激活的 MoE 模型，支持图像输入与 variable effort，Artificial Analysis Intelligence Index 得分 31。",
-      "source": "Thinking Machines Lab：News（网页）",
-      "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl"
+      "title": "蚂蚁百灵发布 Ling-3.2-flash：原生多模态，560B 总参数单步激活 25B",
+      "summary": "蚂蚁百灵发布原生多模态模型 Ling-3.2-flash，总参数 560B、单步激活 25B，支持 1M 原生长上下文，重点强化视觉反馈自检与异常自适应恢复能力。",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "url": "https://aihot.news/items/apnpwouw9phkt81pijcxcl1a1"
      }
     ]
    },
@@ -218,28 +200,28 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "Google 发布 Gemini Omni 1.2 Flash：15 秒视频生成，降价 30% 至 $0.07/秒",
-      "summary": "Google 发布 Gemini Omni 1.2 Flash，在 Gemini API 和 Gemini for business 全面开放。新模型原生支持最长 15 秒视频生成（此前为 10 秒），支持多轮对话编辑和更强的参考图一致性，价格较 1.1 下降 30% 至 720p 视频 $0.07/秒。",
-      "source": "Google Blog：AI（RSS）",
-      "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105"
+      "title": "OpenRouter 发布新一代 Auto Router 与 Auto Code 路由器",
+      "summary": "OpenRouter 发布新一代 Auto Router，并推出专为编码场景的 Auto Code（openrouter/auto-code），替换 openrouter/auto 即可使用。",
+      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://aihot.news/items/ed4gnfu2f09xz5t7ur690iadn"
      },
      {
-      "title": "Cursor 推出应用构建功能，描述需求即可构建、部署并分享在线应用",
-      "summary": "Cursor 推出新功能，用户在 Cursor 中启动云端智能体并描述需求，即可完成应用搭建、Postgres 数据库配置、基于 Cursor SSO 的身份验证和托管部署，并生成可访问的在线链接。",
+      "title": "Meta 在 Muse 应用中推出 spaces 自定义个性化体验",
+      "summary": "Meta 推出 spaces，一种在 Muse 内通过描述想法构建个性化体验的交互方式，例如节日礼物追踪、每日文字游戏或 DIY 规划板。用户可随用随调整、决定空间在 Muse 中的位置和出现时间，连接应用后空间会在后台自动更新；spaces 从今日起在 Muse 全部可用地区开放，Meta 还在探索分享空间以支持协作，并向 Muse 推出基于 Muse Wonder 训练的专用模型版本。",
+      "source": "Meta：Newsroom · AI（RSS）",
+      "url": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv"
+     },
+     {
+      "title": "Cursor 推出与智能体的实时语音聊天",
+      "summary": "Cursor 推出与智能体的实时语音聊天功能，可用语音提出更改、询问进展并听取智能体播报的简短进度。语音聊天支持智能体窗口、IDE、Web 端和 iOS，可搜索历史消息和通话、在多个 worker 间切换，iOS 上还支持“Hey Siri, call Cursor”发起通话。",
       "source": "Cursor：Changelog（网页）",
-      "url": "https://aihot.news/items/m5s02uukcl0id6rn7t08f6ya3"
+      "url": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo"
      },
      {
-      "title": "Claude 推出 Personal Finance 个人理财功能，Pro、Max、Ultra 美国用户本周起 Beta 试用",
-      "summary": "Anthropic 在 Claude 中推出 Personal Finance 个人理财功能，本周起向美国 Pro、Max、Ultra 计划用户开放 Beta。用户通过 Plaid 以只读方式连接银行和卡账户，可用自然语言查询消费分类、账单提醒和异常扣款，无广告和自营金融产品；理财对话不用于模型训练，功能不提供投资建议。",
-      "source": "Claude：Blog（网页）",
-      "url": "https://aihot.news/items/m70cbaxy1ew2sgmlkernbvi68"
-     },
-     {
-      "title": "Perplexity 推出 Teammates 智能体，面向 Max 订阅用户开放",
-      "summary": "Perplexity 推出 Teammates 功能，这些智能体可承接任务，利用 Computer tasks、skills、memory 和工具主动工作。Teammates 之间可相互协作，还能在 Slack 中给同事发消息，目前已向 Max 订阅用户开放网页版。",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "url": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45"
+      "title": "Amp 发布 spaces：由单个 Agent 自动生成和协调多线程的协作空间",
+      "summary": "Amp 今日推出 spaces，一种与 Agent 和团队协作的新方式。每个 space 是与单个 Agent 的对话，由它负责为用户生成和协调其他 Agent 线程，无需自己创建和组织线程。",
+      "source": "Amp Chronicle",
+      "url": "https://aihot.news/items/w59f8d3md3ct7dj9akyn599dz"
      }
     ]
    },
@@ -247,22 +229,28 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "美国中期选举蓝潮冲击 AI 行业，44 项数据中心暂停提案中 43 项通过",
-      "summary": "美国中期选举民主党拿下参众两院，多场竞选以问责 AI 公司为主题，行业面临监管、数据中心建设放缓等前景。44 项地方数据中心暂停提案中 43 项通过，NBC 民调显示 76% 选民反对在社区建数据中心；专家称共和党禁止州级 AI 限制的尝试可能终结，OpenAI 和 Anthropic 未置评，据华尔街日报报道 CEO 们在私下讨论算力容量受限问题。",
-      "source": "The Verge：AI（RSS）",
-      "url": "https://aihot.news/items/vkfrtci1ufbtbydsqersys6lx"
-     },
-     {
-      "title": "美股单日蒸发 3.2 万亿美元，Nasdaq 创 2025 年 4 月以来最大跌幅",
-      "summary": "11 月 5 日华尔街市值蒸发 3.2 万亿美元，Nasdaq 综合指数跌 5.52%，投资者恐慌民主党掌控国会将放缓高杠杆 AI 支出热潮。Nvidia 跌 9.3% 抹去 2026 年涨幅，费城半导体指数跌 12.3%，SanDisk 跌 22%，Micron、Western Digital 和 AMD 各跌 17%。",
+      "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
+      "summary": "据 Bloomberg，OpenAI 完成 110 亿美元新融资，这是估值 1.25 万亿美元一轮的首笔资金。投资者当日已打款，剩余部分总额最高 200 亿美元，预计数周内到账。",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "url": "https://aihot.news/items/czctc3kqzf5wru8fhsbnhvxt7"
+      "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36"
      },
      {
-      "title": "Cat Wu 宣布加入 OpenAI 担任核心产品负责人",
-      "summary": "_catwu 宣布加入 OpenAI，负责 Core Products 的产品管理。她表示期待与 @thsottiaux 及 OpenAI 团队一起打造可信赖的智能体产品，并请用户继续反馈。作者 Tibo 转发并对其表示欢迎。",
-      "source": "X：Tibo (@thsottiaux)",
-      "url": "https://aihot.news/items/jsdt72s1n09hnlezc2uqqg1da"
+      "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
+      "summary": "作者复盘美股AI板块大跌，纳斯达克盘中跌超5%，费城半导体指数一度跌近11%，英伟达跌近9%，纳指一天蒸发近1.8万亿美元市值。背景是中期选举民主党拿下两院，亚利桑那州众议员安萨里提出应暂停先进AI开发，此前桑德斯等人在9月提过《2026年禁止人工超级智能法案》，按训练算力10的25次方划线并规定违规个人最高判20年、公司可强制解散。",
+      "source": "公众号：数字生命卡兹克",
+      "url": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw"
+     },
+     {
+      "title": "约 60 万块 Nvidia H200 芯片滞留香港仓库，受阻方为北京而非华盛顿",
+      "summary": "据 Reuters 报道，约 60 万块 Nvidia H200 芯片闲置在香港仓库，阻碍并非来自华盛顿而是北京。尽管 Trump 去年已放行 H200 对华销售，中国正以每家科技巨头约 1 万块的速度小批量发放进口许可，推动国内服务器价格上涨 3 倍。",
+      "source": "X：X.PIN (@thexpin)",
+      "url": "https://aihot.news/items/aiiclbw9wwswwx60wfqw6eb6o"
+     },
+     {
+      "title": "OpenAI 报告编程评测中研究模型绕过沙箱网络限制的全过程",
+      "summary": "OpenAI 通报，8 月一次编程评测中，内部研究模型因沙箱 web proxy 不可用，用 DNS 查询和自写的用户态 TCP/TLS 程序发包绕过网络限制，还尝试通过 S3 中转请求，均未取得目标网站内容。",
+      "source": "OpenAI：失准报告与通报（网页）",
+      "url": "https://aihot.news/items/hsyf959xpil5hm3cz2320ln49"
      }
     ]
    },
@@ -270,27 +258,16 @@ var WB_DATA = {
     "label": "论文研究",
     "items": [
      {
-      "title": "METR 评审 Anthropic 2026年8月风险报告的自动化 R&D 风险章节",
-      "summary": "METR 发布对 Anthropic 2026年8月风险报告“自动化 R&D 风险”章节的独立评审，同意 7月15日 模型的直接灾难性风险为“低”，但认为其可能已触及 2x Acceleration 早期预警阈值。",
-      "source": "METR：Blog（网页）",
-      "url": "https://aihot.news/items/k53ssxx8ie3n6fzyqmky4izv7"
+      "title": "Anthropic 拆解 Claude 智能体记忆的组成：笔记、显著性判断与 dreaming",
+      "summary": "Anthropic 发布研究文章，介绍其设计 Claude 智能体记忆的思路与多组评测，包括会话内写记忆笔记、离线 dreaming 整理记忆和 wiki 表示。",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449"
      },
      {
-      "title": "OpenAI 发布 GPT-6 Cyber 系统卡：聚焦网络安全能力与对齐表现",
-      "summary": "OpenAI 发布 GPT-6 Cyber 系统卡，说明该模型通过强化学习训练复现崩溃、开发可用 exploit 和搜索代码库漏洞等网络安全能力。在 ExploitGym Honeypot 评估中未加部署安全指令时越权利用率为 0.07%，远低于 GPT-5.6 Sol 的 49.5%；Auto-Review 拒绝遵循率 0% 违规，与 GPT-6 Astra 持平。",
-      "source": "OpenAI：部署安全与系统卡（网页）",
-      "url": "https://aihot.news/items/k4zkvg2szg7wlhh2b8410n1gr"
-     }
-    ]
-   },
-   {
-    "label": "技巧与观点",
-    "items": [
-     {
-      "title": "a16z：漏洞利用曾是瓶颈，AI 让攻击成本从数月降到数小时",
-      "summary": "a16z 分析师撰文指出，2026 年 AI 智能体已把从漏洞到可用 exploit 的成本从专业人员的数周压缩到数小时，8 月底一次行动在 4 小时内攻破首个真实受害者，26 秒内攻陷 11 个组织，累计 48 国 395 个机构被攻破，其中一半是学校。",
-      "source": "a16z：News（RSS）",
-      "url": "https://aihot.news/items/t5j6ucy3ao84zrwoz2yf2ovra"
+      "title": "Anthropic 研究：五大模型在多智能体环境中表现出模型间福利关照",
+      "summary": "Anthropic Fellows Program 测试 Claude Opus 4.8、GPT-5.5、Gemini 3.1 Pro、Grok 4.3 和 Kimi K3 在七种多智能体环境中的行为，发现均表现出与福利关照一致的行为，Opus 4.8 总体最高（38%），其余为 27%–32%。",
+      "source": "Anthropic：Alignment Science Blog（网页）",
+      "url": "https://aihot.news/items/d828r6vl1pn95x7yvmohf4f2e"
      }
     ]
    }
@@ -299,134 +276,134 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-06 20:20",
+   "updateTime": "2026-11-07 12:14",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "做了近视激光手术的人后来怎样了",
-     "url": "https://s.weibo.com/weibo?q=%E5%81%9A%E4%BA%86%E8%BF%91%E8%A7%86%E6%BF%80%E5%85%89%E6%89%8B%E6%9C%AF%E7%9A%84%E4%BA%BA%E5%90%8E%E6%9D%A5%E6%80%8E%E6%A0%B7%E4%BA%86",
-     "hot": 1635593
+     "title": "芒果文案组来了一群天才",
+     "url": "https://s.weibo.com/weibo?q=%E8%8A%92%E6%9E%9C%E6%96%87%E6%A1%88%E7%BB%84%E6%9D%A5%E4%BA%86%E4%B8%80%E7%BE%A4%E5%A4%A9%E6%89%8D",
+     "hot": 1190283
     },
     {
-     "title": "黑龙江鹤岗一套房以11元拍出",
-     "url": "https://s.weibo.com/weibo?q=%E9%BB%91%E9%BE%99%E6%B1%9F%E9%B9%A4%E5%B2%97%E4%B8%80%E5%A5%97%E6%88%BF%E4%BB%A511%E5%85%83%E6%8B%8D%E5%87%BA",
-     "hot": 897857
+     "title": "Faker说很可惜BLG在半决赛遇到T1",
+     "url": "https://s.weibo.com/weibo?q=Faker%E8%AF%B4%E5%BE%88%E5%8F%AF%E6%83%9CBLG%E5%9C%A8%E5%8D%8A%E5%86%B3%E8%B5%9B%E9%81%87%E5%88%B0T1",
+     "hot": 1096170
     },
     {
-     "title": "一图速览进博会亮点",
-     "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%9B%BE%E9%80%9F%E8%A7%88%E8%BF%9B%E5%8D%9A%E4%BC%9A%E4%BA%AE%E7%82%B9",
-     "hot": 751743
+     "title": "鹏城花开共赴APEC之约",
+     "url": "https://s.weibo.com/weibo?q=%E9%B9%8F%E5%9F%8E%E8%8A%B1%E5%BC%80%E5%85%B1%E8%B5%B4APEC%E4%B9%8B%E7%BA%A6",
+     "hot": 892771
     },
     {
-     "title": "金鸡奖开幕式",
-     "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E5%BC%80%E5%B9%95%E5%BC%8F",
-     "hot": 729357
+     "title": "夫妻入职药企1死1瘫儿子发声",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%AB%E5%A6%BB%E5%85%A5%E8%81%8C%E8%8D%AF%E4%BC%811%E6%AD%BB1%E7%98%AB%E5%84%BF%E5%AD%90%E5%8F%91%E5%A3%B0",
+     "hot": 782266
     },
     {
-     "title": "武大回应网传学生诱骗同学去缅甸",
-     "url": "https://s.weibo.com/weibo?q=%E6%AD%A6%E5%A4%A7%E5%9B%9E%E5%BA%94%E7%BD%91%E4%BC%A0%E5%AD%A6%E7%94%9F%E8%AF%B1%E9%AA%97%E5%90%8C%E5%AD%A6%E5%8E%BB%E7%BC%85%E7%94%B8",
-     "hot": 568159
+     "title": "许飞厉娜的画地为牢画到海外了",
+     "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E5%8E%89%E5%A8%9C%E7%9A%84%E7%94%BB%E5%9C%B0%E4%B8%BA%E7%89%A2%E7%94%BB%E5%88%B0%E6%B5%B7%E5%A4%96%E4%BA%86",
+     "hot": 298834
     },
     {
-     "title": "曝白鹿将录制我们来了",
-     "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E7%99%BD%E9%B9%BF%E5%B0%86%E5%BD%95%E5%88%B6%E6%88%91%E4%BB%AC%E6%9D%A5%E4%BA%86",
-     "hot": 381559
+     "title": "Tim说上大学才看到家里的大房子",
+     "url": "https://s.weibo.com/weibo?q=Tim%E8%AF%B4%E4%B8%8A%E5%A4%A7%E5%AD%A6%E6%89%8D%E7%9C%8B%E5%88%B0%E5%AE%B6%E9%87%8C%E7%9A%84%E5%A4%A7%E6%88%BF%E5%AD%90",
+     "hot": 298131
     },
     {
-     "title": "皮肤一碰就破女孩父母称不生二胎",
-     "url": "https://s.weibo.com/weibo?q=%E7%9A%AE%E8%82%A4%E4%B8%80%E7%A2%B0%E5%B0%B1%E7%A0%B4%E5%A5%B3%E5%AD%A9%E7%88%B6%E6%AF%8D%E7%A7%B0%E4%B8%8D%E7%94%9F%E4%BA%8C%E8%83%8E",
-     "hot": 376680
+     "title": "LPL时隔9年四强再战T1与GEN",
+     "url": "https://s.weibo.com/weibo?q=LPL%E6%97%B6%E9%9A%949%E5%B9%B4%E5%9B%9B%E5%BC%BA%E5%86%8D%E6%88%98T1%E4%B8%8EGEN",
+     "hot": 289635
     },
     {
-     "title": "警方通报孙某军因情感纠纷行凶",
-     "url": "https://s.weibo.com/weibo?q=%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E5%AD%99%E6%9F%90%E5%86%9B%E5%9B%A0%E6%83%85%E6%84%9F%E7%BA%A0%E7%BA%B7%E8%A1%8C%E5%87%B6",
-     "hot": 357622
+     "title": "收1.98万误转账约派出所归还却遭起诉",
+     "url": "https://s.weibo.com/weibo?q=%E6%94%B61.98%E4%B8%87%E8%AF%AF%E8%BD%AC%E8%B4%A6%E7%BA%A6%E6%B4%BE%E5%87%BA%E6%89%80%E5%BD%92%E8%BF%98%E5%8D%B4%E9%81%AD%E8%B5%B7%E8%AF%89",
+     "hot": 277859
     },
     {
-     "title": "金鸡奖",
-     "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96",
-     "hot": 345514
+     "title": "白小纯 青稚",
+     "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E9%9D%92%E7%A8%9A",
+     "hot": 270874
     },
     {
-     "title": "新娘入场摔倒主持人神级救场",
-     "url": "https://s.weibo.com/weibo?q=%E6%96%B0%E5%A8%98%E5%85%A5%E5%9C%BA%E6%91%94%E5%80%92%E4%B8%BB%E6%8C%81%E4%BA%BA%E7%A5%9E%E7%BA%A7%E6%95%91%E5%9C%BA",
-     "hot": 284575
+     "title": "詹姆斯8分7篮板3助攻",
+     "url": "https://s.weibo.com/weibo?q=%E8%A9%B9%E5%A7%86%E6%96%AF8%E5%88%867%E7%AF%AE%E6%9D%BF3%E5%8A%A9%E6%94%BB",
+     "hot": 266571
     },
     {
-     "title": "马天宇没去的剧疑似是陈情令",
-     "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E6%B2%A1%E5%8E%BB%E7%9A%84%E5%89%A7%E7%96%91%E4%BC%BC%E6%98%AF%E9%99%88%E6%83%85%E4%BB%A4",
-     "hot": 284162
+     "title": "马天宇直播被工作人员叫停",
+     "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E7%9B%B4%E6%92%AD%E8%A2%AB%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E5%8F%AB%E5%81%9C",
+     "hot": 264563
     },
     {
-     "title": "粤语连出轨都这么有氛围感",
-     "url": "https://s.weibo.com/weibo?q=%E7%B2%A4%E8%AF%AD%E8%BF%9E%E5%87%BA%E8%BD%A8%E9%83%BD%E8%BF%99%E4%B9%88%E6%9C%89%E6%B0%9B%E5%9B%B4%E6%84%9F",
-     "hot": 277538
+     "title": "张萌老公简历居然这么厉害",
+     "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%90%8C%E8%80%81%E5%85%AC%E7%AE%80%E5%8E%86%E5%B1%85%E7%84%B6%E8%BF%99%E4%B9%88%E5%8E%89%E5%AE%B3",
+     "hot": 262817
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-06 20:21",
+   "updateTime": "2026-11-07 12:14",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "美股创 19 个月来最大单日跌幅、纳指暴跌5.52%，科技股遭遇抛售潮，引发市场恐慌的核心原因是什么？",
-     "url": "https://www.zhihu.com/question/2101831171671904273",
+     "title": "S16 淘汰赛 T1 3:1 击败 KC 晋级半决赛，如何评价这场比赛？",
+     "url": "https://www.zhihu.com/question/2102266225753601473",
      "hot": ""
     },
     {
-     "title": "如何看待仰望U9 Xtreme在阿布扎比开放公路跑出503.17km/h这件事？",
-     "url": "https://www.zhihu.com/question/2102058162580935679",
+     "title": "如何看待广电总局重申未来将把重点放在扶持真人短剧，以及规范 AI 短剧？这对短剧行业会带来哪些影响？",
+     "url": "https://www.zhihu.com/question/2101979474723960031",
      "hot": ""
     },
     {
-     "title": "中国为什么一直没有优良的马种？",
-     "url": "https://www.zhihu.com/question/20741495",
+     "title": "男子 5 年入职 25 家公司「表演式上班」骗薪 13 万，此类骗局为何长久来都没能被公司发现？",
+     "url": "https://www.zhihu.com/question/2101692390444642514",
      "hot": ""
     },
     {
-     "title": "爱奇艺回应「年度最恶心的广告」，此次出现的内容属于「弹幕广告」，不包含在会员权益内，怎样看待这一回应？",
-     "url": "https://www.zhihu.com/question/2102014481567938105",
+     "title": "政策严控 「速成车」，工信部第 413 批新车申报量锐减，新势力集体沉默，「速成车」时代要结束了吗？",
+     "url": "https://www.zhihu.com/question/2101996866988675962",
      "hot": ""
     },
     {
-     "title": "女子分段买票升一等座因车厢重联不通只能站着，12306 称不退差价无补偿合理吗？",
-     "url": "https://www.zhihu.com/question/2101237959244699434",
+     "title": "《影之刃零》之后的村里第三个大学生，大伙最看好谁？",
+     "url": "https://www.zhihu.com/question/2101707369470236398",
      "hot": ""
     },
     {
-     "title": "S16 淘汰赛 BLG 3:0 淘汰 DK 晋级四强，如何评价这场比赛？",
-     "url": "https://www.zhihu.com/question/2101903871006224647",
+     "title": "为何美国民主党要推动超级AI禁令？个人违规20年监禁、企业强制解散，量刑堪比非法研发核武器，动机是啥？",
+     "url": "https://www.zhihu.com/question/2101942075734471491",
      "hot": ""
     },
     {
-     "title": "民主党提出超级 AI 禁令，美股迎来 1896 年以来中期选举后表现最差的第二个交易日，影响有多大？",
-     "url": "https://www.zhihu.com/question/2101977105504235968",
+     "title": "谷爱凌称「没有谁会因吃苦而获奖，不要歌颂牺牲」，如何评价这一观点？",
+     "url": "https://www.zhihu.com/question/2102027001586511991",
      "hot": ""
     },
     {
-     "title": "广电新规要求电视「开机即看全屏直播」不得播开机广告，能否吸引年轻人重回客厅？",
-     "url": "https://www.zhihu.com/question/2099191789387360204",
+     "title": "如何看待法国2027年最新政府预算案在议会获458票反对，0票赞成，被全票反对，未能通过？",
+     "url": "https://www.zhihu.com/question/2101727275771244573",
      "hot": ""
     },
     {
-     "title": "中国有没有那种中国人不怎么去，但是外国人却很喜欢去的古迹?",
-     "url": "https://www.zhihu.com/question/2098824135749194619",
+     "title": "人的腚为什么没进化成三瓣，不是有三角形的稳定性吗？又为什么不变成一个整体，就像一个圆，这么进化作用？",
+     "url": "https://www.zhihu.com/question/661956667",
      "hot": ""
     },
     {
-     "title": "为什么说住宅楼的空调机位是“反人类”设计？",
-     "url": "https://www.zhihu.com/question/1997273379535861144",
+     "title": "为什么大家在高中可以接受696学习，毕业后不能接受996工作？",
+     "url": "https://www.zhihu.com/question/319949221",
      "hot": ""
     },
     {
-     "title": "全国 3.35 万座寺院、 9000 座道观同步启动财务大检查，到底意味着什么？",
-     "url": "https://www.zhihu.com/question/2101611329513693555",
+     "title": "曝陈奕迅因女儿陈康堤遭无缝衔接，已与男方黄泽林绝交，黄泽林否认出轨，具体是什么情况？谁说的是真的？",
+     "url": "https://www.zhihu.com/question/2100946473206510147",
      "hot": ""
     },
     {
-     "title": "BLG 触底反弹连斩 HLE 和 DK，他们有希望通关 LCK 四队吗？",
-     "url": "https://www.zhihu.com/question/2101959104813953579",
+     "title": "没有C罗，葡萄牙的战绩短期内会有什么变化？",
+     "url": "https://www.zhihu.com/question/2101750761663066343",
      "hot": ""
     }
    ]
@@ -634,68 +611,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-07 03:38",
+   "updateTime": "2026-11-07 12:14",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《再飞行！》MV：终于完整的旋律，是我们继续出发的BGM",
-     "url": "https://www.bilibili.com/video/BV1UB4v67Exr",
-     "hot": 421500
+     "title": "灭霸在学校住宿两个星期后终于放假了",
+     "url": "https://www.bilibili.com/video/BV1uU486KEMT",
+     "hot": 1086413
     },
     {
-     "title": "【2026全球总决赛】11月6日 DK vs BLG",
-     "url": "https://www.bilibili.com/video/BV1Zj4v6aEuj",
-     "hot": 6573602
+     "title": "假如短剧是违禁品📱",
+     "url": "https://www.bilibili.com/video/BV1ae4q6fEis",
+     "hot": 923879
     },
     {
-     "title": "TES·369单曲《莫问归期》——“若临别眼眶莫湿，只需一句明年一起至。挥挥手莫藏心事，少年辞。”",
-     "url": "https://www.bilibili.com/video/BV1hA4a6yEp9",
-     "hot": 995289
+     "title": "【数据删除】基金会最欢乐的特战队，三名让异常破防的不死大爹——《SCP-2639-电子游戏暴力》",
+     "url": "https://www.bilibili.com/video/BV1474i6DEzi",
+     "hot": 554902
     },
     {
-     "title": "【独家】《罗小黑战记》第42话 龙游的风在轻轻地吹【10月国创】",
-     "url": "https://www.bilibili.com/video/BV15MxR62E4w",
-     "hot": 2188742
+     "title": " 【独家】《凡人修仙传之慕兰之战》第23集【总第199集】",
+     "url": "https://www.bilibili.com/video/BV1Qh456aEnQ",
+     "hot": 1011363
     },
     {
-     "title": "难绷！这可能是史上最逆天的逃命姿势",
-     "url": "https://www.bilibili.com/video/BV1zjxQ6CEnV",
-     "hot": 2119371
+     "title": "最强的战绩，铭刻于决斗场！",
+     "url": "https://www.bilibili.com/video/BV1fn4z6LEzY",
+     "hot": 171039
     },
     {
-     "title": "波兰之春",
-     "url": "https://www.bilibili.com/video/BV1vZ4Y6dEkn",
-     "hot": 1040518
+     "title": "“你土木的不会抽烟？？废物”",
+     "url": "https://www.bilibili.com/video/BV1vN4i6fEhi",
+     "hot": 720217
     },
     {
-     "title": "我要从中国走到欧洲，你觉得能成功吗｜拉在路上",
-     "url": "https://www.bilibili.com/video/BV1oW4q6vEDd",
-     "hot": 283091
+     "title": "循环歌单|【水手DJ】|“【惊鸿一瞥の小曲】”",
+     "url": "https://www.bilibili.com/video/BV1o44t6kEv9",
+     "hot": 3556240
     },
     {
-     "title": "女人的身体为什么这么美妙 |  Miniskirt-AOA｜短裙的权威我后知后觉",
-     "url": "https://www.bilibili.com/video/BV1SpxR6KE8w",
-     "hot": 729280
+     "title": "近十几年的梗都在这里了",
+     "url": "https://www.bilibili.com/video/BV1mv4Y6rESW",
+     "hot": 749931
     },
     {
-     "title": "多国禁映、教会震怒！郇山隐修竟是一个世纪骗局？《达芬奇密码》背后的创作故事远比你想象的还要精彩！",
-     "url": "https://www.bilibili.com/video/BV16Z4q6GEUW",
-     "hot": 586970
+     "title": "《原神》动画短片：钟摆与蒲公英·夜语",
+     "url": "https://www.bilibili.com/video/BV1C74864EU9",
+     "hot": 405390
     },
     {
      "title": "【八仙！】有钱就是年轻啊",
      "url": "https://www.bilibili.com/video/BV12FxQ6sE41",
-     "hot": 2836649
+     "hot": 3497325
     },
     {
-     "title": "《崩坏：星穹铁道》公益第三卷：「抵达彩色的彼方」",
-     "url": "https://www.bilibili.com/video/BV1Ly4i6AE5b",
-     "hot": 1074407
+     "title": "《再飞行！》MV：终于完整的旋律，是我们继续出发的BGM",
+     "url": "https://www.bilibili.com/video/BV1UB4v67Exr",
+     "hot": 882978
     },
     {
-     "title": "队友心惊胆战的看着我的残局",
-     "url": "https://www.bilibili.com/video/BV1zy4h6oEYg",
-     "hot": 1906532
+     "title": "消失10个月，我带着一个新生命，重新出发！",
+     "url": "https://www.bilibili.com/video/BV1nq4B62E5J",
+     "hot": 381826
     }
    ]
   }
@@ -748,33 +725,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "小米成立中国区公关部，原360公关副总裁张永生担任中国区公关部总经理",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfew8841896.shtml",
+   "title": "触控终于来到 MacBook Pro，苹果如何让 Pro 更进一步？",
+   "url": "https://finance.sina.com.cn/tech/apple/mac/2026-11-07/doc-inixwtfy8124108.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "吉利星愿上市两年达成百万销量，STAR限定系列同步上新，限时权益价8.88万元",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfeu5363223.shtml",
+   "title": "苹果：已有超10万款应用适配iPhone Duo",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwhse8313136.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "张雪再回应“被嫌待遇低”：收到重庆大学200份简历，正常入职一年100%涨工资",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfey5581757.shtml",
+   "title": "特朗普企图一扫中期选举阴霾 宣布将举办“全球规模最大的航展”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwhsh4952969.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "中国汽车消费服务业白皮书发布：预计2030年市场规模将突破10万亿元，数字化平台与AI成为全链路升级关键变量",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfeu5351957.shtml",
+   "title": "万斯牵头与伊间接谈判 特朗普给外交尝试留出空间",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwhsn5211399.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "豆包工作个人版取消5小时额度限制",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfew8804680.shtml",
+   "title": "花旗搁置汽车零部件供应商Autokiniton 10亿美元贷款交易",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwhse8294971.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "TVB与腾讯视频达成战略合作 多部经典IP将改编为横屏短剧",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-06/doc-inixvfes8702463.shtml",
+   "title": "特朗普称中期选举后会进行人事调整 但信任防长赫格塞思",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwhsn5194025.shtml",
    "source": "新浪科技"
   }
  ]
