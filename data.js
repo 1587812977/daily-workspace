@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-08 19:26",
+ "updatedAt": "2026-11-09 02:01",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,18 +8,42 @@ var WB_DATA = {
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
    "time": "11-08 08:44",
-   "sourceCount": 3
+   "sourceCount": 2
   },
   {
    "rank": 2,
-   "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
+   "title": "Anthropic 34亿美元接手1.7GW燃气发电机组",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/fhtzzpeq9pxo021k0uk7s034p",
+   "time": "11-08 22:05",
+   "sourceCount": 2
+  },
+  {
+   "rank": 3,
+   "title": "Anthropic 拆解 Claude 智能体记忆机制",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
    "time": "11-07 07:25",
    "sourceCount": 2
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
+   "time": "11-08 22:22",
+   "sourceCount": 6
+  },
+  {
+   "rank": 5,
+   "title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/lq97h52ctxw2nkri4qqxj5lbx",
+   "time": "11-07 07:00",
+   "sourceCount": 2
+  },
+  {
+   "rank": 6,
    "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
@@ -27,7 +51,7 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 4,
+   "rank": 7,
    "title": "Nous Research 微调 Qwen 推出 Arete-27B",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/nsy92pj0h1aiwvp0wdqkzb1cc",
@@ -35,7 +59,15 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 5,
+   "rank": 8,
+   "title": "xAI 称 Grok Bot 的 token 效率修复正在进行",
+   "source": "X：Elon Musk (@elonmusk, xAI)",
+   "url": "https://aihot.news/items/svii78aucgrcj4ccd1gzmtsq0",
+   "time": "11-09 00:58",
+   "sourceCount": 1
+  },
+  {
+   "rank": 9,
    "title": "Meta在Muse推出spaces并升级模型",
    "source": "Meta：Newsroom · AI（RSS）",
    "url": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv",
@@ -43,57 +75,15 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 6,
+   "rank": 10,
    "title": "GPT-6.1 Sol参与小鼠脑手术定位实验",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/uhi0dbgdjc32uma8nu41ftguf",
    "time": "11-08 15:05",
    "sourceCount": 1
-  },
-  {
-   "rank": 7,
-   "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
-   "time": "11-07 19:22",
-   "sourceCount": 5
-  },
-  {
-   "rank": 8,
-   "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
-   "source": "Thinking Machines Lab：News（网页）",
-   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-   "time": "11-08 00:31",
-   "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "DeepSeek网页与API服务中断45分钟后恢复",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/ob3k2pi4okhhltmfxgkavfjod",
-   "time": "11-07 16:48",
-   "sourceCount": 1
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI 员工澄清 Pro 套餐无 5 小时限制及用量倍数",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/i0qylf97r1at94oogm9m3eg9l",
-   "time": "11-08 13:45",
-   "sourceCount": 1
   }
  ],
- "aihotItems": [
-  {
-   "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
-   "summary": "据《金融时报》援引投资者的消息，Anthropic 计划在感恩节前 IPO，拟募资 800–1000 亿美元，估值 1.25–1.75 万亿美元，低于最乐观投资者期望的 2 万亿美元，但高于当前 9650 亿美元。",
-   "reason": "文中给出 Anthropic IPO 的估值区间、募资规模和最新的年化营收数字，可对照 OpenAI 融资动向看当前 AI 市场降温。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
-   "time": "11-08 01:37",
-   "category": "industry"
-  }
- ],
+ "aihotItems": [],
  "aiDaily": {
   "date": "2026-11-08",
   "url": "https://aihot.news/daily/2026-11-08",
@@ -449,68 +439,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-08 19:27",
+   "updateTime": "2026-11-09 02:01",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《崩坏：星穹铁道》星神★阿哈角色PV——「让骰子飞」",
-     "url": "https://www.bilibili.com/video/BV1tS4n6CEoJ",
-     "hot": 3104887
+     "title": "欢迎来到实力至上主义校园",
+     "url": "https://www.bilibili.com/video/BV1nx4n6cEst",
+     "hot": 1361405
     },
     {
-     "title": "到底是谁在说500万以内最好的SUV啊？",
-     "url": "https://www.bilibili.com/video/BV1Yv4t6TEhM",
-     "hot": 1076613
+     "title": "《崩坏：星穹铁道》星神★阿哈角色PV——「让骰子飞」",
+     "url": "https://www.bilibili.com/video/BV1tS4n6CEoJ",
+     "hot": 3586449
+    },
+    {
+     "title": "【时间啊，向前！】TL-EX-1至TL-EX-8突袭 摆完挂机 简单好抄",
+     "url": "https://www.bilibili.com/video/BV1x8WJ6oE3H",
+     "hot": 915429
     },
     {
      "title": "【独家】牧神记 第108集 相逢何必曾相识",
      "url": "https://www.bilibili.com/video/BV1xt476wEp7",
-     "hot": 1682409
+     "hot": 2234622
+    },
+    {
+     "title": "《灭霸全家福》灭霸的爸爸是灭建国，被艾特的都是扎啤！",
+     "url": "https://www.bilibili.com/video/BV1vB4p6fEVX",
+     "hot": 797105
     },
     {
      "title": "“这是给孩子的，不是给你的”",
      "url": "https://www.bilibili.com/video/BV1Wx4i6LEmf",
-     "hot": 3555204
+     "hot": 4404276
     },
     {
-     "title": "【STN快报第8.5季26】罪恶都市的公交车也罪恶一点很合理吧",
-     "url": "https://www.bilibili.com/video/BV1tEW764E8D",
-     "hot": 139595
+     "title": "这游戏是很多人的一辈子",
+     "url": "https://www.bilibili.com/video/BV1J54W6NELg",
+     "hot": 622736
     },
     {
-     "title": "出现在餐桌上的清明上河图",
-     "url": "https://www.bilibili.com/video/BV1so4E6cEGi",
-     "hot": 998937
+     "title": "你学会了吗",
+     "url": "https://www.bilibili.com/video/BV1oK476jExu",
+     "hot": 1005688
     },
     {
-     "title": "欢迎来到实力至上主义校园",
-     "url": "https://www.bilibili.com/video/BV1nx4n6cEst",
-     "hot": 518598
+     "title": "【神人短剧】🔥最新力作🔥农村大席之抽象盛宴，联动mj宇宙【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1gcWn6iE9C",
+     "hot": 129225
     },
     {
-     "title": "不愧是能开进国宾馆的自助，真的什么都有",
-     "url": "https://www.bilibili.com/video/BV13Dxt6AEDh",
-     "hot": 1368228
+     "title": "【IEM科隆Major纪录片】Field of View - Focus to Win",
+     "url": "https://www.bilibili.com/video/BV1vp4W6fEQR",
+     "hot": 470710
     },
     {
      "title": "S赛怀旧金曲《BLG带带我》",
      "url": "https://www.bilibili.com/video/BV1mK4E6NE82",
-     "hot": 1257036
+     "hot": 1576085
     },
     {
      "title": "人类饲养指南",
      "url": "https://www.bilibili.com/video/BV1Cn4n6YE29",
-     "hot": 1635877
-    },
-    {
-     "title": "《完美婚礼》",
-     "url": "https://www.bilibili.com/video/BV1Xi4z6NEr2",
-     "hot": 1424404
-    },
-    {
-     "title": "【2026全球总决赛】11月8日 IG vs GEN",
-     "url": "https://www.bilibili.com/video/BV1ua4W6XEJd",
-     "hot": 3085519
+     "hot": 2105588
     }
    ]
   }
@@ -563,6 +553,21 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "启元机器人第10000台个人机器人下线",
+   "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixzxss7027496.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "全球首个！我国取得重大技术突破！",
+   "url": "https://finance.sina.com.cn/roll/2026-11-08/doc-inixzxsu3801211.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "演员张萌吐槽iPhone Duo：按键标识混乱，多款App存在适配问题",
+   "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixztks3564289.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "中国移动与智谱达成战略合作，涉AI算力、模型及应用落地等领域",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixzpas7009164.shtml",
    "source": "新浪科技"
@@ -575,21 +580,6 @@ var WB_DATA = {
   {
    "title": "直击进博会｜对话瑞士莲中国区CEO马征：中国已成为瑞士莲全球最重要的增长引擎之一",
    "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixzapa7384207.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "直击进博会|采购4.35万吨林业碳票用于进博会碳抵消，中国太保两项康养团体标准同步启动",
-   "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixzapa7371485.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "直击进博会|对话卡赫唐晓东：智能清洁赛道仍存在适配难、避障难问题",
-   "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixywfh4222349.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "直击进博会|优衣库谈上海全球旗舰店焕新：已落地大量本地文化内容，推出系列具有城市特色商品",
-   "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixyrxk4318148.shtml",
    "source": "新浪科技"
   }
  ]
