@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-08 11:56",
+ "updatedAt": "2026-11-08 19:26",
  "aihotHot": [
   {
    "rank": 1,
@@ -28,6 +28,14 @@ var WB_DATA = {
   },
   {
    "rank": 4,
+   "title": "Nous Research 微调 Qwen 推出 Arete-27B",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/nsy92pj0h1aiwvp0wdqkzb1cc",
+   "time": "11-08 12:45",
+   "sourceCount": 2
+  },
+  {
+   "rank": 5,
    "title": "Meta在Muse推出spaces并升级模型",
    "source": "Meta：Newsroom · AI（RSS）",
    "url": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv",
@@ -35,15 +43,15 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 5,
-   "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
-   "source": "Thinking Machines Lab：News（网页）",
-   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-   "time": "11-08 00:31",
-   "sourceCount": 4
+   "rank": 6,
+   "title": "GPT-6.1 Sol参与小鼠脑手术定位实验",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/uhi0dbgdjc32uma8nu41ftguf",
+   "time": "11-08 15:05",
+   "sourceCount": 1
   },
   {
-   "rank": 6,
+   "rank": 7,
    "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
@@ -51,7 +59,15 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 7,
+   "rank": 8,
+   "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
+   "source": "Thinking Machines Lab：News（网页）",
+   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
+   "time": "11-08 00:31",
+   "sourceCount": 3
+  },
+  {
+   "rank": 9,
    "title": "DeepSeek网页与API服务中断45分钟后恢复",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/ob3k2pi4okhhltmfxgkavfjod",
@@ -59,28 +75,12 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 8,
-   "title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/lq97h52ctxw2nkri4qqxj5lbx",
-   "time": "11-07 07:00",
-   "sourceCount": 2
-  },
-  {
-   "rank": 9,
-   "title": "台积电否认应英伟达请求生产3D DRAM",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/ok6du68ojk3bq7vtzt9xc7f7q",
-   "time": "11-08 06:18",
-   "sourceCount": 1
-  },
-  {
    "rank": 10,
-   "title": "Perplexity 推出 Teammates 工作智能体，Max 用户网页版先行",
-   "source": "X：Perplexity (@perplexity_ai)",
-   "url": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45",
-   "time": "11-08 07:32",
-   "sourceCount": 3
+   "title": "OpenAI 员工澄清 Pro 套餐无 5 小时限制及用量倍数",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/i0qylf97r1at94oogm9m3eg9l",
+   "time": "11-08 13:45",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
@@ -91,15 +91,6 @@ var WB_DATA = {
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
    "time": "11-08 01:37",
-   "category": "industry"
-  },
-  {
-   "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
-   "summary": "美国北卡罗来纳州一对夫妇起诉谷歌，其 13 岁女儿通过学校配发的 Chromebook 与 Gemini 和搜索 AI 模式进行数千条涉及自杀内容的交互。谷歌发言人表示正在审查指控，并称已将心理健康防护机制引入搜索 AI 功能。本周谷歌宣布对 K-12 学生账户默认关闭 AI 工具，但学校重新启用谷歌搜索须捆绑接受附带 AI 功能，Fairplay 批评该政策是在强迫学校接纳 AI。",
-   "reason": "诉讼细节与谷歌 K-12 默认关闭 AI 的附带条件并置，帮助读者看清校园 AI 安全争议中商业与政策的纠缠。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
-   "time": "11-07 17:16",
    "category": "industry"
   }
  ],
@@ -123,104 +114,89 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-08 11:56",
+   "updateTime": "2026-11-08 19:27",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "多地中小学延迟到校取消早读",
-     "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E5%9C%B0%E4%B8%AD%E5%B0%8F%E5%AD%A6%E5%BB%B6%E8%BF%9F%E5%88%B0%E6%A0%A1%E5%8F%96%E6%B6%88%E6%97%A9%E8%AF%BB",
-     "hot": 1167601
+     "title": "大连英博夺得中超冠军",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E8%BF%9E%E8%8B%B1%E5%8D%9A%E5%A4%BA%E5%BE%97%E4%B8%AD%E8%B6%85%E5%86%A0%E5%86%9B",
+     "hot": 1165531
     },
     {
-     "title": "最后一位开国将军王扶之逝世",
-     "url": "https://s.weibo.com/weibo?q=%E6%9C%80%E5%90%8E%E4%B8%80%E4%BD%8D%E5%BC%80%E5%9B%BD%E5%B0%86%E5%86%9B%E7%8E%8B%E6%89%B6%E4%B9%8B%E9%80%9D%E4%B8%96",
-     "hot": 849790
+     "title": "成都蓉城致歉",
+     "url": "https://s.weibo.com/weibo?q=%E6%88%90%E9%83%BD%E8%93%89%E5%9F%8E%E8%87%B4%E6%AD%89",
+     "hot": 1159490
     },
     {
-     "title": "今天第27个中国记者节",
-     "url": "https://s.weibo.com/weibo?q=%E4%BB%8A%E5%A4%A9%E7%AC%AC27%E4%B8%AA%E4%B8%AD%E5%9B%BD%E8%AE%B0%E8%80%85%E8%8A%82",
-     "hot": 660805
+     "title": "铸牢共同体中华一家亲",
+     "url": "https://s.weibo.com/weibo?q=%E9%93%B8%E7%89%A2%E5%85%B1%E5%90%8C%E4%BD%93%E4%B8%AD%E5%8D%8E%E4%B8%80%E5%AE%B6%E4%BA%B2",
+     "hot": 1144872
     },
     {
-     "title": "厉娜回复了于正求情",
-     "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E5%9B%9E%E5%A4%8D%E4%BA%86%E4%BA%8E%E6%AD%A3%E6%B1%82%E6%83%85",
-     "hot": 602084
+     "title": "张艺谋问谁还进电影院",
+     "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%89%BA%E8%B0%8B%E9%97%AE%E8%B0%81%E8%BF%98%E8%BF%9B%E7%94%B5%E5%BD%B1%E9%99%A2",
+     "hot": 1130341
     },
     {
-     "title": "黄焖鸡事变",
-     "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E7%84%96%E9%B8%A1%E4%BA%8B%E5%8F%98",
-     "hot": 577654
+     "title": "我国新一代光刻机模型亮相",
+     "url": "https://s.weibo.com/weibo?q=%E6%88%91%E5%9B%BD%E6%96%B0%E4%B8%80%E4%BB%A3%E5%85%89%E5%88%BB%E6%9C%BA%E6%A8%A1%E5%9E%8B%E4%BA%AE%E7%9B%B8",
+     "hot": 1119085
     },
     {
-     "title": "外国人不理解中国人不用邮件办公",
-     "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%B8%8D%E7%90%86%E8%A7%A3%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%8D%E7%94%A8%E9%82%AE%E4%BB%B6%E5%8A%9E%E5%85%AC",
-     "hot": 543084
+     "title": "大三男生做AI漫剧营收超300万",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E4%B8%89%E7%94%B7%E7%94%9F%E5%81%9AAI%E6%BC%AB%E5%89%A7%E8%90%A5%E6%94%B6%E8%B6%85300%E4%B8%87",
+     "hot": 1105703
     },
     {
-     "title": "TheShy评分",
-     "url": "https://s.weibo.com/weibo?q=TheShy%E8%AF%84%E5%88%86",
-     "hot": 432134
+     "title": "母亲讲述2岁幼童烫伤死亡过程",
+     "url": "https://s.weibo.com/weibo?q=%E6%AF%8D%E4%BA%B2%E8%AE%B2%E8%BF%B02%E5%B2%81%E5%B9%BC%E7%AB%A5%E7%83%AB%E4%BC%A4%E6%AD%BB%E4%BA%A1%E8%BF%87%E7%A8%8B",
+     "hot": 1095746
     },
     {
-     "title": "后会友期 恰逢各个圈子都很闲",
-     "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%20%E6%81%B0%E9%80%A2%E5%90%84%E4%B8%AA%E5%9C%88%E5%AD%90%E9%83%BD%E5%BE%88%E9%97%B2",
-     "hot": 399916
+     "title": "我的缺点在AI时代变成了优势",
+     "url": "https://s.weibo.com/weibo?q=%E6%88%91%E7%9A%84%E7%BC%BA%E7%82%B9%E5%9C%A8AI%E6%97%B6%E4%BB%A3%E5%8F%98%E6%88%90%E4%BA%86%E4%BC%98%E5%8A%BF",
+     "hot": 1083275
     },
     {
-     "title": "青稚删除让他别和白小纯和好的回复",
-     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%88%A0%E9%99%A4%E8%AE%A9%E4%BB%96%E5%88%AB%E5%92%8C%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%92%8C%E5%A5%BD%E7%9A%84%E5%9B%9E%E5%A4%8D",
-     "hot": 359160
+     "title": "中超不罚分积分榜",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E8%B6%85%E4%B8%8D%E7%BD%9A%E5%88%86%E7%A7%AF%E5%88%86%E6%A6%9C",
+     "hot": 1078967
     },
     {
-     "title": "iG队史首次在世界赛BO5不敌韩国队",
-     "url": "https://s.weibo.com/weibo?q=iG%E9%98%9F%E5%8F%B2%E9%A6%96%E6%AC%A1%E5%9C%A8%E4%B8%96%E7%95%8C%E8%B5%9BBO5%E4%B8%8D%E6%95%8C%E9%9F%A9%E5%9B%BD%E9%98%9F",
-     "hot": 301851
+     "title": "中超",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E8%B6%85",
+     "hot": 1067608
     },
     {
-     "title": "小糯米听到刘恺威有新女友的反应",
-     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B3%AF%E7%B1%B3%E5%90%AC%E5%88%B0%E5%88%98%E6%81%BA%E5%A8%81%E6%9C%89%E6%96%B0%E5%A5%B3%E5%8F%8B%E7%9A%84%E5%8F%8D%E5%BA%94",
-     "hot": 301780
+     "title": "小糯米才12岁",
+     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B3%AF%E7%B1%B3%E6%89%8D12%E5%B2%81",
+     "hot": 1052433
     },
     {
-     "title": "青稚前女友",
-     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%89%8D%E5%A5%B3%E5%8F%8B",
-     "hot": 300373
+     "title": "曝12岁小糯米英国留学",
+     "url": "https://s.weibo.com/weibo?q=%E6%9B%9D12%E5%B2%81%E5%B0%8F%E7%B3%AF%E7%B1%B3%E8%8B%B1%E5%9B%BD%E7%95%99%E5%AD%A6",
+     "hot": 1045530
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-08 11:56",
+   "updateTime": "2026-11-08 19:27",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "S16 半决赛 GEN 3:0 淘汰 iG 晋级决赛，如何评价这场比赛？",
-     "url": "https://www.zhihu.com/question/2102631107258750557",
+     "title": "中超第 30 轮，大连英博 3-1 天津津门虎，完成史诗大逆转夺冠，如何评价本场比赛？",
+     "url": "https://www.zhihu.com/question/2102756878681727388",
      "hot": ""
     },
     {
-     "title": "广州多名小学生家长反映，孩子在校园周边小卖部签名即可赊账买零食，有学生月赊超千元，店家的做法合法吗？",
-     "url": "https://www.zhihu.com/question/2102366518650718030",
+     "title": "中超第 30 轮，成都蓉城 2-3 山东鲁能，煮熟的冠军长翅膀飞了，如何评价本场比赛？",
+     "url": "https://www.zhihu.com/question/2102757136396546992",
      "hot": ""
     },
     {
-     "title": "中国空间站将迎首位外籍航天员，巴基斯坦载荷专家参加神舟二十四号任务，具有哪些意义？",
-     "url": "https://www.zhihu.com/question/2102344635867559303",
-     "hot": ""
-    },
-    {
-     "title": "浙江男子11元拍走鹤岗60多平房屋，还会有隐性成本吗？你要是拍到了准备怎么处理这套房子？",
-     "url": "https://www.zhihu.com/question/2102128288269444292",
-     "hot": ""
-    },
-    {
-     "title": "iG 不敌 GEN 止步 S16 四强，如何评价iG在本场比赛的表现？到底输在哪？",
-     "url": "https://www.zhihu.com/question/2102683385902491512",
-     "hot": ""
-    },
-    {
-     "title": "为什么我们要保护并不稀有的麻雀？",
-     "url": "https://www.zhihu.com/question/2098747939841652056",
+     "title": "优酷被指在剧中插入占1/3屏幕，持续10秒的巨大广告，其回应可快进或自行关闭，你怎么看这种弹幕广告？",
+     "url": "https://www.zhihu.com/question/2102464702701725670",
      "hot": ""
     },
     {
@@ -229,18 +205,33 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "WTT法兰克福冠军赛，陈熠0-4温特，无缘四强，国乒女单在本届比赛无一人晋级四强，如何评价她们的表现？",
-     "url": "https://www.zhihu.com/question/2102617523174782321",
+     "title": "成都蓉城本赛季丢冠的逆天程度在世界体育史上能排到什么水平？",
+     "url": "https://www.zhihu.com/question/2102814330005856324",
      "hot": ""
     },
     {
-     "title": "为什么说健身房练完后器械上面的杠铃片要归位？",
-     "url": "https://www.zhihu.com/question/470350250",
+     "title": "中国短剧霸榜全球，百强榜拿下82席，下载收入包揽前三，美国付费，东南亚、拉美冲量，还有多久红利期？",
+     "url": "https://www.zhihu.com/question/2102423958968653820",
      "hot": ""
     },
     {
-     "title": "东风-61 已列装到火箭军，这意味着什么？",
-     "url": "https://www.zhihu.com/question/2101952535791718620",
+     "title": "54 岁大哥自学AI短剧登顶红果榜，团队成员一年还清债务，普通人真能靠AI翻身吗？有啥值得借鉴的思路？",
+     "url": "https://www.zhihu.com/question/2102042636320298288",
+     "hot": ""
+    },
+    {
+     "title": "如何评价 TheShy 在 S16 全球总决赛上的综合表现？",
+     "url": "https://www.zhihu.com/question/2102684053056872601",
+     "hot": ""
+    },
+    {
+     "title": "卡夫卡为什么要在临死前让好友把他未发表的作品全部销毁？",
+     "url": "https://www.zhihu.com/question/19898892",
+     "hot": ""
+    },
+    {
+     "title": "为什么只有牛排分几分熟，而鸡肉、猪肉都要吃全熟呢？",
+     "url": "https://www.zhihu.com/question/11494521022",
      "hot": ""
     },
     {
@@ -249,8 +240,8 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "温瑞博0-4林昀儒，无缘法兰克福冠军赛男单4强，如何评价本场比赛？",
-     "url": "https://www.zhihu.com/question/2102532401465398179",
+     "title": "如何看待广州一公司控告多名员工因降薪而工作懈怠，导致公司结业？",
+     "url": "https://www.zhihu.com/question/2101996437701768493",
      "hot": ""
     }
    ]
@@ -458,68 +449,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-08 11:56",
+   "updateTime": "2026-11-08 19:27",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "那天在丹霞山是在爬不动了，于是坐了人力轿子......",
-     "url": "https://www.bilibili.com/video/BV1KD4E6KEN9",
-     "hot": 764717
+     "title": "《崩坏：星穹铁道》星神★阿哈角色PV——「让骰子飞」",
+     "url": "https://www.bilibili.com/video/BV1tS4n6CEoJ",
+     "hot": 3104887
     },
     {
-     "title": "人类饲养指南",
-     "url": "https://www.bilibili.com/video/BV1Cn4n6YE29",
-     "hot": 608999
+     "title": "到底是谁在说500万以内最好的SUV啊？",
+     "url": "https://www.bilibili.com/video/BV1Yv4t6TEhM",
+     "hot": 1076613
     },
     {
-     "title": "星河流动",
-     "url": "https://www.bilibili.com/video/BV1LM4L6TE3V",
-     "hot": 2450791
+     "title": "【独家】牧神记 第108集 相逢何必曾相识",
+     "url": "https://www.bilibili.com/video/BV1xt476wEp7",
+     "hot": 1682409
     },
     {
-     "title": "⚡弟子扫荡异界诡校⚡",
-     "url": "https://www.bilibili.com/video/BV17s486QERM",
-     "hot": 616112
+     "title": "“这是给孩子的，不是给你的”",
+     "url": "https://www.bilibili.com/video/BV1Wx4i6LEmf",
+     "hot": 3555204
     },
     {
-     "title": "如何评价“罪在当代，功在千秋？”这句话？",
-     "url": "https://www.bilibili.com/video/BV1kJ4E6xEan",
-     "hot": 575482
+     "title": "【STN快报第8.5季26】罪恶都市的公交车也罪恶一点很合理吧",
+     "url": "https://www.bilibili.com/video/BV1tEW764E8D",
+     "hot": 139595
     },
     {
-     "title": "小睦遇到一只跟她长得很像的大肥鱼",
-     "url": "https://www.bilibili.com/video/BV1Yg4i6xEEt",
-     "hot": 1599303
+     "title": "出现在餐桌上的清明上河图",
+     "url": "https://www.bilibili.com/video/BV1so4E6cEGi",
+     "hot": 998937
+    },
+    {
+     "title": "欢迎来到实力至上主义校园",
+     "url": "https://www.bilibili.com/video/BV1nx4n6cEst",
+     "hot": 518598
+    },
+    {
+     "title": "不愧是能开进国宾馆的自助，真的什么都有",
+     "url": "https://www.bilibili.com/video/BV13Dxt6AEDh",
+     "hot": 1368228
     },
     {
      "title": "S赛怀旧金曲《BLG带带我》",
      "url": "https://www.bilibili.com/video/BV1mK4E6NE82",
-     "hot": 561755
+     "hot": 1257036
     },
     {
-     "title": "10月26号生日啦 生日时拍的 可能是我比较懒吧 现在才发#cos不还原致谦一切 #自设cos #日常 #cos",
-     "url": "https://www.bilibili.com/video/BV198456AE5S",
-     "hot": 442640
-    },
-    {
-     "title": "火柴人 VS 动画师 第十四集 黑暗时代（The Dark Age）",
-     "url": "https://www.bilibili.com/video/BV1Z24J6dEBk",
-     "hot": 646476
-    },
-    {
-     "title": "【纪录片】威尔史密斯的极地纵横 06中配版 北极点",
-     "url": "https://www.bilibili.com/video/BV1oUn26mEHP",
-     "hot": 508077
+     "title": "人类饲养指南",
+     "url": "https://www.bilibili.com/video/BV1Cn4n6YE29",
+     "hot": 1635877
     },
     {
      "title": "《完美婚礼》",
      "url": "https://www.bilibili.com/video/BV1Xi4z6NEr2",
-     "hot": 793063
+     "hot": 1424404
     },
     {
-     "title": "农村大片! 大战外星人! 好莱坞都不敢这么拍",
-     "url": "https://www.bilibili.com/video/BV11S4z6xEpc",
-     "hot": 970072
+     "title": "【2026全球总决赛】11月8日 IG vs GEN",
+     "url": "https://www.bilibili.com/video/BV1ua4W6XEJd",
+     "hot": 3085519
     }
    ]
   }
@@ -572,6 +563,26 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "中国移动与智谱达成战略合作，涉AI算力、模型及应用落地等领域",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-08/doc-inixzpas7009164.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "“技术推出得太早！” 奔驰承认L3自动驾驶太超前，中国车主嘲讽“难用”，季度销量暴跌31%",
+   "url": "https://finance.sina.com.cn/nextauto/2026-11-08/doc-inixzhva4089373.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "直击进博会｜对话瑞士莲中国区CEO马征：中国已成为瑞士莲全球最重要的增长引擎之一",
+   "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixzapa7384207.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "直击进博会|采购4.35万吨林业碳票用于进博会碳抵消，中国太保两项康养团体标准同步启动",
+   "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixzapa7371485.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "直击进博会|对话卡赫唐晓东：智能清洁赛道仍存在适配难、避障难问题",
    "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixywfh4222349.shtml",
    "source": "新浪科技"
@@ -579,26 +590,6 @@ var WB_DATA = {
   {
    "title": "直击进博会|优衣库谈上海全球旗舰店焕新：已落地大量本地文化内容，推出系列具有城市特色商品",
    "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixyrxk4318148.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "看国风IP出海，探AI城市治理！这场“她聚力”企业交流干货满满",
-   "url": "https://finance.sina.com.cn/wm/2026-11-08/doc-inixyrxe3993714.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "直击进博会｜对话博世舒适科技关宇：AI的融入不仅是生产力的提升，更是生产关系的改变",
-   "url": "https://finance.sina.com.cn/chanjing/cyxw/2026-11-07/doc-inixxqmq7840049.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "直击进博会|飞利浦九赴进博，携七大个护核心产品线集中亮相",
-   "url": "https://finance.sina.com.cn/world/gjcj/2026-11-07/doc-inixxcvy8177863.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "直击进博会|为脑机接口精准“导航”，西门子医疗展示行业首款超高梯度磁共振设备",
-   "url": "https://finance.sina.com.cn/world/gjcj/2026-11-07/doc-inixxcwa4933176.shtml",
    "source": "新浪科技"
   }
  ]
