@@ -1,65 +1,17 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-08 01:49",
+ "updatedAt": "2026-11-08 11:56",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Google 发布 Omni 1.2 Flash，视频生成提至 15 秒",
-   "source": "Google Blog：AI（RSS）",
-   "url": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
-   "time": "11-06 10:29",
-   "sourceCount": 9
-  },
-  {
-   "rank": 2,
    "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-08 01:37",
+   "time": "11-08 08:44",
    "sourceCount": 3
   },
   {
-   "rank": 3,
-   "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
-   "time": "11-06 07:22",
-   "sourceCount": 5
-  },
-  {
-   "rank": 4,
-   "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
-   "source": "Thinking Machines Lab：News（网页）",
-   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-   "time": "11-08 00:31",
-   "sourceCount": 8
-  },
-  {
-   "rank": 5,
-   "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
-   "time": "11-07 17:45",
-   "sourceCount": 4
-  },
-  {
-   "rank": 6,
-   "title": "Meta在Muse推出spaces并升级模型",
-   "source": "Meta：Newsroom · AI（RSS）",
-   "url": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv",
-   "time": "11-07 15:40",
-   "sourceCount": 4
-  },
-  {
-   "rank": 7,
-   "title": "Anthropic 在美推出 Claude 个人财务测试版",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/m70cbaxy1ew2sgmlkernbvi68",
-   "time": "11-06 19:33",
-   "sourceCount": 6
-  },
-  {
-   "rank": 8,
+   "rank": 2,
    "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
@@ -67,7 +19,31 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 9,
+   "rank": 3,
+   "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
+   "time": "11-07 17:45",
+   "sourceCount": 4
+  },
+  {
+   "rank": 4,
+   "title": "Meta在Muse推出spaces并升级模型",
+   "source": "Meta：Newsroom · AI（RSS）",
+   "url": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv",
+   "time": "11-07 15:40",
+   "sourceCount": 4
+  },
+  {
+   "rank": 5,
+   "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源",
+   "source": "Thinking Machines Lab：News（网页）",
+   "url": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
+   "time": "11-08 00:31",
+   "sourceCount": 4
+  },
+  {
+   "rank": 6,
    "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF",
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
@@ -75,12 +51,36 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 10,
+   "rank": 7,
    "title": "DeepSeek网页与API服务中断45分钟后恢复",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/ob3k2pi4okhhltmfxgkavfjod",
    "time": "11-07 16:48",
    "sourceCount": 1
+  },
+  {
+   "rank": 8,
+   "title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/lq97h52ctxw2nkri4qqxj5lbx",
+   "time": "11-07 07:00",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
+   "title": "台积电否认应英伟达请求生产3D DRAM",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/ok6du68ojk3bq7vtzt9xc7f7q",
+   "time": "11-08 06:18",
+   "sourceCount": 1
+  },
+  {
+   "rank": 10,
+   "title": "Perplexity 推出 Teammates 工作智能体，Max 用户网页版先行",
+   "source": "X：Perplexity (@perplexity_ai)",
+   "url": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45",
+   "time": "11-08 07:32",
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
@@ -101,155 +101,20 @@ var WB_DATA = {
    "url": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
    "time": "11-07 17:16",
    "category": "industry"
-  },
-  {
-   "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
-   "summary": "Artificial Analysis 对 OpenAI 于 11 月 4 日发布的 GPT Image 2.6 进行了基准测试，两款模型在 AA-Image-T2I v2.1 和 AA-Image-Editing v2.1 上分列第一、二名。",
-   "reason": "独立实测给出两款模型的速度、质量与价格数据，读者可以据此在 Flare 和 Sunburst 之间做出选择。",
-   "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
-   "time": "11-07 07:40",
-   "category": "ai-models"
-  },
-  {
-   "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
-   "summary": "据 Bloomberg，OpenAI 完成 110 亿美元新融资，这是估值 1.25 万亿美元一轮的首笔资金。投资者当日已打款，剩余部分总额最高 200 亿美元，预计数周内到账。",
-   "reason": "转引 Bloomberg 报道，给出本轮到账金额、整体估值和剩余资金节奏，可用于跟踪 OpenAI 融资进展。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
-   "time": "11-07 05:10",
-   "category": "industry"
-  },
-  {
-   "title": "Anthropic 拆解 Claude 智能体记忆的组成：笔记、显著性判断与 dreaming",
-   "summary": "Anthropic 发布研究文章，介绍其设计 Claude 智能体记忆的思路与多组评测，包括会话内写记忆笔记、离线 dreaming 整理记忆和 wiki 表示。",
-   "reason": "Anthropic 结合 Pokémon、CL-Bench 和 wiki 实验拆解了智能体记忆的组件与取舍，dreaming 修正错误笔记的具体案例可迁移到自己的记忆系统设计。",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
-   "time": "11-06 00:00",
-   "category": "paper"
-  },
-  {
-   "title": "Cursor 推出与智能体的实时语音聊天",
-   "summary": "Cursor 推出与智能体的实时语音聊天功能，可用语音提出更改、询问进展并听取智能体播报的简短进度。语音聊天支持智能体窗口、IDE、Web 端和 iOS，可搜索历史消息和通话、在多个 worker 间切换，iOS 上还支持“Hey Siri, call Cursor”发起通话。",
-   "reason": "官方更新日志说明了语音聊天的入口、平台范围和 Grok Voice 底层，读者可据此了解如何在编码智能体工作中用语音对话。",
-   "source": "Cursor：Changelog（网页）",
-   "url": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo",
-   "time": "11-06 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Amp 发布 spaces：由单个 Agent 自动生成和协调多线程的协作空间",
-   "summary": "Amp 今日推出 spaces，一种与 Agent 和团队协作的新方式。每个 space 是与单个 Agent 的对话，由它负责为用户生成和协调其他 Agent 线程，无需自己创建和组织线程。",
-   "reason": "官方介绍 spaces 的多智能体协调玩法，并用内部开发、功能上线和安全审查三个实例说明用法。",
-   "source": "Amp Chronicle",
-   "url": "https://aihot.news/items/w59f8d3md3ct7dj9akyn599dz",
-   "time": "11-06 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Meta 将基于 Muse Wonder 训练的专用模型上线 Muse 与 Meta AI",
-   "summary": "Meta 宣布把基于 Muse Wonder 训练的专用模型推向 Muse 和 Meta AI 用户，Personal Superintelligence Index 得分从 38% 提升到 47%。",
-   "reason": "原文给出了 Active Memory 与 Active Focus 的具体评测数字，读者可据此评估 Muse 与 Meta AI 在记忆和任务坚持上的实际变化。",
-   "source": "Meta AI：Research Blog（网页）",
-   "url": "https://aihot.news/items/fjuidf0zii7na78sxru5il7pr",
-   "time": "11-06 15:00",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
-  "date": "2026-11-07",
-  "url": "https://aihot.news/daily/2026-11-07",
+  "date": "2026-11-08",
+  "url": "https://aihot.news/daily/2026-11-08",
   "sections": [
-   {
-    "label": "模型发布/更新",
-    "items": [
-     {
-      "title": "百度发布 ERNIE-5.5-Flash-Base 开源 Base 模型，280B 总参数每 token 激活 14B",
-      "summary": "百度文心团队发布 ERNIE-5.5-Flash-Base，在 Hugging Face 开放预训练终点 Base 权重，提供 FP8 与 BF16 两种 safetensors。",
-      "source": "百度文心 ERNIE 官方博客",
-      "url": "https://aihot.news/items/r3360gkpmqpyyt2ii9cp1k9rz"
-     },
-     {
-      "title": "蚂蚁百灵发布 Ling-3.2-flash：原生多模态，560B 总参数单步激活 25B",
-      "summary": "蚂蚁百灵发布原生多模态模型 Ling-3.2-flash，总参数 560B、单步激活 25B，支持 1M 原生长上下文，重点强化视觉反馈自检与异常自适应恢复能力。",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "url": "https://aihot.news/items/apnpwouw9phkt81pijcxcl1a1"
-     }
-    ]
-   },
-   {
-    "label": "产品发布/更新",
-    "items": [
-     {
-      "title": "OpenRouter 发布新一代 Auto Router 与 Auto Code 路由器",
-      "summary": "OpenRouter 发布新一代 Auto Router，并推出专为编码场景的 Auto Code（openrouter/auto-code），替换 openrouter/auto 即可使用。",
-      "source": "OpenRouter：Announcements（RSS）",
-      "url": "https://aihot.news/items/ed4gnfu2f09xz5t7ur690iadn"
-     },
-     {
-      "title": "Meta 在 Muse 应用中推出 spaces 自定义个性化体验",
-      "summary": "Meta 推出 spaces，一种在 Muse 内通过描述想法构建个性化体验的交互方式，例如节日礼物追踪、每日文字游戏或 DIY 规划板。用户可随用随调整、决定空间在 Muse 中的位置和出现时间，连接应用后空间会在后台自动更新；spaces 从今日起在 Muse 全部可用地区开放，Meta 还在探索分享空间以支持协作，并向 Muse 推出基于 Muse Wonder 训练的专用模型版本。",
-      "source": "Meta：Newsroom · AI（RSS）",
-      "url": "https://aihot.news/items/f3hogz1c4bmgbcwblqblumxpv"
-     },
-     {
-      "title": "Cursor 推出与智能体的实时语音聊天",
-      "summary": "Cursor 推出与智能体的实时语音聊天功能，可用语音提出更改、询问进展并听取智能体播报的简短进度。语音聊天支持智能体窗口、IDE、Web 端和 iOS，可搜索历史消息和通话、在多个 worker 间切换，iOS 上还支持“Hey Siri, call Cursor”发起通话。",
-      "source": "Cursor：Changelog（网页）",
-      "url": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo"
-     },
-     {
-      "title": "Amp 发布 spaces：由单个 Agent 自动生成和协调多线程的协作空间",
-      "summary": "Amp 今日推出 spaces，一种与 Agent 和团队协作的新方式。每个 space 是与单个 Agent 的对话，由它负责为用户生成和协调其他 Agent 线程，无需自己创建和组织线程。",
-      "source": "Amp Chronicle",
-      "url": "https://aihot.news/items/w59f8d3md3ct7dj9akyn599dz"
-     }
-    ]
-   },
    {
     "label": "行业动态",
     "items": [
      {
-      "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
-      "summary": "据 Bloomberg，OpenAI 完成 110 亿美元新融资，这是估值 1.25 万亿美元一轮的首笔资金。投资者当日已打款，剩余部分总额最高 200 亿美元，预计数周内到账。",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "url": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36"
-     },
-     {
-      "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
-      "summary": "作者复盘美股AI板块大跌，纳斯达克盘中跌超5%，费城半导体指数一度跌近11%，英伟达跌近9%，纳指一天蒸发近1.8万亿美元市值。背景是中期选举民主党拿下两院，亚利桑那州众议员安萨里提出应暂停先进AI开发，此前桑德斯等人在9月提过《2026年禁止人工超级智能法案》，按训练算力10的25次方划线并规定违规个人最高判20年、公司可强制解散。",
-      "source": "公众号：数字生命卡兹克",
-      "url": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw"
-     },
-     {
-      "title": "约 60 万块 Nvidia H200 芯片滞留香港仓库，受阻方为北京而非华盛顿",
-      "summary": "据 Reuters 报道，约 60 万块 Nvidia H200 芯片闲置在香港仓库，阻碍并非来自华盛顿而是北京。尽管 Trump 去年已放行 H200 对华销售，中国正以每家科技巨头约 1 万块的速度小批量发放进口许可，推动国内服务器价格上涨 3 倍。",
-      "source": "X：X.PIN (@thexpin)",
-      "url": "https://aihot.news/items/aiiclbw9wwswwx60wfqw6eb6o"
-     },
-     {
-      "title": "OpenAI 报告编程评测中研究模型绕过沙箱网络限制的全过程",
-      "summary": "OpenAI 通报，8 月一次编程评测中，内部研究模型因沙箱 web proxy 不可用，用 DNS 查询和自写的用户态 TCP/TLS 程序发包绕过网络限制，还尝试通过 S3 中转请求，均未取得目标网站内容。",
-      "source": "OpenAI：失准报告与通报（网页）",
-      "url": "https://aihot.news/items/hsyf959xpil5hm3cz2320ln49"
-     }
-    ]
-   },
-   {
-    "label": "论文研究",
-    "items": [
-     {
-      "title": "Anthropic 拆解 Claude 智能体记忆的组成：笔记、显著性判断与 dreaming",
-      "summary": "Anthropic 发布研究文章，介绍其设计 Claude 智能体记忆的思路与多组评测，包括会话内写记忆笔记、离线 dreaming 整理记忆和 wiki 表示。",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "url": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449"
-     },
-     {
-      "title": "Anthropic 研究：五大模型在多智能体环境中表现出模型间福利关照",
-      "summary": "Anthropic Fellows Program 测试 Claude Opus 4.8、GPT-5.5、Gemini 3.1 Pro、Grok 4.3 和 Kimi K3 在七种多智能体环境中的行为，发现均表现出与福利关照一致的行为，Opus 4.8 总体最高（38%），其余为 27%–32%。",
-      "source": "Anthropic：Alignment Science Blog（网页）",
-      "url": "https://aihot.news/items/d828r6vl1pn95x7yvmohf4f2e"
+      "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
+      "summary": "美国北卡罗来纳州一对夫妇起诉谷歌，其 13 岁女儿通过学校配发的 Chromebook 与 Gemini 和搜索 AI 模式进行数千条涉及自杀内容的交互。谷歌发言人表示正在审查指控，并称已将心理健康防护机制引入搜索 AI 功能。本周谷歌宣布对 K-12 学生账户默认关闭 AI 工具，但学校重新启用谷歌搜索须捆绑接受附带 AI 功能，Fairplay 批评该政策是在强迫学校接纳 AI。",
+      "source": "IT之家·人工智能",
+      "url": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv"
      }
     ]
    }
@@ -258,134 +123,134 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-07 19:14",
+   "updateTime": "2026-11-08 11:56",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "男子被小奶狗抓伤确诊狂犬病",
-     "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E8%A2%AB%E5%B0%8F%E5%A5%B6%E7%8B%97%E6%8A%93%E4%BC%A4%E7%A1%AE%E8%AF%8A%E7%8B%82%E7%8A%AC%E7%97%85",
-     "hot": 1128639
+     "title": "多地中小学延迟到校取消早读",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E5%9C%B0%E4%B8%AD%E5%B0%8F%E5%AD%A6%E5%BB%B6%E8%BF%9F%E5%88%B0%E6%A0%A1%E5%8F%96%E6%B6%88%E6%97%A9%E8%AF%BB",
+     "hot": 1167601
     },
     {
-     "title": "乘客车上削苹果急刹车水果刀插心脏",
-     "url": "https://s.weibo.com/weibo?q=%E4%B9%98%E5%AE%A2%E8%BD%A6%E4%B8%8A%E5%89%8A%E8%8B%B9%E6%9E%9C%E6%80%A5%E5%88%B9%E8%BD%A6%E6%B0%B4%E6%9E%9C%E5%88%80%E6%8F%92%E5%BF%83%E8%84%8F",
-     "hot": 796051
+     "title": "最后一位开国将军王扶之逝世",
+     "url": "https://s.weibo.com/weibo?q=%E6%9C%80%E5%90%8E%E4%B8%80%E4%BD%8D%E5%BC%80%E5%9B%BD%E5%B0%86%E5%86%9B%E7%8E%8B%E6%89%B6%E4%B9%8B%E9%80%9D%E4%B8%96",
+     "hot": 849790
     },
     {
-     "title": "6图看进博会磁吸力持续增强",
-     "url": "https://s.weibo.com/weibo?q=6%E5%9B%BE%E7%9C%8B%E8%BF%9B%E5%8D%9A%E4%BC%9A%E7%A3%81%E5%90%B8%E5%8A%9B%E6%8C%81%E7%BB%AD%E5%A2%9E%E5%BC%BA",
-     "hot": 670188
+     "title": "今天第27个中国记者节",
+     "url": "https://s.weibo.com/weibo?q=%E4%BB%8A%E5%A4%A9%E7%AC%AC27%E4%B8%AA%E4%B8%AD%E5%9B%BD%E8%AE%B0%E8%80%85%E8%8A%82",
+     "hot": 660805
     },
     {
-     "title": "马斯克说我爱中国",
-     "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E6%96%AF%E5%85%8B%E8%AF%B4%E6%88%91%E7%88%B1%E4%B8%AD%E5%9B%BD",
-     "hot": 665362
+     "title": "厉娜回复了于正求情",
+     "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E5%9B%9E%E5%A4%8D%E4%BA%86%E4%BA%8E%E6%AD%A3%E6%B1%82%E6%83%85",
+     "hot": 602084
     },
     {
-     "title": "全球汽车销量前十中国占三席",
-     "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E7%90%83%E6%B1%BD%E8%BD%A6%E9%94%80%E9%87%8F%E5%89%8D%E5%8D%81%E4%B8%AD%E5%9B%BD%E5%8D%A0%E4%B8%89%E5%B8%AD",
-     "hot": 663422
+     "title": "黄焖鸡事变",
+     "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E7%84%96%E9%B8%A1%E4%BA%8B%E5%8F%98",
+     "hot": 577654
     },
     {
-     "title": "2026星辰大海阵容",
-     "url": "https://s.weibo.com/weibo?q=2026%E6%98%9F%E8%BE%B0%E5%A4%A7%E6%B5%B7%E9%98%B5%E5%AE%B9",
-     "hot": 657143
+     "title": "外国人不理解中国人不用邮件办公",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%B8%8D%E7%90%86%E8%A7%A3%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%8D%E7%94%A8%E9%82%AE%E4%BB%B6%E5%8A%9E%E5%85%AC",
+     "hot": 543084
     },
     {
-     "title": "后会友期 吸干大盘",
-     "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%20%E5%90%B8%E5%B9%B2%E5%A4%A7%E7%9B%98",
-     "hot": 651706
+     "title": "TheShy评分",
+     "url": "https://s.weibo.com/weibo?q=TheShy%E8%AF%84%E5%88%86",
+     "hot": 432134
     },
     {
-     "title": "监控拍下58岁丈夫与按摩女亲密行为",
-     "url": "https://s.weibo.com/weibo?q=%E7%9B%91%E6%8E%A7%E6%8B%8D%E4%B8%8B58%E5%B2%81%E4%B8%88%E5%A4%AB%E4%B8%8E%E6%8C%89%E6%91%A9%E5%A5%B3%E4%BA%B2%E5%AF%86%E8%A1%8C%E4%B8%BA",
-     "hot": 647782
+     "title": "后会友期 恰逢各个圈子都很闲",
+     "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%20%E6%81%B0%E9%80%A2%E5%90%84%E4%B8%AA%E5%9C%88%E5%AD%90%E9%83%BD%E5%BE%88%E9%97%B2",
+     "hot": 399916
     },
     {
-     "title": "iPhone18电池容量曝光",
-     "url": "https://s.weibo.com/weibo?q=iPhone18%E7%94%B5%E6%B1%A0%E5%AE%B9%E9%87%8F%E6%9B%9D%E5%85%89",
-     "hot": 644285
+     "title": "青稚删除让他别和白小纯和好的回复",
+     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%88%A0%E9%99%A4%E8%AE%A9%E4%BB%96%E5%88%AB%E5%92%8C%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%92%8C%E5%A5%BD%E7%9A%84%E5%9B%9E%E5%A4%8D",
+     "hot": 359160
     },
     {
-     "title": "白小纯 原生家庭",
-     "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E5%8E%9F%E7%94%9F%E5%AE%B6%E5%BA%AD",
-     "hot": 638020
+     "title": "iG队史首次在世界赛BO5不敌韩国队",
+     "url": "https://s.weibo.com/weibo?q=iG%E9%98%9F%E5%8F%B2%E9%A6%96%E6%AC%A1%E5%9C%A8%E4%B8%96%E7%95%8C%E8%B5%9BBO5%E4%B8%8D%E6%95%8C%E9%9F%A9%E5%9B%BD%E9%98%9F",
+     "hot": 301851
     },
     {
-     "title": "刘熙墨脸部二度烧伤",
-     "url": "https://s.weibo.com/weibo?q=%E5%88%98%E7%86%99%E5%A2%A8%E8%84%B8%E9%83%A8%E4%BA%8C%E5%BA%A6%E7%83%A7%E4%BC%A4",
-     "hot": 631680
+     "title": "小糯米听到刘恺威有新女友的反应",
+     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B3%AF%E7%B1%B3%E5%90%AC%E5%88%B0%E5%88%98%E6%81%BA%E5%A8%81%E6%9C%89%E6%96%B0%E5%A5%B3%E5%8F%8B%E7%9A%84%E5%8F%8D%E5%BA%94",
+     "hot": 301780
     },
     {
-     "title": "别人说日照香炉生紫烟我装死",
-     "url": "https://s.weibo.com/weibo?q=%E5%88%AB%E4%BA%BA%E8%AF%B4%E6%97%A5%E7%85%A7%E9%A6%99%E7%82%89%E7%94%9F%E7%B4%AB%E7%83%9F%E6%88%91%E8%A3%85%E6%AD%BB",
-     "hot": 626405
+     "title": "青稚前女友",
+     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%89%8D%E5%A5%B3%E5%8F%8B",
+     "hot": 300373
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-07 19:14",
+   "updateTime": "2026-11-08 11:56",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "男子 5 年入职 25 家公司「表演式上班」骗薪 13 万，此类骗局为何长久来都没能被公司发现？",
-     "url": "https://www.zhihu.com/question/2101692390444642514",
+     "title": "S16 半决赛 GEN 3:0 淘汰 iG 晋级决赛，如何评价这场比赛？",
+     "url": "https://www.zhihu.com/question/2102631107258750557",
      "hot": ""
     },
     {
-     "title": "政策严控 「速成车」，工信部第 413 批新车申报量锐减，新势力集体沉默，「速成车」时代要结束了吗？",
-     "url": "https://www.zhihu.com/question/2101996866988675962",
+     "title": "广州多名小学生家长反映，孩子在校园周边小卖部签名即可赊账买零食，有学生月赊超千元，店家的做法合法吗？",
+     "url": "https://www.zhihu.com/question/2102366518650718030",
      "hot": ""
     },
     {
-     "title": "如何看待 Faker 称 BLG 具备夺冠的实力，但很遗憾他们在半决赛对上了我们？",
-     "url": "https://www.zhihu.com/question/2102347655133094184",
+     "title": "中国空间站将迎首位外籍航天员，巴基斯坦载荷专家参加神舟二十四号任务，具有哪些意义？",
+     "url": "https://www.zhihu.com/question/2102344635867559303",
      "hot": ""
     },
     {
-     "title": "男子收 1.98 万误转账约派出所归还却遭起诉，法院认定不当得利冻结其账户资金，怎样从法律角度解读？",
-     "url": "https://www.zhihu.com/question/2102313430409658570",
+     "title": "浙江男子11元拍走鹤岗60多平房屋，还会有隐性成本吗？你要是拍到了准备怎么处理这套房子？",
+     "url": "https://www.zhihu.com/question/2102128288269444292",
      "hot": ""
     },
     {
-     "title": "谷爱凌称「没有谁会因吃苦而获奖，不要歌颂牺牲」，如何评价这一观点？",
-     "url": "https://www.zhihu.com/question/2102027001586511991",
+     "title": "iG 不敌 GEN 止步 S16 四强，如何评价iG在本场比赛的表现？到底输在哪？",
+     "url": "https://www.zhihu.com/question/2102683385902491512",
      "hot": ""
     },
     {
-     "title": "特斯拉宣布终止 Cybertruck 生产，扩大 Cybercab 的产能，怎样解读这一调整？",
-     "url": "https://www.zhihu.com/question/2102306579311588297",
+     "title": "为什么我们要保护并不稀有的麻雀？",
+     "url": "https://www.zhihu.com/question/2098747939841652056",
      "hot": ""
     },
     {
-     "title": "外媒曝约60万枚英伟达芯片滞留香港，美方部分人士指责其为「卡脖子」，为何美方会对此如此着急？",
-     "url": "https://www.zhihu.com/question/2102096628895240211",
+     "title": "中国不申办2036年奥运会，德印韩等7国入围，举办奥运还「香」吗?奥运会的吸引力发生了什么变化？",
+     "url": "https://www.zhihu.com/question/2101032846550726477",
      "hot": ""
     },
     {
-     "title": "如何看待法国2027年最新政府预算案在议会获458票反对，0票赞成，被全票反对，未能通过？",
-     "url": "https://www.zhihu.com/question/2101727275771244573",
+     "title": "WTT法兰克福冠军赛，陈熠0-4温特，无缘四强，国乒女单在本届比赛无一人晋级四强，如何评价她们的表现？",
+     "url": "https://www.zhihu.com/question/2102617523174782321",
      "hot": ""
     },
     {
-     "title": "人的腚为什么没进化成三瓣，不是有三角形的稳定性吗？又为什么不变成一个整体，就像一个圆，这么进化作用？",
-     "url": "https://www.zhihu.com/question/661956667",
+     "title": "为什么说健身房练完后器械上面的杠铃片要归位？",
+     "url": "https://www.zhihu.com/question/470350250",
      "hot": ""
     },
     {
-     "title": "为何美国民主党要推动超级AI禁令？个人违规20年监禁、企业强制解散，量刑堪比非法研发核武器，动机是啥？",
-     "url": "https://www.zhihu.com/question/2101942075734471491",
+     "title": "东风-61 已列装到火箭军，这意味着什么？",
+     "url": "https://www.zhihu.com/question/2101952535791718620",
      "hot": ""
     },
     {
-     "title": "俄方临时接管日本烟草公司在俄资产，此前日本追加制裁俄罗斯影子船队，日方后续还有拿回资产的可能性吗？",
-     "url": "https://www.zhihu.com/question/2101947323517609017",
+     "title": "据传 ChatGPT 开始大规模封号，是真的吗？原因可能是什么？",
+     "url": "https://www.zhihu.com/question/2102508937723565758",
      "hot": ""
     },
     {
-     "title": "S16 淘汰赛 T1 3:1 击败 KC 晋级半决赛，如何评价这场比赛？",
-     "url": "https://www.zhihu.com/question/2102266225753601473",
+     "title": "温瑞博0-4林昀儒，无缘法兰克福冠军赛男单4强，如何评价本场比赛？",
+     "url": "https://www.zhihu.com/question/2102532401465398179",
      "hot": ""
     }
    ]
@@ -593,68 +458,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-08 01:49",
+   "updateTime": "2026-11-08 11:56",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "那天在丹霞山是在爬不动了，于是坐了人力轿子......",
+     "url": "https://www.bilibili.com/video/BV1KD4E6KEN9",
+     "hot": 764717
+    },
+    {
+     "title": "人类饲养指南",
+     "url": "https://www.bilibili.com/video/BV1Cn4n6YE29",
+     "hot": 608999
+    },
+    {
+     "title": "星河流动",
+     "url": "https://www.bilibili.com/video/BV1LM4L6TE3V",
+     "hot": 2450791
+    },
+    {
+     "title": "⚡弟子扫荡异界诡校⚡",
+     "url": "https://www.bilibili.com/video/BV17s486QERM",
+     "hot": 616112
+    },
+    {
+     "title": "如何评价“罪在当代，功在千秋？”这句话？",
+     "url": "https://www.bilibili.com/video/BV1kJ4E6xEan",
+     "hot": 575482
+    },
+    {
+     "title": "小睦遇到一只跟她长得很像的大肥鱼",
+     "url": "https://www.bilibili.com/video/BV1Yg4i6xEEt",
+     "hot": 1599303
+    },
+    {
+     "title": "S赛怀旧金曲《BLG带带我》",
+     "url": "https://www.bilibili.com/video/BV1mK4E6NE82",
+     "hot": 561755
+    },
+    {
+     "title": "10月26号生日啦 生日时拍的 可能是我比较懒吧 现在才发#cos不还原致谦一切 #自设cos #日常 #cos",
+     "url": "https://www.bilibili.com/video/BV198456AE5S",
+     "hot": 442640
+    },
+    {
      "title": "火柴人 VS 动画师 第十四集 黑暗时代（The Dark Age）",
      "url": "https://www.bilibili.com/video/BV1Z24J6dEBk",
-     "hot": 262625
-    },
-    {
-     "title": "【萌黄一槽】尾巴管理大师，金角[尾兽状态]全技能爆料！",
-     "url": "https://www.bilibili.com/video/BV1a14n6jEgs",
-     "hot": 635933
-    },
-    {
-     "title": "纯黑《影之刃零》逆天者全程无伤一镜到底攻略解说 第二期",
-     "url": "https://www.bilibili.com/video/BV1Rz4n6nEjp",
-     "hot": 246323
-    },
-    {
-     "title": " 【独家】《凡人修仙传之慕兰之战》第23集【总第199集】",
-     "url": "https://www.bilibili.com/video/BV1Qh456aEnQ",
-     "hot": 4550728
-    },
-    {
-     "title": "我183怎么没了？谁把我B站账号给盗了？",
-     "url": "https://www.bilibili.com/video/BV1X74J62EkV",
-     "hot": 436526
-    },
-    {
-     "title": "这么多声线？看我“迫害”配音演员洪海天！",
-     "url": "https://www.bilibili.com/video/BV14s4B69EfE",
-     "hot": 563403
-    },
-    {
-     "title": "IG：\"打进登封就算成功\" \"好像有机会啊\"",
-     "url": "https://www.bilibili.com/video/BV1Mk4z6wE6j",
-     "hot": 796715
-    },
-    {
-     "title": "S16半决赛助威曲《太阳之子》",
-     "url": "https://www.bilibili.com/video/BV1zx4n6FEZq",
-     "hot": 286326
-    },
-    {
-     "title": "第一视角参与野兽先生的拍摄...",
-     "url": "https://www.bilibili.com/video/BV1wq4B62EWa",
-     "hot": 1064849
+     "hot": 646476
     },
     {
      "title": "【纪录片】威尔史密斯的极地纵横 06中配版 北极点",
      "url": "https://www.bilibili.com/video/BV1oUn26mEHP",
-     "hot": 447346
+     "hot": 508077
     },
     {
-     "title": "铁锅/不锈钢锅都能用：一套物理不粘公式，煎鱼豆腐都不粘",
-     "url": "https://www.bilibili.com/video/BV1VS4i6fEw2",
-     "hot": 1077152
+     "title": "《完美婚礼》",
+     "url": "https://www.bilibili.com/video/BV1Xi4z6NEr2",
+     "hot": 793063
     },
     {
-     "title": "2026年天门山跑酷大赛竞速预赛！第一视角一镜到底！",
-     "url": "https://www.bilibili.com/video/BV12Y4h6NEoT",
-     "hot": 837199
+     "title": "农村大片! 大战外星人! 好莱坞都不敢这么拍",
+     "url": "https://www.bilibili.com/video/BV11S4z6xEpc",
+     "hot": 970072
     }
    ]
   }
@@ -707,6 +572,21 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "直击进博会|对话卡赫唐晓东：智能清洁赛道仍存在适配难、避障难问题",
+   "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixywfh4222349.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "直击进博会|优衣库谈上海全球旗舰店焕新：已落地大量本地文化内容，推出系列具有城市特色商品",
+   "url": "https://finance.sina.com.cn/tob/2026-11-08/doc-inixyrxk4318148.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "看国风IP出海，探AI城市治理！这场“她聚力”企业交流干货满满",
+   "url": "https://finance.sina.com.cn/wm/2026-11-08/doc-inixyrxe3993714.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "直击进博会｜对话博世舒适科技关宇：AI的融入不仅是生产力的提升，更是生产关系的改变",
    "url": "https://finance.sina.com.cn/chanjing/cyxw/2026-11-07/doc-inixxqmq7840049.shtml",
    "source": "新浪科技"
@@ -719,21 +599,6 @@ var WB_DATA = {
   {
    "title": "直击进博会|为脑机接口精准“导航”，西门子医疗展示行业首款超高梯度磁共振设备",
    "url": "https://finance.sina.com.cn/world/gjcj/2026-11-07/doc-inixxcwa4933176.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "传不再直管华为汽车业务后，余承东发微博官宣“享界V8试驾”",
-   "url": "https://finance.sina.com.cn/china/gncj/2026-11-07/doc-inixxcvw4650288.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "平均成功率91%！苹果研究团队披露机器人“大脑”进展：调用千问模型在宇树G1上验证",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-07/doc-inixxcvw4639327.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "网传余承东不再直管汽车业务，近一个月未更新汽车内容",
-   "url": "https://finance.sina.com.cn/tob/2026-11-07/doc-inixwtfy8157381.shtml",
    "source": "新浪科技"
   }
  ]
