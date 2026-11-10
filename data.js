@@ -1,13 +1,13 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-10 20:52",
+ "updatedAt": "2026-11-11 03:56",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
-   "time": "11-10 15:49",
+   "time": "11-10 22:59",
    "sourceCount": 22
   },
   {
@@ -15,181 +15,181 @@ var WB_DATA = {
    "title": "英伟达董事会调查黄仁勋涉情报事件",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri",
-   "time": "11-10 07:51",
-   "sourceCount": 8
+   "time": "11-11 03:04",
+   "sourceCount": 9
   },
   {
    "rank": 3,
+   "title": "Anthropic启动IPO路演，估值预期降至1.25–1.75万亿美元",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-11 03:04",
+   "sourceCount": 7
+  },
+  {
+   "rank": 4,
+   "title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx",
+   "time": "11-11 02:19",
+   "sourceCount": 8
+  },
+  {
+   "rank": 5,
    "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
    "source": "Meta AI：Research Blog（网页）",
    "url": "https://aihot.news/items/cox936nwax49rkiimi1oicgzu",
    "time": "11-10 15:28",
-   "sourceCount": 11
-  },
-  {
-   "rank": 4,
-   "title": "Anthropic 启动 IPO 路演，估值预期降至 1.25–1.75 万亿美元",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-10 19:40",
-   "sourceCount": 3
-  },
-  {
-   "rank": 5,
-   "title": "Google 一年内交付四款第八代 TPU",
-   "source": "X：Google (@Google)",
-   "url": "https://aihot.news/items/phwieennfk1nppru29uek1b0y",
-   "time": "11-10 02:19",
-   "sourceCount": 5
+   "sourceCount": 10
   },
   {
    "rank": 6,
-   "title": "字节发布 Seedream 5.5 图像模型，豆包接入",
+   "title": "字节发布 Seedream 5.5 图像模型，豆包与 Krea 接入",
    "source": "字节 Seed：Research Feed（网页内嵌数据）",
    "url": "https://aihot.news/items/xsvt2hlwuovul9sdvazcw7cxk",
-   "time": "11-10 18:12",
+   "time": "11-11 00:00",
    "sourceCount": 5
   },
   {
    "rank": 7,
-   "title": "xAI 连夜修复 Grok Bot 并重置周限额",
-   "source": "X：Grok Bot (@bot)",
-   "url": "https://aihot.news/items/d56toetc3hcdjd4hwas283saz",
-   "time": "11-10 06:22",
-   "sourceCount": 3
+   "title": "Google 一年内交付四款第八代 TPU",
+   "source": "X：Google (@Google)",
+   "url": "https://aihot.news/items/phwieennfk1nppru29uek1b0y",
+   "time": "11-10 23:54",
+   "sourceCount": 6
   },
   {
    "rank": 8,
-   "title": "虚实传媒首次在X发布北京六岗招聘",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/npikdvxucg2gol9mnq76ev4tf",
-   "time": "11-10 19:24",
-   "sourceCount": 1
+   "title": "Claude 新增白板、表格与数据三类 artifact",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/c1fodrvts3po1pprz70weooju",
+   "time": "11-11 03:24",
+   "sourceCount": 4
   },
   {
    "rank": 9,
-   "title": "蚂蚁灵波开源触觉基础模型 LingBot-Touch",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/v2kttogijk2w2kuk3ip43brpo",
-   "time": "11-10 10:46",
-   "sourceCount": 2
+   "title": "MiniMax 开源 H3-Image 图像模型，多平台接入",
+   "source": "MiniMax：Blog（网页）",
+   "url": "https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0",
+   "time": "11-11 02:52",
+   "sourceCount": 6
   },
   {
    "rank": 10,
-   "title": "迪士尼与Adobe合作开发定制生成式AI模型",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/mna5obim9zs439keyauqnh8nb",
-   "time": "11-10 11:26",
+   "title": "Ring 成立机器人部门，推出室内安防无人机",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/n3m1h0mu5vplfz10yxadyquse",
+   "time": "11-11 03:18",
    "sourceCount": 3
   }
  ],
  "aihotItems": [
   {
-   "title": "Anthropic 拟通过 IPO 筹集最多 644 亿美元，另向谷歌、英伟达等私募融资 260 亿美元",
-   "summary": "据路透社公布的招股说明书草案，Anthropic 计划通过 IPO 筹集最多 644 亿美元，并向谷歌、英伟达和 AMD 等基石投资者私募融资 260 亿美元，计入博通、美光、微软和台积电等出资后募资规模最高可达 904 亿美元。IPO 初步定价区间为每股 70 至 78 美元，此前一日 Anthropic 曾撤回拟筹资 693 亿美元的备案文件并称定价细节不准确。",
-   "reason": "路透社招股书草案披露了 Anthropic 的 IPO 募资额、私募配售对象和定价区间，可据此了解其上市融资安排。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/hq4udij8d72th4omv72z1skgj",
-   "time": "11-10 19:40",
+   "title": "Anthropic 研究：稀释投毒微调数据反而会强化其后门效应",
+   "summary": "Anthropic 与 Truthful AI 等机构提出“顺势学习”现象：单独作用很小的投毒数据，在混入同类型干净对比数据后会形成隐藏后门。",
+   "reason": "研究指出单独看无害的训练数据与干净数据混合后可能形成后门，提示仅靠孤立审计数据的安全方法存在盲区。",
+   "source": "Anthropic：Alignment Science Blog（网页）",
+   "url": "https://aihot.news/items/xaj5t8sbv4qtc0n9ovus1nfl9",
+   "time": "11-10 08:00",
+   "category": "paper"
+  },
+  {
+   "title": "Stripe 收购 OpenRouter，双方宣布合并后定位",
+   "summary": "OpenRouter 官方宣布正式并入 Stripe。OpenRouter 称有超过 1000 万开发者和公司使用其平台，它为多模型、多 provider 的 AI 运行提供基础设施，包括访问新模型、故障期间保持可用，以及为团队执行支出和数据策略。",
+   "reason": "收购方与被购方共同宣布，原文说明了合并后的定位和对中立性的承诺，读者可以据此评估对现有工作流的影响。",
+   "source": "X：OpenRouter (@OpenRouter)",
+   "url": "https://aihot.news/items/zycmiklep7i6dct58558jbp78",
+   "time": "11-11 03:18",
    "category": "industry"
   },
   {
-   "title": "Anthropic 启动 IPO 路演，拟发行 8.25 亿股 A 类普通股并申请以代码 ANT 上市纳斯达克",
-   "summary": "Anthropic 启动拟议 IPO 路演，拟发行 825,000,000 股 A 类普通股，其中 801,351,354 股由 Anthropic 发售、23,648,646 股由部分现有股东出售，Anthropic 不获后者出售所得款项。",
-   "reason": "官方公告给出了发行规模、定价区间、上市地点和承销安排，读者可以直接了解 Anthropic IPO 的具体条款。",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/wrxlh5gesmj36fresoxbriak2",
-   "time": "11-10 00:00",
+   "title": "Ed Zitron 长文剖析黄仁勋丑闻与 NVIDIA 疑似借 Megaspeed 向中国走私 GPU",
+   "summary": "Ed Zitron 长文梳理黄仁勋承认与 Megaspeed CEO Alice Huang 的婚外情事件，并整合 Bloomberg、纽约时报、金融时报与 Culper Research 的报道，指 Megaspeed 疑似作为转口实体将 NVIDIA GPU 非法流入中国。",
+   "reason": "作者整合 Bloomberg、NYT、FT 与 Culper 报告，梳理黄仁勋与 Megaspeed 关系及 GPU 疑似走私中国的资金链条。",
+   "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+   "url": "https://aihot.news/items/gqzca7y2h3m9p0fxtj60m4i1t",
+   "time": "11-11 01:43",
    "category": "industry"
   },
   {
-   "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
-   "summary": "作者转发 Anthropic 的 Alex Albert 分享的提示词：对每个项目运行同一条指令，让 Claude 通读整个项目，找出损坏、不一致、低效或不再需要的内容，确定的问题直接修复，其余列出供人工审查。作者补充可用 /doctor prompt-audit 和 /skill-doctor 优化上下文文件并清理不必要的技能。",
-   "reason": "这条提示词可直接复用，让 Claude 审查整个项目找出问题并修复或列出待审项，还附带了排查上下文文件的命令。",
-   "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-   "url": "https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go",
-   "time": "11-10 12:17",
-   "category": "tip"
-  },
-  {
-   "title": "Figma 官方讲解画布智能体的 6 种实用方法",
-   "summary": "Figma 官方介绍了在其画布上使用 Figma agent 的六种方法，覆盖从设计初期探索到交付前细节的各个阶段。",
-   "reason": "Figma 官方梳理了智能体在画布上的六种日常用法，含具体提示词示例，读者可直接照做提升设计工作流。",
-   "source": "Figma AI / Agent / Make",
-   "url": "https://aihot.news/items/lko5m98q1kk1dlcjihvk527w8",
-   "time": "11-10 05:46",
-   "category": "tip"
-  },
-  {
-   "title": "据报道 Anthropic 推进 IPO，计划下周四或周五挂牌",
-   "summary": "据 The Wall Street Journal 报道，Anthropic 将在本周设定估值区间，计划下周四或周五开始交易。部分机构投资者正推动估值低于上周讨论的 1.5 万亿美元目标，该数字已低于几个月前传闻的 2 万亿美元。报道还提到其主要竞争对手 OpenAI 上周融资 110 亿美元后估值约为 1.25 万亿美元，低于其最初寻求的 200 亿美元融资规模。",
-   "reason": "报道汇总了 Anthropic IPO 时间表与估值分歧，并对照 OpenAI 最新融资估值，可帮助读者理解 AI 板块的市场情绪变化。",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/d4f8o2c9r7r8b7fsdqnpev3eu",
-   "time": "11-10 09:27",
-   "category": "industry"
-  },
-  {
-   "title": "实测 Claude Fable 5.2：一次直出视频与 3D 网页，审美与细节表现突出",
-   "summary": "Anthropic 凌晨正式发布 Claude Fable 5.2，作者第一时间实测视频动效、Three.js 3D 场景和苹果静安店 3D 网页等 10 个任务，全部一次直出，未发现生成视频中的事实错误。",
-   "reason": "作者用多个一次直出的实测案例展示 Fable 5.2 在视频动效和 3D 前端上的表现，并给出额度消耗和日常模型搭配建议。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/po2cdt1whxfqyfew3e81l8mb0",
-   "time": "11-10 07:21",
-   "category": "ai-models"
-  },
-  {
-   "title": "做空机构 Culper Research 曾在丑闻爆发前六个月提示 Nvidia CEO 与疑似中国间谍的关系",
-   "summary": "Nvidia 间谍丑闻爆发前六个月，做空机构 Culper Research 已在 5 月 13 日报告中质疑 CEO 黄仁勋与 Megaspeed 高管 Alice Huang 关系“异常密切”。",
-   "reason": "文章回溯做空机构半年前的报告，指出其早已提示 Nvidia CEO 与 Megaspeed 高管的密切关系，提供了事件的时间线背景。",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/zqvokl37rwbvoxzfk3c2v7964",
-   "time": "11-10 06:46",
-   "category": "industry"
-  },
-  {
-   "title": "Zyphra 发布开源 TTS 模型 ZONOS3-Mini，可在手机浏览器实时运行",
-   "summary": "Zyphra 发布 ZONOS3-Mini，一个 Apache 2.0 开源的零样本语音克隆 TTS 模型，采用稀疏 MoE 架构，总参数 8 亿、活跃参数 1 亿，在 Pixel 9 浏览器端 Time To First Audio 低于 570 ms，在 M3 MacBook Air 上低于 150 ms。",
-   "reason": "原文给出参数规模、端侧延迟和评测排名等具体数据，读者可以评估这个开源 TTS 模型在语音克隆和控制能力上的实际定位。",
-   "source": "Zyphra Research（网页）",
-   "url": "https://aihot.news/items/r5h0cwwdh1peqbg2rk6k9ljrh",
-   "time": "11-09 00:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "Anthropic 指南：Claude 开发该选 Haiku 5.5、Sonnet 5.5、Opus 5.5 还是 Fable 5.2",
-   "summary": "Anthropic 开发者博客发文指导开发者如何在 Haiku 5.5、Sonnet 5.5、Opus 5.5 和 Fable 5.2 之间选型，建议多数编码和知识工作从 Opus 5.5 的 medium effort 起步，其 token 价格是 Fable 5.2 的一半。",
-   "reason": "原文按任务类型给出四款 Claude 模型的选型建议、token 价格和 effort 调优方法，可迁移到自己的成本与能力权衡中。",
-   "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-   "url": "https://aihot.news/items/ykrvgcox3whsx6tst5qesbf62",
-   "time": "11-09 20:00",
-   "category": "tip"
-  },
-  {
-   "title": "Claude Fable 5.2 上线 Higgsfield，开放 3 天免费试用",
-   "summary": "Higgsfield 宣布 Claude Fable 5.2 已在 Higgsfield MCP 上线，提供 3 天免费不限量使用全部顶级视频和图像模型。作者称该 Anthropic 新模型擅长 3D 建模、视觉推理、computer use 和编码；引用内容提到 Claude Fable 5.2 与 Claude Mythos 5.2 在编码、推理和视觉方面有提升。",
-   "reason": "平台宣布接入新模型并给出 3 天免费试用入口，读者可借此了解其宣称的 3D 建模与视觉推理能力。",
-   "source": "X：Higgsfield AI (@higgsfield)",
-   "url": "https://aihot.news/items/ugn21ui1m8kftffpe2c95qlkx",
-   "time": "11-10 04:06",
+   "title": "OpenAI 开放 ChatGPT Business 计划登录 Notion、v0 等第三方工具",
+   "summary": "OpenAI 宣布 ChatGPT Business 计划现可在 Notion、v0、ampcode、kilocode、Warp、NousResearch 的 Hermes、openclaw、opencode 等第三方工具中使用，通过 Sign in with ChatGPT 连接即可开始。",
+   "reason": "原文说明了 ChatGPT Business 计划现可在 Notion、v0 等第三方工具中通过 Sign in with ChatGPT 使用。",
+   "source": "X：OpenAI Developers (@OpenAIDevs)",
+   "url": "https://aihot.news/items/y4pcrys3ewo3xnx1j45mbpbfy",
+   "time": "11-11 01:50",
    "category": "ai-products"
   },
   {
-   "title": "Artificial Analysis 评测 Claude Fable 5.2：以 65 分登顶 Intelligence Index v5",
-   "summary": "Artificial Analysis 评测 Anthropic 发布的 Claude Fable 5.2，其在 Artificial Analysis Intelligence Index v5 以 65 分登顶，领先 Gemini 4 Carbon（60）和 Claude Opus 5.5（59）。",
-   "reason": "评测方给出了 Claude Fable 5.2 在 Intelligence Index v5 的得分、各基准对比与成本数据，读者可以据此评估其实力和性价比。",
-   "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/m23i0fgxrk1t2gqysu6mqv82s",
-   "time": "11-10 03:45",
-   "category": "ai-models"
+   "title": "Google AI Edge Gallery 新增端侧语音识别与语音合成能力",
+   "summary": "Google 在 Google AI Edge Gallery 中推出端侧 ASR 与 TTS 能力，可与 Gemini Nano、Gemma 4 等端侧 SLM 组成完全离线的语音交互管线。",
+   "reason": "原文给出端侧语音管线的具体延迟、语种和模型参数数据，开发者可以据此评估离线语音方案对自家 App 的可行性。",
+   "source": "Google Developers Blog（RSS）",
+   "url": "https://aihot.news/items/hq666kd02bayn64cw702xm11w",
+   "time": "11-10 00:00",
+   "category": "ai-products"
   },
   {
-   "title": "Claude Fable 5.2 上线 Devin Desktop 和 Devin CLI",
-   "summary": "Cognition 宣布 Claude Fable 5.2 现已在 Devin Desktop 和 Devin CLI 中可用。该模型在 FrontierCode 2.0 上以 49.1 分排名第一；相比 Fable 5.1，在低推理力度下以约三分之一的价格超过前代得分。",
-   "reason": "原文给出了 Fable 5.2 在 FrontierCode 2.0 的得分和相对前代的成本变化，读者可据此评估在 Devin 中的选用价值。",
-   "source": "X：Cognition (@cognition)",
-   "url": "https://aihot.news/items/rth7pxd3xqp2zkd2e1psjgtbl",
-   "time": "11-10 03:09",
+   "title": "Claude 升级交互式连接器，应用可在对话旁全屏打开并由 Claude 直接操作",
+   "summary": "Anthropic 宣布交互式连接器升级，在支持的连接器中可将工具在对话旁打开或全屏展开，Claude 能直接修改你正在使用的页面、行或文件，改动实时呈现并需像连接器操作一样批准。",
+   "reason": "官方公告说明交互式连接器升级为可在 Claude 内全屏操作的工具，开发者基于 MCP Apps 构建的应用不限于 Claude。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/s7ny0oaxr6q9e5677fmb2hqpf",
+   "time": "11-10 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Anthropic 发布 Claude Whiteboards 和 Claude Sheets，Claude Dashboards 转正为 Claude Data",
+   "summary": "Anthropic 推出 Claude Whiteboards 和 Claude Sheets 测试版，Claude Dashboards 正式可用并更名为 Claude Data，三款产品面向所有付费计划开放。",
+   "reason": "原文给出三款协作产品的具体功能边界、可用计划和企业管理员默认设置，读者可以据此判断是否引入团队工作流。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/c1fodrvts3po1pprz70weooju",
+   "time": "11-10 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Wiz 讲解如何评估 AI 智能体的网络安全能力",
+   "summary": "Wiz Research 介绍其 Cyber Model Arena v3.9 的基准设计方法，该基准覆盖 26 个模型、59 个智能体和 327 道挑战，分代码漏洞、API 安全、Web 安全和云安全四类。",
+   "reason": "Wiz 研究人员分享了自建网络安全智能体基准的设计原则与踩坑经验，解释了为何用确定性代码评分替代 LLM 评委并隔离防作弊。",
+   "source": "Wiz：Research（安全研究）",
+   "url": "https://aihot.news/items/momr4yrt6hhhfeuzjfqz6ryqy",
+   "time": "11-11 00:03",
+   "category": "paper"
+  },
+  {
+   "title": "OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出",
+   "summary": "OpenRouter 发布教程，讲解从任意 LLM 获取可靠结构化输出的三种方式：支持 structured outputs 的模型发送严格 JSON Schema，只支持工具的模型强制单次工具调用，只需标签时用 Jev 决策模型。",
+   "reason": "OpenRouter 用 24 条客服消息在多款模型上实测三种结构化输出路线，给出严格 schema 写法、require_parameters 和决策模型等可直接复用的要点。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/b44e0p0xgg4j6d7wyei4fy5rl",
+   "time": "11-10 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "OpenRouter 实测最佳 OCR 模型：Claude Opus 5.5 最准，Mistral OCR 性价比最高",
+   "summary": "OpenRouter 用 8 张自制扫描页（264 项关键值）实测 15 个视觉模型、Mistral OCR 和 Tesseract 做 OCR 的表现。",
+   "reason": "OpenRouter 用可核对的合成扫描页实测 15 个视觉模型做 OCR，给出准确率、成本数据，并附关闭推理和双模型交叉校验的可复用方法。",
+   "source": "OpenRouter：Announcements（RSS）",
+   "url": "https://aihot.news/items/k4yeadirrsze4hfymnfr0vk12",
+   "time": "11-10 08:00",
+   "category": "tip"
+  },
+  {
+   "title": "Gemini 4 Carbon 现已登陆 Cursor，高 effort 下居 CursorBench 榜首",
+   "summary": "Cursor 宣布 Gemini 4 Carbon 已可在 Cursor 中使用。官方称在高 effort 设置下，该模型以 60.4% 的得分位居 CursorBench 4.0 榜首，配图还标注其成本为 $9.22。",
+   "reason": "官方宣布新模型已可在 Cursor 中使用，并给出高 effort 下 CursorBench 60.4% 的成绩，便于读者评估是否切换。",
+   "source": "X：Cursor (@cursor_ai)",
+   "url": "https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8",
+   "time": "11-11 00:35",
+   "category": "ai-products"
+  },
+  {
+   "title": "Gemini 4 Carbon 上线 Gemini API、AI Studio 和 Antigravity",
+   "summary": "Philipp Schmid 介绍 Gemini 4 Carbon 现已可在 Gemini API、Google AI Studio 和 Antigravity（限 Google AI Ultra 订阅者）中使用。",
+   "reason": "DeepMind 员工第一手介绍 Gemini 4 Carbon 的可用入口和内部使用效果，还展示了 Antigravity 中一条提示词完成 3D 重建的案例。",
+   "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+   "url": "https://aihot.news/items/o6jzg6bjiaufh8no2rf1tep7u",
+   "time": "11-11 00:06",
    "category": "ai-products"
   }
  ],
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-10 20:52",
+   "updateTime": "2026-11-11 03:56",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《阴阳师》笼梦祸津神CG丨祸至无日（CV：中野彩麻）",
-     "url": "https://www.bilibili.com/video/BV1sCWx6GEsH",
-     "hot": 2317603
+     "title": "【1酱赛评四强篇·上】BLG突破LPL对S赛T1不胜历史！几代人的夙愿！14年的等待！终于在S赛战胜T1！爽爽爽爽爽！！！！",
+     "url": "https://www.bilibili.com/video/BV1QAW36VEWg",
+     "hot": 347347
     },
     {
      "title": "THANK YOU Smoggy",
      "url": "https://www.bilibili.com/video/BV1v8WT6uEJH",
-     "hot": 235088
+     "hot": 788442
     },
     {
-     "title": "“当bro第一次来洛杉矶，却对这里无比熟悉”",
-     "url": "https://www.bilibili.com/video/BV1iHWt6NEaR",
-     "hot": 1036889
+     "title": "耗时5个月，5万元成本，我用AI拍了一部68分钟的原创中国科幻长片《灰蚀危机》【ai全民制作人】",
+     "url": "https://www.bilibili.com/video/BV18GW76hEdg",
+     "hot": 1026091
     },
     {
      "title": "【纪录片】蓝色星球 第三季 02 辽阔远洋",
      "url": "https://www.bilibili.com/video/BV1Lx4t6VEDt",
-     "hot": 524510
+     "hot": 580348
     },
     {
-     "title": "耗时5个月，5万元成本，我用AI拍了一部68分钟的原创中国科幻长片《南天门计划：灰蚀危机》【ai全民制作人】",
-     "url": "https://www.bilibili.com/video/BV18GW76hEdg",
-     "hot": 787812
-    },
-    {
-     "title": "Faker了一辈子的蹲方魂 终于…",
-     "url": "https://www.bilibili.com/video/BV1aYW86vEte",
-     "hot": 1235955
+     "title": "动态视频｜打败许昕，获得iPhone Duo！",
+     "url": "https://www.bilibili.com/video/BV1JnWT6LEVN",
+     "hot": 575576
     },
     {
      "title": "如何盗走《蒙娜丽莎》？【硬核狠人92】",
      "url": "https://www.bilibili.com/video/BV1i4W86zEUS",
-     "hot": 891592
-    },
-    {
-     "title": "黄仁勋带她吃的饭店，我带你们去看看",
-     "url": "https://www.bilibili.com/video/BV1JCWM6JEFU",
-     "hot": 565985
-    },
-    {
-     "title": "《虚环》PV03｜致过去与未来的歌",
-     "url": "https://www.bilibili.com/video/BV1h4WW6LEEv",
-     "hot": 5201151
+     "hot": 1165426
     },
     {
      "title": "地牢酒馆-33《日常招待与地下湖》",
      "url": "https://www.bilibili.com/video/BV1bwWu6KEaS",
-     "hot": 88531
+     "hot": 423663
     },
     {
-     "title": "作为一名老司机，如何选驾驶者之车？",
-     "url": "https://www.bilibili.com/video/BV1qAWM62EEw",
-     "hot": 99793
+     "title": "养了大肥鱼以后，家里的米就没够吃过",
+     "url": "https://www.bilibili.com/video/BV1dGWg67Evr",
+     "hot": 322572
     },
     {
-     "title": "给孩子做了一个半飞行的玩具车",
-     "url": "https://www.bilibili.com/video/BV1QUW46oEuT",
-     "hot": 1315944
+     "title": "《人皇步》",
+     "url": "https://www.bilibili.com/video/BV1BjWt6BEJd",
+     "hot": 1476904
+    },
+    {
+     "title": "背着180斤现金攀爬，爬上来就带走384000美金！💰",
+     "url": "https://www.bilibili.com/video/BV1wLWu6tE5N",
+     "hot": 355725
+    },
+    {
+     "title": "特厨探店|探店这么多年，没想到还是会震惊！",
+     "url": "https://www.bilibili.com/video/BV1LxW863EaB",
+     "hot": 930064
+    },
+    {
+     "title": "黄仁勋带她吃的饭店，我带你们去看看",
+     "url": "https://www.bilibili.com/video/BV1JCWM6JEFU",
+     "hot": 839960
     }
    ]
   }
@@ -743,8 +743,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "AI不只靠GPU：在拉斯维加斯，看AMD如何释放算力潜力",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-11/doc-iniyhfqs5851173.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "高盛预测Anthropic 2030年营收突破6000亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhmwt2463205.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "今日宜休ISHO Ring披露首销权益：15天无理由+两代新品半价换新，锚定睡眠AI与临床验证",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-11-10/doc-iniyhmws2531754.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "阿里巴巴：已正式申请平头哥独立上市",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyhfqs5841184.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "AI短剧火到海外，下载量前10的App都有中国背景",
+   "url": "https://finance.sina.com.cn/wm/2026-11-10/doc-iniyhfqv2543246.shtml",
    "source": "新浪科技"
   },
   {
@@ -755,26 +775,6 @@ var WB_DATA = {
   {
    "title": "大疆Pocket 4系列将单台上涨500元？多家门店回应：未接到涨价通知",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyhfqw9181887.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "华为新型存储系统即将启动试商用，温冷数据存储成为新战场",
-   "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyhfqu2602440.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "高盛领投网络安全初创企业Daylight Security 后者估值达4亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhfqw9175054.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "算力要上天，谁在抢建底座？",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyhfqv2525060.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "Anthropic宣布IPO路演：预计下周四上市 目标估值1万亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhfqs5810248.shtml",
    "source": "新浪科技"
   }
  ]
