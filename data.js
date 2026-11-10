@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-10 13:40",
+ "updatedAt": "2026-11-10 20:52",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
-   "time": "11-10 08:19",
-   "sourceCount": 21
+   "time": "11-10 15:49",
+   "sourceCount": 22
   },
   {
    "rank": 2,
@@ -23,11 +23,19 @@ var WB_DATA = {
    "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
    "source": "Meta AI：Research Blog（网页）",
    "url": "https://aihot.news/items/cox936nwax49rkiimi1oicgzu",
-   "time": "11-10 08:59",
-   "sourceCount": 9
+   "time": "11-10 15:28",
+   "sourceCount": 11
   },
   {
    "rank": 4,
+   "title": "Anthropic 启动 IPO 路演，估值预期降至 1.25–1.75 万亿美元",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-10 19:40",
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
    "title": "Google 一年内交付四款第八代 TPU",
    "source": "X：Google (@Google)",
    "url": "https://aihot.news/items/phwieennfk1nppru29uek1b0y",
@@ -35,20 +43,12 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 5,
-   "title": "字节发布 Seedream 5.5 图像模型",
+   "rank": 6,
+   "title": "字节发布 Seedream 5.5 图像模型，豆包接入",
    "source": "字节 Seed：Research Feed（网页内嵌数据）",
    "url": "https://aihot.news/items/xsvt2hlwuovul9sdvazcw7cxk",
-   "time": "11-10 02:50",
-   "sourceCount": 4
-  },
-  {
-   "rank": 6,
-   "title": "Anthropic 拟感恩节前 IPO，估值预期降至 1.25–1.75 万亿美元",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-10 09:27",
-   "sourceCount": 1
+   "time": "11-10 18:12",
+   "sourceCount": 5
   },
   {
    "rank": 7,
@@ -60,30 +60,48 @@ var WB_DATA = {
   },
   {
    "rank": 8,
-   "title": "Anthropic 34亿美元购入1.7GW燃气发电机组",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/fhtzzpeq9pxo021k0uk7s034p",
-   "time": "11-10 00:56",
-   "sourceCount": 3
+   "title": "虚实传媒首次在X发布北京六岗招聘",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/npikdvxucg2gol9mnq76ev4tf",
+   "time": "11-10 19:24",
+   "sourceCount": 1
   },
   {
    "rank": 9,
+   "title": "蚂蚁灵波开源触觉基础模型 LingBot-Touch",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/v2kttogijk2w2kuk3ip43brpo",
+   "time": "11-10 10:46",
+   "sourceCount": 2
+  },
+  {
+   "rank": 10,
    "title": "迪士尼与Adobe合作开发定制生成式AI模型",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/mna5obim9zs439keyauqnh8nb",
    "time": "11-10 11:26",
    "sourceCount": 3
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI 上架 Codex 版 ModRetro Chromatic 插件",
-   "source": "X：OpenAI Developers (@OpenAIDevs)",
-   "url": "https://aihot.news/items/ycjd0ia0pptzekuzs6vcgtj2m",
-   "time": "11-10 02:47",
-   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 拟通过 IPO 筹集最多 644 亿美元，另向谷歌、英伟达等私募融资 260 亿美元",
+   "summary": "据路透社公布的招股说明书草案，Anthropic 计划通过 IPO 筹集最多 644 亿美元，并向谷歌、英伟达和 AMD 等基石投资者私募融资 260 亿美元，计入博通、美光、微软和台积电等出资后募资规模最高可达 904 亿美元。IPO 初步定价区间为每股 70 至 78 美元，此前一日 Anthropic 曾撤回拟筹资 693 亿美元的备案文件并称定价细节不准确。",
+   "reason": "路透社招股书草案披露了 Anthropic 的 IPO 募资额、私募配售对象和定价区间，可据此了解其上市融资安排。",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/hq4udij8d72th4omv72z1skgj",
+   "time": "11-10 19:40",
+   "category": "industry"
+  },
+  {
+   "title": "Anthropic 启动 IPO 路演，拟发行 8.25 亿股 A 类普通股并申请以代码 ANT 上市纳斯达克",
+   "summary": "Anthropic 启动拟议 IPO 路演，拟发行 825,000,000 股 A 类普通股，其中 801,351,354 股由 Anthropic 发售、23,648,646 股由部分现有股东出售，Anthropic 不获后者出售所得款项。",
+   "reason": "官方公告给出了发行规模、定价区间、上市地点和承销安排，读者可以直接了解 Anthropic IPO 的具体条款。",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/wrxlh5gesmj36fresoxbriak2",
+   "time": "11-10 00:00",
+   "category": "industry"
+  },
   {
    "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
    "summary": "作者转发 Anthropic 的 Alex Albert 分享的提示词：对每个项目运行同一条指令，让 Claude 通读整个项目，找出损坏、不一致、低效或不再需要的内容，确定的问题直接修复，其余列出供人工审查。作者补充可用 /doctor prompt-audit 和 /skill-doctor 优化上下文文件并清理不必要的技能。",
@@ -173,24 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/rth7pxd3xqp2zkd2e1psjgtbl",
    "time": "11-10 03:09",
    "category": "ai-products"
-  },
-  {
-   "title": "Anthropic 测试 Claude Fable 5.2 端到端设计三种电子设备并制作可用原型",
-   "summary": "Anthropic 与 Diode Computers 合作，让 Claude Fable 5.2 从简单提示词出发完成免提音箱、语音助手中枢和电子宠物三种设备的设计，包括 PCB 布局、CAD 建模、固件编写和 DFM 检查，三块电路板直接由工厂按设计文件制造，原型经数周使用仍正常工作。",
-   "reason": "Anthropic 一手给出 Claude Fable 5.2 从原理图到可用原型的完整硬件设计过程和基准对比，可据此评估 AI 在电子设计上的实际进展。",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/xmqflr9ja0pipwyibtqnf8qsj",
-   "time": "11-09 00:00",
-   "category": "paper"
-  },
-  {
-   "title": "Claude Mythos 5.2 预测基因治疗载体 AAV 衣壳结构",
-   "summary": "Claude 官方视频介绍 Claude Mythos 5.2 预测了完整 AAV 衣壳结构，即用于递送基因治疗的蛋白质外壳。模型编写代码在相邻五链分组上运行开源折叠模型，再利用衣壳对称性拼合全部 60 条链；在 AAV2 上预测结果与实验结构误差约为一个原子宽度。",
-   "reason": "原文给出了具体预测方法和精度结果，读者可以据此了解该模型在结构生物学任务上的实际表现。",
-   "source": "Claude：YouTube（RSS）",
-   "url": "https://aihot.news/items/rxx1qxfjfuioem95lr868hhwq",
-   "time": "11-10 02:56",
-   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-10 13:40",
+   "updateTime": "2026-11-10 20:52",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《崩坏：星穹铁道》走近星穹——「货币战争•入画奇航」特别节目",
-     "url": "https://www.bilibili.com/video/BV1ShWx6nEp8",
-     "hot": 307643
+     "title": "《阴阳师》笼梦祸津神CG丨祸至无日（CV：中野彩麻）",
+     "url": "https://www.bilibili.com/video/BV1sCWx6GEsH",
+     "hot": 2317603
     },
     {
-     "title": "如何盗走《蒙娜丽莎》？【硬核狠人92】",
-     "url": "https://www.bilibili.com/video/BV1i4W86zEUS",
-     "hot": 424382
+     "title": "THANK YOU Smoggy",
+     "url": "https://www.bilibili.com/video/BV1v8WT6uEJH",
+     "hot": 235088
     },
     {
-     "title": "当我死去，群山不会震颤，河水不会倒流｜AI长片《汤症》【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1vmWJ6LEmW",
-     "hot": 3219109
+     "title": "“当bro第一次来洛杉矶，却对这里无比熟悉”",
+     "url": "https://www.bilibili.com/video/BV1iHWt6NEaR",
+     "hot": 1036889
     },
     {
      "title": "【纪录片】蓝色星球 第三季 02 辽阔远洋",
      "url": "https://www.bilibili.com/video/BV1Lx4t6VEDt",
-     "hot": 362782
-    },
-    {
-     "title": "《鸣潮》共鸣者「莉莉」PV |  忘记恐惧",
-     "url": "https://www.bilibili.com/video/BV1VmW46bEfC",
-     "hot": 377193
-    },
-    {
-     "title": "给孩子做了一个半飞行的玩具车",
-     "url": "https://www.bilibili.com/video/BV1QUW46oEuT",
-     "hot": 843844
-    },
-    {
-     "title": "上帝之光：当人类第一次拥有操纵大脑的能力",
-     "url": "https://www.bilibili.com/video/BV1KpWb6WENA",
-     "hot": 924502
-    },
-    {
-     "title": "《阴阳师》笼梦祸津神CG丨祸至无日（CV：中野彩麻）",
-     "url": "https://www.bilibili.com/video/BV1sCWx6GEsH",
-     "hot": 1892267
-    },
-    {
-     "title": "《虚环》PV03｜致过去与未来的歌",
-     "url": "https://www.bilibili.com/video/BV1h4WW6LEEv",
-     "hot": 3765502
+     "hot": 524510
     },
     {
      "title": "耗时5个月，5万元成本，我用AI拍了一部68分钟的原创中国科幻长片《南天门计划：灰蚀危机》【ai全民制作人】",
      "url": "https://www.bilibili.com/video/BV18GW76hEdg",
-     "hot": 467232
+     "hot": 787812
     },
     {
-     "title": "On萨勒芬妮大招测试：如果猴子不放分身，能改变时间线吗？",
-     "url": "https://www.bilibili.com/video/BV1eaW86KEr3",
-     "hot": 1288120
+     "title": "Faker了一辈子的蹲方魂 终于…",
+     "url": "https://www.bilibili.com/video/BV1aYW86vEte",
+     "hot": 1235955
     },
     {
-     "title": "特厨探店|探店这么多年，没想到还是会震惊！",
-     "url": "https://www.bilibili.com/video/BV1LxW863EaB",
-     "hot": 244896
+     "title": "如何盗走《蒙娜丽莎》？【硬核狠人92】",
+     "url": "https://www.bilibili.com/video/BV1i4W86zEUS",
+     "hot": 891592
+    },
+    {
+     "title": "黄仁勋带她吃的饭店，我带你们去看看",
+     "url": "https://www.bilibili.com/video/BV1JCWM6JEFU",
+     "hot": 565985
+    },
+    {
+     "title": "《虚环》PV03｜致过去与未来的歌",
+     "url": "https://www.bilibili.com/video/BV1h4WW6LEEv",
+     "hot": 5201151
+    },
+    {
+     "title": "地牢酒馆-33《日常招待与地下湖》",
+     "url": "https://www.bilibili.com/video/BV1bwWu6KEaS",
+     "hot": 88531
+    },
+    {
+     "title": "作为一名老司机，如何选驾驶者之车？",
+     "url": "https://www.bilibili.com/video/BV1qAWM62EEw",
+     "hot": 99793
+    },
+    {
+     "title": "给孩子做了一个半飞行的玩具车",
+     "url": "https://www.bilibili.com/video/BV1QUW46oEuT",
+     "hot": 1315944
     }
    ]
   }
@@ -743,38 +743,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "短剧赛道大厂频频出手：继腾讯之后，京东被曝内测独立短剧产品",
-   "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfqsy5938640.shtml",
+   "title": "阿里巴巴：已正式申请平头哥独立上市",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyhfqs5841184.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "康师傅山姆联名牛肉面因定价陷争议，客服回应：暂时无货，定价以App为准",
-   "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfqta2709683.shtml",
+   "title": "今年天猫双11，创新变成了生意的真增量",
+   "url": "https://finance.sina.com.cn/tech/csj/2026-11-10/doc-iniyhfqu2608233.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "基元律动发布最新Agent模型：总参数180B，开放限量内测",
-   "url": "https://finance.sina.com.cn/tech/2026-11-10/doc-iniyfkme2812485.shtml",
+   "title": "大疆Pocket 4系列将单台上涨500元？多家门店回应：未接到涨价通知",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyhfqw9181887.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "诺亦腾机器人开放HiPHI-Hand手部动捕数据集，已用于训练英伟达EgoHand",
-   "url": "https://finance.sina.com.cn/tech/2026-11-10/doc-iniyfkma6035870.shtml",
+   "title": "华为新型存储系统即将启动试商用，温冷数据存储成为新战场",
+   "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyhfqu2602440.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "字节跳动元老、今日头条前CEO陈林宣布创业，新项目为AI教育品牌“小鹿爱学”",
-   "url": "https://finance.sina.com.cn/tech/2026-11-10/doc-iniyfkme2810853.shtml",
+   "title": "高盛领投网络安全初创企业Daylight Security 后者估值达4亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhfqw9175054.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "传阿里平头哥拟2027年赴港IPO，官方暂无回应",
-   "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyfkme2791597.shtml",
+   "title": "算力要上天，谁在抢建底座？",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyhfqv2525060.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "赵德力携飞行汽车登陆Web Summit：未来十年飞行汽车迎来高速发展期",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-11-10/doc-iniyfkmf2761970.shtml",
+   "title": "Anthropic宣布IPO路演：预计下周四上市 目标估值1万亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-10/doc-iniyhfqs5810248.shtml",
    "source": "新浪科技"
   }
  ]
