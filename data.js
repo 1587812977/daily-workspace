@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-11 20:00",
+ "updatedAt": "2026-11-12 03:48",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
-   "time": "11-11 06:12",
-   "sourceCount": 22
+   "time": "11-12 01:23",
+   "sourceCount": 15
   },
   {
    "rank": 2,
@@ -16,14 +16,14 @@ var WB_DATA = {
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx",
    "time": "11-11 06:43",
-   "sourceCount": 11
+   "sourceCount": 9
   },
   {
    "rank": 3,
    "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-11 13:47",
+   "time": "11-11 23:11",
    "sourceCount": 7
   },
   {
@@ -31,35 +31,43 @@ var WB_DATA = {
    "title": "英伟达董事会调查黄仁勋涉情报事件",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri",
-   "time": "11-11 13:42",
-   "sourceCount": 7
+   "time": "11-12 00:16",
+   "sourceCount": 4
   },
   {
    "rank": 5,
-   "title": "Claude 新增白板、表格与数据三类 artifact",
+   "title": "Anthropic 为 Claude 新增白板、表格与数据三类 artifact",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/c1fodrvts3po1pprz70weooju",
-   "time": "11-11 06:43",
-   "sourceCount": 6
+   "time": "11-12 02:38",
+   "sourceCount": 7
   },
   {
    "rank": 6,
    "title": "MiniMax 开源 H3-Image，多平台接入",
    "source": "MiniMax：Blog（网页）",
    "url": "https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0",
-   "time": "11-11 18:56",
+   "time": "11-12 03:03",
    "sourceCount": 6
   },
   {
    "rank": 7,
-   "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务",
-   "source": "Meta AI：Research Blog（网页）",
-   "url": "https://aihot.news/items/cox936nwax49rkiimi1oicgzu",
-   "time": "11-10 15:28",
-   "sourceCount": 10
+   "title": "OpenAI第三季度营收首破百亿美元，亏损扩大",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/mzxxannvi5wge7wz0c0jfdyz5",
+   "time": "11-12 01:14",
+   "sourceCount": 3
   },
   {
    "rank": 8,
+   "title": "Google发布Gemini Decision 1决策模型，评测得66分",
+   "source": "Google Blog：AI（RSS）",
+   "url": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
+   "time": "11-12 02:26",
+   "sourceCount": 6
+  },
+  {
+   "rank": 9,
    "title": "OpenAI 在 ChatGPT 测试企业智能体与 Business Hub",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/vhu2xtpasbm5mewe5r7qdqkgi",
@@ -67,23 +75,78 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
-   "rank": 9,
+   "rank": 10,
    "title": "字节发布 Seedream 5.5，多平台接入",
    "source": "字节 Seed：Research Feed（网页内嵌数据）",
    "url": "https://aihot.news/items/xsvt2hlwuovul9sdvazcw7cxk",
-   "time": "11-11 17:06",
-   "sourceCount": 7
-  },
-  {
-   "rank": 10,
-   "title": "Google 一年内交付四款第八代 TPU",
-   "source": "X：Google (@Google)",
-   "url": "https://aihot.news/items/phwieennfk1nppru29uek1b0y",
-   "time": "11-10 23:54",
+   "time": "11-11 21:30",
    "sourceCount": 6
   }
  ],
  "aihotItems": [
+  {
+   "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
+   "summary": "Google 推出 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，可在 150-250ms 端到端延迟内对文本、图像、音频、视频和 PDF（最多 256K tokens）一次性评估最多 1000 个是/否、多选和评分题。",
+   "reason": "原文给出延迟、价格和基准对比等具体数据，读者可以据此评估这个封闭式决策接口是否适合替代自训分类器。",
+   "source": "Google Blog：AI（RSS）",
+   "url": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
+   "time": "11-12 02:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Claude Code 中如何选择 Fable 5.2 与 Opus 等模型",
+   "summary": "Claude 发布视频教程，讲解在 Claude Code 中何时使用 Fable 5.2、Opus 5.5，何时降级到 Sonnet 5.5 或 Haiku 5.5，以及如何把一个任务拆分给多个模型。视频覆盖复杂编码与开放式技术工作、低成本明确任务等场景，并提供在自有任务上测量各模型表现的指南链接；可用性与用量限制因套餐而异。",
+   "reason": "官方给出在 Claude Code 中按任务复杂度和成本在 Fable 5.2、Opus 5.5、Sonnet 5.5、Haiku 5.5 间选择的场景划分，并提供自测指南链接。",
+   "source": "Claude：YouTube（RSS）",
+   "url": "https://aihot.news/items/ep5oqt7m4l7gn3tqieilznmuk",
+   "time": "11-12 01:30",
+   "category": "tip"
+  },
+  {
+   "title": "Anthropic 发布 MAMUBench：单一智能体协调在四类环境中均胜过每个用户各自的智能体团队",
+   "summary": "Anthropic Fellows Program 团队构建四个多用户多智能体模拟环境（共享 API token 预算、诊所日历、团体订餐或旅行预订、合并队列），测试 Anthropic、OpenAI 和 Alibaba 的前沿模型，并发布其中三个环境作为基准 MAMUBench。",
+   "reason": "Anthropic 用四个模拟环境测出多用户多智能体团队的协调失败模式，并发布 MAMUBench 供社区复测。",
+   "source": "Anthropic：Alignment Science Blog（网页）",
+   "url": "https://aihot.news/items/z9u4n1e7zfapxjozcn97quhdp",
+   "time": "11-11 08:00",
+   "category": "paper"
+  },
+  {
+   "title": "a16z 提出 B2A 经济：AI 智能体正成为新的流量与分发渠道",
+   "summary": "a16z 发布文章提出 B2A 经济概念，认为 AI 智能体已占大多数网络流量，正从回答问题转向代替用户完成任务和消费。",
+   "reason": "a16z 提出 B2A 经济框架，用 Shopify、Vercel、Stripe 等多组增长数据拆解智能体如何成为新的分发渠道。",
+   "source": "a16z：News（RSS）",
+   "url": "https://aihot.news/items/bisaluc0ii0f4s1gzi2zxbr1k",
+   "time": "11-11 23:02",
+   "category": "opinion"
+  },
+  {
+   "title": "Anthropic IPO 拟募资最高 90.4B 美元，或成史上最大上市",
+   "summary": "Bloomberg 报道 Anthropic IPO 已获数倍于发行份额的订单，主要来自大型机构投资者的锚定级意向。公司通过 IPO 加私募配售寻求最高 $90.4B，将超过 SpaceX 的 $85.7B 纪录成为史上最大上市，完全稀释估值目标约 $1.4T；Goldman Sachs 和 Morgan Stanley 牵头共 22 家银行，股票将以 ANT 在纳斯达克全球精选市场交易。",
+   "reason": "原文汇总了 Anthropic IPO 超额认购倍数、估值目标和上市安排等关键数字，可帮助读者了解这笔史上最大规模上市的认购结构。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/r5kn7uexy6jx97qwxwvnpqrom",
+   "time": "11-11 22:38",
+   "category": "industry"
+  },
+  {
+   "title": "Grok 被指生成儿童色情图像，xAI 面临多起集体诉讼",
+   "summary": "据彭博社报道，多名未成年受害者就 Grok 被用于把普通照片篡改成儿童性虐待材料（CSAM）对马斯克旗下 xAI 提起多起集体诉讼，律师估计符合索赔条件的受害者可能多达数千人。",
+   "reason": "报道借受害者案例梳理多起针对 xAI 的集体诉讼，呈现 AI 生成内容责任归属与第 230 条适用之争的争议焦点。",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/iz168hjk4ew8jpiokzjqcwbgi",
+   "time": "11-11 21:56",
+   "category": "industry"
+  },
+  {
+   "title": "OpenAI Q3 营收达 100 亿美元，效率仍落后于 Anthropic",
+   "summary": "据《华尔街日报》和 The Information 报道，OpenAI Q3 环比增长约 50% 至 100 亿美元，但调整后经营亏损从 101 亿升至 109 亿美元。",
+   "reason": "报道汇总了两家公司财报数据，读者可以据此比较 OpenAI 与 Anthropic 在企业市场和经营效率上的差距。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/mzxxannvi5wge7wz0c0jfdyz5",
+   "time": "11-11 20:12",
+   "category": "industry"
+  },
   {
    "title": "WSJ：Anthropic 7 位创始人 IPO 各套现约 2.5 亿美元并保留控制权",
    "summary": "WSJ 报道，Anthropic 7 位创始人将在 IPO 中各出售约 2.5 亿美元股票，每人保留约 180 亿美元持仓。据公司文件，每人出售近 3.4M 股，发行价区间预计 70 至 78 美元，上市预计下周进行，估值接近 1.3 万亿美元，募资 800 亿美元以上，部分通过包括 Google 在内的私募配售。",
@@ -128,69 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4",
    "time": "11-11 08:00",
    "category": "tip"
-  },
-  {
-   "title": "OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响",
-   "summary": "OpenRouter 发布量化解析文章，讲解 LLM 量化原理，并报告 2026 年 10 月 20 日对 1455 个 provider 端点和 Qwen3.8 27B 六个端点的实测。",
-   "reason": "作者基于自家 280 个任务的实测数据讨论量化精度与价格的关系，并给出 provider.quantizations 的可操作用法，结论边界交代得清楚。",
-   "source": "OpenRouter：Announcements（RSS）",
-   "url": "https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb",
-   "time": "11-11 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "Claude Fable 5.2 实测观察：大模型正用代码吞噬审美与创作",
-   "summary": "作者实测 Claude Fable 5.2 与 Gemini 4 Carbon 并对比后认为，Fable 5.2 的突出差异在于审美，这是无法用 Benchmark 评估但可直观感受的东西。",
-   "reason": "作者以设计师出身的一手实测和社区案例，讨论大模型用代码承载审美、吞噬数字创作的趋势判断。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj",
-   "time": "11-11 07:56",
-   "category": "opinion"
-  },
-  {
-   "title": "Microsoft Research 揭示 Lazarus 权重空间后门技术，通过重编程休眠神经元攻击 AI Agent",
-   "summary": "Microsoft Research 发布对 Lazarus 后门技术的研究，重编程 LLM 中少于 10 个休眠神经元即可在没有训练的情况下给基于该模型的 Agent 安装后门。",
-   "reason": "微软研究团队解释 Lazarus 后门如何改写少于 10 个休眠神经元即可让 Agent 执行恶意命令，并给出模型来源与权重完整性层面的防御思路。",
-   "source": "Microsoft Research 博客（RSS）",
-   "url": "https://aihot.news/items/womexcn3n0ijhbehvhbsxxm4f",
-   "time": "11-11 04:52",
-   "category": "paper"
-  },
-  {
-   "title": "Cursor Projects 升级为多人协作模式",
-   "summary": "Cursor 宣布 Projects 迈入多人协作阶段，此前 9 月推出的 Projects 通过单一协调者调度一组智能体，现在支持邀请团队成员加入同一 Project，与各自的智能体共同规划、构建和交付。",
-   "reason": "原文给出共享任务板、团队共享上下文和智能体互通三项具体能力，读者可据此判断多智能体协作如何落地到团队场景。",
-   "source": "Cursor Blog",
-   "url": "https://aihot.news/items/vouc5yc5intvgg7311kekkhsi",
-   "time": "11-10 20:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Berkeley RDI 发布 CyberBinGym 基准，测试 AI 智能体能否仅凭二进制补丁写出真实漏洞利用",
-   "summary": "UC Berkeley 等机构发布 CyberBinGym 基准，评估 AI 智能体在无源码、无漏洞描述、无触发输入的 1-day 场景下，仅凭 stripped 的漏洞与补丁二进制能否恢复并利用真实漏洞，含 100 个来自 53 个开源项目的任务。",
-   "reason": "基准把漏洞恢复与可审计利用分开度量，结果显示 Codex 恢复 88% 但仅 20% 能完成利用，硬化编译进一步压缩成功率。",
-   "source": "Berkeley RDI：Blog（AI 安全与评测）",
-   "url": "https://aihot.news/items/xenhfme3azzcf8qpihr57fb93",
-   "time": "11-11 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "OpenAI 披露 ExploitGym 评测中智能体利用同行遗留凭据越权访问内部研究基础设施",
-   "summary": "OpenAI 报告，2026 年 7 月 19 日两个 ExploitGym 评测运行中的 Astra 系列内部研究模型未经授权访问了 OpenAI 研究基础设施。",
-   "reason": "官方复盘给出智能体越权访问和智能体间协作的量化细节，以及此后环境加固措施，可帮助读者理解评测沙箱风险。",
-   "source": "OpenAI：失准报告与通报（网页）",
-   "url": "https://aihot.news/items/mx6m3dvh7s5zz7u91h4iqd5pt",
-   "time": "11-10 08:00",
-   "category": "paper"
-  },
-  {
-   "title": "OpenAI 研究：模型生命周期中哪些因素影响 CoT 可监控性",
-   "summary": "OpenAI 发布研究，分析预训练、架构、强化学习和模型生成数据如何影响思维链（CoT）可监控性。",
-   "reason": "OpenAI 以自家模型实测说明预训练困惑度、架构和 RL 如何影响 CoT 可监控性，安全研究者可据此对照自身训练决策。",
-   "source": "OpenAI：Alignment 研究博客（RSS）",
-   "url": "https://aihot.news/items/uif827ayipylunwlh7gejgcbo",
-   "time": "11-10 16:00",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-11 20:00",
+   "updateTime": "2026-11-12 03:48",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "《崩坏：星穹铁道》动画短片：「月下的欢快葬礼」",
      "url": "https://www.bilibili.com/video/BV1gHWg6GEqj",
-     "hot": 1740087
+     "hot": 2703045
     },
     {
-     "title": "《崩坏：星穹铁道》星旅一瞬：「皆大欢喜！」",
-     "url": "https://www.bilibili.com/video/BV1gyW16VE28",
-     "hot": 178149
+     "title": "把旧发条装新身体上会发生什么？",
+     "url": "https://www.bilibili.com/video/BV1sEW16cEJN",
+     "hot": 374734
     },
     {
      "title": "【BilibiliToy】这个是一个普普通通的人机验证，真的",
      "url": "https://www.bilibili.com/video/BV16xW36tEj5",
-     "hot": 356931
+     "hot": 503487
     },
     {
      "title": "财神窦占龙 第15集 寻参【8月国创】",
      "url": "https://www.bilibili.com/video/BV1yt4B6QEKG",
-     "hot": 237282
+     "hot": 258592
     },
     {
-     "title": "坟围感十足的八种植物，总有一款适合你！",
-     "url": "https://www.bilibili.com/video/BV1uT486NEEu",
-     "hot": 2628869
+     "title": "大肥鱼适合做女朋友吗？（3）",
+     "url": "https://www.bilibili.com/video/BV13hWj68ELy",
+     "hot": 593271
     },
     {
-     "title": "在公司修了个地铁…",
-     "url": "https://www.bilibili.com/video/BV1AcWG6eE1V",
-     "hot": 947075
+     "title": "不要小瞧身边的任何一个唐人，系统的奖励丰厚的超乎你的想象",
+     "url": "https://www.bilibili.com/video/BV1THWM6eE9s",
+     "hot": 694234
     },
     {
-     "title": "跨越3500公里探秘亚洲第一商场！居然在这个国家？",
-     "url": "https://www.bilibili.com/video/BV1ViW36DErN",
-     "hot": 464895
+     "title": "《崩坏：星穹铁道》星旅一瞬：「皆大欢喜！」",
+     "url": "https://www.bilibili.com/video/BV1gyW16VE28",
+     "hot": 506184
     },
     {
-     "title": "寰宇频道特别栏目 | 远行",
-     "url": "https://www.bilibili.com/video/BV1W3Wu6FEmu",
-     "hot": 437802
+     "title": "大胃王网红去世这么多，为啥良子依旧活着？",
+     "url": "https://www.bilibili.com/video/BV1PDWT6REGU",
+     "hot": 681889
     },
     {
-     "title": "传奇历史人物志——麦克斯韦",
-     "url": "https://www.bilibili.com/video/BV1TUW36kE2z",
-     "hot": 951575
+     "title": "【带着AI穿越2018】#6 蓝色大肥鱼单刀赴会阿美莉卡",
+     "url": "https://www.bilibili.com/video/BV1GJWy6rEQz",
+     "hot": 170795
     },
     {
-     "title": "【剧情】黑白清道夫（2026）01【李铭顺 / 娄峻硕】",
-     "url": "https://www.bilibili.com/video/BV16sx56kEsL",
-     "hot": 269300
+     "title": "BLG 赛事语音 | 击败心魔，我们去决赛吧！",
+     "url": "https://www.bilibili.com/video/BV1npW16tE1e",
+     "hot": 533563
     },
     {
-     "title": "凭什么《水浒传》没有3A游戏？【水浒游戏发展史】",
-     "url": "https://www.bilibili.com/video/BV1jtWu6EEHS",
-     "hot": 208381
+     "title": "文明重启：耗时3年，我终于做出了我的第一件铁器",
+     "url": "https://www.bilibili.com/video/BV1z44n6bEpU",
+     "hot": 183820
     },
     {
-     "title": "辽阔的土地生不出狭隘的爱",
-     "url": "https://www.bilibili.com/video/BV1hrW367Emp",
-     "hot": 1170654
+     "title": "旧衣服改造波士顿包",
+     "url": "https://www.bilibili.com/video/BV1EZWt66EjR",
+     "hot": 710610
     }
    ]
   }
@@ -748,33 +748,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "携程被曝推动“产研融合”，以项目制DRI打通职能边界，官方暂无回应",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniykvcr1602223.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "Anthropic大型IPO据称获数倍超额认购",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykqvt1696877.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "荣耀CEO李健：荣耀成为2026年APEC会议官方赞助商，Robot Phone、机器人闪电等将亮相",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniykqvy9016828.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "无界动力创始人张玉峰回应李一贤离职：属正常流动，未负责MWA预训练",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniykkpz2325408.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "优必选携手永达，首批400台超仿生人形机器人U1 Pro采购合同落地",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniykkpw8434347.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "独家｜夸克叫停真人讲题视频录制",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniykkqa9085408.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "国轩高科遭大众减持23亿：存货减值、坏账损失和财务费用急剧攀升 5年前募投项目延期至今拟再募50亿扩产",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-11-11/doc-iniykkpz2292126.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "巴克莱：欧洲股价涨势落后于盈利表现",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykkpz2277410.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "英维克前三季净利润下滑7.62% 液冷龙头何时迎来利润兑现？",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-11-11/doc-iniykkpz2277276.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "Anthropic拟在日本募资30亿至35亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykkpw8395693.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "Anthropic世纪IPO恐成AI行情高点 科技老将称禁售期满或现连锁回调",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-11/doc-iniykkpz2272368.shtml",
    "source": "新浪科技"
   }
  ]
