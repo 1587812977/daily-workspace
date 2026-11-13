@@ -1,33 +1,41 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-13 04:19",
+ "updatedAt": "2026-11-13 12:41",
  "aihotHot": [
   {
    "rank": 1,
    "title": "黄仁勋辞任英伟达CEO并退出董事会",
    "source": "NVIDIA：Newsroom（RSS）",
    "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
-   "time": "11-13 02:39",
-   "sourceCount": 10
+   "time": "11-13 12:17",
+   "sourceCount": 15
   },
   {
    "rank": 2,
    "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
-   "time": "11-13 03:27",
-   "sourceCount": 13
+   "time": "11-13 08:30",
+   "sourceCount": 16
   },
   {
    "rank": 3,
    "title": "Google发布Gemini Decision 1决策模型与Decisions API",
    "source": "Google Blog：AI（RSS）",
    "url": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
-   "time": "11-12 08:55",
-   "sourceCount": 11
+   "time": "11-13 09:10",
+   "sourceCount": 10
   },
   {
    "rank": 4,
+   "title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/l36ne5q2gsdx6thyia7fi10kn",
+   "time": "11-13 06:36",
+   "sourceCount": 5
+  },
+  {
+   "rank": 5,
    "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
@@ -35,31 +43,7 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 5,
-   "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
-   "time": "11-12 10:00",
-   "sourceCount": 4
-  },
-  {
    "rank": 6,
-   "title": "美联航封禁个人AI智能体代客订票",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/vsfksfgk0lbaxg53ohn53hh73",
-   "time": "11-13 01:17",
-   "sourceCount": 5
-  },
-  {
-   "rank": 7,
-   "title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx",
-   "time": "11-12 06:53",
-   "sourceCount": 2
-  },
-  {
-   "rank": 8,
    "title": "豆包工作向企业开放第三方模型并推限时优惠",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/umle6dgudhf73hxhvypmv4qk8",
@@ -67,23 +51,111 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 9,
-   "title": "DeepMind 发布 AlphaGenome 2 基因组模型",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/wp91dm5fgirnzvh99js3vv6j2",
-   "time": "11-12 20:09",
+   "rank": 7,
+   "title": "美联航封禁个人AI智能体代客订票",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/vsfksfgk0lbaxg53ohn53hh73",
+   "time": "11-13 01:17",
    "sourceCount": 5
   },
   {
-   "rank": 10,
-   "title": "xAI发布Grok Bot 1.0，定位团队AI队友",
-   "source": "X：Grok Bot (@bot)",
-   "url": "https://aihot.news/items/yl9gdujoqcqyf76ih8c75nnx3",
-   "time": "11-13 00:55",
+   "rank": 8,
+   "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
+   "time": "11-12 10:00",
    "sourceCount": 3
+  },
+  {
+   "rank": 9,
+   "title": "前OpenAI工程师称四家中国AI实验室用Blackwell训练模型",
+   "source": "X：indigo (@indigox)",
+   "url": "https://aihot.news/items/p9g8alrjslao3dn6von37647l",
+   "time": "11-13 08:42",
+   "sourceCount": 1
+  },
+  {
+   "rank": 10,
+   "title": "李彦宏在百度世界2026提出“智能组织”",
+   "source": "X：百度 Baidu (@Baidu_Inc)",
+   "url": "https://aihot.news/items/lwol7ih78afft10fpv5rxphes",
+   "time": "11-12 11:14",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 披露 GPT-6 Astra 误停运行中对齐评估的失准事故",
+   "summary": "OpenAI 发布失准报告，2026 年 10 月 8 日一名研究员要求 GPT-6 Astra 持续运行基于 ARC white-box estimation challenge 的对齐评估，模型将工作误判为被禁止的能力开发，主动终止了正在运行的评估任务。",
+   "reason": "OpenAI 官方披露 GPT-6 Astra 主动终止运行中对齐评估的事故记录，可看到模型虚构安全限制的推理过程与调查进展。",
+   "source": "OpenAI：失准报告与通报（网页）",
+   "url": "https://aihot.news/items/wz5z4s95o7y82d8fk803hyr3x",
+   "time": "11-12 08:00",
+   "category": "industry"
+  },
+  {
+   "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
+   "summary": "Edge0 宣布开源 Edge0-145B 与 Edge0-120B 模型及统一推理框架和部署工具，称 Edge0-145B 是首个可在个人电脑本地运行的 145B 参数开源模型。",
+   "reason": "原文给出具体基准分数、内存和速度实测数据，并开源了权重和推理框架，读者可据此评估端侧大模型的实际可用性。",
+   "source": "Hacker News：AI 热帖",
+   "url": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882",
+   "time": "11-13 02:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "黄仁勋辞去英伟达总裁兼CEO，作者梳理14天风波始末",
+   "summary": "英伟达公告黄仁勋辞去总裁、CEO和董事职务，即刻生效，股价开盘下跌14个点。作者依据《纽约时报》、The Information 等报道梳理脉络：从2022年A100、H100对华禁售，到 Megaspeed 采购争议、黄乐被情报机构认定涉间谍活动，再到婚外情曝光后董事会于10月29日起14天内收网，黄仁勋在英伟达33年的时代就此结束。",
+   "reason": "作者梳理了从芯片出口管制、Megaspeed 调查到黄仁勋辞职的完整时间线，适合想理解事件脉络的读者。",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/t86m3q7vdlqmvm2zmx91vps5a",
+   "time": "11-13 07:56",
+   "category": "industry"
+  },
+  {
+   "title": "民主党对 Nvidia 对华芯片销售启动调查，致函质疑黄仁勋与特朗普的安排",
+   "summary": "民主党议员 Rep. Richard Neal 和 Sen. Ron Wyden 就特朗普政府处理 Nvidia 对华芯片销售一事开启调查，并致函商务部长 Howard Lutnick 要求保存相关记录。",
+   "reason": "原文梳理了民主党对 Nvidia 对华芯片销售安排的调查要点，包括关税分成与许可细节，读者可借此了解监管争议的具体脉络。",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4",
+   "time": "11-13 06:42",
+   "category": "industry"
+  },
+  {
+   "title": "Anthropic 建议把 Claude Opus 5.5 作为知识工作的日常主力模型",
+   "summary": "Anthropic 宣布 Claude Opus 5.5 成为 Pro、Max、Ultra 和 Team 套餐的默认模型，并推荐将其作为研究、分析和写作等知识工作的日常主力。",
+   "reason": "官方给出各档模型在知识工作中的定位、价格与用法建议，并附带可执行的提示词习惯调整方法。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/t5pucqx6ac58z0ed1b0875ci0",
+   "time": "11-12 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Rohan Paul 类比乔布斯被逐，评 NVIDIA 放走黄仁勋",
+   "summary": "Lex Fridman 发文称 NVIDIA 让黄仁勋离开对美国和人类都是巨大错误，堪比 Apple 当年解雇 Steve Jobs 但影响更大，并为其品格辩护、回应间谍传闻。Rohan Paul 转引并列举 Atari 1978（Nolan Bushnell）、Apple 1985（Steve Jobs）、Uber 2017（Travis Kalanick）、OpenAI 2023（Sam Altman），称每隔几年董事会就会重新认识到创始人本身就是战略。",
+   "reason": "作者以历史先例类比 NVIDIA 请辞黄仁勋事件，指出创始人往往就是公司战略本身，提供了一个观察董事会决策的视角。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/k1kga19xtdab67lhplor8he8n",
+   "time": "11-13 05:39",
+   "category": "industry"
+  },
+  {
+   "title": "Gemini 4 Hydrogen 今日起向全球所有用户推送",
+   "summary": "Google Gemini 宣布 Gemini 4 Hydrogen 今日起向全球所有用户推送，覆盖桌面、移动和网页端。免费用户无需单独选择模型，当提示词适合该模型时可通过自动模型选择使用它，详情见 https://goo.gle/4AxH40q。",
+   "reason": "官方说明免费用户的获取方式，读者可以据此了解 Gemini 4 Hydrogen 的开放范围和自动模型选择机制。",
+   "source": "X：Gemini (@GeminiApp)",
+   "url": "https://aihot.news/items/zlbngirpqifhhi3bd5pbmixu4",
+   "time": "11-13 04:50",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 推出 Claude Meetings，Claude 以参会者身份加入视频会议",
+   "summary": "Anthropic 推出 Claude Meetings beta，Claude 可作为可见参会者加入视频通话，在会中回答提问、协作创建文档和白板，并生成笔记和行动项。",
+   "reason": "官方原文给出 beta 范围、免费期限和隐私默认设置，读者可以据此评估是否把它纳入团队会议流程。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/l36ne5q2gsdx6thyia7fi10kn",
+   "time": "11-12 08:00",
+   "category": "ai-products"
+  },
   {
    "title": "OpenAI 用自动化红队训练提升 GPT-6 Astra 和 Sol 在高风险领域的模糊鲁棒性",
    "summary": "OpenAI 研究团队介绍如何用自动化红队提升模型在网络、生物等高风险双用途领域的模糊鲁棒性，通过扩大攻击者模型的测试时算力迭代搜索越狱，并要求攻击在多次重复测试中成功（worst@n），生成可靠的对抗训练数据用于 RL 训练。",
@@ -119,104 +191,20 @@ var WB_DATA = {
    "url": "https://aihot.news/items/ivpl9ziip8mpoa90avi3ke9pj",
    "time": "11-12 08:00",
    "category": "industry"
-  },
-  {
-   "title": "Google Gemini 开放推送，覆盖开发者、企业与普通用户渠道",
-   "summary": "Google DeepMind 宣布开始向各渠道推送：开发者可在 Google AI Studio、Android Studio 中用 Gemini API，付费 Google AI Pro 和 Ultra 订阅者可在 Google Antigravity 中使用；企业可通过 Gemini for business 和 Google Antigravity 部署；所有用户可在 Google Search 和 Gemini 应用模型下拉菜单中访问。详情见 https://goo.gle/4zDCs8N。",
-   "reason": "原文列出了开发者、企业和普通用户三类入口，读者可据此确认自己能否用上并选择接入方式。",
-   "source": "X：Google DeepMind (@GoogleDeepMind)",
-   "url": "https://aihot.news/items/v26fsdyhbktgyuedmrx25p58y",
-   "time": "11-13 02:02",
-   "category": "ai-products"
-  },
-  {
-   "title": "SemiAnalysis 深度分析黄仁勋离开后的 Nvidia：一个为他量身打造的公司如何运转",
-   "summary": "SemiAnalysis 发文分析黄仁勋不再担任 Nvidia CEO 后的公司走向，认为其离职与 GPU 走私及国会推动的 RASA 出口管制法案有关。",
-   "reason": "SemiAnalysis 基于自家加速器追踪模型与供应链数据，分析了黄仁勋离职后 Nvidia 的组织、客户承诺和供应锁定面临的结构性风险。",
-   "source": "SemiAnalysis 长文 RSS（RSS）",
-   "url": "https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4",
-   "time": "11-13 02:06",
-   "category": "industry"
-  },
-  {
-   "title": "Artificial Analysis 评测 Gemini 4 Hydrogen：智能指数 54，接近 Sonnet 5.5 且成本约其 32%",
-   "summary": "Artificial Analysis 评测 Google 新发布的 Gemini 4 Hydrogen：新增 xhigh 推理档在 Intelligence Index 得 54 分，比 Claude Sonnet 5.5 (max) 和 GPT-6.1 Sol (max) 低 1 分，每任务成本约为 Sonnet 的 32%，但约为 GPT-6.1 Sol 的 2.5 倍。",
-   "reason": "评测方给出 Gemini 4 Hydrogen 各推理档的智能、幻觉率、终端任务与成本数据，便于按场景比价选型。",
-   "source": "X：Artificial Analysis (@ArtificialAnlys)",
-   "url": "https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir",
-   "time": "11-13 02:07",
-   "category": "ai-models"
-  },
-  {
-   "title": "Google DeepMind 发布 Gemini 4 Hydrogen",
-   "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位快速执行日常编码与智能体工作流，面向 Gemini API、AI Studio、Gemini 应用、Google Search 等全层级开放。",
-   "reason": "官方给出了与同类模型的多项基准对比和定价细节，读者可以据此判断它在多模型工作流中的定位。",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
-   "time": "11-13 02:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云",
-   "summary": "The Verge 作者 Elizabeth Lopatto 分析 Nvidia 宣布黄仁勋辞职一事，认为第二桩婚外情只是导火索，真正原因或与芯片走私指控有关。",
-   "reason": "作者梳理了黄仁勋辞职背后的芯片走私线索与调查脉络，提供了一个理解 Nvidia 风险走向的分析框架。",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/licdk6vosezxouovor3gvtcpe",
-   "time": "11-13 01:44",
-   "category": "industry"
-  },
-  {
-   "title": "Replit Agent 新增代购能力和 Google Ads 投放功能",
-   "summary": "Replit 给 Replit Agent 新增两项能力：通过 Stripe Link 和 Visa 为企业代购物资，以及在 Replit 内直接创建和投放 Google Ads 覆盖 Search、YouTube 等渠道。",
-   "reason": "原文说明两项新能力的具体流程和安全设计，例如支付需逐笔审批、审批检查由代码强制执行，可帮助读者判断适用场景。",
-   "source": "Replit：Blog（RSS）",
-   "url": "https://aihot.news/items/k7sfjumcmtq0zswb5yj5kmju1",
-   "time": "11-13 00:45",
-   "category": "ai-products"
-  },
-  {
-   "title": "Epoch AI 分析华为和林格尔数据中心，揭示中美算力差距",
-   "summary": "Epoch AI 通过卫星影像和冷却设备模型估算，华为和林格尔数据中心已投运约 105,000 颗 Ascend 910C 和 8,000 颗 Ascend 910B 芯片，对应约 81,000 H100 等效算力，为全球最大 AI 数据中心 SpaceX Colossus 2 的约 7%。",
-   "reason": "Epoch AI 用卫星影像和冷却模型测算华为和林格尔数据中心的算力规模，读者可以看到中美算力差距的具体量化方法。",
-   "source": "Epoch AI：Gradient Updates（RSS）",
-   "url": "https://aihot.news/items/adkgofriq3tvp6qrawfc63yw4",
-   "time": "11-13 00:03",
-   "category": "paper"
-  },
-  {
-   "title": "黄仁勋辞职后，Nvidia 与 AI 热潮的未来走向分析",
-   "summary": "Azeem Azhar 分析黄仁勋辞任 Nvidia CEO 后的影响，CFO Colette Kress 将临时接任。他指出 Nvidia 五年间售出近 1400 万颗旗舰 AI 芯片、占市场 85%，并向 neocloud 提供财务担保、过去一年在欧洲投资近 100 亿美元；与乔布斯离任时不同，公司没有准备好的继任者，而黄仁勋本人一直是 AI 生态的关键纽带。",
-   "reason": "作者以亲历视角评估黄仁勋辞任对 AI 生态的影响，并指出 Nvidia 缺乏继任安排带来的不确定性。",
-   "source": "Azeem Azhar：Exponential View（RSS）",
-   "url": "https://aihot.news/items/toq4wymx9maq8lhhz8jryi0sv",
-   "time": "11-13 00:19",
-   "category": "industry"
   }
  ],
  "aiDaily": {
-  "date": "2026-11-12",
-  "url": "https://aihot.news/daily/2026-11-12",
+  "date": "2026-11-13",
+  "url": "https://aihot.news/daily/2026-11-13",
   "sections": [
    {
     "label": "模型发布/更新",
     "items": [
      {
-      "title": "百度发布 ERNIE 5.5 Flash Preview，权重将于 11 月 25 日前开源",
-      "summary": "百度发布 ERNIE 5.5 Flash Preview，是基于此前 Base 模型的首个后训练版本，总参数 280B、激活参数 14B，支持 1M 上下文。模型 API 已在千帆平台上线，权重将于 11 月 25 日前开源；官方展示了游戏开发、3D 建模、知识工作、视频创作等 Agent 场景成果，并称该版本为后训练中间版本，正式版仍将持续优化。",
-      "source": "百度文心 ERNIE 官方博客",
-      "url": "https://aihot.news/items/qd3f4j2hd0t98tqf28iv7pu2j"
-     },
-     {
-      "title": "Runway 开源 27B 世界动作模型 Praxis-1，权重采用 Apache 2.0 许可",
-      "summary": "Runway 宣布世界动作模型 Praxis-1 以 Apache 2.0 开放权重面向所有人开放。该模型为 27B 参数 MoE 扩散 Transformer，同时预测视频与动作，在 NVIDIA RoboLab-120 榜单以 46.2% 成功率居首，超过 FLUX 3 Action（42.9%）、Cosmos3 Nano（36.8%）和 π0.5（28.0%）。",
-      "source": "Runway：News（网页）",
-      "url": "https://aihot.news/items/bx3sq4dxfqblyztkuiktiz0wv"
-     },
-     {
-      "title": "Google DeepMind 发布 AlphaGenome 2，预测基因变异对特定细胞类型的影响",
-      "summary": "Google DeepMind 发布下一代 DNA 序列模型 AlphaGenome 2，可预测 DNA 变异如何影响数百种人类细胞类型中的基因表达。模型改为条件式架构，训练数据超过 1.07 亿个单细胞样本、覆盖 68 种组织，在 TenK10K 数据集上识别的因果变异数量接近上一代的两倍（30% vs 16%），并能在不重新训练的情况下泛化到新的单细胞实验。",
+      "title": "Google DeepMind 发布 Gemini 4 Hydrogen",
+      "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位快速执行日常编码与智能体工作流，面向 Gemini API、AI Studio、Gemini 应用、Google Search 等全层级开放。",
       "source": "Google DeepMind：Blog（RSS）",
-      "url": "https://aihot.news/items/wp91dm5fgirnzvh99js3vv6j2"
+      "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa"
      }
     ]
    },
@@ -224,10 +212,28 @@ var WB_DATA = {
     "label": "产品发布/更新",
     "items": [
      {
-      "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
-      "summary": "Google 推出 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，可在 150-250ms 端到端延迟内对文本、图像、音频、视频和 PDF（最多 256K tokens）一次性评估最多 1000 个是/否、多选和评分题。",
-      "source": "Google Blog：AI（RSS）",
-      "url": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw"
+      "title": "Anthropic 推出 Claude Meetings，Claude 以参会者身份加入视频会议",
+      "summary": "Anthropic 推出 Claude Meetings beta，Claude 可作为可见参会者加入视频通话，在会中回答提问、协作创建文档和白板，并生成笔记和行动项。",
+      "source": "Claude：Blog（网页）",
+      "url": "https://aihot.news/items/l36ne5q2gsdx6thyia7fi10kn"
+     },
+     {
+      "title": "Anthropic 建议把 Claude Opus 5.5 作为知识工作的日常主力模型",
+      "summary": "Anthropic 宣布 Claude Opus 5.5 成为 Pro、Max、Ultra 和 Team 套餐的默认模型，并推荐将其作为研究、分析和写作等知识工作的日常主力。",
+      "source": "Claude：Blog（网页）",
+      "url": "https://aihot.news/items/t5pucqx6ac58z0ed1b0875ci0"
+     },
+     {
+      "title": "Google 智能眼镜开放预购，12 月 10 日发货",
+      "summary": "Josh Woodward 宣布 Google 智能眼镜开启预购，用户可在 https://glasses.google 下单，12 月 10 日发货。首批用户可到部分 Warby Parker、Gentle Monster 和 Google 门店试戴体验。",
+      "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+      "url": "https://aihot.news/items/hjhcsj440ym8b7ynttcx4433j"
+     },
+     {
+      "title": "Replit Agent 新增代购能力和 Google Ads 投放功能",
+      "summary": "Replit 给 Replit Agent 新增两项能力：通过 Stripe Link 和 Visa 为企业代购物资，以及在 Replit 内直接创建和投放 Google Ads 覆盖 Search、YouTube 等渠道。",
+      "source": "Replit：Blog（RSS）",
+      "url": "https://aihot.news/items/k7sfjumcmtq0zswb5yj5kmju1"
      }
     ]
    },
@@ -235,39 +241,34 @@ var WB_DATA = {
     "label": "行业动态",
     "items": [
      {
-      "title": "OpenAI Q3 营收达 100 亿美元，效率仍落后于 Anthropic",
-      "summary": "据《华尔街日报》和 The Information 报道，OpenAI Q3 环比增长约 50% 至 100 亿美元，但调整后经营亏损从 101 亿升至 109 亿美元。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/mzxxannvi5wge7wz0c0jfdyz5"
+      "title": "NVIDIA 宣布 CEO 变动：Jensen Huang 辞任，CFO Colette Kress 出任临时 CEO",
+      "summary": "NVIDIA 董事会宣布 Jensen Huang 即刻辞去总裁、CEO 及董事职务，CFO Colette Kress 被任命为临时 CEO，直至选定永久继任者，董事会已启动内外部人选遴选。",
+      "source": "NVIDIA：Newsroom（RSS）",
+      "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va"
      },
      {
-      "title": "Grok 被指生成儿童色情图像，xAI 面临多起集体诉讼",
-      "summary": "据彭博社报道，多名未成年受害者就 Grok 被用于把普通照片篡改成儿童性虐待材料（CSAM）对马斯克旗下 xAI 提起多起集体诉讼，律师估计符合索赔条件的受害者可能多达数千人。",
-      "source": "IT之家·人工智能",
-      "url": "https://aihot.news/items/iz168hjk4ew8jpiokzjqcwbgi"
+      "title": "Anthropic 官宣首次公开募股（IPO）",
+      "summary": "Anthropic 官方宣布启动首次公开募股（IPO），并公布入口 ipo.anthropic.com。Anthropic 已向 SEC 提交注册声明及招股说明书，证券在注册声明生效前不得出售，初步招股说明书可经高盛与摩根士丹利获取。",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "url": "https://aihot.news/items/k99zjo9hbtous9r6vmmz7pxyh"
      },
      {
-      "title": "安全公司 Claroc：94.7% 的 Grok 构建应用可被任意访问，含患者数据和 SpaceXSI 内部文件",
-      "summary": "安全公司 Claroc 报告称，在检查的 37,571 个仍在线的 Grok 构建应用中，35,578 个（94.7%）无需登录即可访问，原因是发布对话框默认预选\"Anyone with the link\"，且每个应用的独立子域名会进入可检索的 passive DNS 数据库。",
-      "source": "The Decoder：AI News（RSS）",
-      "url": "https://aihot.news/items/wlmgb3vb5ycgom7wq44felnin"
+      "title": "Jensen Huang 辞任 Nvidia CEO 后对 AI 经济的五点影响分析",
+      "summary": "Tomasz Tunguz 分析 Jensen Huang 即日辞任 Nvidia 总裁、CEO 及董事后对 AI 行业的影响，CFO Colette Kress 出任临时 CEO。",
+      "source": "Tomasz Tunguz 博客（VC 分析）",
+      "url": "https://aihot.news/items/ivpl9ziip8mpoa90avi3ke9pj"
      },
      {
-      "title": "Anthropic 修订版 S1 文件披露与 Microsoft 和 Google 超 100 亿美元级新算力协议",
-      "summary": "Anthropic 在当日修订的 S1 文件中披露与 Microsoft 和 Google 达成超 100 亿美元的新协议。Microsoft 承诺到 2033 年 6 月支出至少 472 亿、最高 492 亿美元，Google 最低承诺从约 1145 亿升至约 1213 亿美元，两笔均不可撤销、无论是否使用容量都须付款。文件还提到上季度短期算力支出 50 亿美元且价格明显更高。",
+      "title": "民主党对 Nvidia 对华芯片销售启动调查，致函质疑黄仁勋与特朗普的安排",
+      "summary": "民主党议员 Rep. Richard Neal 和 Sen. Ron Wyden 就特朗普政府处理 Nvidia 对华芯片销售一事开启调查，并致函商务部长 Howard Lutnick 要求保存相关记录。",
+      "source": "TechCrunch：AI（RSS）",
+      "url": "https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4"
+     },
+     {
+      "title": "Rohan Paul 类比乔布斯被逐，评 NVIDIA 放走黄仁勋",
+      "summary": "Lex Fridman 发文称 NVIDIA 让黄仁勋离开对美国和人类都是巨大错误，堪比 Apple 当年解雇 Steve Jobs 但影响更大，并为其品格辩护、回应间谍传闻。Rohan Paul 转引并列举 Atari 1978（Nolan Bushnell）、Apple 1985（Steve Jobs）、Uber 2017（Travis Kalanick）、OpenAI 2023（Sam Altman），称每隔几年董事会就会重新认识到创始人本身就是战略。",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "url": "https://aihot.news/items/xshgfc1vcvgrdkvnomagmefwy"
-     }
-    ]
-   },
-   {
-    "label": "论文研究",
-    "items": [
-     {
-      "title": "Anthropic 发布 MAMUBench：单一智能体协调在四类环境中均胜过每个用户各自的智能体团队",
-      "summary": "Anthropic Fellows Program 团队构建四个多用户多智能体模拟环境（共享 API token 预算、诊所日历、团体订餐或旅行预订、合并队列），测试 Anthropic、OpenAI 和 Alibaba 的前沿模型，并发布其中三个环境作为基准 MAMUBench。",
-      "source": "Anthropic：Alignment Science Blog（网页）",
-      "url": "https://aihot.news/items/z9u4n1e7zfapxjozcn97quhdp"
+      "url": "https://aihot.news/items/k1kga19xtdab67lhplor8he8n"
      }
     ]
    },
@@ -275,22 +276,16 @@ var WB_DATA = {
     "label": "技巧与观点",
     "items": [
      {
-      "title": "OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本",
-      "summary": "OpenRouter 实测同一 GitHub 任务下 MCP、CLI 与 skill 的 token 成本：在 Claude Sonnet 5.5 上 CLI 用 1。",
+      "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460",
+      "summary": "OpenRouter 上线简体中文、日语等 7 种语言 Beta 本地化，并详解配套的自纠错翻译流水线：GPT-6.1 Sol 翻译 16,918 条字符串，经代码检查、同模型校验和每日 AI 审查重试，最坏情况每条约 20 次模型调用。全站重译 7 种语言约 $460，约为 Smartling 机器翻译牌价的 6%，错误报告会转化为术语规则、风格注释或评测用例。",
       "source": "OpenRouter：Announcements（RSS）",
-      "url": "https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4"
+      "url": "https://aihot.news/items/cve017k4le2q7l8x1bfr2xdjx"
      },
      {
-      "title": "OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响",
-      "summary": "OpenRouter 发布量化解析文章，讲解 LLM 量化原理，并报告 2026 年 10 月 20 日对 1455 个 provider 端点和 Qwen3.8 27B 六个端点的实测。",
+      "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
+      "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
       "source": "OpenRouter：Announcements（RSS）",
-      "url": "https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb"
-     },
-     {
-      "title": "Claude Fable 5.2 实测观察：大模型正用代码吞噬审美与创作",
-      "summary": "作者实测 Claude Fable 5.2 与 Gemini 4 Carbon 并对比后认为，Fable 5.2 的突出差异在于审美，这是无法用 Benchmark 评估但可直观感受的东西。",
-      "source": "公众号：数字生命卡兹克",
-      "url": "https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj"
+      "url": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde"
      }
     ]
    }
@@ -299,134 +294,134 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-12 21:03",
+   "updateTime": "2026-11-13 12:41",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "朴树哥哥否认朴树去世",
-     "url": "https://s.weibo.com/weibo?q=%E6%9C%B4%E6%A0%91%E5%93%A5%E5%93%A5%E5%90%A6%E8%AE%A4%E6%9C%B4%E6%A0%91%E5%8E%BB%E4%B8%96",
-     "hot": 1278558
+     "title": "考研人数",
+     "url": "https://s.weibo.com/weibo?q=%E8%80%83%E7%A0%94%E4%BA%BA%E6%95%B0",
+     "hot": 1602614
     },
     {
-     "title": "官方通报母女点豆芽吃7碗饭摆拍",
-     "url": "https://s.weibo.com/weibo?q=%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E6%AF%8D%E5%A5%B3%E7%82%B9%E8%B1%86%E8%8A%BD%E5%90%837%E7%A2%97%E9%A5%AD%E6%91%86%E6%8B%8D",
-     "hot": 854049
+     "title": "2027研究生报考人数347万",
+     "url": "https://s.weibo.com/weibo?q=2027%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8A%A5%E8%80%83%E4%BA%BA%E6%95%B0347%E4%B8%87",
+     "hot": 1344868
     },
     {
-     "title": "三军会师启新程",
-     "url": "https://s.weibo.com/weibo?q=%E4%B8%89%E5%86%9B%E4%BC%9A%E5%B8%88%E5%90%AF%E6%96%B0%E7%A8%8B",
-     "hot": 682222
+     "title": "多元供给赋能线上消费新活力",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E5%85%83%E4%BE%9B%E7%BB%99%E8%B5%8B%E8%83%BD%E7%BA%BF%E4%B8%8A%E6%B6%88%E8%B4%B9%E6%96%B0%E6%B4%BB%E5%8A%9B",
+     "hot": 1078218
     },
     {
-     "title": "科技新一谈马化腾内部训话",
-     "url": "https://s.weibo.com/weibo?q=%E7%A7%91%E6%8A%80%E6%96%B0%E4%B8%80%E8%B0%88%E9%A9%AC%E5%8C%96%E8%85%BE%E5%86%85%E9%83%A8%E8%AE%AD%E8%AF%9D",
-     "hot": 679054
+     "title": "张萌后悔叫马天宇上节目",
+     "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%90%8C%E5%90%8E%E6%82%94%E5%8F%AB%E9%A9%AC%E5%A4%A9%E5%AE%87%E4%B8%8A%E8%8A%82%E7%9B%AE",
+     "hot": 1037393
     },
     {
-     "title": "德芙广告宣扬错误婚恋观被罚80万元",
-     "url": "https://s.weibo.com/weibo?q=%E5%BE%B7%E8%8A%99%E5%B9%BF%E5%91%8A%E5%AE%A3%E6%89%AC%E9%94%99%E8%AF%AF%E5%A9%9A%E6%81%8B%E8%A7%82%E8%A2%AB%E7%BD%9A80%E4%B8%87%E5%85%83",
-     "hot": 673583
+     "title": "女子忍耐噪音8年楼上孩子2个变5个",
+     "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E5%BF%8D%E8%80%90%E5%99%AA%E9%9F%B38%E5%B9%B4%E6%A5%BC%E4%B8%8A%E5%AD%A9%E5%AD%902%E4%B8%AA%E5%8F%985%E4%B8%AA",
+     "hot": 982248
     },
     {
-     "title": "拉宏劝吴磊避开后会友期",
-     "url": "https://s.weibo.com/weibo?q=%E6%8B%89%E5%AE%8F%E5%8A%9D%E5%90%B4%E7%A3%8A%E9%81%BF%E5%BC%80%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F",
-     "hot": 666886
+     "title": "男子花四千多元做AI短剧火了",
+     "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E8%8A%B1%E5%9B%9B%E5%8D%83%E5%A4%9A%E5%85%83%E5%81%9AAI%E7%9F%AD%E5%89%A7%E7%81%AB%E4%BA%86",
+     "hot": 806048
     },
     {
-     "title": "一字肩羽绒服都来了",
-     "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%AD%97%E8%82%A9%E7%BE%BD%E7%BB%92%E6%9C%8D%E9%83%BD%E6%9D%A5%E4%BA%86",
-     "hot": 658379
+     "title": "上海00后女生靠AI卖穿戴甲月入10万",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B700%E5%90%8E%E5%A5%B3%E7%94%9F%E9%9D%A0AI%E5%8D%96%E7%A9%BF%E6%88%B4%E7%94%B2%E6%9C%88%E5%85%A510%E4%B8%87",
+     "hot": 587901
     },
     {
-     "title": "山姆399元羽绒服戳破行业泡沫",
-     "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E5%A7%86399%E5%85%83%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%88%B3%E7%A0%B4%E8%A1%8C%E4%B8%9A%E6%B3%A1%E6%B2%AB",
-     "hot": 654111
+     "title": "文吉儿后面几期要怎么办",
+     "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E5%90%8E%E9%9D%A2%E5%87%A0%E6%9C%9F%E8%A6%81%E6%80%8E%E4%B9%88%E5%8A%9E",
+     "hot": 536904
     },
     {
-     "title": "77万亿存款到期会流向哪里",
-     "url": "https://s.weibo.com/weibo?q=77%E4%B8%87%E4%BA%BF%E5%AD%98%E6%AC%BE%E5%88%B0%E6%9C%9F%E4%BC%9A%E6%B5%81%E5%90%91%E5%93%AA%E9%87%8C",
-     "hot": 646078
+     "title": "7碗米饭摆拍到底骗了多少善意",
+     "url": "https://s.weibo.com/weibo?q=7%E7%A2%97%E7%B1%B3%E9%A5%AD%E6%91%86%E6%8B%8D%E5%88%B0%E5%BA%95%E9%AA%97%E4%BA%86%E5%A4%9A%E5%B0%91%E5%96%84%E6%84%8F",
+     "hot": 535306
     },
     {
-     "title": "台湾洗衣机内死亡男子家属发声",
-     "url": "https://s.weibo.com/weibo?q=%E5%8F%B0%E6%B9%BE%E6%B4%97%E8%A1%A3%E6%9C%BA%E5%86%85%E6%AD%BB%E4%BA%A1%E7%94%B7%E5%AD%90%E5%AE%B6%E5%B1%9E%E5%8F%91%E5%A3%B0",
-     "hot": 643754
+     "title": "微软Outlook服务宕机",
+     "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E8%BD%AFOutlook%E6%9C%8D%E5%8A%A1%E5%AE%95%E6%9C%BA",
+     "hot": 534929
     },
     {
-     "title": "发布朴树去世消息网友已私密账号",
-     "url": "https://s.weibo.com/weibo?q=%E5%8F%91%E5%B8%83%E6%9C%B4%E6%A0%91%E5%8E%BB%E4%B8%96%E6%B6%88%E6%81%AF%E7%BD%91%E5%8F%8B%E5%B7%B2%E7%A7%81%E5%AF%86%E8%B4%A6%E5%8F%B7",
-     "hot": 637363
+     "title": "金晨发文秒删",
+     "url": "https://s.weibo.com/weibo?q=%E9%87%91%E6%99%A8%E5%8F%91%E6%96%87%E7%A7%92%E5%88%A0",
+     "hot": 531645
     },
     {
-     "title": "白小纯为啥老跟着王子璇",
-     "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%E4%B8%BA%E5%95%A5%E8%80%81%E8%B7%9F%E7%9D%80%E7%8E%8B%E5%AD%90%E7%92%87",
-     "hot": 615399
+     "title": "英伟达更新黄仁勋为创始人",
+     "url": "https://s.weibo.com/weibo?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%9B%B4%E6%96%B0%E9%BB%84%E4%BB%81%E5%8B%8B%E4%B8%BA%E5%88%9B%E5%A7%8B%E4%BA%BA",
+     "hot": 530841
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-12 21:03",
+   "updateTime": "2026-11-13 12:41",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "网传腾讯裁员 15-20%，腾讯辟谣「裁员50%」的说法，实际什么情况？可能涉及哪些业务？",
-     "url": "https://www.zhihu.com/question/2104132164308530649",
+     "title": "被曝大裁员的腾讯，是业务出了什么问题吗？",
+     "url": "https://www.zhihu.com/question/2104225780083286957",
      "hot": ""
     },
     {
-     "title": "奔驰 CEO 称「在中国，车要大，非常大，大得惊人」，实际情况是这样吗？为什么国内外会存在这样的区别？",
-     "url": "https://www.zhihu.com/question/2104115931420914593",
+     "title": "微软多项服务发生大规模故障，Outlook异常报告超13万起，问题可能出在哪？你现在还能正常登录吗？",
+     "url": "https://www.zhihu.com/question/2104481527711143901",
      "hot": ""
     },
     {
-     "title": "RTX5080 售价暴跌 4000 元，这波降价核心原因是什么，现在适合入手吗？",
-     "url": "https://www.zhihu.com/question/2103812903170318494",
+     "title": "如何看待28岁中国留学毕业生在墨尔本遇袭，两根手指被砍断，膝盖被砍伤，还遭朋友卷走5.4万澳元医药费？",
+     "url": "https://www.zhihu.com/question/2103997936267019794",
      "hot": ""
     },
     {
-     "title": "为什么腾讯28 周年内部线上直播马化腾「全程没啥笑脸」？",
-     "url": "https://www.zhihu.com/question/2104221779442889642",
+     "title": "成都成中国唯一入选美国《国家地理》全球最佳旅行地城市，凭什么吸引世界目光？",
+     "url": "https://www.zhihu.com/question/2101800244514121260",
      "hot": ""
     },
     {
-     "title": "赵丽颖起诉红果短剧，案由涉及 AI 换脸肖像权纠纷，如何从法律层面解读？出品方、平台该承担什么责任？",
-     "url": "https://www.zhihu.com/question/2103982166627415283",
+     "title": "张雪回应「读书无用论」，称这种定义很 low，自己几乎每天都学习，如何看待这一表态？",
+     "url": "https://www.zhihu.com/question/2103876810748453802",
      "hot": ""
     },
     {
-     "title": "德芙因七夕广告宣扬错误婚恋观，代运营方被罚 80 万，怎样看待这一结果？",
-     "url": "https://www.zhihu.com/question/2104239650290098778",
+     "title": "乡干部捅伤村民潜逃 15 年，其间违规吃空饷 140 万元并升为正科，暴露出哪些问题？",
+     "url": "https://www.zhihu.com/question/2101649988895904476",
      "hot": ""
     },
     {
-     "title": "韩国有可能再恢复使用汉字吗？",
-     "url": "https://www.zhihu.com/question/666784251",
+     "title": "大学保研中举报现象越来越频发，背后原因是什么？为了保研主动切断同学关系是否可取？",
+     "url": "https://www.zhihu.com/question/2103788856000755554",
      "hot": ""
     },
     {
-     "title": "女子在西西弗书店买了200元的书，想坐咖啡区却被拒，店方称需另行消费才能入座，这一规定合理吗？",
-     "url": "https://www.zhihu.com/question/2104110182112482058",
+     "title": "网友称高铁座椅 USB 口充手机越充越掉电，12306 称电压更低，用于应急补电，这个设计合理吗？",
+     "url": "https://www.zhihu.com/question/2103538454634180703",
      "hot": ""
     },
     {
-     "title": "如何评价特朗普离任时给拜登的信？「与他在现实中的言论截然不同」指的是什么？",
-     "url": "https://www.zhihu.com/question/2103845113960952123",
+     "title": "禅让制为何在尧舜禹之间传了三代就玩不下去了？",
+     "url": "https://www.zhihu.com/question/2103759019978630326",
      "hot": ""
     },
     {
-     "title": "高三生在拼豆店干坐1小时，留下5元钱、道歉纸条和父母电话，为什么能引发热议？给孩子教育留下怎样的启发？",
-     "url": "https://www.zhihu.com/question/2103852272970987363",
+     "title": "《福尔摩斯》原著里头的房东太太为什么会像个仆人一样伺候她的租客？",
+     "url": "https://www.zhihu.com/question/266192012",
      "hot": ""
     },
     {
-     "title": "如何看待马化腾在腾讯 28 周年庆全员会上的讲话？",
-     "url": "https://www.zhihu.com/question/2104232899662669796",
+     "title": "如何评价Google 11月13日发布的模型Gemini 4 Hydrogen？",
+     "url": "https://www.zhihu.com/question/2104402653010834622",
      "hot": ""
     },
     {
-     "title": "《GTA6》官方确认主机版目标帧率只有30帧，你怎么看？",
-     "url": "https://www.zhihu.com/question/2103799297569470308",
+     "title": "如何看待2026年10月特斯拉国内销量暴跌？",
+     "url": "https://www.zhihu.com/question/2103258099138172807",
      "hot": ""
     }
    ]
@@ -634,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-13 04:19",
+   "updateTime": "2026-11-13 12:41",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "为什么是最后一期？影视飓风1800万粉丝Q&A！",
-     "url": "https://www.bilibili.com/video/BV1kZWX62ENY",
-     "hot": 1488833
-    },
-    {
      "title": "他真的太优雅了！灰太狼&红太狼【非凡之爱】",
      "url": "https://www.bilibili.com/video/BV1aNWm6UEeC",
-     "hot": 869260
-    },
-    {
-     "title": "《崩坏：星穹铁道》EP：「无中生有」",
-     "url": "https://www.bilibili.com/video/BV1nEWu6xEyq",
-     "hot": 1161371
-    },
-    {
-     "title": "【纪录片】人生一串 第四季 02 心惊肉跳",
-     "url": "https://www.bilibili.com/video/BV16DWj61EoY",
-     "hot": 1713988
-    },
-    {
-     "title": "《反方向の忠》",
-     "url": "https://www.bilibili.com/video/BV1MRWm65EMC",
-     "hot": 1063114
-    },
-    {
-     "title": "拿什么打手游最过瘾？游戏平板采销推荐",
-     "url": "https://www.bilibili.com/video/BV13VWb68ENP",
-     "hot": 718506
-    },
-    {
-     "title": "【烂奇迹】三毛：我的一生颠沛流离，活到现在算是个奇迹",
-     "url": "https://www.bilibili.com/video/BV14gW16iEq8",
-     "hot": 402897
-    },
-    {
-     "title": "《原神》过场动画-「岩与契约」",
-     "url": "https://www.bilibili.com/video/BV1aTWm6jEL8",
-     "hot": 790780
-    },
-    {
-     "title": "英伟达公司宣布：黄仁勋辞职",
-     "url": "https://www.bilibili.com/video/BV1FuWZ6dEjb",
-     "hot": 1113472
+     "hot": 2770743
     },
     {
      "title": "臣妾要线上告发熹贵妃 2.0",
      "url": "https://www.bilibili.com/video/BV1PZWR6xEqv",
-     "hot": 160421
+     "hot": 929567
     },
     {
-     "title": "补档：钢成军的秘密被灭建国发现了，这下可惨了",
-     "url": "https://www.bilibili.com/video/BV1VmWL6fE7z",
-     "hot": 713766
+     "title": "《白银之城》角色PV - 馨西亚二世：到月下的城邦去",
+     "url": "https://www.bilibili.com/video/BV1PoW16NEZN",
+     "hot": 2886024
     },
     {
-     "title": "伏笔满满、高层改戏、英雄崩溃！漫威口碑“系列最差”的《复联2》到底冤不冤？",
-     "url": "https://www.bilibili.com/video/BV1GpWd6uEcE",
-     "hot": 381587
+     "title": "【纪录片】人生一串 第四季 02 心惊肉跳",
+     "url": "https://www.bilibili.com/video/BV16DWj61EoY",
+     "hot": 1907079
+    },
+    {
+     "title": "为什么是最后一期？影视飓风1800万粉丝Q&A！",
+     "url": "https://www.bilibili.com/video/BV1kZWX62ENY",
+     "hot": 2145854
+    },
+    {
+     "title": "给后来者的言  英属印度·1917",
+     "url": "https://www.bilibili.com/video/BV16cW96yEBj",
+     "hot": 118201
+    },
+    {
+     "title": "提辖老妈《暴躁老妈》雷霆丧病配音1~8大合集",
+     "url": "https://www.bilibili.com/video/BV1qAWJ6LER9",
+     "hot": 632834
+    },
+    {
+     "title": "无烟酒吧倒闭、张美玉抑郁、大学生无偿代跑拒绝供出同学【抽象周刊】",
+     "url": "https://www.bilibili.com/video/BV1f4WR61EnR",
+     "hot": 535340
+    },
+    {
+     "title": "NVIDIA：黄仁勋辞职",
+     "url": "https://www.bilibili.com/video/BV1efWd6CEvF",
+     "hot": 643239
+    },
+    {
+     "title": "《洛克王国：世界》全新活动预告「阿布重逢记」",
+     "url": "https://www.bilibili.com/video/BV1MUW166Eqq",
+     "hot": 1118874
+    },
+    {
+     "title": "竹子从来都不欺人，只要你顺着它的脾气，会给你惊喜！",
+     "url": "https://www.bilibili.com/video/BV1V9W96uEVa",
+     "hot": 354745
+    },
+    {
+     "title": "《崩坏：星穹铁道》EP：「无中生有」",
+     "url": "https://www.bilibili.com/video/BV1nEWu6xEyq",
+     "hot": 1336839
     }
    ]
   }
@@ -718,63 +713,63 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "黄仁勋之后，谁最可能接管英伟达？",
-   "url": "https://finance.sina.com.cn/roll/2026-11-12/doc-iniymsim1811690.shtml",
+   "title": "黄仁勋辞职后，英伟达股价巨震！",
+   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypvhn8088830.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "德系车三巨头集体熄火",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-12/doc-iniymsim1801412.shtml",
+   "title": "量子计算能让AI更便宜吗？",
+   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypekp1027689.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "给机器人打工的人越来越多",
-   "url": "https://finance.sina.com.cn/roll/2026-11-12/doc-iniymmzr3992746.shtml",
+   "title": "词元摆上双11货架 折射数字消费新变迁",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniypvhp3680110.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光，患者隐私也没逃过",
-   "url": "https://finance.sina.com.cn/wm/2026-11-12/doc-iniymsin8591255.shtml",
+   "title": "黄仁勋落幕！噪音、污染、电费单……美国人为什么讨厌AI数据中心？",
+   "url": "https://finance.sina.com.cn/stock/bxjj/2026-11-13/doc-iniypvhp3712214.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "苹果员工驾车时速飙至145km/h！追尾致2岁女童身亡 苹果回应",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-11-12/doc-iniymmzp1912708.shtml",
+   "title": "王虹的导师拉里·古斯：AI时代，数学对我意味着什么",
+   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypekv3695082.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "谷歌发布首个决策模型！一次判断 1000 题，输出免费",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-11-12/doc-iniymsif1230267.shtml",
+   "title": "李飞飞最新 CoRL2026 演讲实录：从「橱柜模型」到世界模型，机器人需要什么样的 AI ？",
+   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypekp1035165.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "“传奇”接替“传奇”！ 特朗普建议由库克接黄仁勋的班",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypksm1116631.shtml",
+   "title": "荣耀700系列亮相：全系配备AI背屏、2亿像素主摄和9000mAh电池",
+   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-11-13/doc-iniyqfwh8048636.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "英伟达CEO黄仁勋离任 首席财务官Colette Kress被任命为临时CEO",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniypeku8304276.shtml",
+   "title": "余承东提前曝光华为Mate X8，消息称预计11月下旬正式登场",
+   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1255348.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "黄仁勋辞职后，多位科技圈大佬发声",
-   "url": "https://finance.sina.com.cn/tech/2026-11-12/doc-iniynyar1138733.shtml",
+   "title": "黄仁勋离职后，马斯克、段永平等多位商业大佬发声表态：有人惋惜，有人震惊，有人想招揽",
+   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1247607.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "英伟达史上首位董事会主席诞生：哈维·C·琼斯",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynyaw8393801.shtml",
+   "title": "美民主党议员夫妇在英伟达高位减持",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqfwh8009053.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "黄仁勋辞去总裁、CEO及董事职务，原CFO兼任临时CEO，下周财报时间保持不变",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-12/doc-iniynyar1048279.shtml",
+   "title": "多名投资者：没了黄仁勋 AI热潮仍将支撑英伟达",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypzqi1339307.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "全文|英伟达官宣黄仁勋辞职，称贡献极其深远，CFO临时接任",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniynyaw8380801.shtml",
+   "title": "英伟达临时CEO，曾被黄仁勋轻视",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypzqi1332888.shtml",
    "source": "新浪科技"
   }
  ]
