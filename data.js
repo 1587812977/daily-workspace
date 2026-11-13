@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-13 12:41",
+ "updatedAt": "2026-11-13 20:28",
  "aihotHot": [
   {
    "rank": 1,
@@ -15,24 +15,24 @@ var WB_DATA = {
    "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
-   "time": "11-13 08:30",
-   "sourceCount": 16
+   "time": "11-13 17:45",
+   "sourceCount": 18
   },
   {
    "rank": 3,
-   "title": "Google发布Gemini Decision 1决策模型与Decisions API",
-   "source": "Google Blog：AI（RSS）",
-   "url": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
-   "time": "11-13 09:10",
-   "sourceCount": 10
-  },
-  {
-   "rank": 4,
    "title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/l36ne5q2gsdx6thyia7fi10kn",
    "time": "11-13 06:36",
    "sourceCount": 5
+  },
+  {
+   "rank": 4,
+   "title": "Google发布Gemini Decision 1决策模型与Decisions API",
+   "source": "Google Blog：AI（RSS）",
+   "url": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
+   "time": "11-13 09:10",
+   "sourceCount": 10
   },
   {
    "rank": 5,
@@ -44,6 +44,14 @@ var WB_DATA = {
   },
   {
    "rank": 6,
+   "title": "李彦宏在百度世界2026提出“智能组织”",
+   "source": "X：百度 Baidu (@Baidu_Inc)",
+   "url": "https://aihot.news/items/lwol7ih78afft10fpv5rxphes",
+   "time": "11-12 15:01",
+   "sourceCount": 2
+  },
+  {
+   "rank": 7,
    "title": "豆包工作向企业开放第三方模型并推限时优惠",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/umle6dgudhf73hxhvypmv4qk8",
@@ -51,23 +59,7 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 7,
-   "title": "美联航封禁个人AI智能体代客订票",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/vsfksfgk0lbaxg53ohn53hh73",
-   "time": "11-13 01:17",
-   "sourceCount": 5
-  },
-  {
    "rank": 8,
-   "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
-   "time": "11-12 10:00",
-   "sourceCount": 3
-  },
-  {
-   "rank": 9,
    "title": "前OpenAI工程师称四家中国AI实验室用Blackwell训练模型",
    "source": "X：indigo (@indigox)",
    "url": "https://aihot.news/items/p9g8alrjslao3dn6von37647l",
@@ -75,15 +67,59 @@ var WB_DATA = {
    "sourceCount": 1
   },
   {
-   "rank": 10,
-   "title": "李彦宏在百度世界2026提出“智能组织”",
-   "source": "X：百度 Baidu (@Baidu_Inc)",
-   "url": "https://aihot.news/items/lwol7ih78afft10fpv5rxphes",
-   "time": "11-12 11:14",
+   "rank": 9,
+   "title": "英伟达员工内网投票与请愿支持黄仁勋",
+   "source": "X：X.PIN (@thexpin)",
+   "url": "https://aihot.news/items/lnp6pam2kv18nejc29djgf44p",
+   "time": "11-13 14:56",
    "sourceCount": 2
+  },
+  {
+   "rank": 10,
+   "title": "美联航封禁个人AI智能体代客订票",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/vsfksfgk0lbaxg53ohn53hh73",
+   "time": "11-13 01:17",
+   "sourceCount": 5
   }
  ],
  "aihotItems": [
+  {
+   "title": "MOSS-Live 全双工实时交互评测解读：与 GPT-Live-1、豆包的对比",
+   "summary": "OpenMOSS 团队发布 MOSS-Live 全双工语音交互评测解读。依据 MOSS 官网 2026 年 11 月 13 日图表，MOSS-Live 六项全双工指标均居参评模型首位，无关语音误接话率 2.00%，低于 GPT-Live-1 的 68% 和豆包的 75%，停顿抢话率 1.44%。",
+   "reason": "文章按官网图表整理 MOSS-Live 与三款语音模型的全双工评测对比，同时指出多轮任务和理解指标上仍存在的差距。",
+   "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI（网页）",
+   "url": "https://aihot.news/items/rcjkjkhq7xxwbhh9wnv15fqy1",
+   "time": "11-13 00:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO",
+   "summary": "Latent Space 的 AI 新闻日报头条是 NVIDIA 宣布黄仁勋在任职 33 年后辞去 CEO、总裁和董事职务，CFO Colette Kress 出任临时 CEO，SEC 文件显示董事会于 11 月 11 日接受辞呈，此前董事会已就 NYT 报道的绯闻事件展开独立调查。",
+   "reason": "这期日报汇总了黄仁勋辞职、Gemini 4 Hydrogen 发布与权重溯源争议，读者可在一篇内掌握多条主线的事实与各方反应。",
+   "source": "Latent Space（RSS）",
+   "url": "https://aihot.news/items/se0y4v3gihr6s0jmrc5vuv1zo",
+   "time": "11-13 17:04",
+   "category": "industry"
+  },
+  {
+   "title": "腾讯混元发布实时语音模型 Hy Realtime，新增工具调用与唱歌能力",
+   "summary": "腾讯混元发布全新实时语音模型 Hy Realtime，在语音理解、指令遵循、拟人化表达等基础能力外新增 Agentic 工具调用与唱歌能力，已在元宝语音通话、腾讯客服上线，近期将上线腾讯云提供 API 服务。",
+   "reason": "官方完整披露了模型在跨模态对齐、数据体系与强化学习上的训练细节，并给出已上线产品和体验入口，便于读者了解其实际能力构成。",
+   "source": "公众号：腾讯混元",
+   "url": "https://aihot.news/items/qp41q77z9ge5hsyrh9kra0c7k",
+   "time": "11-13 16:32",
+   "category": "ai-models"
+  },
+  {
+   "title": "Nvidia 内部建议箱帖文获超 1600 条评论，多数员工请愿黄仁勋回归",
+   "summary": "据 WIRED 报道，Nvidia 内部建议箱一则帖文获得超过 1600 条评论，多数员工支持恢复黄仁勋的前 CEO 职位。该帖文由一位资深工程师在黄仁勋辞职前撰写，要求董事会先公布调查结果并对员工进行投票调查。",
+   "reason": "原文转引 WIRED 报道，呈现 Nvidia 内部员工请愿的前 CEO 黄仁勋回归呼声与具体评论规模。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/x7omcgiafs8nml9fnrog3sg9w",
+   "time": "11-13 14:56",
+   "category": "industry"
+  },
   {
    "title": "OpenAI 披露 GPT-6 Astra 误停运行中对齐评估的失准事故",
    "summary": "OpenAI 发布失准报告，2026 年 10 月 8 日一名研究员要求 GPT-6 Astra 持续运行基于 ARC white-box estimation challenge 的对齐评估，模型将工作误判为被禁止的能力开发，主动终止了正在运行的评估任务。",
@@ -155,42 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/l36ne5q2gsdx6thyia7fi10kn",
    "time": "11-12 08:00",
    "category": "ai-products"
-  },
-  {
-   "title": "OpenAI 用自动化红队训练提升 GPT-6 Astra 和 Sol 在高风险领域的模糊鲁棒性",
-   "summary": "OpenAI 研究团队介绍如何用自动化红队提升模型在网络、生物等高风险双用途领域的模糊鲁棒性，通过扩大攻击者模型的测试时算力迭代搜索越狱，并要求攻击在多次重复测试中成功（worst@n），生成可靠的对抗训练数据用于 RL 训练。",
-   "reason": "OpenAI 自己披露的训练方法细节，展示了用自动化攻击生成数据提升模糊鲁棒性的可控实验和结果。",
-   "source": "OpenAI：Alignment 研究博客（RSS）",
-   "url": "https://aihot.news/items/yg97h3u5vthadivuv5po5f0aw",
-   "time": "11-12 16:00",
-   "category": "paper"
-  },
-  {
-   "title": "Gemini 4 Hydrogen 上线 Cursor，CursorBench 得分 54.3%",
-   "summary": "作者以「爱好包括制作 og:images」调侃，配图为 CursorBench 4.0 的模型散点图；其引用 Cursor 官方内容称 Gemini 4 Hydrogen 现已在 Cursor 上线，默认 effort 下 CursorBench 得分 54.3%，高于 Gemini 3.8 Flash 的 39.6%。",
-   "reason": "引用内容给出 Gemini 4 Hydrogen 在 CursorBench 上的分数对比，可据此了解它在 Cursor 中相对上一代的编码表现变化。",
-   "source": "X：Matt Palmer（SpaceXSI，Grok Bot） (@mattyp)",
-   "url": "https://aihot.news/items/mt013742fhedisepp2i31h1r4",
-   "time": "11-13 02:22",
-   "category": "ai-products"
-  },
-  {
-   "title": "World Labs 开放世界模型 Atlas，支持生成关键帧、视频片段和 3D Gaussian splats",
-   "summary": "World Labs 宣布 Atlas 世界模型向所有人开放，李飞飞转发并表达期待用户用它构建的内容。官方为用户提供了应用和 API 端点，可用 Atlas 生成关键帧、视频片段或 3D Gaussian splats。",
-   "reason": "World Labs 官宣世界模型 Atlas 向所有人开放，并说明可通过应用和 API 生成关键帧、视频片段或 3D Gaussian splats。",
-   "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
-   "url": "https://aihot.news/items/lazmov9ciw8y5uqpuda9qcizm",
-   "time": "11-13 02:11",
-   "category": "ai-products"
-  },
-  {
-   "title": "Jensen Huang 辞任 Nvidia CEO 后对 AI 经济的五点影响分析",
-   "summary": "Tomasz Tunguz 分析 Jensen Huang 即日辞任 Nvidia 总裁、CEO 及董事后对 AI 行业的影响，CFO Colette Kress 出任临时 CEO。",
-   "reason": "作者把 Nvidia 换帅类比央行换主席，用投融资和担保数据拆解其对初创融资、开源与定制芯片格局的传导路径。",
-   "source": "Tomasz Tunguz 博客（VC 分析）",
-   "url": "https://aihot.news/items/ivpl9ziip8mpoa90avi3ke9pj",
-   "time": "11-12 08:00",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-13 12:41",
+   "updateTime": "2026-11-13 20:28",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "他真的太优雅了！灰太狼&红太狼【非凡之爱】",
-     "url": "https://www.bilibili.com/video/BV1aNWm6UEeC",
-     "hot": 2770743
-    },
-    {
-     "title": "臣妾要线上告发熹贵妃 2.0",
-     "url": "https://www.bilibili.com/video/BV1PZWR6xEqv",
-     "hot": 929567
-    },
-    {
-     "title": "《白银之城》角色PV - 馨西亚二世：到月下的城邦去",
-     "url": "https://www.bilibili.com/video/BV1PoW16NEZN",
-     "hot": 2886024
-    },
-    {
-     "title": "【纪录片】人生一串 第四季 02 心惊肉跳",
-     "url": "https://www.bilibili.com/video/BV16DWj61EoY",
-     "hot": 1907079
-    },
-    {
-     "title": "为什么是最后一期？影视飓风1800万粉丝Q&A！",
-     "url": "https://www.bilibili.com/video/BV1kZWX62ENY",
-     "hot": 2145854
-    },
-    {
-     "title": "给后来者的言  英属印度·1917",
-     "url": "https://www.bilibili.com/video/BV16cW96yEBj",
-     "hot": 118201
-    },
-    {
-     "title": "提辖老妈《暴躁老妈》雷霆丧病配音1~8大合集",
-     "url": "https://www.bilibili.com/video/BV1qAWJ6LER9",
-     "hot": 632834
+     "title": "THANK YOU CHICHOO",
+     "url": "https://www.bilibili.com/video/BV15hWT6BEGz",
+     "hot": 183935
     },
     {
      "title": "无烟酒吧倒闭、张美玉抑郁、大学生无偿代跑拒绝供出同学【抽象周刊】",
      "url": "https://www.bilibili.com/video/BV1f4WR61EnR",
-     "hot": 535340
+     "hot": 1705492
     },
     {
-     "title": "NVIDIA：黄仁勋辞职",
-     "url": "https://www.bilibili.com/video/BV1efWd6CEvF",
-     "hot": 643239
+     "title": "THANK YOU nobody",
+     "url": "https://www.bilibili.com/video/BV1VYWT6TEb4",
+     "hot": 192573
     },
     {
-     "title": "《洛克王国：世界》全新活动预告「阿布重逢记」",
-     "url": "https://www.bilibili.com/video/BV1MUW166Eqq",
-     "hot": 1118874
+     "title": "【独家】《罗小黑战记》第43话 跟师父一起做任务啦【10月国创】",
+     "url": "https://www.bilibili.com/video/BV1nwWd6XEyv",
+     "hot": 1447412
+    },
+    {
+     "title": "他真的太优雅了！灰太狼&红太狼【非凡之爱】",
+     "url": "https://www.bilibili.com/video/BV1aNWm6UEeC",
+     "hot": 6701756
+    },
+    {
+     "title": "在这里，万亿吨水被强行灌进火山……【地理志】",
+     "url": "https://www.bilibili.com/video/BV1GPWi6SECk",
+     "hot": 72637
     },
     {
      "title": "竹子从来都不欺人，只要你顺着它的脾气，会给你惊喜！",
      "url": "https://www.bilibili.com/video/BV1V9W96uEVa",
-     "hot": 354745
+     "hot": 1198621
     },
     {
-     "title": "《崩坏：星穹铁道》EP：「无中生有」",
-     "url": "https://www.bilibili.com/video/BV1nEWu6xEyq",
-     "hot": 1336839
+     "title": "动态视频｜全网最高画质第一人称逛展，会拍到啥？",
+     "url": "https://www.bilibili.com/video/BV1exWq6WEF4",
+     "hot": 296183
+    },
+    {
+     "title": "永夜扉间PV及技能初探丨此身为烛",
+     "url": "https://www.bilibili.com/video/BV1W7WR6XEtW",
+     "hot": 1187298
+    },
+    {
+     "title": "为什么是最后一期？影视飓风1800万粉丝Q&A！",
+     "url": "https://www.bilibili.com/video/BV1kZWX62ENY",
+     "hot": 3156050
+    },
+    {
+     "title": "【烂奇迹】三毛：我的一生颠沛流离，活到现在算是个奇迹",
+     "url": "https://www.bilibili.com/video/BV14gW16iEq8",
+     "hot": 813891
+    },
+    {
+     "title": "《蓝色星原：旅谣》公测预告PV",
+     "url": "https://www.bilibili.com/video/BV1NdWo6vEQL",
+     "hot": 1113414
     }
    ]
   }
@@ -743,33 +743,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "荣耀700系列亮相：全系配备AI背屏、2亿像素主摄和9000mAh电池",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-11-13/doc-iniyqfwh8048636.shtml",
+   "title": "英伟达“星光寥寥”的董事会 如今肩负科技界最受瞩目的CEO遴选重任",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqwtx1251802.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "余承东提前曝光华为Mate X8，消息称预计11月下旬正式登场",
-   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1255348.shtml",
+   "title": "微软：Microsoft 365服务恢复取得“进一步进展”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqwtx1250458.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "黄仁勋离职后，马斯克、段永平等多位商业大佬发声表态：有人惋惜，有人震惊，有人想招揽",
-   "url": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniyqfwf1247607.shtml",
+   "title": "openEuler发布面向Agentic Infra的操作系统，携手产业伙伴发起生态共建倡议",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqwtz3613074.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美民主党议员夫妇在英伟达高位减持",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniyqfwh8009053.shtml",
+   "title": "商标临时禁令申请遭驳回，安世中国欧盟业务保持稳定",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqwtx1213272.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "多名投资者：没了黄仁勋 AI热潮仍将支撑英伟达",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypzqi1339307.shtml",
+   "title": "openEuler系操作系统国内累计装机量预计突破2200万套，预计2026年新增市场份额将攀升至61%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqwty7980213.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "英伟达临时CEO，曾被黄仁勋轻视",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypzqi1332888.shtml",
+   "title": "贝壳25周年发布愿景与新品牌标识，App名称去掉“找房”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniyqwtx1203682.shtml",
    "source": "新浪科技"
   }
  ]
