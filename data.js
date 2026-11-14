@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-14 19:39",
+ "updatedAt": "2026-11-15 02:26",
  "aihotHot": [
   {
    "rank": 1,
    "title": "黄仁勋辞任英伟达CEO并退出董事会",
    "source": "NVIDIA：Newsroom（RSS）",
    "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
-   "time": "11-13 12:17",
-   "sourceCount": 15
+   "time": "11-14 22:49",
+   "sourceCount": 8
   },
   {
    "rank": 2,
@@ -16,7 +16,7 @@ var WB_DATA = {
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
    "time": "11-14 06:05",
-   "sourceCount": 16
+   "sourceCount": 12
   },
   {
    "rank": 3,
@@ -44,14 +44,6 @@ var WB_DATA = {
   },
   {
    "rank": 6,
-   "title": "NVIDIA员工联署要求董事会辞职，董事会另寻继任者",
-   "source": "X：X.PIN (@thexpin)",
-   "url": "https://aihot.news/items/w9235nqq0senjfvm8lz7g51aa",
-   "time": "11-14 04:07",
-   "sourceCount": 4
-  },
-  {
-   "rank": 7,
    "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0",
    "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
    "url": "https://aihot.news/items/um8pmpa91qn1ymvx3pux0sq1x",
@@ -59,20 +51,28 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
+   "rank": 7,
+   "title": "OpenAI解散机器人团队，研究人员并入其他部门",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/zvo2ciiibpmh00lmqkggnsl5r",
+   "time": "11-14 19:40",
+   "sourceCount": 1
+  },
+  {
    "rank": 8,
+   "title": "NVIDIA员工联署要求董事会辞职，董事会另寻继任者",
+   "source": "X：X.PIN (@thexpin)",
+   "url": "https://aihot.news/items/w9235nqq0senjfvm8lz7g51aa",
+   "time": "11-14 04:07",
+   "sourceCount": 4
+  },
+  {
+   "rank": 9,
    "title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/l36ne5q2gsdx6thyia7fi10kn",
    "time": "11-13 06:36",
    "sourceCount": 4
-  },
-  {
-   "rank": 9,
-   "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-14 02:01",
-   "sourceCount": 1
   },
   {
    "rank": 10,
@@ -84,6 +84,33 @@ var WB_DATA = {
   }
  ],
  "aihotItems": [
+  {
+   "title": "黄仁勋离开 Nvidia 后，亚洲各国政府如何回应",
+   "summary": "黄仁勋离开 Nvidia 后，亚洲多国政府相继回应：韩国科技部称 Nvidia 重申将向韩国供应 260,000 块先进 GPU 并继续联合 AI 项目，台湾经济部长龚明鑫认为此事不太可能显著改变全球 AI 产业增长，日本产业省表示将密切关注 Nvidia。",
+   "reason": null,
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/ni18shok3lh70l1e49nazmgdc",
+   "time": "11-15 00:34",
+   "category": "industry"
+  },
+  {
+   "title": "黄仁勋离开 Nvidia：远见型创始人 CEO 时代落幕",
+   "summary": "The Verge 长文回顾黄仁勋因走私丑闻和婚外情指控离开 Nvidia，分析这位执掌首家 5 万亿美元公司、占标普 500 约 6% 的创始人的离去意味着什么。",
+   "reason": "文章梳理了黄仁勋从创办 Nvidia 到押注 CUDA 的关键决策，并结合多位分析师判断其离开后公司的路线图与风险。",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/gslfz6uqr2sqy68cgv38i4tf0",
+   "time": "11-14 20:00",
+   "category": "industry"
+  },
+  {
+   "title": "Nathan Lambert 分析黄仁勋辞职后美国开源模型生态的真空",
+   "summary": "Nathan Lambert 撰文分析 Nvidia CEO 黄仁勋辞职对美国开源模型生态的冲击，认为 Nvidia 对开源模型的资金支持很可能随黄仁勋的离开而干涸，公司首要目标是稳住局面并向客户交付。",
+   "reason": "作者长期跟踪开源模型生态，从 Nvidia 内部支持机制、监管风险到美国缺位问题给出了完整分析框架。",
+   "source": "Nathan Lambert：Interconnects（RSS）",
+   "url": "https://aihot.news/items/np6dwfqwflqe7vfse9kkfxj1n",
+   "time": "11-14 20:23",
+   "category": "opinion"
+  },
   {
    "title": "Cursor 披露安全事件调查结果，恶意 Claude Code 扩展波及最多 5000 用户",
    "summary": "Cursor 发布安全事件完整调查：攻击者利用 Fireworks 暴露的访问密钥读取用于模型训练的 coding agent trace，少于 0.01% 客户的 API 凭证暴露。",
@@ -164,33 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/s59xfwl0atld8vs7xq0pdx6hw",
    "time": "11-14 04:07",
    "category": "industry"
-  },
-  {
-   "title": "Anthropic 详解常驻智能体的五个核心架构原语",
-   "summary": "Anthropic 发布博客，拆解常驻智能体（always-on agents）背后的架构。这类智能体有状态且可主动行动，其兴起得益于模型判断力提升和智能成本下降，例如长程编码任务上 Opus 5.5 每解决一个任务的成本比 Opus 5 低 78%。",
-   "reason": "Anthropic 把常驻智能体拆成五个可落地的架构原语，并给出实现细节与最佳实践，读者可按此搭建自己的方案。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/ypeap2t8w4fqqfuvt7mw3wg79",
-   "time": "11-13 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "研究报告称中国最强 AI 模型使用了被禁出口的 Nvidia Blackwell 芯片训练",
-   "summary": "Will DePue 领导的非营利研究组织 Unemployment Labs 分析 DeepSeek、月之暗面、MiniMax 和蚂蚁集团开源模型权重，发现 Kimi K3 与 DeepSeek V4 等最受关注模型带有 Blackwell 芯片训练痕迹。",
-   "reason": "研究称 DeepSeek、Kimi 等中国开源模型权重带有 Blackwell 芯片训练痕迹，文章还梳理了走私渠道与马来西亚离岸算力路径。",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/q92ir58jcjtp3g9fn11jlb6ei",
-   "time": "11-14 02:40",
-   "category": "industry"
-  },
-  {
-   "title": "Claude Code Stop hook 技巧：用 exit code 2 让 Claude 在检查失败时自动重试",
-   "summary": "Lydia Hallie 分享一个 Claude Code 使用技巧：用 Stop hook 让 Claude 在检查失败后自动重试，关键是让 hook 以 exit code 2 退出。exit 2 会把 hook 的 stderr 返回给 Claude 触发重试，exit 1 则是非阻塞的，即使检查失败 Claude 也会直接结束。",
-   "reason": "原文讲清了 Claude Code Stop hook 中 exit 1 与 exit 2 的行为差异，可用于让检查失败时自动重试。",
-   "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
-   "url": "https://aihot.news/items/p0jsxs2bnv6tmnmn1soi56759",
-   "time": "11-14 02:43",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -624,68 +624,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-14 19:40",
+   "updateTime": "2026-11-15 02:26",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "我就说不能败选吧！万税爷辈分都降了",
-     "url": "https://www.bilibili.com/video/BV1tNWC6wEhV",
-     "hot": 235796
-    },
-    {
-     "title": "《奥奇传说》×《果宝特攻》联动PV｜果宝机甲，归位！",
-     "url": "https://www.bilibili.com/video/BV1gCWC6KEtf",
-     "hot": 421672
+     "title": "街头音要❗| 西南石油 你在听什么❗❓（第143期）",
+     "url": "https://www.bilibili.com/video/BV1MRWV6jEuy",
+     "hot": 1456852
     },
     {
      "title": "抽象新闻：11月人类迷惑行为大赏（上）",
      "url": "https://www.bilibili.com/video/BV1bQWi62EGk",
-     "hot": 1025619
+     "hot": 1979285
+    },
+    {
+     "title": "拍铃铛1V3~",
+     "url": "https://www.bilibili.com/video/BV1xJWi6zEqn",
+     "hot": 1120217
     },
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第24集【总第200集】",
      "url": "https://www.bilibili.com/video/BV1XNWB6dE6g",
-     "hot": 3394923
+     "hot": 4390007
     },
     {
-     "title": "《盛世天下》沉浸体验让选择泛起涟漪",
-     "url": "https://www.bilibili.com/video/BV1byWC6vEEf",
-     "hot": 279602
+     "title": "冬日宿舍之零下六十度？",
+     "url": "https://www.bilibili.com/video/BV1vqWe6EEKQ",
+     "hot": 2379685
+    },
+    {
+     "title": "【2026KPL年度总决赛】11月14日 总决赛 北京JDG VS 北京WB",
+     "url": "https://www.bilibili.com/video/BV1Kzs36kErx",
+     "hot": 625490
+    },
+    {
+     "title": "全看过的这辈子有了",
+     "url": "https://www.bilibili.com/video/BV1rpWe6ZEWn",
+     "hot": 2268842
     },
     {
      "title": "召唤师峡谷的呼声响起，是十三年前的自己在等",
      "url": "https://www.bilibili.com/video/BV1J9s36AESV",
-     "hot": 254868
+     "hot": 772013
     },
     {
-     "title": "如果小时候幻想过的职业真的成真了？会是怎样？",
-     "url": "https://www.bilibili.com/video/BV1JVWq6aECe",
-     "hot": 1589478
-    },
-    {
-     "title": "BLG VLOG | 决赛我们来了",
-     "url": "https://www.bilibili.com/video/BV1CaWk69Evv",
-     "hot": 484546
-    },
-    {
-     "title": "Vibe知识大赏 | 挣钱的本质",
-     "url": "https://www.bilibili.com/video/BV1npWR6JE8j",
-     "hot": 593293
+     "title": "根本没有这样的夹子",
+     "url": "https://www.bilibili.com/video/BV12oWi6VEz7",
+     "hot": 1728516
     },
     {
      "title": "刘耀文独家直播全程回顾：文火慢聊【2026时代少年团系列直播】",
      "url": "https://www.bilibili.com/video/BV16YWB6qE5L",
-     "hot": 830622
+     "hot": 1029275
     },
     {
-     "title": "怪诞虫：一只看起来活不过三天的动物，真的存在过？",
-     "url": "https://www.bilibili.com/video/BV1v4Wr6uEoG",
-     "hot": 723223
+     "title": "当dio的时间停止遇上五条伍的无下限",
+     "url": "https://www.bilibili.com/video/BV11ZWi6kEgo",
+     "hot": 477098
     },
     {
      "title": "宿舍手机壁纸从夯到拉！",
      "url": "https://www.bilibili.com/video/BV1BjWq68Ee2",
-     "hot": 1638618
+     "hot": 3249315
     }
    ]
   }
@@ -738,6 +738,26 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "索菲亚发布设计趋势洞察 推进全案定制战略落地",
+   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-11-14/doc-iniytsqs6949054.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "扫码1分钟借走一台“深圳造”相机，影石在APEC新闻中心设置“媒体借用台”",
+   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniytfyx2723598.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "中诚华隆铜陵基地产线竣工，预计年产5万台计算设备",
+   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniytfyx2717714.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "阿里健康双11：家庭健康消费显著增长，“健康全家卡”用户超百万",
+   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniytfyz3936373.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "OpenAI撤销独立机器人团队，通用模型“打穿”具身智能？",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniysvkz0537599.shtml",
    "source": "新浪科技"
@@ -745,26 +765,6 @@ var WB_DATA = {
   {
    "title": "299美元月费约为1%车价：马斯克回应Cybercab自动驾驶订阅费太高，应在115美元左右",
    "url": "https://finance.sina.com.cn/tech/digi/2026-11-14/doc-iniysvma7303021.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "问界新M8发布会 余承东、张兴海再携手",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-11-14/doc-iniysvmc2877731.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "晶泰科技发布“科学家”计划：开放真实产业命题，招募全球青年科研团队",
-   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniysvmc2870404.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "黄仁勋辞职后：亲友齐聚旧金山豪宅 点炸鸡外卖",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvmc2868383.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "华为数字能源将出售给比亚迪？比亚迪声明：无任何事实依据，属于虚假信息",
-   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniysrce7378137.shtml",
    "source": "新浪科技"
   }
  ]
