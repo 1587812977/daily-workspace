@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-14 12:36",
+ "updatedAt": "2026-11-14 19:39",
  "aihotHot": [
   {
    "rank": 1,
@@ -52,11 +52,11 @@ var WB_DATA = {
   },
   {
    "rank": 7,
-   "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-14 02:01",
-   "sourceCount": 2
+   "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0",
+   "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+   "url": "https://aihot.news/items/um8pmpa91qn1ymvx3pux0sq1x",
+   "time": "11-14 08:14",
+   "sourceCount": 5
   },
   {
    "rank": 8,
@@ -68,18 +68,18 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0",
-   "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-   "url": "https://aihot.news/items/um8pmpa91qn1ymvx3pux0sq1x",
-   "time": "11-14 08:14",
-   "sourceCount": 5
+   "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-14 02:01",
+   "sourceCount": 1
   },
   {
    "rank": 10,
-   "title": "前OpenAI工程师称四家中国AI实验室用Blackwell训练模型",
-   "source": "X：indigo (@indigox)",
-   "url": "https://aihot.news/items/p9g8alrjslao3dn6von37647l",
-   "time": "11-13 23:21",
+   "title": "Gemini 接入 Google Wallet，仅可读取账户",
+   "source": "X：Google (@Google)",
+   "url": "https://aihot.news/items/vtbzlrc5srvma7dycld0ovk9f",
+   "time": "11-14 14:57",
    "sourceCount": 2
   }
  ],
@@ -289,74 +289,74 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-14 12:37",
+   "updateTime": "2026-11-14 19:40",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "无人健身房火了小伙5年开1300家",
-     "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E4%BA%BA%E5%81%A5%E8%BA%AB%E6%88%BF%E7%81%AB%E4%BA%86%E5%B0%8F%E4%BC%995%E5%B9%B4%E5%BC%801300%E5%AE%B6",
-     "hot": 1485804
+     "title": "真的建议大家上班带点零食",
+     "url": "https://s.weibo.com/weibo?q=%E7%9C%9F%E7%9A%84%E5%BB%BA%E8%AE%AE%E5%A4%A7%E5%AE%B6%E4%B8%8A%E7%8F%AD%E5%B8%A6%E7%82%B9%E9%9B%B6%E9%A3%9F",
+     "hot": 1585651
     },
     {
-     "title": "911后第二次全美停飞",
-     "url": "https://s.weibo.com/weibo?q=911%E5%90%8E%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%85%A8%E7%BE%8E%E5%81%9C%E9%A3%9E",
-     "hot": 909843
+     "title": "青稚再获巅峰挑战赛冠军",
+     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%86%8D%E8%8E%B7%E5%B7%85%E5%B3%B0%E6%8C%91%E6%88%98%E8%B5%9B%E5%86%A0%E5%86%9B",
+     "hot": 1572353
     },
     {
-     "title": "深圳盛装喜迎亚太宾朋",
-     "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E7%9B%9B%E8%A3%85%E5%96%9C%E8%BF%8E%E4%BA%9A%E5%A4%AA%E5%AE%BE%E6%9C%8B",
-     "hot": 740607
+     "title": "一图读懂我国消费市场潜力与活力",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82%E6%88%91%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%B8%82%E5%9C%BA%E6%BD%9C%E5%8A%9B%E4%B8%8E%E6%B4%BB%E5%8A%9B",
+     "hot": 1561297
     },
     {
-     "title": "把孩子塞后备箱被查家长说送给交警",
-     "url": "https://s.weibo.com/weibo?q=%E6%8A%8A%E5%AD%A9%E5%AD%90%E5%A1%9E%E5%90%8E%E5%A4%87%E7%AE%B1%E8%A2%AB%E6%9F%A5%E5%AE%B6%E9%95%BF%E8%AF%B4%E9%80%81%E7%BB%99%E4%BA%A4%E8%AD%A6",
-     "hot": 684778
+     "title": "中国人才是隐晦差评的神",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%89%8D%E6%98%AF%E9%9A%90%E6%99%A6%E5%B7%AE%E8%AF%84%E7%9A%84%E7%A5%9E",
+     "hot": 1545451
     },
     {
-     "title": "陈晓楠说青稚的感觉不等于事实",
-     "url": "https://s.weibo.com/weibo?q=%E9%99%88%E6%99%93%E6%A5%A0%E8%AF%B4%E9%9D%92%E7%A8%9A%E7%9A%84%E6%84%9F%E8%A7%89%E4%B8%8D%E7%AD%89%E4%BA%8E%E4%BA%8B%E5%AE%9E",
-     "hot": 581386
+     "title": "打印店老板堪比AI",
+     "url": "https://s.weibo.com/weibo?q=%E6%89%93%E5%8D%B0%E5%BA%97%E8%80%81%E6%9D%BF%E5%A0%AA%E6%AF%94AI",
+     "hot": 1540497
     },
     {
-     "title": "女子回应读博期间3年生下3个孩子",
-     "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E5%9B%9E%E5%BA%94%E8%AF%BB%E5%8D%9A%E6%9C%9F%E9%97%B43%E5%B9%B4%E7%94%9F%E4%B8%8B3%E4%B8%AA%E5%AD%A9%E5%AD%90",
-     "hot": 434385
+     "title": "男婴因黄疸鼻塞入新生儿科次日死亡",
+     "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%A9%B4%E5%9B%A0%E9%BB%84%E7%96%B8%E9%BC%BB%E5%A1%9E%E5%85%A5%E6%96%B0%E7%94%9F%E5%84%BF%E7%A7%91%E6%AC%A1%E6%97%A5%E6%AD%BB%E4%BA%A1",
+     "hot": 1527565
     },
     {
-     "title": "2026KPL年总首发名单",
-     "url": "https://s.weibo.com/weibo?q=2026KPL%E5%B9%B4%E6%80%BB%E9%A6%96%E5%8F%91%E5%90%8D%E5%8D%95",
-     "hot": 431104
+     "title": "JDG对战WB",
+     "url": "https://s.weibo.com/weibo?q=JDG%E5%AF%B9%E6%88%98WB",
+     "hot": 1512723
     },
     {
-     "title": "许飞 厉娜之下众生平等",
-     "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%20%E5%8E%89%E5%A8%9C%E4%B9%8B%E4%B8%8B%E4%BC%97%E7%94%9F%E5%B9%B3%E7%AD%89",
-     "hot": 404477
+     "title": "业内称山姆399元羽绒服是钩子商品",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%9A%E5%86%85%E7%A7%B0%E5%B1%B1%E5%A7%86399%E5%85%83%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%98%AF%E9%92%A9%E5%AD%90%E5%95%86%E5%93%81",
+     "hot": 1503902
     },
     {
-     "title": "全校仅50多岁教师一人自愿当班主任",
-     "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E6%A0%A1%E4%BB%8550%E5%A4%9A%E5%B2%81%E6%95%99%E5%B8%88%E4%B8%80%E4%BA%BA%E8%87%AA%E6%84%BF%E5%BD%93%E7%8F%AD%E4%B8%BB%E4%BB%BB",
-     "hot": 385010
+     "title": "无畏好大的欢呼声",
+     "url": "https://s.weibo.com/weibo?q=%E6%97%A0%E7%95%8F%E5%A5%BD%E5%A4%A7%E7%9A%84%E6%AC%A2%E5%91%BC%E5%A3%B0",
+     "hot": 1488218
     },
     {
-     "title": "22岁男子确诊糖尿病不敢告诉同事",
-     "url": "https://s.weibo.com/weibo?q=22%E5%B2%81%E7%94%B7%E5%AD%90%E7%A1%AE%E8%AF%8A%E7%B3%96%E5%B0%BF%E7%97%85%E4%B8%8D%E6%95%A2%E5%91%8A%E8%AF%89%E5%90%8C%E4%BA%8B",
-     "hot": 306436
+     "title": "吴清称A股市情在全球独一无二",
+     "url": "https://s.weibo.com/weibo?q=%E5%90%B4%E6%B8%85%E7%A7%B0A%E8%82%A1%E5%B8%82%E6%83%85%E5%9C%A8%E5%85%A8%E7%90%83%E7%8B%AC%E4%B8%80%E6%97%A0%E4%BA%8C",
+     "hot": 1467681
     },
     {
-     "title": "英伟达临时CEO是制衡黄仁勋重要力量",
-     "url": "https://s.weibo.com/weibo?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B8%B4%E6%97%B6CEO%E6%98%AF%E5%88%B6%E8%A1%A1%E9%BB%84%E4%BB%81%E5%8B%8B%E9%87%8D%E8%A6%81%E5%8A%9B%E9%87%8F",
-     "hot": 305641
+     "title": "高迪 王乐乐",
+     "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%BF%AA%20%E7%8E%8B%E4%B9%90%E4%B9%90",
+     "hot": 1453224
     },
     {
-     "title": "产妇求剖腹产遭拒孩子脑瘫丈夫发声",
-     "url": "https://s.weibo.com/weibo?q=%E4%BA%A7%E5%A6%87%E6%B1%82%E5%89%96%E8%85%B9%E4%BA%A7%E9%81%AD%E6%8B%92%E5%AD%A9%E5%AD%90%E8%84%91%E7%98%AB%E4%B8%88%E5%A4%AB%E5%8F%91%E5%A3%B0",
-     "hot": 304545
+     "title": "大美晒受伤照片",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E7%BE%8E%E6%99%92%E5%8F%97%E4%BC%A4%E7%85%A7%E7%89%87",
+     "hot": 1450771
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-14 12:37",
+   "updateTime": "2026-11-14 19:40",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
@@ -375,8 +375,18 @@ var WB_DATA = {
      "hot": ""
     },
     {
+     "title": "马化腾曾坦言腾讯AI「上了船才发现船漏水」，如今又把员工分成陆军和海军，这释放了什么信号？",
+     "url": "https://www.zhihu.com/question/2104265147606889514",
+     "hot": ""
+    },
+    {
      "title": "怎么看 DeepSeek 发布全家桶 API，这个价格你接受吗？",
      "url": "https://www.zhihu.com/question/2104704747362054197",
+     "hot": ""
+    },
+    {
+     "title": "上班时才知道昨天同事聚餐了，但是没有叫我，是什么情况？",
+     "url": "https://www.zhihu.com/question/1911047418709022710",
      "hot": ""
     },
     {
@@ -385,23 +395,13 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "蜀汉政权为什么没有产生篡国的权臣？是刘禅大智若愚吗？",
-     "url": "https://www.zhihu.com/question/1916994647198242605",
+     "title": "多地网约车司机称被特惠车、一口价订单逼「疯」，不开特惠单就变少，怎样才能让乘客打车实惠、司机有单可接？",
+     "url": "https://www.zhihu.com/question/2104661988609614131",
      "hot": ""
     },
     {
-     "title": "如何评价11月13日上市的问界新M8，售价37.98万元起，这一价格在如今的市场有竞争力嘛？",
-     "url": "https://www.zhihu.com/question/2104607471683817591",
-     "hot": ""
-    },
-    {
-     "title": "有可以单独猎杀体重大于自身数倍甚至十数倍的动物吗？",
-     "url": "https://www.zhihu.com/question/1937762657991103722",
-     "hot": ""
-    },
-    {
-     "title": "于东来称胖东来将就洗发水争议出调研报告，消费者该关注哪些信息？",
-     "url": "https://www.zhihu.com/question/2104692031402647745",
+     "title": "鸟山明故居与工作室被曝已开始拆除，是否应作为纪念设施保留？",
+     "url": "https://www.zhihu.com/question/2099668207401550119",
      "hot": ""
     },
     {
@@ -410,13 +410,13 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "都说AI提效，为什么打工人反而更累了？",
-     "url": "https://www.zhihu.com/question/2074136077611298927",
+     "title": "赵本山主演喜剧《走马上任》口碑如何？有哪些亮点与不足？",
+     "url": "https://www.zhihu.com/question/2100641649147778273",
      "hot": ""
     },
     {
-     "title": "SpaceX星舰第15次试飞发射升空，助推器回收失败改为海上溅落，飞船继续执行飞行任务，目前进展如何？",
-     "url": "https://www.zhihu.com/question/2103048368494793787",
+     "title": "2026S16 半决赛 Faker 输给 BLG，为何依然获得 LPL 普遍尊重？",
+     "url": "https://www.zhihu.com/question/2104284591246911279",
      "hot": ""
     }
    ]
@@ -624,68 +624,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-14 12:37",
+   "updateTime": "2026-11-14 19:40",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "不是所有的IP都叫CPOPwave  《鸣潮》用同一个频率引发世界的回响",
-     "url": "https://www.bilibili.com/video/BV1G1Wi6QENH",
-     "hot": 577485
+     "title": "我就说不能败选吧！万税爷辈分都降了",
+     "url": "https://www.bilibili.com/video/BV1tNWC6wEhV",
+     "hot": 235796
     },
     {
-     "title": "极致的走线！",
-     "url": "https://www.bilibili.com/video/BV1bkW86bEij",
-     "hot": 2508855
+     "title": "《奥奇传说》×《果宝特攻》联动PV｜果宝机甲，归位！",
+     "url": "https://www.bilibili.com/video/BV1gCWC6KEtf",
+     "hot": 421672
     },
     {
-     "title": "全看过的这辈子有了",
-     "url": "https://www.bilibili.com/video/BV1rpWe6ZEWn",
-     "hot": 716437
+     "title": "抽象新闻：11月人类迷惑行为大赏（上）",
+     "url": "https://www.bilibili.com/video/BV1bQWi62EGk",
+     "hot": 1025619
     },
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第24集【总第200集】",
      "url": "https://www.bilibili.com/video/BV1XNWB6dE6g",
-     "hot": 1222974
+     "hot": 3394923
     },
     {
-     "title": "臭肥鱼害我把情书交给辅导员了！【人和肥鱼03】",
-     "url": "https://www.bilibili.com/video/BV1MaWv6rEo3",
-     "hot": 784329
+     "title": "《盛世天下》沉浸体验让选择泛起涟漪",
+     "url": "https://www.bilibili.com/video/BV1byWC6vEEf",
+     "hot": 279602
     },
     {
-     "title": "把苏德拼好给你｜6分钟看完二战苏德战场",
-     "url": "https://www.bilibili.com/video/BV17KWY6DETN",
-     "hot": 556176
+     "title": "召唤师峡谷的呼声响起，是十三年前的自己在等",
+     "url": "https://www.bilibili.com/video/BV1J9s36AESV",
+     "hot": 254868
     },
     {
-     "title": "假⚡️面⚡️难⚡️藏⚡️泪",
-     "url": "https://www.bilibili.com/video/BV1GbWq6HEct",
-     "hot": 810402
+     "title": "如果小时候幻想过的职业真的成真了？会是怎样？",
+     "url": "https://www.bilibili.com/video/BV1JVWq6aECe",
+     "hot": 1589478
     },
     {
-     "title": "在这里，万亿吨水被强行灌进火山……【地理志】",
-     "url": "https://www.bilibili.com/video/BV1GPWi6SECk",
-     "hot": 1203020
+     "title": "BLG VLOG | 决赛我们来了",
+     "url": "https://www.bilibili.com/video/BV1CaWk69Evv",
+     "hot": 484546
     },
     {
-     "title": "笑点一高大事件",
-     "url": "https://www.bilibili.com/video/BV1sFWq63E4i",
-     "hot": 927712
+     "title": "Vibe知识大赏 | 挣钱的本质",
+     "url": "https://www.bilibili.com/video/BV1npWR6JE8j",
+     "hot": 593293
     },
     {
-     "title": "\" 1 ＋0 ＝10 \"",
-     "url": "https://www.bilibili.com/video/BV1zYWB6qEgk",
-     "hot": 377128
+     "title": "刘耀文独家直播全程回顾：文火慢聊【2026时代少年团系列直播】",
+     "url": "https://www.bilibili.com/video/BV16YWB6qE5L",
+     "hot": 830622
     },
     {
-     "title": "耗资上万！我把匠魂做进了网页版mc... 【B站AI创造公开赛】",
-     "url": "https://www.bilibili.com/video/BV1HTWq6iESp",
-     "hot": 244410
+     "title": "怪诞虫：一只看起来活不过三天的动物，真的存在过？",
+     "url": "https://www.bilibili.com/video/BV1v4Wr6uEoG",
+     "hot": 723223
     },
     {
-     "title": "有用版新僵尸：慈祥二爷",
-     "url": "https://www.bilibili.com/video/BV1wyWv6YEJK",
-     "hot": 1036667
+     "title": "宿舍手机壁纸从夯到拉！",
+     "url": "https://www.bilibili.com/video/BV1BjWq68Ee2",
+     "hot": 1638618
     }
    ]
   }
@@ -738,33 +738,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "多个GLP-1注射液首次纳入基本医保目录，含辉瑞、信达等，用于治疗成人2型糖尿病",
-   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniysrcf2934680.shtml",
+   "title": "OpenAI撤销独立机器人团队，通用模型“打穿”具身智能？",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniysvkz0537599.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "2026年医保商保“双目录”公布，医保目录新增药品107种，商保目录新增药品12种",
-   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniysrcc0576604.shtml",
+   "title": "299美元月费约为1%车价：马斯克回应Cybercab自动驾驶订阅费太高，应在115美元左右",
+   "url": "https://finance.sina.com.cn/tech/digi/2026-11-14/doc-iniysvma7303021.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Afterpay联合创始人莫尔纳将于年底离开",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyskvf0669977.shtml",
+   "title": "问界新M8发布会 余承东、张兴海再携手",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-11-14/doc-iniysvmc2877731.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "2026年ABAC第四次会议开幕 李凡荣、曾毓群、张伟武等出席",
-   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniyskvh7439626.shtml",
+   "title": "晶泰科技发布“科学家”计划：开放真实产业命题，招募全球青年科研团队",
+   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniysvmc2870404.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "以色列风投：英伟达风波给竞品带来机遇",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysepc0461217.shtml",
+   "title": "黄仁勋辞职后：亲友齐聚旧金山豪宅 点炸鸡外卖",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysvmc2868383.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "SpaceX星舰第15次试飞 助推器未能按计划返回发射场",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniysepc0456728.shtml",
+   "title": "华为数字能源将出售给比亚迪？比亚迪声明：无任何事实依据，属于虚假信息",
+   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniysrce7378137.shtml",
    "source": "新浪科技"
   }
  ]
