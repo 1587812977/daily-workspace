@@ -1,46 +1,46 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-15 20:08",
+ "updatedAt": "2026-11-16 03:02",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "黄仁勋辞任英伟达CEO并退出董事会",
+   "title": "黄仁勋辞任英伟达CEO，CFO临时接任",
    "source": "NVIDIA：Newsroom（RSS）",
    "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
-   "time": "11-14 22:49",
-   "sourceCount": 1
+   "time": "11-15 21:00",
+   "sourceCount": 2
   },
   {
    "rank": 2,
-   "title": "DeepSeek 开放 App 能力 API，扩展调用另收费",
-   "source": "DeepSeek：API 更新日志",
-   "url": "https://aihot.news/items/nnbnoebf6mvo97usmwj5wziyl",
-   "time": "11-14 04:31",
-   "sourceCount": 4
-  },
-  {
-   "rank": 3,
    "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
    "source": "X：ChatGPT (@ChatGPT)",
    "url": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
    "time": "11-14 04:45",
-   "sourceCount": 6
+   "sourceCount": 1
   },
   {
-   "rank": 4,
+   "rank": 3,
    "title": "NVIDIA员工与投资者施压董事会，董事会另寻继任者",
    "source": "X：X.PIN (@thexpin)",
    "url": "https://aihot.news/items/w9235nqq0senjfvm8lz7g51aa",
    "time": "11-15 03:38",
-   "sourceCount": 3
+   "sourceCount": 2
+  },
+  {
+   "rank": 4,
+   "title": "DeepSeek 开放 App 能力 API，扩展调用另收费",
+   "source": "DeepSeek：API 更新日志",
+   "url": "https://aihot.news/items/nnbnoebf6mvo97usmwj5wziyl",
+   "time": "11-14 04:31",
+   "sourceCount": 1
   },
   {
    "rank": 5,
-   "title": "OpenAI解散机器人团队，研究人员并入其他部门",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/zvo2ciiibpmh00lmqkggnsl5r",
-   "time": "11-14 19:40",
-   "sourceCount": 1
+   "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
+   "time": "11-15 23:42",
+   "sourceCount": 2
   },
   {
    "rank": 6,
@@ -52,18 +52,18 @@ var WB_DATA = {
   },
   {
    "rank": 7,
-   "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0",
-   "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-   "url": "https://aihot.news/items/um8pmpa91qn1ymvx3pux0sq1x",
-   "time": "11-14 08:14",
-   "sourceCount": 5
+   "title": "Claude Code 桌面版上线本地会话自定义主题",
+   "source": "X：Claude Devs (@ClaudeDevs)",
+   "url": "https://aihot.news/items/dazmxe02wryrfcx3kb3l1sze2",
+   "time": "11-16 02:06",
+   "sourceCount": 1
   },
   {
    "rank": 8,
-   "title": "微软365故障波及Claude，Anthropic通报中断",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/h2nxkfqpvkcqzof1dlta9j5w0",
-   "time": "11-13 21:10",
+   "title": "OpenAI解散机器人团队，研究人员并入其他部门",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/zvo2ciiibpmh00lmqkggnsl5r",
+   "time": "11-14 19:40",
    "sourceCount": 1
   },
   {
@@ -76,11 +76,11 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "Claude Code 桌面版上线本地会话自定义主题",
-   "source": "X：Claude Devs (@ClaudeDevs)",
-   "url": "https://aihot.news/items/dazmxe02wryrfcx3kb3l1sze2",
-   "time": "11-14 14:26",
-   "sourceCount": 1
+   "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0",
+   "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+   "url": "https://aihot.news/items/um8pmpa91qn1ymvx3pux0sq1x",
+   "time": "11-14 08:14",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
@@ -101,24 +101,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/vl3jnosrbdn6i5j2we400046i",
    "time": "11-15 03:05",
    "category": "industry"
-  },
-  {
-   "title": "黄仁勋离开 Nvidia：远见型创始人 CEO 时代落幕",
-   "summary": "The Verge 长文回顾黄仁勋因走私丑闻和婚外情指控离开 Nvidia，分析这位执掌首家 5 万亿美元公司、占标普 500 约 6% 的创始人的离去意味着什么。",
-   "reason": "文章梳理了黄仁勋从创办 Nvidia 到押注 CUDA 的关键决策，并结合多位分析师判断其离开后公司的路线图与风险。",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/gslfz6uqr2sqy68cgv38i4tf0",
-   "time": "11-14 20:00",
-   "category": "industry"
-  },
-  {
-   "title": "Nathan Lambert 分析黄仁勋辞职后美国开源模型生态的真空",
-   "summary": "Nathan Lambert 撰文分析 Nvidia CEO 黄仁勋辞职对美国开源模型生态的冲击，认为 Nvidia 对开源模型的资金支持很可能随黄仁勋的离开而干涸，公司首要目标是稳住局面并向客户交付。",
-   "reason": "作者长期跟踪开源模型生态，从 Nvidia 内部支持机制、监管风险到美国缺位问题给出了完整分析框架。",
-   "source": "Nathan Lambert：Interconnects（RSS）",
-   "url": "https://aihot.news/items/np6dwfqwflqe7vfse9kkfxj1n",
-   "time": "11-14 20:23",
-   "category": "opinion"
   }
  ],
  "aiDaily": {
@@ -510,68 +492,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-15 20:08",
+   "updateTime": "2026-11-16 03:02",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "【2026全球总决赛】11月15日 GEN vs BLG",
      "url": "https://www.bilibili.com/video/BV15es76gEgL",
-     "hot": 18376449
-    },
-    {
-     "title": "三年之期已到，恭迎世一上归位！【第18集】",
-     "url": "https://www.bilibili.com/video/BV1uUsJ6BES6",
-     "hot": 647369
+     "hot": 22080309
     },
     {
      "title": "命运让他们彼此对立，也让他们彼此靠近｜上",
      "url": "https://www.bilibili.com/video/BV1jHsp69Ekg",
-     "hot": 171132
+     "hot": 764500
     },
     {
-     "title": "一穿四LCK捧杯夺冠，含金量最高的一集，我们是冠军！！！【火兰吐槽】",
-     "url": "https://www.bilibili.com/video/BV1Q1sJ66EDq",
-     "hot": 329317
+     "title": "大声告诉我，现在谁是世界第一中单!",
+     "url": "https://www.bilibili.com/video/BV1b3sH6rEzg",
+     "hot": 547666
+    },
+    {
+     "title": "三年之期已到，恭迎世一上归位！【第18集】",
+     "url": "https://www.bilibili.com/video/BV1uUsJ6BES6",
+     "hot": 1497596
     },
     {
      "title": "【独家】牧神记 第109集 无忧剑",
      "url": "https://www.bilibili.com/video/BV1dhWC65Ej8",
-     "hot": 1642939
+     "hot": 2111868
     },
     {
-     "title": "锐评S16 BLG战胜GEN夺冠：一穿四LCK夺冠！我们是冠军！！！",
-     "url": "https://www.bilibili.com/video/BV1BYsJ6UED9",
-     "hot": 335224
-    },
-    {
-     "title": "BLG S16夺冠赞歌《仰望星空》",
-     "url": "https://www.bilibili.com/video/BV14VsJ6aEJd",
-     "hot": 1815182
-    },
-    {
-     "title": "BLG1穿4最终夺冠！纽约前方和Ming米勒一起回味S16决赛！【熬夜吧老头！07】",
-     "url": "https://www.bilibili.com/video/BV1jvsJ67EK5",
-     "hot": 304188
-    },
-    {
-     "title": "【时间啊，向前！】TL-S-1至TL-S-4突袭 摆完挂机 简单好抄",
-     "url": "https://www.bilibili.com/video/BV1HTsn6xE3x",
-     "hot": 464911
+     "title": "楚钧：Knight你绝对FMVP啊！",
+     "url": "https://www.bilibili.com/video/BV1ChsW6iEWD",
+     "hot": 121457
     },
     {
      "title": "BLG夺冠单曲《十年人间》——“旧时梦魇，今日高声唱！”",
      "url": "https://www.bilibili.com/video/BV1Cvsj6SENy",
-     "hot": 578688
+     "hot": 933456
     },
     {
-     "title": "店里¥788一个的蛋糕，自己在家做，能省多少钱？",
-     "url": "https://www.bilibili.com/video/BV1hPsJ6BEL9",
-     "hot": 585674
+     "title": "BLG S16夺冠赞歌《仰望星空》",
+     "url": "https://www.bilibili.com/video/BV14VsJ6aEJd",
+     "hot": 2248895
     },
     {
-     "title": "天呐！英雄联盟历史上含金量最高的冠军！BLG传奇1穿4LCK修成正果！【1酱短评】",
-     "url": "https://www.bilibili.com/video/BV1Gbsn63EcU",
-     "hot": 563896
+     "title": "【时间啊，向前！】TL-S-1至TL-S-4突袭 摆完挂机 简单好抄",
+     "url": "https://www.bilibili.com/video/BV1HTsn6xE3x",
+     "hot": 1265483
+    },
+    {
+     "title": "术式反转久留美 【泛式】",
+     "url": "https://www.bilibili.com/video/BV1Pwsp6qEbo",
+     "hot": 386208
+    },
+    {
+     "title": "《立贤不立长》",
+     "url": "https://www.bilibili.com/video/BV1XMsG6QEip",
+     "hot": 869168
+    },
+    {
+     "title": "《美队全家福VS灭霸全家福》灭霸的爸爸叫灭建国！",
+     "url": "https://www.bilibili.com/video/BV1bzsV6nEM6",
+     "hot": 2982323
     }
    ]
   }
@@ -624,6 +606,26 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "美国二叠纪盆地地区石油产量稳健增长再次超出预期",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvvpt1673394.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "美国电动车企首席执行官：不指望民主党支持我们",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvrfv1776381.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "新兴市场债券供应枯竭推高价格，发行量暴跌41%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvrfs9442650.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "Anthropic IPO 之际，深陷困境的 AI 交易正寻求急需的亮点",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvrfu6210816.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "英伟达CEO继承难题",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvery6380208.shtml",
    "source": "新浪科技"
@@ -631,26 +633,6 @@ var WB_DATA = {
   {
    "title": "伊朗称当前局势下无法推进与国际原子能机构合作",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyverw9592601.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "韩国税务师考试第一名因利用人工智能作弊自首",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvery6351217.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "脑卒中创新药先必新®舌下片首次纳入基本医保目录",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-15/doc-iniyuuaf2103793.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "百度词元所发布首日：供应商暴增超100家，客户新增超1000家",
-   "url": "https://finance.sina.com.cn/tech/2026-11-15/doc-iniyuuai3321993.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "婚纱租赁押金退款延迟 VERA WANG致歉",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-15/doc-iniyuuaf2075532.shtml",
    "source": "新浪科技"
   }
  ]
