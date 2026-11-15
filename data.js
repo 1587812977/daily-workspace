@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-15 12:26",
+ "updatedAt": "2026-11-15 20:08",
  "aihotHot": [
   {
    "rank": 1,
@@ -12,14 +12,6 @@ var WB_DATA = {
   },
   {
    "rank": 2,
-   "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
-   "source": "X：ChatGPT (@ChatGPT)",
-   "url": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
-   "time": "11-14 04:45",
-   "sourceCount": 6
-  },
-  {
-   "rank": 3,
    "title": "DeepSeek 开放 App 能力 API，扩展调用另收费",
    "source": "DeepSeek：API 更新日志",
    "url": "https://aihot.news/items/nnbnoebf6mvo97usmwj5wziyl",
@@ -27,28 +19,36 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
+   "rank": 3,
+   "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物",
+   "source": "X：ChatGPT (@ChatGPT)",
+   "url": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
+   "time": "11-14 04:45",
+   "sourceCount": 6
+  },
+  {
    "rank": 4,
-   "title": "微软365故障波及Claude，Anthropic通报中断",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/h2nxkfqpvkcqzof1dlta9j5w0",
-   "time": "11-13 21:10",
-   "sourceCount": 1
-  },
-  {
-   "rank": 5,
-   "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
-   "time": "11-14 06:05",
-   "sourceCount": 3
-  },
-  {
-   "rank": 6,
    "title": "NVIDIA员工与投资者施压董事会，董事会另寻继任者",
    "source": "X：X.PIN (@thexpin)",
    "url": "https://aihot.news/items/w9235nqq0senjfvm8lz7g51aa",
    "time": "11-15 03:38",
-   "sourceCount": 4
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
+   "title": "OpenAI解散机器人团队，研究人员并入其他部门",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/zvo2ciiibpmh00lmqkggnsl5r",
+   "time": "11-14 19:40",
+   "sourceCount": 1
+  },
+  {
+   "rank": 6,
+   "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
+   "time": "11-14 06:05",
+   "sourceCount": 1
   },
   {
    "rank": 7,
@@ -60,10 +60,10 @@ var WB_DATA = {
   },
   {
    "rank": 8,
-   "title": "OpenAI解散机器人团队，研究人员并入其他部门",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/zvo2ciiibpmh00lmqkggnsl5r",
-   "time": "11-14 19:40",
+   "title": "微软365故障波及Claude，Anthropic通报中断",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/h2nxkfqpvkcqzof1dlta9j5w0",
+   "time": "11-13 21:10",
    "sourceCount": 1
   },
   {
@@ -76,11 +76,11 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "Gemini 接入 Google Wallet，仅可读取账户",
-   "source": "X：Google (@Google)",
-   "url": "https://aihot.news/items/vtbzlrc5srvma7dycld0ovk9f",
-   "time": "11-15 08:00",
-   "sourceCount": 3
+   "title": "Claude Code 桌面版上线本地会话自定义主题",
+   "source": "X：Claude Devs (@ClaudeDevs)",
+   "url": "https://aihot.news/items/dazmxe02wryrfcx3kb3l1sze2",
+   "time": "11-14 14:26",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
@@ -100,15 +100,6 @@ var WB_DATA = {
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/vl3jnosrbdn6i5j2we400046i",
    "time": "11-15 03:05",
-   "category": "industry"
-  },
-  {
-   "title": "黄仁勋离开 Nvidia 后，亚洲各国政府如何回应",
-   "summary": "黄仁勋离开 Nvidia 后，亚洲多国政府相继回应：韩国科技部称 Nvidia 重申将向韩国供应 260,000 块先进 GPU 并继续联合 AI 项目，台湾经济部长龚明鑫认为此事不太可能显著改变全球 AI 产业增长，日本产业省表示将密切关注 Nvidia。",
-   "reason": null,
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/ni18shok3lh70l1e49nazmgdc",
-   "time": "11-15 00:34",
    "category": "industry"
   },
   {
@@ -150,12 +141,6 @@ var WB_DATA = {
       "url": "https://aihot.news/items/e9o5h2c1o5f0xuh2bgqtc2w7k"
      },
      {
-      "title": "黄仁勋离开 Nvidia 后，亚洲各国政府如何回应",
-      "summary": "黄仁勋离开 Nvidia 后，亚洲多国政府相继回应：韩国科技部称 Nvidia 重申将向韩国供应 260,000 块先进 GPU 并继续联合 AI 项目，台湾经济部长龚明鑫认为此事不太可能显著改变全球 AI 产业增长，日本产业省表示将密切关注 Nvidia。",
-      "source": "TechCrunch：AI（RSS）",
-      "url": "https://aihot.news/items/ni18shok3lh70l1e49nazmgdc"
-     },
-     {
       "title": "美联储金融稳定报告：AI成为华尔街头号金融风险",
       "summary": "美联储发布金融稳定报告，纽约联储调查显示87%的市场人士将AI列为首要金融风险，高于春季的50%。报告称对超级智能的市场热情推高股票估值；截至10月AI基础设施债务超6800亿美元，约为2023年全年的5倍、占投资级公司借贷约31%；最大银行对大型科技、数据中心建设及融资工具的风险敞口接近1万亿美元。",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
@@ -190,99 +175,89 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-15 12:26",
+   "updateTime": "2026-11-15 20:08",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "Bin成为LPL历史首位大满贯上路选手",
-     "url": "https://s.weibo.com/weibo?q=Bin%E6%88%90%E4%B8%BALPL%E5%8E%86%E5%8F%B2%E9%A6%96%E4%BD%8D%E5%A4%A7%E6%BB%A1%E8%B4%AF%E4%B8%8A%E8%B7%AF%E9%80%89%E6%89%8B",
-     "hot": 1908579
+     "title": "砒霜口服药让白血病患存活率超97%",
+     "url": "https://s.weibo.com/weibo?q=%E7%A0%92%E9%9C%9C%E5%8F%A3%E6%9C%8D%E8%8D%AF%E8%AE%A9%E7%99%BD%E8%A1%80%E7%97%85%E6%82%A3%E5%AD%98%E6%B4%BB%E7%8E%87%E8%B6%8597%25",
+     "hot": 1317072
     },
     {
-     "title": "尖叫之夜阵容",
-     "url": "https://s.weibo.com/weibo?q=%E5%B0%96%E5%8F%AB%E4%B9%8B%E5%A4%9C%E9%98%B5%E5%AE%B9",
-     "hot": 1240608
+     "title": "Knight说没想到年纪这么大才拿冠军",
+     "url": "https://s.weibo.com/weibo?q=Knight%E8%AF%B4%E6%B2%A1%E6%83%B3%E5%88%B0%E5%B9%B4%E7%BA%AA%E8%BF%99%E4%B9%88%E5%A4%A7%E6%89%8D%E6%8B%BF%E5%86%A0%E5%86%9B",
+     "hot": 863097
     },
     {
-     "title": "4分钟读懂APEC",
-     "url": "https://s.weibo.com/weibo?q=4%E5%88%86%E9%92%9F%E8%AF%BB%E6%87%82APEC",
-     "hot": 1132677
+     "title": "115家世界500强企业参加工商峰会",
+     "url": "https://s.weibo.com/weibo?q=115%E5%AE%B6%E4%B8%96%E7%95%8C500%E5%BC%BA%E4%BC%81%E4%B8%9A%E5%8F%82%E5%8A%A0%E5%B7%A5%E5%95%86%E5%B3%B0%E4%BC%9A",
+     "hot": 686029
     },
     {
-     "title": "BLG夺冠引来半个娱乐圈",
-     "url": "https://s.weibo.com/weibo?q=BLG%E5%A4%BA%E5%86%A0%E5%BC%95%E6%9D%A5%E5%8D%8A%E4%B8%AA%E5%A8%B1%E4%B9%90%E5%9C%88",
-     "hot": 1130934
+     "title": "青稚前女友",
+     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%89%8D%E5%A5%B3%E5%8F%8B",
+     "hot": 585563
     },
     {
-     "title": "青稚 白小纯",
-     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%20%E7%99%BD%E5%B0%8F%E7%BA%AF",
-     "hot": 1115453
+     "title": "小猴子遇见孙悟空不停上手触碰",
+     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%8C%B4%E5%AD%90%E9%81%87%E8%A7%81%E5%AD%99%E6%82%9F%E7%A9%BA%E4%B8%8D%E5%81%9C%E4%B8%8A%E6%89%8B%E8%A7%A6%E7%A2%B0",
+     "hot": 571021
     },
     {
-     "title": "央行重大调整",
-     "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A1%8C%E9%87%8D%E5%A4%A7%E8%B0%83%E6%95%B4",
-     "hot": 686714
+     "title": "BLG夺冠赞助商赢麻了",
+     "url": "https://s.weibo.com/weibo?q=BLG%E5%A4%BA%E5%86%A0%E8%B5%9E%E5%8A%A9%E5%95%86%E8%B5%A2%E9%BA%BB%E4%BA%86",
+     "hot": 552725
     },
     {
-     "title": "BLG夺冠Tim送iPhoneDuo",
-     "url": "https://s.weibo.com/weibo?q=BLG%E5%A4%BA%E5%86%A0Tim%E9%80%81iPhoneDuo",
-     "hot": 636570
+     "title": "学号不是按名字首字母排序吗",
+     "url": "https://s.weibo.com/weibo?q=%E5%AD%A6%E5%8F%B7%E4%B8%8D%E6%98%AF%E6%8C%89%E5%90%8D%E5%AD%97%E9%A6%96%E5%AD%97%E6%AF%8D%E6%8E%92%E5%BA%8F%E5%90%97",
+     "hot": 533873
     },
     {
-     "title": "APEC",
-     "url": "https://s.weibo.com/weibo?q=APEC",
-     "hot": 531149
+     "title": "今何在 不要都觉得比我更了解江南",
+     "url": "https://s.weibo.com/weibo?q=%E4%BB%8A%E4%BD%95%E5%9C%A8%20%E4%B8%8D%E8%A6%81%E9%83%BD%E8%A7%89%E5%BE%97%E6%AF%94%E6%88%91%E6%9B%B4%E4%BA%86%E8%A7%A3%E6%B1%9F%E5%8D%97",
+     "hot": 525505
     },
     {
-     "title": "央视曝光校园举报乱象",
-     "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E6%A0%A1%E5%9B%AD%E4%B8%BE%E6%8A%A5%E4%B9%B1%E8%B1%A1",
-     "hot": 379560
+     "title": "印尼14岁小将与门将相撞后离世",
+     "url": "https://s.weibo.com/weibo?q=%E5%8D%B0%E5%B0%BC14%E5%B2%81%E5%B0%8F%E5%B0%86%E4%B8%8E%E9%97%A8%E5%B0%86%E7%9B%B8%E6%92%9E%E5%90%8E%E7%A6%BB%E4%B8%96",
+     "hot": 503747
     },
     {
-     "title": "疑似后会友期白小纯表白王子璇路透",
-     "url": "https://s.weibo.com/weibo?q=%E7%96%91%E4%BC%BC%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%99%BD%E5%B0%8F%E7%BA%AF%E8%A1%A8%E7%99%BD%E7%8E%8B%E5%AD%90%E7%92%87%E8%B7%AF%E9%80%8F",
-     "hot": 378609
+     "title": "央视曝售楼处成旅游购物点",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%94%AE%E6%A5%BC%E5%A4%84%E6%88%90%E6%97%85%E6%B8%B8%E8%B4%AD%E7%89%A9%E7%82%B9",
+     "hot": 472969
     },
     {
-     "title": "BLG赛后感谢C9教练和选手",
-     "url": "https://s.weibo.com/weibo?q=BLG%E8%B5%9B%E5%90%8E%E6%84%9F%E8%B0%A2C9%E6%95%99%E7%BB%83%E5%92%8C%E9%80%89%E6%89%8B",
-     "hot": 375130
+     "title": "青稚前女友发文",
+     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%89%8D%E5%A5%B3%E5%8F%8B%E5%8F%91%E6%96%87",
+     "hot": 460410
     },
     {
-     "title": "Bin 世一上",
-     "url": "https://s.weibo.com/weibo?q=Bin%20%E4%B8%96%E4%B8%80%E4%B8%8A",
-     "hot": 374630
+     "title": "李梦被迪丽热巴蝴蝶妆狠狠种草",
+     "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E6%A2%A6%E8%A2%AB%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E8%9D%B4%E8%9D%B6%E5%A6%86%E7%8B%A0%E7%8B%A0%E7%A7%8D%E8%8D%89",
+     "hot": 448344
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-15 12:26",
+   "updateTime": "2026-11-15 20:08",
    "url": "https://www.zhihu.com/hot",
    "data": [
-    {
-     "title": "S16 总决赛 BLG 3:1 击败 GEN，中国战队时隔 5 年再夺总冠军，如何评价这场比赛？",
-     "url": "https://www.zhihu.com/question/2105016991765509602",
-     "hot": ""
-    },
-    {
-     "title": "Knight 获得 S16 总决赛 FMVP，成为继田野后 LPL 第二位大满贯，对此你有什么想说的？",
-     "url": "https://www.zhihu.com/question/2105214731573096596",
-     "hot": ""
-    },
     {
      "title": "如何看待王传君谈《爱情公寓》言论争议，称当年脑子里只有「关我屁事」和「关你屁事」，现在为冲动买单？",
      "url": "https://www.zhihu.com/question/2103430981067846812",
      "hot": ""
     },
     {
-     "title": "《影之刃零》沐小葵建模获海外好评，如何看待东西方游戏女性角色审美的差异？",
-     "url": "https://www.zhihu.com/question/2101953371276064259",
+     "title": "GEN 总决赛不敌 BLG 止步亚军，这场比赛他们输在哪？",
+     "url": "https://www.zhihu.com/question/2105209509492822064",
      "hot": ""
     },
     {
-     "title": "台式电脑送人，留下了硬盘。想彻底清除硬盘信息，2个简单方法:用脏水泡，用锤子砸，可靠吗？",
-     "url": "https://www.zhihu.com/question/8693825512",
+     "title": "中国新能源企业在芬建厂涉人口贩运调查，出海中企该如何规避海外用工合规风险？",
+     "url": "https://www.zhihu.com/question/2105092208948933353",
      "hot": ""
     },
     {
@@ -291,33 +266,43 @@ var WB_DATA = {
      "hot": ""
     },
     {
+     "title": "外媒曝中国男足再度收紧纹身限制，国脚需佩戴肤色护臂遮盖，对此你怎么看，国家队限制纹身外露是否合理？",
+     "url": "https://www.zhihu.com/question/2104152081246282219",
+     "hot": ""
+    },
+    {
      "title": "BLG 单刷 LCK 赛区四支战队夺冠，这是不是迄今为止最具含金量的冠军？",
      "url": "https://www.zhihu.com/question/2105210095055459716",
      "hot": ""
     },
     {
-     "title": "C 罗退出国家队后，葡萄牙1-4惨败丹麦，霍伊伦双响B席破门，如何看待这场比赛？",
-     "url": "https://www.zhihu.com/question/2105211169116051095",
+     "title": "Knight 获得 S16 总决赛 FMVP，成为继田野后 LPL 第二位大满贯，对此你有什么想说的？",
+     "url": "https://www.zhihu.com/question/2105214731573096596",
      "hot": ""
     },
     {
-     "title": "如何看待国家卫健委明确：明年3月16日起，食品包装禁止使用「零添加」「不添加」等用语？",
-     "url": "https://www.zhihu.com/question/2104894785022604238",
+     "title": "Windows系统相比macOS系统，真的卡的要死，Windows明知它的致命短板，为何一直都不解决？",
+     "url": "https://www.zhihu.com/question/2103555144390653684",
      "hot": ""
     },
     {
-     "title": "遗传角度来看，孙子是和爷爷奶奶血缘更近，还是和外公外婆？",
-     "url": "https://www.zhihu.com/question/307479952",
+     "title": "Riot 宣布《英雄联盟》即将全面升级为《英雄联盟:曙光》，你觉得此举对于这款游戏意味着什么？",
+     "url": "https://www.zhihu.com/question/2105179283391866247",
+     "hot": ""
+    },
+    {
+     "title": "HR 要求求职者面试时帮忙带咖啡，被拒后取消面试，平台已暂停该招聘账号权限，暴露了背后哪些问题？",
+     "url": "https://www.zhihu.com/question/2104925918871529406",
+     "hot": ""
+    },
+    {
+     "title": "S16 总决赛 BLG 3:1 击败 GEN，中国战队时隔 5 年再夺总冠军，如何评价这场比赛？",
+     "url": "https://www.zhihu.com/question/2105016991765509602",
      "hot": ""
     },
     {
      "title": "Bin 夺得全球总决赛冠军泪洒现场，如何评价他的一路历程？今天的表现他当得起世一上吗？",
      "url": "https://www.zhihu.com/question/2105212045453018566",
-     "hot": ""
-    },
-    {
-     "title": "乌克兰一夜向俄罗斯发射近 1200 架无人机，创下冲突以来最大规模袭击之一，释放了什么信号？",
-     "url": "https://www.zhihu.com/question/2104984568293848683",
      "hot": ""
     }
    ]
@@ -525,68 +510,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-15 12:26",
+   "updateTime": "2026-11-15 20:08",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "【2026全球总决赛】11月15日 GEN vs BLG",
      "url": "https://www.bilibili.com/video/BV15es76gEgL",
-     "hot": 9871092
+     "hot": 18376449
     },
     {
-     "title": "1穿4连斩LCK战队！恭喜BLG，加冕为王！",
-     "url": "https://www.bilibili.com/video/BV1yvsj6SE6m",
-     "hot": 1394680
+     "title": "三年之期已到，恭迎世一上归位！【第18集】",
+     "url": "https://www.bilibili.com/video/BV1uUsJ6BES6",
+     "hot": 647369
     },
     {
-     "title": "我们把欢呼声送给BLG！他们是世界冠军！",
-     "url": "https://www.bilibili.com/video/BV1zmsE6JEuZ",
-     "hot": 722859
+     "title": "命运让他们彼此对立，也让他们彼此靠近｜上",
+     "url": "https://www.bilibili.com/video/BV1jHsp69Ekg",
+     "hot": 171132
     },
     {
-     "title": "合影！一人一句恭喜BLG！2026英雄联盟全球总决赛决战高光时刻",
-     "url": "https://www.bilibili.com/video/BV1qQsE62EiZ",
-     "hot": 265450
+     "title": "一穿四LCK捧杯夺冠，含金量最高的一集，我们是冠军！！！【火兰吐槽】",
+     "url": "https://www.bilibili.com/video/BV1Q1sJ66EDq",
+     "hot": 329317
     },
     {
      "title": "【独家】牧神记 第109集 无忧剑",
      "url": "https://www.bilibili.com/video/BV1dhWC65Ej8",
-     "hot": 334972
+     "hot": 1642939
     },
     {
-     "title": "【英雄联盟S16】BLG夺冠时刻",
-     "url": "https://www.bilibili.com/video/BV1kqsj6EEVy",
-     "hot": 1383214
+     "title": "锐评S16 BLG战胜GEN夺冠：一穿四LCK夺冠！我们是冠军！！！",
+     "url": "https://www.bilibili.com/video/BV1BYsJ6UED9",
+     "hot": 335224
     },
     {
      "title": "BLG S16夺冠赞歌《仰望星空》",
      "url": "https://www.bilibili.com/video/BV14VsJ6aEJd",
-     "hot": 650662
+     "hot": 1815182
     },
     {
-     "title": "BLG一穿四夺冠！BLG 3-1 GEN 赛后数据雷达图丨2026全球总决赛-决赛",
-     "url": "https://www.bilibili.com/video/BV1Nesj6HETj",
-     "hot": 695972
+     "title": "BLG1穿4最终夺冠！纽约前方和Ming米勒一起回味S16决赛！【熬夜吧老头！07】",
+     "url": "https://www.bilibili.com/video/BV1jvsJ67EK5",
+     "hot": 304188
     },
     {
-     "title": "【BLG vs GEN】德云色解说：新王登基！等待一生的巨浪！（2026全球总决赛）",
-     "url": "https://www.bilibili.com/video/BV17hs76GE6p",
-     "hot": 595494
+     "title": "【时间啊，向前！】TL-S-1至TL-S-4突袭 摆完挂机 简单好抄",
+     "url": "https://www.bilibili.com/video/BV1HTsn6xE3x",
+     "hot": 464911
     },
     {
-     "title": "刘耀文独家直播全程回顾：文火慢聊【2026时代少年团系列直播】",
-     "url": "https://www.bilibili.com/video/BV16YWB6qE5L",
-     "hot": 1090287
+     "title": "BLG夺冠单曲《十年人间》——“旧时梦魇，今日高声唱！”",
+     "url": "https://www.bilibili.com/video/BV1Cvsj6SENy",
+     "hot": 578688
     },
     {
-     "title": "1穿4战胜LCK赛区战队！祝贺BLG拿下2026英雄联盟全球总决赛冠军！",
-     "url": "https://www.bilibili.com/video/BV1yesj6nEAd",
-     "hot": 774215
+     "title": "店里¥788一个的蛋糕，自己在家做，能省多少钱？",
+     "url": "https://www.bilibili.com/video/BV1hPsJ6BEL9",
+     "hot": 585674
     },
     {
-     "title": "最怕BLG夺冠之人是什么梗【梗指南】",
-     "url": "https://www.bilibili.com/video/BV1hQWB6sEpe",
-     "hot": 1180410
+     "title": "天呐！英雄联盟历史上含金量最高的冠军！BLG传奇1穿4LCK修成正果！【1酱短评】",
+     "url": "https://www.bilibili.com/video/BV1Gbsn63EcU",
+     "hot": 563896
     }
    ]
   }
@@ -639,33 +624,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "英伟达CEO继承难题",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvery6380208.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "伊朗称当前局势下无法推进与国际原子能机构合作",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyverw9592601.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "韩国税务师考试第一名因利用人工智能作弊自首",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-15/doc-iniyvery6351217.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "脑卒中创新药先必新®舌下片首次纳入基本医保目录",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-15/doc-iniyuuaf2103793.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "百度词元所发布首日：供应商暴增超100家，客户新增超1000家",
+   "url": "https://finance.sina.com.cn/tech/2026-11-15/doc-iniyuuai3321993.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "婚纱租赁押金退款延迟 VERA WANG致歉",
    "url": "https://finance.sina.com.cn/tech/shenji/2026-11-15/doc-iniyuuaf2075532.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "BLG夺S16全球总决赛冠军 B站免费送7天大会员",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-15/doc-iniyuinh9902266.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "美“星舰”飞船首次被发射塔机械臂“捕获”回收",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyucer3563747.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "索菲亚发布设计趋势洞察 推进全案定制战略落地",
-   "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-11-14/doc-iniytsqs6949054.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "扫码1分钟借走一台“深圳造”相机，影石在APEC新闻中心设置“媒体借用台”",
-   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniytfyx2723598.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "中诚华隆铜陵基地产线竣工，预计年产5万台计算设备",
-   "url": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniytfyx2717714.shtml",
    "source": "新浪科技"
   }
  ]
