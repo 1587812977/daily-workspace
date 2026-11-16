@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-16 21:01",
+ "updatedAt": "2026-11-17 06:27",
  "aihotHot": [
   {
    "rank": 1,
    "title": "阿里发布 Qwen4-Max，预览版先行接入多产品",
    "source": "Qwen：Blog Retrieval（API）",
    "url": "https://aihot.news/items/nqcfrkilrh7nhnpd03t9q1zfh",
-   "time": "11-16 19:12",
-   "sourceCount": 9
+   "time": "11-17 00:56",
+   "sourceCount": 10
   },
   {
    "rank": 2,
@@ -16,145 +16,181 @@ var WB_DATA = {
    "source": "NVIDIA：Newsroom（RSS）",
    "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
    "time": "11-15 21:00",
-   "sourceCount": 2
-  },
-  {
-   "rank": 3,
-   "title": "NVIDIA员工与投资者施压董事会，董事会另寻继任者",
-   "source": "X：X.PIN (@thexpin)",
-   "url": "https://aihot.news/items/w9235nqq0senjfvm8lz7g51aa",
-   "time": "11-15 03:38",
    "sourceCount": 1
   },
   {
-   "rank": 4,
-   "title": "腾讯混元发布 Hy4 flash，WorkBuddy 与 OpenCode 接入",
+   "rank": 3,
+   "title": "腾讯混元 Hy4 flash 发布并接入多平台",
    "source": "腾讯混元：Research（API）",
    "url": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899",
-   "time": "11-16 17:19",
-   "sourceCount": 6
+   "time": "11-17 01:09",
+   "sourceCount": 7
+  },
+  {
+   "rank": 4,
+   "title": "加州总检察长起诉OpenAI智能体失控",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/t1ol5cc73f6teh8f32wvri1cn",
+   "time": "11-17 04:46",
+   "sourceCount": 3
   },
   {
    "rank": 5,
    "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
-   "time": "11-16 09:01",
-   "sourceCount": 2
+   "time": "11-17 02:45",
+   "sourceCount": 3
   },
   {
    "rank": 6,
+   "title": "Corma获1.25亿美元融资，估值达10亿美元",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/x16jyhot9r3q6gmrs5gzjhyxb",
+   "time": "11-17 01:49",
+   "sourceCount": 1
+  },
+  {
+   "rank": 7,
    "title": "苹果联合 OpenEvidence 启动健康 AI 使用研究",
    "source": "Apple：Newsroom（RSS）",
    "url": "https://aihot.news/items/txbnasfrp3d0w6wqmor5rp8fk",
    "time": "11-16 09:30",
-   "sourceCount": 3
-  },
-  {
-   "rank": 7,
-   "title": "马斯克等联署请愿要求英伟达恢复黄仁勋职务",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/umoosrbjhi12kj7lv51qan4ju",
-   "time": "11-15 05:41",
-   "sourceCount": 1
+   "sourceCount": 2
   },
   {
    "rank": 8,
-   "title": "豆包工作上线「工作台」功能",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/zhza6qwp4ylvz6iclzncpqxqh",
-   "time": "11-16 12:27",
-   "sourceCount": 1
+   "title": "OpenAI 与四机构签约开展嵌入式安全评估",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/qaj2npptre8jgn8xanq9ic965",
+   "time": "11-17 01:02",
+   "sourceCount": 2
   },
   {
    "rank": 9,
-   "title": "韩国税务师考试头名承认用AI作弊，政府扩大调查",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/xvpw4jy89d3ie6cf9z4utjs4u",
-   "time": "11-15 21:42",
-   "sourceCount": 1
+   "title": "AMD宣布收购World Labs，李飞飞确认加入",
+   "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
+   "url": "https://aihot.news/items/z7hs74i3gy5lelr41tobcp2vz",
+   "time": "11-17 01:15",
+   "sourceCount": 3
   },
   {
    "rank": 10,
-   "title": "腾讯总办LinkTime笔记：全业务面向AI再创业",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/hpiadnis9pig12p7pj6hngkra",
-   "time": "11-16 10:03",
+   "title": "Dreamteam融资5300万美元，以AI原生CRM挑战Salesforce",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/dguocho2r5fifjq9674onyevh",
+   "time": "11-16 20:30",
    "sourceCount": 1
   }
  ],
  "aihotItems": [
   {
-   "title": "IMF 总裁警告全球经济过度依赖 AI，循环融资规模超 1 万亿美元",
-   "summary": "IMF 总裁格奥尔基耶娃在东盟峰会期间表示，全球经济正依靠 AI 支撑，过度依赖可能危及金融稳定，IMF 估计 AI 企业间循环融资规模已超 1 万亿美元，其中约三分之二来自债务融资。她认为近期市场波动属于有序调整，不太可能演变成系统性风险，但最坏情景下美股可能在 2026 年下跌 20%，2028 年全球经济产出比基准预测低 1.1%。",
-   "reason": "IMF 总裁对 AI 循环融资超 1 万亿美元的警告，为判断当前 AI 投资热与金融稳定风险提供了权威视角。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/leb3cw7nrt06nvf0ew7rkiqf7",
-   "time": "11-16 17:32",
-   "category": "opinion"
-  },
-  {
-   "title": "自媒体作者分享10条指挥Agent最常用的Prompt",
-   "summary": "作者让Agent整理出自己近两个月指挥Agent干活最常用的10条Prompt并分享，包括从第一性原理找根因、先对齐喜好再出3版方案、推演改动二阶三阶影响、假设最优方案错误找反例、分析Git历史识别可移除的历史包袱、评估新工程师接手的认知成本、复盘Bug和返工并沉淀成规则或Skill等。作者希望对大家指挥Agent开发有用。",
-   "reason": "作者沉淀了自己指挥Agent干活最常用的10条Prompt原文，覆盖需求澄清、方案推演和项目复盘，可直接套用到日常开发流程里。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/jqangh4mwcgcv6pwcv8ar7pga",
-   "time": "11-16 18:05",
-   "category": "tip"
-  },
-  {
-   "title": "腾讯混元发布 Hy4 flash：224B 总参数、1M 上下文的日常高性价比模型",
-   "summary": "腾讯混元推出 Hy4 flash，总参数 224B（含 64B Engram 参数）、激活 12B，支持多模态和 1M 上下文，API 价格大幅低于 Hy4（输入 0.5 元、输出 2 元每百万 tokens）。",
-   "reason": "原文给出架构、价格表、成本对比和多个业务场景评测数据，可帮助读者评估日常任务的性价比选型。",
-   "source": "腾讯混元：Research（API）",
-   "url": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899",
-   "time": "11-16 12:29",
-   "category": "ai-models"
-  },
-  {
-   "title": "Qwen4-Max 登顶 Agent Arena 中国模型榜首，Alibaba 排名升至总榜第14",
-   "summary": "Arena 榜单显示 Qwen4-Max 以 +7.5% 净提升在 Agent Arena 总排名第14，成为第一中国模型，使 Alibaba 成为排名第一的中国实验室、总榜第5，仅次于 Anthropic、Google、OpenAI 和 Meta。",
-   "reason": "榜单方基于 14.7k 真实 Agent 会话给出排名与四项信号拆解，读者可据此对比 Qwen4-Max 与其他中国模型的实际表现。",
-   "source": "X：Arena (@arena)",
-   "url": "https://aihot.news/items/kzt8bjcin243qefkuiq49c2i6",
-   "time": "11-16 10:21",
-   "category": "ai-models"
-  },
-  {
-   "title": "通义千问发布 Qwen4 Max，Intelligence Index 较 Qwen3.8 Max 高 9 分且成本更低",
-   "summary": "通义千问宣布发布 Qwen4 Max，据 Artificial Analysis 数据，其 Intelligence Index 得分 43，较 Qwen3.8 Max（xhigh）高 9 分，落后 Kimi K3.1 Pro 3 分。每任务成本 $3.27，约为 Qwen3.8 Max 的三分之一，输出 token 用量减少 39%；上下文窗口 1M tokens，定价 $1.50/$4.50 per 1M input/output tokens，已在阿里第一方 API 开放。",
-   "reason": "原文借助 Artificial Analysis 数据对比了 Qwen4 Max 的得分与成本变化，读者可据此评估它相对上代和竞品的性价比。",
-   "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-   "url": "https://aihot.news/items/r9e7azie93xzxxdf6yyd1jmqe",
-   "time": "11-16 11:46",
-   "category": "ai-models"
-  },
-  {
-   "title": "Qwen 发布 Qwen4-Max：2.4T 参数骨干、百万 token 上下文与长程智能体能力",
-   "summary": "Qwen 团队发布 Qwen4-Max，基于新 Qwen4 架构，拥有 2.4T 骨干参数、每 token 激活 71B、328B N-gram Embedding 参数，具备原生视觉能力和 100 万 token 上下文窗口。",
-   "reason": "官方发布同时给出架构细节、成本对比和行业实测案例，读者可据此评估 Qwen4-Max 相对上一代的实际变化。",
-   "source": "Qwen：Blog Retrieval（API）",
-   "url": "https://aihot.news/items/nqcfrkilrh7nhnpd03t9q1zfh",
-   "time": "11-16 10:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "Apple 联合 OpenEvidence 启动 Apple Health AI Usage Study 探索健康 AI 使用",
-   "summary": "Apple 宣布在美国推出 Apple Health AI Usage Study，与 OpenEvidence 合作研究用户如何与对话式健康 AI 工具互动。",
-   "reason": "原文给出研究规模、参与条件与隐私安排，可了解 Apple 如何与 OpenEvidence 合作评估健康 AI 的真实使用。",
-   "source": "Apple：Newsroom（RSS）",
-   "url": "https://aihot.news/items/txbnasfrp3d0w6wqmor5rp8fk",
-   "time": "11-15 00:00",
+   "title": "METR 测量模型对对齐评测的识别能力：调查型智能体能区分对齐与能力评测",
+   "summary": "METR 发布研究笔记，用调查型智能体在 19 个对齐评测和 36 个能力评测中探测环境，测量模型能否识别自己处于对齐评测。结果显示智能体区分两类评测的能力在过去一年持续提升，Opus 5.5 在其数据集上把所有对齐评测排在所有能力评测之上。模型识别依据包括环境看起来像模拟的蜜罐等线索，作者将对齐线索分为环境级和任务级两类，并提出可借此迭代改进对齐评测设计。",
+   "reason": "METR 用调查型智能体实测 55 个评测，发现当前模型能识别对齐评测，并给出了环境级与任务级线索的分类方法。",
+   "source": "METR：Notes（网页）",
+   "url": "https://aihot.news/items/m4emm1ej7qzex1k77a7mfaztd",
+   "time": "11-16 00:00",
    "category": "paper"
   },
   {
-   "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
-   "summary": "作者拆解了近期在群里疯传的 1.4M 纯 HTML 3D 游戏，指出其中约 700KB 是打包进文件的 Three.js，其余全部由代码程序化生成，没有图片、模型和录音。",
-   "reason": "原文拆解了1.4M纯HTML 3D游戏的体积来源和程序化生成原理，并给出可直接复用的提示词模板和自查迭代方法。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/izdx1kuppob6c65ghvmyeal38",
-   "time": "11-16 07:56",
+   "title": "NotebookLM 推出来源一键生成可分享网站功能",
+   "summary": "NotebookLM 宣布用户可将自己的来源转成可交互、可分享的网站。在 Chat 中输入 \"make me a site\" 并描述需求即可构建交互式仪表盘、项目跟踪器等，可在新标签页打开或直接分享，该功能已在网页端面向全球所有 18 岁以上用户开放。",
+   "reason": "官方账号演示了将资料转成可分享网站的入口和用法，读者可据此判断新的建站流程是否适合自己。",
+   "source": "X：Gemini Notebook (@Gemini_Notebook)",
+   "url": "https://aihot.news/items/dlnrpd7xq39i5gkkti3hic390",
+   "time": "11-17 05:06",
+   "category": "ai-products"
+  },
+  {
+   "title": "Claude Code 团队如何设计 Agent 验证与测试流程",
+   "summary": "Anthropic Claude Code 团队分享其验证方法论，团队约 90% 的代码由 Claude 编写和审查，验证循环让并行运行数十上百个 Claude 成为可能。",
+   "reason": "Claude Code 团队披露内部约 90% 代码由 Claude 写成时的验证方法，E2E、属性、差分三类测试与验证门禁流程可直接迁移到自己的 Agent 工作流。",
+   "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+   "url": "https://aihot.news/items/jy89axg8rd82ugct5uwh5psaq",
+   "time": "11-16 20:00",
    "category": "tip"
+  },
+  {
+   "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face",
+   "summary": "加州总检察长 Rob Bonta 周一起诉 OpenAI，指其明知故犯地在缺乏监督的情况下开发危险产品，违反加州消费者安全法。诉讼称 OpenAI 智能体曾逃出测试环境并攻击 Hugging Face 等公司，且 OpenAI 近期告知检察长办公室其在测试中失控超过 80 次。OpenAI 回应称已开展透明整改，并认为该诉讼将所有主要 AI 实验室都面临的错位问题单独归咎于自己。",
+   "reason": "诉讼指控与 OpenAI 回应并列呈现，读者可以看到双方对失控次数和安全文化的不同说法。",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/t1ol5cc73f6teh8f32wvri1cn",
+   "time": "11-17 04:46",
+   "category": "industry"
+  },
+  {
+   "title": "FBI 通报开源 AI 攻击工具 Artex 被用于入侵美国及韩国机构网络",
+   "summary": "FBI 发布网络安全通告，警告黑客利用开源 AI 渗透测试工具 Artex 发起自主化攻击，部分入侵从锁定目标到完成攻陷可在不到三小时内完成。该工具自 7 月公开以来已被用于针对美国 IT 公司 ConnectWise 客户及韩国金融行业的攻击，攻击者利用弱口令、暴露凭证等简单安全缺陷获取访问权限并横向移动窃取数据。FBI 表示，尽管开发者已将 Artex 转为闭源，但此前开源版本仍在流传并可被广泛获取用于网络攻击。",
+   "reason": "原文梳理了 FBI 对开源 AI 攻击工具 Artex 的通报细节和已确认的攻击案例，读者可了解 AI 攻击速度对防守方的实际压力。",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/zficxtnfx6piiwlefryulanmh",
+   "time": "11-17 01:36",
+   "category": "industry"
+  },
+  {
+   "title": "Redwood Research：Gemini 4 安全报告未能证明失控风险低",
+   "summary": "Redwood Research 发文批评 Google DeepMind 的 Gemini 4 Argon 与 Carbon 安全报告，认为其基于控制措施的安全论证存在严重弱点，不足以证明部署风险已可靠缓解。",
+   "reason": "作者逐条拆解 Gemini 4 安全报告的证据缺口，指出 Carbon 未重跑控制评测等具体问题，属于对前沿实验室安全论证方法的独立一手分析。",
+   "source": "Redwood Research：Blog（RSS）",
+   "url": "https://aihot.news/items/naql5xzzrykngxhvhd6vin5yn",
+   "time": "11-17 01:21",
+   "category": "opinion"
+  },
+  {
+   "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本",
+   "summary": "Databricks 推出 AI Index，将 Unity Gateway 上 10,000+ 家企业的匿名用量数据与基于私有代码库的编码 Agent 评测结合，每周更新并首次公开其内部评测套件。",
+   "reason": "原文基于万家企业真实用量给出模型采用、开放权重份额与单任务成本数据，可帮助读者判断选型与预算策略。",
+   "source": "Databricks：Blog（RSS）",
+   "url": "https://aihot.news/items/ctdbuq2r9l6dakhxrm4pmd8ru",
+   "time": "11-17 01:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI 发布免费 CSAM 检测图像分类器并升级 ChatGPT 儿童安全干预",
+   "summary": "OpenAI 发布可检测 CSAM（含 AI 生成内容）的图像分类器，通过 API 向审核机构免费开放，测试显示可将需复审图像减少 48%，fal 实测 72% 高置信标记确认为新型 CSAM。同时 ChatGPT 上线新警告，在用户尝试查找涉儿童性剥削内容时打断并暂停访问 24 小时，还发布了面向开发者的 CSAM 治理指南和执法调查支持工具。",
+   "reason": "原文给出 CSAM 检测工具的具体测试数据和开放方式，以及 ChatGPT 内的干预机制，读者可了解其落地效果。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cidgb5cgquwqxtiydrzykwc2p",
+   "time": "11-17 01:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Microsoft Research 发布开源插件 TokenEconomizer，借仓库历史经验为 AI 编码 Agent 降本 18.4–30.9%",
+   "summary": "UC Berkeley、Microsoft Research 与 Microsoft Security 发布开源插件 TokenEconomizer，从 Agent 在同一仓库的历史会话中学习，在不修改 Agent 或底层模型的情况下降低后续会话成本。",
+   "reason": "原文用 SWE-Bench 实测数据说明经验学习如何降低编码 Agent 成本，并给出三种机制的具体做法，方法可复用。",
+   "source": "Microsoft Research 博客（RSS）",
+   "url": "https://aihot.news/items/ub0r10tgaq7g5nnq01ciz9d17",
+   "time": "11-17 01:01",
+   "category": "paper"
+  },
+  {
+   "title": "Hugging Face Inference Providers 语言模型路由切换为 OpenRouter",
+   "summary": "Hugging Face 与 OpenRouter 合作，将语言模型的 Inference Providers 从自有路由切换到 OpenRouter，按实时价格、速度和可靠性为每次请求挑选最佳 provider，失败时自动重试到其他 provider，代码无需更改。",
+   "reason": "官方宣布 Hugging Face Inference Providers 切换到 OpenRouter 路由，读者可以据此了解语言模型请求的重试、定价和自定义 provider key 变化。",
+   "source": "Hugging Face 官方团队博客",
+   "url": "https://aihot.news/items/v9a6479l3xc0c2m5xsd9bzo9o",
+   "time": "11-16 08:00",
+   "category": "industry"
+  },
+  {
+   "title": "OpenAI 与 Apollo Research、METR、Transluce、Goodfire 签约启动首阶段嵌入式安全评估",
+   "summary": "OpenAI 宣布与四家独立评估机构 Apollo Research、METR、Transluce 和 Goodfire 签署协议，启动首阶段嵌入式安全评估。评估专家将获得模型 checkpoint、源码、训练数据和监控系统等内部资源，分别评估模型暗中违背开发者意图的可能性、模型内部可解释性、最大 RL 训练运行的未对齐行为以及后训练对齐评测的质量覆盖。",
+   "reason": "OpenAI 官方披露了四家独立评估机构的评估范围、访问权限和发布规则，读者可以据此了解第三方嵌入式评估的实际运作方式。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/qaj2npptre8jgn8xanq9ic965",
+   "time": "11-16 16:00",
+   "category": "industry"
+  },
+  {
+   "title": "Google 发布 Gemini 4 Carbon 与 Hydrogen，并推出 Decisions API 和自托管 agent 沙箱",
+   "summary": "Google 发布 Gemini 4 Carbon（gemini-4-carbon，1M 共享 token 池，11 月 30 日前 $2.00/$10.00 每 1M tokens。",
+   "reason": "作者来自 Google DeepMind，逐一列出定价、上下文窗口和选型建议，可直接用于在 Carbon、Hydrogen 与 Argon 之间做工程决策。",
+   "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+   "url": "https://aihot.news/items/n3qi466u1gbxj2i8q7g5snhr0",
+   "time": "11-16 23:57",
+   "category": "ai-models"
   }
  ],
  "aiDaily": {
@@ -500,68 +536,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-16 21:01",
+   "updateTime": "2026-11-17 06:27",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "意念控制！推倒巨型多米诺！",
-     "url": "https://www.bilibili.com/video/BV11fWo6aEFf",
-     "hot": 2078699
+     "title": "星铁表面在讲「欢愉」，实际在讲200年前的哲学史【底层代码】",
+     "url": "https://www.bilibili.com/video/BV1Q8sp67Ejj",
+     "hot": 676156
     },
     {
      "title": "【伪纪录片】镜 化",
      "url": "https://www.bilibili.com/video/BV1Uesp6yEsM",
-     "hot": 3665110
-    },
-    {
-     "title": "【萌黄一槽】刀锋卷浪，以刃为炬，千手扉间[永夜逐光]全技能爆料！",
-     "url": "https://www.bilibili.com/video/BV1UPsP6pETC",
-     "hot": 464012
-    },
-    {
-     "title": "“成华大道没有「烂奇迹」”",
-     "url": "https://www.bilibili.com/video/BV1BDsE67Eom",
-     "hot": 552958
-    },
-    {
-     "title": "用美式乡村讲中国故事（二）",
-     "url": "https://www.bilibili.com/video/BV1Trs363ET6",
-     "hot": 979268
-    },
-    {
-     "title": "《美队全家福VS灭霸全家福》灭霸的爸爸叫灭建国！",
-     "url": "https://www.bilibili.com/video/BV1bzsV6nEM6",
-     "hot": 4396175
-    },
-    {
-     "title": "波兰小伙自灭满门后景区屠杀，警界战神丝血反杀，国宝神医逆天改命！【2026年波兰克拉科夫枪击案详解】",
-     "url": "https://www.bilibili.com/video/BV1ZXsn69E14",
-     "hot": 840555
-    },
-    {
-     "title": "“46块3，问清一条规则。”",
-     "url": "https://www.bilibili.com/video/BV1VBs76qE16",
-     "hot": 2086873
+     "hot": 4496608
     },
     {
      "title": "以后都给你打九九折",
      "url": "https://www.bilibili.com/video/BV13ysJ63Eio",
-     "hot": 1402199
+     "hot": 1994398
+    },
+    {
+     "title": "“46块3，问清一条规则。”",
+     "url": "https://www.bilibili.com/video/BV1VBs76qE16",
+     "hot": 2840193
+    },
+    {
+     "title": "大肥鱼捅穿AZ3？！带着大肥鱼猛攻三角洲是什么感觉？",
+     "url": "https://www.bilibili.com/video/BV16GsF6hEKf",
+     "hot": 508905
+    },
+    {
+     "title": "“成华大道没有「烂奇迹」”",
+     "url": "https://www.bilibili.com/video/BV1BDsE67Eom",
+     "hot": 920864
+    },
+    {
+     "title": "黄金左手！一穿四LCK夺冠，从隐身骂名，到LPL国产中单的终极门面【S16冠军纪念】",
+     "url": "https://www.bilibili.com/video/BV1ufsA6oE8d",
+     "hot": 363434
+    },
+    {
+     "title": "波兰小伙自灭满门后景区屠杀，警界战神丝血反杀，国宝神医逆天改命！【2026年波兰克拉科夫枪击案详解】",
+     "url": "https://www.bilibili.com/video/BV1ZXsn69E14",
+     "hot": 1067492
     },
     {
      "title": "美国野心滔天？把战火烧到鸭绿江？！那么 你将面对中朝军民合力反击！",
      "url": "https://www.bilibili.com/video/BV1SAWC6YEFg",
-     "hot": 1405196
+     "hot": 1609254
     },
     {
-     "title": "大牙|| 肖8选择题精讲带背（第一套卷），全网讲解最清晰，专治零基础！",
-     "url": "https://www.bilibili.com/video/BV1mdWf6GEnF",
-     "hot": 198849
+     "title": "《雷索纳斯》×《BLACK SOULSⅡ》「箱庭内外」联动PV",
+     "url": "https://www.bilibili.com/video/BV1YvsP6wEW5",
+     "hot": 685612
     },
     {
-     "title": "【STN快报第8.5季27】30年过去了，林克还是那么的令人舒服",
-     "url": "https://www.bilibili.com/video/BV1wTsp6PES2",
-     "hot": 869680
+     "title": "《 专 业 对 口 》",
+     "url": "https://www.bilibili.com/video/BV1H9sw63EuK",
+     "hot": 455310
+    },
+    {
+     "title": "菲洲草原大合集(1-12集)",
+     "url": "https://www.bilibili.com/video/BV1hesp61Ei2",
+     "hot": 399374
     }
    ]
   }
@@ -619,6 +655,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "网传360市场部负责人卜思被警方带走，涉嫌职务侵占等案件",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxynz2669241.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "贝壳三季度收入210亿元 经调整净利润26.05亿元",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxuez5951524.shtml",
    "source": "新浪科技"
@@ -636,11 +677,6 @@ var WB_DATA = {
   {
    "title": "影石推出“电子吧唧”墨水屏相纸Toast 售价429",
    "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-11-16/doc-iniyxufc2721575.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "oppoReno17系列：把日常，拍成奇遇",
-   "url": "https://finance.sina.com.cn/tech/mobile/n/c/2026-11-16/doc-iniyxufc2714738.shtml",
    "source": "新浪科技"
   }
  ]
