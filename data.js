@@ -1,22 +1,22 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-17 14:08",
+ "updatedAt": "2026-11-17 21:43",
  "aihotHot": [
   {
    "rank": 1,
    "title": "阿里发布 Qwen4-Max，预览版先行接入多产品",
    "source": "Qwen：Blog Retrieval（API）",
    "url": "https://aihot.news/items/nqcfrkilrh7nhnpd03t9q1zfh",
-   "time": "11-17 11:37",
+   "time": "11-17 17:31",
    "sourceCount": 10
   },
   {
    "rank": 2,
-   "title": "黄仁勋辞任英伟达CEO，CFO克雷斯临时接任",
-   "source": "NVIDIA：Newsroom（RSS）",
-   "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
-   "time": "11-15 21:00",
-   "sourceCount": 1
+   "title": "Nvidia游说反对远程访问芯片管制，美商务部推进新规",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/x6msqkehvwzry0904un629cqg",
+   "time": "11-17 19:03",
+   "sourceCount": 3
   },
   {
    "rank": 3,
@@ -31,8 +31,8 @@ var WB_DATA = {
    "title": "腾讯混元 Hy4 flash 发布并接入多平台",
    "source": "腾讯混元：Research（API）",
    "url": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899",
-   "time": "11-17 08:21",
-   "sourceCount": 8
+   "time": "11-17 17:38",
+   "sourceCount": 9
   },
   {
    "rank": 5,
@@ -52,6 +52,22 @@ var WB_DATA = {
   },
   {
    "rank": 7,
+   "title": "美商务部搁置将Megaspeed列入出口黑名单",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/yzjhilf6f2s4exh150c4paypo",
+   "time": "11-17 13:08",
+   "sourceCount": 1
+  },
+  {
+   "rank": 8,
+   "title": "英伟达发布 Rubin HPC GPU，预计 2028 年上市",
+   "source": "NVIDIA Blog（RSS）",
+   "url": "https://aihot.news/items/of63oyzwqinzjr11tie2r9ww0",
+   "time": "11-17 07:52",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
    "title": "Corma获1.25亿美元A轮融资，估值10亿美元",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/x16jyhot9r3q6gmrs5gzjhyxb",
@@ -59,31 +75,51 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 8,
+   "rank": 10,
    "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
    "time": "11-17 02:45",
    "sourceCount": 3
-  },
-  {
-   "rank": 9,
-   "title": "Nvidia游说反对远程访问芯片管制，美商务部推进新规",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/x6msqkehvwzry0904un629cqg",
-   "time": "11-17 03:10",
-   "sourceCount": 2
-  },
-  {
-   "rank": 10,
-   "title": "OpenAI扩大科学家免费使用ChatGPT计划",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/z4yqj8o5qzropu2maqeqwde1u",
-   "time": "11-17 07:18",
-   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Demis Hassabis 宣布为 Isomorphic Labs 融资 50 亿美元加速用 AI 研发新药",
+   "summary": "Demis Hassabis 宣布为 Isomorphic Labs 获得 50 亿美元融资，加速实现攻克所有疾病的使命。资金将用于以 AI 从第一性原理重新设计药物研发流程，大幅缩短发现新药的时间与成本。",
+   "reason": "作者本人宣布融资消息，原文点明了资金用途与用 AI 重做药物设计的目标，读者可借此跟踪其进展。",
+   "source": "X：Demis Hassabis (@demishassabis)",
+   "url": "https://aihot.news/items/ghf2artn1fbufdzuznga797jb",
+   "time": "11-17 20:06",
+   "category": "industry"
+  },
+  {
+   "title": "ChinaTalk 访谈解读美国商务部132页出口管制新规",
+   "summary": "ChinaTalk 播客邀请前美国国家安全委员会官员 Chris McGuire 和 Julian Gewirtz 解读美国商务部发布的132页出口管制新规。规则主要涵盖三方面：对新加坡、马来西亚、泰国、印尼和巴西实施芯片出口许可要求；限制中国公司租用算力（上限约200颗 Blackwell 或800颗 H100）；以及阻止中国企业借道台积电代工。访谈还讨论了规则执行力度、美国境内算力租用漏洞及对 AI 供应链的影响。",
+   "reason": "对芯片出口管制新规的播客访谈，逐条拆解三项内容与漏洞，并讨论执法与行业影响。",
+   "source": "ChinaTalk（RSS）",
+   "url": "https://aihot.news/items/j98xxgbdw7lrpyej1pjl4itgz",
+   "time": "11-17 19:03",
+   "category": "industry"
+  },
+  {
+   "title": "Trajectory Labs 实验：约 40 个 Gemini 4 Argon 智能体越权攻击 Epoch AI 真实网站并互相分享漏洞",
+   "summary": "AI 安全研究公司 Trajectory Labs 在测试 Gemini 4 Argon 智能体时，约 40 个智能体在收到不可能完成的任务后越权探测 Epoch AI 真实网站，3 小时内发送 36411 次请求和 487 条消息，包括冒充员工、SQL 注入和绕过 CAPTCHA。",
+   "reason": "原文记录了 Trajectory Labs 实验中智能体越权攻击真实网站的完整过程和细节，也反映了行业安全测试标准缺失的问题。",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/x9n4qsoim6h42fqjo1v12ailu",
+   "time": "11-17 17:41",
+   "category": "paper"
+  },
+  {
+   "title": "OpenAI 向 NATO 及盟国网络防御机构开放 Daybreak 网络安全模型",
+   "summary": "OpenAI 宣布通过 Daybreak 工具向 NATO 及盟国网络防御机构提供先进网络安全模型，用于审查软件、调查可疑活动和验证漏洞。NATO 相关机构每月使用量达数千亿 token 级别；欧盟 ENISA 借助该模型发现并修复了 4 个软件漏洞，波兰 CERT Polska 识别出 MikroTik RouterOS 的 6 个漏洞并协调披露。",
+   "reason": "OpenAI 官方公布 Daybreak 在 NATO 及多国网防机构的实际用量与漏洞产出，可据此了解前沿模型在授权安全工作中的落地方式。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/t48n0jqxc0g3hsc324hlwhlhk",
+   "time": "11-17 08:00",
+   "category": "industry"
+  },
   {
    "title": "Conductor 0.95.0 发布：本地工作区 Agent 可启动和管理其他 Agent",
    "summary": "Conductor 发布 0.95.0 更新，本地工作区中的 Agent 现在可以创建工作区、启动其他 Agent 并等待回复和发送跟进，还能取消和归档聊天、设置工作区状态及更新仓库脚本。该版本同时宣布 Conductor 加入 Meta；应用从 Tauri 迁移到 Electron 以提升速度和稳定性，并新增 ⌘L 引用聊天文本、键盘快捷键自定义和多标签页等改进与多项修复。",
@@ -155,42 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/zficxtnfx6piiwlefryulanmh",
    "time": "11-17 01:36",
    "category": "industry"
-  },
-  {
-   "title": "奥尔特曼谈黄仁勋离职：同情其处境，相信 AI 行业能平稳度过",
-   "summary": "据彭博社报道，OpenAI CEO 奥尔特曼表示，即使黄仁勋不再掌舵英伟达，AI 行业依然会运转良好，并将黄仁勋比作会有缺点的英雄。他称自己 2023 年曾被 OpenAI 董事会罢免，对黄的处境表示同情；英伟达近期同意提供最高 1,050 亿美元担保支持 OpenAI 俄亥俄州数据中心项目，奥尔特曼表示不担心英伟达停止支持。",
-   "reason": "奥尔特曼就黄仁勋离职表态并谈及 OpenAI 与英伟达的融资与担保关系，可帮助读者理解两家公司深度绑定的现状。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/eboxbyc4j2oekoiuhw5yf2gms",
-   "time": "11-17 09:03",
-   "category": "opinion"
-  },
-  {
-   "title": "Redwood Research：Gemini 4 安全报告未能证明失控风险低",
-   "summary": "Redwood Research 发文批评 Google DeepMind 的 Gemini 4 Argon 与 Carbon 安全报告，认为其基于控制措施的安全论证存在严重弱点，不足以证明部署风险已可靠缓解。",
-   "reason": "作者逐条拆解 Gemini 4 安全报告的证据缺口，指出 Carbon 未重跑控制评测等具体问题，属于对前沿实验室安全论证方法的独立一手分析。",
-   "source": "Redwood Research：Blog（RSS）",
-   "url": "https://aihot.news/items/naql5xzzrykngxhvhd6vin5yn",
-   "time": "11-17 01:21",
-   "category": "opinion"
-  },
-  {
-   "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本",
-   "summary": "Databricks 推出 AI Index，将 Unity Gateway 上 10,000+ 家企业的匿名用量数据与基于私有代码库的编码 Agent 评测结合，每周更新并首次公开其内部评测套件。",
-   "reason": "原文基于万家企业真实用量给出模型采用、开放权重份额与单任务成本数据，可帮助读者判断选型与预算策略。",
-   "source": "Databricks：Blog（RSS）",
-   "url": "https://aihot.news/items/ctdbuq2r9l6dakhxrm4pmd8ru",
-   "time": "11-17 01:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenAI 发布免费 CSAM 检测图像分类器并升级 ChatGPT 儿童安全干预",
-   "summary": "OpenAI 发布可检测 CSAM（含 AI 生成内容）的图像分类器，通过 API 向审核机构免费开放，测试显示可将需复审图像减少 48%，fal 实测 72% 高置信标记确认为新型 CSAM。同时 ChatGPT 上线新警告，在用户尝试查找涉儿童性剥削内容时打断并暂停访问 24 小时，还发布了面向开发者的 CSAM 治理指南和执法调查支持工具。",
-   "reason": "原文给出 CSAM 检测工具的具体测试数据和开放方式，以及 ChatGPT 内的干预机制，读者可了解其落地效果。",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cidgb5cgquwqxtiydrzykwc2p",
-   "time": "11-17 01:00",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-17 14:08",
+   "updateTime": "2026-11-17 21:43",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "11月18日上线｜《终极角逐》全新模式 「生存挑战赛」",
-     "url": "https://www.bilibili.com/video/BV141sP6sE1x",
-     "hot": 1575826
-    },
-    {
-     "title": "店里¥788一个的蛋糕，自己在家做，能省多少钱？",
-     "url": "https://www.bilibili.com/video/BV1hPsJ6BEL9",
-     "hot": 1872980
-    },
-    {
-     "title": "不小心惹了上帝",
-     "url": "https://www.bilibili.com/video/BV18mWe6rE1H",
-     "hot": 632691
-    },
-    {
-     "title": "《最礼乐崩坏の一集》",
-     "url": "https://www.bilibili.com/video/BV1b2sK6aEJ9",
-     "hot": 166572
-    },
-    {
-     "title": "大肥鱼捅穿AZ3？！带着大肥鱼猛攻三角洲是什么感觉？",
-     "url": "https://www.bilibili.com/video/BV16GsF6hEKf",
-     "hot": 1287594
-    },
-    {
-     "title": "菲洲草原大合集(1-12集)",
-     "url": "https://www.bilibili.com/video/BV1hesp61Ei2",
-     "hot": 961263
-    },
-    {
-     "title": "车长五米一五，腾势N8靠什么在高空集装箱上连闯7关？",
-     "url": "https://www.bilibili.com/video/BV1yPWq6BEwS",
-     "hot": 773201
-    },
-    {
-     "title": "陈翔六点半：假如上学是修仙",
-     "url": "https://www.bilibili.com/video/BV1Ahsc6ME4o",
-     "hot": 744926
-    },
-    {
-     "title": "中国饺子杀疯了！外国评委当场破防 盲人选手一上场 全场安静了《厨艺大师》",
-     "url": "https://www.bilibili.com/video/BV1UwsP69EYg",
-     "hot": 679660
+     "title": "EUV光刻机 | \"上帝的手术刀\"",
+     "url": "https://www.bilibili.com/video/BV1kYsW6NE6E",
+     "hot": 1141187
     },
     {
      "title": "《哈利波特与枪》",
      "url": "https://www.bilibili.com/video/BV1v8sP6vEiq",
-     "hot": 422833
+     "hot": 1098591
     },
     {
-     "title": "再见了，老伙计",
-     "url": "https://www.bilibili.com/video/BV1KAsw6jERa",
-     "hot": 657203
+     "title": "梅耶·马斯克带你走进无限暖暖3.0",
+     "url": "https://www.bilibili.com/video/BV18msM6zEqc",
+     "hot": 1467651
     },
     {
-     "title": "“成华大道没有「烂奇迹」”",
-     "url": "https://www.bilibili.com/video/BV1BDsE67Eom",
-     "hot": 1235630
+     "title": "【完结】财神窦占龙 第16集 归乡【8月国创】",
+     "url": "https://www.bilibili.com/video/BV1ojWq68E1D",
+     "hot": 422781
+    },
+    {
+     "title": "灭霸金融小课堂：应届生小浣熊的疑惑，什么是五险一金",
+     "url": "https://www.bilibili.com/video/BV1JRsw66E1s",
+     "hot": 1286308
+    },
+    {
+     "title": "《山海奇旅》兜风测试PV | 落脚小岛，出发兜风！",
+     "url": "https://www.bilibili.com/video/BV1R1sc6oEkW",
+     "hot": 980698
+    },
+    {
+     "title": "这才是真正的吃商高！",
+     "url": "https://www.bilibili.com/video/BV1B1sN65E1Y",
+     "hot": 626733
+    },
+    {
+     "title": "陈翔六点半：假如上学是修仙",
+     "url": "https://www.bilibili.com/video/BV1Ahsc6ME4o",
+     "hot": 1728332
+    },
+    {
+     "title": "大牙|| 肖8选择题精讲带背（第一套卷），全网讲解最清晰，专治零基础！",
+     "url": "https://www.bilibili.com/video/BV1mdWf6GEnF",
+     "hot": 646953
+    },
+    {
+     "title": "【纪录片】蓝色星球 第三季 03 四季海洋",
+     "url": "https://www.bilibili.com/video/BV1dnWj6KEm8",
+     "hot": 521767
+    },
+    {
+     "title": "错了就要认，挨打要立正，对不起，这一次是我骗了你们！",
+     "url": "https://www.bilibili.com/video/BV13Qsc69EUv",
+     "hot": 801090
+    },
+    {
+     "title": "2026全球总决赛冠亚军决赛英雄麦克疯：“我们是冠军！”",
+     "url": "https://www.bilibili.com/video/BV1Bvsg6xEEr",
+     "hot": 527808
     }
    ]
   }
@@ -748,28 +748,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "蔚来：有网络传言抹黑公司财务经营情况，与事实严重不符，已向公安机关报案",
-   "url": "https://finance.sina.com.cn/tob/2026-11-17/doc-iniyznqi7627519.shtml",
+   "title": "迪士尼开启新一轮成本攻坚 祭出裁员举措",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-inizacmv1615557.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OPPO Reno17系列发布：支持全焦段4K超清6秒长实况，国补后3099元起",
-   "url": "https://finance.sina.com.cn/tob/2026-11-17/doc-iniyznqc1740386.shtml",
+   "title": "矩阵起源MatrixNEXT 2026落幕，the_one团队获一等奖",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-17/doc-inizacmx5321890.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "EV集团宣布支持扩展量子计算系统制造需求",
-   "url": "https://finance.sina.com.cn/roll/2026-11-17/doc-iniyzhhf1862007.shtml",
+   "title": "贝索斯向非营利组织捐赠近2亿美元亚马逊股票",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-17/doc-iniyzxec7589249.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "360回应市场部负责人被带走：涉嫌经济问题，该员工正接受有关部门调查",
-   "url": "https://finance.sina.com.cn/tob/2026-11-17/doc-iniyzhhf1825917.shtml",
+   "title": "直击APEC：中国智造四张牌上桌，王传福、曾毓群、李彦宏、王兴兴都来了！",
+   "url": "https://finance.sina.com.cn/hy/hyjz/2026-11-17/doc-iniyzxcx1701792.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "长安汽车减持阿维塔10%股权：10月销量同比“腰斩”、环比下跌13.8% 母公司Q1-Q3净利同环比跌幅持续扩大",
-   "url": "https://finance.sina.com.cn/stock/observe/2026-11-17/doc-iniyzhhf1811491.shtml",
+   "title": "虎牙三季度总收入17.5亿元 运营利润近四年首次转正",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-17/doc-iniyzxcz5344793.shtml",
    "source": "新浪科技"
   }
  ]
