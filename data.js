@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-18 13:37",
+ "updatedAt": "2026-11-18 21:17",
  "aihotHot": [
   {
    "rank": 1,
@@ -28,22 +28,14 @@ var WB_DATA = {
   },
   {
    "rank": 4,
-   "title": "腾讯混元发布 Hy4 flash 并开源、接入多平台",
-   "source": "腾讯混元：Research（API）",
-   "url": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899",
-   "time": "11-18 12:39",
-   "sourceCount": 8
-  },
-  {
-   "rank": 5,
-   "title": "阿里发布 Qwen4-Max，预览版先行接入多产品",
-   "source": "Qwen：Blog Retrieval（API）",
-   "url": "https://aihot.news/items/nqcfrkilrh7nhnpd03t9q1zfh",
-   "time": "11-18 11:02",
+   "title": "英伟达Q3营收1158亿美元，董事会明确不恢复黄仁勋职务",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/vgopllkh4so1p1q01nefg1364",
+   "time": "11-18 21:00",
    "sourceCount": 4
   },
   {
-   "rank": 6,
+   "rank": 5,
    "title": "美商务部推进远程算力管制，Nvidia曾游说反对",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/x6msqkehvwzry0904un629cqg",
@@ -51,11 +43,19 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
+   "rank": 6,
+   "title": "腾讯混元发布 Hy4 flash 并开源、接入多平台",
+   "source": "腾讯混元：Research（API）",
+   "url": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899",
+   "time": "11-18 12:39",
+   "sourceCount": 7
+  },
+  {
    "rank": 7,
-   "title": "英伟达Q3营收1158亿美元，临时CEO未提黄仁勋离职",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/vgopllkh4so1p1q01nefg1364",
-   "time": "11-18 07:38",
+   "title": "可灵发布Kling Image 4.0并接入多个第三方平台",
+   "source": "公众号：可灵AI（快手·视频）",
+   "url": "https://aihot.news/items/e871ammlz8gpx1oozsswidzt0",
+   "time": "11-18 21:06",
    "sourceCount": 4
   },
   {
@@ -68,22 +68,76 @@ var WB_DATA = {
   },
   {
    "rank": 9,
+   "title": "微软发布 MAI Code 2 与 Code 2 Flash 编码模型",
+   "source": "Microsoft AI：官方博客（RSS）",
+   "url": "https://aihot.news/items/c3qj65urfo345mc80xz5jdefb",
+   "time": "11-18 06:42",
+   "sourceCount": 3
+  },
+  {
+   "rank": 10,
    "title": "Isomorphic Labs完成50亿美元C轮融资",
    "source": "X：Demis Hassabis (@demishassabis)",
    "url": "https://aihot.news/items/ghf2artn1fbufdzuznga797jb",
    "time": "11-17 22:57",
    "sourceCount": 3
-  },
-  {
-   "rank": 10,
-   "title": "AMD宣布收购World Labs，李飞飞确认加入",
-   "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
-   "url": "https://aihot.news/items/z7hs74i3gy5lelr41tobcp2vz",
-   "time": "11-17 01:15",
-   "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol：更便宜但口碑分化，Anthropic 仍握最强模型",
+   "summary": "Latent Space 汇总 OpenAI 发布的 GPT-6.2 Astra 和 Sol：Artificial Analysis 测得 Sol 以约 15% 的单任务成本追平 9 月的 Astra，新 Astra 以 62 分位居 Intelligence Index 第二，仅次于 Fable 5.2 的 65 分，两者均为 1M 上下文、128K 输出。",
+   "reason": "汇编了 GPT-6.2 双模型的第三方基准与价格数据，同时保留早期测试者的负面反馈，读者可以据此自行权衡性价比与口碑分歧。",
+   "source": "Latent Space（RSS）",
+   "url": "https://aihot.news/items/oisr0dfay736le62g425urn8l",
+   "time": "11-18 18:19",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
+   "summary": "据路透社报道，Anthropic 预计于当地时间 11 月 19 日登陆公开市场，IPO 估值最高可能达到 1.4 万亿美元。金融机构已推出 2 倍做多与做空 ETF 等挂钩产品，Vanda Research 预计上市将吸引约 2.5 亿美元散户净买入，为 SpaceX IPO 期间 1.18 亿美元纪录的两倍。",
+   "reason": "转引路透社报道梳理了 Anthropic IPO 前的华尔街造势细节，杠杆 ETF、散户资金预测与质疑声并列，可帮助读者把握上市前的市场情绪。",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/yxu549lhmsyp0qe8rstrheqlw",
+   "time": "11-18 18:45",
+   "category": "industry"
+  },
+  {
+   "title": "Gemini API 支持直传 Office 文件并新增多模态内容切片",
+   "summary": "Gemini API 于 11 月 18 日更新，支持直接传入 Word、PowerPoint、Excel 等 Microsoft Office 和 OpenDocument 文件，并可在提示词和函数响应中切片文档、表格、视频和音频。可按页码区间、工作表标签、单元格范围、时间区间或内容层（如页面图片、提取文本、公式或视频转录）选取所需内容，只处理和支付需要的部分。",
+   "reason": "原文说明 Gemini API 新增 Office 文件直传与按页面、单元格、时间区间切片的能力，可据此评估能否减少不必处理的付费内容。",
+   "source": "Gemini API：更新日志（网页）",
+   "url": "https://aihot.news/items/a48izcq1y2jqtjr66xjvwqkak",
+   "time": "11-18 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "OpenAI Codex 团队成员解释 6.2 Sol/Astra 评测视频与现场反馈的差异",
+   "summary": "Tibo 解释 6.2 Sol/Astra 上评测视频与现场人群反馈氛围不同的原因：部分人较早获得访问权限，而团队在过去 3-4 天做了大量改动，视频是上周制作的，之后大概率没有重新测试。他称这两个模型相比 GPT 前代有明显提升，但仍不完美，团队希望在后续迭代的品味和使用体验上改进，并表示欢迎反馈。",
+   "reason": "作者作为当事方解释 6.2 Sol/Astra 评测视频与现场反馈差异的原因，读者可以据此校准上周视频结论的时效性。",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/sah26a5ofgvrxd76bgj9t77wf",
+   "time": "11-18 13:47",
+   "category": "opinion"
+  },
+  {
+   "title": "Semafor：部分 Nvidia 董事仍推动让黄仁勋回归，尽管董事长否认",
+   "summary": "Semafor 报道称，尽管 Nvidia 董事长 Harvey Jones 表示董事会一致接受黄仁勋的辞职且无意让他复任 CEO，部分董事仍在推动其回归。黄仁勋在周二财报发布前与至少 1 名董事讨论过回归事宜；该投票仅针对辞职本身，Nvidia 章程允许剩余 10 名董事以简单多数任命 CEO 而无需股东投票。另有董事将人选范围缩小至 Arm CEO Rene Haas 和 Marvell CEO Matt Murphy 等候选人。",
+   "reason": "转述了 Semafor 的独家报道，给出董事会章程细节与 CEO 候选人名单，读者可以了解这场人事博弈的进展。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/ad6k5zphfq44bxu1y7tb8t0ng",
+   "time": "11-18 13:19",
+   "category": "industry"
+  },
+  {
+   "title": "Nvidia 临时 CEO Colette Kress 表示董事会不会恢复黄仁勋的 CEO 职务",
+   "summary": "Nvidia 临时 CEO Colette Kress 在 Jim Cramer 的节目上表示，董事会已决定不会恢复黄仁勋（Jensen）的 CEO 职务，称这就是董事会的决定和官方声明。此前董事 Harvey Jones 在昨天的首次财报电话会上表示，董事会一致接受其辞职且无意让其复任。完整采访见 CNBC Mad Money，完整视频见 CNBC Television YouTube 频道。",
+   "reason": "原文记录了 Nvidia 临时 CEO 与董事会在财报电话会后的公开表态，可直接了解黄仁勋去留的官方口径。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/znj4uw6kr9vt4uij9fmao9p00",
+   "time": "11-18 13:30",
+   "category": "industry"
+  },
   {
    "title": "腾讯混元 Hy4 flash 开放权重，含 FP8 与 Base 版本",
    "summary": "腾讯混元宣布 Hy4 flash 开放权重，包含 Hy4 flash-FP8 和 Hy4 flash-Base 两个版本。模型为 224B 参数（激活 12B），支持 1M 上下文，原生多模态，定位高效日常生产力场景。模型以 Tencent Hy License 发布，可在 Hugging Face（huggingface.co/tencent/Hy4-flash）和 GitHub（github.com/Tencent-Hunyuan/Hy4-flash）获取，官方预告 Hy4 即将推出。",
@@ -136,60 +190,6 @@ var WB_DATA = {
    "source": "Wiz：Research（安全研究）",
    "url": "https://aihot.news/items/ekt4wsp34savbuzq0vafnlhpw",
    "time": "11-18 06:03",
-   "category": "industry"
-  },
-  {
-   "title": "Wiz 解读 OpenJDK 远程代码执行漏洞 CVE-2026-114938（Java4Shell）",
-   "summary": "2026 年 11 月 17 日披露的 OpenJDK 关键 RCE 漏洞 CVE-2026-114938（Java4Shell）CVSSv4.0 评分 9.2，源于 AVX-512 Base64 解码的汇编代码在处理结尾填充字符时输出数组边界计算下溢，导致堆内存越界写入，已证实可对 Jenkins、Confluence、Apache Tomcat 等实现远程利用。",
-   "reason": "原文给出漏洞成因、影响范围和可执行的检测命令与 JVM 缓解参数，运维团队可据此排查和处置。",
-   "source": "Wiz：Research（安全研究）",
-   "url": "https://aihot.news/items/r30kdvujcakiutm7umgxmije7",
-   "time": "11-18 06:29",
-   "category": "industry"
-  },
-  {
-   "title": "Gemini 4 Hydrogen 全面上线 Google Search",
-   "summary": "Google 宣布 Gemini 4 Hydrogen 已在全球范围的 Google Search 中上线，称为 Search 迄今最大的一次模型升级。升级包括更好地理解用户意图、更智能的 query fan-out 与链接、更可视化自适应的回复，以及更强的多语言能力。",
-   "reason": "官方列出 Search 中 Gemini 4 Hydrogen 带来的意图理解、查询分发和可视化回复等具体变化，可对照自己的搜索体验。",
-   "source": "X：Google (@Google)",
-   "url": "https://aihot.news/items/vxcsjujkrvgpqxl56xkjgdfqf",
-   "time": "11-18 06:35",
-   "category": "ai-products"
-  },
-  {
-   "title": "深度实测GPT-6.2 Astra：极致省钱但偏科严重，沟通可读性依旧拉胯",
-   "summary": "OpenAI 发布 GPT-6.2 Astra 与 Sol，已同步上线 ChatGPT、Codex 和 API。",
-   "reason": "作者用真实项目实测了新模型的定价、Token 消耗与短板，给出代码审查选型和用 Claude、Gemini 指挥 GPT 的可行用法。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/n125mhueen4ul4elntsa1kk1v",
-   "time": "11-18 06:36",
-   "category": "ai-models"
-  },
-  {
-   "title": "OpenClaw 的 Sign in with ChatGPT 结束测试，支持 ChatGPT Business 及 GPT-6.2 Astra 与 Sol",
-   "summary": "OpenClaw 宣布 Sign in with ChatGPT 功能结束测试，用户可在 OpenClaw 中使用自己的 ChatGPT 套餐，包括 ChatGPT Business。作者还确认支持新模型 GPT-6.2 Astra 和 Sol。引用的 @OpenAIDevs 内容显示，ChatGPT Business 套餐现已可通过 Sign in with ChatGPT 用于 Notion、v0、OpenClaw 等多种工具。",
-   "reason": "OpenClaw 官宣登录功能结束测试，读者可以据此确认自己的 ChatGPT 订阅现已可用，包括新模型 GPT-6.2 Astra 和 Sol。",
-   "source": "X：OpenClaw (@openclaw)",
-   "url": "https://aihot.news/items/fatxhu2tz1d0g2g8412axx3k5",
-   "time": "11-18 05:49",
-   "category": "ai-products"
-  },
-  {
-   "title": "Nvidia 第三财季营收 $115.8B 超预期，数据中心占 93%",
-   "summary": "Nvidia 第三财季营收 $115.8B，同比增长 103%，其中数据中心收入 $107.6B 占 93%，季度利润 $65.3B 翻倍。",
-   "reason": "原文汇总了 Nvidia 财报的关键数字，包括数据中心占比和不含中国销售的季度指引，便于快速把握其 AI 业务结构。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/vgopllkh4so1p1q01nefg1364",
-   "time": "11-18 06:02",
-   "category": "industry"
-  },
-  {
-   "title": "WSJ 报道 SEC 对 Nvidia 披露问题启动民事调查，恰逢 CEO 黄仁勋离任",
-   "summary": "据 WSJ，SEC 正以民事调查核实 Nvidia 的披露是否误导投资者，图片中的 WSJ 标题显示此事发生于 CEO 黄仁勋离任之际。Nvidia 在截至 2025 年 7 月的季度后停止单独披露新加坡收入，该季度新加坡账单达 $10.2B、占总数 22%，公司称客户通过新加坡开票而芯片几乎都发往别处。",
-   "reason": "原文汇总了 SEC 民事调查、新加坡收入披露调整和财政部限期说明三项事实，可帮读者快速把握 Nvidia 面临的监管压力全貌。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/ko07avibxdjfqycfyj5i04c0e",
-   "time": "11-18 05:28",
    "category": "industry"
   }
  ],
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-18 13:37",
+   "updateTime": "2026-11-18 21:18",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "THANK YOU ZmjjKK",
+     "url": "https://www.bilibili.com/video/BV1YWsr6NEs7",
+     "hot": 489273
+    },
+    {
+     "title": "【IGN】10分，《GTA 6》评测：这个时代最伟大的游戏",
+     "url": "https://www.bilibili.com/video/BV1WMsm6zEfn",
+     "hot": 465666
+    },
+    {
      "title": "「幽明志」幽城残梦",
      "url": "https://www.bilibili.com/video/BV1YvsB6FER9",
-     "hot": 663011
+     "hot": 1299529
+    },
+    {
+     "title": "火力种田王! 超燃农村大战！",
+     "url": "https://www.bilibili.com/video/BV1hzsB64EXY",
+     "hot": 362946
+    },
+    {
+     "title": "灭霸的班级被奖励看电影",
+     "url": "https://www.bilibili.com/video/BV1Cns667EAG",
+     "hot": 910132
+    },
+    {
+     "title": "非凡魔丸",
+     "url": "https://www.bilibili.com/video/BV1LLsr66EC6",
+     "hot": 1628551
+    },
+    {
+     "title": "《都很漂亮》她是漂亮的，我们也是。",
+     "url": "https://www.bilibili.com/video/BV1XZsz6AE8g",
+     "hot": 454131
+    },
+    {
+     "title": "在普罗米厄的怀抱下",
+     "url": "https://www.bilibili.com/video/BV16Bs26FEAM",
+     "hot": 2016995
+    },
+    {
+     "title": "历史性峰会！为什么是APEC？是中国？是深圳？",
+     "url": "https://www.bilibili.com/video/BV1nVs16tESg",
+     "hot": 492107
     },
     {
      "title": "“他们没有任何血缘关系，但却拥有同一个妈妈.”【Scared play sacred place】【治愈心灵の小曲】",
      "url": "https://www.bilibili.com/video/BV12MsK6tEV1",
-     "hot": 2232335
+     "hot": 3198073
     },
     {
-     "title": "【蜘蛛侠/MJ】非凡之爱真人版",
-     "url": "https://www.bilibili.com/video/BV1xFs36uEvE",
-     "hot": 2328562
-    },
-    {
-     "title": "【完结】财神窦占龙 第16集 归乡【8月国创】",
-     "url": "https://www.bilibili.com/video/BV1ojWq68E1D",
-     "hot": 451278
-    },
-    {
-     "title": "钢铁侠给贾维斯装上病娇插件，这下玩大了",
-     "url": "https://www.bilibili.com/video/BV1fDsu6xEyA",
-     "hot": 1264328
-    },
-    {
-     "title": "打工人开豪车上班，老板娘要来家访…",
-     "url": "https://www.bilibili.com/video/BV15osT6yEgQ",
-     "hot": 708414
-    },
-    {
-     "title": "蚌埠住的时候就抽出七匹狼",
-     "url": "https://www.bilibili.com/video/BV1jgsz6KEWP",
-     "hot": 1780727
+     "title": "《遗忘之海》第三赛季更新前瞻PV「旧日序曲」",
+     "url": "https://www.bilibili.com/video/BV1N1s16iEry",
+     "hot": 592952
     },
     {
      "title": "【动画】可爱的猫尾草",
      "url": "https://www.bilibili.com/video/BV1LLsT6kESX",
-     "hot": 1044124
-    },
-    {
-     "title": "《最礼乐崩坏の一集》",
-     "url": "https://www.bilibili.com/video/BV1b2sK6aEJ9",
-     "hot": 2539477
-    },
-    {
-     "title": "【纪录片】蓝色星球 第三季 03 四季海洋",
-     "url": "https://www.bilibili.com/video/BV1dnWj6KEm8",
-     "hot": 610566
-    },
-    {
-     "title": "我把Windows10装进了哔哩哔哩里,点击即玩!【B站AI创造公开赛】",
-     "url": "https://www.bilibili.com/video/BV18jsA6xEft",
-     "hot": 901853
-    },
-    {
-     "title": "抽象新闻：11月人类迷惑行为大赏（中）",
-     "url": "https://www.bilibili.com/video/BV1uMsM6TEa5",
-     "hot": 1053616
+     "hot": 2305494
     }
    ]
   }
@@ -733,6 +733,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "绿联成为2026年APEC会议官方赞助商，中国科技品牌亮相国际舞台",
+   "url": "https://finance.sina.com.cn/tech/2026-11-18/doc-inizehkz1541141.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "谷歌更新 Gemini 隐私控制，可保留聊天记录且不参与 AI 训练",
    "url": "https://finance.sina.com.cn/tech/digi/2026-11-18/doc-inizayrr1808229.shtml",
    "source": "新浪科技"
@@ -748,33 +753,28 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "众擎T800领队“百机舞团”，共创“一小时内最多人形机器人跳舞”世界纪录",
-   "url": "https://finance.sina.com.cn/stock/roll/2026-11-18/doc-inizcrpf4903107.shtml",
+   "title": "豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-18/doc-inizensx1466813.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "耐克在投资者日宣布“全速前进”战略，2031财年目标新增营收50亿美元",
-   "url": "https://finance.sina.com.cn/stock/roll/2026-11-18/doc-inizcrpi1679154.shtml",
+   "title": "上海帕晏与博大算力、内蒙古民丰种业签署三方战略合作协议，联合打造“全栈词元工厂”",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-18/doc-inizenst0888692.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "权志龙母公司将推机器人女团，与宇树合作的K-pop演唱会12月首演",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-18/doc-inizcrpi1651245.shtml",
+   "title": "商汤2026前三季度业绩：营收37.9亿同比增长30.4%，毛利率43.4%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-18/doc-inizehkx4788843.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "可灵AI发布全新Kling Image 4.0，AA榜单排名超越Nano Banana",
-   "url": "https://finance.sina.com.cn/tob/2026-11-18/doc-inizcrpi1639990.shtml",
+   "title": "康迪科技前三季度营收8210万美元，同比增长38.5%实现扭亏",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-18/doc-inizehkz6874323.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "APEC观察 ｜ 对话新鸿基执董郭基煇：香港不仅是“超级联系人”，更是“超级增值人”",
-   "url": "https://video.sina.com.cn/p/tech/2026-11-18/detail-inizcmfm1733402.d.html",
-   "source": "新浪科技"
-  },
-  {
-   "title": "TCL华星首席技术官闫晓林：印刷OLED正进入主流产品小规模商用新阶段",
-   "url": "https://finance.sina.com.cn/tob/2026-11-18/doc-inizcmff1188857.shtml",
+   "title": "美团无人机第四代索降机型 M-Drone 4L 首次亮相海外",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-18/doc-inizehkz1543022.shtml",
    "source": "新浪科技"
   }
  ]
