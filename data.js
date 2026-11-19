@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-19 13:35",
+ "updatedAt": "2026-11-19 21:41",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Google 发布 Gemini 4 Neon，API 支持直传 Office 文件",
+   "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
-   "time": "11-19 10:41",
-   "sourceCount": 17
+   "time": "11-19 19:18",
+   "sourceCount": 19
   },
   {
    "rank": 2,
@@ -40,23 +40,23 @@ var WB_DATA = {
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/vgopllkh4so1p1q01nefg1364",
    "time": "11-19 13:08",
-   "sourceCount": 4
+   "sourceCount": 5
   },
   {
    "rank": 6,
+   "title": "Nvidia临时CEO提前加薪并承诺路线不变",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/pvzjd4v1c1b50ly6yf0vkv26h",
+   "time": "11-19 14:19",
+   "sourceCount": 1
+  },
+  {
+   "rank": 7,
    "title": "Google 发布 Gemini 4 Hydrogen，接入搜索并免费开放任务代办",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
    "time": "11-18 08:05",
    "sourceCount": 5
-  },
-  {
-   "rank": 7,
-   "title": "Nvidia临时CEO提前加薪并发放股权以留人",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/efhly0m74xinu6g8ewazc8ztm",
-   "time": "11-19 02:59",
-   "sourceCount": 1
   },
   {
    "rank": 8,
@@ -68,19 +68,19 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "Nvidia停售H200芯片，结束对华出口通道",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/ulwhtxvx986i1rjdkk2mxgzdl",
-   "time": "11-18 21:01",
-   "sourceCount": 2
-  },
-  {
-   "rank": 10,
    "title": "腾讯WorkBuddy日活超千万，年化收入逾5亿美元",
    "source": "IT之家·人工智能",
    "url": "https://aihot.news/items/bbq5540gooev6rr4uo6d3poaj",
    "time": "11-18 22:15",
    "sourceCount": 2
+  },
+  {
+   "rank": 10,
+   "title": "Dan Hendrycks 称 AI 安全团体私下认同 MisAnthropic 声明却不敢公开签署",
+   "source": "X：Dan Hendrycks (@hendrycks)",
+   "url": "https://aihot.news/items/eujkiqj4nc1nwkhkqehsreovz",
+   "time": "11-18 23:05",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-19 13:35",
+   "updateTime": "2026-11-19 21:41",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "坐牢难，但出狱其实更难，如果你犯罪了，你会面临什么样的人生",
+     "url": "https://www.bilibili.com/video/BV1XGsU6REC5",
+     "hot": 1293441
+    },
+    {
      "title": "【侠盗猎车手6】4K 最高画质 全网首发 全任务 全剧情流程通关攻略 开放世界冒险游戏 GTA6 - Grand Theft Auto VI",
      "url": "https://www.bilibili.com/video/BV1NDsS6UE8D",
-     "hot": 2317004
+     "hot": 3615430
     },
     {
-     "title": "厨师长的回忆录在学徒时期晚饭吃的是什么边角料，白菜面条，铁板鹅肝美食制作",
-     "url": "https://www.bilibili.com/video/BV1RSs26QEHv",
-     "hot": 897612
+     "title": "Mili - City Blue（都市之蓝）",
+     "url": "https://www.bilibili.com/video/BV1ALs465E2V",
+     "hot": 124585
     },
     {
-     "title": "老戴《侠盗猎车手 6》初见开荒全实况流程解说【GTA 6】",
-     "url": "https://www.bilibili.com/video/BV1AosS6yEX9",
-     "hot": 772552
+     "title": "【纪录片】人生一串 第四季 03 十二时辰",
+     "url": "https://www.bilibili.com/video/BV1Tksm6jERV",
+     "hot": 1153649
     },
     {
-     "title": "⚡赵本山《Bad Guy》大忽悠｜象牙山蹦野迪⚡【AI MV大赛】",
-     "url": "https://www.bilibili.com/video/BV15Ts26HERu",
-     "hot": 998795
+     "title": "“被窝里”玩手机教程",
+     "url": "https://www.bilibili.com/video/BV1Nisz6EEuH",
+     "hot": 2135654
     },
     {
-     "title": "19 国领导人轮番谈钱，谁最直接，谁藏了小九九？2026·APEC",
-     "url": "https://www.bilibili.com/video/BV11vsD6mEPb",
-     "hot": 424118
+     "title": "国外抢车位游戏撞的一塌糊涂，我们决定让智能驾驶也来试试！",
+     "url": "https://www.bilibili.com/video/BV14gsQ69EP3",
+     "hot": 321572
     },
     {
-     "title": "理塘新曲《左肺右肺》：“沸羊羊，我肺痒痒！”",
-     "url": "https://www.bilibili.com/video/BV12Gs66XEwG",
-     "hot": 749285
+     "title": "尾随NPC的真实反应",
+     "url": "https://www.bilibili.com/video/BV1v7s86zE7f",
+     "hot": 361671
     },
     {
-     "title": "《英雄联盟》BLG夺冠进行曲「Going 4 Gold」百万级录音棚试听",
-     "url": "https://www.bilibili.com/video/BV1cdsm6qEQy",
-     "hot": 530237
+     "title": "臣妾要告发熹贵妃不肯私通",
+     "url": "https://www.bilibili.com/video/BV1YBsS6oEpy",
+     "hot": 938807
     },
     {
-     "title": "那些被黑客入侵的游戏，最后都怎么样了？",
-     "url": "https://www.bilibili.com/video/BV1hCs66aETM",
-     "hot": 2226255
+     "title": "Thank you, Choi 'Doran' Hyeon-Jun",
+     "url": "https://www.bilibili.com/video/BV1hAsb6cEUp",
+     "hot": 480218
     },
     {
-     "title": "在普罗米厄的怀抱下",
-     "url": "https://www.bilibili.com/video/BV16Bs26FEAM",
-     "hot": 2997646
+     "title": "以防你不知道GTA6的狗子会开游艇来救你！",
+     "url": "https://www.bilibili.com/video/BV1gcs469Ecu",
+     "hot": 1437142
     },
     {
      "title": "恶役千金题材作品天花板！全集93分钟一次看过瘾，《恶役千金的真面目》漫画剧情深度解析",
      "url": "https://www.bilibili.com/video/BV1kVsw6BE77",
-     "hot": 639810
+     "hot": 1144188
     },
     {
-     "title": "【GTA6】我们拥有真实的物理引擎",
-     "url": "https://www.bilibili.com/video/BV1HzsU6MEX6",
-     "hot": 492916
-    },
-    {
-     "title": "对不起 欺骗了大家这么久 以后不会了",
-     "url": "https://www.bilibili.com/video/BV1PXsS67EC3",
-     "hot": 2184169
+     "title": "厨师长的回忆录在学徒时期晚饭吃的是什么边角料，白菜面条，铁板鹅肝美食制作",
+     "url": "https://www.bilibili.com/video/BV1RSs26QEHv",
+     "hot": 1536114
     }
    ]
   }
@@ -758,23 +758,23 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "马斯克:我是中国的超级粉丝!贸促会会长会见马斯克，谈及此前央视财经独家专访印象深刻",
-   "url": "https://video.sina.com.cn/p/tech/2026-11-19/detail-inizfyuk4544536.d.html",
+   "title": "英伟达透露：台积电本周曾到访",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhrsa4488835.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "小马智行：Q3营收同比增长75.2%，Robotaxi占比首度逼近四成",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-11-19/doc-inizfyuf6246586.shtml",
+   "title": "Anthropic IPO股份吸引超10万名英国散户申购",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-19/doc-inizhrsa4480848.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "雷军在APEC峰会上意外曝光小米18，消息称将于12月发布",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-11-19/doc-inizfyuh7761668.shtml",
+   "title": "有道2026年Q3净收入14.3亿元，连续九个季度经营利润为正",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-19/doc-inizhrry7702736.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "APEC观察|ABAC新西兰代表点赞中国免签政策：儿子曾在复旦上学，还鼓励朋友来中国看看",
-   "url": "https://finance.sina.com.cn/hy/hyjz/2026-11-19/doc-inizfunn4667055.shtml",
+   "title": "拼多多陈磊：面对全球业务的挑战，我们将继续在供应链上下笨功夫",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-19/doc-inizhrsa4477581.shtml",
    "source": "新浪科技"
   }
  ]
