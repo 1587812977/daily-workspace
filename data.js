@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-20 13:23",
+ "updatedAt": "2026-11-20 21:24",
  "aihotHot": [
   {
    "rank": 1,
@@ -15,8 +15,8 @@ var WB_DATA = {
    "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
-   "time": "11-20 08:32",
-   "sourceCount": 16
+   "time": "11-20 12:52",
+   "sourceCount": 17
   },
   {
    "rank": 3,
@@ -44,42 +44,42 @@ var WB_DATA = {
   },
   {
    "rank": 6,
-   "title": "谷歌联手蓝色起源2029年发射AI服务器卫星",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/ol8ctywbqhvlrp8kulkz2qome",
-   "time": "11-19 22:26",
-   "sourceCount": 1
+   "title": "OpenAI报告：编码智能体加速研发但进展不均",
+   "source": "X：OpenAI (@OpenAI)",
+   "url": "https://aihot.news/items/f6lqwdjk5x80bwats1fvxagsu",
+   "time": "11-19 21:08",
+   "sourceCount": 3
   },
   {
    "rank": 7,
-   "title": "GPT-Live API 新增 Standby 待机配置",
-   "source": "X：OpenAI Developers (@OpenAIDevs)",
-   "url": "https://aihot.news/items/j153xl6d8vlixu134iv0qj1it",
-   "time": "11-20 04:00",
-   "sourceCount": 1
-  },
-  {
-   "rank": 8,
-   "title": "Nvidia临时CEO提前加薪并承诺路线不变",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/pvzjd4v1c1b50ly6yf0vkv26h",
-   "time": "11-19 14:19",
-   "sourceCount": 1
-  },
-  {
-   "rank": 9,
-   "title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/vgopllkh4so1p1q01nefg1364",
-   "time": "11-19 13:08",
+   "title": "腾讯混元 Hy4 正式开源权重并发布 System Card",
+   "source": "公众号：腾讯混元",
+   "url": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
+   "time": "11-20 17:31",
    "sourceCount": 4
   },
   {
-   "rank": 10,
+   "rank": 8,
    "title": "Meta Muse Charm 据报定价 300 美元",
    "source": "The Verge：AI（RSS）",
    "url": "https://aihot.news/items/si654l26i1u1jqoilpr9og075",
    "time": "11-20 05:58",
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
+   "title": "涉华芯片关联公司投资DeepSeek融资",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/kl6usb0zdu045w9bedy6qyzvf",
+   "time": "11-20 19:00",
+   "sourceCount": 1
+  },
+  {
+   "rank": 10,
+   "title": "OpenAI 向 Plus 与 Business 用户测试 dots",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/qoekdl4jf95kwb6cau1i3mltn",
+   "time": "11-20 09:20",
    "sourceCount": 2
   }
  ],
@@ -294,79 +294,79 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-20 13:23",
+   "updateTime": "2026-11-20 21:25",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "特朗普给中俄美元首会晤打12分",
-     "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E7%BB%99%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E6%89%9312%E5%88%86",
-     "hot": 1074514
+     "title": "特朗普刚返美就发重大预告",
+     "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E5%88%9A%E8%BF%94%E7%BE%8E%E5%B0%B1%E5%8F%91%E9%87%8D%E5%A4%A7%E9%A2%84%E5%91%8A",
+     "hot": 1117214
     },
     {
-     "title": "小米18",
-     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B318",
-     "hot": 767317
+     "title": "两京十五日首播反响",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E9%A6%96%E6%92%AD%E5%8F%8D%E5%93%8D",
+     "hot": 810283
     },
     {
-     "title": "这是APEC互联互通蓝图",
-     "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E6%98%AFAPEC%E4%BA%92%E8%81%94%E4%BA%92%E9%80%9A%E8%93%9D%E5%9B%BE",
-     "hot": 674288
+     "title": "从细节读懂中国带给亚太的确定性",
+     "url": "https://s.weibo.com/weibo?q=%E4%BB%8E%E7%BB%86%E8%8A%82%E8%AF%BB%E6%87%82%E4%B8%AD%E5%9B%BD%E5%B8%A6%E7%BB%99%E4%BA%9A%E5%A4%AA%E7%9A%84%E7%A1%AE%E5%AE%9A%E6%80%A7",
+     "hot": 619870
     },
     {
-     "title": "刘琳全程脱稿配音俄语",
-     "url": "https://s.weibo.com/weibo?q=%E5%88%98%E7%90%B3%E5%85%A8%E7%A8%8B%E8%84%B1%E7%A8%BF%E9%85%8D%E9%9F%B3%E4%BF%84%E8%AF%AD",
-     "hot": 671544
+     "title": "DK官宣Doran和Kanavi加入",
+     "url": "https://s.weibo.com/weibo?q=DK%E5%AE%98%E5%AE%A3Doran%E5%92%8CKanavi%E5%8A%A0%E5%85%A5",
+     "hot": 465010
     },
     {
-     "title": "空军一号连续飞行超14小时",
-     "url": "https://s.weibo.com/weibo?q=%E7%A9%BA%E5%86%9B%E4%B8%80%E5%8F%B7%E8%BF%9E%E7%BB%AD%E9%A3%9E%E8%A1%8C%E8%B6%8514%E5%B0%8F%E6%97%B6",
-     "hot": 530888
+     "title": "腾讯因仙逆动画索赔1亿",
+     "url": "https://s.weibo.com/weibo?q=%E8%85%BE%E8%AE%AF%E5%9B%A0%E4%BB%99%E9%80%86%E5%8A%A8%E7%94%BB%E7%B4%A2%E8%B5%941%E4%BA%BF",
+     "hot": 424875
     },
     {
-     "title": "文吉儿一靠近王子璇就转身",
-     "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E4%B8%80%E9%9D%A0%E8%BF%91%E7%8E%8B%E5%AD%90%E7%92%87%E5%B0%B1%E8%BD%AC%E8%BA%AB",
-     "hot": 440239
+     "title": "曝青稚被联盟要求上节目",
+     "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E9%9D%92%E7%A8%9A%E8%A2%AB%E8%81%94%E7%9B%9F%E8%A6%81%E6%B1%82%E4%B8%8A%E8%8A%82%E7%9B%AE",
+     "hot": 408091
     },
     {
-     "title": "马斯克从深圳飞到了上海",
-     "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E6%96%AF%E5%85%8B%E4%BB%8E%E6%B7%B1%E5%9C%B3%E9%A3%9E%E5%88%B0%E4%BA%86%E4%B8%8A%E6%B5%B7",
-     "hot": 329029
+     "title": "天霸独狼吃鸡",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%A9%E9%9C%B8%E7%8B%AC%E7%8B%BC%E5%90%83%E9%B8%A1",
+     "hot": 364868
     },
     {
-     "title": "张本美和也想打出孙颖莎那样的球",
-     "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9C%AC%E7%BE%8E%E5%92%8C%E4%B9%9F%E6%83%B3%E6%89%93%E5%87%BA%E5%AD%99%E9%A2%96%E8%8E%8E%E9%82%A3%E6%A0%B7%E7%9A%84%E7%90%83",
-     "hot": 328970
+     "title": "深圳人又开始原装出街了",
+     "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E4%BA%BA%E5%8F%88%E5%BC%80%E5%A7%8B%E5%8E%9F%E8%A3%85%E5%87%BA%E8%A1%97%E4%BA%86",
+     "hot": 311543
     },
     {
-     "title": "一图读懂APEC合作如何惠及百姓生活",
-     "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%9B%BE%E8%AF%BB%E6%87%82APEC%E5%90%88%E4%BD%9C%E5%A6%82%E4%BD%95%E6%83%A0%E5%8F%8A%E7%99%BE%E5%A7%93%E7%94%9F%E6%B4%BB",
-     "hot": 328469
+     "title": "中国航天从神1走到了神24",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E8%88%AA%E5%A4%A9%E4%BB%8E%E7%A5%9E1%E8%B5%B0%E5%88%B0%E4%BA%86%E7%A5%9E24",
+     "hot": 309785
     },
     {
-     "title": "特朗普从中国返美途中发帖",
-     "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E4%BB%8E%E4%B8%AD%E5%9B%BD%E8%BF%94%E7%BE%8E%E9%80%94%E4%B8%AD%E5%8F%91%E5%B8%96",
-     "hot": 327967
+     "title": "韩网谈Viper加入KRX的原因",
+     "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E7%BD%91%E8%B0%88Viper%E5%8A%A0%E5%85%A5KRX%E7%9A%84%E5%8E%9F%E5%9B%A0",
+     "hot": 302486
     },
     {
-     "title": "股市",
-     "url": "https://s.weibo.com/weibo?q=%E8%82%A1%E5%B8%82",
-     "hot": 327419
+     "title": "许飞我愿意给你花钱你知道不",
+     "url": "https://s.weibo.com/weibo?q=%E8%AE%B8%E9%A3%9E%E6%88%91%E6%84%BF%E6%84%8F%E7%BB%99%E4%BD%A0%E8%8A%B1%E9%92%B1%E4%BD%A0%E7%9F%A5%E9%81%93%E4%B8%8D",
+     "hot": 296317
     },
     {
-     "title": "厉娜吵完架把许飞的氧气瓶带走了",
-     "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E5%90%B5%E5%AE%8C%E6%9E%B6%E6%8A%8A%E8%AE%B8%E9%A3%9E%E7%9A%84%E6%B0%A7%E6%B0%94%E7%93%B6%E5%B8%A6%E8%B5%B0%E4%BA%86",
-     "hot": 327194
+     "title": "沈腾拿最佳男主角了",
+     "url": "https://s.weibo.com/weibo?q=%E6%B2%88%E8%85%BE%E6%8B%BF%E6%9C%80%E4%BD%B3%E7%94%B7%E4%B8%BB%E8%A7%92%E4%BA%86",
+     "hot": 291899
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-20 13:23",
+   "updateTime": "2026-11-20 21:25",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "中俄美元首发表和平宣言，三国元首重申核战争打不赢也打不得，哪些信息值得重点关注？",
-     "url": "https://www.zhihu.com/question/2106822157141534109",
+     "title": "如何看待马斯克离开深圳，突访上海？",
+     "url": "https://www.zhihu.com/question/2106907755730814315",
      "hot": ""
     },
     {
@@ -375,53 +375,53 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "爱奇艺股价已连续 27 个交易日低于 1 美元，最快将于11月23日触发退市警告，它真的会退市吗？",
-     "url": "https://www.zhihu.com/question/2106740458650957442",
+     "title": "王毅介绍中俄美元首会晤情况，称这是一次「和平峰会」，是载入史册的标志性事件，传递出了哪些信号？",
+     "url": "https://www.zhihu.com/question/2107019870122547156",
      "hot": ""
     },
     {
-     "title": "腾讯披露WorkBuddy近七天年化收入超5亿美元，有用户月付4万元买服务，数据背后有多大「含金量」？",
-     "url": "https://www.zhihu.com/question/2106533852478977877",
+     "title": "DeepSeek 第二轮融资 1050 多亿元落地，31 家外部股东入局，怎样解读？",
+     "url": "https://www.zhihu.com/question/2106889511993189511",
      "hot": ""
     },
     {
-     "title": "如何看待马斯克离开深圳，突访上海？",
-     "url": "https://www.zhihu.com/question/2106907755730814315",
+     "title": "酒店的浴室为什么大多是透明的？",
+     "url": "https://www.zhihu.com/question/527454391",
      "hot": ""
     },
     {
-     "title": "腾讯姚顺雨主导AI架构精简，而全公司11万人面临大调整，这类扁平化变革落地难点在哪？",
-     "url": "https://www.zhihu.com/question/2104663850607965878",
+     "title": "特朗普称如果满分 10 分，可以为中俄美元首会晤打 12 分，此次会晤对他有多重要？美方有哪些收获？",
+     "url": "https://www.zhihu.com/question/2107079876813353010",
      "hot": ""
     },
     {
-     "title": "为啥中文的一二三笔画简单明了，零的笔画那么多啊?",
-     "url": "https://www.zhihu.com/question/606813087",
+     "title": "媒体称中国 AI 人才不再迷恋美国成群回国，这一趋势背后的核心动因是什么？",
+     "url": "https://www.zhihu.com/question/2106184065661641559",
      "hot": ""
     },
     {
-     "title": "如何看待张朝阳回应搜狐「躺平」：没资源做大模型，但每天凌晨4点起床，讲物理课也是工作？",
-     "url": "https://www.zhihu.com/question/2106691940146331909",
+     "title": "中国政法、上大、上海交大等多所高校不向2027级研究生提供宿舍，为何各校宿舍紧张问题都迟迟没能解决？",
+     "url": "https://www.zhihu.com/question/2107038570422563911",
      "hot": ""
     },
     {
-     "title": "如何看待丰田员工餐疑似摆拍造假？",
-     "url": "https://www.zhihu.com/question/2106090303207772376",
+     "title": "神秘模型 Gestalt 横空出世，设计基准上大幅超越 Claude、GPT，这款模型到底是啥来历？",
+     "url": "https://www.zhihu.com/question/2106839067346350136",
      "hot": ""
     },
     {
-     "title": "感觉身边只剩酒肉朋友，聊的不是孩子上学就是社会新闻，再往深就没话了，有时候不明白交情怎么就停在这儿了？",
-     "url": "https://www.zhihu.com/question/2106571582248154942",
+     "title": "为什么唐僧对猪八戒会有一点偏爱？",
+     "url": "https://www.zhihu.com/question/1977299907032397436",
      "hot": ""
     },
     {
-     "title": "周杰伦武汉演唱会580元大屏观演区引热议，此前有人认为是性价比之王，也有人不接受看不到真人，你怎么看？",
-     "url": "https://www.zhihu.com/question/2105728003292636930",
+     "title": "如何评价华为全新先锋潮流子品牌OSTA星芒？",
+     "url": "https://www.zhihu.com/question/2106692200478269466",
      "hot": ""
     },
     {
-     "title": "很多人说GTA6或者GTA系列玩法单调，无非就是射击+开车，是不是玩法创新在这种3A上遇到瓶颈了？",
-     "url": "https://www.zhihu.com/question/2106787583531409688",
+     "title": "江南大学回应 「大学英语改为选修」，有通过四六级等免修条件，这一改革会成为趋势吗？",
+     "url": "https://www.zhihu.com/question/2106695521175860644",
      "hot": ""
     }
    ]
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-20 13:23",
+   "updateTime": "2026-11-20 21:25",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "尾随NPC的真实反应",
-     "url": "https://www.bilibili.com/video/BV1v7s86zE7f",
-     "hot": 2516378
+     "title": "117！你说你和谁联动上了？⚡117x拉挖稀⚡",
+     "url": "https://www.bilibili.com/video/BV1gNsb6fE35",
+     "hot": 638229
     },
     {
-     "title": "【非凡之爱】⚡️但都是正常人⚡️",
-     "url": "https://www.bilibili.com/video/BV1wLs465EWe",
-     "hot": 1341858
+     "title": "90分钟中俄美会晤，摆了哪些事上桌？王骁APEC观察",
+     "url": "https://www.bilibili.com/video/BV18psq6JEgF",
+     "hot": 614138
     },
     {
      "title": "【独家】《罗小黑战记》第44话 冬冬拯救行动方案五【10月国创】",
      "url": "https://www.bilibili.com/video/BV16hsY6tExz",
-     "hot": 448682
+     "hot": 2275356
     },
     {
-     "title": "【纪录片】人生一串 第四季 03 十二时辰",
-     "url": "https://www.bilibili.com/video/BV1Tksm6jERV",
-     "hot": 1512426
+     "title": "⚡霸 爸 去 哪 儿⚡",
+     "url": "https://www.bilibili.com/video/BV1sKs16AEWv",
+     "hot": 2718917
     },
     {
-     "title": "坐牢难，但出狱其实更难，如果你犯罪了，你会面临什么样的人生",
-     "url": "https://www.bilibili.com/video/BV1XGsU6REC5",
-     "hot": 3013529
+     "title": "【非凡之爱】⚡️但都是正常人⚡️",
+     "url": "https://www.bilibili.com/video/BV1wLs465EWe",
+     "hot": 3120669
     },
     {
-     "title": "高市早苗应该在深圳烈士陵园鞠躬谢罪",
-     "url": "https://www.bilibili.com/video/BV1vZs86GEgG",
-     "hot": 881771
+     "title": "手绘415张！还原百变小樱《扉をあけて 》",
+     "url": "https://www.bilibili.com/video/BV1Gksb6eEt7",
+     "hot": 598089
     },
     {
-     "title": "PVZ夜晚BGM，为什么越听越紧张？",
-     "url": "https://www.bilibili.com/video/BV1K6sC6wEQR",
-     "hot": 757862
+     "title": "非凡之恶：这两人玩GTA6认识的",
+     "url": "https://www.bilibili.com/video/BV11Qs46UEQg",
+     "hot": 1569215
     },
     {
-     "title": "最败家的一次",
-     "url": "https://www.bilibili.com/video/BV1p5sm6vEJe",
-     "hot": 2019171
+     "title": "【盘点】互联网10大恶心设计，从愤怒到麻木……",
+     "url": "https://www.bilibili.com/video/BV1N8sq6yEyM",
+     "hot": 97366
     },
     {
-     "title": "以防你不知道GTA6的狗子会开游艇来救你！",
-     "url": "https://www.bilibili.com/video/BV1gcs469Ecu",
-     "hot": 2254192
+     "title": "长辈泡的“药酒”，里面到底有什么？",
+     "url": "https://www.bilibili.com/video/BV1nzsq6BERu",
+     "hot": 263773
     },
     {
-     "title": "分不清哪个是倒放的",
-     "url": "https://www.bilibili.com/video/BV1iis66TEEn",
-     "hot": 1115930
+     "title": "【四渡】我预判了你的预判",
+     "url": "https://www.bilibili.com/video/BV1aXs26SE3o",
+     "hot": 807653
     },
     {
-     "title": "分道扬镳  英属印度·1919",
-     "url": "https://www.bilibili.com/video/BV1fbsb6GELA",
-     "hot": 107877
+     "title": "爱沙尼亚惨遭俄戏耍",
+     "url": "https://www.bilibili.com/video/BV1dmsq6wEMb",
+     "hot": 615693
     },
     {
-     "title": "全公司只有他18W，100W女老板却天天留他加班合集。【AI月月抢位赛】",
-     "url": "https://www.bilibili.com/video/BV1fPsU6cEJt",
-     "hot": 1813260
+     "title": "AI:我算出了最优解！和珅:谢邀，刚把桥贪到只剩一根绳！",
+     "url": "https://www.bilibili.com/video/BV18AsQ6bEs6",
+     "hot": 739585
     }
    ]
   }
@@ -753,23 +753,23 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "谢欣辟谣离职称“浪费时间去回复”，还把微信名改了",
-   "url": "https://finance.sina.com.cn/tob/2026-11-20/doc-inizkctk4033191.shtml",
+   "title": "阿里前AI负责人林俊旸，旗下创企语用科技估值翻倍至50亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkurf0276358.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "网易财报电话会：AI剧短期吸引用户关注，游戏核心竞争力不受影响",
-   "url": "https://finance.sina.com.cn/tob/2026-11-20/doc-inizkctk4030461.shtml",
+   "title": "骏成科技7.65 亿元采购GPU意欲何为？账面现金仅4.96亿元 前三季度净利润大幅下滑现金流转负",
+   "url": "https://finance.sina.com.cn/stock/observe/2026-11-20/doc-inizkura3877580.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "马斯克24小时中国行，专程从深圳赶往上海",
-   "url": "https://finance.sina.com.cn/world/2026-11-20/doc-inizkctk4025371.shtml",
+   "title": "史上最大IPO刷新 Anthropic七位创始人套现近20亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizkuqy7097417.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "方程豹钛9上市：顶配版首搭量产折叠方向盘，售价27.99万元起",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-20/doc-inizkcth7233821.shtml",
+   "title": "华为星芒首款产品售价5699元起，网友喊话余承东：定价太贵",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-20/doc-inizkqii0367321.shtml",
    "source": "新浪科技"
   }
  ]
