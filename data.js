@@ -1,17 +1,9 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-21 20:53",
+ "updatedAt": "2026-11-22 03:40",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Anthropic 上市首日收涨 17%，次日回落",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-20 21:53",
-   "sourceCount": 12
-  },
-  {
-   "rank": 2,
    "title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
@@ -19,12 +11,20 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
+   "rank": 2,
+   "title": "Anthropic 上市首日收涨 17%，次日回落",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-21 23:00",
+   "sourceCount": 7
+  },
+  {
    "rank": 3,
-   "title": "Thinking Machines 开源 Inkling 2 Mini 循环模型",
+   "title": "Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini",
    "source": "Thinking Machines Lab：News（网页）",
    "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
-   "time": "11-21 18:33",
-   "sourceCount": 12
+   "time": "11-22 02:31",
+   "sourceCount": 11
   },
   {
    "rank": 4,
@@ -32,15 +32,15 @@ var WB_DATA = {
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
    "time": "11-20 22:30",
-   "sourceCount": 4
+   "sourceCount": 3
   },
   {
    "rank": 5,
-   "title": "Google 为 Mac 版 Gemini 上线电脑操作功能",
-   "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-   "url": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
+   "title": "特朗普威胁对海外建数据中心征税",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/qzkdqvffbfz581q2kieprq6dd",
    "time": "11-21 02:50",
-   "sourceCount": 5
+   "sourceCount": 1
   },
   {
    "rank": 6,
@@ -52,19 +52,19 @@ var WB_DATA = {
   },
   {
    "rank": 7,
-   "title": "特朗普威胁对海外建数据中心征税",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/qzkdqvffbfz581q2kieprq6dd",
-   "time": "11-21 02:50",
-   "sourceCount": 1
-  },
-  {
-   "rank": 8,
    "title": "Signal 限制 iOS 27 与 Android 截图，阻止 AI 读取聊天",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/j0t8pj4nipni3gwi970137zxw",
    "time": "11-21 03:50",
    "sourceCount": 2
+  },
+  {
+   "rank": 8,
+   "title": "Google 为 Mac 版 Gemini 上线电脑操作功能",
+   "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+   "url": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
+   "time": "11-21 02:50",
+   "sourceCount": 3
   },
   {
    "rank": 9,
@@ -76,14 +76,23 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "特朗普白宫评价黄仁勋与Blackwell芯片",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/k1hyvjqvrfajnxnn85pkgtu1l",
-   "time": "11-21 06:31",
-   "sourceCount": 1
+   "title": "SpaceX芯片融资贷款方要求芯片不得用于轨道数据中心",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/t71gw8j6hp64ibwu5ea05ldhz",
+   "time": "11-21 05:07",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
+   "summary": "Columbia 和 MIT 的论文展示 Claude 发现的算法在 3SUM 和全对最短路径（APSP）上取得多项式改进，3SUM 达到 O(n^1.9992)、APSP 达到 O(n^2.9995)，推翻了 3SUM 和 APSP 假设。",
+   "reason": "论文显示 Claude 发现的算法改进了 3SUM 和 APSP 的长期复杂度上限，并用 Lean 4 形式化验证，读者可以了解 AI 搜索算法的可行路径。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
+   "time": "11-22 02:47",
+   "category": "paper"
+  },
   {
    "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
    "summary": "Anthropic 数学家 Levent Alpöge 周五宣布与 Claude 合作得到黎曼猜想及广义黎曼猜想的证明，证明以 Lean 语言分 14 个数据包发布，打印将超 25 万页。",
@@ -137,60 +146,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/sn8qb9u8fqka3mpnmy0r1nz4b",
    "time": "11-20 00:00",
    "category": "paper"
-  },
-  {
-   "title": "ChatGPT 推出 Space：统一管理页面、幻灯片、图片与文件",
-   "summary": "ChatGPT 官方宣布侧边栏中的 Space 成为 pages、slides、images、files 和 uploads 的新家。用 ChatGPT 可写页面、做研究、生成图片并创建交互式图表，把想法变成带图片和图形的幻灯片并邀请他人协作；页面和幻灯片还可从已连接的工具自动更新。",
-   "reason": "官方介绍了 Space 承载页面、幻灯片与文件的能力，读者可据此评估它在协作和内容生成场景中的用法。",
-   "source": "X：ChatGPT (@ChatGPT)",
-   "url": "https://aihot.news/items/ekf0so0xitc52thkrxx3mwax1",
-   "time": "11-21 02:48",
-   "category": "ai-products"
-  },
-  {
-   "title": "OpenHands 详解用 Agent 自动修复自家镜像 CVE 的软件工厂",
-   "summary": "OpenHands 团队详解把大部分 CVE 修复工作交给 Agent 流水线的做法：Agent 选择修复、开 PR、合并低风险项并跟踪到部署，人每天只读一条最多 11 行的 Slack 消息和少量 PR。",
-   "reason": "作者公开自家 CVE 自动修复流水线的完整设计与结果，读者可照搬模板在自有栈上搭建同类 Agent 工作流。",
-   "source": "OpenHands 官方博客",
-   "url": "https://aihot.news/items/i94tul4bae051uizh2kkpn2r4",
-   "time": "11-19 08:00",
-   "category": "tip"
-  },
-  {
-   "title": "Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作证明黎曼猜想，放出 1737 万行 Lean 代码",
-   "summary": "Anthropic 数学家 Levent Alpöge 在个人网站宣布与 Claude 合作证明了黎曼猜想，没有论文，只放出 14 个压缩包共 175187 个 Lean 文件、1737 万行代码。",
-   "reason": "文章梳理了这一证明声明的历史脉络和技术路线，并提示验证尚未完成，读者可以了解 AI 参与数学研究的现状与争议。",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-   "time": "11-21 00:54",
-   "category": "paper"
-  },
-  {
-   "title": "Runway 详解如何构建智能体驱动的软件工厂",
-   "summary": "Runway 介绍了逐步把软件交付各环节交给智能体完成的实践。智能体 10 月驱动了 38% 的合并 PR（6 月仅 0.1%），首次批准等待中位数从超过 2 小时降至约 5 分钟；AI 单独批准的 PR 回滚率约千分之一，低于人工批准的约 1/200。",
-   "reason": "Runway 逐站交代了让智能体接管软件交付各环节的做法与验收标准，读者可对照借鉴这套可迁移的工程方法。",
-   "source": "Runway：News（网页）",
-   "url": "https://aihot.news/items/wnw22hxqlwsd58lzsm44psc6g",
-   "time": "11-20 00:00",
-   "category": "tip"
-  },
-  {
-   "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-   "summary": "Anthropic 上市第二天股价跌逾 9% 至 $88.17，接近 $83 发行价，其破纪录 IPO 未能止住 AI 相关公司抛售。周五 Nasdaq 跌 2%，SanDisk 跌 14%、Micron 跌 10%；亚洲股市创 2020 年以来最差一周，台湾加权指数跌 6.7%、日经跌 5%、Kospi 跌 5.5%，SoftBank 单日跌 14.5%。",
-   "reason": "原文梳理了 Anthropic 上市次日跌破发行价引发的多市场连锁下跌，分析师对流动性抽水的解释为理解 AI 板块抛压提供了具体视角。",
-   "source": "Hacker News：AI 热帖",
-   "url": "https://aihot.news/items/ufyn252g3i251j0mfwy8xth9r",
-   "time": "11-20 21:53",
-   "category": "industry"
-  },
-  {
-   "title": "MIT 数学面板讨论 AI 冲击下的数学研究未来",
-   "summary": "MIT 举办“AI 与社会：数学的未来”座谈，来自 MIT、哈佛、西北大学和纽约大学的数学家讨论 AI 对数学研究的影响。",
-   "reason": "原文记录多位一线数学家对 AI 冲击数学研究的分歧观点，并给出期刊与人才培养正在调整的具体变化。",
-   "source": "MIT News（RSS）",
-   "url": "https://aihot.news/items/qfwgfsg8m1r4vcf4vglgi03by",
-   "time": "11-20 23:20",
-   "category": "opinion"
   }
  ],
  "aiDaily": {
@@ -629,68 +584,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-21 20:53",
+   "updateTime": "2026-11-22 03:41",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
+     "title": "《明日方舟：终末地》特别映像「基石」",
+     "url": "https://www.bilibili.com/video/BV1MMyazPEKy",
+     "hot": 1104951
+    },
+    {
+     "title": "《我救不死你》",
+     "url": "https://www.bilibili.com/video/BV1bGysz7EoD",
+     "hot": 1303692
+    },
+    {
      "title": "【IGN独家】《鸣潮：永明的烬焰》实机演示",
      "url": "https://www.bilibili.com/video/BV1jKsq6cEEP",
-     "hot": 3391758
-    },
-    {
-     "title": "当我用AI续写爱情公寓4关谷悠悠婚礼【AI全民制作人】",
-     "url": "https://www.bilibili.com/video/BV1atse6EEfx",
-     "hot": 2490185
-    },
-    {
-     "title": "侠盗猎车手6 第一期，GTA 6 Part 1",
-     "url": "https://www.bilibili.com/video/BV1JpyazXEUD",
-     "hot": 507842
+     "hot": 3912521
     },
     {
      "title": "【纪录片】守护解放西·传承季 第1集 守护不止解放西",
      "url": "https://www.bilibili.com/video/BV1cesv6PEM4",
-     "hot": 4683393
+     "hot": 5267691
     },
     {
-     "title": "戴玉强×龚琳娜 ｜殿堂级嗓音，荒野式放飞！魔性演绎《饥困荒野》1124上线主题曲",
-     "url": "https://www.bilibili.com/video/BV1jVyWzoEZE",
-     "hot": 1641256
+     "title": "侠盗猎车手6 第一期，GTA 6 Part 1",
+     "url": "https://www.bilibili.com/video/BV1JpyazXEUD",
+     "hot": 936904
     },
     {
-     "title": "为何去玩这个剧本杀的人都失踪了？",
-     "url": "https://www.bilibili.com/video/BV1UGyszjEGX",
-     "hot": 652363
+     "title": "《猫富贵 狗不让》",
+     "url": "https://www.bilibili.com/video/BV1rhyszPE6p",
+     "hot": 784557
     },
     {
-     "title": "新生计划正式启动！这次特别出演的竟是……",
-     "url": "https://www.bilibili.com/video/BV1HSyWzAEuZ",
-     "hot": 563430
+     "title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
+     "url": "https://www.bilibili.com/video/BV1pvyhzdER5",
+     "hot": 1151220
+    },
+    {
+     "title": "炒蔬菜的底层逻辑：4种方法搞定99%的蔬菜？",
+     "url": "https://www.bilibili.com/video/BV1nuyWz8E7t",
+     "hot": 1093353
     },
     {
      "title": "以防你不知道GTA6路人是如何暴富的💰",
      "url": "https://www.bilibili.com/video/BV1QxyWzUE3a",
-     "hot": 620999
-    },
-    {
-     "title": "学了五分钟建模做出来的绯英技能动画",
-     "url": "https://www.bilibili.com/video/BV1bRyszmEXc",
-     "hot": 894662
+     "hot": 1080143
     },
     {
      "title": "【独家】《凡人修仙传之慕兰之战》第25集【总第201集】",
      "url": "https://www.bilibili.com/video/BV19Ny4zfEtW",
-     "hot": 3681910
+     "hot": 4478297
     },
     {
-     "title": "DNFU·2026年度CG",
-     "url": "https://www.bilibili.com/video/BV18KsQ64E4X",
-     "hot": 1295617
+     "title": "为何去玩这个剧本杀的人都失踪了？",
+     "url": "https://www.bilibili.com/video/BV1UGyszjEGX",
+     "hot": 1045354
     },
     {
-     "title": "你的GTA我的GTA好像不一样！",
-     "url": "https://www.bilibili.com/video/BV1gGsv6EEBQ",
-     "hot": 1576047
+     "title": "“在众人的簇拥下死去吗，倒也不错”｜《虎杖の小曲》【老男孩DJ版/咒术回战】",
+     "url": "https://www.bilibili.com/video/BV1Qyypz2ETX",
+     "hot": 958182
     }
    ]
   }
@@ -743,6 +698,16 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "Anthropic创纪录IPO撞上华尔街科技股自2020年以来最糟糕的一周",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizpkcu6455439.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "巴菲特将感恩节礼物提高三倍 捐赠财富详细分析",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-inizpkcw3230385.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "千台岚图梦想家9右舵版发运出海，获得10亿级海外订单",
    "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-inizntha6628941.shtml",
    "source": "新浪科技"
@@ -760,16 +725,6 @@ var WB_DATA = {
   {
    "title": "“一斤羊肉120元！”西贝贾国龙改开火锅店，消费者喊话“性价比低，支持不起”",
    "url": "https://finance.sina.com.cn/tech/internet/2026-11-21/doc-iniznnyh3523641.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "零跑回应A10后备箱储物盒被压塌：系装载物品超过设计承重上限所致，已与用户沟通并获得理解",
-   "url": "https://finance.sina.com.cn/tech/it/2026-11-21/doc-iniznnyh3522370.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "Anthropic上市表现遇冷 华尔街AI板块合计蒸发4万亿美元市值",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznnyc4994741.shtml",
    "source": "新浪科技"
   }
  ]
