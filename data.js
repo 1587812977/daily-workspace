@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-21 13:15",
+ "updatedAt": "2026-11-21 20:53",
  "aihotHot": [
   {
    "rank": 1,
@@ -15,24 +15,24 @@ var WB_DATA = {
    "title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-   "time": "11-21 08:18",
-   "sourceCount": 6
+   "time": "11-21 15:46",
+   "sourceCount": 7
   },
   {
    "rank": 3,
+   "title": "Thinking Machines 开源 Inkling 2 Mini 循环模型",
+   "source": "Thinking Machines Lab：News（网页）",
+   "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
+   "time": "11-21 18:33",
+   "sourceCount": 12
+  },
+  {
+   "rank": 4,
    "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
    "source": "Google DeepMind：Blog（RSS）",
    "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
    "time": "11-20 22:30",
-   "sourceCount": 7
-  },
-  {
-   "rank": 4,
-   "title": "Thinking Machines 发布可本地运行的开源模型 Inkling 2 Mini",
-   "source": "Thinking Machines Lab：News（网页）",
-   "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
-   "time": "11-21 08:47",
-   "sourceCount": 11
+   "sourceCount": 4
   },
   {
    "rank": 5,
@@ -68,22 +68,31 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "OpenAI 向 Plus 用户开放 ChatGPT Space",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/dvmv7zpdc9vlgy3wy42szdfps",
-   "time": "11-21 06:57",
-   "sourceCount": 2
+   "title": "OpenAI发布对抗模型蒸馏新研究",
+   "source": "X：OpenAI (@OpenAI)",
+   "url": "https://aihot.news/items/th7q46gr5oifao4otcm0oocui",
+   "time": "11-21 03:33",
+   "sourceCount": 1
   },
   {
    "rank": 10,
-   "title": "SpaceX芯片融资贷款方要求芯片不得用于轨道数据中心",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/t71gw8j6hp64ibwu5ea05ldhz",
-   "time": "11-21 05:07",
-   "sourceCount": 2
+   "title": "特朗普白宫评价黄仁勋与Blackwell芯片",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/k1hyvjqvrfajnxnn85pkgtu1l",
+   "time": "11-21 06:31",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
+   "summary": "Anthropic 数学家 Levent Alpöge 周五宣布与 Claude 合作得到黎曼猜想及广义黎曼猜想的证明，证明以 Lean 语言分 14 个数据包发布，打印将超 25 万页。",
+   "reason": "报道同时给出 AI 证明以 Lean 形式化验证和人类证明遭社区质疑两条线，读者可据此判断双方证明各自的验证路径与可信度。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/tje8i8y21ttk7jjmqet5bpxuq",
+   "time": "11-21 19:19",
+   "category": "paper"
+  },
   {
    "title": "Google 回顾 Duplex 十年演进：如何在 Gemini Tasks 中替用户打电话给商家",
    "summary": "Google Research 回顾 Duplex 十年架构演进，并介绍本周在 Gemini App Tasks 中上线的自动致电商家功能。",
@@ -182,15 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/qfwgfsg8m1r4vcf4vglgi03by",
    "time": "11-20 23:20",
    "category": "opinion"
-  },
-  {
-   "title": "MiniMax 内部模型 MIM 实现多项密码分析实用攻击并开源验证轨迹",
-   "summary": "MiniMax 研究团队用内部研究模型 MIM 对现代密码方案做自动化密码分析，报告称在 NIST 候选算法、同行评审方案和公开挑战基准上取得多个此前无实用攻击方案的首个实用破解，并把部分理论攻击变为可执行攻击。",
-   "reason": "MiniMax 自述其内部模型对多个密码方案做出首个实用攻击并大幅刷新求解纪录，技术报告与 PoC 代码已开源，可关注其对安全评估流程的影响。",
-   "source": "MiniMax：Blog（网页）",
-   "url": "https://aihot.news/items/sakj36g0tvzaeoianryyn6o6g",
-   "time": "11-20 14:41",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -294,99 +294,79 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-21 13:15",
+   "updateTime": "2026-11-21 20:53",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "特朗普称不允许美企海外建数据中心",
-     "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8D%E5%85%81%E8%AE%B8%E7%BE%8E%E4%BC%81%E6%B5%B7%E5%A4%96%E5%BB%BA%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83",
-     "hot": 1177310
+     "title": "特朗普深圳不拉窗帘原因找到了",
+     "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E6%B7%B1%E5%9C%B3%E4%B8%8D%E6%8B%89%E7%AA%97%E5%B8%98%E5%8E%9F%E5%9B%A0%E6%89%BE%E5%88%B0%E4%BA%86",
+     "hot": 1317250
     },
     {
-     "title": "我们来了阵容",
-     "url": "https://s.weibo.com/weibo?q=%E6%88%91%E4%BB%AC%E6%9D%A5%E4%BA%86%E9%98%B5%E5%AE%B9",
-     "hot": 867355
+     "title": "青海地震",
+     "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E6%B5%B7%E5%9C%B0%E9%9C%87",
+     "hot": 894588
     },
     {
-     "title": "五中全会决定这些话要牢记",
-     "url": "https://s.weibo.com/weibo?q=%E4%BA%94%E4%B8%AD%E5%85%A8%E4%BC%9A%E5%86%B3%E5%AE%9A%E8%BF%99%E4%BA%9B%E8%AF%9D%E8%A6%81%E7%89%A2%E8%AE%B0",
-     "hot": 834241
+     "title": "唱空中国经济者终会落空",
+     "url": "https://s.weibo.com/weibo?q=%E5%94%B1%E7%A9%BA%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E8%80%85%E7%BB%88%E4%BC%9A%E8%90%BD%E7%A9%BA",
+     "hot": 673213
     },
     {
-     "title": "王安宇公主抱王楚然",
-     "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%AE%89%E5%AE%87%E5%85%AC%E4%B8%BB%E6%8A%B1%E7%8E%8B%E6%A5%9A%E7%84%B6",
-     "hot": 826552
+     "title": "秦昊当着镜头直接数落伊能静",
+     "url": "https://s.weibo.com/weibo?q=%E7%A7%A6%E6%98%8A%E5%BD%93%E7%9D%80%E9%95%9C%E5%A4%B4%E7%9B%B4%E6%8E%A5%E6%95%B0%E8%90%BD%E4%BC%8A%E8%83%BD%E9%9D%99",
+     "hot": 650192
     },
     {
-     "title": "特朗普说看看深圳再看看我们",
-     "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E7%9C%8B%E7%9C%8B%E6%B7%B1%E5%9C%B3%E5%86%8D%E7%9C%8B%E7%9C%8B%E6%88%91%E4%BB%AC",
-     "hot": 803267
+     "title": "村民性侵少女被判无罪最高检抗诉",
+     "url": "https://s.weibo.com/weibo?q=%E6%9D%91%E6%B0%91%E6%80%A7%E4%BE%B5%E5%B0%91%E5%A5%B3%E8%A2%AB%E5%88%A4%E6%97%A0%E7%BD%AA%E6%9C%80%E9%AB%98%E6%A3%80%E6%8A%97%E8%AF%89",
+     "hot": 487145
     },
     {
-     "title": "日网民吐槽高市早苗APEC之行吐舌头",
-     "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E7%BD%91%E6%B0%91%E5%90%90%E6%A7%BD%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97APEC%E4%B9%8B%E8%A1%8C%E5%90%90%E8%88%8C%E5%A4%B4",
-     "hot": 548475
+     "title": "李嫣声音比窦靖童更像王菲",
+     "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%AB%A3%E5%A3%B0%E9%9F%B3%E6%AF%94%E7%AA%A6%E9%9D%96%E7%AB%A5%E6%9B%B4%E5%83%8F%E7%8E%8B%E8%8F%B2",
+     "hot": 423217
     },
     {
-     "title": "韩国高考中国史题正确率不足一成",
-     "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E5%9B%BD%E9%AB%98%E8%80%83%E4%B8%AD%E5%9B%BD%E5%8F%B2%E9%A2%98%E6%AD%A3%E7%A1%AE%E7%8E%87%E4%B8%8D%E8%B6%B3%E4%B8%80%E6%88%90",
-     "hot": 488570
+     "title": "女儿遭51岁老板性侵父亲收60万私了",
+     "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%84%BF%E9%81%AD51%E5%B2%81%E8%80%81%E6%9D%BF%E6%80%A7%E4%BE%B5%E7%88%B6%E4%BA%B2%E6%94%B660%E4%B8%87%E7%A7%81%E4%BA%86",
+     "hot": 265695
     },
     {
-     "title": "胖东来搬离后原址所开新商场几乎倒闭",
-     "url": "https://s.weibo.com/weibo?q=%E8%83%96%E4%B8%9C%E6%9D%A5%E6%90%AC%E7%A6%BB%E5%90%8E%E5%8E%9F%E5%9D%80%E6%89%80%E5%BC%80%E6%96%B0%E5%95%86%E5%9C%BA%E5%87%A0%E4%B9%8E%E5%80%92%E9%97%AD",
-     "hot": 446971
+     "title": "AI剧打败真人剧的真正原因",
+     "url": "https://s.weibo.com/weibo?q=AI%E5%89%A7%E6%89%93%E8%B4%A5%E7%9C%9F%E4%BA%BA%E5%89%A7%E7%9A%84%E7%9C%9F%E6%AD%A3%E5%8E%9F%E5%9B%A0",
+     "hot": 228718
     },
     {
-     "title": "成毅爆破戏实拍花絮回应AI争议",
-     "url": "https://s.weibo.com/weibo?q=%E6%88%90%E6%AF%85%E7%88%86%E7%A0%B4%E6%88%8F%E5%AE%9E%E6%8B%8D%E8%8A%B1%E7%B5%AE%E5%9B%9E%E5%BA%94AI%E4%BA%89%E8%AE%AE",
-     "hot": 441943
+     "title": "天霸PMC九局五鸡",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%A9%E9%9C%B8PMC%E4%B9%9D%E5%B1%80%E4%BA%94%E9%B8%A1",
+     "hot": 216294
     },
     {
-     "title": "特朗普说深圳干净整洁一尘不染",
-     "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E6%B7%B1%E5%9C%B3%E5%B9%B2%E5%87%80%E6%95%B4%E6%B4%81%E4%B8%80%E5%B0%98%E4%B8%8D%E6%9F%93",
-     "hot": 436275
+     "title": "特朗普在APEC晚宴跳YMCA",
+     "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E5%9C%A8APEC%E6%99%9A%E5%AE%B4%E8%B7%B3YMCA",
+     "hot": 214647
     },
     {
-     "title": "孙芮属于军婚",
-     "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E8%8A%AE%E5%B1%9E%E4%BA%8E%E5%86%9B%E5%A9%9A",
-     "hot": 424844
+     "title": "原来转账是可以拦截的",
+     "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E8%BD%AC%E8%B4%A6%E6%98%AF%E5%8F%AF%E4%BB%A5%E6%8B%A6%E6%88%AA%E7%9A%84",
+     "hot": 214597
     },
     {
-     "title": "炎亚纶铁了心要上后会友期",
-     "url": "https://s.weibo.com/weibo?q=%E7%82%8E%E4%BA%9A%E7%BA%B6%E9%93%81%E4%BA%86%E5%BF%83%E8%A6%81%E4%B8%8A%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F",
-     "hot": 420453
+     "title": "顺丰速运被暂停参加全军采购活动",
+     "url": "https://s.weibo.com/weibo?q=%E9%A1%BA%E4%B8%B0%E9%80%9F%E8%BF%90%E8%A2%AB%E6%9A%82%E5%81%9C%E5%8F%82%E5%8A%A0%E5%85%A8%E5%86%9B%E9%87%87%E8%B4%AD%E6%B4%BB%E5%8A%A8",
+     "hot": 214525
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-21 13:15",
+   "updateTime": "2026-11-21 20:53",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "数学家称与 AI 合作证明了黎曼猜想，证明稿超 25 万页，黎曼猜想真的被解决了吗？",
-     "url": "https://www.zhihu.com/question/2107239235015263538",
-     "hot": ""
-    },
-    {
-     "title": "韩国首次用「紧急灾难通知」让全国手机响铃 10.5 秒防高考作弊，此举合理吗？",
-     "url": "https://www.zhihu.com/question/2106706684672471150",
-     "hot": ""
-    },
-    {
-     "title": "为什么欧美使用壁炉的普遍性这么高，而中国却没有？",
-     "url": "https://www.zhihu.com/question/20796435",
-     "hot": ""
-    },
-    {
-     "title": "胖东来生活广场闭店后周围商户陆续搬走，曝租金降至400万后仍无人接盘，现在来看房东涨租算不算决策失误？",
-     "url": "https://www.zhihu.com/question/2106756998976857637",
-     "hot": ""
-    },
-    {
-     "title": "信用卡近一年减少 3400 万张，信用卡为何逐渐失去吸引力？背后反映出消费者支付习惯发生了哪些变化？",
-     "url": "https://www.zhihu.com/question/2107163928622887904",
+     "title": "黎曼猜想数学证明长达 25 万页是什么概念？人类还有可能完整读懂吗？",
+     "url": "https://www.zhihu.com/question/2107262299765306294",
      "hot": ""
     },
     {
@@ -395,18 +375,38 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "黄牛称炒茅台已「几乎无利可图」，酒厂逐步拿回定价权，这门「生意」为什么不赚钱了？近十年来发生什么变化？",
-     "url": "https://www.zhihu.com/question/2106114904289718820",
+     "title": "如何看待11月21日三维ns方程有限时间爆破的形式化证明疑似已经完成？",
+     "url": "https://www.zhihu.com/question/2107281397077500209",
      "hot": ""
     },
     {
-     "title": "11月20日美股三大指数集体重挫，AI交易遭猛烈拋售，Anthropic上市次日跌8.5%，怎样解读？",
-     "url": "https://www.zhihu.com/question/2107375172101432168",
+     "title": "特朗普称不允许美企海外建数据中心，如果违反将面临「巨额税收」处罚，这会对美国科技公司发展带来哪些影响？",
+     "url": "https://www.zhihu.com/question/2107449650592445764",
      "hot": ""
     },
     {
-     "title": "BLG夺冠，能唤回多少国内玩家的热情重回《英雄联盟》？",
-     "url": "https://www.zhihu.com/question/2105255823601619027",
+     "title": "为什么早餐利润这么高大家都不去做呢？",
+     "url": "https://www.zhihu.com/question/621050716",
+     "hot": ""
+    },
+    {
+     "title": "摩尔线程官宣消费级显卡「庐山」，宣称光追暴涨 50 倍且刷新显存上限，实际体验能达到预期吗？",
+     "url": "https://www.zhihu.com/question/2107187179504006217",
+     "hot": ""
+    },
+    {
+     "title": "20多天婴儿被喂白开水中毒肾损伤，新生儿为何不能像成年人一样正常喝白开水？该如何科学喂养？",
+     "url": "https://www.zhihu.com/question/2106868147718284246",
+     "hot": ""
+    },
+    {
+     "title": "为什么网络上总是说“外卖小哥藏龙卧虎”，这种刻板印象到底是怎么形成的？",
+     "url": "https://www.zhihu.com/question/2106416810002273776",
+     "hot": ""
+    },
+    {
+     "title": "网友称零跑A10装啤酒致后备厢储物盒脱落，客服称未接到反馈，具体是怎么回事？储物盒能如何规避承重隐患？",
+     "url": "https://www.zhihu.com/question/2107047283686691607",
      "hot": ""
     },
     {
@@ -415,13 +415,13 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "如何看待DeepSeek因免费端限额，且无充值入口，被称付费体验直线上升？它们会开放C端个人订阅吗？",
-     "url": "https://www.zhihu.com/question/2107394861363983010",
+     "title": "如何看待韩国高考中国史题正确率不足一成？这道题难度究竟如何？",
+     "url": "https://www.zhihu.com/question/2107440924695291008",
      "hot": ""
     },
     {
-     "title": "曝 Viper 可能离开 BLG，是真的吗？离队的原因是啥？若离队谁最有可能接替他？",
-     "url": "https://www.zhihu.com/question/2107159684968706788",
+     "title": "数学家宣称 Claude 证明黎曼猜想，为啥Anthropic股价仍在暴跌？市场不买账，核心原因是啥？",
+     "url": "https://www.zhihu.com/question/2107267149399947120",
      "hot": ""
     }
    ]
@@ -629,68 +629,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-21 13:15",
+   "updateTime": "2026-11-21 20:53",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "【IGN独家】《鸣潮：永明的烬焰》实机演示",
      "url": "https://www.bilibili.com/video/BV1jKsq6cEEP",
-     "hot": 1147175
+     "hot": 3391758
     },
     {
      "title": "当我用AI续写爱情公寓4关谷悠悠婚礼【AI全民制作人】",
      "url": "https://www.bilibili.com/video/BV1atse6EEfx",
-     "hot": 1359870
+     "hot": 2490185
     },
     {
-     "title": "菲比：事已至此 先吃饭吧",
-     "url": "https://www.bilibili.com/video/BV1tysi6LET8",
-     "hot": 1441586
+     "title": "侠盗猎车手6 第一期，GTA 6 Part 1",
+     "url": "https://www.bilibili.com/video/BV1JpyazXEUD",
+     "hot": 507842
     },
     {
-     "title": "【独家】《凡人修仙传之慕兰之战》第25集【总第201集】",
-     "url": "https://www.bilibili.com/video/BV19Ny4zfEtW",
-     "hot": 1587582
+     "title": "【纪录片】守护解放西·传承季 第1集 守护不止解放西",
+     "url": "https://www.bilibili.com/video/BV1cesv6PEM4",
+     "hot": 4683393
     },
     {
-     "title": "你的GTA我的GTA好像不一样！",
-     "url": "https://www.bilibili.com/video/BV1gGsv6EEBQ",
-     "hot": 835309
-    },
-    {
-     "title": "AI对黎曼猜想的证明，正式通过形式化验证！",
-     "url": "https://www.bilibili.com/video/BV1DjybzFEed",
-     "hot": 404663
+     "title": "戴玉强×龚琳娜 ｜殿堂级嗓音，荒野式放飞！魔性演绎《饥困荒野》1124上线主题曲",
+     "url": "https://www.bilibili.com/video/BV1jVyWzoEZE",
+     "hot": 1641256
     },
     {
      "title": "为何去玩这个剧本杀的人都失踪了？",
      "url": "https://www.bilibili.com/video/BV1UGyszjEGX",
-     "hot": 80885
+     "hot": 652363
     },
     {
-     "title": "不是退网，是落网了!海南走私水路不通!",
-     "url": "https://www.bilibili.com/video/BV1wSyWzPEFP",
-     "hot": 603753
+     "title": "新生计划正式启动！这次特别出演的竟是……",
+     "url": "https://www.bilibili.com/video/BV1HSyWzAEuZ",
+     "hot": 563430
     },
     {
-     "title": "司老凤联盟第111集:老牧师演唱会5:20am（完整版）",
-     "url": "https://www.bilibili.com/video/BV1Y4sa63ENm",
-     "hot": 556943
-    },
-    {
-     "title": "《蓝色星原：旅谣》公测前瞻节目回顾",
-     "url": "https://www.bilibili.com/video/BV13Fsb6AEam",
-     "hot": 795182
-    },
-    {
-     "title": "长辈泡的“药酒”，里面到底有什么？",
-     "url": "https://www.bilibili.com/video/BV1nzsq6BERu",
-     "hot": 1387988
+     "title": "以防你不知道GTA6路人是如何暴富的💰",
+     "url": "https://www.bilibili.com/video/BV1QxyWzUE3a",
+     "hot": 620999
     },
     {
      "title": "学了五分钟建模做出来的绯英技能动画",
      "url": "https://www.bilibili.com/video/BV1bRyszmEXc",
-     "hot": 338981
+     "hot": 894662
+    },
+    {
+     "title": "【独家】《凡人修仙传之慕兰之战》第25集【总第201集】",
+     "url": "https://www.bilibili.com/video/BV19Ny4zfEtW",
+     "hot": 3681910
+    },
+    {
+     "title": "DNFU·2026年度CG",
+     "url": "https://www.bilibili.com/video/BV18KsQ64E4X",
+     "hot": 1295617
+    },
+    {
+     "title": "你的GTA我的GTA好像不一样！",
+     "url": "https://www.bilibili.com/video/BV1gGsv6EEBQ",
+     "hot": 1576047
     }
    ]
   }
@@ -743,33 +743,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "Anthropic CEO阿莫代，多年前曾拒绝过马斯克",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznnyk9736552.shtml",
+   "title": "千台岚图梦想家9右舵版发运出海，获得10亿级海外订单",
+   "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-inizntha6628941.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Anthropic IPO份额，优先倾斜“Claude重度使用”客户",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznnyc4951838.shtml",
+   "title": "八马茶业被暂停全军采购资格，上市一年股价已腰斩",
+   "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-inizntfz4878456.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "新加坡数据中心DayOne暂缓美国IPO",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznhsk3585576.shtml",
+   "title": "华为星芒被网友吐槽太贵，总经理刘赫回应：便宜未必是创新的方向",
+   "url": "https://finance.sina.com.cn/roll/2026-11-21/doc-inizntfz4877136.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "元气森林2026经销商大会：外星人与好自在实现双位数增长，将继续在核心品类保持投入",
-   "url": "https://finance.sina.com.cn/tech/internet/2026-11-21/doc-iniznhsk3552152.shtml",
+   "title": "“一斤羊肉120元！”西贝贾国龙改开火锅店，消费者喊话“性价比低，支持不起”",
+   "url": "https://finance.sina.com.cn/tech/internet/2026-11-21/doc-iniznnyh3523641.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "深夜，美股AI血崩，英伟达市值已跌去2.7万亿美元",
-   "url": "https://finance.sina.com.cn/tech/internet/2026-11-21/doc-iniznhsn9811926.shtml",
+   "title": "零跑回应A10后备箱储物盒被压塌：系装载物品超过设计承重上限所致，已与用户沟通并获得理解",
+   "url": "https://finance.sina.com.cn/tech/it/2026-11-21/doc-iniznnyh3522370.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "腾讯姚顺雨团队深夜回应一切：下一代模型将大幅扩容，小尺寸模型已在路线图上",
-   "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznhsk3523790.shtml",
+   "title": "Anthropic上市表现遇冷 华尔街AI板块合计蒸发4万亿美元市值",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-21/doc-iniznnyc4994741.shtml",
    "source": "新浪科技"
   }
  ]
