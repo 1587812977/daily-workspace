@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-22 12:41",
+ "updatedAt": "2026-11-22 20:46",
  "aihotHot": [
   {
    "rank": 1,
-   "title": "Anthropic 数学家称与 Claude 证明黎曼猜想",
+   "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-   "time": "11-22 08:51",
-   "sourceCount": 8
+   "time": "11-22 19:08",
+   "sourceCount": 9
   },
   {
    "rank": 2,
@@ -28,38 +28,6 @@ var WB_DATA = {
   },
   {
    "rank": 4,
-   "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
-   "time": "11-20 22:30",
-   "sourceCount": 2
-  },
-  {
-   "rank": 5,
-   "title": "Signal 移动端默认拦截截图，防系统级 AI 读取聊天",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/j0t8pj4nipni3gwi970137zxw",
-   "time": "11-22 07:28",
-   "sourceCount": 4
-  },
-  {
-   "rank": 6,
-   "title": "特朗普威胁对海外建数据中心征税",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/qzkdqvffbfz581q2kieprq6dd",
-   "time": "11-21 02:50",
-   "sourceCount": 1
-  },
-  {
-   "rank": 7,
-   "title": "黄仁勋因婚外情风波辞任英伟达CEO，CFO临时接任",
-   "source": "NVIDIA：Newsroom（RSS）",
-   "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
-   "time": "11-22 08:47",
-   "sourceCount": 1
-  },
-  {
-   "rank": 8,
    "title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航",
    "source": "X：indigo (@indigox)",
    "url": "https://aihot.news/items/xriwds9rtl5niekinxe2uwxsu",
@@ -67,23 +35,73 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
+   "rank": 5,
+   "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
+   "source": "Google DeepMind：Blog（RSS）",
+   "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
+   "time": "11-20 22:30",
+   "sourceCount": 1
+  },
+  {
+   "rank": 6,
+   "title": "Signal 移动端默认拦截截图，防系统级 AI 读取聊天",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/j0t8pj4nipni3gwi970137zxw",
+   "time": "11-22 07:28",
+   "sourceCount": 3
+  },
+  {
+   "rank": 7,
+   "title": "特朗普威胁对海外建数据中心征税",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/qzkdqvffbfz581q2kieprq6dd",
+   "time": "11-21 02:50",
+   "sourceCount": 1
+  },
+  {
+   "rank": 8,
+   "title": "Chollet 称算力需求未见顶，马斯克预警资金短缺",
+   "source": "X：Francois Chollet (@fchollet)",
+   "url": "https://aihot.news/items/keyiyrvngw7f625sjytaia6hf",
+   "time": "11-22 16:47",
+   "sourceCount": 2
+  },
+  {
    "rank": 9,
-   "title": "群联展示内置NPU智能固态硬盘",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/j4ay169yi813ubrdr7zxdebid",
-   "time": "11-22 08:04",
+   "title": "黄仁勋因婚外情风波辞任英伟达CEO，CFO临时接任",
+   "source": "NVIDIA：Newsroom（RSS）",
+   "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
+   "time": "11-22 08:47",
    "sourceCount": 1
   },
   {
    "rank": 10,
-   "title": "OpenAI发布对抗模型蒸馏新研究",
-   "source": "X：OpenAI (@OpenAI)",
-   "url": "https://aihot.news/items/th7q46gr5oifao4otcm0oocui",
-   "time": "11-21 03:33",
+   "title": "Claude Code 推出实验性 Code Mode 工具调用",
+   "source": "Claude Code：GitHub Releases（RSS）",
+   "url": "https://aihot.news/items/qhgxrmpw4dwhq0nvvs330hngs",
+   "time": "11-22 03:52",
    "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确",
+   "summary": "Lean 与 Mathlib 社区发表声明，确认斯坦福数学家 Levent Alpöge 的黎曼猜想证明正确。Alpöge 于 2026 年 11 月 20 日以 1700 万行 Lean 代码发布该证明，数十人独立运行得到相同结果，且验证程序被设计为可证明不会接受有缺陷的证明。",
+   "reason": "社区正式确认与代码验证细节都写得很具体，读者可以了解这道数学难题如何以 Lean 形式被独立核验。",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
+   "time": "11-22 19:08",
+   "category": "industry"
+  },
+  {
+   "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
+   "summary": "2022 年菲尔兹奖得主、牛津大学数学教授詹姆斯·梅纳德（James Maynard）在采访中表示，他认为 Anthropic 数学家莱文特·阿尔珀格（Levent Alpöge）与 Claude 合作完成的黎曼猜想证明是正确的，依据是该证明已通过 Lean 库形式化验证并经独立核实，且阿尔珀格过往有可靠记录。",
+   "reason": "菲尔兹奖得主梅纳德对 AI 辅助黎曼猜想证明的判断，提醒读者形式化验证通过不等于数学界认可，理解证明思想才是关键。",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/p9h5xzsooms0foxeakoivy7qt",
+   "time": "11-22 17:35",
+   "category": "opinion"
+  },
   {
    "title": "Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件",
    "summary": "Together AI 通报一起安全事件：因 AI 编码 agent 在公开 GitHub 仓库 xorl 中提交了私有 Hugging Face 仓库凭证，未授权方下载了 2026 年 6-7 月提交给 MiniMax M3、GLM-5.2、Kimi K2.6 等 serverless 推理服务的存储提示词样本，并搜索其中其他服务凭证。",
@@ -109,15 +127,6 @@ var WB_DATA = {
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
    "time": "11-22 02:47",
-   "category": "paper"
-  },
-  {
-   "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
-   "summary": "Anthropic 数学家 Levent Alpöge 周五宣布与 Claude 合作得到黎曼猜想及广义黎曼猜想的证明，证明以 Lean 语言分 14 个数据包发布，打印将超 25 万页。",
-   "reason": "报道同时给出 AI 证明以 Lean 形式化验证和人类证明遭社区质疑两条线，读者可据此判断双方证明各自的验证路径与可信度。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/tje8i8y21ttk7jjmqet5bpxuq",
-   "time": "11-21 19:19",
    "category": "paper"
   }
  ],
@@ -181,109 +190,89 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-22 12:42",
+   "updateTime": "2026-11-22 20:46",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "女博士卧底当主播称至今心理阴影",
-     "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%8D%9A%E5%A3%AB%E5%8D%A7%E5%BA%95%E5%BD%93%E4%B8%BB%E6%92%AD%E7%A7%B0%E8%87%B3%E4%BB%8A%E5%BF%83%E7%90%86%E9%98%B4%E5%BD%B1",
-     "hot": 1168084
+     "title": "童家堡 白小纯身体不适",
+     "url": "https://s.weibo.com/weibo?q=%E7%AB%A5%E5%AE%B6%E5%A0%A1%20%E7%99%BD%E5%B0%8F%E7%BA%AF%E8%BA%AB%E4%BD%93%E4%B8%8D%E9%80%82",
+     "hot": 2994982
     },
     {
-     "title": "羽绒服生意变天了",
-     "url": "https://s.weibo.com/weibo?q=%E7%BE%BD%E7%BB%92%E6%9C%8D%E7%94%9F%E6%84%8F%E5%8F%98%E5%A4%A9%E4%BA%86",
-     "hot": 846462
+     "title": "主播糟蹋千斤苹果仅赔6000元",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%BB%E6%92%AD%E7%B3%9F%E8%B9%8B%E5%8D%83%E6%96%A4%E8%8B%B9%E6%9E%9C%E4%BB%85%E8%B5%946000%E5%85%83",
+     "hot": 2006892
     },
     {
-     "title": "小雪节气独有的浪漫",
-     "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E9%9B%AA%E8%8A%82%E6%B0%94%E7%8B%AC%E6%9C%89%E7%9A%84%E6%B5%AA%E6%BC%AB",
-     "hot": 664433
+     "title": "一图解读我国消费市场多元图景",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E5%9B%BE%E8%A7%A3%E8%AF%BB%E6%88%91%E5%9B%BD%E6%B6%88%E8%B4%B9%E5%B8%82%E5%9C%BA%E5%A4%9A%E5%85%83%E5%9B%BE%E6%99%AF",
+     "hot": 843149
     },
     {
-     "title": "斗破苍穹双帝之战",
-     "url": "https://s.weibo.com/weibo?q=%E6%96%97%E7%A0%B4%E8%8B%8D%E7%A9%B9%E5%8F%8C%E5%B8%9D%E4%B9%8B%E6%88%98",
-     "hot": 555618
+     "title": "韩国网友感谢中国",
+     "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E5%9B%BD%E7%BD%91%E5%8F%8B%E6%84%9F%E8%B0%A2%E4%B8%AD%E5%9B%BD",
+     "hot": 749260
     },
     {
-     "title": "文班亚马50分19板5帽4断",
-     "url": "https://s.weibo.com/weibo?q=%E6%96%87%E7%8F%AD%E4%BA%9A%E9%A9%AC50%E5%88%8619%E6%9D%BF5%E5%B8%BD4%E6%96%AD",
-     "hot": 358839
+     "title": "高压130低压80起被定义为血压升高",
+     "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E5%8E%8B130%E4%BD%8E%E5%8E%8B80%E8%B5%B7%E8%A2%AB%E5%AE%9A%E4%B9%89%E4%B8%BA%E8%A1%80%E5%8E%8B%E5%8D%87%E9%AB%98",
+     "hot": 590556
     },
     {
-     "title": "这居然是王子璇",
-     "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E5%B1%85%E7%84%B6%E6%98%AF%E7%8E%8B%E5%AD%90%E7%92%87",
-     "hot": 348958
+     "title": "王安宇被马顶跑了",
+     "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%AE%89%E5%AE%87%E8%A2%AB%E9%A9%AC%E9%A1%B6%E8%B7%91%E4%BA%86",
+     "hot": 539979
     },
     {
-     "title": "日媒逐帧解析特朗普无视高市",
-     "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E5%AA%92%E9%80%90%E5%B8%A7%E8%A7%A3%E6%9E%90%E7%89%B9%E6%9C%97%E6%99%AE%E6%97%A0%E8%A7%86%E9%AB%98%E5%B8%82",
-     "hot": 337297
+     "title": "沪深北交易所集体发布新政",
+     "url": "https://s.weibo.com/weibo?q=%E6%B2%AA%E6%B7%B1%E5%8C%97%E4%BA%A4%E6%98%93%E6%89%80%E9%9B%86%E4%BD%93%E5%8F%91%E5%B8%83%E6%96%B0%E6%94%BF",
+     "hot": 517756
     },
     {
-     "title": "朱瞻基 扫黄",
-     "url": "https://s.weibo.com/weibo?q=%E6%9C%B1%E7%9E%BB%E5%9F%BA%20%E6%89%AB%E9%BB%84",
-     "hot": 334328
+     "title": "主播私闯果园带货糟蹋一千多斤苹果",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%BB%E6%92%AD%E7%A7%81%E9%97%AF%E6%9E%9C%E5%9B%AD%E5%B8%A6%E8%B4%A7%E7%B3%9F%E8%B9%8B%E4%B8%80%E5%8D%83%E5%A4%9A%E6%96%A4%E8%8B%B9%E6%9E%9C",
+     "hot": 308135
     },
     {
-     "title": "曝BLG紧急飞韩挽留Viper",
-     "url": "https://s.weibo.com/weibo?q=%E6%9B%9DBLG%E7%B4%A7%E6%80%A5%E9%A3%9E%E9%9F%A9%E6%8C%BD%E7%95%99Viper",
-     "hot": 290307
+     "title": "斗破苍穹片尾彩蛋",
+     "url": "https://s.weibo.com/weibo?q=%E6%96%97%E7%A0%B4%E8%8B%8D%E7%A9%B9%E7%89%87%E5%B0%BE%E5%BD%A9%E8%9B%8B",
+     "hot": 306233
     },
     {
-     "title": "捡来的猫有人要领就装晕",
-     "url": "https://s.weibo.com/weibo?q=%E6%8D%A1%E6%9D%A5%E7%9A%84%E7%8C%AB%E6%9C%89%E4%BA%BA%E8%A6%81%E9%A2%86%E5%B0%B1%E8%A3%85%E6%99%95",
-     "hot": 268913
+     "title": "1991年张大爷烂梗凭啥病毒式传播",
+     "url": "https://s.weibo.com/weibo?q=1991%E5%B9%B4%E5%BC%A0%E5%A4%A7%E7%88%B7%E7%83%82%E6%A2%97%E5%87%AD%E5%95%A5%E7%97%85%E6%AF%92%E5%BC%8F%E4%BC%A0%E6%92%AD",
+     "hot": 304841
     },
     {
-     "title": "女子多次留言强奸罪服刑男友想你了",
-     "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E5%A4%9A%E6%AC%A1%E7%95%99%E8%A8%80%E5%BC%BA%E5%A5%B8%E7%BD%AA%E6%9C%8D%E5%88%91%E7%94%B7%E5%8F%8B%E6%83%B3%E4%BD%A0%E4%BA%86",
-     "hot": 268217
+     "title": "中戏同学成顶流男演员却当NPC",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E6%88%8F%E5%90%8C%E5%AD%A6%E6%88%90%E9%A1%B6%E6%B5%81%E7%94%B7%E6%BC%94%E5%91%98%E5%8D%B4%E5%BD%93NPC",
+     "hot": 304819
     },
     {
-     "title": "韩国教育部长辞职",
-     "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E5%9B%BD%E6%95%99%E8%82%B2%E9%83%A8%E9%95%BF%E8%BE%9E%E8%81%8C",
-     "hot": 260988
+     "title": "童家堡PMC吃鸡",
+     "url": "https://s.weibo.com/weibo?q=%E7%AB%A5%E5%AE%B6%E5%A0%A1PMC%E5%90%83%E9%B8%A1",
+     "hot": 304775
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-22 12:42",
+   "updateTime": "2026-11-22 20:46",
    "url": "https://www.zhihu.com/hot",
    "data": [
-    {
-     "title": "Lean与 Mathlib 社区联合声明，正式确认 Alpöge 对黎曼猜想的证明正确，这意味着什么？",
-     "url": "https://www.zhihu.com/question/2107620110105932525",
-     "hot": ""
-    },
-    {
-     "title": "荷兰法院裁定比亚迪Ti7抄袭路虎卫士，颁布销售禁令，对此怎么看？",
-     "url": "https://www.zhihu.com/question/2107417541236805904",
-     "hot": ""
-    },
-    {
-     "title": "有比《持械入宋》更好看的短剧吗？",
-     "url": "https://www.zhihu.com/question/2103550053273149533",
-     "hot": ""
-    },
     {
      "title": "商务部回应美拟禁止中国运营商获取电话号码资源，称相关做法破坏中美经贸稳定局面，中方坚决反对，如何解读？",
      "url": "https://www.zhihu.com/question/2107769225699746266",
      "hot": ""
     },
     {
-     "title": "怎么看陶哲轩博客下针对 AI 完成黎曼猜想评论：数学变成 F1 赛车，不进 AI 车队都看不到后尾灯？",
-     "url": "https://www.zhihu.com/question/2107581968296760732",
+     "title": "武汉一小学设牌劝返送水壶、作业的家长，让孩子自己承担忘带东西的后果，这种方式怎么样？值得效仿吗？",
+     "url": "https://www.zhihu.com/question/2107829110864966417",
      "hot": ""
     },
     {
-     "title": "为啥北方人没有吐槽供暖费很贵的？",
-     "url": "https://www.zhihu.com/question/1992264026315571821",
-     "hot": ""
-    },
-    {
-     "title": "贾国龙新创品牌「天边」一年内从砂锅焖面转向冰煮鲜羊，频繁调整经营方向背后有哪些考量？他能翻身吗？",
-     "url": "https://www.zhihu.com/question/2106862061669934684",
+     "title": "Lean与 Mathlib 社区联合声明，正式确认 Alpöge 对黎曼猜想的证明正确，这意味着什么？",
+     "url": "https://www.zhihu.com/question/2107620110105932525",
      "hot": ""
     },
     {
@@ -292,23 +281,43 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "BLG 夺冠能挽救 LPL 吗？能复刻前两个「电竞元年」吗？",
-     "url": "https://www.zhihu.com/question/2106420376573928403",
+     "title": "同样是蛋白质，为什么提倡喝牛奶而不是吃鸡蛋?",
+     "url": "https://www.zhihu.com/question/623251460",
      "hot": ""
     },
     {
-     "title": "为啥我军没有名满天下的特种部队？比如海豹部队什么的？",
-     "url": "https://www.zhihu.com/question/2107046874389729356",
+     "title": "AI 宣称证明黎曼猜想后，数学家又公开了一份完全不使用 AI 的广义黎曼猜想证明，如何看待？",
+     "url": "https://www.zhihu.com/question/2107333891975599197",
      "hot": ""
     },
     {
-     "title": "李子柒当选四川文联副主席，如何理解她的这一职务，可能带来哪些影响？",
-     "url": "https://www.zhihu.com/question/2107187453836650425",
+     "title": "特朗普称将与伊朗达成一项永久性协议，为何会在这一时间放出这一消息？永久性协议内可能包含哪些内容？",
+     "url": "https://www.zhihu.com/question/2107616621631988039",
      "hot": ""
     },
     {
-     "title": "如何评价黎曼诞辰200周年之际，黎曼猜测宣布得证？",
-     "url": "https://www.zhihu.com/question/2107264049960282020",
+     "title": "胖东来搬离后原址所开新商场几乎倒闭，一商场为何会如此依赖单一零售品牌？暴露出商业地产哪些经营问题？",
+     "url": "https://www.zhihu.com/question/2107157248426492187",
+     "hot": ""
+    },
+    {
+     "title": "人能控制自己的长相吗？",
+     "url": "https://www.zhihu.com/question/26497360",
+     "hot": ""
+    },
+    {
+     "title": "「望梅止渴」的「梅」和「墙角数枝梅」的「梅」是一种植物吗？",
+     "url": "https://www.zhihu.com/question/20246045",
+     "hot": ""
+    },
+    {
+     "title": "有人说搞南水北调不如搞海水淡化，你是否同意？",
+     "url": "https://www.zhihu.com/question/390865312",
+     "hot": ""
+    },
+    {
+     "title": "长安大学回应「14日面试13日出结果」，公告误带后台草稿的创建日期，三名人事干部被处分，如何看待此事？",
+     "url": "https://www.zhihu.com/question/2107570779529529086",
      "hot": ""
     }
    ]
@@ -516,68 +525,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-22 12:42",
+   "updateTime": "2026-11-22 20:46",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《我救不死你》",
-     "url": "https://www.bilibili.com/video/BV1bGysz7EoD",
-     "hot": 2716392
+     "title": "【STN快报第8.5季28】不要小看一个老实本分的家政精英，他可能是GTA的超级大盗",
+     "url": "https://www.bilibili.com/video/BV12iyGzGEha",
+     "hot": 208211
     },
     {
-     "title": "《猫富贵 狗不让》",
-     "url": "https://www.bilibili.com/video/BV1rhyszPE6p",
-     "hot": 1958353
+     "title": "《无限暖暖》3.0版本PV｜昨日之城，明日之声",
+     "url": "https://www.bilibili.com/video/BV1ovyezpEgP",
+     "hot": 924699
     },
     {
-     "title": "《怪物猎人：旅人》WeGame先导片",
-     "url": "https://www.bilibili.com/video/BV1J4sb6yEH7",
-     "hot": 1372961
+     "title": "真相，假是假了点，但看了不烧心。",
+     "url": "https://www.bilibili.com/video/BV1tdypzgEx2",
+     "hot": 1576960
     },
     {
      "title": "【独家】牧神记 第110集 诡异冥谷",
      "url": "https://www.bilibili.com/video/BV1i4y8zGE2G",
-     "hot": 422824
+     "hot": 1579849
     },
     {
-     "title": "《无限暖暖》概念CG | 叩响新声",
-     "url": "https://www.bilibili.com/video/BV1hryaz6E1u",
-     "hot": 1637238
+     "title": "《520AM》司凤版⚡思罢吗乐队激情演奏！小时候这集听哭了😭【AI MV大赛】",
+     "url": "https://www.bilibili.com/video/BV1vQybzKEhr",
+     "hot": 553341
     },
     {
-     "title": "《蓝色星原：旅谣》公测动画短片",
-     "url": "https://www.bilibili.com/video/BV1oRsu6XE2o",
-     "hot": 1644849
+     "title": "《猫富贵 狗不让》",
+     "url": "https://www.bilibili.com/video/BV1rhyszPE6p",
+     "hot": 3183122
     },
     {
-     "title": "挑战用第三人称逛商场",
-     "url": "https://www.bilibili.com/video/BV1GxyWzUEsn",
-     "hot": 1815058
+     "title": "《我救不死你》",
+     "url": "https://www.bilibili.com/video/BV1bGysz7EoD",
+     "hot": 4049414
+    },
+    {
+     "title": "新生计划正式启动！这次特别出演的竟是……",
+     "url": "https://www.bilibili.com/video/BV1HSyWzAEuZ",
+     "hot": 1927267
+    },
+    {
+     "title": "《无限暖暖》3.0版本套装PV | 若见沐光之窗&于此重见繁星",
+     "url": "https://www.bilibili.com/video/BV1d7yGzsEMG",
+     "hot": 1159760
+    },
+    {
+     "title": "【时代少年团】七周年互赠礼物时刻",
+     "url": "https://www.bilibili.com/video/BV17Yy3zxE9F",
+     "hot": 176091
     },
     {
      "title": "侠盗猎车手6 第一集，GTA 6 Part 1",
      "url": "https://www.bilibili.com/video/BV1JpyazXEUD",
-     "hot": 1346709
+     "hot": 1835343
     },
     {
      "title": "【一百万字·01】我只剩300个字了，说一个少一个｜文字动画《嗯》",
      "url": "https://www.bilibili.com/video/BV1xfsk6FECT",
-     "hot": 750174
-    },
-    {
-     "title": "【BLG庆功饭堂夜】冠军之路，感谢有你！（直播全程回放）",
-     "url": "https://www.bilibili.com/video/BV17SygzREaj",
-     "hot": 324705
-    },
-    {
-     "title": "小时候眼中的罚抄神器be like:",
-     "url": "https://www.bilibili.com/video/BV1LjyWzREC1",
-     "hot": 2057152
-    },
-    {
-     "title": "以防你不知道GTA6路人是如何暴富的💰",
-     "url": "https://www.bilibili.com/video/BV1QxyWzUE3a",
-     "hot": 1605347
+     "hot": 1292739
     }
    ]
   }
@@ -630,33 +639,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "SenseNova U1 Pro 获 Design Arena 双榜中国第一、全球第六",
+   "url": "https://finance.sina.com.cn/tob/2026-11-22/doc-inizrhuw5909827.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "马斯克最新警告：AI行业明年或面临严重资金短缺 营运资金或需额外数干亿美元",
+   "url": "https://video.sina.com.cn/p/tech/2026-11-22/detail-inizrape8930495.d.html",
+   "source": "新浪科技"
+  },
+  {
+   "title": "骑700米就收15元！ 哈啰“追风者”比打车还贵，用户怒称“外观根本分辨不清”",
+   "url": "https://finance.sina.com.cn/tob/2026-11-22/doc-inizrany5959651.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "前钉钉高管杨猛加入蚂蚁后首次公开露面，已任蚂蚁健康事业群副总裁",
+   "url": "https://finance.sina.com.cn/tob/2026-11-22/doc-inizqwfe2856693.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "搜狐张朝阳辟谣“收警示函”：不是我本人，看来AI还是不行，区分不了同名同姓的人",
    "url": "https://finance.sina.com.cn/tech/2026-11-22/doc-inizqmrn9132261.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "2026 脑机接口报告：全球企业增至 1175 家，中国三大城市群集聚 190 余家",
-   "url": "https://finance.sina.com.cn/tech/digi/2026-11-22/doc-inizqmrn9099250.shtml",
-   "source": "新浪科技"
-  },
-  {
    "title": "同名同姓引发误读 搜狐张朝阳辟谣“被出具警示函”：未收到，也未从事证券咨询",
    "url": "https://finance.sina.com.cn/tech/2026-11-22/doc-inizqfiq9180341.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "从“堆参数”到“戴得久”——智能穿戴加速拥抱大众市场",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-22/doc-inizpyzu1561577.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "宁夏因地制宜打造开放型经济，促进更高质量发展 内陆“势能”化为开放动能（活力中国调研行）",
-   "url": "https://finance.sina.com.cn/roll/2026-11-22/doc-inizpyzn6263154.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "伊朗袭击美国在巴林的两个军事基地",
-   "url": "https://finance.sina.com.cn/7x24/2026-11-22/doc-inizputq6324483.shtml",
    "source": "新浪科技"
   }
  ]
