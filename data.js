@@ -1,14 +1,14 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-22 20:46",
+ "updatedAt": "2026-11-23 03:55",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-   "time": "11-22 19:08",
-   "sourceCount": 9
+   "time": "11-23 02:37",
+   "sourceCount": 6
   },
   {
    "rank": 2,
@@ -20,10 +20,10 @@ var WB_DATA = {
   },
   {
    "rank": 3,
-   "title": "Anthropic 上市首日收涨 17%，次日回落",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-21 23:00",
+   "title": "OpenAI 提议以困惑度设共同安全上限",
+   "source": "X：Jakub Pachocki（OpenAI 首席科学家，@merettm）",
+   "url": "https://aihot.news/items/lwm6f6xtf8667axqr5snwas7u",
+   "time": "11-23 01:40",
    "sourceCount": 2
   },
   {
@@ -36,27 +36,27 @@ var WB_DATA = {
   },
   {
    "rank": 5,
-   "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/lp0snt9lfrx5ju7mg3wma6hnw",
-   "time": "11-20 22:30",
+   "title": "Anthropic 上市首日收涨 17%，次日回落",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-21 23:00",
    "sourceCount": 1
   },
   {
    "rank": 6,
+   "title": "200万诱饵请求测出AI服务链数据外泄",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/agm7klro03kcu9weuix1bt4su",
+   "time": "11-22 20:07",
+   "sourceCount": 4
+  },
+  {
+   "rank": 7,
    "title": "Signal 移动端默认拦截截图，防系统级 AI 读取聊天",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/j0t8pj4nipni3gwi970137zxw",
    "time": "11-22 07:28",
-   "sourceCount": 3
-  },
-  {
-   "rank": 7,
-   "title": "特朗普威胁对海外建数据中心征税",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/qzkdqvffbfz581q2kieprq6dd",
-   "time": "11-21 02:50",
-   "sourceCount": 1
+   "sourceCount": 2
   },
   {
    "rank": 8,
@@ -76,14 +76,23 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "Claude Code 推出实验性 Code Mode 工具调用",
-   "source": "Claude Code：GitHub Releases（RSS）",
-   "url": "https://aihot.news/items/qhgxrmpw4dwhq0nvvs330hngs",
-   "time": "11-22 03:52",
+   "title": "Oracle称已筹齐履行OpenAI合同所需资金",
+   "source": "IT之家·人工智能",
+   "url": "https://aihot.news/items/fk7bno37d63yaq818lenmlaxo",
+   "time": "11-22 22:24",
    "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据",
+   "summary": "OpenAI 撰文提议将 perplexity（交叉熵损失）确立为跨模型开发者比较和安全标准的共享指标，并公开其内部预训练测量数据。",
+   "reason": "OpenAI 公开自 GPT-3.5 以来的内部 log-perplexity 数据，并提出以困惑度作为跨实验室共享的安全限速指标。",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/r7kb35fpdwc1m2iqsmd310tdj",
+   "time": "11-22 08:00",
+   "category": "opinion"
+  },
   {
    "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确",
    "summary": "Lean 与 Mathlib 社区发表声明，确认斯坦福数学家 Levent Alpöge 的黎曼猜想证明正确。Alpöge 于 2026 年 11 月 20 日以 1700 万行 Lean 代码发布该证明，数十人独立运行得到相同结果，且验证程序被设计为可证明不会接受有缺陷的证明。",
@@ -119,15 +128,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/rlj39tzyujneo0u35iyrfb4uc",
    "time": "11-21 08:00",
    "category": "ai-products"
-  },
-  {
-   "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
-   "summary": "Columbia 和 MIT 的论文展示 Claude 发现的算法在 3SUM 和全对最短路径（APSP）上取得多项式改进，3SUM 达到 O(n^1.9992)、APSP 达到 O(n^2.9995)，推翻了 3SUM 和 APSP 假设。",
-   "reason": "论文显示 Claude 发现的算法改进了 3SUM 和 APSP 的长期复杂度上限，并用 Lean 4 形式化验证，读者可以了解 AI 搜索算法的可行路径。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
-   "time": "11-22 02:47",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -525,68 +525,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-22 20:46",
+   "updateTime": "2026-11-23 03:55",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【STN快报第8.5季28】不要小看一个老实本分的家政精英，他可能是GTA的超级大盗",
-     "url": "https://www.bilibili.com/video/BV12iyGzGEha",
-     "hot": 208211
+     "title": "【合集】人类消失后，深度思考三百年的大肥鱼",
+     "url": "https://www.bilibili.com/video/BV1Poyaz8Ep4",
+     "hot": 738967
+    },
+    {
+     "title": "【BLG夺冠VLOG】这是属于我们的冠军记忆",
+     "url": "https://www.bilibili.com/video/BV1zGy5ziEnd",
+     "hot": 338121
     },
     {
      "title": "《无限暖暖》3.0版本PV｜昨日之城，明日之声",
      "url": "https://www.bilibili.com/video/BV1ovyezpEgP",
-     "hot": 924699
-    },
-    {
-     "title": "真相，假是假了点，但看了不烧心。",
-     "url": "https://www.bilibili.com/video/BV1tdypzgEx2",
-     "hot": 1576960
+     "hot": 1388849
     },
     {
      "title": "【独家】牧神记 第110集 诡异冥谷",
      "url": "https://www.bilibili.com/video/BV1i4y8zGE2G",
-     "hot": 1579849
+     "hot": 1918281
     },
     {
      "title": "《520AM》司凤版⚡思罢吗乐队激情演奏！小时候这集听哭了😭【AI MV大赛】",
      "url": "https://www.bilibili.com/video/BV1vQybzKEhr",
-     "hot": 553341
+     "hot": 937871
     },
     {
-     "title": "《猫富贵 狗不让》",
-     "url": "https://www.bilibili.com/video/BV1rhyszPE6p",
-     "hot": 3183122
+     "title": "考公务员很难，但是为人民服务却很容易！",
+     "url": "https://www.bilibili.com/video/BV1uyyazBEUA",
+     "hot": 304200
     },
     {
-     "title": "《我救不死你》",
-     "url": "https://www.bilibili.com/video/BV1bGysz7EoD",
-     "hot": 4049414
+     "title": "“我只是死在了讨厌的生活里”「烂奇迹·章鱼哥」",
+     "url": "https://www.bilibili.com/video/BV18mypzyEAV",
+     "hot": 891335
     },
     {
-     "title": "新生计划正式启动！这次特别出演的竟是……",
-     "url": "https://www.bilibili.com/video/BV1HSyWzAEuZ",
-     "hot": 1927267
+     "title": "《GTA 6》：完美劫案（没惊动警察，也没触发警报）",
+     "url": "https://www.bilibili.com/video/BV1A9y8z9Ehb",
+     "hot": 996882
     },
     {
-     "title": "《无限暖暖》3.0版本套装PV | 若见沐光之窗&于此重见繁星",
-     "url": "https://www.bilibili.com/video/BV1d7yGzsEMG",
-     "hot": 1159760
+     "title": "【BLG庆功饭堂夜】冠军之路，感谢有你！（直播全程回放）",
+     "url": "https://www.bilibili.com/video/BV17SygzREaj",
+     "hot": 816505
     },
     {
-     "title": "【时代少年团】七周年互赠礼物时刻",
-     "url": "https://www.bilibili.com/video/BV17Yy3zxE9F",
-     "hot": 176091
+     "title": "【凡人修仙传】边界之战即将开启！【PV】",
+     "url": "https://www.bilibili.com/video/BV1M6sm6mE6a",
+     "hot": 414595
     },
     {
-     "title": "侠盗猎车手6 第一集，GTA 6 Part 1",
-     "url": "https://www.bilibili.com/video/BV1JpyazXEUD",
-     "hot": 1835343
+     "title": "真相，假是假了点，但看了不烧心。",
+     "url": "https://www.bilibili.com/video/BV1tdypzgEx2",
+     "hot": 1914707
     },
     {
-     "title": "【一百万字·01】我只剩300个字了，说一个少一个｜文字动画《嗯》",
-     "url": "https://www.bilibili.com/video/BV1xfsk6FECT",
-     "hot": 1292739
+     "title": "为什么你会间接性看不惯身边的朋友？",
+     "url": "https://www.bilibili.com/video/BV1x9s66RE3D",
+     "hot": 1601726
     }
    ]
   }
@@ -639,6 +639,16 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "蚂蚁CEO韩歆毅最新演讲“聊AI与医疗未来”：阿福已服务超1.5亿用户，实现医患双端深度融合",
+   "url": "https://finance.sina.com.cn/tob/2026-11-22/doc-inizrpca1120648.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "MiniMax进军AI4S研究，公布密码分析研究成果",
+   "url": "https://finance.sina.com.cn/tob/2026-11-22/doc-inizrpau5878108.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "SenseNova U1 Pro 获 Design Arena 双榜中国第一、全球第六",
    "url": "https://finance.sina.com.cn/tob/2026-11-22/doc-inizrhuw5909827.shtml",
    "source": "新浪科技"
@@ -649,23 +659,13 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "影石“全景任意门”向深圳市民免费开放，可把自己的全景照片投上球幕",
+   "url": "https://finance.sina.com.cn/tob/2026-11-22/doc-inizrapa2744394.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "骑700米就收15元！ 哈啰“追风者”比打车还贵，用户怒称“外观根本分辨不清”",
    "url": "https://finance.sina.com.cn/tob/2026-11-22/doc-inizrany5959651.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "前钉钉高管杨猛加入蚂蚁后首次公开露面，已任蚂蚁健康事业群副总裁",
-   "url": "https://finance.sina.com.cn/tob/2026-11-22/doc-inizqwfe2856693.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "搜狐张朝阳辟谣“收警示函”：不是我本人，看来AI还是不行，区分不了同名同姓的人",
-   "url": "https://finance.sina.com.cn/tech/2026-11-22/doc-inizqmrn9132261.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "同名同姓引发误读 搜狐张朝阳辟谣“被出具警示函”：未收到，也未从事证券咨询",
-   "url": "https://finance.sina.com.cn/tech/2026-11-22/doc-inizqfiq9180341.shtml",
    "source": "新浪科技"
   }
  ]
