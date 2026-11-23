@@ -1,9 +1,33 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-23 13:19",
+ "updatedAt": "2026-11-23 23:08",
  "aihotHot": [
   {
    "rank": 1,
+   "title": "NVIDIA董事会恢复黄仁勋CEO职务",
+   "source": "X：X.PIN (@thexpin)",
+   "url": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l",
+   "time": "11-23 22:36",
+   "sourceCount": 4
+  },
+  {
+   "rank": 2,
+   "title": "智谱发布GLM-5.4旗舰模型并上线Coding Plan",
+   "source": "公众号：智谱（GLM）",
+   "url": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
+   "time": "11-23 18:27",
+   "sourceCount": 2
+  },
+  {
+   "rank": 3,
+   "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
+   "time": "11-23 21:59",
+   "sourceCount": 5
+  },
+  {
+   "rank": 4,
    "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/w6aesnkh72hkkxhr4ptrhddd9",
@@ -11,23 +35,15 @@ var WB_DATA = {
    "sourceCount": 7
   },
   {
-   "rank": 2,
-   "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-   "time": "11-23 02:37",
-   "sourceCount": 6
+   "rank": 5,
+   "title": "黄仁勋因婚外情风波辞任英伟达CEO，CFO临时接任",
+   "source": "NVIDIA：Newsroom（RSS）",
+   "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
+   "time": "11-22 08:47",
+   "sourceCount": 1
   },
   {
-   "rank": 3,
-   "title": "Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini",
-   "source": "Thinking Machines Lab：News（网页）",
-   "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
-   "time": "11-22 02:31",
-   "sourceCount": 3
-  },
-  {
-   "rank": 4,
+   "rank": 6,
    "title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航",
    "source": "X：indigo (@indigox)",
    "url": "https://aihot.news/items/xriwds9rtl5niekinxe2uwxsu",
@@ -35,23 +51,23 @@ var WB_DATA = {
    "sourceCount": 3
   },
   {
-   "rank": 5,
-   "title": "Anthropic 上市首日收涨 17%，次日回落",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-21 23:00",
-   "sourceCount": 1
-  },
-  {
-   "rank": 6,
-   "title": "蚂蚁开源医疗多模态模型 LingSante-3.1-air-VL",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/lrq0kpclh1u861beihn823d26",
-   "time": "11-23 11:00",
-   "sourceCount": 4
-  },
-  {
    "rank": 7,
+   "title": "Thinking Machines 开源循环模型 Inkling 2 Mini",
+   "source": "Thinking Machines Lab：News（网页）",
+   "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
+   "time": "11-23 14:55",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
+   "title": "蚂蚁开源首个多模态医疗大模型 LingSante-3.1-air-VL",
+   "source": "蚂蚁百灵：Developer Blog（网页）",
+   "url": "https://aihot.news/items/q0jpjfgyy1mkaupvp0j18y127",
+   "time": "11-23 11:00",
+   "sourceCount": 5
+  },
+  {
+   "rank": 9,
    "title": "亚马逊深入谈判收购Decart，估值约75亿美元",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/eg97pyuem4incr7vpqsklw36v",
@@ -59,31 +75,33 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 8,
-   "title": "蚂蚁开源560B医疗MoE模型LingSante-3.1-flash",
-   "source": "X：蚂蚁百灵 (@AntLingAGI)",
-   "url": "https://aihot.news/items/xaoz6pmbhm1e0edczgo89w03l",
-   "time": "11-23 11:00",
-   "sourceCount": 4
-  },
-  {
-   "rank": 9,
-   "title": "200万诱饵请求测出AI服务链数据外泄",
-   "source": "Ars Technica：AI（RSS）",
-   "url": "https://aihot.news/items/agm7klro03kcu9weuix1bt4su",
-   "time": "11-22 20:07",
-   "sourceCount": 2
-  },
-  {
    "rank": 10,
-   "title": "Chollet 称算力需求未见顶，马斯克预警资金短缺",
-   "source": "X：Francois Chollet (@fchollet)",
-   "url": "https://aihot.news/items/keyiyrvngw7f625sjytaia6hf",
-   "time": "11-22 16:47",
-   "sourceCount": 2
+   "title": "蚂蚁开源560B医疗MoE模型LingSante-3.1-flash",
+   "source": "蚂蚁百灵：Developer Blog（网页）",
+   "url": "https://aihot.news/items/hzy9ajwl8139dnxk4sh56kjon",
+   "time": "11-23 11:00",
+   "sourceCount": 5
   }
  ],
  "aihotItems": [
+  {
+   "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
+   "summary": "NVIDIA 于 11 月 23 日宣布黄仁勋即刻复任总裁、CEO 及董事会成员，董事会一致投票通过，临时 CEO Colette Kress 继续担任 CFO。复职决定参考了美国政府高层意见，董事会认为其不构成国家安全风险，此前因黄仁勋成为外国情报行动目标而启动的独立董事调查将继续进行，董事会另设国家安全与出口管制委员会并招聘首席合规官。",
+   "reason": "原文转引 NVIDIA 官方声明，交代了黄仁勋复职的过程和调查背景，读者可以了解事件的关键细节。",
+   "source": "X：X.PIN (@thexpin)",
+   "url": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l",
+   "time": "11-23 22:04",
+   "category": "industry"
+  },
+  {
+   "title": "智谱发布GLM-5.4：首个Loop Transformer架构旗舰模型开启泛Coding",
+   "summary": "智谱发布旗舰模型GLM-5.4，为第一代采用Loop Transformer架构的模型，让28层共享权重循环执行两轮，在参数量不变下获得更深推理，智能水平达到2-3T级模型效果，并开启泛Coding能力。",
+   "reason": "原文给出Loop Transformer的架构细节、30B对比实验和部署成本数据，读者可以据此理解权重共享循环深度在旗舰规模上的落地方式。",
+   "source": "公众号：智谱（GLM）",
+   "url": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
+   "time": "11-23 17:42",
+   "category": "ai-models"
+  },
   {
    "title": "Anthropic IPO 前三家机构如何重注押注",
    "summary": "TechCrunch 报道 Notable Capital、GIC 和 Baillie Gifford 在 Anthropic IPO 前的重仓投资逻辑。",
@@ -127,24 +145,6 @@ var WB_DATA = {
    "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
    "url": "https://aihot.news/items/r7kb35fpdwc1m2iqsmd310tdj",
    "time": "11-22 08:00",
-   "category": "opinion"
-  },
-  {
-   "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确",
-   "summary": "Lean 与 Mathlib 社区发表声明，确认斯坦福数学家 Levent Alpöge 的黎曼猜想证明正确。Alpöge 于 2026 年 11 月 20 日以 1700 万行 Lean 代码发布该证明，数十人独立运行得到相同结果，且验证程序被设计为可证明不会接受有缺陷的证明。",
-   "reason": "社区正式确认与代码验证细节都写得很具体，读者可以了解这道数学难题如何以 Lean 形式被独立核验。",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
-   "time": "11-22 19:08",
-   "category": "industry"
-  },
-  {
-   "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
-   "summary": "2022 年菲尔兹奖得主、牛津大学数学教授詹姆斯·梅纳德（James Maynard）在采访中表示，他认为 Anthropic 数学家莱文特·阿尔珀格（Levent Alpöge）与 Claude 合作完成的黎曼猜想证明是正确的，依据是该证明已通过 Lean 库形式化验证并经独立核实，且阿尔珀格过往有可靠记录。",
-   "reason": "菲尔兹奖得主梅纳德对 AI 辅助黎曼猜想证明的判断，提醒读者形式化验证通过不等于数学界认可，理解证明思想才是关键。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/p9h5xzsooms0foxeakoivy7qt",
-   "time": "11-22 17:35",
    "category": "opinion"
   }
  ],
@@ -520,68 +520,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-23 13:19",
+   "updateTime": "2026-11-23 23:08",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "【BLG夺冠VLOG】这是属于我们的冠军记忆",
-     "url": "https://www.bilibili.com/video/BV1zGy5ziEnd",
-     "hot": 787190
+     "title": "扎堆产卵 同类相食！蝗虫诡异行为原理被中国科学家破解！【主播说三农】",
+     "url": "https://www.bilibili.com/video/BV121yjzQEWf",
+     "hot": 945252
     },
     {
-     "title": "同时狂炫「垃圾食品+保健品」，美国人的养生观逆天了",
-     "url": "https://www.bilibili.com/video/BV1MLyVz1EiM",
-     "hot": 483114
+     "title": "【小跳蛙】|“【跳蛙の小曲】”",
+     "url": "https://www.bilibili.com/video/BV1rryhzDEy8",
+     "hot": 1753565
     },
     {
-     "title": "GTA6性能要求高吗？哪台主机表现好？解锁30帧后能跑多少帧？",
-     "url": "https://www.bilibili.com/video/BV1pDyjzEEsJ",
-     "hot": 534129
+     "title": "全新【求生者】出版编辑故事视频爆料：——“那是我第一次看到，自己本可以成为的样子……”",
+     "url": "https://www.bilibili.com/video/BV15gyJzVEzy",
+     "hot": 1425135
     },
     {
      "title": "2026-2027国创动画作品发布会 全程回顾",
      "url": "https://www.bilibili.com/video/BV17pWu6QEkp",
-     "hot": 582442
+     "hot": 2780313
     },
     {
-     "title": "在雀巢工作室上班有多爽？！",
-     "url": "https://www.bilibili.com/video/BV1ozyszZEEJ",
-     "hot": 444773
+     "title": "我想回家吃饭（两小时大电影）",
+     "url": "https://www.bilibili.com/video/BV1LoyGzZEX8",
+     "hot": 530522
     },
     {
-     "title": "曾经主角团最边缘的一个，为啥如今却成了互联网的神？",
-     "url": "https://www.bilibili.com/video/BV1gMy3zkEgg",
-     "hot": 828753
+     "title": "《这波贪了》",
+     "url": "https://www.bilibili.com/video/BV1ofy5zNEti",
+     "hot": 1075148
+    },
+    {
+     "title": "我们成为英雄，哪怕只有一天",
+     "url": "https://www.bilibili.com/video/BV1ioyGzZET8",
+     "hot": 636274
+    },
+    {
+     "title": "英雄联盟手游携手JackeyLove，诠释「终末锋芒 德莱文」永远向前的进攻美学！",
+     "url": "https://www.bilibili.com/video/BV1oEy5zaE8y",
+     "hot": 1256992
+    },
+    {
+     "title": "同时狂炫「垃圾食品+保健品」，美国人的养生观逆天了",
+     "url": "https://www.bilibili.com/video/BV1MLyVz1EiM",
+     "hot": 1376805
+    },
+    {
+     "title": "【灵笼:落子无悔】纵入存亡之局，亦落无悔之子【PV】",
+     "url": "https://www.bilibili.com/video/BV1M6sm6mE9b",
+     "hot": 955091
+    },
+    {
+     "title": "🐧ai写 ai批 ai改🐧",
+     "url": "https://www.bilibili.com/video/BV1M5yVzjEDL",
+     "hot": 995105
     },
     {
      "title": "路边一块，用心雕刻，保你看了眼前一黑",
      "url": "https://www.bilibili.com/video/BV15KyLz8Epz",
-     "hot": 548601
-    },
-    {
-     "title": "考公务员很难，但是为人民服务却很容易！",
-     "url": "https://www.bilibili.com/video/BV1uyyazBEUA",
-     "hot": 537665
-    },
-    {
-     "title": "【合集】人类消失后，深度思考三百年的大肥鱼",
-     "url": "https://www.bilibili.com/video/BV1Poyaz8Ep4",
-     "hot": 1008578
-    },
-    {
-     "title": "《无限暖暖》3.0版本套装PV | 若见沐光之窗&于此重见繁星",
-     "url": "https://www.bilibili.com/video/BV1d7yGzsEMG",
-     "hot": 1548237
-    },
-    {
-     "title": "《无限暖暖》3.0版本PV｜昨日之城，明日之声",
-     "url": "https://www.bilibili.com/video/BV1ovyezpEgP",
-     "hot": 1783943
-    },
-    {
-     "title": "熊出没",
-     "url": "https://www.bilibili.com/video/BV1qLsC6EEYB",
-     "hot": 834939
+     "hot": 1962423
     }
    ]
   }
@@ -634,33 +634,33 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "诺亦腾机器人发布ITW-Ego Plus，第一视角视频可扩展五种模态",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-23/doc-inizszea5505810.shtml",
+   "title": "英伟达恢复黄仁勋CEO背后：特朗普强势施压相助",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztwiw8166470.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "自变量发布新一代具身基础模型 WALL-OSS-1.0，多种真机测试中零样本成功率高达55.1%",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-23/doc-inizszek0653627.shtml",
+   "title": "英伟达官宣黄仁勋回归，马斯克发文“It is done”庆祝",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztwis5417182.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "蚂蚁阿福宣布启动全球化，国际版App将在多个国家和地区上线",
-   "url": "https://finance.sina.com.cn/roll/2026-11-23/doc-inizsuwh2373107.shtml",
+   "title": "英伟达宣布即日起恢复黄仁勋CEO职务，股价盘前暴涨34%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-iniztwiy0494004.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "传转转集团以保密形式申请赴港上市，官方暂无回应",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-23/doc-inizsuwn0740887.shtml",
+   "title": "黄仁勋重返英伟达后 交易员加大英国央行和欧洲央行加息押注",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztwiu2185153.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "传原京东集团首席战略官廖建文因病去世",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-23/doc-inizsuwk8403210.shtml",
+   "title": "特朗普：祝贺黄仁勋恢复职位",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztwis5399515.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "蚂蚁百灵医疗健康大模型宣布开源",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-23/doc-inizsuwk8403188.shtml",
+   "title": "黄仁勋回应恢复职务：已经迫不及待重返工作岗位",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-23/doc-iniztwiw8145541.shtml",
    "source": "新浪科技"
   }
  ]
