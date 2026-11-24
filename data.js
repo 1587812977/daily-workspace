@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-24 15:59",
+ "updatedAt": "2026-11-24 23:05",
  "aihotHot": [
   {
    "rank": 1,
@@ -23,24 +23,24 @@ var WB_DATA = {
    "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks",
-   "time": "11-24 08:02",
-   "sourceCount": 6
+   "time": "11-24 19:26",
+   "sourceCount": 7
   },
   {
    "rank": 4,
    "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-   "time": "11-23 21:59",
-   "sourceCount": 3
+   "time": "11-24 22:28",
+   "sourceCount": 2
   },
   {
    "rank": 5,
-   "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/crw4tsq5rknyz5r8urr18du0y",
-   "time": "11-24 02:42",
-   "sourceCount": 8
+   "title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
+   "time": "11-24 22:16",
+   "sourceCount": 3
   },
   {
    "rank": 6,
@@ -52,22 +52,14 @@ var WB_DATA = {
   },
   {
    "rank": 7,
-   "title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/cqa4xxyqgijjsna1t0wb290ix",
-   "time": "11-24 07:28",
-   "sourceCount": 2
+   "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/crw4tsq5rknyz5r8urr18du0y",
+   "time": "11-24 02:42",
+   "sourceCount": 8
   },
   {
    "rank": 8,
-   "title": "美国商务部将新加坡Megaspeed列入实体清单",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/p4xkctditdd1tntt466jm8r0a",
-   "time": "11-24 05:48",
-   "sourceCount": 2
-  },
-  {
-   "rank": 9,
    "title": "特朗普公开支持黄仁勋回归英伟达",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/uop2ab4998l6dxugsgtg7w7rn",
@@ -75,15 +67,41 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
+   "rank": 9,
+   "title": "OpenAI在Chat标签页推送GPT-6.2 Sol对话版",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/gl6fl6hsisrt26tg83li0j4gk",
+   "time": "11-24 15:42",
+   "sourceCount": 3
+  },
+  {
    "rank": 10,
-   "title": "Ladybird浏览器发布首个Alpha版本",
-   "source": "Simon Willison 博客",
-   "url": "https://aihot.news/items/be8zm94btguaewsfvsbyels7i",
-   "time": "11-24 05:46",
-   "sourceCount": 1
+   "title": "美国商务部将新加坡Megaspeed列入实体清单",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/p4xkctditdd1tntt466jm8r0a",
+   "time": "11-24 05:48",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
+   "summary": "OpenClaw 与 Hugging Face、Red Hat、UC Berkeley 等机构合作推出 ShellBench，基于超过 1000 万条匿名真实智能体交互构建 100 个日常任务，含 90 个 rubric 评分任务（721 项标准，其中 381 项安全标准）和 10 个代码测试任务，共 53,100 次评分运行。",
+   "reason": "原文给出 ShellBench 的任务设计、12 个模型与 5 个 harness 的结果和成本对比，读者可据此判断模型与 harness 如何影响日常任务完成率。",
+   "source": "OpenClaw：Blog（网页）",
+   "url": "https://aihot.news/items/frmncgr2jcrvfm3t6jgabqhfh",
+   "time": "11-24 08:00",
+   "category": "paper"
+  },
+  {
+   "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day",
+   "summary": "Amazon 威胁情报报告称，黑客在开源 AI 渗透测试框架 Cairn 上运行的 AI 智能体，仅凭一句「获取 shell 权限」的指令，就自主发现并利用了一个开源医学影像 AI 应用中未修补的路径遍历 0-day，从映射 API 到任意写文件仅用约 11 分钟，随后写入 Python 反向 shell payload 并以 root 权限获得控制。",
+   "reason": "Amazon 的研究给出了 AI 智能体自主发现并利用 0-day 的完整时间线和攻击细节，读者可以据此评估防御响应窗口的变化。",
+   "source": "Ars Technica：AI（RSS）",
+   "url": "https://aihot.news/items/ygbhvp086wl672gfxuhfgl23x",
+   "time": "11-24 20:30",
+   "category": "industry"
+  },
   {
    "title": "卡兹克分享两个优化用户体验和产品动效的 Prompt",
    "summary": "数字生命卡兹克分享自己做产品时用的两个 Prompt，一个按用户体验至上的原则审查项目交互并直接修复，一个把项目动效做到细腻丝滑水准。要点包括让 Gemini 当方案顾问、按状态变化逐项审查动效，完成后让 GPT 审查再合并上线。",
@@ -110,6 +128,15 @@ var WB_DATA = {
    "url": "https://aihot.news/items/zto0pspydy8330r0bvwqb6j5z",
    "time": "11-24 09:41",
    "category": "industry"
+  },
+  {
+   "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
+   "summary": "OpenAI 宣布与 Cisco 合作推出开源 Linux 运行时 Shirudo，让 Agent 编写动态 eBPF 控制来抵御漏洞利用，同时保持服务不中断，为防御方争取测试和部署补丁的时间。作者称这是迈向自适应自防御基础设施的第一步，目标是让防御者与 AI Agent 协作定位受影响系统、测试并共享 shield、在不干扰工作负载的情况下部署。",
+   "reason": "原文点出 Cisco 与 OpenAI 合作构建面向 Agent 时代的安全基础设施，可帮助读者了解防御方与 AI 协作的新方向。",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
+   "time": "11-24 16:15",
+   "category": "ai-products"
   },
   {
    "title": "Claude 推出插件，统一连接器与技能的接入方式",
@@ -164,33 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/vlxrimiuixb91iodhjh5hxmte",
    "time": "11-24 02:26",
    "category": "industry"
-  },
-  {
-   "title": "AISI 红队论文：攻击策略选择会让 LLM 监视器评估结果失真",
-   "summary": "英国 AI Security Institute 发布论文，测试合成攻击生成方式对监视器评估的影响。评估一个 OpenAI 前生产监视器时，同一监视器对不同攻击策略的漏报率从 0.2%（基础提示）到 23%（转录编辑）不等，优化程度也会显著改变结果。作者指出合成转录只是真实有害行为代理，其代表性难以证明，仅凭监视器评估不足以保证部署安全，需辅以能力限制、人工在环和沙箱等分层防护。",
-   "reason": "原文用同一监视器实测出 0.2% 到 23% 的漏报率差异，说明合成攻击策略选择会让监视器评估结果失真。",
-   "source": "英国 AI Security Institute：Blog（网页）",
-   "url": "https://aihot.news/items/tl8v9gto8rd3e4x40xfbljj13",
-   "time": "11-23 07:00",
-   "category": "paper"
-  },
-  {
-   "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用",
-   "summary": "Google 宣布在 Search 的 AI Mode 中扩展 Personal Intelligence，用户可选择安全连接 Google Wallet、Drive 和 Gemini 应用，Wallet 即日起开放，Drive 和 Gemini 应用将在未来数周跟进。",
-   "reason": "原文说明了 Google Search AI Mode 接入 Wallet、Drive 和 Gemini 应用的功能范围与隐私控制方式，读者可据此评估个人化搜索的实用边界。",
-   "source": "Google Blog：AI（RSS）",
-   "url": "https://aihot.news/items/cyorgi8t8dm2fo6ee3b5a6qs2",
-   "time": "11-24 01:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Google DeepMind 用 Gemini 4 智能体团队与 Lean 形式化验证改进量子算法",
-   "summary": "Google DeepMind 发布新论文，用多个 Gemini 4 智能体团队结合 Lean 形式化定理证明改进量子算法，生成经数学验证的高效量子电路，并在 GitHub 开源 Lean 库、问题规格和验证解法。",
-   "reason": "官方论文给出智能体团队配合 Lean 形式化验证改进量子算法的量化结果，并开源了库与解法，方法可迁移到其他科研领域。",
-   "source": "Google DeepMind：Blog（RSS）",
-   "url": "https://aihot.news/items/pjpgapf3mbvmy98cywxhwf07n",
-   "time": "11-24 00:59",
-   "category": "paper"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-24 15:59",
+   "updateTime": "2026-11-24 23:06",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "【火影十一年 神临时刻】漩涡鸣人[阳之力]即将登场！",
      "url": "https://www.bilibili.com/video/BV1qYyRz5EdM",
-     "hot": 1325791
+     "hot": 2873450
     },
     {
      "title": "“别人过得好 你就要扣自己的分吗”",
      "url": "https://www.bilibili.com/video/BV1oSyJz1EiC",
-     "hot": 1202276
+     "hot": 2494399
     },
     {
      "title": "《蓝色星原：旅谣》涂山小玉PV | 一笺桃花",
      "url": "https://www.bilibili.com/video/BV1j3yHznECD",
-     "hot": 638965
+     "hot": 1947278
     },
     {
      "title": "【纪录片】蓝色星球 第三季 04 极地海洋",
      "url": "https://www.bilibili.com/video/BV1qTst6BEN9",
-     "hot": 370547
+     "hot": 523442
     },
     {
-     "title": "《明日方舟：终末地》干员叙事 [小刻：很新的旅程]",
-     "url": "https://www.bilibili.com/video/BV1aoyQzwEx9",
-     "hot": 640706
+     "title": "【TF家族练习生】《第肆象限》演唱会纪录片EP01「向上」",
+     "url": "https://www.bilibili.com/video/BV19UySzZEc8",
+     "hot": 508486
     },
     {
-     "title": "你从未见过的硬核开箱视频！",
-     "url": "https://www.bilibili.com/video/BV1QAypzyE7B",
-     "hot": 767023
-    },
-    {
-     "title": "🐊“Bin哥，我一定会找到冠军皮肤的时间线的！”🐊",
-     "url": "https://www.bilibili.com/video/BV15iyXzvE4y",
-     "hot": 533140
+     "title": "同样是水果腌肉 为啥有人是“国宴” 有人是大型翻车现场？【主播说三农】",
+     "url": "https://www.bilibili.com/video/BV1cpyXz5ETC",
+     "hot": 681264
     },
     {
      "title": "我们成为英雄，哪怕只有一天",
      "url": "https://www.bilibili.com/video/BV1ioyGzZET8",
-     "hot": 1121288
+     "hot": 1489679
     },
     {
-     "title": "我想回家吃饭（两小时大电影）",
-     "url": "https://www.bilibili.com/video/BV1LoyGzZEX8",
-     "hot": 1772443
+     "title": "这个草台班子的世界，比你想象的还要荒唐！",
+     "url": "https://www.bilibili.com/video/BV1ngyZzoE8s",
+     "hot": 403525
     },
     {
-     "title": "【记忆碎片】要长脑子了",
-     "url": "https://www.bilibili.com/video/BV1JZsi6iEiE",
-     "hot": 315965
+     "title": "bro开麦一直指挥自己...",
+     "url": "https://www.bilibili.com/video/BV1epy5zfE1k",
+     "hot": 890973
     },
     {
-     "title": "华强等了宋老虎30年",
-     "url": "https://www.bilibili.com/video/BV1SFyDznEAZ",
-     "hot": 742200
+     "title": "刘晓艳：“你能考过就是「烂奇迹」”",
+     "url": "https://www.bilibili.com/video/BV1AZyEzpEAT",
+     "hot": 511015
     },
     {
      "title": "人类统一不爽行为",
      "url": "https://www.bilibili.com/video/BV1c2yHz4EK4",
-     "hot": 814032
+     "hot": 1523310
+    },
+    {
+     "title": "Claude证明了在任何域上VP≠VNP",
+     "url": "https://www.bilibili.com/video/BV1zKydzQERZ",
+     "hot": 548477
     }
    ]
   }
@@ -743,38 +743,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "余承东宣布鸿蒙终端设备数突破1亿：很激动，也很感慨，鸿蒙生态越过了规模临界点",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvqth8938893.shtml",
+   "title": "Anthropic上市不到一周跌破发行价",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizwfqy8843651.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "拜耳暗示未来制药交易或更多瞄准临床试验中期资产",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmh0133496.shtml",
+   "title": "高德发布世界模型ABot-World 0.5，支持构建音画同步、可实时重塑的AI物理世界",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzia8926468.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "OceanBase CEO杨冰谈海外业务：明年营收至少是100%以上的增长",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvkmh0128000.shtml",
+   "title": "影石官宣运动相机新品Ace Pro 3，将于12月1号发布",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzhz2145168.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "华为Mate X8发布：全系搭载麒麟9050 Pro芯片，售价12999元起",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvkme7795702.shtml",
+   "title": "滴滴在全国14个城市举办司机节，升级司机保障计划3.0",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzhx9940584.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "黄仁勋重返英伟达CEO职位后台积电单日市值暴增1580亿美元",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmi2269113.shtml",
+   "title": "商汤发布SenseNova U1.6：美学得分较上一代提升约10%，实现原生图像自修正",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzhz2124966.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "银河通用创始人王鹤：具身智能最关键的是“让产业转起来”，在边缘端“100%成功”部署",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvkmk9032375.shtml",
+   "title": "小鹏发布图灵世界模型WorldGPT，可在水、陆、空三栖六类本体完成预测与行动规划",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzia8887219.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "自变量机器人与马来西亚国家邮政签署合作备忘录，探索物流分拣智能化路径",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-24/doc-inizvkmi2237913.shtml",
+   "title": "阿里健康中期业绩：收入182.28亿元 同比增长9.2%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzhx9922219.shtml",
    "source": "新浪科技"
   }
  ]
