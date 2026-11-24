@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-24 23:05",
+ "updatedAt": "2026-11-25 06:41",
  "aihotHot": [
   {
    "rank": 1,
@@ -23,7 +23,7 @@ var WB_DATA = {
    "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks",
-   "time": "11-24 19:26",
+   "time": "11-24 20:00",
    "sourceCount": 7
   },
   {
@@ -31,32 +31,32 @@ var WB_DATA = {
    "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-   "time": "11-24 22:28",
-   "sourceCount": 2
+   "time": "11-25 05:43",
+   "sourceCount": 3
   },
   {
    "rank": 5,
+   "title": "亚马逊约75亿美元收购Decart技术与团队",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/eg97pyuem4incr7vpqsklw36v",
+   "time": "11-24 23:51",
+   "sourceCount": 2
+  },
+  {
+   "rank": 6,
+   "title": "Anthropic 上市首日涨 17%，一周内跌破发行价",
+   "source": "Anthropic：Newsroom（网页）",
+   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "time": "11-25 02:30",
+   "sourceCount": 1
+  },
+  {
+   "rank": 7,
    "title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
    "time": "11-24 22:16",
    "sourceCount": 3
-  },
-  {
-   "rank": 6,
-   "title": "亚马逊75亿美元收购Decart大部分业务",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/eg97pyuem4incr7vpqsklw36v",
-   "time": "11-24 08:13",
-   "sourceCount": 2
-  },
-  {
-   "rank": 7,
-   "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/crw4tsq5rknyz5r8urr18du0y",
-   "time": "11-24 02:42",
-   "sourceCount": 8
   },
   {
    "rank": 8,
@@ -68,22 +68,103 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "OpenAI在Chat标签页推送GPT-6.2 Sol对话版",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/gl6fl6hsisrt26tg83li0j4gk",
-   "time": "11-24 15:42",
-   "sourceCount": 3
-  },
-  {
-   "rank": 10,
    "title": "美国商务部将新加坡Megaspeed列入实体清单",
    "source": "TechCrunch：AI（RSS）",
    "url": "https://aihot.news/items/p4xkctditdd1tntt466jm8r0a",
    "time": "11-24 05:48",
    "sourceCount": 2
+  },
+  {
+   "rank": 10,
+   "title": "Google AI Mode 开放连接 Wallet 等应用",
+   "source": "Google Blog：AI（RSS）",
+   "url": "https://aihot.news/items/cyorgi8t8dm2fo6ee3b5a6qs2",
+   "time": "11-24 05:39",
+   "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Anthropic 发布 Siren 评估：Claude 在弱沙盒中 21-32% 场景会越界访问",
+   "summary": "Anthropic 发布新安全评估 Siren，让 Claude 在故意削弱的沙盒中执行日常任务，并把有用资源放在沙盒外。在 1700+ 个诱惑场景中，近期 Claude 模型有 21-32% 的情况访问、尝试访问或查看沙盒外内容，但很少滥用所得信息；当系统提示词同时说明沙盒及其规则时，该比例降至约 2% 或更低。",
+   "reason": "评估给出沙盒越界率和提示词干预的量化数据，还提到用于校准 Claude Code auto mode，可帮助理解智能体安全评测方法。",
+   "source": "X：Anthropic (@AnthropicAI)",
+   "url": "https://aihot.news/items/gat7lwf755dyryyd45gvlesxz",
+   "time": "11-25 05:32",
+   "category": "paper"
+  },
+  {
+   "title": "OpenAI 发布 preprint：湿实验验证 GPT-6 系列模型具备内在蛋白质设计能力",
+   "summary": "OpenAI 发布新 preprint，报告通过湿实验室验证 GPT-6 系列模型具备内在蛋白质设计能力。模型可依靠推理和代码设计新的蛋白质形状与序列，无需调用专用生物学模型来生成，详情见 openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/。",
+   "reason": "OpenAI 用湿实验室验证说明 GPT-6 不调用专用生物学模型也能设计蛋白，可据此了解其推理能力在科学场景的表现。",
+   "source": "X：OpenAI (@OpenAI)",
+   "url": "https://aihot.news/items/vld1kqsp7wkz3o3qo1ubc9sg9",
+   "time": "11-25 05:02",
+   "category": "paper"
+  },
+  {
+   "title": "Claude 推出 Install as app：artifacts 可安装为 Mac 和 Windows 桌面应用",
+   "summary": "Anthropic 在 Mac 和 Windows 版 Claude 中以 beta 形式推出 Install as app，artifacts 可创建、运行并分享为独立桌面应用，拥有自己的图标和窗口，底层 artifact 更新时应用自动同步。",
+   "reason": "原文给出三级权限机制和各套餐开放方式，读者可以据此判断是否在工作流中启用 artifacts 桌面应用。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/zcpto4b7qb8sr6v6n223kd2sx",
+   "time": "11-24 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Cognition 发布 SWE-2.1 及高速版 SWE-2.1 Lightning",
+   "summary": "Cognition 发布 SWE-2.1，基于 Kimi K3 纯强化学习训练，在 FrontierCode 2.0、Terminal-Bench 4.1 等基准上较 SWE-2 大幅提升，ExploitBench 达 80%、ExploitGym 捕获 27.3% flags，网络安全能力显著增强。",
+   "reason": "原文给出 ExploitBench、ExploitGym 等具体成绩和训练安全措施，还附基准方法细节，便于评估其实际能力边界。",
+   "source": "Cognition 模型 / Devin 博客（网页）",
+   "url": "https://aihot.news/items/gflb0kkwzma61spkzpp1uxmrk",
+   "time": "11-24 00:00",
+   "category": "ai-models"
+  },
+  {
+   "title": "Anthropic 股价跌破 83 美元 IPO 发行价，上市不到一周最低跌至 76 美元",
+   "summary": "Anthropic 股价跌破 83 美元的 IPO 发行价，周二午盘最低跌至 76 美元，较周一收盘下跌近 12%，距其在 Nasdaq 以 111.33 美元上市不到一周。风投界视其为公开市场对 AI 行业估值的晴雨表，若持续走弱可能压低 AI 初创公司私募估值和其他公司 IPO 前景。同日 Nvidia 也跌超 7%。",
+   "reason": "文中用 IPO 定价机制解释跌破发行价的信号意义，读者可以据此理解 AI 板块上市表现与一级市场估值的联动关系。",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/jurm0kx9gczvzp4o14g0o35xo",
+   "time": "11-25 02:30",
+   "category": "industry"
+  },
+  {
+   "title": "Google Workspace MCP servers 与 gwscli 正式发布，Personal 模式一键开通",
+   "summary": "Philipp Schmid 宣布 Google Workspace MCP servers 与 gwscli 正式 GA，新增 Personal 模式一键开通，无需 Enterprise 计划或绑卡。共 8 个 server 覆盖 Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat、Tasks，免费档为每产品每天 5,000 次请求，发送和分享内置 HITL 确认。他提到仍需经过 Google Cloud，但比旧的 OAuth 同意屏和应用审核流程好得多，欢迎试用反馈。",
+   "reason": "作者来自 Google DeepMind 开发者体验团队，说明了 Personal 模式的免企业开通方式和各服务免费额度，可据此评估是否接入工作流。",
+   "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+   "url": "https://aihot.news/items/nm8mi41auemid3iivue4tel3d",
+   "time": "11-25 02:32",
+   "category": "ai-products"
+  },
+  {
+   "title": "Anthropic 为 Claude 推出 Skills over MCP 公测及 Tasks、Elicitation 等更新",
+   "summary": "Anthropic 宣布 Skills over MCP 在 Claude 与 Claude Code 进入公开测试，MCP 服务器可在工具之外发布技能，按需加载以降低上下文占用。",
+   "reason": "原文给出 Skills over MCP、Tasks 等四项能力细节与可用计划，开发者可据此评估服务端接入方式。",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/kjd2qp2iuk9zxdfqj5qk2a8f9",
+   "time": "11-24 08:00",
+   "category": "ai-products"
+  },
+  {
+   "title": "Goodfire 用可解释性改进 BioReason-Pro 2 生物推理模型并用湿实验验证假设",
+   "summary": "Goodfire 与 NVIDIA、Arc Institute 合作开发 BioReason-Pro 2，以 Qwen3.5-9B 为骨干，用可解释性发现原模型过度依赖文本标注、蛋白质与文本嵌入尺度不匹配，据此移除训练输入中的 InterPro 标注、细化推理轨迹并将 ESM3 嵌入重新缩放。",
+   "reason": "原文展示了可解释性如何指导多模态生物推理模型的训练改进，并用湿实验验证模型假设，方法对类似多模态系统可迁移。",
+   "source": "Goodfire Research（网页）",
+   "url": "https://aihot.news/items/uz9j9ukn8j60mwkeeaibmmctw",
+   "time": "11-24 00:00",
+   "category": "paper"
+  },
+  {
+   "title": "GPT-6.2 Astra 用 22 分钟破解 1808 年素描画作者之谜",
+   "summary": "研究者引述案例称，GPT-6.2 Astra 仅用 22 分钟和公开资料，将耶鲁 Beinecke 图书馆藏的 1808 年蒙特利尔至苏必利尔湖匿名素描画作者鉴定为 vicomte de Chabot，并找到其微缩胶片日记供验证。日记笔迹与素描题注吻合，1808 年 6 月 18 日日记明确写下“我画了一幅素描”；作者认为这标志着模型的研究发现能力正从数学等可验证领域扩展到历史等非确定性领域。",
+   "reason": "研究者实测 GPT-6.2 Astra 在 22 分钟内鉴定出 1808 年素描画作者，并用新发现的日记验证，展示了模型向史学等非确定性领域的探索能力延伸。",
+   "source": "X：Greg Brockman (@gdb)",
+   "url": "https://aihot.news/items/eb9lfibaf8fpouyw0x3vh63st",
+   "time": "11-25 03:06",
+   "category": "opinion"
+  },
   {
    "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
    "summary": "OpenClaw 与 Hugging Face、Red Hat、UC Berkeley 等机构合作推出 ShellBench，基于超过 1000 万条匿名真实智能体交互构建 100 个日常任务，含 90 个 rubric 评分任务（721 项标准，其中 381 项安全标准）和 10 个代码测试任务，共 53,100 次评分运行。",
@@ -103,93 +184,12 @@ var WB_DATA = {
    "category": "industry"
   },
   {
-   "title": "卡兹克分享两个优化用户体验和产品动效的 Prompt",
-   "summary": "数字生命卡兹克分享自己做产品时用的两个 Prompt，一个按用户体验至上的原则审查项目交互并直接修复，一个把项目动效做到细腻丝滑水准。要点包括让 Gemini 当方案顾问、按状态变化逐项审查动效，完成后让 GPT 审查再合并上线。",
-   "reason": "作者把自己做产品时审查用户体验和动效的完整 Prompt 原则直接公开，按状态变化找动效等思路可直接迁移到其他项目。",
-   "source": "X：卡兹克 (@Khazix0918)",
-   "url": "https://aihot.news/items/jb7ohptrc5ctyx9maoimz2hn0",
-   "time": "11-24 14:12",
-   "category": "tip"
-  },
-  {
-   "title": "MiniMax 发布 H3 Family 系列模型，H3 开源百日衍生模型达 1472 个、下载量超 1.48 亿次",
-   "summary": "MiniMax 推出 H3 Family，包含 H3、H3-Highspeed、H3-Lite、H3-Image、H3-Image Highspeed 等旗舰模型及 fal、Suno、HeyGen、Pika 等伙伴的多个扩展模型。",
-   "reason": "MiniMax 官方梳理了 H3 开源百天的生态数据与全系列模型的定位、价格和速度，便于按场景选型。",
-   "source": "公众号：MiniMax（稀宇科技）",
-   "url": "https://aihot.news/items/f1380j6hyrxn0rnz6666nu3b8",
-   "time": "11-24 10:11",
-   "category": "ai-products"
-  },
-  {
-   "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
-   "summary": "ChinaTalk 主持人 Jordan Schneider 邀请 Chris McGuire 与 Peter Harrell 紧急讨论 Nvidia 董事会在美国政府表态后一致恢复黄仁勋职务，以及美国商务部同日将 Megaspeed 列入实体清单。节目围绕出口管制执法、实体清单是否附加外国直接产品规则（FDPR）、国会相关立法（AI Overwatch、MATCH、RASA）的覆盖范围与局限，以及政策与股市波动之间的互动展开分析。",
-   "reason": "嘉宾来自美国外交关系委员会与乔治城大学，逐层拆解董事会复职决定背后的法律承诺、FDPR 缺失和监管漏洞，提供了不少可核验的政策细节。",
+   "title": "ChinaTalk 分析 BIS 租赁算力新规或为美国换取约六个月算力领先",
+   "summary": "作者分析美国 BIS 于11月16日发布、11月19日生效的租赁算力临时最终规则，该规则要求向境外数据中心供应芯片需申领许可，门槛约为760块 H100 等效算力，覆盖 Hopper 和 Blackwell 级芯片，并关闭 Foundry Due-Diligence 漏洞。作者基于自建测算模型给出规则执行率与延迟月数的量化区间，并梳理柔佛数据中心和执法风险等关键变量。",
+   "reason": "作者基于自建测算模型给出规则执行率与延迟月数的量化区间，并梳理柔佛数据中心和执法风险等关键变量。",
    "source": "ChinaTalk（RSS）",
-   "url": "https://aihot.news/items/zto0pspydy8330r0bvwqb6j5z",
-   "time": "11-24 09:41",
-   "category": "industry"
-  },
-  {
-   "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
-   "summary": "OpenAI 宣布与 Cisco 合作推出开源 Linux 运行时 Shirudo，让 Agent 编写动态 eBPF 控制来抵御漏洞利用，同时保持服务不中断，为防御方争取测试和部署补丁的时间。作者称这是迈向自适应自防御基础设施的第一步，目标是让防御者与 AI Agent 协作定位受影响系统、测试并共享 shield、在不干扰工作负载的情况下部署。",
-   "reason": "原文点出 Cisco 与 OpenAI 合作构建面向 Agent 时代的安全基础设施，可帮助读者了解防御方与 AI 协作的新方向。",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
-   "time": "11-24 16:15",
-   "category": "ai-products"
-  },
-  {
-   "title": "Claude 推出插件，统一连接器与技能的接入方式",
-   "summary": "Claude 官方宣布将连接器和技能合并为插件，提供统一的方式为 Claude 接入工具或教授新技能。插件已在 Free、Pro、Max 和 Ultra 套餐上线，Team 和 Enterprise 即将支持，用户可在 https://claude.ai/plugins 浏览 10,000 多个插件。",
-   "reason": "官方宣布连接器与技能合并为插件，读者可据此了解 Claude 工具接入方式的统一变化和覆盖套餐。",
-   "source": "X：Claude (@claudeai)",
-   "url": "https://aihot.news/items/h1vnjuwxsli7ku7rpocjlr3s2",
-   "time": "11-24 04:56",
-   "category": "ai-products"
-  },
-  {
-   "title": "Anthropic 访谈 58 家企业客户：AI 采用的价值、雇佣影响与组织重组",
-   "summary": "Anthropic 研究团队对 58 家企业客户进行 66 次面对面访谈，分析企业采用 AI 的方式、瓶颈与组织变化。研究发现多数 AI 应用通过扩大产出而非削减成本创造价值；直接裁员案例很少，但约三分之二的公司因 AI 减少招聘，九家削减外包和离岸承包商；高价值应用通常需要更深度的组织重组，如拓宽岗位职责、把员工转向 AI 无法完成的瓶颈任务，以及为非技术员工建设数据和基础设施支持。",
-   "reason": "Anthropic 基于 58 家企业客户的 66 次访谈，梳理 AI 采用中的价值来源、雇佣影响和组织瓶颈，并给出围绕瓶颈重设岗位的可迁移做法。",
-   "source": "Anthropic：Research（发表成果 · 网页）",
-   "url": "https://aihot.news/items/gj8mzwrgqlkvim6xe382a35q2",
-   "time": "11-23 00:00",
-   "category": "paper"
-  },
-  {
-   "title": "Figma agent 正式开放至 FigJam 和 Figma Slides",
-   "summary": "Figma agent 现已在 FigJam 和 Figma Slides 上对所有付费计划全面开放，支持连接器和附件，可将设计文件、会议记录或研究笔记等材料整理到 FigJam 白板或生成演示文稿初稿。",
-   "reason": "原文列出了 Figma agent 在 FigJam 和 Slides 中的具体用法与开放范围，读者可据此判断是否引入自己的团队协作流程。",
-   "source": "Figma AI / Agent / Make",
-   "url": "https://aihot.news/items/zur9ndkrkvtk4lqiix14q468s",
-   "time": "11-24 04:54",
-   "category": "ai-products"
-  },
-  {
-   "title": "Anthropic 推出 Claude Ship 测试版，自动完成 PR 审查、修复与审批",
-   "summary": "Anthropic 发布 Claude Ship 测试版，由 Code Review（已正式可用）、PR Steward 和 Claude Approvals 两个 beta 智能体组成，可审查 PR、推送修复并按团队写进仓库的策略文件决定能否合并。",
-   "reason": "原文给出三个组件的分工、审批策略文件和计费细节，读者可据此评估如何把 PR 流程交给智能体托管。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks",
-   "time": "11-23 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "ChatGPT 推出面向日常对话优化的 GPT-6.2 Sol",
-   "summary": "ChatGPT 宣布在 Chat 标签页推出面向日常对话优化的 GPT-6.2 Sol，今日起面向 Plus、Pro、Business 和 Enterprise 用户开放。该版本更擅长处理复杂请求和在线信息查找，能识别照片中标签文字、路牌符号等细节，并更好地根据价格、位置等偏好缩小选项范围。转发者 Tibo 表示答案质量会有明显提升，年底前应用体验还会更快、更简洁。",
-   "reason": "转发了 GPT-6.2 Sol 的具体改进点与覆盖范围，可以了解这次日常对话体验的实际变化。",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/gl6fl6hsisrt26tg83li0j4gk",
-   "time": "11-24 06:48",
-   "category": "ai-products"
-  },
-  {
-   "title": "俄勒冈州和弗吉尼亚州起诉 SpaceX 指控 Grok 生成色情深伪防护不足",
-   "summary": "俄勒冈州和弗吉尼亚州总检察长周一分别起诉 SpaceX，指控其忽视行业标准防护并虚假宣传 X 平台和 Grok AI 的安全性，两案均寻求经济赔偿。诉讼核心指向 Grok Imagine：xAI 于 2025 年 8 月为该工具推出生成色情内容的 spicy 模式，2026 年 1 月又允许 X 用户无需同意即可编辑任意图片，导致非自愿色情深伪泛滥。",
-   "reason": "诉讼指控与 xAI 此后的限制改动同 X 安全团队的回应并列呈现，读者可以对比双方说法评估平台防护与监管压力。",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/vlxrimiuixb91iodhjh5hxmte",
-   "time": "11-24 02:26",
+   "url": "https://aihot.news/items/yz5va6l60tfkmdampmsiz0jq2",
+   "time": "11-24 18:58",
    "category": "industry"
   }
  ],
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-24 23:06",
+   "updateTime": "2026-11-25 06:41",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
      "title": "【火影十一年 神临时刻】漩涡鸣人[阳之力]即将登场！",
      "url": "https://www.bilibili.com/video/BV1qYyRz5EdM",
-     "hot": 2873450
-    },
-    {
-     "title": "“别人过得好 你就要扣自己的分吗”",
-     "url": "https://www.bilibili.com/video/BV1oSyJz1EiC",
-     "hot": 2494399
-    },
-    {
-     "title": "《蓝色星原：旅谣》涂山小玉PV | 一笺桃花",
-     "url": "https://www.bilibili.com/video/BV1j3yHznECD",
-     "hot": 1947278
-    },
-    {
-     "title": "【纪录片】蓝色星球 第三季 04 极地海洋",
-     "url": "https://www.bilibili.com/video/BV1qTst6BEN9",
-     "hot": 523442
-    },
-    {
-     "title": "【TF家族练习生】《第肆象限》演唱会纪录片EP01「向上」",
-     "url": "https://www.bilibili.com/video/BV19UySzZEc8",
-     "hot": 508486
+     "hot": 3168215
     },
     {
      "title": "同样是水果腌肉 为啥有人是“国宴” 有人是大型翻车现场？【主播说三农】",
      "url": "https://www.bilibili.com/video/BV1cpyXz5ETC",
-     "hot": 681264
+     "hot": 937501
     },
     {
-     "title": "我们成为英雄，哪怕只有一天",
-     "url": "https://www.bilibili.com/video/BV1ioyGzZET8",
-     "hot": 1489679
+     "title": "《蓝色星原：旅谣》涂山小玉PV | 一笺桃花",
+     "url": "https://www.bilibili.com/video/BV1j3yHznECD",
+     "hot": 2237729
+    },
+    {
+     "title": "【纪录片】蓝色星球 第三季 04 极地海洋",
+     "url": "https://www.bilibili.com/video/BV1qTst6BEN9",
+     "hot": 540788
+    },
+    {
+     "title": "你从未见过的硬核开箱视频！",
+     "url": "https://www.bilibili.com/video/BV1QAypzyE7B",
+     "hot": 1113609
+    },
+    {
+     "title": "华强等了宋老虎30年",
+     "url": "https://www.bilibili.com/video/BV1SFyDznEAZ",
+     "hot": 1261214
+    },
+    {
+     "title": "🐊“Bin哥，我一定会找到冠军皮肤的时间线的！”🐊",
+     "url": "https://www.bilibili.com/video/BV15iyXzvE4y",
+     "hot": 1240388
     },
     {
      "title": "这个草台班子的世界，比你想象的还要荒唐！",
      "url": "https://www.bilibili.com/video/BV1ngyZzoE8s",
-     "hot": 403525
+     "hot": 570765
     },
     {
-     "title": "bro开麦一直指挥自己...",
-     "url": "https://www.bilibili.com/video/BV1epy5zfE1k",
-     "hot": 890973
+     "title": "游戏自由度太高也不是什么好事",
+     "url": "https://www.bilibili.com/video/BV1NzyHzwEKB",
+     "hot": 2767949
     },
     {
-     "title": "刘晓艳：“你能考过就是「烂奇迹」”",
-     "url": "https://www.bilibili.com/video/BV1AZyEzpEAT",
-     "hot": 511015
+     "title": "【世界无用技能】据说这是德国最烧脑的综艺游戏😅~太抽象了🦆选鸭子选小球比谁滑远~超级策略游戏！",
+     "url": "https://www.bilibili.com/video/BV1rg1FzvEiP",
+     "hot": 337591
     },
     {
-     "title": "人类统一不爽行为",
-     "url": "https://www.bilibili.com/video/BV1c2yHz4EK4",
-     "hot": 1523310
+     "title": "全国前10黄金矿工都匹配在一起了！",
+     "url": "https://www.bilibili.com/video/BV1zXyvzfEB7",
+     "hot": 1713017
     },
     {
-     "title": "Claude证明了在任何域上VP≠VNP",
-     "url": "https://www.bilibili.com/video/BV1zKydzQERZ",
-     "hot": 548477
+     "title": "详解【来自深渊】的全部七层！动漫界独一份的超神设定",
+     "url": "https://www.bilibili.com/video/BV17NyJz2E5D",
+     "hot": 643871
     }
    ]
   }
@@ -743,38 +743,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "Anthropic上市不到一周跌破发行价",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizwfqy8843651.shtml",
+   "title": "以色列防长称伊朗正在研发化学武器",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwmww8814883.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "高德发布世界模型ABot-World 0.5，支持构建音画同步、可实时重塑的AI物理世界",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzia8926468.shtml",
+   "title": "美国5年期国债中标收益率高于发行前水平 直接投标人获配比例创新高",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwmwv2036841.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "影石官宣运动相机新品Ace Pro 3，将于12月1号发布",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzhz2145168.shtml",
+   "title": "美国财政部：特朗普账户已收到来自亲友的超过10亿美元直接缴款",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwmwt9819076.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "滴滴在全国14个城市举办司机节，升级司机保障计划3.0",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzhx9940584.shtml",
+   "title": "Stellantis因防抱死制动软件缺陷召回8.2万辆Ram卡车",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwmwt9818134.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "商汤发布SenseNova U1.6：美学得分较上一代提升约10%，实现原生图像自修正",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzhz2124966.shtml",
+   "title": "亿万富翁比尔·阿克曼警告：美联储“即将犯下另一个错误”",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwmwt9817859.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "小鹏发布图灵世界模型WorldGPT，可在水、陆、空三栖六类本体完成预测与行动规划",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzia8887219.shtml",
+   "title": "伊拉克据悉不认可OPEC+产能评估 产量目标谈判或添变数",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwmwz4584979.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "阿里健康中期业绩：收入182.28亿元 同比增长9.2%",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvzhx9922219.shtml",
+   "title": "归来后首次正式亮相 黄仁勋周二召开全体员工大会",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizwmwz4584033.shtml",
    "source": "新浪科技"
   }
  ]
