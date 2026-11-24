@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-24 08:15",
+ "updatedAt": "2026-11-24 15:59",
  "aihotHot": [
   {
    "rank": 1,
@@ -15,16 +15,16 @@ var WB_DATA = {
    "title": "智谱发布GLM-5.4旗舰模型并上线Coding Plan",
    "source": "公众号：智谱（GLM）",
    "url": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
-   "time": "11-24 03:11",
-   "sourceCount": 4
+   "time": "11-24 07:40",
+   "sourceCount": 5
   },
   {
    "rank": 3,
-   "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/crw4tsq5rknyz5r8urr18du0y",
-   "time": "11-24 02:42",
-   "sourceCount": 8
+   "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks",
+   "time": "11-24 08:02",
+   "sourceCount": 6
   },
   {
    "rank": 4,
@@ -32,39 +32,39 @@ var WB_DATA = {
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
    "time": "11-23 21:59",
-   "sourceCount": 4
-  },
-  {
-   "rank": 5,
-   "title": "Thinking Machines 开源循环模型 Inkling 2 Mini",
-   "source": "Thinking Machines Lab：News（网页）",
-   "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
-   "time": "11-24 05:39",
    "sourceCount": 3
   },
   {
+   "rank": 5,
+   "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/crw4tsq5rknyz5r8urr18du0y",
+   "time": "11-24 02:42",
+   "sourceCount": 8
+  },
+  {
    "rank": 6,
-   "title": "黄仁勋因婚外情风波辞任英伟达CEO，CFO临时接任",
-   "source": "NVIDIA：Newsroom（RSS）",
-   "url": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
-   "time": "11-22 08:47",
-   "sourceCount": 1
+   "title": "亚马逊75亿美元收购Decart大部分业务",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/eg97pyuem4incr7vpqsklw36v",
+   "time": "11-24 08:13",
+   "sourceCount": 2
   },
   {
    "rank": 7,
-   "title": "亚马逊以75亿美元收购Decart大部分业务",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/eg97pyuem4incr7vpqsklw36v",
-   "time": "11-24 01:14",
+   "title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
+   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+   "url": "https://aihot.news/items/cqa4xxyqgijjsna1t0wb290ix",
+   "time": "11-24 07:28",
    "sourceCount": 2
   },
   {
    "rank": 8,
-   "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks",
-   "time": "11-24 06:25",
-   "sourceCount": 4
+   "title": "美国商务部将新加坡Megaspeed列入实体清单",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/p4xkctditdd1tntt466jm8r0a",
+   "time": "11-24 05:48",
+   "sourceCount": 2
   },
   {
    "rank": 9,
@@ -76,14 +76,41 @@ var WB_DATA = {
   },
   {
    "rank": 10,
-   "title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航",
-   "source": "X：indigo (@indigox)",
-   "url": "https://aihot.news/items/xriwds9rtl5niekinxe2uwxsu",
-   "time": "11-23 07:40",
-   "sourceCount": 2
+   "title": "Ladybird浏览器发布首个Alpha版本",
+   "source": "Simon Willison 博客",
+   "url": "https://aihot.news/items/be8zm94btguaewsfvsbyels7i",
+   "time": "11-24 05:46",
+   "sourceCount": 1
   }
  ],
  "aihotItems": [
+  {
+   "title": "卡兹克分享两个优化用户体验和产品动效的 Prompt",
+   "summary": "数字生命卡兹克分享自己做产品时用的两个 Prompt，一个按用户体验至上的原则审查项目交互并直接修复，一个把项目动效做到细腻丝滑水准。要点包括让 Gemini 当方案顾问、按状态变化逐项审查动效，完成后让 GPT 审查再合并上线。",
+   "reason": "作者把自己做产品时审查用户体验和动效的完整 Prompt 原则直接公开，按状态变化找动效等思路可直接迁移到其他项目。",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/jb7ohptrc5ctyx9maoimz2hn0",
+   "time": "11-24 14:12",
+   "category": "tip"
+  },
+  {
+   "title": "MiniMax 发布 H3 Family 系列模型，H3 开源百日衍生模型达 1472 个、下载量超 1.48 亿次",
+   "summary": "MiniMax 推出 H3 Family，包含 H3、H3-Highspeed、H3-Lite、H3-Image、H3-Image Highspeed 等旗舰模型及 fal、Suno、HeyGen、Pika 等伙伴的多个扩展模型。",
+   "reason": "MiniMax 官方梳理了 H3 开源百天的生态数据与全系列模型的定位、价格和速度，便于按场景选型。",
+   "source": "公众号：MiniMax（稀宇科技）",
+   "url": "https://aihot.news/items/f1380j6hyrxn0rnz6666nu3b8",
+   "time": "11-24 10:11",
+   "category": "ai-products"
+  },
+  {
+   "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
+   "summary": "ChinaTalk 主持人 Jordan Schneider 邀请 Chris McGuire 与 Peter Harrell 紧急讨论 Nvidia 董事会在美国政府表态后一致恢复黄仁勋职务，以及美国商务部同日将 Megaspeed 列入实体清单。节目围绕出口管制执法、实体清单是否附加外国直接产品规则（FDPR）、国会相关立法（AI Overwatch、MATCH、RASA）的覆盖范围与局限，以及政策与股市波动之间的互动展开分析。",
+   "reason": "嘉宾来自美国外交关系委员会与乔治城大学，逐层拆解董事会复职决定背后的法律承诺、FDPR 缺失和监管漏洞，提供了不少可核验的政策细节。",
+   "source": "ChinaTalk（RSS）",
+   "url": "https://aihot.news/items/zto0pspydy8330r0bvwqb6j5z",
+   "time": "11-24 09:41",
+   "category": "industry"
+  },
   {
    "title": "Claude 推出插件，统一连接器与技能的接入方式",
    "summary": "Claude 官方宣布将连接器和技能合并为插件，提供统一的方式为 Claude 接入工具或教授新技能。插件已在 Free、Pro、Max 和 Ultra 套餐上线，Team 和 Enterprise 即将支持，用户可在 https://claude.ai/plugins 浏览 10,000 多个插件。",
@@ -164,33 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/pjpgapf3mbvmy98cywxhwf07n",
    "time": "11-24 00:59",
    "category": "paper"
-  },
-  {
-   "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
-   "summary": "a16z 联合 The Prompting Company 测试 Grok Bot、Muse、Instinct、Dots 等智能体在 1,270 条提示词、11,307 次完整运行中的购物表现，并比对 YipitData 消费数据。",
-   "reason": "基于 11,307 次 Agent 购物实测和 YipitData 消费数据，总结出商家被智能体选中的五条可操作规律。",
-   "source": "a16z：News（RSS）",
-   "url": "https://aihot.news/items/qkxvs90ewfu3k430sdefndv56",
-   "time": "11-23 23:04",
-   "category": "tip"
-  },
-  {
-   "title": "Wiz Research 披露 ARTEX 智能体攻击框架的真实云入侵案例",
-   "summary": "Wiz Research 发文介绍 ARTEX 等智能体攻击框架正在推动云入侵激增。文中分享了来自真实环境的案例，包括通过攻击操作者泄露的日志看到的一次攻击的双方视角、对 Black October 的更新，以及可捕捉这类嘈杂、机器速度攻击的检测方法。",
-   "reason": "Wiz Research 基于真实攻击案例和操作者泄露日志分析 ARTEX 等智能体攻击框架，读者可以据此了解这类机器速度攻击的检测思路。",
-   "source": "Wiz：Research（安全研究）",
-   "url": "https://aihot.news/items/gp8e9a8oitha0rbip8pzntuff",
-   "time": "11-23 22:46",
-   "category": "industry"
-  },
-  {
-   "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
-   "summary": "NVIDIA 于 11 月 23 日宣布黄仁勋即刻复任总裁、CEO 及董事会成员，董事会一致投票通过，临时 CEO Colette Kress 继续担任 CFO。复职决定参考了美国政府高层意见，董事会认为其不构成国家安全风险，此前因黄仁勋成为外国情报行动目标而启动的独立董事调查将继续进行，董事会另设国家安全与出口管制委员会并招聘首席合规官。",
-   "reason": "原文转引 NVIDIA 官方声明，交代了黄仁勋复职的过程和调查背景，读者可以了解事件的关键细节。",
-   "source": "X：X.PIN (@thexpin)",
-   "url": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l",
-   "time": "11-23 22:04",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -299,89 +299,84 @@ var WB_DATA = {
  "hotLists": {
   "weibo": {
    "name": "微博热搜",
-   "updateTime": "2026-11-24 08:15",
+   "updateTime": "2026-11-24 15:59",
    "url": "https://s.weibo.com/top/summary",
    "data": [
     {
-     "title": "黄仁勋复职原因",
-     "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E5%A4%8D%E8%81%8C%E5%8E%9F%E5%9B%A0",
-     "hot": 2562629
+     "title": "深圳感谢市民全妆出街",
+     "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E6%84%9F%E8%B0%A2%E5%B8%82%E6%B0%91%E5%85%A8%E5%A6%86%E5%87%BA%E8%A1%97",
+     "hot": 1105724
     },
     {
-     "title": "白小纯直播的礼物",
-     "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%E7%9B%B4%E6%92%AD%E7%9A%84%E7%A4%BC%E7%89%A9",
-     "hot": 1052936
+     "title": "BLG奖金收入断档第一",
+     "url": "https://s.weibo.com/weibo?q=BLG%E5%A5%96%E9%87%91%E6%94%B6%E5%85%A5%E6%96%AD%E6%A1%A3%E7%AC%AC%E4%B8%80",
+     "hot": 806370
     },
     {
-     "title": "E法同行向上向海",
-     "url": "https://s.weibo.com/weibo?q=E%E6%B3%95%E5%90%8C%E8%A1%8C%E5%90%91%E4%B8%8A%E5%90%91%E6%B5%B7",
-     "hot": 845633
+     "title": "中国经济电力十足",
+     "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%94%B5%E5%8A%9B%E5%8D%81%E8%B6%B3",
+     "hot": 634270
     },
     {
-     "title": "金价",
-     "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7",
-     "hot": 707773
+     "title": "张萌昨天才知道马天宇给她浪姐加油",
+     "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%90%8C%E6%98%A8%E5%A4%A9%E6%89%8D%E7%9F%A5%E9%81%93%E9%A9%AC%E5%A4%A9%E5%AE%87%E7%BB%99%E5%A5%B9%E6%B5%AA%E5%A7%90%E5%8A%A0%E6%B2%B9",
+     "hot": 631240
     },
     {
-     "title": "黄仁勋重返公司没有穿黑色皮衣",
-     "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E9%87%8D%E8%BF%94%E5%85%AC%E5%8F%B8%E6%B2%A1%E6%9C%89%E7%A9%BF%E9%BB%91%E8%89%B2%E7%9A%AE%E8%A1%A3",
-     "hot": 614747
+     "title": "内娱全女拍烂了都不如一部AI",
+     "url": "https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E5%85%A8%E5%A5%B3%E6%8B%8D%E7%83%82%E4%BA%86%E9%83%BD%E4%B8%8D%E5%A6%82%E4%B8%80%E9%83%A8AI",
+     "hot": 605965
     },
     {
-     "title": "猝死女教师每天在校超15个小时",
-     "url": "https://s.weibo.com/weibo?q=%E7%8C%9D%E6%AD%BB%E5%A5%B3%E6%95%99%E5%B8%88%E6%AF%8F%E5%A4%A9%E5%9C%A8%E6%A0%A1%E8%B6%8515%E4%B8%AA%E5%B0%8F%E6%97%B6",
-     "hot": 612974
+     "title": "杨毅谈杨瀚森空接得分",
+     "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E6%AF%85%E8%B0%88%E6%9D%A8%E7%80%9A%E6%A3%AE%E7%A9%BA%E6%8E%A5%E5%BE%97%E5%88%86",
+     "hot": 587316
     },
     {
-     "title": "文吉儿只是说话直白",
-     "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E5%8F%AA%E6%98%AF%E8%AF%B4%E8%AF%9D%E7%9B%B4%E7%99%BD",
-     "hot": 595149
+     "title": "黄仁勋向特朗普作出承诺",
+     "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E5%90%91%E7%89%B9%E6%9C%97%E6%99%AE%E4%BD%9C%E5%87%BA%E6%89%BF%E8%AF%BA",
+     "hot": 574138
     },
     {
-     "title": "特朗普把抵达深圳照片打印出来了",
-     "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E6%8A%8A%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3%E7%85%A7%E7%89%87%E6%89%93%E5%8D%B0%E5%87%BA%E6%9D%A5%E4%BA%86",
-     "hot": 499971
+     "title": "美队儿子颜值",
+     "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E9%98%9F%E5%84%BF%E5%AD%90%E9%A2%9C%E5%80%BC",
+     "hot": 558210
     },
     {
-     "title": "黄仁勋恢复英伟达CEO职务",
-     "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E6%81%A2%E5%A4%8D%E8%8B%B1%E4%BC%9F%E8%BE%BECEO%E8%81%8C%E5%8A%A1",
-     "hot": 420844
+     "title": "大学生坠亡两天室友因一本书发现",
+     "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%9D%A0%E4%BA%A1%E4%B8%A4%E5%A4%A9%E5%AE%A4%E5%8F%8B%E5%9B%A0%E4%B8%80%E6%9C%AC%E4%B9%A6%E5%8F%91%E7%8E%B0",
+     "hot": 537058
     },
     {
-     "title": "复联5版复仇者集结",
-     "url": "https://s.weibo.com/weibo?q=%E5%A4%8D%E8%81%945%E7%89%88%E5%A4%8D%E4%BB%87%E8%80%85%E9%9B%86%E7%BB%93",
-     "hot": 420293
+     "title": "伊森大风车扣篮变五大囧",
+     "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%A3%AE%E5%A4%A7%E9%A3%8E%E8%BD%A6%E6%89%A3%E7%AF%AE%E5%8F%98%E4%BA%94%E5%A4%A7%E5%9B%A7",
+     "hot": 533024
     },
     {
-     "title": "白小纯真的交了很多好朋友",
-     "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%E7%9C%9F%E7%9A%84%E4%BA%A4%E4%BA%86%E5%BE%88%E5%A4%9A%E5%A5%BD%E6%9C%8B%E5%8F%8B",
-     "hot": 419609
+     "title": "贾静雯 修杰楷",
+     "url": "https://s.weibo.com/weibo?q=%E8%B4%BE%E9%9D%99%E9%9B%AF%20%E4%BF%AE%E6%9D%B0%E6%A5%B7",
+     "hot": 503783
     },
     {
-     "title": "陈伟霆尺度太大只能选在澳门了",
-     "url": "https://s.weibo.com/weibo?q=%E9%99%88%E4%BC%9F%E9%9C%86%E5%B0%BA%E5%BA%A6%E5%A4%AA%E5%A4%A7%E5%8F%AA%E8%83%BD%E9%80%89%E5%9C%A8%E6%BE%B3%E9%97%A8%E4%BA%86",
-     "hot": 419276
+     "title": "林智妍李到晛分手",
+     "url": "https://s.weibo.com/weibo?q=%E6%9E%97%E6%99%BA%E5%A6%8D%E6%9D%8E%E5%88%B0%E6%99%9B%E5%88%86%E6%89%8B",
+     "hot": 493691
     }
    ]
   },
   "zhihu": {
    "name": "知乎热榜",
-   "updateTime": "2026-11-24 08:15",
+   "updateTime": "2026-11-24 15:59",
    "url": "https://www.zhihu.com/hot",
    "data": [
     {
-     "title": "骑手一句「treetree的」带火披萨店炸鸡，老板直言爆单做不过来，为啥此类视频能迅速调起大众购买欲？",
-     "url": "https://www.zhihu.com/question/2108166891873072954",
+     "title": "美股集体大幅收高，英伟达暴涨超31%，单日市值大增9500亿美元创全球纪录，如何理解？行情能持续多久？",
+     "url": "https://www.zhihu.com/question/2108463757307240853",
      "hot": ""
     },
     {
-     "title": "懂车帝回应「测试内容大调整」，称不再开放对比类内容等信息失实，具体是怎么回事？实际有哪些调整？",
-     "url": "https://www.zhihu.com/question/2108257367678613356",
-     "hot": ""
-    },
-    {
-     "title": "U17世界杯小组赛，中国U17男足补时读秒阶段遭绝平，最终2比2摩洛哥，怎样评价本场比赛？",
-     "url": "https://www.zhihu.com/question/2108346189238067728",
+     "title": "淘股吧两届冠军仅5个月就从1541万亏到74万，最后宣告破产，一代炒股冠军的陨落带给投资者哪些反思？",
+     "url": "https://www.zhihu.com/question/2108201156111327398",
      "hot": ""
     },
     {
@@ -390,23 +385,8 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "Digital Foundry 称《GTA6》即便高端 PC 也难稳 60 帧，其核心瓶颈要如何解决？",
-     "url": "https://www.zhihu.com/question/2107441603245876469",
-     "hot": ""
-    },
-    {
-     "title": "黄仁勋称将以最大的谦卑和新的承诺承担这一责任，英伟达接下来将怎样发展？此前的策略会发生变化吗？",
-     "url": "https://www.zhihu.com/question/2108335183820579086",
-     "hot": ""
-    },
-    {
-     "title": "汽车明显在增多，为啥有的洗车店却干不下去了？",
-     "url": "https://www.zhihu.com/question/541903869",
-     "hot": ""
-    },
-    {
-     "title": "《后会友期》第六期马天宇爆哭，他的问题好像和友情无关了，他不能和任何人建立亲密关系，根本问题是什么？",
-     "url": "https://www.zhihu.com/question/2107131481713815700",
+     "title": "神舟二十四号载人飞船瞄准11月25日8时18分发射，「天宫」将迎来首位外籍航天员，有哪些信息值得关注？",
+     "url": "https://www.zhihu.com/question/2108486612505949389",
      "hot": ""
     },
     {
@@ -415,18 +395,38 @@ var WB_DATA = {
      "hot": ""
     },
     {
-     "title": "为什么大便之前体重和大便之后的体重一样？难道排泄物没有重量吗？",
-     "url": "https://www.zhihu.com/question/2105195950671245354",
+     "title": "黄仁勋辞任后 11 天被全票请回，这波极限拉扯到底谁输谁赢？这次回归，他真能就此高枕无忧吗？",
+     "url": "https://www.zhihu.com/question/2108357079689860788",
      "hot": ""
     },
     {
-     "title": "你觉得地暖好还是暖气片好？",
-     "url": "https://www.zhihu.com/question/1900096168882569237",
+     "title": "魏建军自曝这几年焦虑，称「长城汽车曾经是中国自主品牌的销冠，如今已滑到了第九」，你觉得问题出在哪？",
+     "url": "https://www.zhihu.com/question/2108263058791571653",
      "hot": ""
     },
     {
-     "title": "如何看待俄海军20380型护卫舰「水星」号在利比亚班加西港遭袭起火爆炸，泽连斯基证实系乌方无人艇击沉？",
-     "url": "https://www.zhihu.com/question/2107987555467654398",
+     "title": "某部委员工与间谍签署「保密与忠诚」条款、窃取百余份情报被判死刑，哪些信息值得关注？",
+     "url": "https://www.zhihu.com/question/2108143417800615253",
+     "hot": ""
+    },
+    {
+     "title": "《后会友期》第六期马天宇爆哭，他的问题好像和友情无关了，他不能和任何人建立亲密关系，根本问题是什么？",
+     "url": "https://www.zhihu.com/question/2107131481713815700",
+     "hot": ""
+    },
+    {
+     "title": "《GTA6》官宣首日零售销售额37.9亿美元、预售3250万份，这个成绩是什么水平？",
+     "url": "https://www.zhihu.com/question/2107430348179218870",
+     "hot": ""
+    },
+    {
+     "title": "《复仇者联盟 5》最终预告放出，复联、神奇四侠、X战警齐聚，众多新老角色现身决战，对此你有怎样的期待？",
+     "url": "https://www.zhihu.com/question/2108328376914154056",
+     "hot": ""
+    },
+    {
+     "title": "据我所知，韩国兵役人人避之不及，这种制度真的能培养出有战斗力的部队吗？",
+     "url": "https://www.zhihu.com/question/2106499364415857543",
      "hot": ""
     }
    ]
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-24 08:15",
+   "updateTime": "2026-11-24 15:59",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "黄仁勋恢复原职，美股大涨7%，英伟达盘前暴涨31%，适才相戏耳，特朗普力挺是关键",
-     "url": "https://www.bilibili.com/video/BV1CVyXzJEab",
-     "hot": 601954
+     "title": "【火影十一年 神临时刻】漩涡鸣人[阳之力]即将登场！",
+     "url": "https://www.bilibili.com/video/BV1qYyRz5EdM",
+     "hot": 1325791
     },
     {
      "title": "“别人过得好 你就要扣自己的分吗”",
      "url": "https://www.bilibili.com/video/BV1oSyJz1EiC",
-     "hot": 553366
+     "hot": 1202276
     },
     {
-     "title": "对质",
-     "url": "https://www.bilibili.com/video/BV1szyHzwEg9",
-     "hot": 741402
+     "title": "《蓝色星原：旅谣》涂山小玉PV | 一笺桃花",
+     "url": "https://www.bilibili.com/video/BV1j3yHznECD",
+     "hot": 638965
     },
     {
-     "title": "2026-2027国创动画作品发布会 全程回顾",
-     "url": "https://www.bilibili.com/video/BV17pWu6QEkp",
-     "hot": 2931429
+     "title": "【纪录片】蓝色星球 第三季 04 极地海洋",
+     "url": "https://www.bilibili.com/video/BV1qTst6BEN9",
+     "hot": 370547
     },
     {
-     "title": "我想回家吃饭（两小时大电影）",
-     "url": "https://www.bilibili.com/video/BV1LoyGzZEX8",
-     "hot": 1014076
+     "title": "《明日方舟：终末地》干员叙事 [小刻：很新的旅程]",
+     "url": "https://www.bilibili.com/video/BV1aoyQzwEx9",
+     "hot": 640706
     },
     {
      "title": "你从未见过的硬核开箱视频！",
      "url": "https://www.bilibili.com/video/BV1QAypzyE7B",
-     "hot": 318054
+     "hot": 767023
     },
     {
-     "title": "⚡【神金斗罗】史上最神人斗罗同人1-10集大合集⚡",
-     "url": "https://www.bilibili.com/video/BV1GGy7zPEzZ",
-     "hot": 340252
+     "title": "🐊“Bin哥，我一定会找到冠军皮肤的时间线的！”🐊",
+     "url": "https://www.bilibili.com/video/BV15iyXzvE4y",
+     "hot": 533140
     },
     {
-     "title": "黄仁勋正式回归英伟达：恢复全部职务｜显卡日报11月24日",
-     "url": "https://www.bilibili.com/video/BV1mTyXzWEdv",
-     "hot": 419947
+     "title": "我们成为英雄，哪怕只有一天",
+     "url": "https://www.bilibili.com/video/BV1ioyGzZET8",
+     "hot": 1121288
     },
     {
-     "title": "近十年最好的推理系列剧集之一！神级转场，爆火开头，悬疑神剧高分回归系列最终章！《大理石厅谋杀案》上",
-     "url": "https://www.bilibili.com/video/BV1hkynzgEnR",
-     "hot": 450652
+     "title": "我想回家吃饭（两小时大电影）",
+     "url": "https://www.bilibili.com/video/BV1LoyGzZEX8",
+     "hot": 1772443
     },
     {
-     "title": "【灵笼:落子无悔】纵入存亡之局，亦落无悔之子【PV】",
-     "url": "https://www.bilibili.com/video/BV1M6sm6mE9b",
-     "hot": 1026937
+     "title": "【记忆碎片】要长脑子了",
+     "url": "https://www.bilibili.com/video/BV1JZsi6iEiE",
+     "hot": 315965
     },
     {
-     "title": "【小跳蛙】|“【跳蛙の小曲】”",
-     "url": "https://www.bilibili.com/video/BV1rryhzDEy8",
-     "hot": 2380121
+     "title": "华强等了宋老虎30年",
+     "url": "https://www.bilibili.com/video/BV1SFyDznEAZ",
+     "hot": 742200
     },
     {
-     "title": "同样是牛奶，凭啥一个保15天，一个能放三个月？",
-     "url": "https://www.bilibili.com/video/BV1LwyVzsETP",
-     "hot": 723260
+     "title": "人类统一不爽行为",
+     "url": "https://www.bilibili.com/video/BV1c2yHz4EK4",
+     "hot": 814032
     }
    ]
   }
@@ -718,28 +718,13 @@ var WB_DATA = {
  ],
  "techNews": [
   {
-   "title": "“数学进入了一个新纪元”：丘成桐等三位数学家回应AI辅助证明黎曼猜想",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-23/doc-inizskhn2381163.shtml",
+   "title": "黄仁勋打赢复活赛！离职11天，华尔街快扛不住了",
+   "url": "https://finance.sina.com.cn/stock/2026-11-24/doc-inizutpk1953771.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "刚刚，OpenAI首次公开预训练核心指标",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-11-23/doc-inizskhk5580620.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "掉队的“户外鼻祖”，在下一盘险棋",
-   "url": "https://finance.sina.com.cn/tech/roll/2026-11-23/doc-inizsqqk2289550.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "中国AI刷爆全球纪录！比Claude快四万倍，多个密码学难题被破解",
-   "url": "https://finance.sina.com.cn/wm/2026-11-23/doc-inizskhq8466652.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "“历史性成就”还是“数学将终结”？AI破解黎曼猜想引发震动",
-   "url": "https://finance.sina.com.cn/roll/2026-11-23/doc-inizskhs0777270.shtml",
+   "title": "黎曼猜想 被AI“证明”之后",
+   "url": "https://finance.sina.com.cn/roll/2026-11-24/doc-inizutph5145960.shtml",
    "source": "新浪科技"
   },
   {
@@ -748,33 +733,48 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "操盘必读：影响股市利好或利空消息_2026年11月24日_财经新闻",
-   "url": "https://finance.sina.com.cn/stock/cpbd/2026-11-24/doc-inizutpk1919142.shtml",
+   "title": "宇树\"全栈自研\"，到底自研了个啥？拆完那台 8.5 万的 G1，我有点改观",
+   "url": "https://finance.sina.com.cn/roll/2026-11-24/doc-inizutpk1922832.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "股海导航_2026年11月24日_沪深股市公告与交易提示",
-   "url": "https://finance.sina.com.cn/stock/s/2026-11-24/doc-inizutpn7852287.shtml",
+   "title": "刚刚，Claude Ship发布！AI自己写代码、审PR，连批准都接管了",
+   "url": "https://finance.sina.com.cn/tech/roll/2026-11-24/doc-inizutpk1917536.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "四大证券报头版头条内容精华摘要_2026年11月24日_财经新闻",
-   "url": "https://finance.sina.com.cn/stock/y/2026-11-24/doc-inizutph5137550.shtml",
+   "title": "余承东宣布鸿蒙终端设备数突破1亿：很激动，也很感慨，鸿蒙生态越过了规模临界点",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvqth8938893.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "大宗商品综述：油价跌 伊朗紧张局势暂缓 金价反弹 锡领涨基本金属",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizupfk5237765.shtml",
+   "title": "拜耳暗示未来制药交易或更多瞄准临床试验中期资产",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmh0133496.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "11月24日隔夜要闻：美股反弹 中概普涨 油价下跌 黄仁勋戏剧性重返英伟达 AI股票随涨 Anthropic收跌",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizupfs0280256.shtml",
+   "title": "OceanBase CEO杨冰谈海外业务：明年营收至少是100%以上的增长",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvkmh0128000.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美国股市：美股上演惊人反弹 黄仁勋回归点燃科技股涨势",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizupfn2004725.shtml",
+   "title": "华为Mate X8发布：全系搭载麒麟9050 Pro芯片，售价12999元起",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvkme7795702.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "黄仁勋重返英伟达CEO职位后台积电单日市值暴增1580亿美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-24/doc-inizvkmi2269113.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "银河通用创始人王鹤：具身智能最关键的是“让产业转起来”，在边缘端“100%成功”部署",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvkmk9032375.shtml",
+   "source": "新浪科技"
+  },
+  {
+   "title": "自变量机器人与马来西亚国家邮政签署合作备忘录，探索物流分拣智能化路径",
+   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-24/doc-inizvkmi2237913.shtml",
    "source": "新浪科技"
   }
  ]
