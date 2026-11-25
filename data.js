@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-25 14:36",
+ "updatedAt": "2026-11-25 22:46",
  "aihotHot": [
   {
    "rank": 1,
@@ -8,39 +8,39 @@ var WB_DATA = {
    "source": "X：X.PIN (@thexpin)",
    "url": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l",
    "time": "11-24 04:46",
-   "sourceCount": 6
+   "sourceCount": 2
   },
   {
    "rank": 2,
-   "title": "智谱发布GLM-5.4旗舰模型，采用循环Transformer架构",
-   "source": "公众号：智谱（GLM）",
-   "url": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
-   "time": "11-24 07:40",
-   "sourceCount": 4
-  },
-  {
-   "rank": 3,
-   "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-   "time": "11-25 05:43",
-   "sourceCount": 3
-  },
-  {
-   "rank": 4,
    "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR",
    "source": "Claude：Blog（网页）",
    "url": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks",
-   "time": "11-25 07:07",
+   "time": "11-25 15:30",
    "sourceCount": 7
   },
   {
-   "rank": 5,
+   "rank": 3,
    "title": "Anthropic 上市首日涨 17%，一周内跌破发行价",
    "source": "Anthropic：Newsroom（网页）",
    "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
    "time": "11-25 11:29",
    "sourceCount": 3
+  },
+  {
+   "rank": 4,
+   "title": "智谱发布GLM-5.4旗舰模型，采用循环Transformer架构",
+   "source": "公众号：智谱（GLM）",
+   "url": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
+   "time": "11-24 07:40",
+   "sourceCount": 3
+  },
+  {
+   "rank": 5,
+   "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
+   "time": "11-25 21:54",
+   "sourceCount": 6
   },
   {
    "rank": 6,
@@ -52,11 +52,11 @@ var WB_DATA = {
   },
   {
    "rank": 7,
-   "title": "亚马逊约75亿美元收购Decart技术与团队",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/eg97pyuem4incr7vpqsklw36v",
-   "time": "11-24 23:51",
-   "sourceCount": 2
+   "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
+   "time": "11-25 05:43",
+   "sourceCount": 3
   },
   {
    "rank": 8,
@@ -68,22 +68,58 @@ var WB_DATA = {
   },
   {
    "rank": 9,
-   "title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
-   "source": "X：Tibo (@thsottiaux)",
-   "url": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
-   "time": "11-24 22:16",
-   "sourceCount": 3
+   "title": "Tidal将于12月9日起下架纯AI生成音乐",
+   "source": "The Verge：AI（RSS）",
+   "url": "https://aihot.news/items/fsuuia07co9foiuxxt7ff8fog",
+   "time": "11-25 06:41",
+   "sourceCount": 5
   },
   {
    "rank": 10,
-   "title": "OpenAI公布GPT-6.2蛋白质设计湿实验验证结果",
-   "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-   "url": "https://aihot.news/items/yg04c9d5qnwzitqstg19c6ow2",
-   "time": "11-25 06:44",
+   "title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口",
+   "source": "X：Tibo (@thsottiaux)",
+   "url": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
+   "time": "11-25 17:41",
    "sourceCount": 3
   }
  ],
  "aihotItems": [
+  {
+   "title": "OpenClaw 2026.11.10 发布，新增 Deep Research、Knowledge 记忆系统与 Browser handoff",
+   "summary": "OpenClaw 发布 2026.11.10 版本，新增聊天内 Deep Research、新的 OpenClaw 记忆系统 Knowledge，以及 Browser handoff 功能。本次版本包含 7,671 个 PR、349 位贡献者，完整说明见 https://docs.openclaw.ai/releases/2026.11.10。",
+   "reason": "官方版本发布，列出 Deep Research、记忆系统和浏览器交接三项新能力，读者可据此评估是否升级。",
+   "source": "X：OpenClaw (@openclaw)",
+   "url": "https://aihot.news/items/vz3bvc1o7zuki3x2zw8lnnv78",
+   "time": "11-25 22:05",
+   "category": "ai-products"
+  },
+  {
+   "title": "面壁智能等发布 EVIL 基准，测出 GPT-4o 等模型在违法场景下安全率不足",
+   "summary": "面壁智能（OpenBMB）团队在 Nature Communications 发表 EVIL 研究，基于中美数千真实判例构建 269 个违法场景 × 50 种违法意图，测试 10 个前沿模型。多数模型安全率低于 75%，GPT-4o 在两种法律语境下均低于 60%，近半违法请求会获得协助；带特定人口身份暗示的请求更易得到协助，用现有安全对齐数据做 SFT 和 DPO 不能修复，某些设置下反而加重。",
+   "reason": "原文用真实判例构建 EVIL 基准并实测 10 个前沿模型，给出了安全率数字和现有对齐方法失效的证据。",
+   "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+   "url": "https://aihot.news/items/ogucsvlqrdr1rvfh5nvx757cx",
+   "time": "11-25 21:00",
+   "category": "paper"
+  },
+  {
+   "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片转运调查",
+   "summary": "TechCrunch 分析指出，黄仁勋回归 Nvidia CEO 后，公司仍面临多方调查：新加坡数据中心运营商 Megaspeed 被指将先进 GPU 违反美国出口管制转运至中国，美国司法部 2024 年启动调查，新加坡 2025 年也展开类似调查。调查核心在于 Nvidia 对芯片最终流向的了解程度，以及黄仁勋与 Megaspeed 高管的关系是否影响合规判断。美国司法部表示 Nvidia 并非调查目标，但加州总检察长、美国证券交易委员会及国会多个委员会仍在推进相关问询。Nvidia 表示将停止向中国销售许可芯片，并计划设立首席合规官及董事会出口管制委员会。",
+   "reason": "文章梳理了 Nvidia 在 Megaspeed 芯片转运指控中面临的多方调查，以及黄仁勋回归后仍未解除的合规与披露风险。",
+   "source": "TechCrunch：AI（RSS）",
+   "url": "https://aihot.news/items/kzwj96fvnn3whzvnhqdvsh830",
+   "time": "11-25 21:00",
+   "category": "industry"
+  },
+  {
+   "title": "Claude Code 团队发布实用指南讲解 Claude Ship 的 PR 审查与守护用法",
+   "summary": "Anthropic Claude Code 团队刚推出 Claude Ship，包含三个智能体：Code Review（已全面开放）、PR Steward 和 Claude Approvals（beta），可审查 PR、处理失败 CI、合并冲突和审查意见，并按仓库策略文件批准常规改动。",
+   "reason": "Claude Code 团队成员亲自梳理了 PR 后续流程的三个智能体分工和落地步骤，开发者可按需迁移到自己的仓库。",
+   "source": "X：Addy Osmani (@addyosmani)",
+   "url": "https://aihot.news/items/uyodjb16jngloilypsm1d3q0d",
+   "time": "11-25 15:30",
+   "category": "tip"
+  },
   {
    "title": "MIT 与 Microsoft 论文：GitHub Copilot 使初级软件工程师招聘下降约 40%",
    "summary": "MIT 和 Microsoft 的新论文《AI-Assisted Programming and Labor Demand》利用 5,414 家跨国公司（覆盖 38% 美国程序员）的 GitHub 合同审查时点构造自然实验，估计 Copilot 采用对劳动力需求的影响。",
@@ -155,42 +191,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/yg04c9d5qnwzitqstg19c6ow2",
    "time": "11-24 21:00",
    "category": "paper"
-  },
-  {
-   "title": "Claude 推出 Install as app：artifacts 可安装为 Mac 和 Windows 桌面应用",
-   "summary": "Anthropic 在 Mac 和 Windows 版 Claude 中以 beta 形式推出 Install as app，artifacts 可创建、运行并分享为独立桌面应用，拥有自己的图标和窗口，底层 artifact 更新时应用自动同步。",
-   "reason": "原文给出三级权限机制和各套餐开放方式，读者可以据此判断是否在工作流中启用 artifacts 桌面应用。",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/zcpto4b7qb8sr6v6n223kd2sx",
-   "time": "11-24 08:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Cognition 发布 SWE-2.1 及高速版 SWE-2.1 Lightning",
-   "summary": "Cognition 发布 SWE-2.1，基于 Kimi K3 纯强化学习训练，在 FrontierCode 2.0、Terminal-Bench 4.1 等基准上较 SWE-2 大幅提升，ExploitBench 达 80%、ExploitGym 捕获 27.3% flags，网络安全能力显著增强。",
-   "reason": "原文给出 ExploitBench、ExploitGym 等具体成绩和训练安全措施，还附基准方法细节，便于评估其实际能力边界。",
-   "source": "Cognition 模型 / Devin 博客（网页）",
-   "url": "https://aihot.news/items/gflb0kkwzma61spkzpp1uxmrk",
-   "time": "11-24 00:00",
-   "category": "ai-models"
-  },
-  {
-   "title": "Anthropic 上市不到一周跌破 83 美元发行价",
-   "summary": "Anthropic 于 11 月 24 日首次跌破每股 83 美元的 IPO 发行价，收报 81.91 美元，单日下跌 6.54%，盘中最低约 76 美元，较上市首日高点回撤约 34%，路透社测算其市值一度面临蒸发近 2,000 亿美元的压力。",
-   "reason": "原文汇总了 Anthropic 破发的具体价位、回撤幅度和同期科技股表现，可帮助读者了解这轮 AI 估值回调的背景。",
-   "source": "IT之家·人工智能",
-   "url": "https://aihot.news/items/yhlpti07v4y216qat3ml1qmca",
-   "time": "11-25 11:29",
-   "category": "industry"
-  },
-  {
-   "title": "Google Workspace MCP servers 与 gwscli 正式发布，Personal 模式一键开通",
-   "summary": "Philipp Schmid 宣布 Google Workspace MCP servers 与 gwscli 正式 GA，新增 Personal 模式一键开通，无需 Enterprise 计划或绑卡。共 8 个 server 覆盖 Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat、Tasks，免费档为每产品每天 5,000 次请求，发送和分享内置 HITL 确认。他提到仍需经过 Google Cloud，但比旧的 OAuth 同意屏和应用审核流程好得多，欢迎试用反馈。",
-   "reason": "作者来自 Google DeepMind 开发者体验团队，说明了 Personal 模式的免企业开通方式和各服务免费额度，可据此评估是否接入工作流。",
-   "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-   "url": "https://aihot.news/items/nm8mi41auemid3iivue4tel3d",
-   "time": "11-25 02:32",
-   "category": "ai-products"
   }
  ],
  "aiDaily": {
@@ -634,68 +634,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-25 14:37",
+   "updateTime": "2026-11-25 22:46",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《狩》首曝PV&实机演示丨动作要秀，有狩就行！",
-     "url": "https://www.bilibili.com/video/BV1931AzhE1q",
-     "hot": 1808987
+     "title": "西（部）游记 5",
+     "url": "https://www.bilibili.com/video/BV1c7yzzgENf",
+     "hot": 508165
     },
     {
      "title": "《绝区零》挽昼角色展示 | 日陨之前",
      "url": "https://www.bilibili.com/video/BV1esyZz7ExF",
-     "hot": 494463
+     "hot": 1195122
     },
     {
-     "title": "决赛练英雄？选皮肤原则大公开！BLG冠军中野亲自讲述夺冠故事【视频播客 | 元来如此 EP.10】",
-     "url": "https://www.bilibili.com/video/BV1qByfz4EjN",
-     "hot": 339404
+     "title": "《狩》首曝PV&实机演示丨动作要秀，有狩就行！",
+     "url": "https://www.bilibili.com/video/BV1931AzhE1q",
+     "hot": 4872776
     },
     {
      "title": "【李诗雅】属于李诗雅的故事，即将展开【PV】",
      "url": "https://www.bilibili.com/video/BV1S6sm6mEEU",
-     "hot": 216067
-    },
-    {
-     "title": "《异环》Exe角色PV丨追杀计数",
-     "url": "https://www.bilibili.com/video/BV1wYsq6kEeg",
-     "hot": 598483
-    },
-    {
-     "title": "美国10岁男孩为救亲妈，开枪爆头16岁少女邻居",
-     "url": "https://www.bilibili.com/video/BV1EGydzmEFx",
-     "hot": 1741224
-    },
-    {
-     "title": "【世界无用技能】据说这是德国最烧脑的综艺游戏😅~太抽象了🦆选鸭子选小球比谁滑远~超级策略游戏！",
-     "url": "https://www.bilibili.com/video/BV1rg1FzvEiP",
-     "hot": 1116565
-    },
-    {
-     "title": "同样是水果腌肉 为啥有人是“国宴” 有人是大型翻车现场？【主播说三农】",
-     "url": "https://www.bilibili.com/video/BV1cpyXz5ETC",
-     "hot": 1860610
-    },
-    {
-     "title": "🚢\"泰坦鲁克号\"🛳️",
-     "url": "https://www.bilibili.com/video/BV1R1yfzQEih",
-     "hot": 440396
-    },
-    {
-     "title": "极客湾手机影像大横评：哪家手机拍照强？",
-     "url": "https://www.bilibili.com/video/BV1c5yzzGEL9",
-     "hot": 184656
-    },
-    {
-     "title": "【2026·12月电脑配置推荐】爆肝2万字！不恰饭！教你性价比装机，2000~3W预算共20套性价比电脑配置，全实拍实测，小白建议收藏！",
-     "url": "https://www.bilibili.com/video/BV1P3yzz5Ea6",
-     "hot": 75785
+     "hot": 280382
     },
     {
      "title": "153分钟超长大合集！【末日来临，我从吃丧尸开始成神！】第1季+第2季完整版【AI全民制作人】",
      "url": "https://www.bilibili.com/video/BV16nyXzyEuQ",
-     "hot": 457924
+     "hot": 781055
+    },
+    {
+     "title": "【我在现代当幽差】：守护",
+     "url": "https://www.bilibili.com/video/BV1bFyzzQEWp",
+     "hot": 1063382
+    },
+    {
+     "title": "Welcome Back Home, Zeus.",
+     "url": "https://www.bilibili.com/video/BV1SryzzXEgy",
+     "hot": 677655
+    },
+    {
+     "title": "去了一趟纽约。",
+     "url": "https://www.bilibili.com/video/BV1tCyzzpEB6",
+     "hot": 358625
+    },
+    {
+     "title": "手刃身边人",
+     "url": "https://www.bilibili.com/video/BV1igykzrEJG",
+     "hot": 151750
+    },
+    {
+     "title": "【仙剑奇侠传四】青鸾风起，共赴人间【动画PV】",
+     "url": "https://www.bilibili.com/video/BV1Vhsm69EEZ",
+     "hot": 215686
+    },
+    {
+     "title": "🚢\"泰坦鲁克号\"🛳️",
+     "url": "https://www.bilibili.com/video/BV1R1yfzQEih",
+     "hot": 1004081
+    },
+    {
+     "title": "笑够我了吗...？",
+     "url": "https://www.bilibili.com/video/BV1XTyfzmEc5",
+     "hot": 206657
     }
    ]
   }
@@ -743,38 +743,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "Anthropic抢先上市，OpenAI境遇艰难",
-   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizxpkk8655698.shtml",
+   "title": "美联储青睐的通胀指标10月上升，市场预期美联储下月加息",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizykpv9358143.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "新版可口可乐不再标生产日期?官方客服：属实，正处于新旧标签切换过渡期，可能出现新老包装并存情况",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-25/doc-inizxpkf9573187.shtml",
+   "title": "美国运输安全管理局：预计感恩节周将有近1800万航空旅客",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizykpv9356347.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "比亚迪折叠方向盘量产上车：历时八年研发，累计完成9.6万次耐久试验",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-25/doc-inizxpkk8641713.shtml",
+   "title": "OBSBOT寻影十周年：让影像成为每个人自由表达的语言",
+   "url": "https://finance.sina.com.cn/tech/digi/dc/n/2026-11-25/doc-inizyeha8560447.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "Sand.ai发布MAGI-2：AA榜全球第一，价格仅为Seedance2.5 1/10",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-25/doc-inizxpkf9563675.shtml",
+   "title": "BOSS直聘：2026年第三季度营收24.16亿元，同比上涨11.7%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizyefx9448898.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "新世代BMW iX3正式上市并开启交付：搭载新一代BMW智能驾驶辅助系统，售价26.99万元起",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-25/doc-inizxpkf9561340.shtml",
+   "title": "拓竹发布第三代3D打印机P3C，七头闪切支持装下叠色、柔性、多工艺全套能力",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizyehf4224368.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "因药品质量不合规，复星医药子公司被暂停集采申报资格18个月",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-25/doc-inizxpkk8606967.shtml",
+   "title": "众擎机器人发布智慧巡检行业方案，机器人可自主巡检消防设施并生成报告",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizyefz1761861.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "比亚迪第三代唐上市：搭载线控数字底盘，售价18.79万元起",
-   "url": "https://finance.sina.com.cn/tech/2026-11-25/doc-inizxpki1803648.shtml",
+   "title": "蔚来总裁秦力洪：当价格战打不动时，长期价值会重新回到舞台中心",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizyefz1757190.shtml",
    "source": "新浪科技"
   }
  ]
