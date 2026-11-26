@@ -1,49 +1,41 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-26 22:10",
+ "updatedAt": "2026-11-27 05:50",
  "aihotHot": [
   {
    "rank": 1,
    "title": "FCC批准SpaceX部署百万颗AI卫星",
-   "source": "The Verge：AI（RSS）",
-   "url": "https://aihot.news/items/jn299ef1fht5fbf4q4h28uoja",
-   "time": "11-26 01:44",
-   "sourceCount": 1
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/oysonctc1s0cizth9lunf32y5",
+   "time": "11-26 21:41",
+   "sourceCount": 2
   },
   {
    "rank": 2,
-   "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
-   "time": "11-26 09:13",
-   "sourceCount": 7
-  },
-  {
-   "rank": 3,
    "title": "OpenAI修复GPT-6.2计费错误并补偿用户",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/reedvq9m1fb7xktmvk0dnqqpk",
-   "time": "11-26 15:26",
-   "sourceCount": 1
+   "time": "11-27 01:28",
+   "sourceCount": 2
+  },
+  {
+   "rank": 3,
+   "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
+   "time": "11-27 01:11",
+   "sourceCount": 7
   },
   {
    "rank": 4,
-   "title": "Claude artifacts 可安装为 Mac 和 Windows 桌面应用",
-   "source": "Claude：Blog（网页）",
-   "url": "https://aihot.news/items/zcpto4b7qb8sr6v6n223kd2sx",
-   "time": "11-25 08:56",
+   "title": "Nvidia 暂停向东南亚四国发运服务器",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/rlt60gq96bl1cf5b88o8rbj30",
+   "time": "11-27 04:03",
    "sourceCount": 3
   },
   {
    "rank": 5,
-   "title": "Nvidia 暂停向东南亚四国发运服务器",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/rlt60gq96bl1cf5b88o8rbj30",
-   "time": "11-26 19:21",
-   "sourceCount": 2
-  },
-  {
-   "rank": 6,
    "title": "杨立昆指阿莫迪炒作AI危险论，阿莫迪否认",
    "source": "X：Elon Musk (@elonmusk, xAI)",
    "url": "https://aihot.news/items/e6gp31eup40d99unaon9umnpo",
@@ -51,28 +43,36 @@ var WB_DATA = {
    "sourceCount": 5
   },
   {
+   "rank": 6,
+   "title": "Claude artifacts 可安装为 Mac 和 Windows 桌面应用",
+   "source": "Claude：Blog（网页）",
+   "url": "https://aihot.news/items/zcpto4b7qb8sr6v6n223kd2sx",
+   "time": "11-25 08:56",
+   "sourceCount": 2
+  },
+  {
    "rank": 7,
    "title": "Anthropic 将 Claude Messages API 从 Python 迁至 Rust",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/h1ja45355xx1xf9rqf89cv1if",
-   "time": "11-26 04:52",
+   "time": "11-27 01:04",
    "sourceCount": 3
   },
   {
    "rank": 8,
-   "title": "Anthropic 上市首日涨 17%，一周内跌破发行价",
-   "source": "Anthropic：Newsroom（网页）",
-   "url": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "time": "11-25 11:29",
-   "sourceCount": 3
-  },
-  {
-   "rank": 9,
    "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
    "time": "11-26 11:01",
-   "sourceCount": 5
+   "sourceCount": 2
+  },
+  {
+   "rank": 9,
+   "title": "亚马逊与Meta洽谈解封AI购物智能体Muse",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/c1522cdies4nnn8g5o2nwzbsi",
+   "time": "11-26 00:44",
+   "sourceCount": 4
   },
   {
    "rank": 10,
@@ -80,7 +80,7 @@ var WB_DATA = {
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/xwuysq1sz8l3ufe8bv87w2kf4",
    "time": "11-26 10:30",
-   "sourceCount": 4
+   "sourceCount": 3
   }
  ],
  "aihotItems": [
@@ -130,6 +130,15 @@ var WB_DATA = {
    "category": "paper"
   },
   {
+   "title": "Karpathy 用 Claude Code 和 Opus 5.5 把美国真实数据做成文明风格游戏地图",
+   "summary": "Karpathy 分享用 Claude Code 桌面版加 Opus 5.5（开启 ultracode）构建的美国文明风格游戏地图，7 小时生成 45K 行代码，整合 Census、BEA、BLS、EIA、NOAA 等 31 个真实数据源，统一到 25 km 六边形网格。GDP 映射为金产量、城市按真实产业分化，含 19 个视图、524 个都市的 City View 和覆盖 3,100+ 县的 Explorer，已部署在 https://karpathy.ai/usaciv/。作者 Ado 转发并感叹。",
+   "reason": "Karpathy 用 Claude Code 和 Opus 5.5 耗时 7 小时写出 45K 行代码，把美国真实数据做成了文明风格游戏地图，展示了 Agent 长程编码的实际产出。",
+   "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+   "url": "https://aihot.news/items/gc4qp85ij5qzhu53qzkg8quqj",
+   "time": "11-27 00:44",
+   "category": "tip"
+  },
+  {
    "title": "卡兹克把《人生意义设计课》做成AI Prompt，帮你设计人生的意义",
    "summary": "公众号作者卡兹克将斯坦福《人生意义设计课》新书的核心方法改编成一个多轮对话Prompt，通过四个阶段6到9个问题，最终生成一份5000到7000字的《个人意义设计手册》。他用GPT-6.2完整实测并展示了手册内容，包括意义地图、思维误区重构、罗盘价值观和可执行的意义时刻设计，全程约20到30分钟。",
    "reason": "作者基于《人生意义设计课》改编出可直接复用的多轮对话Prompt，并附完整实测流程，读者可拿来即用。",
@@ -146,51 +155,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/dvu6olan4q58k1evvnp8t60t2",
    "time": "11-25 00:00",
    "category": "ai-products"
-  },
-  {
-   "title": "Pydantic AI 发布终端编码 agent Pax，并宣布 Harness 将在约一个月后进入 1.0",
-   "summary": "Pydantic AI 发布基于 Harness SDK 的终端编码 agent Pax（pydantic-ai-pax），一切皆插件，支持 --agent 接入自定义 Pydantic AI Agent、/sandbox 切换十余种云端或本地沙箱、ComputerUse 计算机使用和默认开启的 code mode。",
-   "reason": "官方给出了 Pax 在 Harness-Bench SWE81 上与 OpenCode、Codex、Claude Code 的分数和成本对比，读者可据此评估这款终端编码 agent 的性价比。",
-   "source": "Pydantic AI 官方文章",
-   "url": "https://aihot.news/items/i5qr52169dlque8rb2sl4i5jo",
-   "time": "11-25 17:00",
-   "category": "ai-products"
-  },
-  {
-   "title": "Dario Amodei 澄清不主张向 AI 交出人类自由意志",
-   "summary": "Anthropic 的 Dario Amodei 发长文否认其主张“向 AI 交出人类自由意志”，称其文章一贯主张 AI 须受合法民主程序治理。他区分了全球治理层面的交权与具体任务的自动化，后者持混合态度，包括对递归自我改进设限、警惕端到端部署带来的就业冲击，并称 Anthropic 曾拒绝让自家模型用于自主武器；文末批评部分 AI CEO 只喊“人类控制”等口号而无实质行动。Elon Musk 转发并评论 Interesting。",
-   "reason": "Dario Amodei 澄清自己主张 AI 治理须服从民主程序，并区分任务自动化与交出治理权，读者可对照各方在自动化上的立场差异。",
-   "source": "X：Elon Musk (@elonmusk, xAI)",
-   "url": "https://aihot.news/items/e6gp31eup40d99unaon9umnpo",
-   "time": "11-26 03:12",
-   "category": "opinion"
-  },
-  {
-   "title": "Anthropic 平台工程负责人 Katelyn Lesse 谈 2026 年如何用 Claude 构建软件",
-   "summary": "Pragmatic Engineer 发布对 Anthropic 平台工程负责人 Katelyn Lesse 的播客访谈，她团队负责 Claude API 及 Claude Code 和 Claude Desktop 的基础设施。",
-   "reason": "访谈披露了 Anthropic 用 Claude 处理代码审查和 oncall 的真实流程，读者可以对照调整自己团队的工程实践。",
-   "source": "Pragmatic Engineer（RSS）",
-   "url": "https://aihot.news/items/rnanzlnaqxdr2icjqw0qwv9la",
-   "time": "11-26 01:31",
-   "category": "tip"
-  },
-  {
-   "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录",
-   "summary": "42 州总检察长介入 Character.AI 的破产程序，试图阻止其拍卖用户私密聊天数据。相关声明称数据集包含超过 2100 万美国账户的聊天记录，其中逾 210 万属于未成年人，还涉及 IP 地址等信息；目前唯一披露的匿名竞拍方为 2026 年 11 月 13 日在特拉华州注册的 Smirks and Pangs Acquisition LLC，拍卖定于 12 月 1 日。",
-   "reason": "报道给出涉及 2100 万账户含未成年人的拍卖细节和 42 州总检察长的反对理由，读者可据此了解破产程序下用户数据保护的争议。",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/j0hoj1rlmltoft6okserijp25",
-   "time": "11-26 01:35",
-   "category": "industry"
-  },
-  {
-   "title": "上下文漂移如何影响你的 AI Agent：470 项实验与一个免费的 MCP 解法",
-   "summary": "Google AI 开发者 Patrick Kelly 通过 470 个任务实测区分 context rot 与 context drift，在 Gemini 3.8 Flash 和 Gemini Pro 的沙盒中发现：模型在 73% 的运行中内部察觉文件冲突，但 0% 会主动告知用户，95%-100% 的情况下任务级 skill 文件会覆盖 AGENTS.md 的严格规则。",
-   "reason": "作者用 470 个任务实测区分上下文腐烂与上下文漂移，并给出零成本可复用的冲突上报工具方案。",
-   "source": "Google AI：DEV 作者专属（RSS）",
-   "url": "https://aihot.news/items/br6usy3mxv1q0mzxhgf9y8qam",
-   "time": "11-26 00:19",
-   "category": "tip"
   }
  ],
  "aiDaily": {
@@ -634,68 +598,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-26 22:10",
+   "updateTime": "2026-11-27 05:50",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "你能绷到第几关",
-     "url": "https://www.bilibili.com/video/BV1vHy2zSEGp",
-     "hot": 905967
+     "title": "「第一人称」真实的《西游记》有多恐怖？【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV1j9ykzGEsK",
+     "hot": 1590049
     },
     {
-     "title": "为什么说火影玩家，是全网最神的玩家群体？",
-     "url": "https://www.bilibili.com/video/BV1euy6zeEq3",
-     "hot": 761216
-    },
-    {
-     "title": "“MJ宇宙之最正能量的一集”",
-     "url": "https://www.bilibili.com/video/BV1euy6zeEDx",
-     "hot": 600381
-    },
-    {
-     "title": "【纪录片】人生一串 第四季 04 边城浪子",
-     "url": "https://www.bilibili.com/video/BV1fFy6z6En1",
-     "hot": 737014
+     "title": "真跳60分钟😡绝望算不算时间啊？ 超高校级的绝望舞步！【bilibilionly同人扶持计划】",
+     "url": "https://www.bilibili.com/video/BV1WvykzsEmt",
+     "hot": 568493
     },
     {
      "title": "长得帅就要被网爆么?",
      "url": "https://www.bilibili.com/video/BV11AyUz6E6h",
-     "hot": 593625
+     "hot": 1078499
     },
     {
-     "title": "吴 众",
-     "url": "https://www.bilibili.com/video/BV1xvykzsEPv",
-     "hot": 1553094
+     "title": "【纪录片】人生一串 第四季 04 边城浪子",
+     "url": "https://www.bilibili.com/video/BV1fFy6z6En1",
+     "hot": 833197
     },
     {
-     "title": "《我怎么又穿越了》",
-     "url": "https://www.bilibili.com/video/BV1UxykzhEGE",
-     "hot": 664151
+     "title": "天津.赵大姑 厨子探店¥350",
+     "url": "https://www.bilibili.com/video/BV1C2y2zYEV8",
+     "hot": 730890
     },
     {
-     "title": "考研政治一页纸（3小时速成选择40+）",
-     "url": "https://www.bilibili.com/video/BV1wXyUzME25",
-     "hot": 219045
+     "title": "《不小心捡了只猫咪》",
+     "url": "https://www.bilibili.com/video/BV1FPykz2EYe",
+     "hot": 874762
     },
     {
      "title": "特朗普与民主党抽象乱斗",
      "url": "https://www.bilibili.com/video/BV1xzy2zMExY",
-     "hot": 948959
+     "hot": 1234157
+    },
+    {
+     "title": "153分钟超长大合集！【末日来临，我从吃丧尸开始成神！】第1季+第2季完整版【AI全民制作人】",
+     "url": "https://www.bilibili.com/video/BV16nyXzyEuQ",
+     "hot": 1915261
+    },
+    {
+     "title": "吓哭了！华山长空栈道是人爬的？和有山挑战天下第一奇险",
+     "url": "https://www.bilibili.com/video/BV1dj1EzVE4L",
+     "hot": 315170
     },
     {
      "title": "【镇魂街 第五季】你们带来的这片江山，我就先收下了【PV】",
      "url": "https://www.bilibili.com/video/BV1Vhsm69EuN",
-     "hot": 216931
+     "hot": 224831
     },
     {
-     "title": "系统bug强制让我挂机，但这反而让我变的更强了！",
-     "url": "https://www.bilibili.com/video/BV1A2yZzAEyq",
-     "hot": 807744
+     "title": "“MJ宇宙之最正能量的一集”",
+     "url": "https://www.bilibili.com/video/BV1euy6zeEDx",
+     "hot": 987456
     },
     {
      "title": "我把Steam复刻搬进了B站游玩Toy【点击即玩】ToyToy【B站AI创造公开赛】",
      "url": "https://www.bilibili.com/video/BV119yCzcEBd",
-     "hot": 154250
+     "hot": 235831
     }
    ]
   }
@@ -743,6 +707,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "曝阿里加码北美AI人才招聘，千问事业部国内已开放500+岗位",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-26/doc-inkaatuw8083401.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "APEC会议周带热深圳地标 卧安机器人H1现场制作茶饮",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-26/doc-inkaapnx1394659.shtml",
    "source": "新浪科技"
@@ -770,11 +739,6 @@ var WB_DATA = {
   {
    "title": "婺源亮相携程全球合作伙伴峰会",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-26/doc-inkaaiex8914080.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "让相机学会“思考”  专访寻影创始人兼CEO刘博",
-   "url": "https://finance.sina.com.cn/tech/digi/dc/n/2026-11-26/doc-inkaaifa8170586.shtml",
    "source": "新浪科技"
   }
  ]
