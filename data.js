@@ -1,29 +1,29 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-27 14:18",
+ "updatedAt": "2026-11-27 22:07",
  "aihotHot": [
   {
    "rank": 1,
    "title": "Nvidia 暂停向东南亚四国发运服务器",
    "source": "X：Rohan Paul (@rohanpaul_ai)",
    "url": "https://aihot.news/items/rlt60gq96bl1cf5b88o8rbj30",
-   "time": "11-27 04:03",
+   "time": "11-27 15:07",
    "sourceCount": 3
   },
   {
    "rank": 2,
-   "title": "FCC批准SpaceX部署百万颗AI卫星",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/oysonctc1s0cizth9lunf32y5",
-   "time": "11-26 21:41",
-   "sourceCount": 2
-  },
-  {
-   "rank": 3,
    "title": "OpenAI修复GPT-6.2计费错误并补偿用户",
    "source": "X：Tibo (@thsottiaux)",
    "url": "https://aihot.news/items/reedvq9m1fb7xktmvk0dnqqpk",
    "time": "11-27 01:28",
+   "sourceCount": 2
+  },
+  {
+   "rank": 3,
+   "title": "FCC批准SpaceX部署百万颗AI卫星",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/oysonctc1s0cizth9lunf32y5",
+   "time": "11-26 21:41",
    "sourceCount": 2
   },
   {
@@ -32,15 +32,15 @@ var WB_DATA = {
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
    "time": "11-27 01:11",
-   "sourceCount": 5
+   "sourceCount": 2
   },
   {
    "rank": 5,
-   "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
-   "source": "公众号：数字生命卡兹克",
-   "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-   "time": "11-26 11:01",
-   "sourceCount": 2
+   "title": "SAP拟在AI重组中裁员至少1万人",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/srpo49fnds5wrj0b8csrot4ve",
+   "time": "11-27 03:53",
+   "sourceCount": 1
   },
   {
    "rank": 6,
@@ -52,6 +52,14 @@ var WB_DATA = {
   },
   {
    "rank": 7,
+   "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
+   "source": "公众号：数字生命卡兹克",
+   "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
+   "time": "11-26 11:01",
+   "sourceCount": 2
+  },
+  {
+   "rank": 8,
    "title": "杨立昆指阿莫迪炒作AI危险论，阿莫迪否认",
    "source": "X：Elon Musk (@elonmusk, xAI)",
    "url": "https://aihot.news/items/e6gp31eup40d99unaon9umnpo",
@@ -59,7 +67,7 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 8,
+   "rank": 9,
    "title": "亚马逊与Meta洽谈解封AI购物智能体Muse",
    "source": "The Decoder：AI News（RSS）",
    "url": "https://aihot.news/items/c1522cdies4nnn8g5o2nwzbsi",
@@ -67,23 +75,42 @@ var WB_DATA = {
    "sourceCount": 4
   },
   {
-   "rank": 9,
-   "title": "SAP拟在AI重组中裁员至少1万人",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/srpo49fnds5wrj0b8csrot4ve",
-   "time": "11-27 03:53",
-   "sourceCount": 1
-  },
-  {
    "rank": 10,
-   "title": "纽约州签署法案禁售AI聊天玩具五年",
-   "source": "TechCrunch：AI（RSS）",
-   "url": "https://aihot.news/items/x2mibiyt1hdab0bdqbfnerjjc",
-   "time": "11-26 07:07",
+   "title": "蚂蚁灵波发布 LingBot-Map 2.0 并开源导航模型 LingBot-Navi",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/h384ogtv753wauyc14tvweq5b",
+   "time": "11-27 05:05",
    "sourceCount": 2
   }
  ],
  "aihotItems": [
+  {
+   "title": "Antigravity 实用技巧：在 GEMINI.md 加一句话让模型边干活边汇报",
+   "summary": "卡兹克分享一个 Antigravity 使用技巧，针对模型长时间闷头干活不输出信息的问题，只需在 GEMINI.md 中加一句话，要求动手前说要做什么、有发现、换方向、卡住或连干四五步时再说一句，即可获得类似 Claude 或 Codex 那种实时汇报进度的交互体验。",
+   "reason": "原文给出了可直接复用的 GEMINI.md 提示词，让 Antigravity 边干活边汇报进度，改善交互掌控感。",
+   "source": "X：卡兹克 (@Khazix0918)",
+   "url": "https://aihot.news/items/tiqf353lek6sib8ktn8uvc6nc",
+   "time": "11-27 20:38",
+   "category": "tip"
+  },
+  {
+   "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接",
+   "summary": "据美国安全公司 Dragos，MiniMax 收集并打开了用户提示词中的私有链接，即便用户要求不存储数据。",
+   "reason": "转述 Dragos 的金丝雀测试细节，读者可以据此评估把敏感数据交给 AI 服务商的风险和供应商的隐私承诺可信度。",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/v5fxjqr2vapkk9vn1j9a8ke96",
+   "time": "11-27 15:21",
+   "category": "industry"
+  },
+  {
+   "title": "OpenBMB 点评 InternLM 基于 MiniCPM-o 4.5 打造的 Sage-Interaction",
+   "summary": "OpenBMB 转发并点评上海人工智能实验室 InternLM 团队发布的开源全双工语音视频模型 Sage-Interaction，该模型基于 MiniCPM-o 4.5 构建。OpenBMB 称赞其边说边听、在不打断对话的情况下把复杂任务交给后端模型，是迈向更自然 AI 交互的一步，并向 InternLM 团队致意。",
+   "reason": "OpenBMB 对他人基于 MiniCPM-o 4.5 构建的全双工语音模型给予反馈，侧面说明该底座模型在语音交互场景的外部落地情况。",
+   "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+   "url": "https://aihot.news/items/l9md8ugx8e2zlm5g1tuqthmaw",
+   "time": "11-27 21:32",
+   "category": "industry"
+  },
   {
    "title": "实测支付宝 SkillPay：手把手教你怎么把 Skill 挂上去卖钱",
    "summary": "作者完整实测支付宝 SkillPay 平台的 Skill 变现流程，该平台7月上线，支持买断和订阅两种售卖模式。买断制将 Skill 完整内容交付本地，订阅制把 Skill 保留在云端沙盒中、Agent 看不到明文；买断定价 0.01-50 元，订阅按周月季度收费上限 50 元，免费试用最低 5 次。",
@@ -92,33 +119,6 @@ var WB_DATA = {
    "url": "https://aihot.news/items/cdkswjz368inpelrz3f52rekx",
    "time": "11-27 07:56",
    "category": "tip"
-  },
-  {
-   "title": "Philipp Schmid 撰文解释为何在 Skills 与 CLI 兴起后仍更看好 MCP",
-   "summary": "Philipp Schmid 撰文解释为何在 Skills 和 CLI 流行后依然看好 MCP：Linear 和 Notion 的 agent 每周创建约 240 万条 issue 和页面，Atlassian 每天 MCP 工具调用超 500 万次，其中 44% 用户来自软件团队之外，Notion 报告 60 倍 MCP 流量增长。",
-   "reason": "作者基于 Linear、Notion、Atlassian 等真实用量数据解释为何依然看好 MCP，并梳理 Code Mode、Skills、Events、MCP Apps 四个方向。",
-   "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-   "url": "https://aihot.news/items/jcdfpftbam647yhc210dbace9",
-   "time": "11-26 21:30",
-   "category": "opinion"
-  },
-  {
-   "title": "蚂蚁 inclusionAI 开源 Ming-Image-0.2-Design 图像生成模型",
-   "summary": "蚂蚁 inclusionAI 在 Hugging Face 发布并开源 Ming-Image-0.2-Design，改进复杂构图、光照和文字渲染，可用于电商主图、UI 设计稿和空间效果图。",
-   "reason": "官方发布页给出能力改进、榜单排名和部署参数，读者可以据此判断它在设计出图场景中的实际用法。",
-   "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
-   "url": "https://aihot.news/items/hdvt6wswzycj78wnr7r43xn6o",
-   "time": "11-25 12:02",
-   "category": "ai-models"
-  },
-  {
-   "title": "FT 报道 Nvidia 暂停向东南亚四国发运服务器",
-   "summary": "据 FT 报道，Nvidia 已通知 Dell、Supermicro 等制造伙伴停止向马来西亚、新加坡、泰国和印尼发运服务器，原因是美国要求这些国家及巴西的先进 AI 芯片需申请许可。此前中国 AI 实验室通过当地云厂商租用 Nvidia 算力绕开直接出口禁令，云厂商现有 90 天证明无受限用户但缺乏申请指引；Nvidia 2025 年经新加坡部门入账 $104B，同比增长 72%。",
-   "reason": "转述 FT 报道并补充许可规则细节，读者可以了解这次停运与云算力转租渠道之间的关系。",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/rlt60gq96bl1cf5b88o8rbj30",
-   "time": "11-26 15:00",
-   "category": "industry"
   }
  ],
  "aiDaily": {
@@ -544,68 +544,68 @@ var WB_DATA = {
   },
   "bilibili": {
    "name": "B站热门",
-   "updateTime": "2026-11-27 14:18",
+   "updateTime": "2026-11-27 22:08",
    "url": "https://www.bilibili.com/v/popular/all/",
    "data": [
     {
-     "title": "《绝区零》挽昼动画短片 | 最后的旅途",
-     "url": "https://www.bilibili.com/video/BV1or1HzXEi1",
-     "hot": 323313
+     "title": "《下一个是谁》第七季（6）",
+     "url": "https://www.bilibili.com/video/BV15Q1WzRENh",
+     "hot": 586975
     },
     {
-     "title": "《明日方舟》SideStory「星星不愿入睡」活动宣传PV",
-     "url": "https://www.bilibili.com/video/BV19k1Jz5Ea8",
-     "hot": 850029
-    },
-    {
-     "title": "「2027明日方舟：终末地终末回响专场演出-镌宇留声」先导预告公开",
-     "url": "https://www.bilibili.com/video/BV1GF17zKEiP",
-     "hot": 247227
-    },
-    {
-     "title": "【独家】《罗小黑战记》第45话 美好的暑假如此短暂【10月国创】",
-     "url": "https://www.bilibili.com/video/BV1Em1jz5EpX",
-     "hot": 672340
-    },
-    {
-     "title": "【毕导】最对味的一集！如何放出无声的屁？响屁不臭臭屁不响是真的吗？",
-     "url": "https://www.bilibili.com/video/BV1Dd1HzVENm",
-     "hot": 128478
+     "title": "是水，在撩拨心弦——伊莫S2赛季「鸣海拾音」12月10日正式开启",
+     "url": "https://www.bilibili.com/video/BV1Ph1WzuE6N",
+     "hot": 474648
     },
     {
      "title": "《白银之城》世界观PV | 童话的起笔",
      "url": "https://www.bilibili.com/video/BV1uT17zhEJX",
-     "hot": 386171
+     "hot": 2030221
     },
     {
-     "title": "2026无畏契约源能国际邀请赛 | 分组大会",
-     "url": "https://www.bilibili.com/video/BV1BV1EzLEYq",
-     "hot": 491822
+     "title": "【独家】《罗小黑战记》第45话 美好的暑假如此短暂【10月国创】",
+     "url": "https://www.bilibili.com/video/BV1Em1jz5EpX",
+     "hot": 2350530
     },
     {
-     "title": "看懂前：啊？ 看懂后：啊啊啊！！！",
-     "url": "https://www.bilibili.com/video/BV1J1ykzmEub",
-     "hot": 1595986
+     "title": "BLG夺冠后小编大喊NICE！这样我们才能出专访",
+     "url": "https://www.bilibili.com/video/BV1un1xz9E1c",
+     "hot": 308964
     },
     {
-     "title": "热烈欢迎胡兵👏兵哥的字典里没有“随便”两个字！看看今天会给我们带来什么样的震撼🫨",
-     "url": "https://www.bilibili.com/video/BV1dDy6ziEUD",
-     "hot": 142239
+     "title": "「2027明日方舟：终末地终末回响专场演出-镌宇留声」先导预告公开",
+     "url": "https://www.bilibili.com/video/BV1GF17zKEiP",
+     "hot": 1013391
+    },
+    {
+     "title": "假如篮球博主来宿舍打球",
+     "url": "https://www.bilibili.com/video/BV1bqyUz7EwP",
+     "hot": 959950
+    },
+    {
+     "title": "《绝区零》挽昼动画短片 | 最后的旅途",
+     "url": "https://www.bilibili.com/video/BV1or1HzXEi1",
+     "hot": 860987
+    },
+    {
+     "title": "【三角洲全角色/与天齐】⚡我本是天才少年😭👊🏻⚡",
+     "url": "https://www.bilibili.com/video/BV15wymzpE6T",
+     "hot": 758198
     },
     {
      "title": "【欢迎来龙餐馆】起锅开灶，好好吃饭",
      "url": "https://www.bilibili.com/video/BV14iy2zgE4s",
-     "hot": 673846
+     "hot": 2709954
     },
     {
-     "title": "何 以 当 归 2",
-     "url": "https://www.bilibili.com/video/BV1uQ1JzuERH",
-     "hot": 182021
+     "title": "【东堂葵无伤宿傩】所谓的拍手，是发自灵魂的喝彩！【B站AI创造公开赛】",
+     "url": "https://www.bilibili.com/video/BV1fY1JznE4D",
+     "hot": 220570
     },
     {
-     "title": "可乐为啥不印生产日期了？！建议转发到相亲相爱一家人群【主播说三农】",
-     "url": "https://www.bilibili.com/video/BV1Vc17zvEqT",
-     "hot": 834587
+     "title": "宠老头早午餐vlog有点高能量了",
+     "url": "https://www.bilibili.com/video/BV1SRyfz1E5Q",
+     "hot": 1370181
     }
    ]
   }
@@ -653,38 +653,38 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
-   "title": "阿里千问辟谣：周昊离职不实，将起诉涉事自媒体",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-27/doc-inkaczqn5608666.shtml",
+   "title": "王兴谈外卖行业拐点：客单价同比明显回升，行业补贴趋于理性",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaewtv0975234.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "何小鹏:机器人IRON还处于二三十分水平，等到下两个季度可能会达到四五十分",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-27/doc-inkaczqf1130556.shtml",
+   "title": "新世代BMW i3正式上市：售价24.99万元起，未来一年近20款新车将陆续登陆中国市场",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaesne5502948.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "何小鹏:机器人IRON量产后一年会有好的盈利，汽车明年和后年销量及利润都会超出大家期望",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-27/doc-inkaczqf1124392.shtml",
+   "title": "字节澄清与三人行合作：并非首例，MaaS代售未实质启动",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaesnc3160677.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "何小鹏谈“IRON何时进入海外”:中国市场交付后一个季度，我们就会进入欧洲",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-27/doc-inkaczqf1111284.shtml",
+   "title": "蔚来ES8玄金揽月特别版上市：售价43.48万元起，李娜成为首位车主",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaesmy7795893.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "美团：骑手薪酬透明可查，不存在网传“工资准时险”",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-27/doc-inkaczqf1104257.shtml",
+   "title": "仰望鼎曜山河鼎韵限量版广州车展迎来全球首秀，仰望U9 Xtreme同台亮相",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaesmy7787424.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "何小鹏与机器人IRON到小米展台互动，IRON现场讲解澎程",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-27/doc-inkaczqf1098466.shtml",
+   "title": "2027款极氪7X正式上市：推出三款车型，限时权益价21.68万元起",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaesne5447611.shtml",
    "source": "新浪科技"
   },
   {
-   "title": "何小鹏与机器人IRON到广州车展小米展台互动，现场喊“小米大卖”",
-   "url": "https://finance.sina.com.cn/tech/shenji/2026-11-27/doc-inkaczqn5569119.shtml",
+   "title": "支付宝车载助手3.0与理想、比亚迪等80多家车企完成定点",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaesmy7775174.shtml",
    "source": "新浪科技"
   }
  ]
