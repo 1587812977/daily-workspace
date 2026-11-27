@@ -1,6 +1,6 @@
 // 个人工作台数据（GitHub Actions 定时刷新，勿手改）
 var WB_DATA = {
- "updatedAt": "2026-11-27 22:07",
+ "updatedAt": "2026-11-28 05:34",
  "aihotHot": [
   {
    "rank": 1,
@@ -20,14 +20,38 @@ var WB_DATA = {
   },
   {
    "rank": 3,
-   "title": "FCC批准SpaceX部署百万颗AI卫星",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/oysonctc1s0cizth9lunf32y5",
-   "time": "11-26 21:41",
+   "title": "SAP拟AI重组裁员至少1万人，德国岗位保障至2028年",
+   "source": "X：Rohan Paul (@rohanpaul_ai)",
+   "url": "https://aihot.news/items/srpo49fnds5wrj0b8csrot4ve",
+   "time": "11-27 22:57",
    "sourceCount": 2
   },
   {
    "rank": 4,
+   "title": "OpenAI起诉苹果窃取商业秘密并胁迫供应商",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/hqfz3prn9guxc4y3wgbievqsb",
+   "time": "11-28 03:38",
+   "sourceCount": 1
+  },
+  {
+   "rank": 5,
+   "title": "FCC批准SpaceX部署百万颗AI卫星",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/oysonctc1s0cizth9lunf32y5",
+   "time": "11-26 21:41",
+   "sourceCount": 1
+  },
+  {
+   "rank": 6,
+   "title": "美空军 Cloud One 云平台遭黑客入侵控制面",
+   "source": "The Decoder：AI News（RSS）",
+   "url": "https://aihot.news/items/xm92utwg1pnubws7t5hmdpwqz",
+   "time": "11-28 02:48",
+   "sourceCount": 2
+  },
+  {
+   "rank": 7,
    "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
@@ -35,44 +59,20 @@ var WB_DATA = {
    "sourceCount": 2
   },
   {
-   "rank": 5,
-   "title": "SAP拟在AI重组中裁员至少1万人",
-   "source": "X：Rohan Paul (@rohanpaul_ai)",
-   "url": "https://aihot.news/items/srpo49fnds5wrj0b8csrot4ve",
-   "time": "11-27 03:53",
-   "sourceCount": 1
-  },
-  {
-   "rank": 6,
+   "rank": 8,
    "title": "Anthropic 将 Claude Messages API 从 Python 迁至 Rust",
    "source": "Anthropic：Research（发表成果 · 网页）",
    "url": "https://aihot.news/items/h1ja45355xx1xf9rqf89cv1if",
    "time": "11-27 01:04",
-   "sourceCount": 3
+   "sourceCount": 1
   },
   {
-   "rank": 7,
+   "rank": 9,
    "title": "Lean 社区确认阿尔波格黎曼猜想证明正确",
    "source": "公众号：数字生命卡兹克",
    "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
    "time": "11-26 11:01",
-   "sourceCount": 2
-  },
-  {
-   "rank": 8,
-   "title": "杨立昆指阿莫迪炒作AI危险论，阿莫迪否认",
-   "source": "X：Elon Musk (@elonmusk, xAI)",
-   "url": "https://aihot.news/items/e6gp31eup40d99unaon9umnpo",
-   "time": "11-26 04:15",
-   "sourceCount": 4
-  },
-  {
-   "rank": 9,
-   "title": "亚马逊与Meta洽谈解封AI购物智能体Muse",
-   "source": "The Decoder：AI News（RSS）",
-   "url": "https://aihot.news/items/c1522cdies4nnn8g5o2nwzbsi",
-   "time": "11-26 00:44",
-   "sourceCount": 4
+   "sourceCount": 1
   },
   {
    "rank": 10,
@@ -653,6 +653,11 @@ var WB_DATA = {
    "source": "新浪科技"
   },
   {
+   "title": "王兴：明年AI资本开支低于今年，投入将以 ROI 为导向",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaewtw7756468.shtml",
+   "source": "新浪科技"
+  },
+  {
    "title": "王兴谈外卖行业拐点：客单价同比明显回升，行业补贴趋于理性",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaewtv0975234.shtml",
    "source": "新浪科技"
@@ -680,11 +685,6 @@ var WB_DATA = {
   {
    "title": "2027款极氪7X正式上市：推出三款车型，限时权益价21.68万元起",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaesne5447611.shtml",
-   "source": "新浪科技"
-  },
-  {
-   "title": "支付宝车载助手3.0与理想、比亚迪等80多家车企完成定点",
-   "url": "https://finance.sina.com.cn/jjxw/2026-11-27/doc-inkaesmy7775174.shtml",
    "source": "新浪科技"
   }
  ]
